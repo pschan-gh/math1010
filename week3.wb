@@ -1,0 +1,171 @@
+@course{Math 1010}
+@week{3}
+@topic{Functions}
+@topic{Limits}
+@section{
+Limits of Functions on the Real Line
+}
+Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$.
+Let $a$ be a point on the real line such that $f$ is defined on a neighborhood of $a$
+(though not necessarily at $a$ itself).
+@defn
+We say that the @keyword{limit} of $f$ at $a$ is $L$ if for all $\varepsilon > 0$,
+there exists $\delta > 0$ such that $\abs{f(x) - L} < \varepsilon$
+whenever $x$ satisfies $0 < \abs{x - a} < \delta$.
+@end
+@newcol
+If $f$ has a limit $L$ at $a$, we write:
+\[
+\lim_{x \rightarrow a} f(x) = L.
+\]
+Note that the limit may exist even if
+$a$ does not lie in the domain of $f$.
+@endcol
+@slide
+@defn
+Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$
+is unbounded towards $+\infty$ and/or $-\infty$.
+We say that the @keyword{limit} of $f$ at $\infty$ (resp. $-\infty$)
+is $L$ if for all $\varepsilon > 0$,
+there exists a $c \in \mathbb{R}$  such that $\abs{f(x) - L} < \varepsilon$
+whenever $x > c$ (resp. $x < c$).
+@end
+@newcol
+If $f$ has a limit $L$ at $\infty$ (resp $-\infty$), we write:
+\[
+\lim_{x \rightarrow \infty} f(x) = L
+\quad
+\left( \text{resp. }
+\lim_{x \rightarrow -\infty} f(x) = L
+\right)
+\]
+@endcol
+@slide
+<strong>Some Useful Identities:</strong>
+<p/>
+In the following idenities,
+the symbol $a$ can be either a real number or $\pm \infty$.
+@ol
+@li
+For any constant $c \in \mathbb{R}$,
+we have $\displaystyle\lim_{x\rightarrow a} c = c$.
+@li
+$\displaystyle\lim_{x \rightarrow a} x = a.$
+@li
+If $\lim_{x \rightarrow a} f(x) = L$, and $\lim_{x \rightarrow a} g(x) = M$,
+then:
+@ul
+@li
+$\lim_{x\rightarrow a} (f\pm g)(x) = L\pm M.$
+@li
+$\lim_{x\rightarrow a} fg(x) = LM.$
+@li
+\[\lim_{x\rightarrow a} \dfrac{f}{g}(x) = \dfrac{L}{M}\] provided that $M \neq 0$.
+@endul
+@li
+If $\lim_{x \rightarrow a} f(x) = L$, then:
+\[
+\lim_{x\rightarrow a}(f(x))^n = L^n\quad
+\text{ for all } n \in \mathbb{N} = \{1, 2, 3, \ldots\},
+\]
+and
+\[
+\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
+\text{ for all odd positive integers } n.
+\]
+@li
+If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$.
+@endol
+@slide
+@eg
+Compute the following limits, if they exist:
+@ul
+@li
+$\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
+<hr/>
+@li
+$\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
+@endul
+@end
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/Utah/AP_Calculus_I/set2_Derivatives_and_Limits/1210s2p26.pg}
+@item
+@webwork{Library/Union/setLimitConcepts/3-2-50.pg}
+@item
+@webwork{Library/ma122DB/set2/s2_6_21.pg}
+@item
+@webwork{Library/Rochester/setLimitsRates3Infinite/ur_lr_3_1.pg}
+@item
+@webwork{Library/UMN/calculusStewartCCC/s_2_3_19.pg}
+@endenumerate
+@end
+@section{
+One-Sided Limits
+}
+<ul>
+<li>
+We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
+if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the right</i>.
+We call this $L$ the @keyword{right limit} of $f$ at $a$.
+</li>
+<li>
+Similarly,
+we write $\displaystyle\lim_{x\rightarrow a^-} f(x) = L$
+if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the left</i>.
+We call this $L$ the @keyword{left limit} of $f$ at $a$.
+</li>
+</ul>
+The limit $\displaystyle\lim_{x \rightarrow a}f(x)$
+is sometimes called the @keyword{double-sided limit} of $f$ at $a$.
+It exists if and only if both one-sided limits exist
+and are equal to each other.  In which case, we have:
+\[
+\lim_{x \rightarrow a}f(x) = \lim_{x\rightarrow a^+} f(x)
+= \lim_{x\rightarrow a^-} f(x).
+\]
+
+
+@slide
+@ex
+Define
+\[  f(x) = \begin{cases}
+x-1  & \text{if $1\le x \le 2$,}\\
+2x+3 & \text{if $2 < x \le 4$,}\\
+x^2 & \text{otherwise.}
+\end{cases} \]
+Compute $\displaystyle \lim_{x\to 2^+} f(x)$ and
+$\displaystyle \lim_{x\to 2^-} f(x)$.
+Then, find $\displaystyle\lim_{x\to 2} f(x)$, if it exists.
+<hr/>
+<h5>Answers.</h5>
+@newcol
+@ol
+@li
+\[
+\begin{split}
+\lim_{x\to 2^+} f(x) &= 7\\
+\lim_{x\to 2^-} f(x) &= 1
+\end{split}
+\]
+@li
+Since $\displaystyle \lim_{x\to 2^+} f(x) \neq \lim_{x\to 2^-} f(x)$,
+the double-sided limit $\displaystyle\lim_{x\to 2} f(x)$ does not exist.
+@endol
+@endcol
+@end
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/Union/setFunctionBasics/srw2_1_23.pg}
+@item
+@webwork{Library/Union/setLimitConcepts/ns2_2_x.pg}
+@item
+@webwork{Library/Union/setLimitConcepts/ur_lr_1-5_1.pg}
+@item
+@webwork{Library/ma122DB/set1/ns2_2_xx.pg}
+@item
+@webwork{Library/ASU-topics/setCalculus/stef/stef2_3p3.pg}
+@endenumerate
+@end

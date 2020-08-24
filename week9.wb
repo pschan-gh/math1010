@@ -1,0 +1,691 @@
+@course{Math 1010}
+@week{9}
+@topic{L'H&ocircpital's Rule}
+@topic{Taylor Series}
+@slide
+@thm
+@title{Cauchy's Mean Value Theorem.}
+@label{cauchymvt}
+If $f, g : [a, b] \longrightarrow\mathbb{R}$ are functions which are continuous on $[a, b]$
+and differentiable on $(a, b)$, and $g(a) \neq g(b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+\frac{f'(c)}{g'(c)} = \frac{f(b) - f(a)}{g(b) - g(a)}
+\]
+@end
+@proof
+@newcol
+<strong>Exercise.</strong>
+Apply Rolle's Theorem to:
+\[
+h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
+\]
+@endcol
+@end
+@newcol
+<div class="image">
+<a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg"><img width="512" alt="Cauchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a>
+</div>
+@endcol
+@slide
+@keyword*{L'Hopital's Rule}
+@thm
+<strong>L'H&ocircpital's Rule.</strong>
+Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
+Let $f, g$ be functions which are differentiable at every point in
+$(a, c) \cup (c, b)$.
+Suppose:
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow c}f(x)$
+and $\displaystyle \lim_{x \rightarrow c}g(x)$ are both equal to $0$
+or both equal to $\pm \infty$.
+</li>
+<li> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists.
+</li>
+</ul>
+(&bull; $g'(x) \neq 0$ for all $x \neq c$ in $I$.)
+<br/>
+
+Then,
+\[
+\ds
+\lim_{x\rightarrow c} \frac{f(x)}{g(x)} = \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}\;.
+\]
+@end
+@proof
+(Sketch)
+@newcol
+We consider the special case where:
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$.
+</li>
+<li>
+$f$ and $g$ are continuous at $x = c$.
+</li></ul>
+For such functions $f, g$, we have:
+\[
+f(c) = g(c) = 0.
+\]
+Hence:
+
+@col
+\[
+\frac{f(x)}{g(x)} = \frac{f(x) - f(c)}{g(x) - g(c)}
+= \frac{f'(t_x)}{g'(t_x)}
+\]
+for some $t_x$ between $c$ and $x$ by Cauchy's Mean Value Theorem.
+
+@col
+As $x$ approaches $c$, the element $t_x$ lying between $x$ and $c$ must also
+approach $c$.
+
+@col
+Hence,
+if the limit $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists,
+then intuitively it follows that:
+\[
+\begin{split}
+\lim_{x \rightarrow c} \frac{f(x)}{g(x)}
+&=
+\lim_{t_x \rightarrow c} \frac{f'(t_x)}{g'(t_x)}\\
+&=
+\lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
+\end{split}
+\]
+(<strong>Optional Exercise</strong>:
+To prove the above equality rigorously, one could, for example, apply the
+<a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank">
+sequential criterion for the limit of a function</a>.
+)
+@endcol
+@end
+@section{
+Indeterminate Forms}
+<hr/>
+<ul>
+<li>
+$\frac{0}{0}$
+<hr/>
+</li>
+<li>
+$\frac{\infty}{\infty}$
+<hr/>
+</li>
+<li>
+$0\cdot\infty$
+<hr/>
+</li>
+<li>
+$\infty - \infty$
+<hr/>
+</li>
+<li>
+$0^0$
+<hr/>
+</li>
+<li>
+$\infty^0$
+<hr/>
+</li>
+<li>
+$1^\infty$
+</li></ul>
+<hr/>
+Here, for example, $1^\infty$ represents the situation
+$\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
+and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.
+
+Hence, the following limit corresponds to the indeterminate form $1^\infty$:
+\[
+\displaystyle \lim_{x \rightarrow \infty}\left(1 + \frac{1}{x}\right)^{x}.
+\]
+@slide
+@eg
+Use l'H&ocircpital's rule to evaluate the following limits:
+
+<ol>
+<li>
+$\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
+<p/><br/>
+<strong>Solution.</strong>
+@newcol
+\[
+\begin{split}
+\lim_{x \rightarrow 0} \left(e^x - 1 - x - \frac{x^2}{2}\right) &= 0.\\
+\lim_{x \rightarrow 0} x^3 &= 0.
+\end{split}
+\]
+@col
+@steps
+\begin{align*}
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x - \frac{x^2}{2}\right)'}{\left(x^3\right)'}
+&=
+@nstep{\lim_{x\rightarrow 0} \frac{e^x - 1 - x}{3x^2} \quad \left(\rightarrow \frac{0}{0}\right)}\\
+@nstep{\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x\right)'}{\left(3x^2\right)'}}
+&
+@nstep{=\lim_{x\rightarrow 0} \frac{e^x - 1}{6x}}\\
+&
+@nstep{=\frac{1}{6}\lim_{x\rightarrow 0} \frac{e^x - 1}{x}}\\
+&
+@nstep{= \frac{1}{6}}
+\end{align*}
+@endsteps
+@col
+Hence, by l'H&ocircpital's rule,
+\[
+\begin{split}
+\lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}
+&=
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x - \frac{x^2}{2}\right)'}{\left(x^3\right)'}\\
+&=
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x\right)'}{\left(3x^2\right)'}\\
+&=
+\frac{1}{6}
+\end{split}
+\]
+@endcol
+<hr/>
+</li>
+<li>
+$\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$
+<p/><br/>
+<strong>Solution.</strong>
+@newcol
+(This limit corresponds to the indeterminate form $0^0$.)
+
+For $x > 0$, we have $x = e^{\ln x}$.  Hence,
+
+@col
+\[
+\lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}
+=
+\lim\limits_{x\to 0^+}e^{\left(\frac{1}{1+\ln x}\right)\ln x}
+=
+e^{\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}}
+\]
+The last equality holds because $f(x) = e^x$ is a continuous function.
+
+@col
+The limit $\displaystyle \lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}$
+corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is <i>possible</i>
+in this case to apply l'Hopital's rule to help find the limit.
+
+@col
+@steps
+\begin{align*}
+\lim_{x \rightarrow 0^+}\frac{(\ln x)'}{(1+\ln x)'}
+&= \lim_{x \rightarrow 0^+}\frac{\frac{1}{x}}{\frac{1}{x}}\\
+& @nstep{= \lim_{x \rightarrow 0^+}\frac{x}{x}}\\
+& @nstep{= 1}
+\end{align*}
+@endsteps
+@col
+By l'Hopital's rule, it now follows that:
+\[
+\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x} = 1.
+\]
+@col
+Hence,
+\[
+\begin{split}
+\lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}
+&= e^{\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}} \\
+&= e^{1}\\
+&= e.
+\end{split}
+\]
+@endcol
+<hr/>
+</li>
+<li>
+$\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$
+<p/><br/>
+<strong>Solution.</strong>
+@newcol
+(This limit corresponds to the indeterminate form $\infty\cdot 0$.)
+Rewrite the limit as follows:
+\[
+\lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)
+=
+\lim\limits_{x\to +\infty}\frac{\dfrac{\pi}{2}-\tan^{-1}x}{\frac{1}{x}}
+\quad\left(\rightarrow\frac{0}{0}\right).
+\]
+Now, compute:
+@steps
+\begin{align*}
+\lim\limits_{x\to +\infty}\frac{\left(\dfrac{\pi}{2}-\tan^{-1}x\right)'}{\left(\frac{1}{x}\right)'}
+&=
+\lim\limits_{x\to +\infty}\frac{-\frac{1}{1 + x^2}}{-\frac{1}{x^2}}\\
+& @nstep{=\lim\limits_{x\to +\infty}\frac{x^2}{1 + x^2}}\\
+& @nstep{=\lim\limits_{x\to +\infty}\frac{1}{\left(1 + \frac{1}{x^2}\right)}}\\
+& @nstep{= 1}
+\end{align*}
+@endsteps
+@col
+Hence, by l'Hopital's rule,
+\[
+\lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right) = 1.
+\]
+@endcol
+<hr/>
+</li>
+<li>
+$\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$
+<p/><br/>
+<strong>Solution.</strong>
+@newcol
+(This limit corresponds to the indeterminate form $\infty^0$.)
+We have:
+
+@col
+@steps
+\begin{align*}
+\lim\limits_{x\to +\infty} (e^x+x)^{\frac{1}{x}}
+&=
+\lim\limits_{x\to +\infty} \left(e^{\ln(e^x+x)}\right)^{\frac{1}{x}}\\
+& @nstep{= \lim\limits_{x\to +\infty} e^{\frac{\ln(e^x+x)}{x}}}\\
+& @nstep{= e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}}}
+\end{align*}
+@endsteps
+@col
+The limit $\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}$
+corresponds to the indeterminate form $\frac{\infty}{\infty}$.
+
+@col
+@steps
+\begin{align*}
+\lim\limits_{x\to +\infty} \frac{\left(\ln(e^x+x)\right)'}{(x)'}
+&=
+@nstep{\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}}
+\\&
+@nstep{
+= \lim\limits_{x\to +\infty}
+\frac{{e^x}\left(1 + \frac{1}{e^x}\right)}{{e^x}\left(1 + \frac{x}{e^x}\right)}
+}
+\\&
+@nstep{
+= \lim\limits_{x\to +\infty}
+\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}
+}\\
+& @nstep{= 1.}
+\end{align*}
+@endsteps
+@col
+Hence, by l'Hopital's rule,
+\[
+\begin{split}
+\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}
+&=
+\lim\limits_{x\to +\infty} \frac{\left(\ln(e^x+x)\right)'}{(x)'}\\
+&=
+\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}\\
+&= 1.
+\end{split}
+\]
+@col
+It now follows that:
+\[
+\lim\limits_{x\to +\infty} (e^x+x)^{\frac{1}{x}}
+= e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}} = e^1 = e.
+\]
+@endcol
+<hr/>
+</li>
+<li>
+$\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
+
+<br/>
+<strong>Solution.</strong>
+@newcol
+(This limit corresponds to the indeterminate form $\frac{0}{0}$.)
+Note that $\cot x = \dfrac{\cos x}{\sin x}$.
+Rewrite the limit as follows:
+\[
+\lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}
+=
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x\sin^2 x}
+\quad \left(\rightarrow\frac{0}{0}\right)
+\]
+One's first instinct might be to differentiate both numerator
+and denominator right away.
+But this seems unwise,
+since, looking further down the road, we would have to deal with an indeterminate
+form whose denominator is $(x \sin^2 x)' = 2x \sin x\cos x + \sin^2 x$.
+Repeating the differentiation of the numerator and denominator would
+only make the expression more and more complicated.
+
+A cleverer way would be to rewrite the limit as follows:
+
+@col
+\[
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x\sin^2 x}
+=
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}\cdot\frac{x^2}{\sin^2 x}.
+\]
+This is motivated by the observation that $\sin^2 x$ is very close to $x^2$
+when $x$ is close to $0$.
+
+@col
+First, we have:
+\[
+\lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x}
+= \left(\lim_{x \rightarrow 0} \frac{x}{\sin x}\right)^2 = 1.
+\]
+The limit $\displaystyle \lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}$
+corresponds to the indeterminate form $\frac{0}{0}$.
+Differentiating both numerator and denominator, we have:
+
+@col
+@steps
+\begin{align*}
+\lim\limits_{x\to 0}\dfrac{(\sin x-x\cos x)'}{\left(x^3\right)'}
+&= \lim\limits_{x\to 0}\dfrac{\cos x + x\sin x - \cos x}{3x^2}\\
+& @nstep{= \lim\limits_{x\to 0}\dfrac{x\sin x}{3x^2}}\\
+& @nstep{= \lim\limits_{x\to 0}\dfrac{\sin x}{3x}}\\
+& @nstep{= \frac{1}{3}.}
+\end{align*}
+@endsteps
+@col
+Hence, by l'Hopital's rule we have:
+\[
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}
+= \lim\limits_{x\to 0}\dfrac{(\sin x-x\cos x)'}{\left(x^3\right)'}
+= \frac{1}{3}.
+\]
+@col
+It now follows that:
+\[
+\begin{split}
+\lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}
+&=\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}
+\cdot \lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x}\\
+&= \frac{1}{3}\cdot{1}\\
+&= \frac{1}{3}.
+\end{split}
+\]
+@endcol
+<hr/>
+</li></ol>
+@end
+@slide
+@ex
+@enumerate
+@item
+@webwork{Library/ma122DB/set8/s4_4_19.pg}
+@item
+@webwork{Library/UMN/calculusStewartCCC/s_4_5_44.pg}
+@item
+@webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_14.pg}
+@item
+@webwork{Library/FortLewis/Calc1/04-07-LHopitals-rule/HGM5-04-07-LHopitals-rule-31.pg}
+@item
+@webwork{Library/AlfredUniv/anton8e/chapter4/4.4/prob3.pg}
+@item
+@webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_48.pg}
+@item
+@webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_31.pg}
+@item
+@webwork{Library/Rochester/setDerivatives21LHospital/osu_dr_21_6.pg}
+@item
+@webwork{Library/Rochester/setDerivatives21LHospital/osu_dr_21_21.pg}
+@endenumerate
+@end
+@slide
+<strong>Important Note.</strong>
+If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
+and $\displaystyle \lim_{x \rightarrow c} \frac{f'(x)}{g'(x)}$ does not exist,
+it <i><strong>DOES NOT</strong></i>
+follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
+@eg
+\[
+\lim_{x \rightarrow \infty} \frac{x + \sin x}{x}
+\]
+@end
+@slide
+@keyword*{Taylor polynomial}
+@defn
+Given a function $f$ which is $n$ times differentiable at $a$.
+The <strong>$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</strong>
+is:
+\[
+P(x) = \sum_{k = 0}^n \frac{f^{(k)}(a)}{k!} (x - a)^k.
+\]
+@end
+@newcol
+Observe that:
+\[
+P^{(k)}(a) = f^{(k)}(a),
+\]
+for $k = 0, 1, 2, \ldots, n$.
+@endcol
+@slide
+@eg
+The Taylor polynomials at $a = 0$ for various functions $f$
+are as follows:
+<table class="table-hover table table-striped table-bordered">
+<thead class="thead-default">
+<tr>
+<th>$f(x)$</th>
+<th>$P(x)$</th>
+</tr>
+</thead>
+<tr>
+<td>$\cos x$</td>
+<td>$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</td>
+</tr>
+<tr>
+<td>$\sin x$</td>
+<td>$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</td>
+</tr>
+<tr>
+<td>$e^x$</td>
+<td>$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</td>
+</tr>
+<tr>
+<td>$\ln(1 + x)$</td>
+<td>$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{1 - x}$</td>
+<td>$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</td>
+</tr>
+</table>
+@end
+Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
+at $x = 0$ both have degree $5$.
+Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$.
+<hr/>
+<ul>
+<li>
+<a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank">
+Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$.
+</a>
+</li>
+<li>
+<a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank">
+Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$.
+</a>
+</li></ul>
+@slide
+@thm
+(@keyword{Taylor's Formula})
+Let $n$ be a positive integer, and $a \in \mathbb{R}$.
+Let $f$ be a function which is $n + 1$ times differentiable on an open interval $I$
+containing $a$.
+Let:
+\[
+\begin{split}
+\displaystyle P_n(x) &= \sum_{k = 0}^n\frac{f^{(k)}(a)}{k!}(x - a)^k\\
+&= f(a) + f'(a)(x - a) + \frac{f^{(2)}(a)}{2!}(x - a)^2 + \frac{f^{(3)}(a)}{3!}(x - a)^3\\ &\quad + \ldots + \frac{f^{(n)}(a)}{n!}(x - a)^n
+\end{split}
+\]
+be the $n$-th Taylor polynomial of $f$ at $a$.
+Then, for any $x \in I$, we have:
+\[
+f(x) = P_n(x) + R_n(x),
+\]
+where the @keyword{remainder term} $R_n(x)$ is equal to:
+\[
+\frac{f^{(n + 1)}(c)}{(n + 1)!}\;(x - a)^{n + 1}
+\]
+for some $c$ between $a$ and $x$.
+@end
+Note that the special case $n = 0$ is equivalent to (Lagrange's) Mean Value Theorem.
+@proof
+@newcol
+Recall that $P_{n}^{(k)}(a) = f^{(k)}(a)$ for $k = 0, 1, 2, \ldots, n$.
+Moreover, observe that $P_n^{(k)} = 0$ for $k > n$,
+since $P_n$ is a polynomial of degree at most $n$.
+
+@col
+Let:
+\[
+F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
+\]
+Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( @ref{cauchymvt}), we have:
+
+@col
+\[
+\begin{split}
+\frac{f(x) - P_{n}(x)}{(x - a)^{n+1}} &= \frac{F(x) - F(a)}{G(x) - G(a)}\\
+&= \frac{F'(x_1)}{G'(x_1)}\\
+&= \frac{f'(x_1) - P_{n}'(x_1)}{(n+1)(x_1 - a)^{n}}
+\end{split}
+\]
+for some $x_1$ between $a$ and $x$.
+
+@col
+Now let:
+\[
+\begin{split}
+F_1(x) &=F'(x) = f'(x) - P'_n(x),\\
+G_1(x) &=G'(x) = (n + 1)(x - a)^{n}.
+\end{split}
+\]Repeating the same procedure carried out before, we have:
+
+@col
+\[
+\frac{f'(x_1) - P_{n}'(x_1)}{(n + 1)(x_1 - a)^{n}}
+= \frac{F_1'(x)}{G_1'(x)}
+= \frac{f^{(2)}(x_2) - P_{n}^{(2)}(x_2)}{(n + 1)n(x_2 - a)^{n - 1}}
+\]
+for some $x_2$ between $a$ and $x_1$.
+Repeating this process $n + 1$ times, we have:
+
+@col
+\[
+\begin{split}
+\frac{f(x) - P_{n}(x)}{(x - a)^{n+1}} &= \frac{f'(x_1) - P_{n}'(x_1)}{(n+1)(x_1 - a)^{n}}\\
+&= \frac{f^{(2)}(x_2) - P_{n}^{(2)}(x_2)}{(n + 1)n(x_2 - a)^{n - 1}}\\
+&\;\;\vdots\\
+&= \frac{f^{(n)}(x_n) - P_{n}^{(n)}(x_n)}{(n + 1)n(n - 1)\cdots 2 (x_n - a)}\\
+&= \frac{f^{(n + 1)}(x_{n + 1}) - 0}{(n + 1)!}
+\end{split}
+\]
+for some $x_{n + 1}$ between $a$ and $x$.
+Letting $c = x_{n + 1}$, the theorem follows.
+@qed
+@endcol
+@end
+@slide
+@keyword*{Taylor series}
+@defn
+Given a function $f$ which is infinitely differentiable at $a$
+(i.e. $f^{(k)}(a)$ is defined for $k = 0, 1, 2, 3, \ldots$).
+The <strong>Taylor series of $f$ (centered) at $a$</strong>
+is the power series:
+\[
+\begin{split}
+T(x) &= \sum_{k = 0}^\infty \frac{f^{(k)}(a)}{k!} (x - a)^k\\
+&= f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \cdots + \frac{f^{(k)}(a)}{k!} (x - a)^k + \cdots
+\end{split}
+\]
+@end
+@newcol
+In general, for any power series of the form
+$\displaystyle S(x) = \sum_{k = 0}^\infty a_k (x - a)^k$,
+the value of $S$ at any given $c \in \mathbb{R}$ is by definition the limit:
+\[
+S(c) := \lim_{n \rightarrow \infty} \sum_{k = 0}^n a_k(c - a)^k.
+\]
+Note that this limit does not necessarily exist.
+If it does exist, we say that the power series $S$ @keyword{converges} at $x = c$,
+otherwise we say that it @keyword{diverges} at $x = c$.
+@endcol
+@slide
+@eg
+The Taylor series at $a = 0$ for various functions $f$ are as follows:
+<table class="table-hover table table-striped table-bordered">
+<thead class="thead-default">
+<tr>
+<th>$f(x)$</th>
+<th>$T(x)$</th>
+</tr>
+</thead>
+<tr>
+<td>$\cos x$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td>
+</tr>
+<tr>
+<td>$\sin x$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td>
+</tr>
+<tr>
+<td>$e^x$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td>
+</tr>
+<tr>
+<td>$\ln(1 + x)$</td>
+<td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{1 - x}$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty x^k$</td>
+</tr>
+</table>
+@end
+@slide
+@eg
+The Taylor $T(x)$ series of $f(x) = e^x$ at $a = 0$ converges everywhere.
+Moreover, for each $x \in \mathbb{R}$, we do have:
+\[
+T(x) = \sum_{k = 0}^\infty \frac{1}{k!}\;x^k = e^x.
+\]
+@end
+@slide
+Similarly, for all $x \in \mathbb{R}$, we have:
+\[
+\sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}\;x^{2k + 1} = \sin x
+\]
+\[
+\sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}\;x^{2k} = \cos x
+\]
+However,
+
+@newcol
+The Taylor series of  $f(x) = \ln( 1 + x)$ at $a = 0$ is:
+\[
+T(x) = \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}\;x^k,
+\]
+which converges only for $x \in (-1, 1]$.
+
+For such $x$ we do have:
+\[
+T(x) = f(x).
+\]
+
+@col
+In particular, we have:
+\[
+\ln 2 = \ln (1 + 1)
+= \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}\;1^k
+= 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots
+\]
+@remark
+@newcol
+There are functions whose Taylor series converge everywhere,
+but not to the functions themselves.
+@endcol
+@end@endcol

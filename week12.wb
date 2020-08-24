@@ -1,0 +1,548 @@
+@course{Math 1010}
+@week{12}
+@topic{Indefinite Integrals}
+@topic{Reduction Formulas}
+@topic{Partial Fractions}
+@section{
+Reduction Formulas}
+Let $\displaystyle n \in \mathbb{N}$.
+@eg
+\[
+\underbrace{\int x^n e^x\,dx}_{I_n} = x^ne ^x - n \underbrace{\int x^{n - 1}e^x\,dx}_{I_{n - 1}}.
+\]
+@end
+@eg
+For $n \geq 2$,
+\[
+\int \cos^n x\, dx = \frac{1}{n}\,\cos^{n - 1} x \sin x
++ \frac{n - 1}{n}\int \cos^{n - 2} x\,dx.
+\]
+@newcol
+Let $U = \cos^{n - 1} x$, $dV = \cos x \,dx$.
+Then:
+\[
+dU = -(n - 1)\cos^{n - 2} x \sin x\, dx, \quad V = \sin x.
+\]
+It follows from <a knowl="https://www.math.cuhk.edu.hk/~pschan/elephas/php/elephas_bare.php?wb=../content/math1010/t1_201819/week10.wb&query=//slide[@slide=%2716%27]">@keyword{Integration by Parts}</a> that:
+\[
+\begin{split}
+\int U\,dV
+&= UV - \int V\,dU\\
+&= \cos^{n - 1} x \sin x  + (n - 1) \int \sin^2 x \cos^{n - 2} x \, dx\\
+&= \cos^{n - 1} x \sin x  + (n - 1) \int (1 - \cos^2 x) \cos^{n - 2} x \, dx\\
+&= \cos^{n - 1} x \sin x  + (n - 1) \int \cos^{n - 2} x \, dx - (n - 1) \int \cos^n x \, dx
+\end{split}
+\]
+Hence:
+\begin{multline*}
+\left(1 + ( n - 1)\right) \int \cos^n x \,dx
+\\=
+\cos^{n - 1} x \sin x + (n - 1) \int \cos^{n - 2} x \, dx.
+\end{multline*}
+Dividing both sides of the equation by $n$, we obtain:
+\[
+\int \cos^n x \,dx = \frac{1}{n}\sin x \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
+\]
+@endcol
+@end
+@eg
+For $n \geq 2$,
+\[
+\int \sin^n x\, dx = -\frac{1}{n}\,\sin^{n - 1} x \cos x
++ \frac{n - 1}{n}\int \sin^{n - 2} x\,dx.
+\]
+@end
+@eg
+For $n \geq 3$,
+\[
+\int \sec^n x\,dx = \frac{1}{n - 1}\,\sec^{n - 2} x \tan x
++ \frac{n - 2}{n - 1}\,\int \sec^{n - 2} x \,dx.
+\]
+@end
+@eg
+\[
+\int (\ln x)^n\,dx = x(\ln x)^n - n \int (\ln x)^{n - 1}\,dx.
+\]
+@end
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_50.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_42.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_49.pg}
+@endenumerate
+@section{Partial Fractions}
+@keyword*{proper rational function}
+@defn
+A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
+is said to be <strong>proper</strong>
+if:
+\[
+\deg r < \deg s.
+\]
+@end
+By performing long division of polynomials,
+any rational function $\displaystyle \frac{p}{q}$, where $p, q$ are polynomials, may be expressed
+in the form:
+\[
+\frac{p}{q} = g + \frac{r}{s},
+\]
+where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational function.
+@slide
+Let $\displaystyle \frac{r}{s}$ be a proper rational function.
+<p/>
+Factor $s$ as a product of powers of distinct irreducible factors:
+\[
+s = \cdots (x - a)^m \cdots
+(\underbrace{x^2 + bx + c}_{\text{irreducible}\\\text{i.e. } b^2 - 4c < 0})^n \cdots.
+\]
+Then:
+@fact
+@label{partialfractions}
+The proper rational function $\displaystyle \frac{r}{s}$ may be written as a sum of rational functions as follows:
+\begin{multline*}
+\frac{r}{s}\, = \cdots \\
++ \frac{A_1}{x - a} + \frac{A_2}{(x - a)^2} + \cdots + \frac{A_m}{(x - a)^m}
++ \cdots\\
++ \frac{B_1 x + C_1}{x^2 + bx + c} + \frac{B_2 x + C_2}{(x^2 + bx + c)^2}
++ \cdots  + \frac{B_n x + C_n}{(x^2 + bx + c)^n} \\
++ \cdots,
+\end{multline*}
+where the $A_i, B_i, C_i$ are constants.
+@end
+@slide
+@eg
+$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$
+<br/><br/>
+@newcol
+Performing long division for polynomials, we have:
+\[
+\begin{split}
+\int \frac{\left(x^3-x-2\right)}{x^2-2x}dx
+&= \int (x + 2) dx + \int \frac{3x - 2}{x^2 - 2x} dx\\
+&= \frac{1}{2}x^2 + 2x + \int \frac{3x - 2}{x^2 - 2x} dx.
+\end{split}
+\]
+To evaluate:
+\[
+\int \frac{3x - 2}{x^2 - 2x} dx,
+\]
+we first observe that the integrand is a proper rational function.
+Moreover, the denominator factors as follows:
+\[
+x^2 - 2x = x (x - 2).
+\]
+Hence, by  @ref{partialfractions}, we have:
+\[
+\frac{3x - 2}{x^2 - 2x}
+=
+\frac{A}{x} + \frac{B}{x - 2},
+\]
+for some constants $A$ and $B$.
+Clearing denominators, we see that the equation above holds if and only if:
+\[
+3x - 2 = A(x - 2) + Bx.
+\tag{$\ast$}
+\]
+Letting $x = 2$, we have:
+\[
+3 \cdot  2 - 2 = B \cdot 2,
+\]
+which implies that $B = 2$.
+Similarly, letting $x = 0$ in equation $(\ast)$
+gives:
+\[
+-2 = -2 A,
+\]
+which implies that $A = 1$.
+Hence:
+\[
+\begin{split}
+\int \frac{3x - 2}{x^2 - 2x} dx
+&= \int \left( \frac{1}{x} + \frac{2}{x - 2} \right) dx\\
+&= \ln \abs{x} + 2\ln\abs{x - 2} + C,
+\end{split}
+\]
+where $C$ represents an arbitrary constant.
+
+
+We conclude that:
+\begin{multline*}
+\int \frac{\left(x^3-x-2\right)}{x^2-2x} dx
+=
+\frac{1}{2}x^2 + 2x + \ln \abs{x} + 2\ln\abs{x - 2} + C.
+\end{multline*}
+
+
+@endcol
+@end
+@eg
+$\displaystyle \int \frac{x}{(x^2 + 4)(x - 3)}\,dx$<br/><br/>
+@newcol
+First we note that the integrand is a proper rational function.
+
+
+The quadratic factor $x^2 + 4$
+has discriminant $0^2 - 4\cdot 4 < 0$, hence it is irreducible.
+
+
+By  @ref{partialfractions}, we have:
+\[
+\frac{x}{(x^2 + 4)(x - 3)}
+=
+\frac{Ax + B}{x^2 + 4} + \frac{C}{x - 3},
+\]
+for some constants $A, B$ and $C$.
+Clearing denominators, the equation above holds if and only if:
+\[
+x = (Ax + B)(x - 3) + C(x^2 + 4)
+\tag{$\ast$}
+\]
+Letting $x = 3$, we have:
+\[
+3 = C\cdot 13,
+\]
+which implies that $C = 3/13$.
+
+
+Letting $x = 0$, we have:
+\[
+0 = -3B + 4C,
+\]
+which implies that $B = (4/3)C = 4/13$.
+
+
+Finally, viewing each side of equation $(\ast)$ as polynomials and comparing
+the coefficients of $x^2$ on each side, we have:
+\[
+0 = A + C,
+\]
+which implies that $A = -C = -3/13$.
+
+
+Hence:
+\[
+\begin{split}
+&\int \frac{x}{(x^2 + 4)(x - 3)}\,dx\\
+&=
+\frac{1}{13} \int \frac{-3x + 4}{x^2 + 4}\,dx
++
+\frac{3}{13} \int \frac{1}{x - 3}\,dx\\
+&=
+\frac{1}{13}
+\left(
+\frac{-3}{2}\int \frac{1}{x^2 + 4}\,d(x^2 + 4)
++
+\int \frac{1}{(x/2)^2 + 1} \,dx
+\right.\\
+&\quad \left. +
+3 \int \frac{1}{x - 3}\,dx
+\right)\\
+&=
+\frac{1}{13}
+\left(
+\frac{-3}{2}\ln\abs{x^2 + 4}
++
+2\arctan(x/2)
++
+3 \ln\abs{x - 3}\right)
++ D,
+\end{split}
+\]
+where $D$ represents an arbitrary constant.
+@endcol
+@end
+@eg
+$\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx$<br/><br/>
+@newcol
+First, we observe that:
+\[
+\frac{x^3}{(x^2 + x + 1)(x - 3)^2}
+\]
+is a proper rational function.
+Moreover, since the discriminant of $x^2 + x + 1$ is $1^2 - 4 < 0$, this quadratic factor is irreducible.
+So, there exist constants $A, B, C, D$ such that:
+\[
+\frac{x^3}{(x^2 + x + 1)(x - 3)^2}
+=
+\frac{Ax + B}{x^2 + x + 1} + \frac{C}{x - 3} + \frac{D}{(x - 3)^2}.
+\]
+The equation above holds if and only if:
+\[
+\begin{split}
+x^3 &= (Ax + B)(x - 3)^2 + C(x^2 + x + 1)(x - 3) \\
+&+ D(x^2 + x + 1).
+\end{split}
+\tag{$\ast$}
+\]
+Letting $x = 3$, we have:
+\[
+27 = 13D.
+\]
+So, $ D = 27/13 $.
+
+
+To find $A, B$ and $C$, we view each side of the equation $(\ast)$
+as polynomials, then compare the coefficients
+of the $x^3, x^2, x$ and constant terms respectively:
+\begin{align}
+x^3: & \quad & 1 &= A + C \label{eq3}\\
+x^2: & \quad & 0 &= -6A + B - 2C + 27/13 \label{eq2}\\
+x: & \quad & 0   &= 9A -6B - 2C + 27/13 \label{eq1} \\
+1: & \quad & 0 &= 9B -3C  + 27/13 \label{eq0}
+\end{align}
+Subtracting equation \eqref{eq2} from equation \eqref{eq1}, we have:
+\[
+0 = 15A - 7B,
+\]
+which implies that $B = 15A/7$.
+Combining this with equation \eqref{eq3}, we have:
+\[
+B = 15(1 - C)/7 = 15/7 - 15C/7.
+\]
+It now follows from equation \eqref{eq0} that:
+\[
+0 = 135/7 - 135C/7 - 3C + 27/13.
+\]
+Hence:
+\[
+\begin{split}
+C &= \frac{162}{169}\\
+B &= \frac{15}{169}\\
+A &= \frac{7}{169}\\
+D &= \frac{27}{13}.
+\end{split}
+\]
+We have:
+\begin{multline*}
+\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
+\\=
+\int \left[ \frac{7x+15}{169\left(x^2+x+1\right)}
++\frac{162}{169\left(x-3\right)}
++\frac{27}{13\left(x-3\right)^2}
+\right] dx
+\end{multline*}
+\begin{multline*}
+=
+\int \frac{7x+15}{169\left(x^2+x+1\right)} dx
+\\
++ \frac{162}{169} \int \frac{1}{\left(x-3\right)} dx
++ \frac{27}{13} \int \frac{1}{\left(x-3\right)^2} dx
+\end{multline*}
+To evaluate $\int \frac{7x+15}{169\left(x^2+x+1\right)} dx$, we first rewrite the integral as follows:
+\[
+\int \frac{7x+15}{169\left(x^2+x+1\right)} dx
+= \frac{1}{169} \int
+\frac{7x + 7/2 - 7/2 +15}{x^2+x+1} dx
+\]
+\[
+=
+\frac{1}{169}\left[
+\frac{7}{2}\underbrace{\int \frac{2x + 1}{x^2 + x + 1} dx}_{\int \frac{1}{x^2 + x + 1}d(x^2 + x + 1)}
++
+\frac{23}{2}\underbrace{\displaystyle\int \frac{1}{(x + 1/2)^2 + 3/4} dx}_{\frac{4}{3}\int \frac{1}{\left((2x + 1)/\sqrt{3}\right)^2 + 1} dx}
+\right]
+\]
+\[
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23\cdot 2}{169\cdot 3} \frac{\sqrt{3}}{2}\arctan\left((2x + 1)/\sqrt{3}\right) + E
+\]
+\[
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23}{169\sqrt{3}}\arctan\left((2x + 1)/\sqrt{3}\right) + E,
+\]
+where $E$ represents an arbitrary constant.
+
+
+It now follows that:
+\begin{multline*}
+\int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
+\\
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23}{169\sqrt{3}}\arctan\left((2x + 1)/\sqrt{3}\right) \\
++ \frac{162}{169} \ln \abs{x - 3} - \frac{27}{13} \frac{1}{x - 3} + E.
+\end{multline*}
+@endcol
+@end
+@eg
+$\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
+@end
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/Rochester/setIntegrals25RationalFunctions/S07.04.PartialFractions.PTP15.pg}
+@item
+@webwork{Library/Rochester/setIntegrals25RationalFunctions/osu_in_25_9d.pg}
+@item
+@webwork{Library/UMN/calculusStewartET/s_7_4_prob02.pg}
+@item
+@webwork{Library/Union/setIntInverseTrigSub/an8_4_09.pg}
+@item
+@webwork{Library/ma123DB/set3/s7_4_19.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_35.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_13.pg}
+@item
+@webwork{Library/ASU-topics/setCalculus/stef/stef7_4p2.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_24.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_5/Stewart5_7_5_26.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_43.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_37.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_38.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_45.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_39.pg}
+@endenumerate
+@section{How Does Partial Fractions Decomposition Work?}
+<strong>
+This section is optional.  You don't have to study it for Math 1010.
+</strong>
+@thm
+@title{Unique Factorization of Real Polynomials}
+@label{thm:ufd}
+@newcol
+Given any polynomial $f \in \mathbb{R}[x]$,
+that is:
+\[
+f = a_0 + a_1 x + ... + a_n x^n,\quad a_i \in \mathbb{R},
+\]
+There are distinct irreducible polynomials, $p_1, p_2, \ldots, p_l$ in $\mathbb{R}[x]$ , of degree at most 2,
+such that:
+\[
+f = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l}
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.  Up to ordering of the irreducible factors, this factorization is unique.
+@endcol
+@end
+@thm
+@title{Bézout's Identity}
+@label{thm:bezout}
+@newcol
+If $f$ and $g$ are two irreducible polynomials in $\mathbb{R}[x]$ with no common factors, then there exist $a, b\in \mathbb{R}[x]$ such that:
+\[
+af + bg = 1
+\]
+@endcol
+@end
+@slide
+Suppose we have a rational function $\frac{p}{q}$,
+where $p, q \in \mathbb{R}[x]$ have no common factors,
+and $\deg p < \deg q$.
+
+@newcol
+By @ref{thm:ufd}, there are distinct irreducible polynomials $q_1, q_2,\ldots, q_l$, of degree at most 2, such that:
+\[
+q = q_1^{n_1}q_2^{n_2}\cdots q_{l}^{n_l},
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.
+
+@col
+Since the polynomial $q_1^{n_1}$ has no common factors with $q_2^{n_2}\ldots q_{l}^{n_{l}}$, by @ref{thm:bezout} there exist polynomials $f, g$ such that:
+\[
+f\cdot\left(q_2^{n_2}\cdots q_l^{n_{l}}\right) + gq_{1}^{n_1} = 1.
+\]
+@col
+Hence,
+@steps
+\begin{align*}
+\frac{p}{q} &= \frac{p\cdot 1}{q}
+\\&
+@nstep{=
+\frac{p(fq_2^{n_2}\cdots q_l^{n_{l}} + gq_{1}^{n_1})}{q_1^{n_1}q_{2}^{n_{2}}\cdots q_1^{n_l}}
+}
+\\
+&
+@nstep{=
+\frac{pf}{q_1^{n_1}}
++
+\frac{pg}{q_{2}^{n_{2}}\cdots q_l^{n_l}}
+}
+\end{align*}
+@endsteps
+@col
+Consider now the term: $\ds \frac{pf}{q_1^{n_1}}$.
+By the Divison Algorithm for real polynomials,
+we have:
+\[
+pf = aq_1 + r
+\]
+for some real polynomials $a, r$ such that $\deg r < \deg q_1$.
+Hence,
+
+@col
+\[
+\frac{pf}{q_1^{n_1}}
+= \frac{aq_1 + r}{q_1^{n_1}}
+= \frac{a}{q_1^{n_1 -1}} + \frac{r}{q_1^{n_1}}
+\]
+@col
+By the same reasoning, we have:
+\[
+\frac{a}{q_1^{n_1 - 1}} = \frac{b}{q_1^{n_1 -2}} + \frac{s}{q_1^{n_1 - 1}}
+\]
+for some polynomials $b, s$ such that $\deg s < \deg q_1$.
+
+@col
+Repeating this process, eventually we have:
+\[
+\frac{pf}{q_1^{n_1}}
+=
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1,
+\]
+where $\deg r_i < \deg q_1$, and $a_1$ is some polynomial.
+
+@col
+We now have:
+\[
+\frac{p}{g} =
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1
++
+\frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}.
+\]
+
+Repeating the process for the term: $\ds \frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}$, and then for all subsequent resulting terms of similar forms,
+we have:
+\begin{equation}
+\label{eq:1}
+\frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j} + h,
+\end{equation}
+where $\deg r_{kj} < \deg q_k$, and $h$ is some polynomial in $\mathbb{R}[x]$.
+
+@col
+We claim that $h = 0$.
+
+@col
+Multiplying both sides of equation $\eqref{eq:1}$ by the polynomial $q$,
+we have:
+\begin{equation}
+\label{eq:2}
+p = \sum_{k = 1}^l \sum_{j = 1}^{n_k} r_{kj}\cdot\frac{q}{q_k^j} + hq
+\end{equation}
+Since every $q_k^j$ in the sum divides $q$,
+each $\frac{q}{q_k^j}$ is a polynomial.
+So, the equation above is an equality between polynomials.
+
+@col
+By assumption, $\deg p < \deg q$.  On the other hand, each term:
+\[
+r_{kj}\cdot\frac{q}{q_k^j}
+\]
+has degree strictly less than $q$, since $\deg r_{kj} < \deg q_k$.
+
+@col
+So, if $h \neq 0$, then the right-hand side of equation $\eqref{eq:2}$ has degree
+$\deg h + \deg q \geq \deg q > \deg p$, contradicting the equality of the two sides.
+
+Hence, $h = 0$.  It follows that:
+\[
+\frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j}
+\]

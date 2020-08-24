@@ -1,0 +1,2304 @@
+WEAVING: @course{Math 1010}
+@course
+WEAVING: @week{7}
+@week
+WEAVING: @topic{Mean Value Theorem}
+@topic
+WEAVING: @slide
+@slide
+WEAVING: @thm
+@thm
+WEAVING: @title{Extreme Value Theorem}
+@title
+WEAVING: @label{evt}
+@label
+WEAVING: 
+If $f$ is a 
+If $f$ is a
+DEFAULT: 
+If $f$ is a 
+[ '\nIf $f$ is a ' ]
+WEAVING: <u>
+HTML TAG: u
+WEAVING: continuous
+continuous
+DEFAULT: continuous
+[ 'continuous' ]
+WEAVING: </u>
+TAG CLOSED
+WEAVING:  function
+defined on a 
+function
+defined on a
+DEFAULT:  function
+defined on a 
+[ ' function\ndefined on a ' ]
+WEAVING: <u>
+HTML TAG: u
+WEAVING: closed
+closed
+DEFAULT: closed
+[ 'closed' ]
+WEAVING: </u>
+TAG CLOSED
+WEAVING:  interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+
+interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+DEFAULT:  interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+
+[ ' interval $[a, b]$,\nthen it attains both a maximum value and a minimum value on $[a, b].$\n' ]
+WEAVING: @end
+@end
+WEAVING: @section
+@section
+WEAVING: @title
+@title
+WEAVING: 
+
+The Mean Value Theorem
+
+The Mean Value Theorem
+DEFAULT: 
+
+The Mean Value Theorem
+
+[ '', 'The Mean Value Theorem\n' ]
+WEAVING: @endtitle
+@endtitle
+WEAVING: @thm
+@thm
+WEAVING: @title{Rolle's Theorem}
+@title
+WEAVING: 
+Let $f : [a, b] \longrightarrow\mathbb{R}$ be a function which is continuous on $[a, b]$
+and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
+If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
+
+Let $f : [a, b] \longrightarrow\mathbb{R}$ be a function which is continuous on $[a, b]$
+and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
+If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
+DEFAULT: 
+Let $f : [a, b] \longrightarrow\mathbb{R}$ be a function which is continuous on $[a, b]$
+and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
+If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
+
+[ '\nLet $f : [a, b] \\longrightarrow\\mathbb{R}$ be a function which is continuous on $[a, b]$\nand differentiable on $(a, b)$ (i.e. $f\'(x)$ exists for all $x \\in (a, b)$).\nIf $f(a) = f(b)$, then there exists $c \\in (a, b)$ such that $f\'(c) = 0$.\n' ]
+WEAVING: @end
+@end
+WEAVING: @newcol
+@newcol
+WEAVING: <div class="image">
+
+HTML TAG: div
+WEAVING: <a title="By Fulvio314 (Own work) [CC0], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARolle's_theorem_2.svg">
+HTML TAG: a
+WEAVING: <img alt="Rolle's theorem 2" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Rolle%27s_theorem_2.svg"/>
+HTML TAG: img
+WEAVING: </a>
+
+TAG CLOSED
+WEAVING: </div>
+
+TAG CLOSED
+WEAVING: @endcol
+@endcol
+WEAVING: @proof
+@proof
+WEAVING: @newcol
+@newcol
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: Sketch of Proof.
+Sketch of Proof.
+DEFAULT: Sketch of Proof.
+[ 'Sketch of Proof.' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING:   First, it follows from the  
+First, it follows from the
+DEFAULT:   First, it follows from the  
+[ '  First, it follows from the  ' ]
+WEAVING: @ref{evt}
+@ref
+WEAVING:  that
+$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
+It may then be shown that:
+\[
+f'(c) = \lim_{h \rightarrow 0}\frac{f(c + h) - f(c)}{h} = 0,
+\]
+using that fact that if $f(c)$ is an absolute extremum, then
+$\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
+
+that
+$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
+It may then be shown that:
+\[
+f'(c) = \lim_{h \rightarrow 0}\frac{f(c + h) - f(c)}{h} = 0,
+\]
+using that fact that if $f(c)$ is an absolute extremum, then
+$\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
+DEFAULT:  that
+$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
+It may then be shown that:
+\[
+f'(c) = \lim_{h \rightarrow 0}\frac{f(c + h) - f(c)}{h} = 0,
+\]
+using that fact that if $f(c)$ is an absolute extremum, then
+$\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
+
+[ ' that\n$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.\nIt may then be shown that:\n\\[\nf\'(c) = \\lim_{h \\rightarrow 0}\\frac{f(c + h) - f(c)}{h} = 0,\n\\]\nusing that fact that if $f(c)$ is an absolute extremum, then\n$\\displaystyle \\frac{f(c + h) - f(c)}{h}$ is both $\\leq 0$ and $\\geq 0$.\n' ]
+WEAVING: @qed
+@qed
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: @slide
+@slide
+WEAVING: @thm
+@thm
+WEAVING: @title{Mean Value Theorem (MVT)}
+@title
+WEAVING: 
+(Also known as 
+(Also known as
+DEFAULT: 
+(Also known as 
+[ '\n(Also known as ' ]
+WEAVING: <b>
+HTML TAG: b
+WEAVING: Lagrange's Mean Value Theorem
+Lagrange's Mean Value Theorem
+DEFAULT: Lagrange's Mean Value Theorem
+[ 'Lagrange\'s Mean Value Theorem' ]
+WEAVING: </b>
+TAG CLOSED
+WEAVING: )
+
+
+If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+and differentiable on $(a, b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+
+)
+
+
+If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+and differentiable on $(a, b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+DEFAULT: )
+
+
+If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+and differentiable on $(a, b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+
+[ ')',
+  'If a function $f : [a, b] \\longrightarrow\\mathbb{R}$ is continuous on $[a, b]$\nand differentiable on $(a, b)$,\nthen there exists $c \\in (a, b)$ such that:\n\\[\nf\'(c) = \\frac{f(b) - f(a)}{b - a}\n\\]\n' ]
+WEAVING: @end
+@end
+WEAVING: @newcol
+@newcol
+WEAVING: <div class="image">
+
+HTML TAG: div
+WEAVING: <a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg">
+HTML TAG: a
+WEAVING: <img alt="Mvt2" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Mvt2.svg"/>
+HTML TAG: img
+WEAVING: </a>
+
+TAG CLOSED
+WEAVING: </div>
+
+TAG CLOSED
+WEAVING: @endcol
+@endcol
+WEAVING: @proof
+@proof
+WEAVING: @newcol
+@newcol
+WEAVING: 
+Let $f$ be a function which satisfies the conditions of the theorem.
+Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
+\[
+g(x) = f(x) - \left[\left(\frac{f(b) - f(a)}{b - a}\right)(x - a) + f(a)\right],
+\quad x \in [a, b].
+\]
+(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment
+joining $(a, f(a))$ and $(b, f(b))$.)
+Observe that:
+\[
+g(a) = g(b) = 0,
+\]
+so the function $g$ satisfies the conditions of Rolle's Theorem.
+Hence, there exists $c \in (a, b)$ such that:
+\[
+0 = g'(c) = f'(c) - \frac{f(b) - f(a)}{b - a}\,,
+\]
+which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
+
+Let $f$ be a function which satisfies the conditions of the theorem.
+Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
+\[
+g(x) = f(x) - \left[\left(\frac{f(b) - f(a)}{b - a}\right)(x - a) + f(a)\right],
+\quad x \in [a, b].
+\]
+(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment
+joining $(a, f(a))$ and $(b, f(b))$.)
+Observe that:
+\[
+g(a) = g(b) = 0,
+\]
+so the function $g$ satisfies the conditions of Rolle's Theorem.
+Hence, there exists $c \in (a, b)$ such that:
+\[
+0 = g'(c) = f'(c) - \frac{f(b) - f(a)}{b - a}\,,
+\]
+which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
+DEFAULT: 
+Let $f$ be a function which satisfies the conditions of the theorem.
+Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
+\[
+g(x) = f(x) - \left[\left(\frac{f(b) - f(a)}{b - a}\right)(x - a) + f(a)\right],
+\quad x \in [a, b].
+\]
+(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment
+joining $(a, f(a))$ and $(b, f(b))$.)
+Observe that:
+\[
+g(a) = g(b) = 0,
+\]
+so the function $g$ satisfies the conditions of Rolle's Theorem.
+Hence, there exists $c \in (a, b)$ such that:
+\[
+0 = g'(c) = f'(c) - \frac{f(b) - f(a)}{b - a}\,,
+\]
+which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
+
+[ '\nLet $f$ be a function which satisfies the conditions of the theorem.\nDefine a function $g : [a, b] \\longrightarrow\\mathbb{R}$ as follows:\n\\[\ng(x) = f(x) - \\left[\\left(\\frac{f(b) - f(a)}{b - a}\\right)(x - a) + f(a)\\right],\n\\quad x \\in [a, b].\n\\]\n(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment\njoining $(a, f(a))$ and $(b, f(b))$.)\nObserve that:\n\\[\ng(a) = g(b) = 0,\n\\]\nso the function $g$ satisfies the conditions of Rolle\'s Theorem.\nHence, there exists $c \\in (a, b)$ such that:\n\\[\n0 = g\'(c) = f\'(c) - \\frac{f(b) - f(a)}{b - a}\\,,\n\\]\nwhich implies that $f\'(c) = \\dfrac{f(b) - f(a)}{b - a}$.\n' ]
+WEAVING: @qed
+@qed
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: @section
+@section
+WEAVING: @title
+@title
+WEAVING: 
+
+WeBWorK
+
+WeBWorK
+DEFAULT: 
+
+WeBWorK
+
+[ '', 'WeBWorK\n' ]
+WEAVING: @endtitle
+@endtitle
+WEAVING: @enumerate
+@enumerate
+WEAVING: @item
+@item
+WEAVING: @webwork{Library/CSUN/Calculus/Mean_value_theorem_1.pg}
+@webwork
+WEAVING: @item
+@item
+WEAVING: @webwork{Library/ma122DB/set7/s4_2_24.pg}
+@webwork
+WEAVING: @item
+@item
+WEAVING: @webwork{Library/Michigan/Chap3Sec10/Q07.pg}
+@webwork
+WEAVING: @endenumerate
+@endenumerate
+WEAVING: 
+
+
+
+
+DEFAULT: 
+
+
+
+[ '', '' ]
+WEAVING: @section
+@section
+WEAVING: @title
+@title
+WEAVING: 
+
+Applications of the Mean Value Theorem
+
+Applications of the Mean Value Theorem
+DEFAULT: 
+
+Applications of the Mean Value Theorem
+
+[ '', 'Applications of the Mean Value Theorem\n' ]
+WEAVING: @endtitle
+@endtitle
+WEAVING: @thm
+@thm
+WEAVING: 
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) = 0$ for all $x \in (a, b)$, then
+$f$ is constant on $(a, b)$.
+
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) = 0$ for all $x \in (a, b)$, then
+$f$ is constant on $(a, b)$.
+DEFAULT: 
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) = 0$ for all $x \in (a, b)$, then
+$f$ is constant on $(a, b)$.
+
+[ '\nLet $f$ be a differentiable function on an open interval $(a, b)$.\nIf $f\'(x) = 0$ for all $x \\in (a, b)$, then\n$f$ is constant on $(a, b)$.\n' ]
+WEAVING: @end
+@end
+WEAVING: @proof
+@proof
+WEAVING: @newcol
+@newcol
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: Exercise.
+Exercise.
+DEFAULT: Exercise.
+[ 'Exercise.' ]
+WEAVING: </strong>
+
+TAG CLOSED
+WEAVING: For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+is equal to $0$.
+
+For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+is equal to $0$.
+DEFAULT: For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+is equal to $0$.
+
+[ 'For any $x_1, x_2 \\in (a, b)$, show that the difference $f(x_2) - f(x_1)$\nis equal to $0$.\n' ]
+WEAVING: @qed
+@qed
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: @slide
+@slide
+WEAVING: @thm
+@thm
+WEAVING: @label{monotone}
+@label
+WEAVING: 
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
+$f$ is 
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
+$f$ is
+DEFAULT: 
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
+$f$ is 
+[ '\nLet $f$ be a differentiable function on an open interval $(a, b)$.\nIf $f\'(x) > 0$ (resp. $f\'(x) < 0$)  for all $x \\in (a, b)$, then\n$f$ is ' ]
+WEAVING: <b>
+HTML TAG: b
+WEAVING: strictly increasing
+strictly increasing
+DEFAULT: strictly increasing
+[ 'strictly increasing' ]
+WEAVING: </b>
+TAG CLOSED
+WEAVING:  (resp. 
+(resp.
+DEFAULT:  (resp. 
+[ ' (resp. ' ]
+WEAVING: <b>
+HTML TAG: b
+WEAVING: strictly decreasing
+strictly decreasing
+DEFAULT: strictly decreasing
+[ 'strictly decreasing' ]
+WEAVING: </b>
+TAG CLOSED
+WEAVING: ) on $(a, b)$.
+
+) on $(a, b)$.
+DEFAULT: ) on $(a, b)$.
+
+[ ') on $(a, b)$.\n' ]
+WEAVING: <p/>
+HTML TAG: p
+WEAVING: <br/>
+
+HTML TAG: br
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: Remark:
+Remark:
+DEFAULT: Remark:
+[ 'Remark:' ]
+WEAVING: </strong>
+
+TAG CLOSED
+WEAVING: If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+
+If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+DEFAULT: If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+
+[ 'If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f\'$ is positive (resp. negative) on $(a, b)$.\n' ]
+WEAVING: @end
+@end
+WEAVING: @proof
+@proof
+WEAVING: @newcol
+@newcol
+WEAVING: 
+We will prove the case $f'(x) > 0$.
+
+We will prove the case $f'(x) > 0$.
+DEFAULT: 
+We will prove the case $f'(x) > 0$.
+
+[ '\nWe will prove the case $f\'(x) > 0$.\n' ]
+WEAVING: <br/>
+
+HTML TAG: br
+WEAVING: Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
+such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
+\[
+f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}\;.
+\]
+
+Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
+such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
+\[
+f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}\;.
+\]
+DEFAULT: Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
+such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
+\[
+f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}\;.
+\]
+
+[ 'Suppose $f\'(x) > 0 $ for all $x \\in (a, b)$.  Given any $x_1, x_2 \\in (a, b)$,\nsuch that $x_1 < x_2$, by the MVT there exists $c \\in (x_1, x_2)$ such that\n\\[\nf\'(c) = \\frac{f(x_2) - f(x_1)}{x_2 - x_1}\\;.\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: 
+By the condition $f'(x) > 0$ for all $x \in (a, b)$, we have $f'(c) > 0$.
+Also, $x_2 - x_1 > 0$.  Hence:
+\[
+f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
+\]
+This shows that $f$ is increasing on $(a, b)$.
+
+By the condition $f'(x) > 0$ for all $x \in (a, b)$, we have $f'(c) > 0$.
+Also, $x_2 - x_1 > 0$.  Hence:
+\[
+f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
+\]
+This shows that $f$ is increasing on $(a, b)$.
+DEFAULT: 
+By the condition $f'(x) > 0$ for all $x \in (a, b)$, we have $f'(c) > 0$.
+Also, $x_2 - x_1 > 0$.  Hence:
+\[
+f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
+\]
+This shows that $f$ is increasing on $(a, b)$.
+
+[ '\nBy the condition $f\'(x) > 0$ for all $x \\in (a, b)$, we have $f\'(c) > 0$.\nAlso, $x_2 - x_1 > 0$.  Hence:\n\\[\nf(x_2) - f(x_1) = f\'(c) \\cdot (x_2 - x_1) > 0.\n\\]\nThis shows that $f$ is increasing on $(a, b)$.\n' ]
+WEAVING: @qed
+@qed
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: @slide
+@slide
+WEAVING: @eg
+@eg
+WEAVING: 
+Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
+is increasing/decreasing.
+
+Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
+is increasing/decreasing.
+DEFAULT: 
+Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
+is increasing/decreasing.
+
+[ '\nFind the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$\nis increasing/decreasing.\n' ]
+WEAVING: @end
+@end
+WEAVING: @sol
+@sol
+WEAVING: @newcol
+@newcol
+WEAVING: 
+We apply  
+We apply
+DEFAULT: 
+We apply  
+[ '\nWe apply  ' ]
+WEAVING: @ref{monotone}
+@ref
+WEAVING: .
+
+
+.
+DEFAULT: .
+
+
+[ '.', '' ]
+WEAVING: @col
+@col
+WEAVING: 
+First, we find:
+\[
+f'(x) = 3x^2 + 12 x - 15
+\]
+Observe that $f'$ is defined and continuous everywhere.
+Hence, the intervals where $f'$ is positive/negative
+are separated by points $c$ where $f'(c) = 0$. (Such points are called 
+First, we find:
+\[
+f'(x) = 3x^2 + 12 x - 15
+\]
+Observe that $f'$ is defined and continuous everywhere.
+Hence, the intervals where $f'$ is positive/negative
+are separated by points $c$ where $f'(c) = 0$. (Such points are called
+DEFAULT: 
+First, we find:
+\[
+f'(x) = 3x^2 + 12 x - 15
+\]
+Observe that $f'$ is defined and continuous everywhere.
+Hence, the intervals where $f'$ is positive/negative
+are separated by points $c$ where $f'(c) = 0$. (Such points are called 
+[ '\nFirst, we find:\n\\[\nf\'(x) = 3x^2 + 12 x - 15\n\\]\nObserve that $f\'$ is defined and continuous everywhere.\nHence, the intervals where $f\'$ is positive/negative\nare separated by points $c$ where $f\'(c) = 0$. (Such points are called ' ]
+WEAVING: <b>
+HTML TAG: b
+WEAVING: stationary points
+stationary points
+DEFAULT: stationary points
+[ 'stationary points' ]
+WEAVING: </b>
+TAG CLOSED
+WEAVING:  of $f$).
+
+of $f$).
+DEFAULT:  of $f$).
+
+[ ' of $f$).\n' ]
+WEAVING: <p/>
+
+HTML TAG: p
+WEAVING: @col
+@col
+WEAVING: 
+Setting:
+\[
+f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
+\]
+we see that the points where $f'$ 
+Setting:
+\[
+f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
+\]
+we see that the points where $f'$
+DEFAULT: 
+Setting:
+\[
+f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
+\]
+we see that the points where $f'$ 
+[ '\nSetting:\n\\[\nf\'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,\n\\]\nwe see that the points where $f\'$ ' ]
+WEAVING: <i>
+HTML TAG: i
+WEAVING: possibly
+possibly
+DEFAULT: possibly
+[ 'possibly' ]
+WEAVING: </i>
+TAG CLOSED
+WEAVING:  changes sign are:
+\[
+c = -5, 1
+\]
+
+changes sign are:
+\[
+c = -5, 1
+\]
+DEFAULT:  changes sign are:
+\[
+c = -5, 1
+\]
+
+[ ' changes sign are:\n\\[\nc = -5, 1\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: 
+Consider now the 
+Consider now the
+DEFAULT: 
+Consider now the 
+[ '\nConsider now the ' ]
+WEAVING: <b>
+HTML TAG: b
+WEAVING: sign chart
+sign chart
+DEFAULT: sign chart
+[ 'sign chart' ]
+WEAVING: </b>
+TAG CLOSED
+WEAVING: :
+
+:
+DEFAULT: :
+
+[ ':\n' ]
+WEAVING: <table class="table table-striped table-bordered" style="text-align:center">
+
+HTML TAG: table
+WEAVING: <tr>
+
+HTML TAG: tr
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $f$:
+$f$:
+DEFAULT: $f$:
+[ '$f$:' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: $\nearrow$
+$\nearrow$
+DEFAULT: $\nearrow$
+[ '$\\nearrow$' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td/>
+HTML TAG: td
+WEAVING: <td>
+HTML TAG: td
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: $\searrow$
+$\searrow$
+DEFAULT: $\searrow$
+[ '$\\searrow$' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td/>
+HTML TAG: td
+WEAVING: <td>
+HTML TAG: td
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: $\nearrow$
+$\nearrow$
+DEFAULT: $\nearrow$
+[ '$\\nearrow$' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: </tr>
+
+TAG CLOSED
+WEAVING: <tr>
+
+HTML TAG: tr
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $f'(x)$:
+$f'(x)$:
+DEFAULT: $f'(x)$:
+[ '$f\'(x)$:' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $+$
+$+$
+DEFAULT: $+$
+[ '$+$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $0$
+$0$
+DEFAULT: $0$
+[ '$0$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $-$
+$-$
+DEFAULT: $-$
+[ '$-$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $0$
+$0$
+DEFAULT: $0$
+[ '$0$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $+$
+$+$
+DEFAULT: $+$
+[ '$+$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: </tr>
+
+TAG CLOSED
+WEAVING: <tr>
+
+HTML TAG: tr
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $x$:
+$x$:
+DEFAULT: $x$:
+[ '$x$:' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $(-\infty, -5)$
+$(-\infty, -5)$
+DEFAULT: $(-\infty, -5)$
+[ '$(-\\infty, -5)$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $-5$
+$-5$
+DEFAULT: $-5$
+[ '$-5$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $(-5, 1)$
+$(-5, 1)$
+DEFAULT: $(-5, 1)$
+[ '$(-5, 1)$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $1$
+$1$
+DEFAULT: $1$
+[ '$1$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $(1, \infty)$
+$(1, \infty)$
+DEFAULT: $(1, \infty)$
+[ '$(1, \\infty)$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: </tr>
+
+TAG CLOSED
+WEAVING: </table>
+
+TAG CLOSED
+WEAVING: <p/>
+
+HTML TAG: p
+WEAVING: @col
+@col
+WEAVING: 
+It now follows from  
+It now follows from
+DEFAULT: 
+It now follows from  
+[ '\nIt now follows from  ' ]
+WEAVING: @ref{monotone}
+@ref
+WEAVING:  and the continuity of $f$ that:
+
+and the continuity of $f$ that:
+DEFAULT:  and the continuity of $f$ that:
+
+[ ' and the continuity of $f$ that:\n' ]
+WEAVING: <ul>
+
+HTML TAG: ul
+WEAVING: <li>
+
+HTML TAG: li
+WEAVING: $f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.
+
+$f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.
+DEFAULT: $f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.
+
+[ '$f$ is increasing on the intervals $(-\\infty, -5]$ and $[1, \\infty)$.\n' ]
+WEAVING: </li>
+
+TAG CLOSED
+WEAVING: <li>
+
+HTML TAG: li
+WEAVING: $f$ is decreasing on the interval $[-5, 1]$.
+
+$f$ is decreasing on the interval $[-5, 1]$.
+DEFAULT: $f$ is decreasing on the interval $[-5, 1]$.
+
+[ '$f$ is decreasing on the interval $[-5, 1]$.\n' ]
+WEAVING: </li>
+TAG CLOSED
+WEAVING: </ul>
+
+TAG CLOSED
+WEAVING: @col
+@col
+WEAVING: <div class="image">
+
+HTML TAG: div
+WEAVING: <iframe src="https://www.desmos.com/calculator/ja7cqgww7s?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
+
+HTML TAG: iframe
+WEAVING: </div>
+
+TAG CLOSED
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: @slide
+@slide
+WEAVING: @eg
+@eg
+WEAVING: 
+Let:
+\[
+f(x) = \begin{cases}
+(x + 1)^2, & x < 0; \\
+x + 1, & x \geq 0.
+\end{cases}
+\]
+Find the intervals where the function $f$ is increasing/decreasing.
+
+Let:
+\[
+f(x) = \begin{cases}
+(x + 1)^2, & x < 0; \\
+x + 1, & x \geq 0.
+\end{cases}
+\]
+Find the intervals where the function $f$ is increasing/decreasing.
+DEFAULT: 
+Let:
+\[
+f(x) = \begin{cases}
+(x + 1)^2, & x < 0; \\
+x + 1, & x \geq 0.
+\end{cases}
+\]
+Find the intervals where the function $f$ is increasing/decreasing.
+
+[ '\nLet:\n\\[\nf(x) = \\begin{cases}\n(x + 1)^2, & x < 0; \\\\\nx + 1, & x \\geq 0.\n\\end{cases}\n\\]\nFind the intervals where the function $f$ is increasing/decreasing.\n' ]
+WEAVING: @end
+@end
+WEAVING: @sol
+@sol
+WEAVING: @newcol
+@newcol
+WEAVING: 
+We carry out the same steps as in the previous example.
+We leave it as an exercise to show that:
+\[
+f'(x) = \begin{cases}
+2x + 2, & x < 0; \\
+\text{undefined}, & x = 0;\\
+1, & x > 0.
+\end{cases}
+\]
+
+We carry out the same steps as in the previous example.
+We leave it as an exercise to show that:
+\[
+f'(x) = \begin{cases}
+2x + 2, & x < 0; \\
+\text{undefined}, & x = 0;\\
+1, & x > 0.
+\end{cases}
+\]
+DEFAULT: 
+We carry out the same steps as in the previous example.
+We leave it as an exercise to show that:
+\[
+f'(x) = \begin{cases}
+2x + 2, & x < 0; \\
+\text{undefined}, & x = 0;\\
+1, & x > 0.
+\end{cases}
+\]
+
+[ '\nWe carry out the same steps as in the previous example.\nWe leave it as an exercise to show that:\n\\[\nf\'(x) = \\begin{cases}\n2x + 2, & x < 0; \\\\\n\\text{undefined}, & x = 0;\\\\\n1, & x > 0.\n\\end{cases}\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: 
+Note that $f'$ is not defined everywhere.
+In this case, the points where $f'$ possibly changes sign are points $c$
+where:
+\[
+f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
+\]
+Such points are called the 
+Note that $f'$ is not defined everywhere.
+In this case, the points where $f'$ possibly changes sign are points $c$
+where:
+\[
+f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
+\]
+Such points are called the
+DEFAULT: 
+Note that $f'$ is not defined everywhere.
+In this case, the points where $f'$ possibly changes sign are points $c$
+where:
+\[
+f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
+\]
+Such points are called the 
+[ '\nNote that $f\'$ is not defined everywhere.\nIn this case, the points where $f\'$ possibly changes sign are points $c$\nwhere:\n\\[\nf\'(c) = 0\\quad \\textit{or} \\quad f\'(c) \\text{ is undefined.}\n\\]\nSuch points are called the ' ]
+WEAVING: <b>
+HTML TAG: b
+WEAVING: critical points
+critical points
+DEFAULT: critical points
+[ 'critical points' ]
+WEAVING: </b>
+
+TAG CLOSED
+WEAVING: of $f$.  (Note that the set of stationary points is a subset of critical points).
+
+of $f$.  (Note that the set of stationary points is a subset of critical points).
+DEFAULT: of $f$.  (Note that the set of stationary points is a subset of critical points).
+
+[ 'of $f$.  (Note that the set of stationary points is a subset of critical points).\n' ]
+WEAVING: <p/>
+
+HTML TAG: p
+WEAVING: @col
+@col
+WEAVING: 
+Constructing a sign chart as in the previous example, we have:
+
+Constructing a sign chart as in the previous example, we have:
+DEFAULT: 
+Constructing a sign chart as in the previous example, we have:
+
+[ '\nConstructing a sign chart as in the previous example, we have:\n' ]
+WEAVING: <table class="table-hover table table-striped table-bordered" style="text-align:center">
+
+HTML TAG: table
+WEAVING: <tr>
+
+HTML TAG: tr
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $f$:
+$f$:
+DEFAULT: $f$:
+[ '$f$:' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: $\searrow$
+$\searrow$
+DEFAULT: $\searrow$
+[ '$\\searrow$' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td/>
+HTML TAG: td
+WEAVING: <td>
+HTML TAG: td
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: $\nearrow$
+$\nearrow$
+DEFAULT: $\nearrow$
+[ '$\\nearrow$' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td/>
+
+HTML TAG: td
+WEAVING: <td>
+HTML TAG: td
+WEAVING: <strong>
+HTML TAG: strong
+WEAVING: $\nearrow$
+$\nearrow$
+DEFAULT: $\nearrow$
+[ '$\\nearrow$' ]
+WEAVING: </strong>
+TAG CLOSED
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: </tr>
+
+TAG CLOSED
+WEAVING: <tr>
+
+HTML TAG: tr
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $f'(x)$:
+$f'(x)$:
+DEFAULT: $f'(x)$:
+[ '$f\'(x)$:' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: ${\large -}$
+${\large -}$
+DEFAULT: ${\large -}$
+[ '${\\large -}$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $0$
+$0$
+DEFAULT: $0$
+[ '$0$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: ${\large +}$
+${\large +}$
+DEFAULT: ${\large +}$
+[ '${\\large +}$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: undefined
+undefined
+DEFAULT: undefined
+[ 'undefined' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: ${\large +}$
+${\large +}$
+DEFAULT: ${\large +}$
+[ '${\\large +}$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: </tr>
+
+TAG CLOSED
+WEAVING: <tr>
+
+HTML TAG: tr
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $x$:
+$x$:
+DEFAULT: $x$:
+[ '$x$:' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $(-\infty, -1)$
+$(-\infty, -1)$
+DEFAULT: $(-\infty, -1)$
+[ '$(-\\infty, -1)$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $-1$
+$-1$
+DEFAULT: $-1$
+[ '$-1$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $(-1, 0)$
+$(-1, 0)$
+DEFAULT: $(-1, 0)$
+[ '$(-1, 0)$' ]
+WEAVING: </td>
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $0$
+$0$
+DEFAULT: $0$
+[ '$0$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: <td>
+HTML TAG: td
+WEAVING: $(0, \infty)$
+$(0, \infty)$
+DEFAULT: $(0, \infty)$
+[ '$(0, \\infty)$' ]
+WEAVING: </td>
+
+TAG CLOSED
+WEAVING: </tr>
+
+TAG CLOSED
+WEAVING: </table>
+
+TAG CLOSED
+WEAVING: <p/>
+
+HTML TAG: p
+WEAVING: @col
+@col
+WEAVING: 
+Hence, by  
+Hence, by
+DEFAULT: 
+Hence, by  
+[ '\nHence, by  ' ]
+WEAVING: @ref{monotone}
+@ref
+WEAVING: , $f$ is 
+, $f$ is
+DEFAULT: , $f$ is 
+[ ', $f$ is ' ]
+WEAVING: <u>
+HTML TAG: u
+WEAVING: decreasing
+decreasing
+DEFAULT: decreasing
+[ 'decreasing' ]
+WEAVING: </u>
+TAG CLOSED
+WEAVING:  on:
+\[(-\infty, -1],\]
+and increasing on both $[-1, 0]$ and $[0, \infty)$.
+
+on:
+\[(-\infty, -1],\]
+and increasing on both $[-1, 0]$ and $[0, \infty)$.
+DEFAULT:  on:
+\[(-\infty, -1],\]
+and increasing on both $[-1, 0]$ and $[0, \infty)$.
+
+[ ' on:\n\\[(-\\infty, -1],\\]\nand increasing on both $[-1, 0]$ and $[0, \\infty)$.\n' ]
+WEAVING: <p/>
+
+HTML TAG: p
+WEAVING: Since $f$ is continuous at $x = 0$, we conclude that $f$ is 
+Since $f$ is continuous at $x = 0$, we conclude that $f$ is
+DEFAULT: Since $f$ is continuous at $x = 0$, we conclude that $f$ is 
+[ 'Since $f$ is continuous at $x = 0$, we conclude that $f$ is ' ]
+WEAVING: <u>
+HTML TAG: u
+WEAVING: increasing
+increasing
+DEFAULT: increasing
+[ 'increasing' ]
+WEAVING: </u>
+TAG CLOSED
+WEAVING:  on:
+\[
+[-1, \infty).
+\]
+
+on:
+\[
+[-1, \infty).
+\]
+DEFAULT:  on:
+\[
+[-1, \infty).
+\]
+
+[ ' on:\n\\[\n[-1, \\infty).\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: <div class="image">
+
+HTML TAG: div
+WEAVING: <iframe src="https://www.desmos.com/calculator/heievbyzs3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
+
+HTML TAG: iframe
+WEAVING: </div>
+
+TAG CLOSED
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: @slide
+@slide
+WEAVING: @ex
+@ex
+WEAVING: 
+Use the mean value theorem to prove that for $x>0$,
+\[
+\frac{x}{1+x} < \ln(1+x) < x.
+\]
+Hence, deduce that for $x>0$,
+\[
+\frac{1}{1+x} < \ln\left(1+\frac{1}{x}\right) < \frac{1}{x}\;.
+\]
+
+Use the mean value theorem to prove that for $x>0$,
+\[
+\frac{x}{1+x} < \ln(1+x) < x.
+\]
+Hence, deduce that for $x>0$,
+\[
+\frac{1}{1+x} < \ln\left(1+\frac{1}{x}\right) < \frac{1}{x}\;.
+\]
+DEFAULT: 
+Use the mean value theorem to prove that for $x>0$,
+\[
+\frac{x}{1+x} < \ln(1+x) < x.
+\]
+Hence, deduce that for $x>0$,
+\[
+\frac{1}{1+x} < \ln\left(1+\frac{1}{x}\right) < \frac{1}{x}\;.
+\]
+
+[ '\nUse the mean value theorem to prove that for $x>0$,\n\\[\n\\frac{x}{1+x} < \\ln(1+x) < x.\n\\]\nHence, deduce that for $x>0$,\n\\[\n\\frac{1}{1+x} < \\ln\\left(1+\\frac{1}{x}\\right) < \\frac{1}{x}\\;.\n\\]\n' ]
+WEAVING: @end
+@end
+WEAVING: @sol
+@sol
+WEAVING: @newcol
+@newcol
+WEAVING: 
+We first show that:
+\[
+\ln\left(1+x\right) < x\;.
+\]
+Consider the function:
+\[
+f(x) = \ln\left(1+x\right) - x\;.
+\]
+Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
+
+
+
+We first show that:
+\[
+\ln\left(1+x\right) < x\;.
+\]
+Consider the function:
+\[
+f(x) = \ln\left(1+x\right) - x\;.
+\]
+Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
+DEFAULT: 
+We first show that:
+\[
+\ln\left(1+x\right) < x\;.
+\]
+Consider the function:
+\[
+f(x) = \ln\left(1+x\right) - x\;.
+\]
+Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
+
+
+
+[ '\nWe first show that:\n\\[\n\\ln\\left(1+x\\right) < x\\;.\n\\]\nConsider the function:\n\\[\nf(x) = \\ln\\left(1+x\\right) - x\\;.\n\\]\nThen, $f(0) = 0$, and $f\'(x) = \\dfrac{-x}{1 + x}$.',
+  '' ]
+WEAVING: @col
+@col
+WEAVING: 
+Hence, $f'(x) < 0$ for all $x > 0$.
+
+
+
+Hence, $f'(x) < 0$ for all $x > 0$.
+DEFAULT: 
+Hence, $f'(x) < 0$ for all $x > 0$.
+
+
+
+[ '\nHence, $f\'(x) < 0$ for all $x > 0$.', '' ]
+WEAVING: @col
+@col
+WEAVING: 
+For any $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{f(x) - f(0)}{x - 0} = f'(c)
+\]
+for some $c \in (0, x)$.  Since $c > 0$, we have $f'(c) < 0$,
+which implies that:
+\[
+\frac{f(x) - f(0)}{x - 0} < 0.
+\]
+
+For any $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{f(x) - f(0)}{x - 0} = f'(c)
+\]
+for some $c \in (0, x)$.  Since $c > 0$, we have $f'(c) < 0$,
+which implies that:
+\[
+\frac{f(x) - f(0)}{x - 0} < 0.
+\]
+DEFAULT: 
+For any $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{f(x) - f(0)}{x - 0} = f'(c)
+\]
+for some $c \in (0, x)$.  Since $c > 0$, we have $f'(c) < 0$,
+which implies that:
+\[
+\frac{f(x) - f(0)}{x - 0} < 0.
+\]
+
+[ '\nFor any $x > 0$, by the Mean Value Theorem we have:\n\\[\n\\frac{f(x) - f(0)}{x - 0} = f\'(c)\n\\]\nfor some $c \\in (0, x)$.  Since $c > 0$, we have $f\'(c) < 0$,\nwhich implies that:\n\\[\n\\frac{f(x) - f(0)}{x - 0} < 0.\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: 
+Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:
+\[
+\ln(1 + x) < x,
+\]
+for all $x > 0$.
+
+Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:
+\[
+\ln(1 + x) < x,
+\]
+for all $x > 0$.
+DEFAULT: 
+Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:
+\[
+\ln(1 + x) < x,
+\]
+for all $x > 0$.
+
+[ '\nSince $x > 0$, we conclude that $\\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:\n\\[\n\\ln(1 + x) < x,\n\\]\nfor all $x > 0$.\n' ]
+WEAVING: <p/>
+
+HTML TAG: p
+WEAVING: <hr/>
+
+HTML TAG: hr
+WEAVING: @col
+@col
+WEAVING: 
+To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
+
+
+
+To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
+DEFAULT: 
+To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
+
+
+
+[ '\nTo show that $\\frac{x}{1+x} < \\ln(1+x)$, we proceed similarly.',
+  '' ]
+WEAVING: @col
+@col
+WEAVING: 
+Consider:
+\[
+g(x) = \ln(1 + x) - \frac{x}{1 + x}.
+\]
+
+Consider:
+\[
+g(x) = \ln(1 + x) - \frac{x}{1 + x}.
+\]
+DEFAULT: 
+Consider:
+\[
+g(x) = \ln(1 + x) - \frac{x}{1 + x}.
+\]
+
+[ '\nConsider:\n\\[\ng(x) = \\ln(1 + x) - \\frac{x}{1 + x}.\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: 
+Then, $g(0) = 0$, and:
+\[
+\begin{split}
+g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
+&= \frac{x}{(1 + x)^2}\\
+& > 0
+\end{split}
+\]
+for all $x > 0$.
+
+
+
+Then, $g(0) = 0$, and:
+\[
+\begin{split}
+g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
+&= \frac{x}{(1 + x)^2}\\
+& > 0
+\end{split}
+\]
+for all $x > 0$.
+DEFAULT: 
+Then, $g(0) = 0$, and:
+\[
+\begin{split}
+g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
+&= \frac{x}{(1 + x)^2}\\
+& > 0
+\end{split}
+\]
+for all $x > 0$.
+
+
+
+[ '\nThen, $g(0) = 0$, and:\n\\[\n\\begin{split}\ng\'(x) &= \\frac{1}{1 + x} - \\frac{(1 + x)1 - x(1)}{(1 + x)^2}\\\\\n&= \\frac{x}{(1 + x)^2}\\\\\n& > 0\n\\end{split}\n\\]\nfor all $x > 0$.',
+  '' ]
+WEAVING: @col
+@col
+WEAVING: 
+Hence, for all $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{g(x) - g(0)}{x - 0} = g'(c) > 0,
+\]
+where $c$ is some element which lies in $(0, x)$.
+
+
+
+Hence, for all $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{g(x) - g(0)}{x - 0} = g'(c) > 0,
+\]
+where $c$ is some element which lies in $(0, x)$.
+DEFAULT: 
+Hence, for all $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{g(x) - g(0)}{x - 0} = g'(c) > 0,
+\]
+where $c$ is some element which lies in $(0, x)$.
+
+
+
+[ '\nHence, for all $x > 0$, by the Mean Value Theorem we have:\n\\[\n\\frac{g(x) - g(0)}{x - 0} = g\'(c) > 0,\n\\]\nwhere $c$ is some element which lies in $(0, x)$.',
+  '' ]
+WEAVING: @col
+@col
+WEAVING: 
+This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
+\[
+\ln(1 + x) > \frac{x}{1 + x}
+\]
+for $x > 0$.
+
+This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
+\[
+\ln(1 + x) > \frac{x}{1 + x}
+\]
+for $x > 0$.
+DEFAULT: 
+This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
+\[
+\ln(1 + x) > \frac{x}{1 + x}
+\]
+for $x > 0$.
+
+[ '\nThis shows that $\\ln(1 + x) - \\frac{x}{1 + x} = g(x) > 0$.  Hence,\n\\[\n\\ln(1 + x) > \\frac{x}{1 + x}\n\\]\nfor $x > 0$.\n' ]
+WEAVING: <hr/>
+
+HTML TAG: hr
+WEAVING: @col
+@col
+WEAVING: 
+Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
+\[
+\frac{x}{1+x} < \ln(1+x) < x
+\]
+to $x = \frac{1}{t}$, we have:
+\[
+\frac{1/t}{1+1/t} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t},
+\]
+
+Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
+\[
+\frac{x}{1+x} < \ln(1+x) < x
+\]
+to $x = \frac{1}{t}$, we have:
+\[
+\frac{1/t}{1+1/t} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t},
+\]
+DEFAULT: 
+Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
+\[
+\frac{x}{1+x} < \ln(1+x) < x
+\]
+to $x = \frac{1}{t}$, we have:
+\[
+\frac{1/t}{1+1/t} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t},
+\]
+
+[ '\nFinally, for all $t> 0$, we have $\\frac{1}{t} > 0$.  Applying the inequality:\n\\[\n\\frac{x}{1+x} < \\ln(1+x) < x\n\\]\nto $x = \\frac{1}{t}$, we have:\n\\[\n\\frac{1/t}{1+1/t} < \\ln\\left( 1+\\frac{1}{t}\\right) < \\frac{1}{t},\n\\]\n' ]
+WEAVING: @col
+@col
+WEAVING: 
+which is equivalent to:
+\[
+\frac{1}{t + 1} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t}.
+\]
+
+which is equivalent to:
+\[
+\frac{1}{t + 1} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t}.
+\]
+DEFAULT: 
+which is equivalent to:
+\[
+\frac{1}{t + 1} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t}.
+\]
+
+[ '\nwhich is equivalent to:\n\\[\n\\frac{1}{t + 1} < \\ln\\left( 1+\\frac{1}{t}\\right) < \\frac{1}{t}.\n\\]\n' ]
+WEAVING: @qed
+@qed
+WEAVING: @endcol
+@endcol
+WEAVING: @end
+@end
+WEAVING: 
+
+
+
+
+DEFAULT: 
+
+
+
+[ '', '' ]
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/elephas_index" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:lv="http://www.math.cuhk.edu.hk/~pschan/cranach" xmlns:idx="http://www.math.cuhk.edu.hk/~pschan/elephas_index">
+  <index>
+    <entry keyword="extreme value theorem">
+      <branch chapter="7" slide="3" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="extreme value theorem">Extreme Value Theorem</branch>
+    </entry>
+    <entry keyword="rolle s theorem">
+      <branch chapter="7" slide="4" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="rolle s theorem">Rolle's Theorem</branch>
+    </entry>
+    <entry keyword="lagrange s mean value theorem">
+      <branch chapter="7" slide="5" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="lagrange s mean value theorem">Lagrange's Mean Value Theorem</branch>
+    </entry>
+    <entry keyword="mean value theorem mvt">
+      <branch chapter="7" slide="5" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="mean value theorem mvt">Mean Value Theorem MVT</branch>
+    </entry>
+    <entry keyword="strictly increasing">
+      <branch chapter="7" slide="8" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="strictly increasing">strictly increasing</branch>
+    </entry>
+    <entry keyword="strictly decreasing">
+      <branch chapter="7" slide="8" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="strictly decreasing">strictly decreasing</branch>
+    </entry>
+    <entry keyword="stationary points">
+      <branch chapter="7" slide="9" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="stationary points">stationary points</branch>
+    </entry>
+    <entry keyword="sign chart">
+      <branch chapter="7" slide="9" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="sign chart">sign chart</branch>
+    </entry>
+    <entry keyword="critical points">
+      <branch chapter="7" slide="10" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" keyword="critical points">critical points</branch>
+    </entry>
+    <entry md5="4e5b41e44aeb0e3dac182548166c66dd" item="7.1" slide="3" chapter="7" course="Math 1010" title="Extreme Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.1" slide="3" chapter="7" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+        <label item="7.1" slide="3" chapter="7" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="1" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" section="" subsection="" subsubsection="" name="evt"/>
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="" subsection="" subsubsection="" serial="" slide="3">Extreme Value Theorem</title>
+      </branch>
+    </entry>
+    <entry md5="de5cd3aeffe274ade857ff981b7ffaf8" item="7.2" slide="4" chapter="7" course="Math 1010" title="Rolle's Theorem" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.2" slide="4" chapter="7" course="Math 1010" md5="de5cd3aeffe274ade857ff981b7ffaf8" title="Rolle's Theorem" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="4">Rolle's Theorem</title>
+      </branch>
+    </entry>
+    <entry md5="46f1c12e4b769fe2d7350c5e7888be93" of="de5cd3aeffe274ade857ff981b7ffaf8" slide="4" chapter="7" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch of="de5cd3aeffe274ade857ff981b7ffaf8" slide="4" chapter="7" course="Math 1010" md5="46f1c12e4b769fe2d7350c5e7888be93" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" ofmd5="de5cd3aeffe274ade857ff981b7ffaf8"/>
+    </entry>
+    <entry md5="ac81d7f217862ee60cb955e0bc2a4011" item="7.3" slide="5" chapter="7" course="Math 1010" title="Mean Value Theorem MVT" num="3" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.3" slide="5" chapter="7" course="Math 1010" md5="ac81d7f217862ee60cb955e0bc2a4011" title="Mean Value Theorem MVT" num="3" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="5">Mean Value Theorem (MVT)</title>
+      </branch>
+    </entry>
+    <entry md5="f1553277d66f8ef0095615be3e976478" of="ac81d7f217862ee60cb955e0bc2a4011" slide="5" chapter="7" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch of="ac81d7f217862ee60cb955e0bc2a4011" slide="5" chapter="7" course="Math 1010" md5="f1553277d66f8ef0095615be3e976478" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" ofmd5="ac81d7f217862ee60cb955e0bc2a4011"/>
+    </entry>
+    <entry md5="7f59b29de784f17ee25ce44cf7b79422" item="7.4" slide="7" chapter="7" course="Math 1010" num="4" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.4" slide="7" chapter="7" course="Math 1010" md5="7f59b29de784f17ee25ce44cf7b79422" num="4" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <entry md5="1486131dcdc3cbc8e6cba5522349edad" of="7f59b29de784f17ee25ce44cf7b79422" slide="7" chapter="7" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch of="7f59b29de784f17ee25ce44cf7b79422" slide="7" chapter="7" course="Math 1010" md5="1486131dcdc3cbc8e6cba5522349edad" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" ofmd5="7f59b29de784f17ee25ce44cf7b79422"/>
+    </entry>
+    <entry md5="069473d5d9a203227e942c93d29f1a7d" item="7.5" slide="8" chapter="7" course="Math 1010" num="5" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.5" slide="8" chapter="7" course="Math 1010" md5="069473d5d9a203227e942c93d29f1a7d" num="5" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+        <label item="7.5" slide="8" chapter="7" course="Math 1010" md5="069473d5d9a203227e942c93d29f1a7d" num="5" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" section="3" subsection="" subsubsection="" name="monotone"/>
+      </branch>
+    </entry>
+    <entry md5="f4627bd0f72b1babd204fa12fb525532" of="069473d5d9a203227e942c93d29f1a7d" slide="8" chapter="7" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch of="069473d5d9a203227e942c93d29f1a7d" slide="8" chapter="7" course="Math 1010" md5="f4627bd0f72b1babd204fa12fb525532" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc" ofmd5="069473d5d9a203227e942c93d29f1a7d"/>
+    </entry>
+    <entry md5="dbee36c80786eacbe8adcb4d1cbb5875" item="7.6" slide="9" chapter="7" course="Math 1010" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.6" slide="9" chapter="7" course="Math 1010" md5="dbee36c80786eacbe8adcb4d1cbb5875" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <entry md5="cb9c0e82ca291054ebc23c34902111f1" slide="9" chapter="7" course="Math 1010" wbtag="sol" type="Solution" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch slide="9" chapter="7" course="Math 1010" md5="cb9c0e82ca291054ebc23c34902111f1" wbtag="sol" type="Solution" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <entry md5="5f48bed597bacc500b121063710fd810" item="7.7" slide="10" chapter="7" course="Math 1010" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.7" slide="10" chapter="7" course="Math 1010" md5="5f48bed597bacc500b121063710fd810" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <entry md5="a8694eed86d5efc24ff6b01242f382f8" slide="10" chapter="7" course="Math 1010" wbtag="sol" type="Solution" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch slide="10" chapter="7" course="Math 1010" md5="a8694eed86d5efc24ff6b01242f382f8" wbtag="sol" type="Solution" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <entry md5="99697f65327cb17db13d0666bf9500c4" item="7.8" slide="11" chapter="7" course="Math 1010" num="8" wbtag="ex" type="Exercise" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch item="7.8" slide="11" chapter="7" course="Math 1010" md5="99697f65327cb17db13d0666bf9500c4" num="8" wbtag="ex" type="Exercise" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <entry md5="ff45e995852117585ce8d22b830c200b" slide="11" chapter="7" course="Math 1010" wbtag="sol" type="Solution" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <branch slide="11" chapter="7" course="Math 1010" md5="ff45e995852117585ce8d22b830c200b" wbtag="sol" type="Solution" chapter_type="Week" environment="substatement" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc"/>
+    </entry>
+    <ref serial="" class="lcref" md5="4e5b41e44aeb0e3dac182548166c66dd" src-filename="week7.xml" item="7.1" type="Theorem" src-slide="3" src-chapter="7" src-course="Math 1010" slide="4" chapter="7" course="Math 1010" wbtag="ref" name="" label="evt" chapter_type="" environment="newcol" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Extreme Value Theorem</title>
+    </ref>
+    <ref serial="" class="lcref" md5="069473d5d9a203227e942c93d29f1a7d" src-filename="week7.xml" item="7.5" type="Theorem" src-slide="8" src-chapter="7" src-course="Math 1010" slide="9" chapter="7" course="Math 1010" wbtag="ref" name="" label="monotone" chapter_type="" environment="newcol" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 7.5</title>
+    </ref>
+    <ref serial="" class="lcref" md5="069473d5d9a203227e942c93d29f1a7d" src-filename="week7.xml" item="7.5" type="Theorem" src-slide="8" src-chapter="7" src-course="Math 1010" slide="9" chapter="7" course="Math 1010" wbtag="ref" name="" label="monotone" chapter_type="" environment="newcol" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 7.5</title>
+    </ref>
+    <ref serial="" class="lcref" md5="069473d5d9a203227e942c93d29f1a7d" src-filename="week7.xml" item="7.5" type="Theorem" src-slide="8" src-chapter="7" src-course="Math 1010" slide="10" chapter="7" course="Math 1010" wbtag="ref" name="" label="monotone" chapter_type="" environment="newcol" filename="week7.xml" file_md5="7a4e909c8c58b34cc5890a7114966edc">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 7.5</title>
+    </ref>
+  </index>
+</document>
+
+File week7.aux.xml was saved!
+BRANCHES: 0
+ADDING NEW BRANCH: Extreme Value Theorem
+ADDING NEW BRANCH: Rolle's Theorem
+ADDING NEW BRANCH: Lagrange's Mean Value Theorem
+ADDING NEW BRANCH: Mean Value Theorem MVT
+ADDING NEW BRANCH: strictly increasing
+ADDING NEW BRANCH: strictly decreasing
+ADDING NEW BRANCH: stationary points
+ADDING NEW BRANCH: sign chart
+ADDING NEW BRANCH: critical points
+ADDING NEW BRANCH: 
+            Extreme Value Theorem
+            
+            If $f$ is a 
+            
+              continuous
+            
+             function
+defined on a 
+            
+              closed
+            
+             interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+          
+TITLES: 1
+ADDING NEW BRANCH: 
+              Rolle's Theorem
+              Let $f : [a, b] \longrightarrow\mathbb{R}$ be a function which is continuous on $[a, b]$
+and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
+If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
+            
+TITLES: 1
+ADDING NEW BRANCH: 
+              
+                
+                  Sketch of Proof.
+                
+                  First, it follows from the  
+                
+                  Extreme Value Theorem
+                
+                 that
+$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
+It may then be shown that:
+\[
+f'(c) = \lim_{h \rightarrow 0}\frac{f(c + h) - f(c)}{h} = 0,
+\]
+using that fact that if $f(c)$ is an absolute extremum, then
+$\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
+                
+              
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+                  Extreme Value Theorem
+                
+TITLES: 1
+ADDING NEW BRANCH: 
+              Mean Value Theorem (MVT)
+              (Also known as 
+              
+                Lagrange's Mean Value Theorem
+              
+              )
+              
+              If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+and differentiable on $(a, b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+            
+TITLES: 1
+ADDING NEW BRANCH: 
+              
+                Let $f$ be a function which satisfies the conditions of the theorem.
+Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
+\[
+g(x) = f(x) - \left[\left(\frac{f(b) - f(a)}{b - a}\right)(x - a) + f(a)\right],
+\quad x \in [a, b].
+\]
+(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment
+joining $(a, f(a))$ and $(b, f(b))$.)
+Observe that:
+\[
+g(a) = g(b) = 0,
+\]
+so the function $g$ satisfies the conditions of Rolle's Theorem.
+Hence, there exists $c \in (a, b)$ such that:
+\[
+0 = g'(c) = f'(c) - \frac{f(b) - f(a)}{b - a}\,,
+\]
+which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
+                
+              
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) = 0$ for all $x \in (a, b)$, then
+$f$ is constant on $(a, b)$.
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              
+                
+                  Exercise.
+                
+                For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+is equal to $0$.
+                
+              
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              
+              Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
+$f$ is 
+              
+                strictly increasing
+              
+               (resp. 
+              
+                strictly decreasing
+              
+              ) on $(a, b)$.
+              
+              
+              
+              
+              
+                Remark:
+              
+              If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              
+                We will prove the case $f'(x) > 0$.
+                
+                Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
+such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
+\[
+f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}\;.
+\]
+                
+                  By the condition $f'(x) > 0$ for all $x \in (a, b)$, we have $f'(c) > 0$.
+Also, $x_2 - x_1 > 0$.  Hence:
+\[
+f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
+\]
+This shows that $f$ is increasing on $(a, b)$.
+                  
+                
+              
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
+is increasing/decreasing.
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              
+                We apply  
+                
+                  Theorem 7.5
+                
+                .
+                
+                
+                
+                  First, we find:
+\[
+f'(x) = 3x^2 + 12 x - 15
+\]
+Observe that $f'$ is defined and continuous everywhere.
+Hence, the intervals where $f'$ is positive/negative
+are separated by points $c$ where $f'(c) = 0$. (Such points are called 
+                  
+                    stationary points
+                  
+                   of $f$).
+                  
+                  
+                  
+                    Setting:
+\[
+f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
+\]
+we see that the points where $f'$ 
+                    
+                      possibly
+                    
+                     changes sign are:
+\[
+c = -5, 1
+\]
+                    
+                      Consider now the 
+                      
+                        sign chart
+                      
+                      :
+                      
+                        
+                          
+                            $f$:
+                          
+                          
+                            
+                              $\nearrow$
+                            
+                          
+                          
+                          
+                          
+                            
+                              $\searrow$
+                            
+                          
+                          
+                          
+                          
+                            
+                              $\nearrow$
+                            
+                          
+                        
+                        
+                          
+                            $f'(x)$:
+                          
+                          
+                            $+$
+                          
+                          
+                            $0$
+                          
+                          
+                            $-$
+                          
+                          
+                            $0$
+                          
+                          
+                            $+$
+                          
+                        
+                        
+                          
+                            $x$:
+                          
+                          
+                            $(-\infty, -5)$
+                          
+                          
+                            $-5$
+                          
+                          
+                            $(-5, 1)$
+                          
+                          
+                            $1$
+                          
+                          
+                            $(1, \infty)$
+                          
+                        
+                      
+                      
+                      
+                      
+                        It now follows from  
+                        
+                          Theorem 7.5
+                        
+                         and the continuity of $f$ that:
+                        
+                          
+                            $f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.
+                          
+                          
+                            $f$ is decreasing on the interval $[-5, 1]$.
+                          
+                        
+                        
+                          
+                            
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+                  Theorem 7.5
+                
+TITLES: 1
+ADDING NEW BRANCH: 
+                          Theorem 7.5
+                        
+TITLES: 1
+ADDING NEW BRANCH: 
+              Let:
+\[
+f(x) = \begin{cases}
+(x + 1)^2, & x < 0; \\
+x + 1, & x \geq 0.
+\end{cases}
+\]
+Find the intervals where the function $f$ is increasing/decreasing.
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              
+                We carry out the same steps as in the previous example.
+We leave it as an exercise to show that:
+\[
+f'(x) = \begin{cases}
+2x + 2, & x < 0; \\
+\text{undefined}, & x = 0;\\
+1, & x > 0.
+\end{cases}
+\]
+                
+                  Note that $f'$ is not defined everywhere.
+In this case, the points where $f'$ possibly changes sign are points $c$
+where:
+\[
+f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
+\]
+Such points are called the 
+                  
+                    critical points
+                  
+                  of $f$.  (Note that the set of stationary points is a subset of critical points).
+                  
+                  
+                  
+                    Constructing a sign chart as in the previous example, we have:
+                    
+                      
+                        
+                          $f$:
+                        
+                        
+                          
+                            $\searrow$
+                          
+                        
+                        
+                        
+                        
+                          
+                            $\nearrow$
+                          
+                        
+                        
+                        
+                        
+                          
+                            $\nearrow$
+                          
+                        
+                      
+                      
+                        
+                          $f'(x)$:
+                        
+                        
+                          ${\large -}$
+                        
+                        
+                          $0$
+                        
+                        
+                          ${\large +}$
+                        
+                        
+                          undefined
+                        
+                        
+                          ${\large +}$
+                        
+                      
+                      
+                        
+                          $x$:
+                        
+                        
+                          $(-\infty, -1)$
+                        
+                        
+                          $-1$
+                        
+                        
+                          $(-1, 0)$
+                        
+                        
+                          $0$
+                        
+                        
+                          $(0, \infty)$
+                        
+                      
+                    
+                    
+                    
+                    
+                      Hence, by  
+                      
+                        Theorem 7.5
+                      
+                      , $f$ is 
+                      
+                        decreasing
+                      
+                       on:
+\[(-\infty, -1],\]
+and increasing on both $[-1, 0]$ and $[0, \infty)$.
+                      
+                      Since $f$ is continuous at $x = 0$, we conclude that $f$ is 
+                      
+                        increasing
+                      
+                       on:
+\[
+[-1, \infty).
+\]
+                      
+                        
+                          
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+                        Theorem 7.5
+                      
+TITLES: 1
+ADDING NEW BRANCH: 
+              Use the mean value theorem to prove that for $x>0$,
+\[
+\frac{x}{1+x} < \ln(1+x) < x.
+\]
+Hence, deduce that for $x>0$,
+\[
+\frac{1}{1+x} < \ln\left(1+\frac{1}{x}\right) < \frac{1}{x}\;.
+\]
+            
+TITLES: 0
+ADDING NEW BRANCH: 
+              
+                We first show that:
+\[
+\ln\left(1+x\right) < x\;.
+\]
+Consider the function:
+\[
+f(x) = \ln\left(1+x\right) - x\;.
+\]
+Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
+                
+                
+                
+                  Hence, $f'(x) < 0$ for all $x > 0$.
+                  
+                  
+                  
+                    For any $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{f(x) - f(0)}{x - 0} = f'(c)
+\]
+for some $c \in (0, x)$.  Since $c > 0$, we have $f'(c) < 0$,
+which implies that:
+\[
+\frac{f(x) - f(0)}{x - 0} < 0.
+\]
+                    
+                      Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:
+\[
+\ln(1 + x) < x,
+\]
+for all $x > 0$.
+                      
+                      
+                      
+                      
+                      
+                        To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
+                        
+                        
+                        
+                          Consider:
+\[
+g(x) = \ln(1 + x) - \frac{x}{1 + x}.
+\]
+                          
+                            Then, $g(0) = 0$, and:
+\[
+\begin{split}
+g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
+&= \frac{x}{(1 + x)^2}\\
+& > 0
+\end{split}
+\]
+for all $x > 0$.
+                            
+                            
+                            
+                              Hence, for all $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{g(x) - g(0)}{x - 0} = g'(c) > 0,
+\]
+where $c$ is some element which lies in $(0, x)$.
+                              
+                              
+                              
+                                This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
+\[
+\ln(1 + x) > \frac{x}{1 + x}
+\]
+for $x > 0$.
+                                
+                                
+                                
+                                  Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
+\[
+\frac{x}{1+x} < \ln(1+x) < x
+\]
+to $x = \frac{1}{t}$, we have:
+\[
+\frac{1/t}{1+1/t} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t},
+\]
+                                  
+                                    which is equivalent to:
+\[
+\frac{1}{t + 1} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t}.
+\]
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+TITLES: 0
+File index.aux.xml was saved!

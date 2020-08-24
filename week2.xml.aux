@@ -1,0 +1,448 @@
+<root xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" xmlns:xh="http://www.w3.org/1999/xhtml"><course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010"><title environment="title" chapter_type="" wbtag="course" scope="course">Math 1010</title><slides environment="" chapter_type=""><slide environment="" chapter_type="" course="Math 1010" title="Math 1010"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides><chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="2" title="" topic="Functions"><title environment="title" chapter_type="" wbtag="week" scope="chapter"/><topic environment="" chapter_type="" scope="chapter">Functions</topic><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+
+</paragraphs></slide></slides><section environment="" chapter_type="" type="Section" wbtag="section" title="
+Functions
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Functions
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="1" md5="1905c11ebe935fc00eb13699dc117de7"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+A function:
+\[
+f : A \longrightarrow B
+\]
+is a rule of correspondence from one set $A$ (called the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">domain</paragraphs></xh:b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">)
+to another set $B$ (called the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">codomain</paragraphs></xh:b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">).
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Under this rule of correspondence,
+each element $x \in A$ corresponds to </paragraphs><xh:i xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">exactly one</paragraphs></xh:i><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> element
+$f(x) \in B$, called the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">value</paragraphs></xh:b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+of $f$ at $x$.
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+In the context of this course,
+the domain $A$ is usually some subset (intervals, union of intervals)
+of $\mathbb{R}$,
+while the codomain $B$ is often presumed to be $\mathbb{R}$.
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Sometimes, the domain of a function is not explicitly given,
+and a function is simply defined by an expression in terms of an independent variable.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+For example,
+\[
+f(x) = \sqrt{\frac{x + 1}{x - 2}}
+\]
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In this case, the domain of $f$ is assumed to be the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">natural domain</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+(or </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">maximal domain</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">, </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">domain of definition</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">),
+namely the largest subset of $\mathbb{R}$ on which the expression defining $f$
+is well-defined.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="2" md5="13424ce4f0019f00b5b4622613df3d26"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+For the function:
+\[
+\displaystyle f(x) = \sqrt{\frac{x+1}{x - 2}},
+\]
+the natural domain is:
+\[
+\begin{split}
+\mathrm{Domain}(f)
+&amp;= \left\{ x \in \mathbb{R}\; \left|\; \frac{x+1}{x-2} \geq 0\right. \right\}\\
+&amp;= (-\infty, -1] \cup (2, \infty).
+\end{split}
+\]
+</paragraphs></newcol></statement><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol></slide></slides><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="
+Graphs of Functions
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Graphs of Functions
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+For $f : A \longrightarrow B$ where $A, B$ are subsets of $\mathbb{R}$,
+it is often useful to consider the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">graph</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> of $f$,
+namely the set of all points $(x, y)$ in the $xy$-plane
+where $x \in A$ and $y = f(x)$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+By definition, any function $f$ takes on a unique value $f(x)$ for each
+$x$ in its domain, hence the graph of $f$ necessarily passes the
+so-called "</paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">vertical line test</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs">", namely, any vertical line which one
+draws in the $xy$-plane intersects the graph of $f$ </paragraphs><xh:i xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">at most once</paragraphs></xh:i><paragraphs environment="" chapter_type="" wbtag="paragraphs">.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+The graph of a circle, for example, is not the graph of any function,
+since there are vertical lines which intersect the graph twice.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="3" md5="f4cea4e03ac11a7d709885d08e16be80"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Graph the functions $f(x) = \displaystyle{\frac{x}{2}}$ and $g(x) = \displaystyle{\frac{4}{x}-1}$ together, to identify values of $x$ for which
+$$
+\frac{x}{2} &gt; \frac{4}{x} - 1.
+$$
+Confirm your answer by solving the inequality algebraically.
+</paragraphs></newcol></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="ab051a48d65c6187c8bf5acc66c2d835"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The inequality holds if and only if:
+\[
+x \in (-4, 0)\cup (2, \infty)
+\]
+</paragraphs></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></subsection><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="
+Algebraic Operations on Functions
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Algebraic Operations on Functions
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="4" md5="a382615c9f651512c3039300883c892c"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Given two functions:
+\[
+f, g : A \longrightarrow \mathbb{R},
+\]
+</paragraphs><itemize environment="itemize" chapter_type="" wbtag="itemize"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+</paragraphs><item environment="itemize" chapter_type="" wbtag="item"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+Their </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="itemize"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="itemize" chapter_type="" wbtag="paragraphs">sum/difference</paragraphs></xh:b><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs"> is:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+f \pm g : A \longrightarrow \mathbb{R},
+\]
+\[
+(f \pm g)(a) := f(a) \pm g(a), \quad \text{ for all } a \in A;
+\]
+</paragraphs></newcol></item><item environment="itemize" chapter_type="" wbtag="item"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+Their </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="itemize"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="itemize" chapter_type="" wbtag="paragraphs">product</paragraphs></xh:b><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs"> is:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+fg : A \longrightarrow \mathbb{R},
+\]
+\[
+fg (a) := f(a)g(a),\quad \text{ for all } a \in A;
+\]
+</paragraphs></newcol></item><item environment="itemize" chapter_type="" wbtag="item"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+The </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="itemize"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="itemize" chapter_type="" wbtag="paragraphs">quotient function</paragraphs></xh:b><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs"> $\dfrac{f}{g}$ is:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\frac{f}{g} : A' \longrightarrow \mathbb{R},
+\]
+\[
+\frac{f}{g}(a) := \frac{f(a)}{g(a)}\;,\quad \text{ for all } a \in A',
+\]
+where \[A' = \{ a \in A : g(a) \neq 0\}.\]
+</paragraphs></newcol></item></itemize><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+More generally,
+For:
+\[
+f: A \longrightarrow \mathbb{R},
+\]
+\[
+g: B \longrightarrow \mathbb{R},
+\]
+we define $f\pm g$ and $fg$ as follows:
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+f\pm g : A \cap B \longrightarrow \mathbb{R},
+\]
+\[
+f\pm g (x) := f(x) \pm g(x), \quad x \in A \cap B.
+\]
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+fg : A \cap B \longrightarrow \mathbb{R},
+\]
+\[
+fg (x) := f(x)g(x), \quad x \in A \cap B.
+\]
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Similary, we define:
+\[
+\frac{f}{g} : A\cap B' \longrightarrow \mathbb{R},
+\]
+\[
+\frac{f}{g}(x) = \frac{f(x)}{g(x)}, \quad x \in A \cap B',
+\]
+where $B' = \{b \in B : g(b) \neq 0\}$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol></slide></slides></subsection><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="
+Composition of Functions
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Composition of Functions
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Given two functions:
+\[
+f : A \longrightarrow B,\quad g : B \longrightarrow C,
+\]
+the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">composite function</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> $g\circ f$ is defined as follows:
+\[
+g \circ f : A \longrightarrow C,
+\]
+\[
+(g\circ f)(a) := g(f(a)), \quad \text{ for all } a \in A.
+\]
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+More generally, the domain of $g \circ f$ is defined to be:
+\[
+\mathrm{Domain}(g\circ f)
+=
+\{a \in \mathrm{Domain}(f) : f(a) \in \mathrm{Domain}(g)\}.
+\]
+</paragraphs></newcol></slide></slides></subsection><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="
+Inverse of a Function
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Inverse of a Function
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+The </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">range</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> or </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">image</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> of a function $f : A \longrightarrow B$
+is the set of all $b \in B$ such that $b = f(a)$ for some $a \in A$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><substatement environment="substatement" chapter_type="" type="Notation" wbtag="notation" md5="aab92aed0be0614392cc1adf85a0623b"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\mathrm{Image}(f) = \mathrm{Range}(f) := \{b \in B \, : \, b = f(a) \text{ for some } a \in A\}.
+\]
+</paragraphs></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Note that the range of $f$ is not necessarily equal to the codomain $B$.
+</paragraphs></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="5" md5="b73f7f48654d14fa565cadffcde8e4dd"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+If $\mathrm{Range}(f) = B$, we say that $f$ is </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">surjective</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> or </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">onto</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">.
+</paragraphs></newcol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="6" md5="52b76efa41aa388ff87adbc9ed4e074f"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+If $f(a) \neq f(a')$ for all $a, a' \in \mathrm{Domain}(f)$ such that $a \neq a'$,
+we say that $f$ is </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">injective</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> or </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">one-to-one</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">.
+</paragraphs></newcol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+If $f : A \longrightarrow B$ is injective, then there exists
+an </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">inverse function</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs">:
+\[
+f^{-1} :  \mathrm{Range}(f) \longrightarrow A
+\]
+such that $f^{-1}\circ f$ is the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">identity function</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> on $A$,
+and $f \circ f^{-1}$ is the identity function on $\mathrm{Range}(f)$, that is:
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_ul environment="col_ul" chapter_type="" wbtag="col_ul"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+\[
+f^{-1}(f(a)) = a, \quad \text{ for all } a \in A,
+\]
+</paragraphs></col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+\[
+f(f^{-1}(b)) = b, \quad \text{ for all } b \in \mathrm{Range}(f).
+\]
+</paragraphs></col_li></col_ul><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="7" md5="5301990341d3e36eb6c1b207ea51a9f6"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+\[
+f : \mathbb{R} \longrightarrow \mathbb{R},
+\]
+\[
+f(x) := x^2, \quad x \in \mathbb{R}.
+\]
+is not injective, hence it has no inverse.
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+On the other hand,
+\[
+f : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R},
+\]
+\[
+f(x) := x^2, \quad x \in \mathbb{R}_{\geq 0};
+\]
+</paragraphs><xh:i xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">is</paragraphs></xh:i><paragraphs environment="" chapter_type="" wbtag="paragraphs"> injective.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+It's range is $\mathrm{Range}(f) = \mathbb{R}_{\geq 0}$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Its inverse is:
+\[
+f^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\geq 0}
+\]
+\[
+f^{-1}(y) = \sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
+\]
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Similarly,
+\[
+g : \mathbb{R}_{\leq 0} \longrightarrow \mathbb{R},
+\]
+\[
+g(x) := x^2, \quad x \in \mathbb{R}_{\leq 0};
+\]
+is also injective,
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+with $\mathrm{Range}(g) = \mathbb{R}_{\geq 0}$,
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+and inverse:
+\[
+g^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\leq 0}
+\]
+\[
+g^{-1}(y) = -\sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
+\]
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></collapse></collapse></collapse></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></subsection></section><section environment="" chapter_type="" type="Section" wbtag="section" title="
+WeBWorK
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+WeBWorK
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><enumerate environment="enumerate" chapter_type="" wbtag="enumerate"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Rochester/setAlgebra15Functions/s0_1_18.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UBC/setLimits/matching.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_0.1/Question28a.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item></enumerate><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section><section environment="" chapter_type="" type="Section" wbtag="section" title="
+Piecewise Defined Functions
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Piecewise Defined Functions
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="8" md5="54448402eacf3e9afce99522973983c8"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_ul environment="col_ul" chapter_type="" wbtag="col_ul"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+\[
+f(x) = \begin{cases}
+-x + 1 &amp; \text{ if } -2 \leq x &lt; 0\\
+3x &amp; \text{ if } 0 \leq x \leq 5
+\end{cases}
+\]
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+</paragraphs></col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+The </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="col_ul" chapter_type="" wbtag="paragraphs">absolute value function</paragraphs></xh:b><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+\[
+|x| = \begin{cases}
+-x  &amp; \text{ if } x &lt; 0\\
+x &amp; \text{ if } x \geq 0
+\end{cases}
+\]
+</paragraphs></col_li></col_ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="9" md5="72c748daec6478f9cbedb9147b386dfd"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Let $f: \mathbb{R} \longrightarrow \mathbb{R}$ be the function defined by:
+\[
+f(x) = -3x+4-|x+1|-|x-1|
+\]
+for any $x \in \mathbb{R}$.
+</paragraphs><xh:ol xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs"> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+Sketch the graph of the function $f$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+Is $f$ an injective function on $\mathbb{R}$? Justify your answer.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+What is the image of $\mathbb{R}$ under the function $f$?
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:ol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Solution.</paragraphs></xh:strong><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_ol environment="col_ol" chapter_type="" wbtag="col_ol"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs"> $f(x) = \displaystyle{\begin{cases}
+\begin{array}{lcl}
+-x+4  &amp; \mbox{if} &amp; x &lt; -1 \\
+-3x+2 &amp; \mbox{if} &amp; -1 \leq x &lt; 1\\
+-5x+4 &amp; \mbox{if} &amp; x \geq 1
+\end{array}
+\end{cases}}$
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:iframe src="https://www.desmos.com/calculator/bbwogysjpd?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs"> $f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\
+R}$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs"> The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$.
+</paragraphs></col_li></col_ol><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section><section environment="" chapter_type="" type="Section" wbtag="section" title="
+WeBWorK
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+WeBWorK
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><enumerate environment="enumerate" chapter_type="" wbtag="enumerate"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Rochester/setAlgebra15Functions/s0_1_18.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UBC/setLimits/matching.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs"> </paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_0.1/Question28a.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item></enumerate><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section><section environment="" chapter_type="" type="Section" wbtag="section" title="
+Even and Odd Functions
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Even and Odd Functions
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="10" md5="fc91cb5c4703e389f158d53abf8d3576"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Let $f$ be a real-valued function defined on real numbers.
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+It is said to be </paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">even</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:b style="display:none" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">even function</paragraphs></xh:b><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\[
+f(-x) = f(x).
+\]
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+It is said to be </paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">odd</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:b style="display:none" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">odd function</paragraphs></xh:b><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\[
+f(-x) = -f(x).
+\]
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="11" md5="03f02598b25ca3c0a869e335b0f52a0e"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_ol environment="col_ol" chapter_type="" wbtag="col_ol"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The polynomial $f(x) = x^4 + x^2 + 1$ is even,
+while the polynomial $g(x) = x^5 + x^3 + x$ is odd.
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The function $f(x) = \cos x$ is even, while $f(x) = \sin x$ is odd.
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The absolute value function is even.
+</paragraphs></col_li></col_ol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Fact" wbtag="fact" num="12" md5="5d25f9c4546fc425b7d93ef64f8944bc"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_ol environment="col_ol" chapter_type="" wbtag="col_ol"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The sum of two even (resp. odd) functions is even (resp. odd).
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The product of two even functions is even.
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The product of two odd functions is also even.
+</paragraphs></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+The product of an even function with an odd function is odd.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">
+For example, $f(x) = x \abs{x}$ is odd.
+</paragraphs></col_li></col_ol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs"/></slide></slides></section></chapter></course></root>

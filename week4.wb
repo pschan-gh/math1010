@@ -1,0 +1,317 @@
+@course{Math 1010}
+@week{4}
+@topic{Sandwich Theorem}
+@topic{Continuity}
+
+
+@section{
+Sandwich Theorem for Functions on the Real Line}
+@thm
+Let $a \in \mathbb{R}$,
+$A$ an open neighborhood of $a$ which does not necessarily contain $a$ itself.
+Let $f, g, h : A \longrightarrow\mathbb{R}$
+be functions such that:
+\[
+g(x) \leq f(x) \leq h(x)\quad\text{ for all } x \in A,
+\]
+and
+\[
+\displaystyle \lim_{x \rightarrow a}g(x) = \lim_{x\rightarrow a}h(x) = L.
+\]
+Then, $\displaystyle\lim_{x \rightarrow a} f(x) = L$.
+@end
+@slide
+Similary,
+@thm
+If $f, g, h$ are functions on $\mathbb{R}$ such that:
+\[
+g(x) \leq f(x) \leq h(x)
+\]
+for all $x$ sufficiently large, and
+\[
+\lim_{x \rightarrow \infty}g(x) =\lim_{x \rightarrow \infty}h(x) = L,
+\]
+then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$.
+@end
+@slide
+@ex
+Find the following limits, if they exist:
+<p/>
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$
+<hr/>
+</li>
+<li>
+$\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$
+</li></ul>
+@end
+
+
+@slide
+@thm
+\[
+\lim_{x \rightarrow 0} \frac{\sin x}{x} = 1.
+\]
+@end
+@cor
+@newcol
+\[
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2} = \frac{1}{2}\;.
+\]
+@endcol
+@end
+
+
+@slide
+@ex
+Find the following limits, if they exist:
+<p/>
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$
+<hr/>
+</li>
+<li>
+$\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$
+</li></ul>
+@end
+
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/Michigan/Chap1Sec8/Q05.pg}
+@item
+@webwork{Library/ASU-topics/setLimitConcepts/s1_3_19.pg}
+@item
+@webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.6_Trigonometric_Limits/2.6.34.pg}
+@item
+@webwork{Library/UCSB/Stewart5_2_6/Stewart5_2_6_35.pg}
+@item
+@webwork{Library/ASU-topics/setLimitInfinity/ur_lr_3_11.pg}
+@item
+@webwork{Library/UVA-Stew5e/setUVA-Stew5e-C02S03-CalcLimits/2-3-24.pg}
+@endenumerate
+
+@section{More Limit Identities}
+@defn
+For each $x \in \mathbb{R}$, we let:
+\[
+e^x = \sum_{k = 0}^\infty \frac{x^k}{k!}
+= 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots
+\]
+@end
+It is known that:
+\[
+e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
+\]
+
+
+@slide
+@thm
+\[
+\lim_{x \rightarrow \infty} \left(1 + \frac{1}{x}\right)^x
+= \lim_{x \rightarrow 0} (1 + x)^{\frac{1}{x}} = e
+\]
+@end
+@cor
+@newcol
+
+
+\[
+\lim_{x \rightarrow \infty} \left(1 - \frac{1}{x}\right)^x
+= \lim_{x \rightarrow 0} (1 - x)^{\frac{1}{x}}
+= \frac{1}{e}
+\]
+@endcol
+@end
+@ex
+@newcol
+Find:
+\[
+\lim_{x\rightarrow \infty} \left(\frac{x + 1}{x - 1}\right)^x
+\]
+@endcol
+@end
+
+
+@slide
+@thm
+For all $n \in \{1, 2, 3, \ldots\}$, we have:
+\[
+\lim_{x \rightarrow \infty} \frac{x^n}{e^x} = 0.
+\]
+@end
+@cor
+@newcol
+For all $n \in \{1, 2, 3, \ldots\}$, and $b > 1$, we have:
+\[
+\lim_{x \rightarrow \infty} \frac{x^n}{b^x} = 0.
+\]
+@endcol
+@end
+@slide
+@fact
+\[
+\lim_{x \rightarrow 0} \frac{\ln(1 + x)}{x} = 1.
+\]
+From this may be further deduced that:
+\[
+\lim_{t \rightarrow 0} \frac{e^t - 1}{t} = 1,
+\]
+by applying a change of variable:
+\[
+x = e^t - 1.
+\]
+@end
+@section{Continuity}
+@keyword*{continuous} 
+@defn
+A function $f : A \longrightarrow\mathbb{R}$ is said to be <strong>continuous</strong>
+at $c \in A$ if:
+\[
+\lim_{x\rightarrow c} f(x) = f(c).
+\]
+A function is said to be <strong>continuous</strong>
+if it is continuous at every point in its domain.
+@end
+@newcol
+Should $c$ be an endpoint in the domain of $f$,
+the continuity of $f$ at $c$ is defined in terms of a one-sided limit.
+<p/>
+That is, right limit if $c$ is a left endpoint,
+and left limit if $c$ is a right endpoint.
+<p/>
+@col
+Hence, the function:
+\[
+f(x) = \sqrt{x}
+\]
+is continuous at $x = 0$, since $\mathrm{Domain}(f) = [0, \infty)$, and:
+\[
+\lim_{x \rightarrow 0^+} f(x) =\;0\;= f(0).
+\]
+@endcol
+@slide
+The following "elementary functions"
+are continuous at every element in their domains:
+\[
+f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan,  e^x, \ln x, \arcsin x, \arccos x,
+\arctan x
+\]
+Due to the laws of sum/difference/product/quotient for limits,
+the sum/difference/product/quotient of continuous functions is also continous.
+<hr/>
+In particular, polynomials and rational functions are all continuous on their domains.
+@slide
+@thm
+for functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
+$f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
+\[
+\lim_{x \rightarrow a} f(g(x)) = f\left(\lim_{x\rightarrow a}g(x)\right).
+\]
+@end
+@newcol
+@eg
+It follows from this theorem that:
+\[
+\lim_{x \rightarrow 0} \frac{\ln(1 + x)}{x} = 1
+\]
+@end
+@endcol
+@slide
+It also follows from the previous theorem that any composite
+of continuous functions is continuous.
+@eg
+The following functions are all continuous,
+since they are the sums, differences, products, quotients,
+or composites of other continuous functions:
+\[
+\begin{split}
+f(x) &= \frac{e^{\cos\left(\frac{1}{x}\right)}}{x^7 - 9x^2 + 23}\\
+g(x) &= \frac{1}{\arctan{x}} -\sqrt[3]{\log_5\left(2^x + 1\right)}\\
+h(x) &= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
+\end{split}
+\]
+@end
+@slide
+@eg
+The following functions are continuous at every point on the real line:
+<p/>
+<ul>
+<li>
+\[
+g(x) = \begin{cases}
+\frac{\sin{x}}{x}\;, & x \neq 0;\\
+1, & x = 0;
+\end{cases}
+\]
+</li>
+<li>
+\[
+f(x) = \begin{cases}
+x^2\cos\left(\frac{1}{e^x - 1}\right), & x \neq 0;\\
+0, & x = 0;
+\end{cases}
+\]
+</li></ul>
+@end
+
+@slide
+@ex
+Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies:
+<ul>
+<li> $f(x+y)=f(x)f(y)$ for all $x,y\in\mathbb{R}$;
+</li>
+<li> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$.
+</li></ul>
+<hr/>
+@ol
+@li
+Show that $f(0)=1$.
+@li
+Show that $f(x)$ is continuous on $\mathbb{R}$.
+@endol
+@end
+
+@subsection{
+WeBWorK}
+@enumerate
+@item
+@webwork{Library/Union/setLimitContinuity/c1s5p5.pg}
+@item
+@webwork{Library/Union/setLimitContinuity/s1_5_38.pg}
+@item
+@webwork{Library/Union/setLimitContinuity/ur_lr_5_4.pg}
+@item
+@webwork{Library/maCalcDB/setLimitsRates5Continuity/ur_lr_5_5_mo.pg}
+@endenumerate
+
+@subsection{Further Properties of Continuous Functions}
+@thm
+@title{Intermediate value Theorem (IVT)}
+If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
+then $f$ attains every value between $f(a)$ and $f(b)$.
+<p/>
+In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
+and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$.
+@end
+@ex
+@newcol
+<ul>
+<li>
+Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$.
+</li>
+<li>
+Show that the range of $f(x) = e^x - \sqrt{x}$ <i>contains</i> $[1, \infty)$.
+</li></ul>
+@endcol
+@end
+@slide
+@thm
+@title{Extreme Value Theorem}
+@label{evt}
+If $f$ is a <u>continuous</u> function
+defined on a <u>closed</u> interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+@end

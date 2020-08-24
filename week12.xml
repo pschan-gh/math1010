@@ -1,0 +1,626 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">Integration by Parts</keyword>
+      <keyword chapter="" slide="all">proper rational function</keyword>
+      <keyword chapter="" slide="all">Unique Factorization of Real Polynomials</keyword>
+      <keyword chapter="" slide="all">Bzout's Identity</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title><keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="12" title="" topic="Indefinite Integrals, Reduction Formulas, Partial Fractions" course="Math 1010" serial="12">
+      <keywords slide="all" environ="chapter" chapter="12" course="Math 1010">
+        <keyword chapter="12" slide="all">Integration by Parts</keyword>
+        <keyword chapter="12" slide="all">proper rational function</keyword>
+        <keyword chapter="12" slide="all">Unique Factorization of Real Polynomials</keyword>
+        <keyword chapter="12" slide="all">Bzout's Identity</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="12" section="" subsection="" subsubsection="" serial="12" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Indefinite Integrals</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Reduction Formulas</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="12" section="" subsection="" subsubsection="" serial="12" slide="">Partial Fractions</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 1010" chapter="12" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Indefinite Integrals</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Reduction Formulas</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Partial Fractions</topic><keywords slide="2" environ="slide" chapter="12" course="Math 1010"/>
+
+
+
+</slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Reduction Formulas " course="Math 1010" chapter="12" num="1" serial="12.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="1" subsection="" subsubsection="" serial="12.1" slide="">
+Reduction Formulas
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s3" slide="3" course="Math 1010" chapter="12" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Reduction Formulas "><keywords slide="3" environ="slide" chapter="12" course="Math 1010"><keyword chapter="12" slide="3">Integration by Parts</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="3">
+Reduction Formulas
+</title>
+Let $\displaystyle n \in \mathbb{N}$.
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="3bc09525ab53959f8276e5ad137b4c47" course="Math 1010" chapter="12" slide="3" item="12.1">
+\[
+\underbrace{\int x^n e^x\,dx}_{I_n} = x^ne ^x - n \underbrace{\int x^{n - 1}e^x\,dx}_{I_{n - 1}}.
+\]
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="5d8b6a4f8421ec4b3de62d677114bdc7" course="Math 1010" chapter="12" slide="3" item="12.2">
+For $n \geq 2$,
+\[
+\int \cos^n x\, dx = \frac{1}{n}\,\cos^{n - 1} x \sin x
++ \frac{n - 1}{n}\int \cos^{n - 2} x\,dx.
+\]
+<newcol course="Math 1010" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Let $U = \cos^{n - 1} x$, $dV = \cos x \,dx$.
+Then:
+\[
+dU = -(n - 1)\cos^{n - 2} x \sin x\, dx, \quad V = \sin x.
+\]
+It follows from <xh:a xmlns:xh="http://www.w3.org/1999/xhtml" knowl="https://www.math.cuhk.edu.hk/~pschan/elephas/php/elephas_bare.php?wb=../content/math1010/t1_201819/week10.wb&amp;query=//slide[@slide=%2716%27]" environment="newcol"><xh:b environment="newcol">Integration by Parts</xh:b></xh:a> that:
+\[
+\begin{split}
+\int U\,dV
+&amp;= UV - \int V\,dU\\
+&amp;= \cos^{n - 1} x \sin x  + (n - 1) \int \sin^2 x \cos^{n - 2} x \, dx\\
+&amp;= \cos^{n - 1} x \sin x  + (n - 1) \int (1 - \cos^2 x) \cos^{n - 2} x \, dx\\
+&amp;= \cos^{n - 1} x \sin x  + (n - 1) \int \cos^{n - 2} x \, dx - (n - 1) \int \cos^n x \, dx
+\end{split}
+\]
+Hence:
+\begin{multline*}
+\left(1 + ( n - 1)\right) \int \cos^n x \,dx
+\\=
+\cos^{n - 1} x \sin x + (n - 1) \int \cos^{n - 2} x \, dx.
+\end{multline*}
+Dividing both sides of the equation by $n$, we obtain:
+\[
+\int \cos^n x \,dx = \frac{1}{n}\sin x \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
+\]
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="51913d30c883b538d66e60c92f6d31f2" course="Math 1010" chapter="12" slide="3" item="12.3">
+For $n \geq 2$,
+\[
+\int \sin^n x\, dx = -\frac{1}{n}\,\sin^{n - 1} x \cos x
++ \frac{n - 1}{n}\int \sin^{n - 2} x\,dx.
+\]
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="bc2f1c158f4b877115e9d05b492df2b0" course="Math 1010" chapter="12" slide="3" item="12.4">
+For $n \geq 3$,
+\[
+\int \sec^n x\,dx = \frac{1}{n - 1}\,\sec^{n - 2} x \tan x
++ \frac{n - 2}{n - 1}\,\int \sec^{n - 2} x \,dx.
+\]
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="f3b0b0a6bc23e81ed55cd64f1dbde6d8" course="Math 1010" chapter="12" slide="3" item="12.5">
+\[
+\int (\ln x)^n\,dx = x(\ln x)^n - n \int (\ln x)^{n - 1}\,dx.
+\]
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="12" num="2" serial="12.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="2" subsection="" subsubsection="" serial="12.2" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s4" slide="4" course="Math 1010" chapter="12" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="4" environ="slide" chapter="12" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="2" subsection="" subsubsection="" serial="" slide="4">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_50.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_42.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_49.pg"/>
+</item></enumerate>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Partial Fractions " course="Math 1010" chapter="12" num="3" serial="12.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" serial="12.3" slide="">
+Partial Fractions
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s5" slide="5" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Partial Fractions "><keywords slide="5" environ="slide" chapter="12" course="Math 1010"><keyword chapter="12" slide="5">proper rational function</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" serial="" slide="5">
+Partial Fractions
+</title><hc_keyword course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">proper rational function</hc_keyword>
+
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="f448b688d23495292f1b258d4ed95be0" course="Math 1010" chapter="12" slide="5" item="12.6">
+A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
+is said to be <xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">proper</xh:strong>
+if:
+\[
+\deg r &lt; \deg s.
+\]
+</statement>
+By performing long division of polynomials,
+any rational function $\displaystyle \frac{p}{q}$, where $p, q$ are polynomials, may be expressed
+in the form:
+\[
+\frac{p}{q} = g + \frac{r}{s},
+\]
+where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational function.
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Partial Fractions "><keywords slide="6" environ="slide" chapter="12" course="Math 1010"/>
+Let $\displaystyle \frac{r}{s}$ be a proper rational function.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+Factor $s$ as a product of powers of distinct irreducible factors:
+\[
+s = \cdots (x - a)^m \cdots
+(\underbrace{x^2 + bx + c}_{\text{irreducible}\\\text{i.e. } b^2 - 4c &lt; 0})^n \cdots.
+\]
+Then:
+<statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="7" md5="91baf885e3d214e57ec3f8faebe85b91" course="Math 1010" chapter="12" slide="6" item="12.7"><label course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="partialfractions" type="Fact"/>
+
+The proper rational function $\displaystyle \frac{r}{s}$ may be written as a sum of rational functions as follows:
+\begin{multline*}
+\frac{r}{s}\, = \cdots \\
++ \frac{A_1}{x - a} + \frac{A_2}{(x - a)^2} + \cdots + \frac{A_m}{(x - a)^m}
++ \cdots\\
++ \frac{B_1 x + C_1}{x^2 + bx + c} + \frac{B_2 x + C_2}{(x^2 + bx + c)^2}
++ \cdots  + \frac{B_n x + C_n}{(x^2 + bx + c)^n} \\
++ \cdots,
+\end{multline*}
+where the $A_i, B_i, C_i$ are constants.
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Partial Fractions "><keywords slide="7" environ="slide" chapter="12" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="92ea0043eb2c1081f6e22431c39030bd" course="Math 1010" chapter="12" slide="7" item="12.8">
+$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<newcol course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Performing long division for polynomials, we have:
+\[
+\begin{split}
+\int \frac{\left(x^3-x-2\right)}{x^2-2x}dx
+&amp;= \int (x + 2) dx + \int \frac{3x - 2}{x^2 - 2x} dx\\
+&amp;= \frac{1}{2}x^2 + 2x + \int \frac{3x - 2}{x^2 - 2x} dx.
+\end{split}
+\]
+To evaluate:
+\[
+\int \frac{3x - 2}{x^2 - 2x} dx,
+\]
+we first observe that the integrand is a proper rational function.
+Moreover, the denominator factors as follows:
+\[
+x^2 - 2x = x (x - 2).
+\]
+Hence, by  <ref environment="newcol" chapter_type="" label="partialfractions" name="" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="6" type="Fact" item="12.7" src-filename="week12.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="knowl" serial=""><title>Fact 12.7</title></ref>, we have:
+\[
+\frac{3x - 2}{x^2 - 2x}
+=
+\frac{A}{x} + \frac{B}{x - 2},
+\]
+for some constants $A$ and $B$.
+Clearing denominators, we see that the equation above holds if and only if:
+\[
+3x - 2 = A(x - 2) + Bx.
+\tag{$\ast$}
+\]
+Letting $x = 2$, we have:
+\[
+3 \cdot  2 - 2 = B \cdot 2,
+\]
+which implies that $B = 2$.
+Similarly, letting $x = 0$ in equation $(\ast)$
+gives:
+\[
+-2 = -2 A,
+\]
+which implies that $A = 1$.
+Hence:
+\[
+\begin{split}
+\int \frac{3x - 2}{x^2 - 2x} dx
+&amp;= \int \left( \frac{1}{x} + \frac{2}{x - 2} \right) dx\\
+&amp;= \ln \abs{x} + 2\ln\abs{x - 2} + C,
+\end{split}
+\]
+where $C$ represents an arbitrary constant.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+We conclude that:
+\begin{multline*}
+\int \frac{\left(x^3-x-2\right)}{x^2-2x} dx
+=
+\frac{1}{2}x^2 + 2x + \ln \abs{x} + 2\ln\abs{x - 2} + C.
+\end{multline*}
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="9700c0a8dbb6337882a449b17e26af47" course="Math 1010" chapter="12" slide="7" item="12.9">
+$\displaystyle \int \frac{x}{(x^2 + 4)(x - 3)}\,dx$<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<newcol course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+First we note that the integrand is a proper rational function.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+The quadratic factor $x^2 + 4$
+has discriminant $0^2 - 4\cdot 4 &lt; 0$, hence it is irreducible.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+By  <ref environment="newcol" chapter_type="" label="partialfractions" name="" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="6" type="Fact" item="12.7" src-filename="week12.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="knowl" serial=""><title>Fact 12.7</title></ref>, we have:
+\[
+\frac{x}{(x^2 + 4)(x - 3)}
+=
+\frac{Ax + B}{x^2 + 4} + \frac{C}{x - 3},
+\]
+for some constants $A, B$ and $C$.
+Clearing denominators, the equation above holds if and only if:
+\[
+x = (Ax + B)(x - 3) + C(x^2 + 4)
+\tag{$\ast$}
+\]
+Letting $x = 3$, we have:
+\[
+3 = C\cdot 13,
+\]
+which implies that $C = 3/13$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Letting $x = 0$, we have:
+\[
+0 = -3B + 4C,
+\]
+which implies that $B = (4/3)C = 4/13$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Finally, viewing each side of equation $(\ast)$ as polynomials and comparing
+the coefficients of $x^2$ on each side, we have:
+\[
+0 = A + C,
+\]
+which implies that $A = -C = -3/13$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Hence:
+\[
+\begin{split}
+&amp;\int \frac{x}{(x^2 + 4)(x - 3)}\,dx\\
+&amp;=
+\frac{1}{13} \int \frac{-3x + 4}{x^2 + 4}\,dx
++
+\frac{3}{13} \int \frac{1}{x - 3}\,dx\\
+&amp;=
+\frac{1}{13}
+\left(
+\frac{-3}{2}\int \frac{1}{x^2 + 4}\,d(x^2 + 4)
++
+\int \frac{1}{(x/2)^2 + 1} \,dx
+\right.\\
+&amp;\quad \left. +
+3 \int \frac{1}{x - 3}\,dx
+\right)\\
+&amp;=
+\frac{1}{13}
+\left(
+\frac{-3}{2}\ln\abs{x^2 + 4}
++
+2\arctan(x/2)
++
+3 \ln\abs{x - 3}\right)
++ D,
+\end{split}
+\]
+where $D$ represents an arbitrary constant.
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="ea373c49db6a710013cbea63bb2d728c" course="Math 1010" chapter="12" slide="7" item="12.10">
+$\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx$<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<newcol course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+First, we observe that:
+\[
+\frac{x^3}{(x^2 + x + 1)(x - 3)^2}
+\]
+is a proper rational function.
+Moreover, since the discriminant of $x^2 + x + 1$ is $1^2 - 4 &lt; 0$, this quadratic factor is irreducible.
+So, there exist constants $A, B, C, D$ such that:
+\[
+\frac{x^3}{(x^2 + x + 1)(x - 3)^2}
+=
+\frac{Ax + B}{x^2 + x + 1} + \frac{C}{x - 3} + \frac{D}{(x - 3)^2}.
+\]
+The equation above holds if and only if:
+\[
+\begin{split}
+x^3 &amp;= (Ax + B)(x - 3)^2 + C(x^2 + x + 1)(x - 3) \\
+&amp;+ D(x^2 + x + 1).
+\end{split}
+\tag{$\ast$}
+\]
+Letting $x = 3$, we have:
+\[
+27 = 13D.
+\]
+So, $ D = 27/13 $.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+To find $A, B$ and $C$, we view each side of the equation $(\ast)$
+as polynomials, then compare the coefficients
+of the $x^3, x^2, x$ and constant terms respectively:
+\begin{align}
+x^3: &amp; \quad &amp; 1 &amp;= A + C \label{eq3}\\
+x^2: &amp; \quad &amp; 0 &amp;= -6A + B - 2C + 27/13 \label{eq2}\\
+x: &amp; \quad &amp; 0   &amp;= 9A -6B - 2C + 27/13 \label{eq1} \\
+1: &amp; \quad &amp; 0 &amp;= 9B -3C  + 27/13 \label{eq0}
+\end{align}
+Subtracting equation \eqref{eq2} from equation \eqref{eq1}, we have:
+\[
+0 = 15A - 7B,
+\]
+which implies that $B = 15A/7$.
+Combining this with equation \eqref{eq3}, we have:
+\[
+B = 15(1 - C)/7 = 15/7 - 15C/7.
+\]
+It now follows from equation \eqref{eq0} that:
+\[
+0 = 135/7 - 135C/7 - 3C + 27/13.
+\]
+Hence:
+\[
+\begin{split}
+C &amp;= \frac{162}{169}\\
+B &amp;= \frac{15}{169}\\
+A &amp;= \frac{7}{169}\\
+D &amp;= \frac{27}{13}.
+\end{split}
+\]
+We have:
+\begin{multline*}
+\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
+\\=
+\int \left[ \frac{7x+15}{169\left(x^2+x+1\right)}
++\frac{162}{169\left(x-3\right)}
++\frac{27}{13\left(x-3\right)^2}
+\right] dx
+\end{multline*}
+\begin{multline*}
+=
+\int \frac{7x+15}{169\left(x^2+x+1\right)} dx
+\\
++ \frac{162}{169} \int \frac{1}{\left(x-3\right)} dx
++ \frac{27}{13} \int \frac{1}{\left(x-3\right)^2} dx
+\end{multline*}
+To evaluate $\int \frac{7x+15}{169\left(x^2+x+1\right)} dx$, we first rewrite the integral as follows:
+\[
+\int \frac{7x+15}{169\left(x^2+x+1\right)} dx
+= \frac{1}{169} \int
+\frac{7x + 7/2 - 7/2 +15}{x^2+x+1} dx
+\]
+\[
+=
+\frac{1}{169}\left[
+\frac{7}{2}\underbrace{\int \frac{2x + 1}{x^2 + x + 1} dx}_{\int \frac{1}{x^2 + x + 1}d(x^2 + x + 1)}
++
+\frac{23}{2}\underbrace{\displaystyle\int \frac{1}{(x + 1/2)^2 + 3/4} dx}_{\frac{4}{3}\int \frac{1}{\left((2x + 1)/\sqrt{3}\right)^2 + 1} dx}
+\right]
+\]
+\[
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23\cdot 2}{169\cdot 3} \frac{\sqrt{3}}{2}\arctan\left((2x + 1)/\sqrt{3}\right) + E
+\]
+\[
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23}{169\sqrt{3}}\arctan\left((2x + 1)/\sqrt{3}\right) + E,
+\]
+where $E$ represents an arbitrary constant.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+It now follows that:
+\begin{multline*}
+\int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
+\\
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23}{169\sqrt{3}}\arctan\left((2x + 1)/\sqrt{3}\right) \\
++ \frac{162}{169} \ln \abs{x - 3} - \frac{27}{13} \frac{1}{x - 3} + E.
+\end{multline*}
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="cc9f958deb9eb8f349ac668f2820609d" course="Math 1010" chapter="12" slide="7" item="12.11">
+$\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="12" num="4" serial="12.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="4" subsection="" subsubsection="" serial="12.4" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s8" slide="8" course="Math 1010" chapter="12" section="4" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="8" environ="slide" chapter="12" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="4" subsection="" subsubsection="" serial="" slide="8">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setIntegrals25RationalFunctions/S07.04.PartialFractions.PTP15.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setIntegrals25RationalFunctions/osu_in_25_9d.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartET/s_7_4_prob02.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setIntInverseTrigSub/an8_4_09.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma123DB/set3/s7_4_19.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_35.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_13.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ASU-topics/setCalculus/stef/stef7_4p2.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_24.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_5/Stewart5_7_5_26.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_43.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_37.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_38.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_45.pg"/>
+</item><item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_4/Stewart5_7_4_39.pg"/>
+</item></enumerate>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" How Does Partial Fractions Decomposition Work " course="Math 1010" chapter="12" num="5" serial="12.5">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="12.5" slide="">
+How Does Partial Fractions Decomposition Work?
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s9" slide="9" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" chapter_title="" section_title=" How Does Partial Fractions Decomposition Work "><keywords slide="9" environ="slide" chapter="12" course="Math 1010"><keyword chapter="12" slide="9">Unique Factorization of Real Polynomials</keyword><keyword chapter="12" slide="9">Bzout's Identity</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">
+How Does Partial Fractions Decomposition Work?
+</title>
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">
+This section is optional.  You don't have to study it for Math 1010.
+</xh:strong>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" title="Unique Factorization of Real Polynomials" md5="d16fb3accfdcceb1bc393e9659417717" course="Math 1010" chapter="12" slide="9" item="12.12">
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Unique Factorization of Real Polynomials</title><label course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:ufd" type="Theorem"/>
+
+<newcol course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Given any polynomial $f \in \mathbb{R}[x]$,
+that is:
+\[
+f = a_0 + a_1 x + ... + a_n x^n,\quad a_i \in \mathbb{R},
+\]
+There are distinct irreducible polynomials, $p_1, p_2, \ldots, p_l$ in $\mathbb{R}[x]$ , of degree at most 2,
+such that:
+\[
+f = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l}
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.  Up to ordering of the irreducible factors, this factorization is unique.
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="Bzout's Identity" md5="08893ed5b29692d555cd3dceca8f857d" course="Math 1010" chapter="12" slide="9" item="12.13">
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title><label course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:bezout" type="Theorem"/>
+
+<newcol course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+If $f$ and $g$ are two irreducible polynomials in $\mathbb{R}[x]$ with no common factors, then there exist $a, b\in \mathbb{R}[x]$ such that:
+\[
+af + bg = 1
+\]
+</newcol>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" chapter_title="" section_title=" How Does Partial Fractions Decomposition Work "><keywords slide="10" environ="slide" chapter="12" course="Math 1010"/>
+Suppose we have a rational function $\frac{p}{q}$,
+where $p, q \in \mathbb{R}[x]$ have no common factors,
+and $\deg p &lt; \deg q$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<newcol course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+By <ref environment="newcol" chapter_type="" label="thm:ufd" name="" wbtag="ref" course="Math 1010" chapter="12" slide="10" src-course="Math 1010" src-chapter="12" src-slide="9" type="Theorem" item="12.12" src-filename="week12.xml" md5="d16fb3accfdcceb1bc393e9659417717" class="knowl" serial=""><title>Unique Factorization of Real Polynomials</title></ref>, there are distinct irreducible polynomials $q_1, q_2,\ldots, q_l$, of degree at most 2, such that:
+\[
+q = q_1^{n_1}q_2^{n_2}\cdots q_{l}^{n_l},
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Since the polynomial $q_1^{n_1}$ has no common factors with $q_2^{n_2}\ldots q_{l}^{n_{l}}$, by <ref environment="newcol" chapter_type="" label="thm:bezout" name="" wbtag="ref" course="Math 1010" chapter="12" slide="10" src-course="Math 1010" src-chapter="12" src-slide="9" type="Theorem" item="12.13" src-filename="week12.xml" md5="08893ed5b29692d555cd3dceca8f857d" class="knowl" serial=""><title>Bézout's Identity</title></ref> there exist polynomials $f, g$ such that:
+\[
+f\cdot\left(q_2^{n_2}\cdots q_l^{n_{l}}\right) + gq_{1}^{n_1} = 1.
+\]
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence,
+<steps course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\begin{align*}
+\frac{p}{q} &amp;= \frac{p\cdot 1}{q}
+\\&amp;
+\class{steps1 steps step0}{=
+\frac{p(fq_2^{n_2}\cdots q_l^{n_{l}} + gq_{1}^{n_1})}{q_1^{n_1}q_{2}^{n_{2}}\cdots q_1^{n_l}}
+}
+\\
+&amp;
+\class{steps1 steps step1}{=
+\frac{pf}{q_1^{n_1}}
++
+\frac{pg}{q_{2}^{n_{2}}\cdots q_l^{n_l}}
+}
+\end{align*}
+</steps>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Consider now the term: $\ds \frac{pf}{q_1^{n_1}}$.
+By the Divison Algorithm for real polynomials,
+we have:
+\[
+pf = aq_1 + r
+\]
+for some real polynomials $a, r$ such that $\deg r &lt; \deg q_1$.
+Hence,
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+\[
+\frac{pf}{q_1^{n_1}} 
+= \frac{aq_1 + r}{q_1^{n_1}}
+= \frac{a}{q_1^{n_1 -1}} + \frac{r}{q_1^{n_1}}
+\]
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+By the same reasoning, we have:
+\[
+\frac{a}{q_1^{n_1 - 1}} = \frac{b}{q_1^{n_1 -2}} + \frac{s}{q_1^{n_1 - 1}}
+\]
+for some polynomials $b, s$ such that $\deg s &lt; \deg q_1$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Repeating this process, eventually we have:
+\[
+\frac{pf}{q_1^{n_1}}
+=
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1,
+\]
+where $\deg r_i &lt; \deg q_1$, and $a_1$ is some polynomial.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+We now have:
+\[
+\frac{p}{g} =
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1
++
+\frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}.
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Repeating the process for the term: $\ds \frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}$, and then for all subsequent resulting terms of similar forms,
+we have:
+\begin{equation}
+\label{eq:1}
+\frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j} + h,
+\end{equation}
+where $\deg r_{kj} &lt; \deg q_k$, and $h$ is some polynomial in $\mathbb{R}[x]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+We claim that $h = 0$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Multiplying both sides of equation $\eqref{eq:1}$ by the polynomial $q$, 
+we have:
+\begin{equation}
+\label{eq:2}
+p = \sum_{k = 1}^l \sum_{j = 1}^{n_k} r_{kj}\cdot\frac{q}{q_k^j} + hq
+\end{equation}
+Since every $q_k^j$ in the sum divides $q$, 
+each $\frac{q}{q_k^j}$ is a polynomial.
+So, the equation above is an equality between polynomials.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+By assumption, $\deg p &lt; \deg q$.  On the other hand, each term:
+\[
+r_{kj}\cdot\frac{q}{q_k^j}
+\]
+has degree strictly less than $q$, since $\deg r_{kj} &lt; \deg q_k$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+So, if $h \neq 0$, then the right-hand side of equation $\eqref{eq:2}$ has degree
+$\deg h + \deg q \geq \deg q &gt; \deg p$, contradicting the equality of the two sides.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Hence, $h = 0$.  It follows that:
+\[
+\frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j}
+\]
+</collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></collapse></newcol></slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

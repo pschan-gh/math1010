@@ -1,0 +1,61 @@
+<html xml:lang="en" lang="en" xmlns="http:/www.w3.org/1999/xhtml">
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          skipStartupTypeset: false,
+          tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+    	processEnvironments: true,
+    	processEscapes: true,
+    	ignoreClass: "tex2jax_ignore"
+          },
+          TeX: {equationNumbers: {autoNumber: "ams"}}
+        });
+    </script>
+<style>
+body {
+font-size:14pt;
+}
+</style>
+</head>
+<div id="graph" style="width:640px;height:400px;">
+<img class="exempt" style="width:640px;height:400px;position:absolute;top:0;left:0;" src="riemann/riemann.svg"> 
+  <div style="position:absolute;top:323px;left:90px;">$0$</div>
+  <div style="position:absolute;top:323px;left:315px;">$1$</div>
+  <div style="position:absolute;top:323px;left:530px;">$2$</div>
+  <div style="position:absolute;top:50px;left:135px;">
+    \[
+    y = f(x) = x^2 - x + 1
+    \]
+    \[
+    [a, b] = [0, 2]
+    \]
+  </div>
+  <img id="rects" class="exempt" style="position:absolute;left:0;top:3;width:640px;height:400px;" src="riemann/rects2.svg">
+</div>
+<link rel="stylesheet" href="slider.css" media="all">
+<div style="width:100%;text-align:center;">
+  <input id="lrs_slider" style="margin-left:0em;width:540px" type="range" min="2" max="20" value="2" step="1" oninput="showRiemann(this.value)"/>
+</div>
+<div style="position:relative;width:640px;height:15em;text-align:center;margin-top:2em;">
+  <div style="position:absolute;width:640px;height:100%;text-align:center;overflow-x:auto">
+    <div id="samples" style="width:100%;">
+  </div>	    
+    <div style="clear:left" id="riemann_math">
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="riemann2.js"></script>
+<script>
+$('input[type="range"]').on('input', function () {
+    var val = ($(this).val() - $(this).attr('min')) / ($(this).attr('max') - $(this).attr('min'));
+    $(this).css('background-image',
+                '-webkit-gradient(linear, left top, right top, '
+                + 'color-stop(' + val + ', #6887a9), '
+                + 'color-stop(' + val + ', #efefef)'
+                + ')'
+               );
+});
+</script>

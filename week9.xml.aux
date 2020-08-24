@@ -1,0 +1,696 @@
+<root xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" xmlns:xh="http://www.w3.org/1999/xhtml"><course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010"><title environment="title" chapter_type="" wbtag="course" scope="course">Math 1010</title><slides environment="" chapter_type=""><slide environment="" chapter_type="" course="Math 1010" title="Math 1010"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides><chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="L&apos;H&amp;ocircpital&apos;s Rule, Taylor Series"><title environment="title" chapter_type="" wbtag="week" scope="chapter"/><topic environment="" chapter_type="" scope="chapter">L'H&amp;ocircpital's Rule</topic><topic environment="" chapter_type="" scope="chapter">Taylor Series</topic><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+
+
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="1" title="Cauchy&apos;s Mean Value Theorem" md5="88b4fa31b19d0d6154f41a045e07612a"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="statement">Cauchy's Mean Value Theorem.</title><label environment="statement" chapter_type="" wbtag="label" name="cauchymvt" type="Theorem"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+
+If $f, g : [a, b] \longrightarrow\mathbb{R}$ are functions which are continuous on $[a, b]$
+and differentiable on $(a, b)$, and $g(a) \neq g(b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+\frac{f'(c)}{g'(c)} = \frac{f(b) - f(a)}{g(b) - g(a)}
+\]
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="1c3794a886343cb6476d9bd016d2bafa"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Exercise.</paragraphs></xh:strong><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Apply Rolle's Theorem to:
+\[
+h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
+\]
+</paragraphs></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:img width="512" alt="Cauchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">L'Hopital's Rule</hc_keyword><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+
+</paragraphs><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="2" md5="b2de4233ba93fec7b60a48b62d957d98"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">L'H&amp;ocircpital's Rule.</paragraphs></xh:strong><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
+Let $f, g$ be functions which are differentiable at every point in
+$(a, c) \cup (c, b)$.
+Suppose:
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim_{x \rightarrow c}f(x)$
+and $\displaystyle \lim_{x \rightarrow c}g(x)$ are both equal to $0$
+or both equal to $\pm \infty$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs"> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+(&amp;bull; $g'(x) \neq 0$ for all $x \neq c$ in $I$.)
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Then,
+\[
+\ds
+\lim_{x\rightarrow c} \frac{f(x)}{g(x)} = \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}\;.
+\]
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="df47a045aef454572d1491a9b433dc29"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+(Sketch)
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+We consider the special case where:
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+$f$ and $g$ are continuous at $x = c$.
+</paragraphs></xh:li></xh:ul><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+For such functions $f, g$, we have:
+\[
+f(c) = g(c) = 0.
+\]
+Hence:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\frac{f(x)}{g(x)} = \frac{f(x) - f(c)}{g(x) - g(c)}
+= \frac{f'(t_x)}{g'(t_x)}
+\]
+for some $t_x$ between $c$ and $x$ by Cauchy's Mean Value Theorem.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+As $x$ approaches $c$, the element $t_x$ lying between $x$ and $c$ must also
+approach $c$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence,
+if the limit $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists,
+then intuitively it follows that:
+\[
+\begin{split}
+\lim_{x \rightarrow c} \frac{f(x)}{g(x)}
+&amp;=
+\lim_{t_x \rightarrow c} \frac{f'(t_x)}{g'(t_x)}\\
+&amp;=
+\lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
+\end{split}
+\]
+(</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Optional Exercise</paragraphs></xh:strong><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">:
+To prove the above equality rigorously, one could, for example, apply the
+</paragraphs><xh:a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+sequential criterion for the limit of a function</paragraphs></xh:a><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">.
+)
+</paragraphs></collapse></collapse></collapse></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides><section environment="" chapter_type="" type="Section" wbtag="section" title="
+Indeterminate Forms
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Indeterminate Forms
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$\frac{0}{0}$
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$\frac{\infty}{\infty}$
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$0\cdot\infty$
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$\infty - \infty$
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$0^0$
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$\infty^0$
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+$1^\infty$
+</paragraphs></xh:li></xh:ul><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Here, for example, $1^\infty$ represents the situation
+$\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
+and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Hence, the following limit corresponds to the indeterminate form $1^\infty$:
+\[
+\displaystyle \lim_{x \rightarrow \infty}\left(1 + \frac{1}{x}\right)^{x}.
+\]
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="3" md5="c7424b92e79c6c7be67be40aa145fa7c"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Use l'H&amp;ocircpital's rule to evaluate the following limits:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:ol xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Solution.</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\begin{split}
+\lim_{x \rightarrow 0} \left(e^x - 1 - x - \frac{x^2}{2}\right) &amp;= 0.\\
+\lim_{x \rightarrow 0} x^3 &amp;= 0.
+\end{split}
+\]
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps1"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\begin{align*}
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x - \frac{x^2}{2}\right)'}{\left(x^3\right)'}
+&amp;=
+\class{steps1 steps step0}{\lim_{x\rightarrow 0} \frac{e^x - 1 - x}{3x^2} \quad \left(\rightarrow \frac{0}{0}\right)}\\
+\class{steps1 steps step1}{\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x\right)'}{\left(3x^2\right)'}}
+&amp;
+\class{steps1 steps step2}{=\lim_{x\rightarrow 0} \frac{e^x - 1}{6x}}\\
+&amp;
+\class{steps1 steps step3}{=\frac{1}{6}\lim_{x\rightarrow 0} \frac{e^x - 1}{x}}\\
+&amp;
+\class{steps1 steps step4}{= \frac{1}{6}}
+\end{align*}
+</paragraphs></steps><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence, by l'H&amp;ocircpital's rule,
+\[
+\begin{split}
+\lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}
+&amp;=
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x - \frac{x^2}{2}\right)'}{\left(x^3\right)'}\\
+&amp;=
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x\right)'}{\left(3x^2\right)'}\\
+&amp;=
+\frac{1}{6}
+\end{split}
+\]
+</paragraphs></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Solution.</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+(This limit corresponds to the indeterminate form $0^0$.)
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+For $x &gt; 0$, we have $x = e^{\ln x}$.  Hence,
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}
+=
+\lim\limits_{x\to 0^+}e^{\left(\frac{1}{1+\ln x}\right)\ln x}
+=
+e^{\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}}
+\]
+The last equality holds because $f(x) = e^x$ is a continuous function.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The limit $\displaystyle \lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}$
+corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is </paragraphs><xh:i xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">possible</paragraphs></xh:i><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+in this case to apply l'Hopital's rule to help find the limit.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps2"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\begin{align*}
+\lim_{x \rightarrow 0^+}\frac{(\ln x)'}{(1+\ln x)'}
+&amp;= \lim_{x \rightarrow 0^+}\frac{\frac{1}{x}}{\frac{1}{x}}\\
+&amp; \class{steps2 steps step0}{= \lim_{x \rightarrow 0^+}\frac{x}{x}}\\
+&amp; \class{steps2 steps step1}{= 1}
+\end{align*}
+</paragraphs></steps><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+By l'Hopital's rule, it now follows that:
+\[
+\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x} = 1.
+\]
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence,
+\[
+\begin{split}
+\lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}
+&amp;= e^{\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}} \\
+&amp;= e^{1}\\
+&amp;= e.
+\end{split}
+\]
+</paragraphs></collapse></collapse></collapse></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Solution.</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+(This limit corresponds to the indeterminate form $\infty\cdot 0$.)
+Rewrite the limit as follows:
+\[
+\lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)
+=
+\lim\limits_{x\to +\infty}\frac{\dfrac{\pi}{2}-\tan^{-1}x}{\frac{1}{x}}
+\quad\left(\rightarrow\frac{0}{0}\right).
+\]
+Now, compute:
+</paragraphs><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps3"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\begin{align*}
+\lim\limits_{x\to +\infty}\frac{\left(\dfrac{\pi}{2}-\tan^{-1}x\right)'}{\left(\frac{1}{x}\right)'}
+&amp;=
+\lim\limits_{x\to +\infty}\frac{-\frac{1}{1 + x^2}}{-\frac{1}{x^2}}\\
+&amp; \class{steps3 steps step0}{=\lim\limits_{x\to +\infty}\frac{x^2}{1 + x^2}}\\
+&amp; \class{steps3 steps step1}{=\lim\limits_{x\to +\infty}\frac{1}{\left(1 + \frac{1}{x^2}\right)}}\\
+&amp; \class{steps3 steps step2}{= 1}
+\end{align*}
+</paragraphs></steps><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence, by l'Hopital's rule,
+\[
+\lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right) = 1.
+\]
+</paragraphs></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Solution.</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+(This limit corresponds to the indeterminate form $\infty^0$.)
+We have:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps4"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\begin{align*}
+\lim\limits_{x\to +\infty} (e^x+x)^{\frac{1}{x}}
+&amp;=
+\lim\limits_{x\to +\infty} \left(e^{\ln(e^x+x)}\right)^{\frac{1}{x}}\\
+&amp; \class{steps4 steps step0}{= \lim\limits_{x\to +\infty} e^{\frac{\ln(e^x+x)}{x}}}\\
+&amp; \class{steps4 steps step1}{= e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}}}
+\end{align*}
+</paragraphs></steps><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The limit $\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}$
+corresponds to the indeterminate form $\frac{\infty}{\infty}$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps5"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\begin{align*}
+\lim\limits_{x\to +\infty} \frac{\left(\ln(e^x+x)\right)'}{(x)'}
+&amp;=
+\class{steps5 steps step0}{\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}}
+\\&amp;
+\class{steps5 steps step1}{
+= \lim\limits_{x\to +\infty}
+\frac{{e^x}\left(1 + \frac{1}{e^x}\right)}{{e^x}\left(1 + \frac{x}{e^x}\right)}
+}
+\\&amp;
+\class{steps5 steps step2}{
+= \lim\limits_{x\to +\infty}
+\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}
+}\\
+&amp; \class{steps5 steps step3}{= 1.}
+\end{align*}
+</paragraphs></steps><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence, by l'Hopital's rule,
+\[
+\begin{split}
+\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}
+&amp;=
+\lim\limits_{x\to +\infty} \frac{\left(\ln(e^x+x)\right)'}{(x)'}\\
+&amp;=
+\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}\\
+&amp;= 1.
+\end{split}
+\]
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+It now follows that:
+\[
+\lim\limits_{x\to +\infty} (e^x+x)^{\frac{1}{x}}
+= e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}} = e^1 = e.
+\]
+</paragraphs></collapse></collapse></collapse></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Solution.</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+(This limit corresponds to the indeterminate form $\frac{0}{0}$.)
+Note that $\cot x = \dfrac{\cos x}{\sin x}$.
+Rewrite the limit as follows:
+\[
+\lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}
+=
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x\sin^2 x}
+\quad \left(\rightarrow\frac{0}{0}\right)
+\]
+One's first instinct might be to differentiate both numerator
+and denominator right away.
+But this seems unwise,
+since, looking further down the road, we would have to deal with an indeterminate
+form whose denominator is $(x \sin^2 x)' = 2x \sin x\cos x + \sin^2 x$.
+Repeating the differentiation of the numerator and denominator would
+only make the expression more and more complicated.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+A cleverer way would be to rewrite the limit as follows:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x\sin^2 x}
+=
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}\cdot\frac{x^2}{\sin^2 x}.
+\]
+This is motivated by the observation that $\sin^2 x$ is very close to $x^2$
+when $x$ is close to $0$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+First, we have:
+\[
+\lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x}
+= \left(\lim_{x \rightarrow 0} \frac{x}{\sin x}\right)^2 = 1.
+\]
+The limit $\displaystyle \lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}$
+corresponds to the indeterminate form $\frac{0}{0}$.
+Differentiating both numerator and denominator, we have:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps6"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\begin{align*}
+\lim\limits_{x\to 0}\dfrac{(\sin x-x\cos x)'}{\left(x^3\right)'}
+&amp;= \lim\limits_{x\to 0}\dfrac{\cos x + x\sin x - \cos x}{3x^2}\\
+&amp; \class{steps6 steps step0}{= \lim\limits_{x\to 0}\dfrac{x\sin x}{3x^2}}\\
+&amp; \class{steps6 steps step1}{= \lim\limits_{x\to 0}\dfrac{\sin x}{3x}}\\
+&amp; \class{steps6 steps step2}{= \frac{1}{3}.}
+\end{align*}
+</paragraphs></steps><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence, by l'Hopital's rule we have:
+\[
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}
+= \lim\limits_{x\to 0}\dfrac{(\sin x-x\cos x)'}{\left(x^3\right)'}
+= \frac{1}{3}.
+\]
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+It now follows that:
+\[
+\begin{split}
+\lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}
+&amp;=\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}
+\cdot \lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x}\\
+&amp;= \frac{1}{3}\cdot{1}\\
+&amp;= \frac{1}{3}.
+\end{split}
+\]
+</paragraphs></collapse></collapse></collapse></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li></xh:ol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="4"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><enumerate environment="enumerate" chapter_type="" wbtag="enumerate"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/ma122DB/set8/s4_4_19.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_4_5_44.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UCSB/Stewart5_4_4/Stewart5_4_4_14.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/FortLewis/Calc1/04-07-LHopitals-rule/HGM5-04-07-LHopitals-rule-31.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/AlfredUniv/anton8e/chapter4/4.4/prob3.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UCSB/Stewart5_4_4/Stewart5_4_4_48.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UCSB/Stewart5_4_4/Stewart5_4_4_31.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Rochester/setDerivatives21LHospital/osu_dr_21_6.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Rochester/setDerivatives21LHospital/osu_dr_21_21.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item></enumerate><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">Important Note.</paragraphs></xh:strong><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
+and $\displaystyle \lim_{x \rightarrow c} \frac{f'(x)}{g'(x)}$ does not exist,
+it </paragraphs><xh:i xmlns="http://www.w3.org/1999/xhtml" environment=""><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">DOES NOT</paragraphs></xh:strong></xh:i><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="5" md5="3504033b673782967d6500d72047af9b"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+\[
+\lim_{x \rightarrow \infty} \frac{x + \sin x}{x}
+\]
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">Taylor polynomial</hc_keyword><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="6" md5="e4eac67321db8e874e559cbc24946688"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Given a function $f$ which is $n$ times differentiable at $a$.
+The </paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</paragraphs></xh:strong><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+is:
+\[
+P(x) = \sum_{k = 0}^n \frac{f^{(k)}(a)}{k!} (x - a)^k.
+\]
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Observe that:
+\[
+P^{(k)}(a) = f^{(k)}(a),
+\]
+for $k = 0, 1, 2, \ldots, n$.
+</paragraphs></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="7" md5="294911d1d072c51211ba0992f2b14484"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+The Taylor polynomials at $a = 0$ for various functions $f$
+are as follows:
+</paragraphs><xh:table class="table-hover table table-striped table-bordered" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:thead class="thead-default" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:th xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$f(x)$</paragraphs></xh:th><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:th xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$P(x)$</paragraphs></xh:th><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:thead><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\cos x$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\sin x$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$e^x$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\ln(1 + x)$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:table><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
+at $x = 0$ both have degree $5$.
+Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$.
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank" xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$.
+</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank" xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$.
+</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li></xh:ul><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="8" md5="b551b7ed906e413f7f5ffc542364a4de"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+(</paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Taylor's Formula</paragraphs></xh:b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">)
+Let $n$ be a positive integer, and $a \in \mathbb{R}$.
+Let $f$ be a function which is $n + 1$ times differentiable on an open interval $I$
+containing $a$.
+Let:
+\[
+\begin{split}
+\displaystyle P_n(x) &amp;= \sum_{k = 0}^n\frac{f^{(k)}(a)}{k!}(x - a)^k\\
+&amp;= f(a) + f'(a)(x - a) + \frac{f^{(2)}(a)}{2!}(x - a)^2 + \frac{f^{(3)}(a)}{3!}(x - a)^3\\ &amp;\quad + \ldots + \frac{f^{(n)}(a)}{n!}(x - a)^n
+\end{split}
+\]
+be the $n$-th Taylor polynomial of $f$ at $a$.
+Then, for any $x \in I$, we have:
+\[
+f(x) = P_n(x) + R_n(x),
+\]
+where the </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">remainder term</paragraphs></xh:b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> $R_n(x)$ is equal to:
+\[
+\frac{f^{(n + 1)}(c)}{(n + 1)!}\;(x - a)^{n + 1}
+\]
+for some $c$ between $a$ and $x$.
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Note that the special case $n = 0$ is equivalent to (Lagrange's) Mean Value Theorem.
+</paragraphs><substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="ec21bdc4b1aff85c7a648450f41e001d"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Recall that $P_{n}^{(k)}(a) = f^{(k)}(a)$ for $k = 0, 1, 2, \ldots, n$.
+Moreover, observe that $P_n^{(k)} = 0$ for $k &gt; n$,
+since $P_n$ is a polynomial of degree at most $n$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Let:
+\[
+F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
+\]
+Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( </paragraphs><ref environment="newcol" chapter_type="" label="cauchymvt" name="" wbtag="ref"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">), we have:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\begin{split}
+\frac{f(x) - P_{n}(x)}{(x - a)^{n+1}} &amp;= \frac{F(x) - F(a)}{G(x) - G(a)}\\
+&amp;= \frac{F'(x_1)}{G'(x_1)}\\
+&amp;= \frac{f'(x_1) - P_{n}'(x_1)}{(n+1)(x_1 - a)^{n}}
+\end{split}
+\]
+for some $x_1$ between $a$ and $x$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Now let:
+\[
+\begin{split}
+F_1(x) &amp;=F'(x) = f'(x) - P'_n(x),\\
+G_1(x) &amp;=G'(x) = (n + 1)(x - a)^{n}.
+\end{split}
+\]Repeating the same procedure carried out before, we have:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\frac{f'(x_1) - P_{n}'(x_1)}{(n + 1)(x_1 - a)^{n}}
+= \frac{F_1'(x)}{G_1'(x)}
+= \frac{f^{(2)}(x_2) - P_{n}^{(2)}(x_2)}{(n + 1)n(x_2 - a)^{n - 1}}
+\]
+for some $x_2$ between $a$ and $x_1$.
+Repeating this process $n + 1$ times, we have:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\begin{split}
+\frac{f(x) - P_{n}(x)}{(x - a)^{n+1}} &amp;= \frac{f'(x_1) - P_{n}'(x_1)}{(n+1)(x_1 - a)^{n}}\\
+&amp;= \frac{f^{(2)}(x_2) - P_{n}^{(2)}(x_2)}{(n + 1)n(x_2 - a)^{n - 1}}\\
+&amp;\;\;\vdots\\
+&amp;= \frac{f^{(n)}(x_n) - P_{n}^{(n)}(x_n)}{(n + 1)n(n - 1)\cdots 2 (x_n - a)}\\
+&amp;= \frac{f^{(n + 1)}(x_{n + 1}) - 0}{(n + 1)!}
+\end{split}
+\]
+for some $x_{n + 1}$ between $a$ and $x$.
+Letting $c = x_{n + 1}$, the theorem follows.
+</paragraphs><qed environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></collapse></collapse></collapse></collapse></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">Taylor series</hc_keyword><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="9" md5="84952052276eabd0346af5ef783aef38"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Given a function $f$ which is infinitely differentiable at $a$
+(i.e. $f^{(k)}(a)$ is defined for $k = 0, 1, 2, 3, \ldots$).
+The </paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Taylor series of $f$ (centered) at $a$</paragraphs></xh:strong><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+is the power series:
+\[
+\begin{split}
+T(x) &amp;= \sum_{k = 0}^\infty \frac{f^{(k)}(a)}{k!} (x - a)^k\\
+&amp;= f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \cdots + \frac{f^{(k)}(a)}{k!} (x - a)^k + \cdots
+\end{split}
+\]
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In general, for any power series of the form
+$\displaystyle S(x) = \sum_{k = 0}^\infty a_k (x - a)^k$,
+the value of $S$ at any given $c \in \mathbb{R}$ is by definition the limit:
+\[
+S(c) := \lim_{n \rightarrow \infty} \sum_{k = 0}^n a_k(c - a)^k.
+\]
+Note that this limit does not necessarily exist.
+If it does exist, we say that the power series $S$ </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">converges</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> at $x = c$,
+otherwise we say that it </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">diverges</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> at $x = c$.
+</paragraphs></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="10" md5="b1e7eda5ddb11b3d2a9f6354c3292c68"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+The Taylor series at $a = 0$ for various functions $f$ are as follows:
+</paragraphs><xh:table class="table-hover table table-striped table-bordered" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:thead class="thead-default" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:th xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$f(x)$</paragraphs></xh:th><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:th xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$T(x)$</paragraphs></xh:th><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:thead><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\cos x$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\sin x$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$e^x$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\ln(1 + x)$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty x^k$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:table><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="11" md5="cb7611cbd00de7587a7bc6182c9d4716"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+The Taylor $T(x)$ series of $f(x) = e^x$ at $a = 0$ converges everywhere.
+Moreover, for each $x \in \mathbb{R}$, we do have:
+\[
+T(x) = \sum_{k = 0}^\infty \frac{1}{k!}\;x^k = e^x.
+\]
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Similarly, for all $x \in \mathbb{R}$, we have:
+\[
+\sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}\;x^{2k + 1} = \sin x
+\]
+\[
+\sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}\;x^{2k} = \cos x
+\]
+However,
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The Taylor series of  $f(x) = \ln( 1 + x)$ at $a = 0$ is:
+\[
+T(x) = \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}\;x^k,
+\]
+which converges only for $x \in (-1, 1]$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+For such $x$ we do have:
+\[
+T(x) = f(x).
+\]
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In particular, we have:
+\[
+\ln 2 = \ln (1 + 1)
+= \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}\;1^k
+= 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots
+\]
+</paragraphs><substatement environment="substatement" chapter_type="" type="Remark" wbtag="remark" md5="96dfa436142b71e1984511c461a56f0c"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+There are functions whose Taylor series converge everywhere,
+but not to the functions themselves.
+</paragraphs></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement></collapse></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section></chapter></course></root>

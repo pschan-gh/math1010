@@ -1,0 +1,208 @@
+<root environment="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"><course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010"><title environment="title" chapter_type="" wbtag="course" scope="course">Math 1010</title><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 1010" title="Math 1010"/></slides><chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="1" title="" topic="Sequences"><title environment="title" chapter_type="" wbtag="week" scope="chapter"/><topic environment="" chapter_type="" scope="chapter">Sequences</topic><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="2" scope="week"/></slides><section environment="" chapter_type="" type="Section" wbtag="section" title="Sequences and Limits"><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="3" scope="section"><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">Sequences and Limits</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">A </paragraphs><b environment="" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">sequence</paragraphs></b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> is an ordered list of numbers:
+\[
+a_1, a_2, a_3, \ldots,a_n,\ldots
+\]</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">Common notations:
+\[
+\{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
+\]</paragraphs><hr environment="newcol" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="newcol" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></newcol><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="1" md5="952504e836a0948c7e81649c676de462"><newcol environment="newcol" chapter_type="" wbtag="newcol"><col_ul environment="col_ul" chapter_type="" wbtag="col_ul"><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">\[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
+\[
+\{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
+\]</paragraphs><hr environment="col_ul" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="col_ul" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">\[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
+\[
+\{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
+\]</paragraphs><hr environment="col_ul" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="col_ul" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li"><b environment="col_ul" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fibonacci Sequence</paragraphs></b><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">\[
+a_1 = 1, a_2 = 1
+\]
+\[
+a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
+\]
+\[
+\{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
+\]
+In this case we say that the sequence $\{a_n\}$ is defined </paragraphs><b environment="col_ul" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">recursively</paragraphs></b><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">.</paragraphs><hr environment="col_ul" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="col_ul" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></col_li></col_ul></newcol></statement></slide><slide environment="" chapter_type="" wbtag="slide" canon_num="4"><paragraphs environment="" chapter_type="" wbtag="paragraphs">Sometimes, the terms $a_n$ of a sequence approach a single value $L$
+as $n$ tends to infinity.</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="2" md5="0b03077190fea8dc16adb3f47bcbe3ad"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">We say that the </paragraphs><b environment="statement" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">limit</paragraphs></b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> of a sequence $\{a_n\}$ is equal to $L$ if for
+all real numbers $\varepsilon > 0$ the exists a  number $N > 0$
+such that $|a_n - L| &lt; \varepsilon$ for all $n > N$.</paragraphs></statement><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If such a number $L$ exists, we say that:</paragraphs><blockquote environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">$\{a_n\}$ converges to $L$,</paragraphs></blockquote><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">and write:
+\[
+\lim_{n \rightarrow \infty} a_n = L.
+\]</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If no such $L$ exists, we say that $\{a_n\}$ diverges.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If the values of $a_n$ increase (resp. decrease) without bound, we say that
+$\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
+\[
+\lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
+\]</paragraphs></collapse></newcol></slide><slide environment="" chapter_type="" wbtag="slide" canon_num="5"><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="3"><ol environment="statement" xmlns="http://www.w3.org/1999/xhtml"><li environment="statement"><webwork environment="statement" chapter_type="" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q15.pg" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></webwork></li><li environment="statement" xmlns="http://www.w3.org/1999/xhtml"><webwork environment="statement" chapter_type="" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q17.pg" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></webwork></li><li environment="statement" xmlns="http://www.w3.org/1999/xhtml"><webwork environment="statement" chapter_type="" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q19.pg" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></webwork></li><li environment="statement" xmlns="http://www.w3.org/1999/xhtml"><webwork environment="statement" chapter_type="" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q23.pg" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></webwork></li></ol></statement></slide></slides><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Useful Properties"><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="6" scope="subsection"><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">Useful Properties</paragraphs></title><hr environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/><itemize environment="itemize" chapter_type="" wbtag="itemize"><item environment="itemize" chapter_type="" wbtag="item"><h5 environment="itemize" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Constant sequence</paragraphs></h5><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If $a_n = c$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.</paragraphs></newcol><hr environment="itemize" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="itemize" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></item><item environment="itemize" chapter_type="" wbtag="item"><h5 environment="itemize" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Sum/Difference rule</paragraphs></h5><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+$$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$</paragraphs></newcol><hr environment="itemize" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="itemize" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></item><item environment="itemize" chapter_type="" wbtag="item"><h5 environment="itemize" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Product Rule</paragraphs></h5><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+$$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
+= \left(\lim_{n\rightarrow\infty} a_n\right)
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$</paragraphs></newcol><hr environment="itemize" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="itemize" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></item><item environment="itemize" chapter_type="" wbtag="item"><h5 environment="itemize" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="itemize" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Quotient Rule</paragraphs></h5><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If both $\{a_n\}$ and $\{b_n\}$ converge,
+and $\lim_{n \rightarrow \infty} b_n \neq 0$,
+then:
+$$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$</paragraphs></newcol><hr environment="itemize" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="itemize" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></item><item environment="itemize" chapter_type="" wbtag="item"><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">$$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$</paragraphs></newcol><hr environment="itemize" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="itemize" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></item><item environment="itemize" chapter_type="" wbtag="item"><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
+or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
+\[
+\lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
+\]</paragraphs></newcol></item></itemize></slide></slides></subsection><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Examples"><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="7" scope="subsection"><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">Examples</paragraphs></title><hr environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/><ul environment="" xmlns="http://www.w3.org/1999/xhtml"><li environment=""><paragraphs environment="" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">$\displaystyle
+\lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
+$</paragraphs><br environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps1">
+\begin{align*}
+&amp;{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
+\frac{3n^2 - 2n + 7}{2n^2 + 3}}
+\\
+&amp;
+\class{steps1 steps step0}{= \lim_{n \rightarrow \infty}
+\frac{3 - \frac{2}{n} + \frac{7}{n^2}}{2 + \frac{3}{n^2}}}
+\\
+&amp;
+\class{steps1 steps step1}{= \frac{3}{2}.}
+\end{align*}
+</steps></newcol><hr environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></paragraphs></li><li environment="" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">$\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$</paragraphs><br environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps2">
+\begin{align*}
+&amp;=
+\lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
+\\
+&amp;
+\class{steps2 steps step0}{= \lim_{n\rightarrow\infty} \frac{-3}{\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}}
+\\
+&amp;
+\class{steps2 steps step1}{=\frac{-3}{\sqrt[3]{27}} = -1.}
+\end{align*}
+</steps></newcol><hr environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></paragraphs></li><li environment="" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">$\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$</paragraphs><br environment="" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"></paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><steps environment="newcol" chapter_type="" wbtag="steps" stepsid="steps3">
+\begin{align*}
+&amp;=
+\lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
+\cdot
+\frac{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}
+\\
+&amp;
+\class{steps3 steps step0}{= \lim_{n\rightarrow\infty}\frac{\left(4n^2 + n\right) - \left(4n^2 - 1\right)}{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}}
+\\
+&amp;
+\class{steps3 steps step1}{= \lim_{n\rightarrow\infty} \frac{n + 1}{\sqrt{4n^2+n} + \sqrt{4n^2-1}}}
+\\
+&amp;
+\class{steps3 steps step2}{= \lim_{n\rightarrow\infty} \frac{n + 1}{n\left(\sqrt{4 + \frac{1}{n}} + \sqrt{4-\frac{1}{n^2}}\right)}}
+\\
+&amp;
+\class{steps3 steps step3}{= \lim_{n\rightarrow\infty} \frac{1 + \frac{1}{n}}{\left(\sqrt{4 + \frac{1}{n}} + \sqrt{4-\frac{1}{n^2}}\right)}}
+\\
+&amp;
+\class{steps3 steps step4}{=\frac{1}{4}.}
+\end{align*}
+</steps></newcol></li></ul></slide><slide environment="" chapter_type="" wbtag="slide" canon_num="8"><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="4"><itemize environment="itemize" chapter_type="" wbtag="itemize"><item environment="itemize" chapter_type="" wbtag="item"><webwork environment="itemize" chapter_type="" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_5.pg"/></item><item environment="itemize" chapter_type="" wbtag="item"><webwork environment="itemize" chapter_type="" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_6.pg"/></item><item environment="itemize" chapter_type="" wbtag="item"><webwork environment="itemize" chapter_type="" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_7.pg"/></item></itemize></statement></slide></slides></subsection><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Monotonic Sequences"><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="9" scope="subsection"><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">Monotonic Sequences</paragraphs></title><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="5" md5="994db5d99f37e192c8dfc03fc2ec546c"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">A sequence $\{a_n\}$ is said to be:</paragraphs><ul environment="statement" xmlns="http://www.w3.org/1999/xhtml"><li environment="statement"><b environment="statement"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">increasing</paragraphs></b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> if $a_{n+1} \geq a_n$ for all $n$,</paragraphs></li><li environment="statement" xmlns="http://www.w3.org/1999/xhtml"><b environment="statement"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">decreasing</paragraphs></b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> if $a_{n + 1} \leq a_n$ for all $n$.</paragraphs></li></ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">A sequence is said to be </paragraphs><b environment="statement" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">monotonic</paragraphs></b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> if it is either increasing or decreasing.</paragraphs></statement><newline environment="" chapter_type=""/><newline environment="" chapter_type=""/><newline environment="" chapter_type=""/><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="6" title="Monotone Convergence Theorem" md5="0a9a808f463b83d0689aff03cf2bbb05"><title environment="title" chapter_type="" wbtag="statement">Monotone Convergence Theorem</title><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If $\{a_n\}$ is either:</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><collapse environment="newcol" chapter_type="" wbtag="collapse"><blockquote environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><i environment="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">increasing</paragraphs></i><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
+and bounded </paragraphs><i environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">above</paragraphs></i><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</paragraphs></blockquote><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">or</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><collapse environment="newcol" chapter_type="" wbtag="collapse"><blockquote environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><i environment="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">decreasing</paragraphs></i><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
+and bounded </paragraphs><i environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">below</paragraphs></i><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</paragraphs></blockquote><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">then $\{a_n\}$ converges.</paragraphs></collapse></collapse></newcol></statement><newline environment="" chapter_type=""/><newline environment="" chapter_type=""/><newline environment="" chapter_type=""/><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">Moreover,</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">if $\{a_n\}$ is increasing and $a_n \leq M$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n \leq M$.</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n \geq M$.</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/></collapse></collapse></newcol></slide><slide environment="" chapter_type="" wbtag="slide" canon_num="10"><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="7" md5="74514ec48de40abf38a267cbc1c55b96"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">Let $\{a_n\}$ be a sequence of real numbers, which is defined by
+\[
+a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n>1$.}
+\]</paragraphs><ol environment="statement" xmlns="http://www.w3.org/1999/xhtml"><li environment="statement"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Prove that $0 \leq a_n\leq 3$.
+(Hint: Perhaps </paragraphs><b environment="statement" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">mathematical induction</paragraphs></b><paragraphs environment="statement" chapter_type="" wbtag="paragraphs"> could be useful here.)</paragraphs></li><li environment="statement" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit.</paragraphs></li></ol></statement><substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="6f56abde813587ae7a2aca13a764f1fa"><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">1. </paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><u environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Base Step</paragraphs></u><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">: By definition, $a_1 = 1 \geq 0$.</paragraphs><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><u environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Inductive Step</paragraphs></u><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">By the definition of the sequence, we have:
+\[
+a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
+\]
+By the </paragraphs><b environment="newcol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">induction hypothesis</paragraphs></b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">, i.e. $a_n \geq 0$, we have:
+\[
+a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
+\]
+Hence, $a_{n + 1} \geq 0$.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">It now follows from the principle of mathematical induction
+that $a_n \geq 0$ for all $a \in \mathbb{N}$.</paragraphs><hr environment="newcol" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="newcol" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Similary, to show that $a_n \leq 3$, we first observe that
+by definition $a_1 = 1 \leq 3$.
+Whenever $a_n \leq 3$, we have:
+\[
+\begin{split}
+3 - a_{n+1} &amp;= 3 - \frac{12a_n + 12}{a_n + 13}\\
+&amp;= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}\\
+&amp;= \frac{9(3 - a_n)}{a_n + 13} \geq 0,
+\end{split}
+\]
+which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
+for all $n \in \mathbb{N}$.</paragraphs><hr environment="newcol" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="newcol" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></newcol><newline environment="newcol" chapter_type=""/><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">2. </paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">Observe that for all $n \in \mathbb{N}$,
+we have:
+\[
+\begin{split}
+a_{n + 1} - a_n
+&amp;= \frac{12a_n + 12}{a_n + 13} - a_n\\
+&amp;= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}\\
+&amp;= -\frac{a_n^2 +a_n - 12}{a_n + 13}\\
+&amp;= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}\\
+&amp;\geq 0,
+\end{split}
+\]
+since $0 \leq a_n \leq 3$, as shown in Part 1.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
+Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
+by the Monotone Convergence Theorem.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">To find $L$, we take the limit as $n \rightarrow \infty$ of
+both sides of the equation:
+\[
+a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
+\]
+That is:
+\[
+\lim_{n \rightarrow \infty} a_n=
+\lim_{n \rightarrow \infty}\frac{12a_{n-1}+12}{a_{n-1}+13},
+\]
+which gives:
+\[
+L = \frac{12 L  + 12}{L + 13},
+\]
+since
+$\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">The equation above implies that:
+\[
+L^2 + L - 12 = 0,
+\]
+which gives $L = 3$ or $L = -4$.
+Since the sequence $\{a_n\}$ is bounded below by $0$,
+we may eliminate the case $L = -4$.</paragraphs><newline environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">We conclude that:
+\[
+\lim_{n \rightarrow \infty} a_n = 3.
+\]</paragraphs><qed environment="newcol" chapter_type=""/></newcol></newcol></substatement></slide></slides></subsection><subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Sandwich Theorem"><slides environment="" chapter_type=""><slide environment="" chapter_type="" canon_num="11" scope="subsection"><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">Sandwich Theorem</paragraphs></title><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="8" title="Sandwich Theorem for Sequences" md5="c2d72236232e7c4d270f6a54704e8f35"><title environment="title" chapter_type="" wbtag="statement">Sandwich Theorem for Sequences</title><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">Let $\{a_n\}$, $\{b_n\}$, $\{c_n\}$ be sequences such that:
+\[
+a_n \leq b_n \leq c_n
+\]
+for all $n$ sufficiently large.
+If
+\[
+\lim_{n \rightarrow \infty} a_n  = \lim_{n \rightarrow \infty} c_n = L,
+\]
+then $\lim_{n \rightarrow \infty} b_n = L$ also.</paragraphs></statement><newline environment="" chapter_type=""/><newline environment="" chapter_type=""/><newline environment="" chapter_type=""/><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="9" md5="ef7a816bb4b76b7754591fcabd071bbe"><col_ol environment="col_ol" chapter_type="" wbtag="col_ol"><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">Find the following limit:
+$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.</paragraphs><hr environment="col_ol" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="col_ol" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><ul environment="col_ol" xmlns="http://www.w3.org/1999/xhtml"><li environment="col_ol"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$.</paragraphs></li><li environment="col_ol" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$.</paragraphs></li></ul><hr environment="col_ol" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="col_ol" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></col_li><col_li environment="col_ol" chapter_type="" wbtag="col_li"><paragraphs environment="col_ol" chapter_type="" wbtag="paragraphs">Suppose $0 &lt; a &lt; 1$. Let $b=\frac{1}{a}-1$.
+ For $n\ge 2$, use the binomial theorem to show that
+ \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
+ Then, show that:
+ \[ \lim_{n \to \infty} na^n = 0. \]</paragraphs><hr environment="col_ol" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="col_ol" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/></col_li></col_ol><!--@enumerate@item @webwork{Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk1/prob1.pg}@item @webwork{Library/Rochester/setSequences2Limits/ur_sq_2_25.pg}@item @webwork{Library/Rochester/setSequences2Limits/ns8_1_25.pg}@item @webwork{Library/ma123DB/set10/s11_1_19.pg}@endenumerate--></statement></slide><slide environment="" chapter_type="" wbtag="slide" canon_num="12"><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="10" md5="ec9cbfb203da280be42d74e4c0671a19"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">Using the inequality:
+\[
+\frac{1}{\sqrt{n^2+n}} \leq \frac{1}{\sqrt{n^2+r}} \leq \frac{1}{\sqrt{n^2+1}},
+\quad
+\text{ for } r=1,2,3,\cdots,n,
+\]</paragraphs><newline environment="statement" chapter_type=""/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">prove that:</paragraphs><newline environment="statement" chapter_type=""/><newline environment="statement" chapter_type=""/><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">\[
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]</paragraphs></newcol><hr environment="statement" xmlns="http://www.w3.org/1999/xhtml"/><paragraphs environment="statement" chapter_type="" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach"/><strong environment="statement" xmlns="http://www.w3.org/1999/xhtml"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs" xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Solution.</paragraphs></strong><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">We have:
+\begin{align*}
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+&amp;\leq
+\underbrace{
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}
+}_{n \text{ times}}\\
+&amp;= \frac{n}{\sqrt{n^2+1}},
+\end{align*}</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">and:
+\begin{align*}
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+&amp;\geq
+\underbrace{
+\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+}_{n \text{ times}}\\
+&amp;= \frac{n}{\sqrt{n^2+n}}.
+\end{align*}</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">Since:
+\[
+\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
+= \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
+= \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
+\]</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">and:
+\[
+\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
+= \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
+= \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
+\]</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">by the Sandwich Theorem we conclude that:
+\[
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
+\]</paragraphs><qed environment="newcol" chapter_type=""/></collapse></collapse></collapse></collapse></newcol></statement></slide></slides></subsection></section></chapter></course></root>

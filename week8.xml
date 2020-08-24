@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">absolute minimum</keyword>
+      <keyword chapter="" slide="all">global minimum</keyword>
+      <keyword chapter="" slide="all">absolute maximum</keyword>
+      <keyword chapter="" slide="all">global maximum</keyword>
+      <keyword chapter="" slide="all">minimum</keyword>
+      <keyword chapter="" slide="all">maximum</keyword>
+      <keyword chapter="" slide="all">local/relative minimum</keyword>
+      <keyword chapter="" slide="all">local/relative maximum</keyword>
+      <keyword chapter="" slide="all">concave up</keyword>
+      <keyword chapter="" slide="all">concave down</keyword>
+      <keyword chapter="" slide="all">inflection point</keyword>
+      <keyword chapter="" slide="all">First Derivative Test</keyword>
+      <keyword chapter="" slide="all">Second Derivative Test</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title><keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="8" title="" topic="Curve Sketching" course="Math 1010" serial="8">
+      <keywords slide="all" environ="chapter" chapter="8" course="Math 1010">
+        <keyword chapter="8" slide="all">absolute minimum</keyword>
+        <keyword chapter="8" slide="all">global minimum</keyword>
+        <keyword chapter="8" slide="all">absolute maximum</keyword>
+        <keyword chapter="8" slide="all">global maximum</keyword>
+        <keyword chapter="8" slide="all">minimum</keyword>
+        <keyword chapter="8" slide="all">maximum</keyword>
+        <keyword chapter="8" slide="all">local/relative minimum</keyword>
+        <keyword chapter="8" slide="all">local/relative maximum</keyword>
+        <keyword chapter="8" slide="all">concave up</keyword>
+        <keyword chapter="8" slide="all">concave down</keyword>
+        <keyword chapter="8" slide="all">inflection point</keyword>
+        <keyword chapter="8" slide="all">First Derivative Test</keyword>
+        <keyword chapter="8" slide="all">Second Derivative Test</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="8" section="" subsection="" subsubsection="" serial="8" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="8" section="" subsection="" subsubsection="" serial="8" slide="">Curve Sketching</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 1010" chapter="8" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Curve Sketching</topic><keywords slide="2" environ="slide" chapter="8" course="Math 1010"/>
+
+</slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" AbsoluteRelative GlobalLocal Extrema " course="Math 1010" chapter="8" num="1" serial="8.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="8" section="1" subsection="" subsubsection="" serial="8.1" slide="">
+Absolute/Relative (Global/Local) Extrema
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s3" slide="3" course="Math 1010" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title=" AbsoluteRelative GlobalLocal Extrema "><keywords slide="3" environ="slide" chapter="8" course="Math 1010"><keyword chapter="8" slide="3">absolute minimum</keyword><keyword chapter="8" slide="3">global minimum</keyword><keyword chapter="8" slide="3">absolute maximum</keyword><keyword chapter="8" slide="3">global maximum</keyword><keyword chapter="8" slide="3">minimum</keyword><keyword chapter="8" slide="3">maximum</keyword><keyword chapter="8" slide="3">local/relative minimum</keyword><keyword chapter="8" slide="3">local/relative maximum</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="8" section="1" subsection="" subsubsection="" serial="" slide="3">
+Absolute/Relative (Global/Local) Extrema
+</title>
+Consider a function $f : A \longrightarrow\mathbb{R}$.
+<hc_keyword course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">absolute minimum</hc_keyword><hc_keyword course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">global minimum</hc_keyword><hc_keyword course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">absolute maximum</hc_keyword><hc_keyword course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">global maximum</hc_keyword><statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="45f15ba1d0f36ef5c82821a270271117" course="Math 1010" chapter="8" slide="3" item="8.1">
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+If there is an element $c \in A$ such that: $f(c) \leq f(x)$
+for all $x \in A$, we say that $f(c)$ is the (global/absolute) <xh:b environment="statement">minimum</xh:b> of $f$.
+
+
+</xh:li>
+<xh:li environment="statement">
+If there is an element $d \in A$ such that: $f(d) \geq f(x)$
+for all $x \in A$, we say that $f(d)$ is the (global/absolute) <xh:b environment="statement">maximum</xh:b> of $f$.
+
+
+</xh:li></xh:ul>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="7218158ad5abe45b65652acc7a1e40eb" course="Math 1010" chapter="8" slide="3" item="8.2">
+<newcol course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">
+<xh:li environment="newcol">
+If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a <xh:b environment="newcol">local/relative minimum</xh:b> at $c$.
+</xh:li>
+<xh:li environment="newcol">
+If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a <xh:b environment="newcol">local/relative maximum</xh:b> at $c$.
+</xh:li>
+</xh:ul>
+</newcol>
+</statement>
+<newcol course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg" environment="newcol"><xh:img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" alt="Extrema example original.svg" environment="newcol"/></xh:a><xh:br environment="newcol"/>By KSmrq - <xh:a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg" environment="newcol">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</xh:a>, <xh:a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2" environment="newcol">GFDL 1.2</xh:a>, <xh:a href="https://commons.wikimedia.org/w/index.php?curid=6870865" environment="newcol">Link</xh:a>
+</xh:div>
+</newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 1010" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title=" AbsoluteRelative GlobalLocal Extrema "><keywords slide="4" environ="slide" chapter="8" course="Math 1010"><keyword chapter="8" slide="4">First Derivative Test</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" title="First Derivative Test" md5="32c20d25b656b81930a8a63bc1b06476" course="Math 1010" chapter="8" slide="4" item="8.3"><label course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:fdt" type="Theorem"/>
+
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="8" section="1" subsection="" subsubsection="" serial="" slide="4">First Derivative Test</title>
+Let $f : A \longrightarrow\mathbb{R} $ be a continuous function.
+For $c \in A$, if there exists an open interval $(a, b)$ containing $c$
+such that $f'(x) &lt; 0$ (in particular it exists) for all $x \in (a, c)$,
+and $f'(x) &gt; 0$ for all $x \in (c, b)$, then $f$ has a local minimum at $c$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+Similarly, if $f'(x) &gt; 0$ for all $x \in (a, c)$ and $f'(x) &lt; 0 $ for
+all $x \in (c, b)$, then $f$ has a local maximum at $c$.
+</statement>
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">Note:</xh:strong>
+<newcol course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+In the special case that the domain of $f$ is an open interval $(a, b)$,
+if $f'(x) &gt; 0$ for <xh:u xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">all</xh:u> $x \in (a, c)$, and $f'(x) &lt; 0$ for <xh:u xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">all</xh:u>
+$x \in (c, b)$,
+then $f$ has an absolute maximum at $c$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>Similarly $f$ has an absolute minimum at $c$
+if each of the above inequalities is reversed.
+</newcol>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="7c80e8e3f96891c595d6e3c37af5a5b3" course="Math 1010" chapter="8" slide="4" item="8.4">
+<col_ul course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+<col_li course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+In <ref environment="col_ul" chapter_type="" label="dbee36c80786eacbe8adcb4d1cbb5875" name="" wbtag="ref" course="Math 1010" chapter="8" slide="4" src-course="Math 1010" src-chapter="7" src-slide="9" type="Example" item="7.6" src-filename="week7.xml" md5="dbee36c80786eacbe8adcb4d1cbb5875" class="knowl" serial=""><title>Example 7.6</title></ref>,
+the function has a local maximum at $x = -5$, and a local minimum at $x = 1$.
+</col_li><col_li course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+In <ref environment="col_ul" chapter_type="" label="5f48bed597bacc500b121063710fd810" name="" wbtag="ref" course="Math 1010" chapter="8" slide="4" src-course="Math 1010" src-chapter="7" src-slide="10" type="Example" item="7.7" src-filename="week7.xml" md5="5f48bed597bacc500b121063710fd810" class="knowl" serial=""><title>Example 7.7</title></ref>,
+the function has only one local extremum, namely a local minimum at $x = -1$.
+In fact, $f(-1) = 0$ is the absolute minimum of $f$.
+</col_li></col_ul>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 1010" chapter="8" section="1" subsection="" subsubsection="" chapter_title="" section_title=" AbsoluteRelative GlobalLocal Extrema "><keywords slide="5" environ="slide" chapter="8" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" md5="db5b8dd25718de0b51bbe5f4200151e3" course="Math 1010" chapter="8" slide="5" item="8.5">
+$\displaystyle f(x)=x^{\frac{1}{3}}-\frac{1}{3}x-\frac{2}{3}$ for $x&gt;0$. Show that $f(x)\leq 0$ for all $x&gt;0$.  Then, deduce that:
+\[
+u^{\frac{1}{3}}v^{\frac{2}{3}} \leq \frac{1}{3}u + \frac{2}{3}v
+\]
+for $u$, $v&gt;0$.
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="8" num="2" serial="8.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" serial="8.2" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s6" slide="6" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="6" environ="slide" chapter="8" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" serial="" slide="6">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/OSU/high_school_apcalc/dchmwk8/prob3.pg"/>
+</item><item course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/OSU/high_school_apcalc/dchmwk7/prob10.pg"/>
+</item><item course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap6Sec1/Q23.pg"/>
+</item><item course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Utah/Quantitative_Analysis/set6_Applications_of_Derivatives/pr_9.pg"/>
+</item><item course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_4_1/Stewart5_4_1_40.pg"/>
+</item><item course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_4.2/question12.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="7" environ="slide" chapter="8" course="Math 1010"><keyword chapter="8" slide="7">Second Derivative Test</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" title="Second Derivative Test" md5="5b5638f2b35a91cfb0919861ec06d0b2" course="Math 1010" chapter="8" slide="7" item="8.6"><label course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:sdt" type="Theorem"/>
+
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" serial="" slide="7">Second Derivative Test</title>
+Let $f$ be a function twice differentiable at $c \in \mathbb{R}$,
+such that $f'(c) = 0$.  If:
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">$f''(c) &gt; 0$, then $f$ has a local minimum at $c$.
+</xh:li>
+<xh:li environment="statement">$f''(c) &lt; 0$, then $f$ has a local maximum at $c$.
+</xh:li></xh:ul>
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="761dad2fa60bbf695fca24c4e8bb33fa" course="Math 1010" chapter="8" slide="7" of="5b5638f2b35a91cfb0919861ec06d0b2">
+<newcol course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">Sketch of Proof.</xh:strong>
+Suppose $f''(c) &gt; 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
+we have:
+\[
+0 &lt; f''(c) = \lim_{h \rightarrow 0}\frac{f'(c + h)  - f'(c)}{h}
+= \lim_{h \rightarrow 0}\frac{f'(c + h)}{h}\;.
+\]
+It follows from the above identity that $f'(c + h)$ is $&gt; 0$ for sufficiently small
+positive $h$, and $&lt; 0$ for sufficiently small negative $h$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence there is an open interval $(a, b)$ containing $c$ such that $f'$ is negative on
+$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+The case $f''(c) &lt; 0$ may be proved similarly.
+<qed course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
+</collapse></collapse></newcol>
+</substatement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="8" environ="slide" chapter="8" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="10a13b53c940ec6ea198fc83858728f7" course="Math 1010" chapter="8" slide="8" item="8.7">
+Consider the function $f(x) = x^3 + 6x^2  - 15x + 7$ in
+<ref environment="statement" chapter_type="" label="dbee36c80786eacbe8adcb4d1cbb5875" name="" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="7" src-slide="9" type="Example" item="7.6" src-filename="week7.xml" md5="dbee36c80786eacbe8adcb4d1cbb5875" class="knowl" serial=""><title>Example 7.6</title></ref>, we have:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<newcol course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\[
+f''(x) = 6x + 12
+\]
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+The function $f$ has a two stationary points $c = -5, 1$
+where $f'(c) = 0$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Since:
+\[
+f''(-5) = -18,\quad f''(1) = 18,
+\]
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+by the <ref environment="newcol" chapter_type="" label="thm:sdt" name="" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="7" type="Theorem" item="8.6" src-filename="week8.xml" md5="5b5638f2b35a91cfb0919861ec06d0b2" class="knowl" serial=""><title>Second Derivative Test</title></ref> $f(-5)$ is a local maximum,
+and $f(1)$ is a local minimum.  (This corroborates the conclusions
+of the <ref environment="newcol" chapter_type="" label="thm:fdt" name="" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="4" type="Theorem" item="8.3" src-filename="week8.xml" md5="32c20d25b656b81930a8a63bc1b06476" class="knowl" serial=""><title>First Derivative Test</title></ref> applied to the same function, see <ref environment="newcol" chapter_type="" label="7c80e8e3f96891c595d6e3c37af5a5b3" name="" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="4" type="Example" item="8.4" src-filename="week8.xml" md5="7c80e8e3f96891c595d6e3c37af5a5b3" class="knowl" serial=""><title>Example 8.4</title></ref>.)
+</collapse></collapse></collapse></newcol></statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="f56a0d628879ee342067f8b08b106671" course="Math 1010" chapter="8" slide="8" item="8.8">
+<newcol course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Consider $g(x) = x^4$.  Then, $g'(x) = 4x^3$, which implies that
+$c = 0$ is the only point where $g'(c) = 0$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+The second derivative of $g$ is $g''(x) = 12x^2$.  Hence, $g''(c) = g''(0) = 0$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+In this case, no conclusion can be drawn from the <ref environment="newcol" chapter_type="" label="thm:sdt" name="" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="7" type="Theorem" item="8.6" src-filename="week8.xml" md5="5b5638f2b35a91cfb0919861ec06d0b2" class="knowl" serial=""><title>Second Derivative Test</title></ref>,
+regarding whether $g(0)$ is a local minimum, maximum, or neither.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+However, one can still apply the <ref environment="newcol" chapter_type="" label="thm:fdt" name="" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="4" type="Theorem" item="8.3" src-filename="week8.xml" md5="32c20d25b656b81930a8a63bc1b06476" class="knowl" serial=""><title>First Derivative Test</title></ref> to conclude that 
+$f(0) = 0$ is a local minimum.
+</collapse></collapse></collapse></newcol></statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Concavity " course="Math 1010" chapter="8" num="3" serial="8.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="8" section="3" subsection="" subsubsection="" serial="8.3" slide="">
+Concavity
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s9" slide="9" course="Math 1010" chapter="8" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Concavity "><keywords slide="9" environ="slide" chapter="8" course="Math 1010"><keyword chapter="8" slide="9">concave up</keyword><keyword chapter="8" slide="9">concave down</keyword><keyword chapter="8" slide="9">inflection point</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="8" section="3" subsection="" subsubsection="" serial="" slide="9">
+Concavity
+</title>
+Let $f$ be a twice differentiable function.
+If $f''$ is positive (negative)
+on an open interval $(a, b)$, then the graph of $f$ over $(a, b)$
+is <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="">concave up</xh:b> (resp. <xh:strong xmlns:xh="http://www.w3.org/1999/xhtml" environment="">down</xh:strong><hc_keyword course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">concave down</hc_keyword>  ).
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+This is due to the fact that $f''$ being positive (resp. negative) corresponds to
+$f'$ being increasing (resp. decreasing).
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" environment="newcol"><xh:img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" alt="Animated illustration of inflection point.gif" environment="newcol"/></xh:a><xh:br environment="newcol"/>By dino - <xh:a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" environment="newcol">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</xh:a>Public Domain, <xh:a href="https://commons.wikimedia.org/w/index.php?curid=9704293" environment="newcol">Link</xh:a>
+</xh:div>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+A point on the graph of $f$ where the concavity changes is called an
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">inflection point</xh:b>.
+It corresponds to a point in the domain of $f$ where $f''$ changes sign.
+</collapse></collapse></newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 1010" chapter="8" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Concavity "><keywords slide="10" environ="slide" chapter="8" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="5a3a60d551482778c53e979de980d97e" course="Math 1010" chapter="8" slide="10" item="8.9">
+Sketch the graph of:
+\[
+f(x) = \dfrac{x^2 + x - 2}{x^2}
+\]
+by first finding the following information about $f$:
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement"> Domain.
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\[
+\{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
+\]
+<xh:hr environment="newcol"/>
+</newcol>
+</xh:li>
+<xh:li environment="statement"> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+$f(x) = 0$ if and only if $x \neq 0$
+and $x^2 + x - 2 = (x - 1)(x + 2) = 0$.
+Hence, the $x$-intercepts are:
+\[
+x = 1, -2.
+\]
+In general, the $y$-intercept of the graph of a function
+is the value of the function at $x = 0$.
+In this case, $0$ is not in the domain of $f$,
+hence the graph of $f$ has no $y$-intercept.
+<xh:hr environment="newcol"/>
+</newcol>
+</xh:li>
+<xh:li environment="statement">
+Asymptotes (Horizontal, Vertical, Oblique)
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\[
+\lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow -\infty} f(x) = 1.
+\]
+Hence, the graph of $f$ has one horizontal asymptote: $y = 1$.
+<xh:p environment="newcol"/>
+The value $f(x)$ is defined for all $x \neq 0$.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Near $x = 0$, we have:
+\[
+\lim_{x \rightarrow 0^-} f(x) = \lim_{x \rightarrow 0^+} f(x) = -\infty.
+\]
+Hence, the graph of $f$ has a vertical asymptote at $x = 0$.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
+the graph of $f$ has no oblique asymptote.
+<xh:hr environment="newcol"/>
+</collapse></collapse></newcol>
+</xh:li>
+<xh:li environment="statement">
+	Intervals where $f$ is increasing/decreasing.
+	
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+	\[
+	\begin{split}
+	f'(x) &amp;= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+	&amp;= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+	&amp;= \frac{1}{x^{3}} \left(4 - x\right)
+	\end{split}
+	\]
+	Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
+	<xh:p environment="newcol"/>
+	  
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+	  <xh:table class="table-hover table table-striped table-bordered" style="text-align:center" environment="newcol">
+	    <xh:tr environment="newcol">
+	      <xh:td environment="newcol">$y = f(x)$:</xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\searrow$</xh:strong></xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\nearrow$</xh:strong></xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\searrow$</xh:strong></xh:td>
+	    </xh:tr>
+	    <xh:tr environment="newcol">
+	      <xh:td environment="newcol">$f'(x)$:</xh:td>
+	      <xh:td environment="newcol">$-$</xh:td><xh:td environment="newcol">$+$</xh:td><xh:td environment="newcol">$-$</xh:td>
+	    </xh:tr>
+	    <xh:tr environment="newcol">
+	      <xh:td environment="newcol">$x$:</xh:td><xh:td environment="newcol">$(-\infty, 0)$</xh:td><xh:td environment="newcol">$(0, 4)$</xh:td><xh:td environment="newcol">$(4, \infty)$</xh:td>
+	    </xh:tr>
+	  </xh:table>
+	  It follows from the sign chart that $f$ is increasing on $(0, 4]$,
+	  and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
+	  
+<xh:hr environment="newcol"/>
+	  
+</collapse></newcol>
+	  </xh:li>
+<xh:li environment="statement">
+	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
+	    
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+	    It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
+	    The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
+	    
+<xh:hr environment="newcol"/>
+	    
+</newcol>
+	  </xh:li>
+<xh:li environment="statement">
+	    Intervals where $f$ is concave up/down.
+	    
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+	    The second derivative of $f$ is:
+	    \[
+	    f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
+	    \]
+	    The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
+	    or where $f''(p)$ is undefined.
+	    In this case, there are two such point: $p = 0, 6$.
+	    <xh:p environment="newcol"/>
+	      
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+	      <xh:table class="table-hover table table-striped table-bordered" style="text-align:center" environment="newcol">
+		<xh:tr environment="newcol">
+		  <xh:td environment="newcol">$y = f(x)$:</xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\cap$</xh:strong></xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\cap$</xh:strong></xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\cup$</xh:strong></xh:td>
+		</xh:tr>
+		<xh:tr environment="newcol">
+		  <xh:td environment="newcol">$f''(x)$:</xh:td>
+		  <xh:td environment="newcol">$-$</xh:td><xh:td environment="newcol">$-$</xh:td><xh:td environment="newcol">$+$</xh:td>
+		</xh:tr>
+		<xh:tr environment="newcol">
+		  <xh:td environment="newcol">$x$:</xh:td><xh:td environment="newcol">$(-\infty, 0)$</xh:td><xh:td environment="newcol">$(0, 6)$</xh:td><xh:td environment="newcol">$(6, \infty)$</xh:td>
+		</xh:tr>
+</xh:table>
+It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
+and concave down on $(-\infty, 0)$ and $(0, 6)$.
+<xh:hr environment="newcol"/>
+</collapse></newcol>
+</xh:li>
+<xh:li environment="statement">
+Inflection points on the graph of $f$.
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
+is the only reflection point on the graph of $f$.
+<xh:hr environment="newcol"/>
+</newcol>
+</xh:li></xh:ol>
+<xh:h5 xmlns:xh="http://www.w3.org/1999/xhtml" class="notkw" environment="statement">Graph</xh:h5>
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:iframe src="https://www.desmos.com/calculator/t5cgqvw7id?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="newcol"/>
+<xh:p environment="newcol"/><xh:br environment="newcol"/>
+<xh:strong environment="newcol">
+$
+y = \dfrac{x^2 + x - 2}{x^2}
+$
+</xh:strong>
+</xh:div>
+</newcol>
+</statement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 1010" chapter="8" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Concavity "><keywords slide="11" environ="slide" chapter="8" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="60b1121b5df1efc9e2eaa6cfb5a1e77e" course="Math 1010" chapter="8" slide="11" item="8.10">
+Following the guidelines of the previous example, sketch the graph of:
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+$f(x) = \abs{x + 1}(3 - x)$
+</xh:li>
+<xh:li environment="statement">
+$f(x) = x + \frac{1}{\abs{x}}$
+</xh:li></xh:ol>
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="24d61af2b2cb4d4fe3ebf529b5756d57" course="Math 1010" chapter="8" slide="11">
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="substatement">
+<xh:li environment="substatement">
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Domain: $\mathbb{R}$.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+$x$-intercepts: $x = -1, 3$.
+<xh:p environment="newcol"/>
+$y$-intercept: $y = f(0) = 3$.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Asymptotes: None.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+\[
+f'(x) =
+\begin{cases}
+2x - 2 &amp; x &lt; -1;\\
+\text{undefined} &amp; x = -1;\\
+-2 x + 2 &amp; x &gt; -1.
+\end{cases}
+\]
+Critical points: $c = -1, 1$.
+\[
+f''(x) =
+\begin{cases}
+2 &amp; x &lt; -1;\\
+\text{undefined} &amp; x = -1;\\
+-2 &amp; x &gt; -1.
+\end{cases}
+\]
+Inflection point: $p = 1$.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:table class="table-hover table table-striped table-bordered" style="text-align:center" environment="newcol">
+<xh:tr environment="newcol">
+<xh:td environment="newcol">$y = f(x)$:</xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\cup$<xh:br environment="newcol"/>$\searrow$</xh:strong></xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\cap$<xh:br environment="newcol"/>$\nearrow$</xh:strong></xh:td><xh:td environment="newcol"><xh:strong environment="newcol">$\cap$<xh:br environment="newcol"/>$\searrow$</xh:strong></xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:td environment="newcol">$f'(x)$:</xh:td>
+<xh:td environment="newcol">$-$</xh:td><xh:td environment="newcol">$+$</xh:td><xh:td environment="newcol">$-$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:td environment="newcol">$f''(x)$:</xh:td>
+<xh:td environment="newcol">$+$</xh:td><xh:td environment="newcol">$-$</xh:td><xh:td environment="newcol">$-$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:td environment="newcol">$x$:</xh:td>
+<xh:td environment="newcol">$(-\infty, -1)$</xh:td><xh:td environment="newcol">$(-1, 1)$</xh:td><xh:td environment="newcol">$(1, \infty)$</xh:td>
+</xh:tr>
+</xh:table>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:div class="image" environment="newcol">
+<xh:iframe src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="newcol"/>
+</xh:div>
+</collapse></collapse></collapse></collapse></collapse></newcol>
+</xh:li>
+<xh:li environment="substatement">
+<newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+In general, if one can rewrite a function $f$
+(e.g. using long division if $f$ is a rational function) in the form:
+\[
+f(x) = mx + b + g(x),
+\]
+such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
+and $m, b$ are constants,
+then one can readily conclude that $y = mx + b$ is an asymptote
+for the graph of $f$.
+<xh:p environment="newcol"/>
+If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
+If $m = 0$, then $y = b$ is a horizontal asymptote.
+<xh:p environment="newcol"/>
+In this example, since
+$\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
+the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$.
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+We leave the rest of the calculations as an exercise.
+<xh:p environment="newcol"/>
+<xh:i environment="newcol">Hint</xh:i>:
+\[
+f(x) = \begin{cases}
+x - \frac{1}{x} &amp; x &lt; 0;\\
+x + \frac{1}{x} &amp; x &gt; 0.
+\end{cases}
+\]
+The resulting graph is as follows:
+<xh:p environment="newcol"/>
+<collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:div class="image" environment="newcol">
+<xh:iframe src="https://www.desmos.com/calculator/vtjauc9srj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="newcol"/>
+</xh:div>
+</collapse></collapse></newcol>
+</xh:li></xh:ol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

@@ -1,0 +1,462 @@
+<root xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" xmlns:xh="http://www.w3.org/1999/xhtml"><course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010"><title environment="title" chapter_type="" wbtag="course" scope="course">Math 1010</title><slides environment="" chapter_type=""><slide environment="" chapter_type="" course="Math 1010" title="Math 1010"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides><chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="8" title="" topic="Curve Sketching"><title environment="title" chapter_type="" wbtag="week" scope="chapter"/><topic environment="" chapter_type="" scope="chapter">Curve Sketching</topic><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+
+</paragraphs></slide></slides><section environment="" chapter_type="" type="Section" wbtag="section" title="
+AbsoluteRelative GlobalLocal Extrema
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Absolute/Relative (Global/Local) Extrema
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Consider a function $f : A \longrightarrow\mathbb{R}$.
+</paragraphs><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">absolute minimum</hc_keyword><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">global minimum</hc_keyword><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">absolute maximum</hc_keyword><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">global maximum</hc_keyword><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="1" md5="45f15ba1d0f36ef5c82821a270271117"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+If there is an element $c \in A$ such that: $f(c) \leq f(x)$
+for all $x \in A$, we say that $f(c)$ is the (global/absolute) </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">minimum</paragraphs></xh:b><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs"> of $f$.
+
+
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+If there is an element $d \in A$ such that: $f(d) \geq f(x)$
+for all $x \in A$, we say that $f(d)$ is the (global/absolute) </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">maximum</paragraphs></xh:b><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs"> of $f$.
+
+
+</paragraphs></xh:li></xh:ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="2" md5="7218158ad5abe45b65652acc7a1e40eb"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">local/relative minimum</paragraphs></xh:b><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs"> at $c$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">local/relative maximum</paragraphs></xh:b><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs"> at $c$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:ul><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" alt="Extrema example original.svg" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/></xh:a><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">By KSmrq - </paragraphs><xh:a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">, </paragraphs><xh:a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">GFDL 1.2</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">, </paragraphs><xh:a href="https://commons.wikimedia.org/w/index.php?curid=6870865" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Link</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="3" title="First Derivative Test" md5="32c20d25b656b81930a8a63bc1b06476"><label environment="statement" chapter_type="" wbtag="label" name="thm:fdt" type="Theorem"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+
+</paragraphs><title environment="title" chapter_type="" wbtag="statement">First Derivative Test</title><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Let $f : A \longrightarrow\mathbb{R} $ be a continuous function.
+For $c \in A$, if there exists an open interval $(a, b)$ containing $c$
+such that $f'(x) &lt; 0$ (in particular it exists) for all $x \in (a, c)$,
+and $f'(x) &gt; 0$ for all $x \in (c, b)$, then $f$ has a local minimum at $c$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Similarly, if $f'(x) &gt; 0$ for all $x \in (a, c)$ and $f'(x) &lt; 0 $ for
+all $x \in (c, b)$, then $f$ has a local maximum at $c$.
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">Note:</paragraphs></xh:strong><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In the special case that the domain of $f$ is an open interval $(a, b)$,
+if $f'(x) &gt; 0$ for </paragraphs><xh:u xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">all</paragraphs></xh:u><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> $x \in (a, c)$, and $f'(x) &lt; 0$ for </paragraphs><xh:u xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">all</paragraphs></xh:u><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+$x \in (c, b)$,
+then $f$ has an absolute maximum at $c$.
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">Similarly $f$ has an absolute minimum at $c$
+if each of the above inequalities is reversed.
+</paragraphs></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="4" md5="7c80e8e3f96891c595d6e3c37af5a5b3"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_ul environment="col_ul" chapter_type="" wbtag="col_ul"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+</paragraphs><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+In </paragraphs><ref environment="col_ul" chapter_type="" label="dbee36c80786eacbe8adcb4d1cbb5875" name="" wbtag="ref"/><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">,
+the function has a local maximum at $x = -5$, and a local minimum at $x = 1$.
+</paragraphs></col_li><col_li environment="col_ul" chapter_type="" wbtag="col_li"><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">
+In </paragraphs><ref environment="col_ul" chapter_type="" label="5f48bed597bacc500b121063710fd810" name="" wbtag="ref"/><paragraphs environment="col_ul" chapter_type="" wbtag="paragraphs">,
+the function has only one local extremum, namely a local minimum at $x = -1$.
+In fact, $f(-1) = 0$ is the absolute minimum of $f$.
+</paragraphs></col_li></col_ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="5" md5="db5b8dd25718de0b51bbe5f4200151e3"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+$\displaystyle f(x)=x^{\frac{1}{3}}-\frac{1}{3}x-\frac{2}{3}$ for $x&gt;0$. Show that $f(x)\leq 0$ for all $x&gt;0$.  Then, deduce that:
+\[
+u^{\frac{1}{3}}v^{\frac{2}{3}} \leq \frac{1}{3}u + \frac{2}{3}v
+\]
+for $u$, $v&gt;0$.
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section><section environment="" chapter_type="" type="Section" wbtag="section" title="
+WeBWorK
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+WeBWorK
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><enumerate environment="enumerate" chapter_type="" wbtag="enumerate"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/OSU/high_school_apcalc/dchmwk8/prob3.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/OSU/high_school_apcalc/dchmwk7/prob10.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Michigan/Chap6Sec1/Q23.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Utah/Quantitative_Analysis/set6_Applications_of_Derivatives/pr_9.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/UCSB/Stewart5_4_1/Stewart5_4_1_40.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item><item environment="enumerate" chapter_type="" wbtag="item"><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs><webwork environment="enumerate" chapter_type="" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_4.2/question12.pg"/><paragraphs environment="enumerate" chapter_type="" wbtag="paragraphs">
+</paragraphs></item></enumerate><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="6" title="Second Derivative Test" md5="5b5638f2b35a91cfb0919861ec06d0b2"><label environment="statement" chapter_type="" wbtag="label" name="thm:sdt" type="Theorem"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+
+</paragraphs><title environment="title" chapter_type="" wbtag="statement">Second Derivative Test</title><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Let $f$ be a function twice differentiable at $c \in \mathbb{R}$,
+such that $f'(c) = 0$.  If:
+</paragraphs><xh:ul xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$f''(c) &gt; 0$, then $f$ has a local minimum at $c$.
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">$f''(c) &lt; 0$, then $f$ has a local maximum at $c$.
+</paragraphs></xh:li></xh:ul><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><substatement environment="substatement" chapter_type="" type="Proof" wbtag="proof" md5="761dad2fa60bbf695fca24c4e8bb33fa"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Sketch of Proof.</paragraphs></xh:strong><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Suppose $f''(c) &gt; 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
+we have:
+\[
+0 &lt; f''(c) = \lim_{h \rightarrow 0}\frac{f'(c + h)  - f'(c)}{h}
+= \lim_{h \rightarrow 0}\frac{f'(c + h)}{h}\;.
+\]
+It follows from the above identity that $f'(c + h)$ is $&gt; 0$ for sufficiently small
+positive $h$, and $&lt; 0$ for sufficiently small negative $h$.
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Hence there is an open interval $(a, b)$ containing $c$ such that $f'$ is negative on
+$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test.
+</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The case $f''(c) &lt; 0$ may be proved similarly.
+</paragraphs><qed environment="newcol" chapter_type=""/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></collapse></newcol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="7" md5="10a13b53c940ec6ea198fc83858728f7"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Consider the function $f(x) = x^3 + 6x^2  - 15x + 7$ in
+</paragraphs><ref environment="statement" chapter_type="" label="dbee36c80786eacbe8adcb4d1cbb5875" name="" wbtag="ref"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">, we have:
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="statement"/><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+f''(x) = 6x + 12
+\]
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The function $f$ has a two stationary points $c = -5, 1$
+where $f'(c) = 0$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Since:
+\[
+f''(-5) = -18,\quad f''(1) = 18,
+\]
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+by the </paragraphs><ref environment="newcol" chapter_type="" label="thm:sdt" name="" wbtag="ref"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> $f(-5)$ is a local maximum,
+and $f(1)$ is a local minimum.  (This corroborates the conclusions
+of the </paragraphs><ref environment="newcol" chapter_type="" label="thm:fdt" name="" wbtag="ref"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> applied to the same function, see </paragraphs><ref environment="newcol" chapter_type="" label="7c80e8e3f96891c595d6e3c37af5a5b3" name="" wbtag="ref"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">.)
+</paragraphs></collapse></collapse></collapse></newcol></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="8" md5="f56a0d628879ee342067f8b08b106671"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Consider $g(x) = x^4$.  Then, $g'(x) = 4x^3$, which implies that
+$c = 0$ is the only point where $g'(c) = 0$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The second derivative of $g$ is $g''(x) = 12x^2$.  Hence, $g''(c) = g''(0) = 0$.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In this case, no conclusion can be drawn from the </paragraphs><ref environment="newcol" chapter_type="" label="thm:sdt" name="" wbtag="ref"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">,
+regarding whether $g(0)$ is a local minimum, maximum, or neither.
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+However, one can still apply the </paragraphs><ref environment="newcol" chapter_type="" label="thm:fdt" name="" wbtag="ref"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs"> to conclude that 
+$f(0) = 0$ is a local minimum.
+</paragraphs></collapse></collapse></collapse></newcol></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section><section environment="" chapter_type="" type="Section" wbtag="section" title="
+Concavity
+"><slides environment="" chapter_type=""><slide environment="" chapter_type=""><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><title environment="title" chapter_type="" wbtag="title"><paragraphs environment="title" chapter_type="" wbtag="paragraphs">
+Concavity
+</paragraphs></title><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+Let $f$ be a twice differentiable function.
+If $f''$ is positive (negative)
+on an open interval $(a, b)$, then the graph of $f$ over $(a, b)$
+is </paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">concave up</paragraphs></xh:b><paragraphs environment="" chapter_type="" wbtag="paragraphs"> (resp. </paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment=""><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="" chapter_type="" wbtag="paragraphs">down</paragraphs></xh:strong><hc_keyword environment="" chapter_type="" wbtag="hc_keyword" class="hidden">concave down</hc_keyword><paragraphs environment="" chapter_type="" wbtag="paragraphs">  ).
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+This is due to the fact that $f''$ being positive (resp. negative) corresponds to
+$f'$ being increasing (resp. decreasing).
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" alt="Animated illustration of inflection point.gif" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/></xh:a><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">By dino - </paragraphs><xh:a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Public Domain, </paragraphs><xh:a href="https://commons.wikimedia.org/w/index.php?curid=9704293" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Link</paragraphs></xh:a><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+A point on the graph of $f$ where the concavity changes is called an
+</paragraphs><xh:b xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">inflection point</paragraphs></xh:b><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">.
+It corresponds to a point in the domain of $f$ where $f''$ changes sign.
+</paragraphs></collapse></collapse></newcol><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="9" md5="5a3a60d551482778c53e979de980d97e"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Sketch the graph of:
+\[
+f(x) = \dfrac{x^2 + x - 2}{x^2}
+\]
+by first finding the following information about $f$:
+</paragraphs><xh:ol xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs"> Domain.
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
+\]
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs"> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+$f(x) = 0$ if and only if $x \neq 0$
+and $x^2 + x - 2 = (x - 1)(x + 2) = 0$.
+Hence, the $x$-intercepts are:
+\[
+x = 1, -2.
+\]
+In general, the $y$-intercept of the graph of a function
+is the value of the function at $x = 0$.
+In this case, $0$ is not in the domain of $f$,
+hence the graph of $f$ has no $y$-intercept.
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+Asymptotes (Horizontal, Vertical, Oblique)
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+\lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow -\infty} f(x) = 1.
+\]
+Hence, the graph of $f$ has one horizontal asymptote: $y = 1$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+The value $f(x)$ is defined for all $x \neq 0$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Near $x = 0$, we have:
+\[
+\lim_{x \rightarrow 0^-} f(x) = \lim_{x \rightarrow 0^+} f(x) = -\infty.
+\]
+Hence, the graph of $f$ has a vertical asymptote at $x = 0$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
+the graph of $f$ has no oblique asymptote.
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+	Intervals where $f$ is increasing/decreasing.
+	
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	\[
+	\begin{split}
+	f'(x) &amp;= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+	&amp;= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+	&amp;= \frac{1}{x^{3}} \left(4 - x\right)
+	\end{split}
+	\]
+	Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
+	</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	  
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	  </paragraphs><xh:table class="table-hover table table-striped table-bordered" style="text-align:center" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	    </paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	      </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$y = f(x)$:</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\searrow$</paragraphs></xh:strong></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\nearrow$</paragraphs></xh:strong></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\searrow$</paragraphs></xh:strong></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	    </paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	    </paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	      </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$f'(x)$:</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	      </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$+$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	    </paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	    </paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	      </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$x$:</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(-\infty, 0)$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(0, 4)$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(4, \infty)$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	    </paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+	  </paragraphs></xh:table><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	  It follows from the sign chart that $f$ is increasing on $(0, 4]$,
+	  and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
+	  
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	  
+</paragraphs></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+	  </paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
+	    
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	    It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
+	    The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
+	    
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	    
+</paragraphs></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+	  </paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+	    Intervals where $f$ is concave up/down.
+	    
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	    The second derivative of $f$ is:
+	    \[
+	    f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
+	    \]
+	    The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
+	    or where $f''(p)$ is undefined.
+	    In this case, there are two such point: $p = 0, 6$.
+	    </paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	      
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+	      </paragraphs><xh:table class="table-hover table table-striped table-bordered" style="text-align:center" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		  </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$y = f(x)$:</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\cap$</paragraphs></xh:strong></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\cap$</paragraphs></xh:strong></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\cup$</paragraphs></xh:strong></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		  </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$f''(x)$:</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		  </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$+$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		  </paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$x$:</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(-\infty, 0)$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(0, 6)$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(6, \infty)$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+		</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:table><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
+and concave down on $(-\infty, 0)$ and $(0, 6)$.
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+Inflection points on the graph of $f$.
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
+is the only reflection point on the graph of $f$.
+</paragraphs><xh:hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li></xh:ol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:h5 class="notkw" xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">Graph</paragraphs></xh:h5><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:iframe src="https://www.desmos.com/calculator/t5cgqvw7id?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+$
+y = \dfrac{x^2 + x - 2}{x^2}
+$
+</paragraphs></xh:strong><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></newcol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide><slide environment="" chapter_type="" wbtag="slide"><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="10" md5="60b1121b5df1efc9e2eaa6cfb5a1e77e"><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+Following the guidelines of the previous example, sketch the graph of:
+</paragraphs><xh:ol xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$f(x) = \abs{x + 1}(3 - x)$
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="statement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="statement" chapter_type="" wbtag="paragraphs">
+$f(x) = x + \frac{1}{\abs{x}}$
+</paragraphs></xh:li></xh:ol><paragraphs environment="statement" chapter_type="" wbtag="paragraphs">
+</paragraphs></statement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="24d61af2b2cb4d4fe3ebf529b5756d57"><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:ol xmlns="http://www.w3.org/1999/xhtml" environment="substatement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="substatement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Domain: $\mathbb{R}$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+$x$-intercepts: $x = -1, 3$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+$y$-intercept: $y = f(0) = 3$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+Asymptotes: None.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+\[
+f'(x) =
+\begin{cases}
+2x - 2 &amp; x &lt; -1;\\
+\text{undefined} &amp; x = -1;\\
+-2 x + 2 &amp; x &gt; -1.
+\end{cases}
+\]
+Critical points: $c = -1, 1$.
+\[
+f''(x) =
+\begin{cases}
+2 &amp; x &lt; -1;\\
+\text{undefined} &amp; x = -1;\\
+-2 &amp; x &gt; -1.
+\end{cases}
+\]
+Inflection point: $p = 1$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:table class="table-hover table table-striped table-bordered" style="text-align:center" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$y = f(x)$:</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\cup$</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\searrow$</paragraphs></xh:strong></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\cap$</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\nearrow$</paragraphs></xh:strong></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><xh:strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\cap$</paragraphs><xh:br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$\searrow$</paragraphs></xh:strong></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$f'(x)$:</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$+$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$f''(x)$:</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$+$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$-$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:tr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$x$:</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(-\infty, -1)$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(-1, 1)$</paragraphs></xh:td><xh:td xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">$(1, \infty)$</paragraphs></xh:td><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:tr><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:table><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:iframe src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></collapse></collapse></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:li xmlns="http://www.w3.org/1999/xhtml" environment="substatement"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs><newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="newcol"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In general, if one can rewrite a function $f$
+(e.g. using long division if $f$ is a rational function) in the form:
+\[
+f(x) = mx + b + g(x),
+\]
+such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
+and $m, b$ are constants,
+then one can readily conclude that $y = mx + b$ is an asymptote
+for the graph of $f$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
+If $m = 0$, then $y = b$ is a horizontal asymptote.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+In this example, since
+$\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
+the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+We leave the rest of the calculations as an exercise.
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:i xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">Hint</paragraphs></xh:i><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">:
+\[
+f(x) = \begin{cases}
+x - \frac{1}{x} &amp; x &lt; 0;\\
+x + \frac{1}{x} &amp; x &gt; 0.
+\end{cases}
+\]
+The resulting graph is as follows:
+</paragraphs><xh:p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><collapse environment="newcol" chapter_type="" wbtag="collapse"><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:div class="image" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:iframe src="https://www.desmos.com/calculator/vtjauc9srj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:div><paragraphs environment="newcol" chapter_type="" wbtag="paragraphs">
+</paragraphs></collapse></collapse></newcol><paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></xh:li></xh:ol><paragraphs environment="substatement" chapter_type="" wbtag="paragraphs">
+</paragraphs></substatement><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs><xh:br wbtag="newline" xmlns="http://www.w3.org/1999/xhtml" environment=""/><paragraphs environment="" chapter_type="" wbtag="paragraphs">
+</paragraphs></slide></slides></section></chapter></course></root>

@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">first derivative</keyword>
+      <keyword chapter="" slide="all">second derivative</keyword>
+      <keyword chapter="" slide="all">twice differentiable</keyword>
+      <keyword chapter="" slide="all">General Leibniz Rule</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title><keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="6" title="" topic="Implicit Differentiation, Higher Order Derivatives" course="Math 1010" serial="6">
+      <keywords slide="all" environ="chapter" chapter="6" course="Math 1010">
+        <keyword chapter="6" slide="all">first derivative</keyword>
+        <keyword chapter="6" slide="all">second derivative</keyword>
+        <keyword chapter="6" slide="all">twice differentiable</keyword>
+        <keyword chapter="6" slide="all">General Leibniz Rule</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="6" section="" subsection="" subsubsection="" serial="6" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="6" section="" subsection="" subsubsection="" serial="6" slide="">Implicit Differentiation</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="6" section="" subsection="" subsubsection="" serial="6" slide="">Higher Order Derivatives</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 1010" chapter="6" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Implicit Differentiation</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Higher Order Derivatives</topic><keywords slide="2" environ="slide" chapter="6" course="Math 1010"/>
+
+
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Implicit Differentiation " course="Math 1010" chapter="6" num="1" serial="6.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" serial="6.1" slide="">
+Implicit Differentiation
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s3" slide="3" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Implicit Differentiation "><keywords slide="3" environ="slide" chapter="6" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" serial="" slide="3">
+Implicit Differentiation
+</title>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="6f47cbd135e93870340f95099f31e87c" course="Math 1010" chapter="6" slide="3" item="6.1">
+For $x &gt; 0$,
+\[
+\frac{d}{dx}\; \ln x = \frac{1}{x}\;.
+\]
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="8589875e98519729ccaf0e72fb84822c" course="Math 1010" chapter="6" slide="3" of="6f47cbd135e93870340f95099f31e87c">
+<newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Consider the equation:
+\[
+e^{\ln x} = x
+\]
+Differentiating both sides with respect to $x$, and applying the Chain Rule, we have:
+\begin{align*}
+\frac{d}{dx}\;e^{\ln x} &amp;= \frac{d}{dx}\; x\\
+\underbrace{e^{\ln x}}_{ = x }\frac{d}{dx}\;\ln x &amp;= 1
+\end{align*}
+Hence, $\displaystyle \frac{d}{dx}\;\ln x = \frac{1}{x}\;$.
+<qed course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+</newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="1f8928ddfcf273a2852940d61c041bea" course="Math 1010" chapter="6" slide="3" item="6.2">
+<newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Find $\dfrac{d}{dx}\left(x^x\right)$, where $x &gt; 0$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+For any $x &gt; 0$, we have $x = e^{\ln x}$.
+Hence,
+\[
+x^x = \left(e^{\ln x}\right)^x = e^{x \ln x}.
+\]
+So,
+\[
+\begin{split}
+\dfrac{d}{dx}\left(x^x\right) &amp;= \frac{d}{dx} e^{x \ln x}\\
+&amp;= e^{x \ln x} \frac{d}{dx}(x \ln x) \quad (\text{ by the Chain Rule.})\\
+&amp;= e^{x \ln x} \left(x\cdot \frac{1}{x} + \ln x\right) \quad (\text{ by the Product Rule.})\\
+&amp;= e^{x \ln x} (1 + \ln x) \quad (\text{ since } x &gt; 0.)\\
+&amp;= (1 + \ln x)x^x.
+\end{split}
+\]
+</collapse></newcol>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Implicit Differentiation "><keywords slide="4" environ="slide" chapter="6" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" md5="96bd2e9f5dc27facb12b26c633e1a946" course="Math 1010" chapter="6" slide="4" item="6.3">
+<newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Consider the curve $C: y^4-y\cos(x)-x^4 = 0$.
+<xh:ol xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">
+<xh:li environment="newcol"> Find $\displaystyle{\frac{dy}{dx}}\;$. Express your answer in terms of $x,y$ only.
+</xh:li>
+<xh:li environment="newcol"> Let $\displaystyle P= \left(\frac{\pi}{2}\;,-\frac{\pi}{2}\right)$.
+<xh:ul environment="newcol">
+<xh:li environment="newcol"> Verify that the point $P$ lies on the curve $C$.
+</xh:li>
+<xh:li environment="newcol"> Find the equation of the tangent line to the curve $C$ at the point $P$.
+</xh:li></xh:ul>
+</xh:li></xh:ol>
+</newcol>
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="748cb5413f5bed16f95f1e5101914a9f" course="Math 1010" chapter="6" slide="4">
+<newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+First, we differentiate both sides of the equation $y^4-y\cos(x)-x^4 = 0$
+with respect to $x$:
+\begin{equation}
+\label{dbsides}
+\frac{d}{dx}(y^4-y\cos(x)-x^4) = \frac{d}{dx} 0
+\end{equation}
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+By the chain rule, we have:
+\[
+\frac{d}{dx}y^4 = \frac{d\left(y^4\right)}{dy}\frac{dy}{dx} = 4y^3\frac{dy}{dx}.
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence, equation $\eqref{dbsides}$ gives:
+\[
+4y^3\frac{dy}{dx} - \left(y(-\sin(x)) + \frac{dy}{dx}\cdot \cos(x)\right) - 4x^3 = 0.
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Grouping all the terms involving $\frac{dy}{dx}$ together, we have:
+\[
+\left(4y^3 - \cos x\right)\frac{dy}{dx} = 4x^3 - y\sin x
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence,
+\[
+\frac{dy}{dx} = \frac{4x^3 - y\sin x}{4y^3 - \cos x}
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+The tangent line to the curve $C$ at the point $(\pi/2, -\pi/2)$
+is equal to:
+\[
+\left.\frac{dy}{dx}\right|_{(\pi/2, -\pi/2)} = \frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence, the equation of the tangent line is:
+\[
+y = \left(\frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}\right)(x - \pi/2) - \pi/2
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:iframe src="https://www.desmos.com/calculator/fccp810zzb?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="newcol"/>
+</xh:div>
+</collapse></collapse></collapse></collapse></collapse></collapse></collapse></newcol>
+</substatement>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Implicit Differentiation "><keywords slide="5" environ="slide" chapter="6" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="4" md5="f7d93b413dc01d8632fa7a46ff0fab4a" course="Math 1010" chapter="6" slide="5" item="6.4"><label course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="inversederivative" type="Theorem"/>
+
+Let $f$ be an injective function differentiable at $x = c$.
+If $f'(c) \neq 0$, then $f^{-1}$ is differentiable at $f(c)$, with:
+\[
+\left(f^{-1}\right)'(f(c)) = \frac{1}{f'(c)}\;.
+\]
+Equivalently,
+for any $y \in \mathrm{Range}(f)$, if $f$ is differentiable at $x = f^{-1}(y)$,
+and $f'(f^{-1}(y)) \neq 0$, then:
+\[
+\left(f^{-1}\right)'(y) = \frac{1}{f'(f^{-1}(y))}\;.
+\]
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Implicit Differentiation "><keywords slide="6" environ="slide" chapter="6" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="7adfe5e7bc532f57b538d757b752a3df" course="Math 1010" chapter="6" slide="6" item="6.5">
+Consider the injective function:
+\[
+f : [-\pi/2, \pi/2] \longrightarrow\mathbb{R},
+\]
+\[
+f(x) = \sin x, \quad x \in [-\pi/2, \pi/2].
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+The inverse of $f$ is:
+\[
+f^{-1} = \arcsin : [-1, 1] \longrightarrow[-\pi/2, \pi/2].
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+Consider any $y \in (-1, 1)$.
+We have $y = f(x) = \sin(x)$ for a unique $x = \arcsin y$ in $(-\pi/2, \pi/2)$.
+Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.
+Hence,
+by  <ref environment="statement" chapter_type="" label="inversederivative" name="" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="knowl" serial=""><title>Theorem 6.4</title></ref>, $(f^{-1})'(y)$ exists, with:
+\[
+\left(f^{-1}\right)'(y) = \left(f^{-1}\right)'(f(x)) = \frac{1}{f'(x)} = \frac{1}{\cos{x}}\;.
+\]
+By the Pythagorean Theorem, we know that:
+\[
+\cos x = \pm \sqrt{1 - \sin^2{x}}\;.
+\]
+Moreover, since $x \in (-\pi/2, \pi/2)$, we have $\cos x &gt; 0$, so:
+\[
+\cos x = +\sqrt{1 - \sin^2{x}} = \sqrt{1 - \sin^2(\arcsin(y))} = \sqrt{1 - y^2}.
+\]
+In conclusion, for $y \in (-1, 1)$, we have:
+\[
+\arcsin' y = \left(f^{-1}\right)'(y) = \frac{1}{\sqrt{1 - y^2}}\;.
+\]
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="6" num="2" serial="6.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="2" subsection="" subsubsection="" serial="6.2" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s7" slide="7" course="Math 1010" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="7" environ="slide" chapter="6" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="2" subsection="" subsubsection="" serial="" slide="7">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma122DB/set5/s3_6_25_mo.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDerivatives2_5Implicit/s2_6_1_mo.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_6/Stewart5_3_6_28/Stewart5_3_6_28.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Utah/Calculus_I/set5_The_Derivative/1210s5p17/1210s5p17.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_6/Stewart5_3_6_30/Stewart5_3_6_30.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_3.1/Anton3_1_Q12.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Higher Order Derivatives " course="Math 1010" chapter="6" num="3" serial="6.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" serial="6.3" slide="">
+Higher Order Derivatives
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s8" slide="8" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Higher Order Derivatives "><keywords slide="8" environ="slide" chapter="6" course="Math 1010"><keyword chapter="6" slide="8">first derivative</keyword><keyword chapter="6" slide="8">second derivative</keyword><keyword chapter="6" slide="8">twice differentiable</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" serial="" slide="8">
+Higher Order Derivatives
+</title>
+Let $f$ be a function.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Its derivative $f'$ is often called the <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">first derivative</xh:b> of $f$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+The derivative of $f'$, denoted by $f''$,
+is called the <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">second derivative</xh:b> of $f$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+If $f''(c)$ exists, we say that $f$ is <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">twice differentiable</xh:b> at $c$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+For $n \in \mathbb{N}$,
+the $n$-th derivative of $f$,
+denoted by $f^{(n)}$ is defined as the derivative of the $(n-1)$-st derivative of $f$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+If $f^{(n)}(c)$ exists, we say that $f$ is $n$ times differentiable at $c$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+We sometimes consider $f$ to be the "zero"-th derivative of itself,
+i.e. $f^{(0)} := f$.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+In the Leibniz notation, we have:
+\[
+f^{(n)}(x) = \underbrace{\frac{d}{dx}\,\frac{d}{dx}\,\cdots \frac{d}{dx}}_{n\text{ times}}f,
+\]
+which is customarily written as:
+\[
+\frac{d^n f}{dx^n}\;\;.
+\]
+</collapse></collapse></collapse></collapse></collapse></collapse></newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s9" slide="9" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Higher Order Derivatives "><keywords slide="9" environ="slide" chapter="6" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="604745cadfdf23fcd405eb3bb21f9fdb" course="Math 1010" chapter="6" slide="9" item="6.6">
+Consider the curve:
+\[
+x^2 + y^2 = 1
+\]
+Find $\dfrac{d^2y}{dx^2}$.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="ee62ec68700af35d594475ad2e7e8358" course="Math 1010" chapter="6" slide="9">
+<newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Applying implicit differentiation, we have:
+\[
+\frac{d}{dx}\left(x^2 + y^2\right) = \frac{d}{dx} 1
+\]
+\begin{equation}
+\label{impdiff1}
+2x + 2y\frac{dy}{dx} = 0
+\end{equation}
+This shows that:
+\[
+\frac{dy}{dx} = -\frac{x}{y}.
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Applying implicity differentiation to equation $\eqref{impdiff1}$, we have:
+\[
+\frac{d}{dx}\left(2x + 2y\frac{dy}{dx}\right)  = \frac{d}{dx} 0
+\]
+\[
+2 + 2\left(y\frac{d^2y}{dx^2} + \frac{dy}{dx}\frac{dy}{dx}\right) = 0
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+It follows that:
+\[
+\begin{split}
+y\frac{d^2y}{dx^2} &amp;= -1 - \left(\frac{dy}{dx}\right)^2\\
+&amp;= -1 - \frac{x^2}{y^2}\\
+&amp;= -\left(\frac{x^2 + y^2}{y^2}\right) = -\left(\frac{1}{y^2}\right)
+\end{split}
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence,
+\[
+\frac{d^2y}{dx^2} = -\left(\frac{1}{y^3}\right)
+\]
+</collapse></collapse></collapse></newcol>
+</substatement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Higher Order Derivatives "><keywords slide="10" environ="slide" chapter="6" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="af482fb3fc76837b049d319302f1269c" course="Math 1010" chapter="6" slide="10" item="6.7">
+Let:
+\[
+f(x) = \begin{cases} x^4\sin\left(\frac{1}{x}\right) &amp; \text{ if } x\neq 0; \\
+0 &amp; \text{ if } x = 0.\end{cases}
+\]
+Find $f''(0)$, if it exists.
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="ff46650afc91dc2a10b516a9ac640654" course="Math 1010" chapter="6" slide="10">
+For $x \neq 0$, we have:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="substatement"/>
+<newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\begin{align*}
+f'(x) &amp;= \frac{d}{dx} x^4 \sin(1/x)\\
+&amp; \class{steps1 steps step0}{= 4x^3\sin(1/x) + x^4\cos(1/x)\cdot (-x^{-2})}\\
+&amp; \class{steps1 steps step1}{= 4x^3\sin(1/x) - x^2\cos(1/x)}\\
+&amp; \class{steps1 steps step2}{= x^2(4x\sin(1/x) - \cos(1/x))}
+\end{align*}
+</steps>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+By the limit definition of the derivative, we have:
+<steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[
+\begin{split}
+f'(0) &amp;= \lim_{h \rightarrow 0} \frac{f(0 + h) - f(0)}{h}\\
+&amp; \class{steps2 steps step0}{= \lim_{h \rightarrow 0} \frac{h^4\sin(1/h) - 0}{h}}\\
+&amp; \class{steps2 steps step1}{= \lim_{h \rightarrow 0} h^3\sin(1/h) = 0\;\; (\text{by Sandwich Theorem})}
+\end{split}
+\]
+</steps>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence,
+\[
+f'(x) = \begin{cases}
+x^2(4x\sin(1/x) - \cos(1/x)), &amp; x \neq 0;\\
+0, &amp; x = 0.
+\end{cases}
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+By definition:
+\[
+f''(0) = (f')'(0) = \lim_{h \rightarrow 0} \frac{f'(0 + h) - f'(0)}{h}.
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence,
+<steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
+\[
+\begin{split}
+f''(0)  &amp;= \lim_{h \rightarrow 0} \frac{h^2(4h\sin(1/h) - \cos(1/h)) - 0}{h}\\
+&amp; \class{steps3 steps step0}{= \lim_{h \rightarrow 0} h(4h\sin(1/h) - \cos(1/h))}\\
+&amp; \class{steps3 steps step1}{= 0\;\; (\text{again by Sandwich Theorem}).}
+\end{split}
+\]
+</steps>
+</collapse></collapse></collapse></collapse></newcol>
+</substatement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" chapter_title="" section_title=" Higher Order Derivatives "><keywords slide="11" environ="slide" chapter="6" course="Math 1010"><keyword chapter="6" slide="11">General Leibniz Rule</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="General Leibniz Rule" md5="eadbe80273db2aa8aff8ca1eff981b60" course="Math 1010" chapter="6" slide="11" item="6.8">
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" serial="" slide="11">General Leibniz Rule</title>
+Let $n \in \mathbb{N}$.
+Given any functions $f, g$ which are $n$ times differentiable at $c$,
+their product $fg$ is also $n$ times differentiable at $c$, with:
+\[
+(fg)^{(n)}(c) = \sum_{k  = 0}^n C^n_k f^{(k)}(c)g^{(n - k)}(c)
+\]
+Notice that when $n = 1$ this rule is simply the product rule
+we have introduced before.
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="606339c60a8d15d8b028d5a67b86b94e" course="Math 1010" chapter="6" slide="11" item="6.9">
+<newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Consider $h(x) = x^2 \sin(x)$.
+Then, $h = fg$, where $f(x) = x^2$ and $g(x) = \sin(x)$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+We have:
+\[
+f'(x) = 2x, \quad f''(x) = 2,\quad  f^{(3)}(x) = 0.
+\]
+\[
+g'(x) = \cos(x), \quad g''(x) = -\sin x, \quad g^{(3)}(x) = -\cos(x).
+\]
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence, by the General Leibniz Rule,
+the first, second and third derivatives of $h$ may be computed as follows:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps4">
+\begin{align*}
+h'(x) &amp;= fg'(x) + f'g(x)
+\\&amp;
+\class{steps4 steps step0}{= x^2\cos(x) + 2x\sin(x)}
+\end{align*}
+</steps>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps5">
+\begin{align*}
+h''(x) &amp;= fg''(x) + 2f'g'(x) + f''g(x)
+\\&amp;
+\class{steps5 steps step0}{= x^2(-\sin(x)) + 2(2x)\cos(x) + 2\sin(x)}
+\end{align*}
+</steps>
+<collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps6">
+\begin{align*}
+h^{(3)}(x) &amp;= fg^{(3)}(x) + 3f'g''(x) + 3f''g'(x) + f^{(3)}g(x)
+\\&amp;
+\class{steps6 steps step0}{= x^2(-\cos(x)) + 3(2x)(-\sin(x)) + 3(2)\cos(x) + 0\cdot \sin(x)}
+\\&amp;
+\class{steps6 steps step1}{= -x^2\cos(x) -6x\sin(x) + 6\cos(x)}
+\end{align*}
+</steps>
+</collapse></collapse></collapse></collapse></newcol>
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="6" num="4" serial="6.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="4" subsection="" subsubsection="" serial="6.4" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s12" slide="12" course="Math 1010" chapter="6" section="4" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="12" environ="slide" chapter="6" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="4" subsection="" subsubsection="" serial="" slide="12">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UVA-Stew5e/setUVA-Stew5e-C03S07-HigherDerivs/3-7-25.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_8/Stewart5_3_8_23.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_3_4_40.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_8/Stewart5_3_8_49.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_3_4_68.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_7/Stewart5_3_7_65.pg"/>
+</item><item course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_7/Stewart5_3_7_63.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

@@ -1,0 +1,555 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">Left Riemann Sum</keyword>
+      <keyword chapter="" slide="all">definite integral</keyword>
+      <keyword chapter="" slide="all">Integration by Substitution</keyword>
+      <keyword chapter="" slide="all">Integration by Parts</keyword>
+      <keyword chapter="" slide="all">area of a region</keyword>
+      <keyword chapter="" slide="all">Mean Value Theorem for Integrals</keyword>
+      <keyword chapter="" slide="all">Fundamental Theorem of Calculus Part I</keyword>
+      <keyword chapter="" slide="all">Fundamental Theorem of Calculus Part II</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title><keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="13" title="" topic="Definite Integrals" course="Math 1010" serial="13">
+      <keywords slide="all" environ="chapter" chapter="13" course="Math 1010">
+        <keyword chapter="13" slide="all">Left Riemann Sum</keyword>
+        <keyword chapter="13" slide="all">definite integral</keyword>
+        <keyword chapter="13" slide="all">Integration by Substitution</keyword>
+        <keyword chapter="13" slide="all">Integration by Parts</keyword>
+        <keyword chapter="13" slide="all">area of a region</keyword>
+        <keyword chapter="13" slide="all">Mean Value Theorem for Integrals</keyword>
+        <keyword chapter="13" slide="all">Fundamental Theorem of Calculus Part I</keyword>
+        <keyword chapter="13" slide="all">Fundamental Theorem of Calculus Part II</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="13" section="" subsection="" subsubsection="" serial="13" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="13" section="" subsection="" subsubsection="" serial="13" slide="">Definite Integrals</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 1010" chapter="13" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Definite Integrals</topic><keywords slide="2" environ="slide" chapter="13" course="Math 1010"/>
+
+</slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Motivation " course="Math 1010" chapter="13" num="1" serial="13.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="13.1" slide="">
+Motivation
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s3" slide="3" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="3" environ="slide" chapter="13" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="3">
+Motivation
+</title>
+Given a continuous function over a closed interval.
+We want to approximate the area of the region
+bounded by the graph of the function and the $x$-axis.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+One way to do so is by viewing the region roughly as a union of sequence of rectangles,
+and then adding up the areas of these rectangles.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:img src="content/math1010/lrs5.jpg" environment="newcol"/>
+<xh:br environment="newcol"/>
+$5$ rectangles.
+</xh:div>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:img src="content/math1010/lrs10.jpg" environment="newcol"/>
+<xh:br environment="newcol"/>
+$10$ rectangles.
+</xh:div>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Intuitively, we see that the more (and smaller) rectangles are used,
+the more closely their union approximates the region in question.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+<xh:a title="By 09glasgow09 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARiemann_sum_(leftbox).gif" environment="newcol"><xh:img width="256" alt="Riemann sum (leftbox)" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif" environment="newcol"/></xh:a>
+</xh:div>
+</collapse></collapse></collapse></newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="4" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="4">Left Riemann Sum</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="2e10768f117d32b9f77a1db4fee8e1a5" course="Math 1010" chapter="13" slide="4" item="13.1">
+Let $n$ be a positive integer.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+Let $f : [a, b] \longrightarrow \mathbb{R}$
+be a continuous function on a closed interval.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+Let:
+\[
+\Delta x = \frac{b - a}{n}.
+\]
+The <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Left Riemann Sum</xh:b> of $f$ over $[a, b]$
+associated with $n$ subintervals of equal lengths is:
+\begin{multline*}
+LS_n(f) = \sum_{k = 0}^{n -1} f(a + k\Delta x)\Delta x\\
+= \Delta x\Big[f(a) + f(a + \Delta x) + f(a + 2 \Delta x) + \ldots\\
+\cdots + f(a + (n - 1)\Delta x)\Big]
+\end{multline*}
+</statement>
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Each summand may be thought of as the area of the rectangle whose base is
+the subinterval $[a + k\Delta x, a + (k + 1)\Delta x]$,
+and whose height is the value of $f$ at the left endpoint of the subinterval.
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" style="padding-top:2em;" environment="newcol">
+<xh:div style="position:relative;width:640px;height:400px" environment="newcol">
+<xh:img style="position:absolute;top:0;left:0" src="content/math1010/riemann/summand.svg" environment="newcol"/>
+<xh:div style="position:absolute;top:100;left:200" environment="newcol">$y = f(x)$</xh:div>
+<xh:div style="position:absolute;top:270;left:365" environment="newcol">$f(x)$</xh:div>
+<xh:div style="position:absolute;top:385;left:295" environment="newcol">$\Delta x$</xh:div>
+<xh:div style="position:absolute;top:385;left:250" environment="newcol">$x$</xh:div>
+</xh:div>
+</xh:div>
+</newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="5" environ="slide" chapter="13" course="Math 1010"/>
+<xh:iframe xmlns:xh="http://www.w3.org/1999/xhtml" style="width:640px;height:800px" src="content/math1010/lrs.html" environment=""/>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="6" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="6">definite integral</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="764c3612f3e7954f5552e29f69a37a95" course="Math 1010" chapter="13" slide="6" item="13.2">
+Let $f : [a, b] \longrightarrow \mathbb{R}$
+be a continuous function on a closed interval.
+The <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">definite integral</xh:b> $\displaystyle \int_a^b f(x)\,dx$ of $f$ over $[a, b]$
+is equal to the limit as $n$
+tends to infinity of the left Riemann sum defined previously.
+That is:
+\[
+\begin{split}
+\int_a^b f(x)\, dx &amp;= \lim_{n \rightarrow \infty} LS_n(f)\\
+&amp;= \lim_{n \rightarrow \infty}
+\frac{b - a}{n}\,\sum_{k = 0}^{n -1} f\left(a + \frac{k(b - a)}{n}\right)
+\end{split}
+\]
+</statement>
+It is an established theorem that the limit exists if $f$ is continuous.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+(In fact: One could define the definite integral in terms of the Right Riemann Sum or
+the Midpoint Riemann Sum.  All these sums tend to same limit in the case where $f$
+is continuous.)
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s7" slide="7" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="7" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="7">Integration by Substitution</keyword><keyword chapter="13" slide="7">Integration by Parts</keyword></keywords>
+Our eventual goal is to show that if $F$ is an antiderivative of a continuous function
+$f$, then:
+\[
+\int_a^b f(x)\,dx = F(x)\bigg|_a^b := F(b) - F(a).
+\]
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol">
+<xh:li environment="newcol">
+<xh:h5 environment="newcol">Integration by Substitution</xh:h5>
+\[
+\int_a^b f(u(x))u'(x)\,dx = \int_{u(a)}^{u(b)} f(u)\,du
+= F(u(b)) - F(u(a))
+\]
+if $F$ is an antiderivative of $f$.
+</xh:li>
+<xh:li environment="newcol">
+<xh:h5 environment="newcol">Integration by Parts</xh:h5>
+\[
+\int_a^b u(x) v'(x)dx = u(x)v(x)\bigg|_a^b - \int_a^b v(x)u'(x)\,dx.
+\]
+</xh:li></xh:ul>
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+Before we prove the main theorem,
+we first state a couple of preliminary results.
+</newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="8" environ="slide" chapter="13" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="178b54e0d9eec75f0e2091d5e09b6304" course="Math 1010" chapter="13" slide="8" item="13.3">
+For a continuous function $f$ on $[a, b]$,
+we define:
+\[
+\int_a^a f(x)\,dx = 0.
+\]
+\[
+\int_b^a f(x)\,dx = -\int_a^b f(x)\,dx.
+\]
+</statement>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="4f662ad85aacecdfd1f6133888493938" course="Math 1010" chapter="13" slide="8" item="13.4">
+Let $f$ be a continuous function on an interval $I$.
+For all $a, b, c \in I$, we have:
+\[
+\int_a^b f(x)\,dx + \int_b^c f(x)\,dx = \int_a^c f(x)\,dx.
+\]
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s9" slide="9" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="9" environ="slide" chapter="13" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="71b42a6c0839a08bc1723f134a477f9d" course="Math 1010" chapter="13" slide="9" item="13.5">
+Let $f, g$ be continuous functions on $[a, b]$.
+If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
+\[
+\int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
+\]
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s10" slide="10" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="10" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="10">area of a region</keyword></keywords><hc_keyword course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">area of a region</hc_keyword>
+
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="8e0f4d5d5a428d7698faa949acfc3654" course="Math 1010" chapter="13" slide="10" item="13.6">
+Find the area of the region in the $xy$-plane bounded between the graph of $y = x^2 - 2x - 3$ and the $x$-axis over
+the interval $[1, 5]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<xh:div xmlns:xh="http://www.w3.org/1999/xhtml" class="image" environment="statement">
+<xh:img class="exempt" style="max-width:65%" src="content/math1010/math1010_area.png" environment="statement"/>
+</xh:div>
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+The geometric area of the region described is equal to:
+\[
+\int_1^5 \abs{x^2 - 2x - 3} \,dx
+\]
+Consider the sign chart for the values of $f(x) = x^2 - 2x - 3 = (x + 1)(x - 3)$
+over the interval $[1, 5]$:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<xh:table xmlns:xh="http://www.w3.org/1999/xhtml" style="width:auto;margin:auto;text-align:center" environment="newcol">
+<xh:tbody environment="newcol">
+<xh:tr environment="newcol">
+<xh:td environment="newcol">$f(x)$:</xh:td><xh:td environment="newcol">$-$</xh:td><xh:td environment="newcol">$0$</xh:td><xh:td environment="newcol">$+$</xh:td>
+</xh:tr>
+<xh:tr environment="newcol">
+<xh:td environment="newcol">$x$:</xh:td><xh:td environment="newcol">$[1, 3)$</xh:td><xh:td environment="newcol">$3$</xh:td><xh:td environment="newcol">$(3, 5]$</xh:td>
+</xh:tr>
+</xh:tbody>
+</xh:table>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+Hence,
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+$\displaystyle
+\int_1^5 \abs{x^2 - 2x - 3} \,dx$
+\[
+\begin{split}
+&amp;= \int_1^3 \abs{x^2 - 2x - 3} \, dx + \int_3^5 \abs{x^2 - 2x - 3} \, dx\\
+&amp;= \int_1^3 -\left( x^2 - 2x - 3 \right) \, dx + \int_3^5 \left( x^2 - 2x - 3 \right) \, dx\\
+&amp;= -\left.\left( \frac{1}{3}x^3 - x^2 - 3x \right) \right|_1^3 + \left.\left( \frac{1}{3}x^3 - x^2 - 3x \right)\right|_3^5\\
+&amp;= \frac{16}{3} + \frac{32}{3}\\
+&amp;= 16
+\end{split}
+\]
+</newcol>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="11" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="11">Mean Value Theorem for Integrals</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="1194f9d40a968cdf22a5c626d3d06e89" course="Math 1010" chapter="13" slide="11" item="13.7">
+(<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">Mean Value Theorem for Integrals</xh:b>)
+Let $f$ be a continuous function on $[a, b]$.
+There exists $c \in [a, b]$ such that:
+\[
+f(c) = \frac{1}{b - a}\,\int_a^b f(x)\,dx.
+\]
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="45115378efb397a37165a0fdd1a54307" course="Math 1010" chapter="13" slide="11" of="1194f9d40a968cdf22a5c626d3d06e89">
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Since $f$ is continuous on $[a, b]$, by the Extreme Value Theorem
+it has a maximum value $M$ and minimum value $m$ on $[a, b]$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+In other words,
+\[
+m \leq f(x) \leq M
+\]
+for all $x \in [a, b]$.  Hence:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+\[
+\underbrace{\int_a^b m\,dx}_{m(b -a)}
+\leq \int_a^b f(x)\,dx \leq
+\underbrace{\int_a^b M\,dx}_{M(b - a)}.
+\]
+Dividing each expression by $b - a$, we have:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+\[
+m \leq \frac{1}{b - a}\int_a^bf(x)\,dx \leq M.
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Let $x_1, x_2$ be elements in $[a, b]$ such that
+$M = f(x_1)$ and $m = f(x_2)$.
+Since $f$ is continuous on $[a, b]$,
+and $\displaystyle \frac{1}{b - a}\int_a^bf(x)\,dx$
+is a number between $f(x_1)$ and $f(x_2)$,
+by the Intermediate Value Theorem there exists $c$ between $x_1$ and $x_2$
+such that:
+\[
+f(c) = \frac{1}{b - a}\int_a^bf(x)\,dx.
+\]
+This $c$ lies in $[a, b]$, since $x_1, x_2$ lies in $[a, b]$.
+<qed course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+</collapse></collapse></collapse></newcol>
+</substatement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s12" slide="12" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="12" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="12">Fundamental Theorem of Calculus Part I</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Fundamental Theorem of Calculus Part I" md5="5a73752c9025d70a4c5ef118ea05024b" course="Math 1010" chapter="13" slide="12" item="13.8">
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="12">Fundamental Theorem of Calculus Part I</title><label course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="ftc1" type="Theorem"/>
+
+Let $f$ be a continuous function on $[a, b]$.
+Define a function $F : [a, b] \longrightarrow \mathbb{R}$ as follows:
+\[
+F(x) = \int_a^x f(t)\,dt, \quad x \in [a, b].
+\]
+Then, $F$ is continuous on $[a, b]$ and differentiable on $(a, b)$, with:
+\[
+F'(x) = f(x)
+\]
+for all $x \in (a, b)$.
+Equivalently:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="statement"/>
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\[
+\frac{d}{dx}\int_a^x f(t)\,dt = f(x)
+\]
+</newcol>
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6e96636d25b29e43728f93892a0e99a6" course="Math 1010" chapter="13" slide="12" of="5a73752c9025d70a4c5ef118ea05024b">
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+By definition:
+\[
+\begin{split}
+F'(x) &amp;= \lim_{h \rightarrow 0}\frac{F(x + h) - F(x)}{h}.\\
+&amp; = \lim_{h \rightarrow 0}\frac{\int_a^{x + h}f(t)\,dt - \int_a^xf(t)\,dt}{h}.\\
+&amp; = \lim_{h \rightarrow 0}\frac{\int_x^{x + h}f(t)\,dt}{h}.
+\end{split}
+\]
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+By the Mean Value Theorem for Integrals, there exists $c_h \in [x, x + h]$
+such that:
+\[
+f(c_h) = \frac{\int_x^{x + h}f(t)\,dt}{h}.
+\]
+Hence:
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+\[
+F'(x) = \lim_{h \rightarrow 0}f(c_h) = f(x),
+\]
+since for any $h$ the number $c_h$ lies between $x$ and $x + h$,
+and $f$ is continuous.
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+We leave the proof of the continuity of $F$ on $[a, b]$ as an exercise.
+<qed course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+</collapse></collapse></newcol>
+</substatement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s13" slide="13" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="13" environ="slide" chapter="13" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="9" md5="178d029790ae3be10c77d6253dacf8ba" course="Math 1010" chapter="13" slide="13" item="13.9"><label course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="ftcicor" type="Corollary"/>
+
+Let $f$ be a continuous function.
+Let $g$ and $h$ be differentiable functions.  Then:
+\[
+\frac{d}{dx}\int_{g(x)}^{h(x)}f(t)\,dt
+= f(h(x))h'(x) - f(g(x))g'(x).
+\]
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="5092c82398968afbc45b50e72ffbe7e3" course="Math 1010" chapter="13" slide="13" item="13.10">
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Evaluate:
+\[
+\frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt
+\]
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+<steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\[
+\begin{split}
+\frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt &amp;=
+e^{\left(-(x^3 + 1)^2\right)}(x^3 + 1)' - e^{\left(-(\sin x)^2\right)}(\sin x)'\\
+&amp;
+\class{steps1 steps step0}{= e^{\left(-(x^3 + 1)^2\right)}\cdot 3x^2 - e^{\left(-(\sin x)^2\right)}\cos x}
+\end{split}
+\]
+</steps>
+</collapse></newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="614dbc8fc8fb98ebd47f469b5480502e" course="Math 1010" chapter="13" slide="13" item="13.11">
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Evaluate:
+\[
+\lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt
+\]
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+We have:
+\begin{equation}
+\label{ftc1eg2}
+\lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt
+=
+\lim_{h \rightarrow 0^+}\frac{\int_2^{2 + h}\sqrt{t^4 + 1}\,dt}{\ln(1 + h)}
+\end{equation}
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Computing the limits of the numerator and denominator separately, we have:
+\[
+\lim_{h \rightarrow 0^+}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt
+=
+\int_2^{2}\sqrt{t^4 + 1}\,dt = 0
+\]
+(because $F(h) = \int_2^{2 + h}\sqrt{t^4 + 1}\,dt$
+is a continuous function by  <ref environment="newcol" chapter_type="" label="ftc1" name="" wbtag="ref" course="Math 1010" chapter="13" slide="13" src-course="Math 1010" src-chapter="13" src-slide="12" type="Theorem" item="13.8" src-filename="week13.xml" md5="5a73752c9025d70a4c5ef118ea05024b" class="knowl" serial=""><title>Fundamental Theorem of Calculus Part I</title></ref>), and:
+\[
+\lim_{h \rightarrow 0^+} \ln(1 + h) = \ln (1 + 0) = 0
+\]
+(also because $f(h) = \ln (1 + h)$ is a continuous function).
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence, the limit \eqref{ftc1eg2} corresponds to the indeterminate form $\frac{0}{0}$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Taking the limit of the ratio of the derivatives of the numerator and denominator,
+we have:
+<steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[
+\begin{split}
+\lim_{h \rightarrow 0^+} \frac{\frac{d}{dh}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt}{\frac{d}{dh}\ln(1 + h)}
+&amp;=
+\class{steps2 steps step0}{\lim_{h \rightarrow 0^+}\frac{\left(\sqrt{(2 + h)^4 + 1}\right)(2 + h)'}{\frac{1}{1 + h}}}
+\\&amp;
+\class{steps2 steps step1}{=\lim_{h \rightarrow 0^+}(1 + h)\left(\sqrt{(2 + h)^4 + 1}\right)}
+\\&amp;
+\class{steps2 steps step2}{=\lim_{h \rightarrow 0^+}\sqrt{17}.}
+\end{split}
+\]
+</steps>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+It now follows from l'H&amp;ocirc;pital's rule that:
+\[
+\lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt = \sqrt{17}.
+\]
+</collapse></collapse></collapse></collapse></collapse></newcol>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s14" slide="14" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="14" environ="slide" chapter="13" course="Math 1010"/>
+There is a general formula regarding derviatives of the form:
+\[
+\frac{d}{dx}\int_{a(x)}^{b(x)} f(x, t)\,dt,
+\]
+the discussion of which is beyond the scope of this course.
+However, in certain special cases, the derivative may be found using
+<ref environment="" chapter_type="" label="ftcicor" name="" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="knowl" serial=""><title>Corollary 13.9</title></ref> without much further effort:
+<!-- @eg
+Find:
+\begin{equation}
+\label{ddxfxt1}
+\frac{d}{dx}\int_{x}^1 x^3e^{(t^2)} \, dt
+\end{equation}
+<hr/>
+@newcol
+We may interpret the meaning of the derivative $\eqref{ddxfxt1}$ as follows:
+<br wbtag="newline"/>
+For each fixed number $x$ (e.g. $x = 2, 55, 3.1415, \ldots$),
+the definite integral:
+\[
+F(x) = \int_{x}^1 x^3e^{(t^2)}\,dt
+= x^3 \int_{x}^1 e^{(t^2)}\,dt
+\]
+is some number which depends on $x$.
+(The second equality holds because $x$ is a fixed constant.)
+<br wbtag="newline"/>
+@col
+Then, we let $x$ vary, and view $F(x)$ as a function of $x$.
+The expression $\eqref{ddxfxt1}$ is then the derivative $F'(x)$ of this $F(x)$
+with respect to $x$.
+<br wbtag="newline"/>
+@col
+By the the product rule and  @ref{ftcicor}, we have:
+\[
+\begin{split}
+F'(x) &= 3x^2 \int_{x}^1 e^{(t^2)}\,dt
++ x^3\frac{d}{dx}\int_{x}^1 e^{(t^2)}\,dt\\
+&=
+3x^2 \int_{x}^1 e^{(t^2)}\,dt
++ x^3(&#45;e^{(x^2)}).
+\end{split}
+\]
+(The function $G(x) = \int_{x}^1 e^{(t^2)}\,dt$ is not an elementary function in $x$,
+so we won't simplify it further.)
+@endcol
+@end -->
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="41beb664230edaac904541bf05a57317" course="Math 1010" chapter="13" slide="14" item="13.12">
+Find:
+\begin{equation}
+\label{ddxfxt2}
+\frac{d}{dx}\int_{x}^{3x^2} \frac{\sin(x^2 t)}{t} \, dt, \quad x &gt; 0.
+\end{equation}
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+Again, we first view $x$ as a constant.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+Let:
+\[
+u = x^2t.
+\]
+So:
+\[
+t = \frac{u}{x^2}, \quad dt = \frac{1}{x^2} du.
+\]
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Under this change of variable, the integral:
+\[
+\int_{t = x}^{t = 3x^2} \frac{\sin(x^2 t)}{t} \, dt
+\]
+is equal to:
+\[
+\begin{split}
+\int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{(u/x^2)}\frac{1}{x^2}\,du
+&amp;=
+\int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{u}\,du
+\end{split}
+\]
+It now follows from  <ref environment="newcol" chapter_type="" label="ftcicor" name="" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="knowl" serial=""><title>Corollary 13.9</title></ref> that:
+\[
+\begin{split}
+\frac{d}{dx} \int_{t = x}^{t = 3x^2} \frac{\sin(x^2 t)}{t} \, dt
+&amp;=
+\frac{d}{dx}
+\left[\int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{u}\,du\right].\\
+&amp;=
+\frac{\sin(3x^4)}{3x^4}\cdot 12 x^3 - \frac{\sin(x^3)}{x^3}\cdot 3x^2\\
+&amp;=
+\frac{4\sin(3x^4)}{x} - \frac{3\sin(x^3)}{x}\cdot
+\end{split}
+\]
+</collapse></newcol>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s15" slide="15" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Motivation "><keywords slide="15" environ="slide" chapter="13" course="Math 1010"><keyword chapter="13" slide="15">Fundamental Theorem of Calculus Part II</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="Fundamental Theorem of Calculus Part II" md5="246b618e8c95c3e171594b072375a33a" course="Math 1010" chapter="13" slide="15" item="13.13">
+<title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="15">Fundamental Theorem of Calculus Part II</title>
+Let $f$ be a continuous function on $[a, b]$.
+Let $F$ be a continuous function on $[a, b]$
+which is an antiderivative of $f$ over $(a, b)$.
+Then:
+\[
+\int_a^b f(x)\,dx = F(b) - F(a).
+\]
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7f8e9bbfa156da93a6982a5045a910bb" course="Math 1010" chapter="13" slide="15" of="246b618e8c95c3e171594b072375a33a">
+<newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+By the Fundamental Theorem of Calculus Part I,
+we know that $G(x) = \int_a^x f(t)\,dt$ is also an antiderivative of $f$.
+By Lagrange's Mean Value Theorem and the continuity of $F$ and $G$ on $[a, b]$,
+for all $x \in [a, b]$ we have:
+\[
+G(x) = F(x) + C
+\]
+for some constant $C$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Since $G(a) = \displaystyle \int_a^af(t)\,dt = 0$, we have $C = - F(a)$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment="newcol"/>
+<collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+Hence:
+\[
+\int_a^b f(t)\,dt = G(b) = F(b) + C = F(b) - F(a).
+\]
+<qed course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+</collapse></collapse></newcol>
+</substatement>
+</slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

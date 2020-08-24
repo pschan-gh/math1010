@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">antiderivative</keyword>
+      <keyword chapter="" slide="all">indefinite integral</keyword>
+      <keyword chapter="" slide="all">integrand</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title><keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+</slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="10" title="" topic="Taylor Series, Indefinite Integrals, Integration by Substitution, Integration by Parts" course="Math 1010" serial="10">
+      <keywords slide="all" environ="chapter" chapter="10" course="Math 1010">
+        <keyword chapter="10" slide="all">antiderivative</keyword>
+        <keyword chapter="10" slide="all">indefinite integral</keyword>
+        <keyword chapter="10" slide="all">integrand</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="10" section="" subsection="" subsubsection="" serial="10" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Taylor Series</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Indefinite Integrals</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Integration by Substitution</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="10" section="" subsection="" subsubsection="" serial="10" slide="">Integration by Parts</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" id="s2" slide="2" course="Math 1010" chapter="10" section="" subsection="" subsubsection="" chapter_title="" section_title=""><title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Taylor Series</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Indefinite Integrals</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Integration by Substitution</topic><topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Integration by Parts</topic><keywords slide="2" environ="slide" chapter="10" course="Math 1010"/>
+
+
+
+
+</slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Shortcuts for Computing Taylor Series " course="Math 1010" chapter="10" num="1" serial="10.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="1" subsection="" subsubsection="" serial="10.1" slide="">
+Shortcuts for Computing Taylor Series
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s3" slide="3" course="Math 1010" chapter="10" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Shortcuts for Computing Taylor Series "><keywords slide="3" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="1" subsection="" subsubsection="" serial="" slide="3">
+Shortcuts for Computing Taylor Series
+</title>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" md5="a97326c75b00fc5cdcb9ce790c7b98af" course="Math 1010" chapter="10" slide="3" item="10.1">
+Let $\displaystyle S(x) = \sum_{k = 0}^\infty a_k (x - a)^k$
+be a power series which converges on an open interval of the form $(a - r, a + r)$,
+$r &gt; 0$,
+then the function $S(x)$ is differentiable on $(a - r, a + r)$,
+with
+\[
+\begin{split}
+\displaystyle S'(x) &amp;= \sum_{k = 1}^\infty k a_k (x - a)^{k - 1}\\
+&amp;= a_1 + 2a_2(x - a) + 3a_3(x - a)^2 + \cdots + ka_k(x - a)^{k - 1} + \cdots
+\end{split}
+\]
+for all $x \in (a - r, a + r)$.
+</statement>
+Applying this theorem repeatedly, it may be shown that $S(x)$
+is in fact infinitely differentiable on $(a - r, a + r)$,
+and its Taylor series at $x = a$ is itself.  That is:
+\[
+\frac{S^{(k)}(a)}{k!} = a_k, \quad k = 0, 1, 2, \ldots.
+\]
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s4" slide="4" course="Math 1010" chapter="10" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Shortcuts for Computing Taylor Series "><keywords slide="4" environ="slide" chapter="10" course="Math 1010"/>
+Put differently:
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="2" md5="9ee8fe2925f4263d3ec7db991646a26e" course="Math 1010" chapter="10" slide="4" item="10.2">
+Let $f$ be a function.  If there is a sequence $\{a_k\}_{k = 0}^\infty$
+such that:
+\[
+f(x) = \sum_{k = 0}^\infty a_k (x - a)^k
+\]
+for all $x$ in some open interval centered at $a$,
+then $\sum_{k = 0}^\infty a_k (x - a)^k$ is the Taylor series of $f$ at $x = a$,
+with $\displaystyle a_k = \frac{f^{(k)}(a)}{k!}$.
+</statement>
+<statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="3" md5="30642145ea206c2486397dce2336c184" course="Math 1010" chapter="10" slide="4" item="10.3">
+If:
+\[
+\sum_{k = 0}^\infty a_k (x - a)^k = \sum_{k = 0}^\infty b_k (x - a)^k
+\]
+for all $x$ in some open interval centered at $a$, then $a_k = b_k$ for all $k$.
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s5" slide="5" course="Math 1010" chapter="10" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Shortcuts for Computing Taylor Series "><keywords slide="5" environ="slide" chapter="10" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="854b0309846011f8834289db002f566c" course="Math 1010" chapter="10" slide="5" item="10.4">
+Find the Taylor series of $f$ at the given point $a$.
+<xh:table xmlns:xh="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" environment="statement">
+<xh:thead class="thead-default" environment="statement">
+<xh:tr environment="statement">
+<xh:th environment="statement">$f(x)$</xh:th>
+<xh:th environment="statement">$a$</xh:th>
+</xh:tr>
+</xh:thead>
+<xh:tr environment="statement"><xh:td environment="statement">
+$\sin(5x)$</xh:td><xh:td environment="statement">$0$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$x^3\cos x$</xh:td><xh:td environment="statement">$0$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$\sin(x - \pi)$</xh:td><xh:td environment="statement">$\pi$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$\ln x$</xh:td><xh:td environment="statement">$1$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$\displaystyle \frac{1}{2 - x}$</xh:td><xh:td environment="statement">$0$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$\displaystyle \frac{1}{1 + x}$</xh:td><xh:td environment="statement">$0$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$\displaystyle \frac{1}{1 + x^2}$</xh:td><xh:td environment="statement">$0$</xh:td>
+</xh:tr>
+<xh:tr environment="statement">
+<xh:td environment="statement">$\displaystyle \frac{x + 1}{x^2 + x + 1}$</xh:td><xh:td environment="statement">$0$</xh:td>
+</xh:tr>
+</xh:table>
+</statement>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s6" slide="6" course="Math 1010" chapter="10" section="1" subsection="" subsubsection="" chapter_title="" section_title=" Shortcuts for Computing Taylor Series "><keywords slide="6" environ="slide" chapter="10" course="Math 1010"/>
+<xh:table xmlns:xh="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" environment="">
+<xh:thead class="thead-default" environment="">
+<xh:tr environment="">
+<xh:th environment="">$f(x)$</xh:th>
+<xh:th environment="">$a$</xh:th>
+<xh:th environment="">Series</xh:th>
+</xh:tr>
+</xh:thead>
+<xh:tr environment=""><xh:td environment="">
+$\sin(5x)$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k5^{2k + 1}}{(2k + 1)!}x^{2k + 1}$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$x^3\cos x$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}x^{2k + 3}$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\sin(x - \pi)$</xh:td><xh:td environment="">$\pi$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}(x - \pi)^{2k + 1}$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\ln x$</xh:td><xh:td environment="">$1$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}(x - 1)^k$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{1}{x}$</xh:td><xh:td environment="">$1$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty (-1)^k (x - 1)^k$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{1}{1 + x}$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty (-1)^k x^k$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{1}{2 - x} = \frac{1}{2}\cdot\frac{1}{1 + \left(-\frac{x}{2}\right)}$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty \frac{1}{2^{k+1}}x^k$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{1}{1 + x^2}$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty (-1)^k x^{2k}$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{1}{(1 + x)^2}  = - \frac{d}{dx}\left(\frac{1}{1 + x}\right)$</xh:td>
+<xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1} k x^{k - 1}$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{x + 1}{x^2 + x + 1}$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty\left( x^{3k} - x^{3k + 2}\right)$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\displaystyle \frac{1}{(1 + x)(2 - x)} = \frac{1}{3}\left(\frac{1}{1 + x} + \frac{1}{2 - x}\right)$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty \frac{1}{3}\left((-1)^k + \frac{1}{2^{k + 1}}\right)  x^{k}$</xh:td>
+</xh:tr>
+<xh:tr environment="">
+<xh:td environment="">$\arctan x$</xh:td><xh:td environment="">$0$</xh:td>
+<xh:td environment="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{2k + 1} x^{2k + 1}$</xh:td>
+</xh:tr>
+</xh:table>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="10" num="2" serial="10.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="2" subsection="" subsubsection="" serial="10.2" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s7" slide="7" course="Math 1010" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="7" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="2" subsection="" subsubsection="" serial="" slide="7">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/AlfredUniv/anton8e/chapter10/10.5/prob11.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Utah/Calculus_II/set9_Infinite_Series/set9_pr11.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_11_10_56.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_11_10_prob01.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s8" slide="8" course="Math 1010" chapter="10" section="2" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="8" environ="slide" chapter="10" course="Math 1010"/>
+It is sometimes useful to use Taylor series to find limits
+which involve indeterminate forms.
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="5" md5="b0b98441bf8eda4449d5de330e6eb218" course="Math 1010" chapter="10" slide="8" item="10.5">
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+\[
+\lim_{x \rightarrow 0} \frac{\sin x - x - x^3}{x^3}
+\]
+</xh:li>
+<xh:li environment="statement">
+\[
+\lim_{x \rightarrow 0} \frac{\sin x - x\cos x}{x\sin^2 x}
+\]
+</xh:li></xh:ul>
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="10" num="3" serial="10.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="3" subsection="" subsubsection="" serial="10.3" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s9" slide="9" course="Math 1010" chapter="10" section="3" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="9" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="3" subsection="" subsubsection="" serial="" slide="9">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma123DB/set13/s11_10_45.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setSeriesTaylor/ur_sr_9_2.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setSeriesTaylor/e8_7_15.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap10Sec3/Q27.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Indefinite Integrals " course="Math 1010" chapter="10" num="4" serial="10.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="4" subsection="" subsubsection="" serial="10.4" slide="">
+Indefinite Integrals
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s10" slide="10" course="Math 1010" chapter="10" section="4" subsection="" subsubsection="" chapter_title="" section_title=" Indefinite Integrals "><keywords slide="10" environ="slide" chapter="10" course="Math 1010"><keyword chapter="10" slide="10">antiderivative</keyword></keywords>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="4" subsection="" subsubsection="" serial="" slide="10">
+Indefinite Integrals
+</title>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="c984f8a7181202d5fd8b4c86a4144f85" course="Math 1010" chapter="10" slide="10" item="10.6">
+If $F' = f$,
+we say that $F$ is an <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">antiderivative</xh:b> of $f$.
+</statement>
+If two functions $F$ and $G$ are both antiderivatives of $f$ over $(a, b)$,
+then $F' = G' = f$, hence:
+\[
+(F - G)' = F' - G' = 0.
+\]
+By a corollary of the mean value theorem, this implies that $F - G$
+is a constant function on $(a, b)$.  That is, there exists $C \in \mathbb{R}$,
+such that $(F - G)(x) = C$ for all $x \in (a, b)$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+Put differently, if $F$ is an antiderivative of $f$ over $(a, b)$,
+then any antiderivative of $f$ over $(a, b)$ has the form $F + C$
+for some constant function $C$.
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s11" slide="11" course="Math 1010" chapter="10" section="4" subsection="" subsubsection="" chapter_title="" section_title=" Indefinite Integrals "><keywords slide="11" environ="slide" chapter="10" course="Math 1010"><keyword chapter="10" slide="11">indefinite integral</keyword><keyword chapter="10" slide="11">integrand</keyword></keywords>
+<statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="7" md5="ea1501678be0a3ae378cb5fc0a65e28a" course="Math 1010" chapter="10" slide="11" item="10.7">
+The collection of all antiderivatives of a function $f$ is called the
+<xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">indefinite integral</xh:b> of $f$, denoted by:
+\[
+\int f(x)\,dx.
+\]
+We call $f(x)$ the <xh:b xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">integrand</xh:b> of $\int f(x)\,dx$.
+</statement>
+If $F' = f$, we write:
+\[
+\int f(x) dx = F + C,
+\]
+where $C$ denotes some arbitrary constant.
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<newcol course="Math 1010" chapter="10" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="99f811eca9b591a05372eca511a0f43b" course="Math 1010" chapter="10" slide="11" item="10.8">
+Since $\frac{d}{dx}\,x^2 = 2x$, we write:
+\[
+\int 2x\,dx = x^2 + C.
+\]
+Note that $x^2 + 17$ is also an antiderivative of $2x$,
+hence it is equally valid to write:
+\[
+\int 2x\,dx = x^2 + 17 + C.
+\]
+</statement>
+</newcol>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Some Properties of Indefinite Integrals " course="Math 1010" chapter="10" num="5" serial="10.5">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="5" subsection="" subsubsection="" serial="10.5" slide="">
+Some Properties of Indefinite Integrals
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s12" slide="12" course="Math 1010" chapter="10" section="5" subsection="" subsubsection="" chapter_title="" section_title=" Some Properties of Indefinite Integrals "><keywords slide="12" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="5" subsection="" subsubsection="" serial="" slide="12">
+Some Properties of Indefinite Integrals
+</title>
+<col_ul course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+<col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int 0 \;dx = C$,
+where $C$ is some constant.
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+For $k \in \mathbb{R}$, we have $\displaystyle \int k\;dx = kx + C$.
+In particular,
+\[
+\int dx = \int 1\,dx = x + C.
+\]
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+For $k \neq -1$,
+we have:
+\[
+\int x^k\;dx = \frac{x^{k + 1}}{k + 1} + C.
+\]
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\ds
+\int \frac{1}{x}\,dx = \ln \abs{x} + C.
+$
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+(This identity is not quite true.  Will explain later.)
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int e^x \;dx = e^x + C.$
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int \cos x \;dx = \sin x + C.$
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int \sin x \;dx = -\cos x + C.$
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int \sec^2 x \;dx = \tan x + C.$
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int \sec x \tan x \;dx = \sec x + C.$
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+$\displaystyle \int \frac{1}{1 + x^2} \;dx = \arctan x + C.$
+<xh:hr xmlns:xh="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+For any functions $f$, $g$  with antiderivatives $F$, $G$, respectively,
+we have:
+\[
+\displaystyle \int\left(f(x) + g(x)\right) \;dx = F(x) + G(x)  + C.
+\]
+</col_li><col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+For $k \in \mathbb{R}$, and any function $f$ with antiderivative $F$,
+we have:
+$\displaystyle \int k f(x) \;dx = kF(x) + C.$
+</col_li></col_ul>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s13" slide="13" course="Math 1010" chapter="10" section="5" subsection="" subsubsection="" chapter_title="" section_title=" Some Properties of Indefinite Integrals "><keywords slide="13" environ="slide" chapter="10" course="Math 1010"/>
+Observe that for any $a, b \in \mathbb{R}$,
+and differentiable function $F$, by the chain rule we have:
+\[
+\frac{d}{dx}\,F(ax + b) = aF'(ax + b)
+\]
+Hence, in general we have:
+\[
+\int f(ax + b)\;dx = \frac{1}{a}F(ax + b) + C,
+\]
+where $F$ is an antiderivative of $f$, and $C$ is some constant.
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s14" slide="14" course="Math 1010" chapter="10" section="5" subsection="" subsubsection="" chapter_title="" section_title=" Some Properties of Indefinite Integrals "><keywords slide="14" environ="slide" chapter="10" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="aca706b1fb3a856466dc66259c40a90a" course="Math 1010" chapter="10" slide="14" item="10.9">
+<newcol course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\[
+\int \sin(5x + \pi/4)\;dx = -\frac{1}{5}\cos(5x + \pi/4) + C.
+\]
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="a72c22e4ee4f85908f6d2a4c78e087dd" course="Math 1010" chapter="10" slide="14" item="10.10">
+<newcol course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\begin{multline*}
+\int \left(x^3 + \frac{4}{x^{1/3}} + (x + 7)^9 + e^{2x + 1}\right)\,dx\\
+= \frac{1}{4}x^4 + 4\left(\frac{3}{2}\right)x^{2/3} + \frac{1}{10}(x + 7)^{10}
++ \frac{1}{2}e^{2x + 1} + C.
+\end{multline*}
+</newcol>
+</statement>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="ce84b50bf80b1a26a4922ee97fba12a4" course="Math 1010" chapter="10" slide="14" item="10.11">
+<newcol course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+\begin{multline*}
+\int \sin^2(x) \,dx
+= \int \left(\frac{1 - \cos(2x)}{2}\right)dx
+= \int \left(\frac{1}{2} - \frac{1}{2}\cos(2x)\right)dx\\
+= \int \frac{1}{2}\,dx - \frac{1}{2}\int\cos(2x)dx\\
+= \frac{x}{2} - \frac{1}{4}\sin(2x) + C
+\end{multline*}
+Similarly, it may be shown that:
+\[
+\int \cos^2(x) \,dx = \frac{x}{2} + \frac{1}{4}\sin(2x) + C
+\]
+</newcol>
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Integration by Substitution " course="Math 1010" chapter="10" num="6" serial="10.6">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="6" subsection="" subsubsection="" serial="10.6" slide="">
+Integration by Substitution
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s15" slide="15" course="Math 1010" chapter="10" section="6" subsection="" subsubsection="" chapter_title="" section_title=" Integration by Substitution "><keywords slide="15" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="6" subsection="" subsubsection="" serial="" slide="15">
+Integration by Substitution
+</title>
+<statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" md5="c4aaa08348198fa6b1f345c90956b5cf" course="Math 1010" chapter="10" slide="15" item="10.12">
+If $F' = f$, and $g$ is a differentiable function, then:
+$\ds
+\int f(g(x))g'(x)\,dx = F(g(x)) + C.
+$
+</statement>
+<substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="10972cafd17ca1bc204e96b099f62841" course="Math 1010" chapter="10" slide="15" of="c4aaa08348198fa6b1f345c90956b5cf">
+<newcol course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+This is just the Chain Rule in reverse, since:
+\[\ds
+\frac{d}{dx} F(g(x)) = F'(g(x))g'(x) = f(g(x))g'(x).
+\]
+</newcol>
+</substatement>
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment=""/>
+<newcol course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+In Leibniz Notation, the theorem may be formulated as follows:
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="newcol"/>
+Let $u = g(x)$,  then $\displaystyle \frac{du}{dx} = g'(x)$, and:
+\begin{multline*}
+\int f(g(x))g'(x)\,dx = \int f(u)\frac{du}{dx}\,dx\\
+= \int f(u)\,du = F(u) + C = F(g(x)) + C.
+\end{multline*}
+</newcol>
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s16" slide="16" course="Math 1010" chapter="10" section="6" subsection="" subsubsection="" chapter_title="" section_title=" Integration by Substitution "><keywords slide="16" environ="slide" chapter="10" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="d1d9ded7102c75d7512039fce58fe979" course="Math 1010" chapter="10" slide="16" item="10.13">
+Evaluate:
+<xh:p xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/><xh:br xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement"/>
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+$\displaystyle \int x^2e^{x^3 + 4}\,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int \frac{t}{\sqrt{t + 2}}\,dt$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int \tan x\,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int \frac{x^5 + x^3 + x}{x^2 + 1}\,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li></xh:ul>
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="10" num="7" serial="10.7">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="7" subsection="" subsubsection="" serial="10.7" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s17" slide="17" course="Math 1010" chapter="10" section="7" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="17" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="7" subsection="" subsubsection="" serial="" slide="17">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ASU-topics/setCalc2/tracogna44.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_5.3/Anton_5_3_Q30.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_5_5/Stewart5_5_5_28.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_5/Stewart5_7_5_31.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/OSU/accelerated_calculus_and_analytic_geometry_i/hmwk6/prob13.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma122DB/set12/s5_5_43.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartET/s_7_2_prob05.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="7" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma123DB/set3/s7_5_61.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" Integration by Parts " course="Math 1010" chapter="10" num="8" serial="10.8">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="8" subsection="" subsubsection="" serial="10.8" slide="">
+Integration by Parts
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s18" slide="18" course="Math 1010" chapter="10" section="8" subsection="" subsubsection="" chapter_title="" section_title=" Integration by Parts "><keywords slide="18" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="8" subsection="" subsubsection="" serial="" slide="18">
+Integration by Parts
+</title>
+Let $u, v$ be differentiable functions.
+Recall the Product Rule:
+\[
+\frac{d}{dx}\,(uv) = v \frac{du}{dx} + u \frac{dv}{dx}
+\]
+Taking the indefinite integral (with respect to $x$)
+of both sides of the above equation, we have:
+\[
+\int \frac{d}{dx}\,(uv) dx = \int v\frac{du}{dx}\,dx + \int u \frac{dv}{dx}\,dx,
+\]
+which implies that:
+\[
+\int d(uv) = \int v\,du + \int u\,dv.
+\]
+Hence,
+$\displaystyle \int u\,dv = (uv) - \int v\,du$
+</slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" id="s19" slide="19" course="Math 1010" chapter="10" section="8" subsection="" subsubsection="" chapter_title="" section_title=" Integration by Parts "><keywords slide="19" environ="slide" chapter="10" course="Math 1010"/>
+<statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="10b05008d1d3be4a593234d51a7de64d" course="Math 1010" chapter="10" slide="19" item="10.14">
+Evaluate:
+<xh:ul xmlns:xh="http://www.w3.org/1999/xhtml" environment="statement">
+<xh:li environment="statement">
+$\displaystyle \int xe^{3x} \,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int x^2 e^x \,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int x^5 e^x \,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int x^5 \sin x \,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int \ln x \,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li>
+<xh:li environment="statement">
+$\displaystyle \int e^x \sin x \,dx$<xh:br environment="statement"/><xh:br environment="statement"/>
+</xh:li></xh:ul>
+</statement>
+</slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title=" WeBWorK " course="Math 1010" chapter="10" num="9" serial="10.9">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="9" subsection="" subsubsection="" serial="10.9" slide="">
+WeBWorK
+</title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" id="s20" slide="20" course="Math 1010" chapter="10" section="9" subsection="" subsubsection="" chapter_title="" section_title=" WeBWorK "><keywords slide="20" environ="slide" chapter="10" course="Math 1010"/>
+<title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="9" subsection="" subsubsection="" serial="" slide="20">
+WeBWorK
+</title>
+<enumerate course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+<item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/7_Techniques_of_Integration/7.1_Integration_by_Parts/7.1.19.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_5.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_5_0_prob02.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setIntByParts/sc5_6_07.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_38.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_10.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setIntByParts/mec_int1.pg"/>
+</item><item course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+<webwork course="Math 1010" chapter="10" chapter_type="" section="9" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_11.pg"/>
+</item></enumerate>
+<xh:br xmlns:xh="http://www.w3.org/1999/xhtml" wbtag="newline" environment=""/>
+</slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

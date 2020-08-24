@@ -1,0 +1,5180 @@
+@course{Math 1010}
+@week{1}
+@topic{Sequences}
+@section{Sequences and Limits}
+A <b>sequence</b> is an ordered list of numbers:
+\[
+a_1, a_2, a_3, \ldots,a_n,\ldots
+\]
+@col
+Common notations:
+\[
+\{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
+\]
+<hr/>
+@eg
+@col
+@ul
+@li
+\[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
+\[
+\{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
+\]
+<hr>
+@li
+\[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
+\[
+\{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
+\]
+<hr>
+@li
+<b>Fibonacci Sequence</b>
+\[
+a_1 = 1, a_2 = 1
+\]
+\[
+a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
+\]
+\[
+\{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
+\]
+In this case we say that the sequence $\{a_n\}$ is defined <b>recursively</b>.
+<hr>
+@endul
+@end
+@endcol
+@sep
+Sometimes, the terms $a_n$ of a sequence approach a single value $L$
+as $n$ tends to infinity.
+@def
+We say that the <b>limit</b> of a sequence $\{a_n\}$ is equal to $L$ if for
+all real numbers $\varepsilon > 0$ the exists a  number $N > 0$
+such that $|a_n - L| < \varepsilon$ for all $n > N$.
+@end
+@col
+If such a number $L$ exists, we say that:
+<blockquote>$\{a_n\}$ converges to $L$,</blockquote>
+and write:
+\[
+\lim_{n \rightarrow \infty} a_n = L.
+\]
+@col
+If no such $L$ exists, we say that $\{a_n\}$ diverges.
+
+If the values of $a_n$ increase (resp. decrease) without bound, we say that
+$\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
+\[
+\lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
+\]
+@endcol
+@slide
+@ex
+<ol>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q15.pg}
+</li>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q17.pg}
+</li>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q19.pg}
+</li>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q23.pg}
+</li>
+</ol>
+@end
+@subsection{Useful Properties}
+<hr/>
+@itemize
+@item
+<h5>Constant sequence</h5>
+
+@col
+If $a_n = c$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
+@endcol
+<hr/>
+@item
+<h5>Sum/Difference rule</h5>
+
+@col
+If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+$$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$
+@endcol
+<hr/>
+@item
+<h5>Product Rule</h5>
+
+@col
+If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+$$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
+= \left(\lim_{n\rightarrow\infty} a_n\right)
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$
+@endcol
+<hr/>
+@item
+<h5>Quotient Rule</h5>
+
+@col
+If both $\{a_n\}$ and $\{b_n\}$ converge,
+and $\lim_{n \rightarrow \infty} b_n \neq 0$,
+then:
+$$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$
+@endcol
+<hr/>
+@item
+@col
+$$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$
+@endcol
+<hr/>
+@item
+@col
+In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
+or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
+\[
+\lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
+\]
+@endcol
+@end
+@subsection{Examples}
+<hr/>
+<ul>
+<li>
+$\displaystyle
+\lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
+$
+<br/>
+@col
+@steps
+\begin{align*}
+&{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
+\frac{3n^2 - 2n + 7}{2n^2 + 3}}
+\\
+&
+#nstep{= \lim_{n \rightarrow \infty}
+\frac{3 - \frac{2}{n} + \frac{7}{n^2}}{2 + \frac{3}{n^2}}}
+\\
+&
+#nstep{= \frac{3}{2}.}
+\end{align*}
+@endsteps
+@endcol
+<hr>
+</li>
+<li>
+$\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$
+<br/>
+@col
+@steps
+\begin{align*}
+&=
+\lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{-3}{\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}}
+\\
+&
+@nstep{=\frac{-3}{\sqrt[3]{27}} = -1.}
+\end{align*}
+@endsteps
+@endcol
+<hr/>
+</li>
+<li>
+$\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$
+<br/>
+@col
+@steps
+\begin{align*}
+&=
+\lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
+\cdot
+\frac{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty}\frac{\left(4n^2 + n\right) - \left(4n^2 - 1\right)}{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{n + 1}{\sqrt{4n^2+n} + \sqrt{4n^2-1}}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{n + 1}{n\left(\sqrt{4 + \frac{1}{n}} + \sqrt{4-\frac{1}{n^2}}\right)}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{1 + \frac{1}{n}}{\left(\sqrt{4 + \frac{1}{n}} + \sqrt{4-\frac{1}{n^2}}\right)}}
+\\
+&
+@nstep{=\frac{1}{4}.}
+\end{align*}
+@endsteps
+@endcol
+</li>
+</ul>
+@slide
+@ex
+@itemize
+@item
+@webwork{Library/Dartmouth/setStewartCh12S1/problem_5.pg}
+@item
+@webwork{Library/Dartmouth/setStewartCh12S1/problem_6.pg}
+@item
+@webwork{Library/Dartmouth/setStewartCh12S1/problem_7.pg}
+@end
+@subsection{Monotonic Sequences}
+@def
+A sequence $\{a_n\}$ is said to be:
+<ul>
+<li>
+<b>increasing</b> if $a_{n+1} \geq a_n$ for all $n$,
+<li>
+<b>decreasing</b> if $a_{n + 1} \leq a_n$ for all $n$.
+</ul>
+A sequence is said to be <b>monotonic</b> if it is either increasing or decreasing.
+@end
+
+@thm
+@title{Monotone Convergence Theorem}
+@newcol
+If $\{a_n\}$ is either:
+
+@col
+<blockquote><i>increasing</i> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
+and bounded <i>above</i> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</blockquote>
+or
+
+@col
+<blockquote><i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
+and bounded <i>below</i> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</blockquote>
+then $\{a_n\}$ converges.
+@end
+
+@col
+Moreover,
+
+@col
+if $\{a_n\}$ is increasing and $a_n \leq M$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n \leq M$.
+
+@col
+If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n \geq M$.
+
+@sep
+@eg
+Let $\{a_n\}$ be a sequence of real numbers, which is defined by
+\[
+a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n>1$.}
+\]
+<ol>
+<li>
+Prove that $0 \leq a_n\leq 3$.
+(Hint: Perhaps <b>mathematical induction</b> could be useful here.)
+<li> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit.
+</li>
+</ol>
+@end
+@sol
+@col
+1. @newcol
+First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.
+
+<u>Base Step</u>: By definition, $a_1 = 1 \geq 0$.
+
+<u>Inductive Step</u>: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
+
+By the definition of the sequence, we have:
+\[
+a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
+\]
+By the <b>induction hypothesis</b>, i.e. $a_n \geq 0$, we have:
+\[
+a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
+\]
+Hence, $a_{n + 1} \geq 0$.
+
+It now follows from the principle of mathematical induction
+that $a_n \geq 0$ for all $a \in \mathbb{N}$.
+<hr/>
+Similary, to show that $a_n \leq 3$, we first observe that
+by definition $a_1 = 1 \leq 3$.
+Whenever $a_n \leq 3$, we have:
+\[
+\begin{split}
+3 - a_{n+1} &= 3 - \frac{12a_n + 12}{a_n + 13}\\
+&= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}\\
+&= \frac{9(3 - a_n)}{a_n + 13} \geq 0,
+\end{split}
+\]
+which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
+for all $n \in \mathbb{N}$.
+<hr/>
+@endcol
+
+2. @newcol
+Observe that for all $n \in \mathbb{N}$,
+we have:
+\[
+\begin{split}
+a_{n + 1} - a_n
+&= \frac{12a_n + 12}{a_n + 13} - a_n\\
+&= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}\\
+&= -\frac{a_n^2 +a_n - 12}{a_n + 13}\\
+&= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}\\
+&\geq 0,
+\end{split}
+\]
+since $0 \leq a_n \leq 3$, as shown in Part 1.
+
+This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
+Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
+by the Monotone Convergence Theorem.
+
+To find $L$, we take the limit as $n \rightarrow \infty$ of
+both sides of the equation:
+\[
+a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
+\]
+That is:
+\[
+\lim_{n \rightarrow \infty} a_n=
+\lim_{n \rightarrow \infty}\frac{12a_{n-1}+12}{a_{n-1}+13},
+\]
+which gives:
+\[
+L = \frac{12 L  + 12}{L + 13},
+\]
+since
+$\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.
+
+The equation above implies that:
+\[
+L^2 + L - 12 = 0,
+\]
+which gives $L = 3$ or $L = -4$.
+Since the sequence $\{a_n\}$ is bounded below by $0$,
+we may eliminate the case $L = -4$.
+
+We conclude that:
+\[
+\lim_{n \rightarrow \infty} a_n = 3.
+\]
+@qed
+@endcol
+@end
+@subsection{Sandwich Theorem}
+@thm
+@title{Sandwich Theorem for Sequences}
+Let $\{a_n\}$, $\{b_n\}$, $\{c_n\}$ be sequences such that:
+\[
+a_n \leq b_n \leq c_n
+\]
+for all $n$ sufficiently large.
+If
+\[
+\lim_{n \rightarrow \infty} a_n  = \lim_{n \rightarrow \infty} c_n = L,
+\]
+then $\lim_{n \rightarrow \infty} b_n = L$ also.
+@end
+
+@eg
+@ol
+@li
+Find the following limit:
+$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
+<hr>
+@li
+<ul>
+<li>
+Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$.
+<li>
+Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$.
+</ul>
+<hr>
+@li
+Suppose $0 < a < 1$. Let $b=\frac{1}{a}-1$.
+ For $n\ge 2$, use the binomial theorem to show that
+ \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
+ Then, show that:
+ \[ \lim_{n \to \infty} na^n = 0. \]
+<hr>
+@endol
+<!--
+@enumerate
+@item @webwork{Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk1/prob1.pg}
+@item @webwork{Library/Rochester/setSequences2Limits/ur_sq_2_25.pg}
+@item @webwork{Library/Rochester/setSequences2Limits/ns8_1_25.pg}
+@item @webwork{Library/ma123DB/set10/s11_1_19.pg}
+@endenumerate
+-->
+@end
+@sep
+@ex
+Using the inequality:
+\[
+\frac{1}{\sqrt{n^2+n}} \leq \frac{1}{\sqrt{n^2+r}} \leq \frac{1}{\sqrt{n^2+1}},
+\quad
+\text{ for } r=1,2,3,\cdots,n,
+\]
+
+prove that:
+
+@col
+\[
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]
+@endcol
+<hr>
+<strong>Solution.</strong>
+@col
+We have:
+\begin{align*}
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+&\leq
+\underbrace{
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}
+}_{n \text{ times}}\\
+&= \frac{n}{\sqrt{n^2+1}},
+\end{align*}
+@col
+and:
+\begin{align*}
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+&\geq
+\underbrace{
+\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+}_{n \text{ times}}\\
+&= \frac{n}{\sqrt{n^2+n}}.
+\end{align*}
+@col
+Since:
+\[
+\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
+= \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
+= \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
+\]
+@col
+and:
+\[
+\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
+= \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
+= \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
+\]
+@col
+by the Sandwich Theorem we conclude that:
+\[
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
+\]
+@qed
+@endcol
+@end
+
+@week{2}
+@topic{Functions}
+@section{Functions}
+@def
+A function:
+\[
+f : A \longrightarrow B
+\]
+is a rule of correspondence from one set $A$ (called the <b>domain</b>)
+to another set $B$ (called the <b>codomain</b>).
+<br>
+Under this rule of correspondence,
+each element $x \in A$ corresponds to <i>exactly one</i> element
+$f(x) \in B$, called the <b>value</b>
+of $f$ at $x$.
+@end
+In the context of this course,
+the domain $A$ is usually some subset (intervals, union of intervals)
+of $\mathbb{R}$,
+while the codomain $B$ is often presumed to be $\mathbb{R}$.
+@sep
+Sometimes, the domain of a function is not explicitly given,
+and a function is simply defined by an expression in terms of an independent variable.
+
+For example,
+\[
+f(x) = \sqrt{\frac{x + 1}{x - 2}}
+\]
+@col
+In this case, the domain of $f$ is assumed to be the <b>natural domain</b>
+(or <b>maximal domain</b>, <b>domain of definition</b>),
+namely the largest subset of $\mathbb{R}$ on which the expression defining $f$
+is well-defined.
+
+@eg
+@col
+For the function:
+\[
+\displaystyle f(x) = \sqrt{\frac{x+1}{x - 2}},
+\]
+the natural domain is:
+\[
+\begin{split}
+\mathrm{Domain}(f)
+&= \left\{ x \in \mathbb{R}\; \left|\; \frac{x+1}{x-2} \geq 0\right. \right\}\\
+&= (-\infty, -1] \cup (2, \infty).
+\end{split}
+\]
+@end
+
+@subsection{Graphs of Functions}
+For $f : A \longrightarrow B$ where $A, B$ are subsets of $\mathbb{R}$,
+it is often useful to consider the <b>graph</b> of $f$,
+namely the set of all points $(x, y)$ in the $xy$-plane
+where $x \in A$ and $y = f(x)$.
+<p/>
+By definition, any function $f$ takes on a unique value $f(x)$ for each
+$x$ in its domain, hence the graph of $f$ necessarily passes the
+so-called "<b>vertical line test</b>", namely, any vertical line which one
+draws in the $xy$-plane intersects the graph of $f$ <i>at most once</i>.
+
+<p/>
+The graph of a circle, for example, is not the graph of any function,
+since there are vertical lines which intersect the graph twice.
+
+@ex
+@col
+Graph the functions $f(x) = \displaystyle{\frac{x}{2}}$ and $g(x) = \displaystyle{\frac{4}{x}-1}$ together, to identify values of $x$ for which
+$$
+\frac{x}{2} > \frac{4}{x} - 1.
+$$
+Confirm your answer by solving the inequality algebraically.
+@end
+@sol
+@col
+The inequality holds if and only if:
+\[
+x \in (-4, 0)\cup (2, \infty)
+\]
+@endcol
+@end
+@sep
+@subsection{Algebraic Operations on Functions}
+@def
+Given two functions:
+\[
+f, g : A \longrightarrow \mathbb{R},
+\]
+@itemize
+@item
+Their <b>sum/difference</b> is:
+
+@col
+\[
+f \pm g : A \longrightarrow \mathbb{R},
+\]
+\[
+(f \pm g)(a) := f(a) \pm g(a), \quad \text{ for all } a \in A;
+\]
+@item
+Their <b>product</b> is:
+
+@col
+\[
+fg : A \longrightarrow \mathbb{R},
+\]
+\[
+fg (a) := f(a)g(a),\quad \text{ for all } a \in A;
+\]
+@item
+The <b>quotient function</b> $\dfrac{f}{g}$ is:
+
+@col
+\[
+\frac{f}{g} : A' \longrightarrow \mathbb{R},
+\]
+\[
+\frac{f}{g}(a) := \frac{f(a)}{g(a)}\;,\quad \text{ for all } a \in A',
+\]
+where \[A' = \{ a \in A : g(a) \neq 0\}.\]
+@enditemize
+@end
+@col
+More generally,
+For:
+\[
+f: A \longrightarrow \mathbb{R},
+\]
+\[
+g: B \longrightarrow \mathbb{R},
+\]
+we define $f\pm g$ and $fg$ as follows:
+<hr/>
+\[
+f\pm g : A \cap B \longrightarrow \mathbb{R},
+\]
+\[
+f\pm g (x) := f(x) \pm g(x), \quad x \in A \cap B.
+\]
+<hr/>
+\[
+fg : A \cap B \longrightarrow \mathbb{R},
+\]
+\[
+fg (x) := f(x)g(x), \quad x \in A \cap B.
+\]
+<hr/>
+Similary, we define:
+\[
+\frac{f}{g} : A\cap B' \longrightarrow \mathbb{R},
+\]
+\[
+\frac{f}{g}(x) = \frac{f(x)}{g(x)}, \quad x \in A \cap B',
+\]
+where $B' = \{b \in B : g(b) \neq 0\}$.
+
+@sep
+@subsection{Composition of Functions}
+Given two functions:
+\[
+f : A \longrightarrow B,\quad g : B \longrightarrow C,
+\]
+the <b>composite function</b> $g\circ f$ is defined as follows:
+\[
+g \circ f : A \longrightarrow C,
+\]
+\[
+(g\circ f)(a) := g(f(a)), \quad \text{ for all } a \in A.
+\]
+@col
+More generally, the domain of $g \circ f$ is defined to be:
+\[
+\mathrm{Domain}(g\circ f)
+=
+\{a \in \mathrm{Domain}(f) : f(a) \in \mathrm{Domain}(g)\}.
+\]
+@subsection{Inverse of a Function}
+The <b>range</b> or <b>image</b> of a function $f : A \longrightarrow B$
+is the set of all $b \in B$ such that $b = f(a)$ for some $a \in A$.
+</p>
+<p>
+@notation
+@col
+\[
+\mathrm{Image}(f) = \mathrm{Range}(f) := \{b \in B \, : \, b = f(a) \text{ for some } a \in A\}.
+\]
+@endcol
+@end
+@col
+Note that the range of $f$ is not necessarily equal to the codomain $B$.
+@endcol
+@def
+@col
+If $\mathrm{Range}(f) = B$, we say that $f$ is <b>surjective</b> or <b>onto</b>.
+@endcol
+@end
+@def
+@col
+If $f(a) \neq f(a')$ for all $a, a' \in \mathrm{Domain}(f)$ such that $a \neq a'$,
+we say that $f$ is <b>injective</b> or <b>one-to-one</b>.
+@endcol
+@end
+@sep
+If $f : A \longrightarrow B$ is injective, then there exists
+an <b>inverse function</b>:
+\[
+f^{-1} :  \mathrm{Range}(f) \longrightarrow A
+\]
+such that $f^{-1}\circ f$ is the <b>identity function</b> on $A$,
+and $f \circ f^{-1}$ is the identity function on $\mathrm{Range}(f)$, that is:
+<br>
+@ul
+@li
+\[
+f^{-1}(f(a)) = a, \quad \text{ for all } a \in A,
+\]
+@li
+\[
+f(f^{-1}(b)) = b, \quad \text{ for all } b \in \mathrm{Range}(f).
+\]
+@endul
+@eg
+\[
+f : \mathbb{R} \longrightarrow \mathbb{R},
+\]
+\[
+f(x) := x^2, \quad x \in \mathbb{R}.
+\]
+is not injective, hence it has no inverse.
+@end
+@sep
+On the other hand,
+\[
+f : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R},
+\]
+\[
+f(x) := x^2, \quad x \in \mathbb{R}_{\geq 0};
+\]
+<i>is</i> injective.
+<p>
+@col
+It's range is $\mathrm{Range}(f) = \mathbb{R}_{\geq 0}$.
+<p>
+@col
+Its inverse is:
+\[
+f^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\geq 0}
+\]
+\[
+f^{-1}(y) = \sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
+\]
+<hr>
+@col
+Similarly,
+\[
+g : \mathbb{R}_{\leq 0} \longrightarrow \mathbb{R},
+\]
+\[
+g(x) := x^2, \quad x \in \mathbb{R}_{\leq 0};
+\]
+is also injective,
+<p>
+@col
+with $\mathrm{Range}(g) = \mathbb{R}_{\geq 0}$,
+<p>
+@col
+and inverse:
+\[
+g^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\leq 0}
+\]
+\[
+g^{-1}(y) = -\sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
+\]
+<hr>
+@endcol
+
+@section{WeBWorK}
+@enumerate
+@item @webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
+@item @webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
+@item @webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
+@item @webwork{Library/UBC/setLimits/matching.pg}
+@item @webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
+@item @webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
+@end
+@week{3}
+@topic{Functions}
+@topic{Limits}
+@section{Piecewise Defined Functions}
+@eg
+@ul
+@li
+\[
+f(x) = \begin{cases}
+-x + 1 & \text{ if } -2 \leq x < 0\\
+3x & \text{ if } 0 \leq x \leq 5
+\end{cases}
+\]
+<hr>
+@li
+The <b>absolute value function</b>
+\[
+|x| = \begin{cases}
+-x  & \text{ if } x < 0\\
+x & \text{ if } x \geq 0
+\end{cases}
+\]
+@endul
+@end
+@sep
+@ex
+Let $f: \mathbb{R} \longrightarrow \mathbb{R}$ be the function defined by:
+\[
+f(x) = -3x+4-|x+1|-|x-1|
+\]
+for any $x \in \mathbb{R}$.
+<ol>
+<li> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$.
+</li>
+<li>
+Sketch the graph of the function $f$.
+</li>
+<li>
+Is $f$ an injective function on $\mathbb{R}$? Justify your answer.
+</li>
+<li>
+What is the image of $\mathbb{R}$ under the function $f$?
+</li>
+</ol>
+<hr>
+<strong>Solution.</strong>
+@col
+@ol
+@li $f(x) = \displaystyle{\begin{cases}
+\begin{array}{lcl}
+-x+4  & \mbox{if} & x < -1 \\
+-3x+2 & \mbox{if} & -1 \leq x < 1\\
+-5x+4 & \mbox{if} & x \geq 1
+\end{array}
+\end{cases}}$
+@li
+<br>
+<div class="image">
+<iframe src="https://www.desmos.com/calculator/bbwogysjpd?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+</div>
+@li $f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\
+R}$.
+<p>
+@li The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$.
+@endol
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
+@item @webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
+@item @webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
+@item @webwork{Library/UBC/setLimits/matching.pg}
+@item @webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
+@item @webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
+@endenumerate
+@end
+@section{Even and Odd Functions}
+@def
+Let $f$ be a real-valued function defined on real numbers.
+<ul>
+<li>
+It is said to be <strong>even</strong>
+<b style="display:none">even function</b>
+if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\[
+f(-x) = f(x).
+\]
+</li>
+<li>
+It is said to be <strong>odd</strong>
+<b style="display:none">odd function</b>
+if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\[
+f(-x) = -f(x).
+\]
+</li>
+</ul>
+@end
+@eg
+@ol
+@li
+The polynomial $f(x) = x^4 + x^2 + 1$ is even,
+while the polynomial $g(x) = x^5 + x^3 + x$ is odd.
+@li
+The function $f(x) = \cos x$ is even, while $f(x) = \sin x$ is odd.
+@li
+The absolute value function is even.
+@endol
+@end
+@fact
+@ol
+@li
+The sum of two even (resp. odd) functions is even (resp. odd).
+@li
+The product of two even functions is even.
+@li
+The product of two odd functions is also even.
+@li
+The product of an even function with an odd function is odd.
+
+For example, $f(x) = x \abs{x}$ is odd.
+@endol
+@end
+@section{Limits of Functions on the Real Line}
+Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$.
+Let $a$ be a point on the real line such that $f$ is defined on a neighborhood of $a$
+(though not necessarily at $a$ itself).
+@def
+We say that the <b>limit</b> of $f$ at $a$ is $L$ if for all $\varepsilon > 0$,
+there exists $\delta > 0$ such that $\abs{f(x) - L} < \varepsilon$
+whenever $x$ satisfies $0 < \abs{x - a} < \delta$.
+@end
+@col
+If $f$ has a limit $L$ at $a$, we write:
+\[
+\lim_{x \rightarrow a} f(x) = L.
+\]
+Note that the limit may exist even if
+$a$ does not lie in the domain of $f$.
+@sep
+@def
+Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$
+is unbounded towards $+\infty$ and/or $-\infty$.
+We say that the <b>limit</b> of $f$ at $\infty$ (resp. $-\infty$)
+is $L$ if for all $\varepsilon > 0$,
+there exists a $c \in \mathbb{R}$  such that $\abs{f(x) - L} < \varepsilon$
+whenever $x > c$ (resp. $x < c$).
+@end
+@col
+If $f$ has a limit $L$ at $\infty$ (resp $-\infty$), we write:
+\[
+\lim_{x \rightarrow \infty} f(x) = L
+\quad
+\left( \text{resp. }
+\lim_{x \rightarrow -\infty} f(x) = L
+\right)
+\]
+@sep
+<strong>Some Useful Identities:</strong>
+<p>
+In the following idenities,
+the symbol $a$ can be either a real number or $\pm \infty$.
+@ol
+@li
+For any constant $c \in \mathbb{R}$,
+we have $\displaystyle\lim_{x\rightarrow a} c = c$.
+@li
+$\displaystyle\lim_{x \rightarrow a} x = a.$
+@li If $\lim_{x \rightarrow a} f(x) = L$, and $\lim_{x \rightarrow a} g(x) = M$,
+then:
+@ul
+  @li
+  $\lim_{x\rightarrow a} (f\pm g)(x) = L\pm M.$
+  @li
+  $\lim_{x\rightarrow a} fg(x) = LM.$
+  @li
+  \[\lim_{x\rightarrow a} \dfrac{f}{g}(x) = \dfrac{L}{M}\] provided that $M \neq 0$.
+@endul
+@li If $\lim_{x \rightarrow a} f(x) = L$, then:
+\[
+\lim_{x\rightarrow a}(f(x))^n = L^n\quad
+\text{ for all } n \in \mathbb{N} = \{1, 2, 3, \ldots\},
+\]
+and
+\[
+\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
+\text{ for all odd positive integers } n.
+\]
+@li If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$.
+@endol
+@sep
+@eg
+Compute the following limits, if they exist:
+@ul
+@li
+$\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
+<hr>
+@li
+$\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
+@endul
+@end
+@ex
+@enumerate
+@item @webwork{Library/Utah/AP_Calculus_I/set2_Derivatives_and_Limits/1210s2p26.pg}
+@item @webwork{Library/Union/setLimitConcepts/3-2-50.pg}
+@item @webwork{Library/ma122DB/set2/s2_6_21.pg}
+@item @webwork{Library/Rochester/setLimitsRates3Infinite/ur_lr_3_1.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_2_3_19.pg}
+@end
+@end
+@section{One-Sided Limits}
+<ul>
+<li>
+We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
+if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the right</i>.
+We call this $L$ the <b>right limit</b> of $f$ at $a$.
+</li>
+<li>
+Similarly,
+we write $\displaystyle\lim_{x\rightarrow a^-} f(x) = L$
+if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the left</i>.
+We call this $L$ the <b>left limit</b> of $f$ at $a$.
+</li>
+</ul>
+The limit $\displaystyle\lim_{x \rightarrow a}f(x)$
+is sometimes called the <b>double-sided limit</b> of $f$ at $a$.
+It exists if and only if both one-sided limits exist
+and are equal to each other.  In which case, we have:
+\[
+\lim_{x \rightarrow a}f(x) = \lim_{x\rightarrow a^+} f(x)
+= \lim_{x\rightarrow a^-} f(x).
+\]
+
+@sep
+@ex
+Define
+\[  f(x) = \begin{cases}
+    x-1  & \text{if $1\le x \le 2$,}\\
+    2x+3 & \text{if $2 < x \le 4$,}\\
+    x^2 & \text{otherwise.}
+    \end{cases} \]
+Compute $\displaystyle \lim_{x\to 2^+} f(x)$ and
+$\displaystyle \lim_{x\to 2^-} f(x)$.
+Then, find $\displaystyle\lim_{x\to 2} f(x)$, if it exists.
+<hr>
+<h5>Answers.</h5>
+@col
+@ol
+@li
+\[
+\begin{split}
+\lim_{x\to 2^+} f(x) &= 7\\
+\lim_{x\to 2^-} f(x) &= 1
+\end{split}
+\]
+@li
+Since $\displaystyle \lim_{x\to 2^+} f(x) \neq \lim_{x\to 2^-} f(x)$,
+the double-sided limit $\displaystyle\lim_{x\to 2} f(x)$ does not exist.
+@endcol
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Union/setFunctionBasics/srw2_1_23.pg}
+@item @webwork{Library/Union/setLimitConcepts/ns2_2_x.pg}
+@item @webwork{Library/Union/setLimitConcepts/ur_lr_1-5_1.pg}
+@item @webwork{Library/ma122DB/set1/ns2_2_xx.pg}
+@item @webwork{Library/ASU-topics/setCalculus/stef/stef2_3p3.pg}
+@end
+@end
+
+@week{4}
+@topic{Sandwich Theorem<br/>Continuity}
+@section{Sandwich Theorem for Functions on the Real Line}
+@thm
+Let $a \in \mathbb{R}$,
+$A$ an open neighborhood of $a$ which does not necessarily contain $a$ itself.
+Let $f, g, h : A \longrightarrow\mathbb{R}$
+be functions such that:
+\[
+g(x) \leq f(x) \leq h(x)\quad\text{ for all } x \in A,
+\]
+and
+\[
+\displaystyle \lim_{x \rightarrow a}g(x) = \lim_{x\rightarrow a}h(x) = L.
+\]
+Then, $\displaystyle\lim_{x \rightarrow a} f(x) = L$.
+@end
+@sep
+Similary,
+@thm
+If $f, g, h$ are functions on $\mathbb{R}$ such that:
+\[
+g(x) \leq f(x) \leq h(x)
+\]
+for all $x$ sufficiently large, and
+\[
+\lim_{x \rightarrow \infty}g(x) =\lim_{x \rightarrow \infty}h(x) = L,
+\]
+then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$.
+@end
+<!-- @collapse minusinfty [+]@
+@ex
+State the analogue to the above theorem for the case of limits at $-\infty$.
+@end
+</div>
+-->
+@sep
+@ex
+Find the following limits, if they exist:
+<p>
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$
+<hr>
+<li>
+$\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$
+</ul>
+@end
+
+@sep
+@thm
+\[
+\lim_{x \rightarrow 0} \frac{\sin x}{x} = 1.
+\]
+@end
+@cor
+@col
+\[
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2} = \frac{1}{2}\;.
+\]
+@end
+
+@sep
+@ex
+Find the following limits, if they exist:
+<p>
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$
+<hr>
+<li>
+$\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$
+</ul>
+@end
+
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Michigan/Chap1Sec8/Q05.pg}
+@item @webwork{Library/ASU-topics/setLimitConcepts/s1_3_19.pg}
+@item @webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.6_Trigonometric_Limits/2.6.34.pg}
+@item @webwork{Library/UCSB/Stewart5_2_6/Stewart5_2_6_35.pg}
+@item @webwork{Library/ASU-topics/setLimitInfinity/ur_lr_3_11.pg}
+@item @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C02S03-CalcLimits/2-3-24.pg}
+@end
+@end
+
+@sep
+@def
+For each $x \in \mathbb{R}$, we let:
+\[
+e^x = \sum_{k = 0}^\infty \frac{x^k}{k!}
+= 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots
+\]
+@end
+It is known that:
+\[
+e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
+\]
+
+@sep
+@thm
+\[
+\lim_{x \rightarrow \infty} \left(1 + \frac{1}{x}\right)^x
+= \lim_{x \rightarrow 0} (1 + x)^{\frac{1}{x}} = e
+\]
+@end
+@cor
+@collapse
+
+\[
+\lim_{x \rightarrow \infty} \left(1 - \frac{1}{x}\right)^x
+= \lim_{x \rightarrow 0} (1 - x)^{\frac{1}{x}}
+= \frac{1}{e}
+\]
+@end
+@end
+@ex
+@col
+Find:
+\[
+\lim_{x\rightarrow \infty} \left(\frac{x + 1}{x - 1}\right)^x
+\]
+@end
+<!-- @sep
+@thm
+(<b>Newton's Generalized Binomial Theorem.</b>)
+For all $x, y, r \in \mathbb{R}$ such that $\abs{x} > \abs{y}$, we have:
+\[
+\begin{multline*}
+(x + y)^r = \sum_{k = 0}^\infty C^r_k x^{r - k}y^k\\
+= x^r + x^{r - 1}y + \frac{r(r - 1)}{2!}x^{r - 2}y^2 + \frac{r(r - 1)(r - 2)}{3!}x^{r - 3}y^3 + \cdots
+\end{multline*}
+\]
+@end
+@sep
+-->
+
+@sep
+@thm
+For all $n \in \{1, 2, 3, \ldots\}$, we have:
+\[
+\lim_{x \rightarrow \infty} \frac{x^n}{e^x} = 0.
+\]
+@end
+@cor
+@collapse
+For all $n \in \{1, 2, 3, \ldots\}$, and $b > 1$, we have:
+\[
+\lim_{x \rightarrow \infty} \frac{x^n}{b^x} = 0.
+\]
+@end
+@sep
+@fact
+\[
+\lim_{x \rightarrow 0} \frac{\ln(1 + x)}{x} = 1.
+\]
+From this may be further deduced that:
+\[
+\lim_{t \rightarrow 0} \frac{e^t - 1}{t} = 1,
+\]
+by applying a change of variable:
+\[
+x = e^t - 1.
+\]
+@end
+@sep
+@def
+@keyword{continuous}
+A function $f : A \longrightarrow\mathbb{R}$ is said to be <strong>continuous</strong>
+at $c \in A$ if:
+\[
+\lim_{x\rightarrow c} f(x) = f(c).
+\]
+A function is said to be <strong>continuous</strong>
+if it is continuous at every point in its domain.
+@end
+@col
+Should $c$ be an endpoint in the domain of $f$,
+the continuity of $f$ at $c$ is defined in terms of a one-sided limit.
+<p>
+That is, right limit if $c$ is a left endpoint,
+and left limit if $c$ is a right endpoint.
+<p>
+@collapse
+Hence, the function:
+\[
+f(x) = \sqrt{x}
+\]
+is continuous at $x = 0$, since $\mathrm{Domain}(f) = [0, \infty)$, and:
+\[
+\lim_{x \rightarrow 0^+} f(x) =\;0\;= f(0).
+\]
+@endcol
+@sep
+The following "elementary functions"
+are continuous at every element in their domains:
+\[
+f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan,  e^x, \ln x, \arcsin x, \arccos x,
+\arctan x
+\]
+Due to the laws of sum/difference/product/quotient for limits,
+the sum/difference/product/quotient of continuous functions is also continous.
+<hr>
+In particular, polynomials and rational functions are all continuous on their domains.
+@sep
+@thm
+for functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
+$f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
+\[
+\lim_{x \rightarrow a} f(g(x)) = f\left(\lim_{x\rightarrow a}g(x)\right).
+\]
+@end
+@collapse
+@eg
+It follows from this theorem that:
+\[
+\lim_{x \rightarrow 0} \frac{\ln(1 + x)}{x} = 1
+\]
+<!-- And from this may be further deduced that:
+ \[
+ \lim_{t \rightarrow 0} \frac{e^t - 1}{t} = 1.
+ \]
+ -->
+@end
+@sep
+It also follows from the previous theorem that any composite
+of continuous functions is continuous.
+@eg
+The following functions are all continuous,
+since they are the sums, differences, products, quotients,
+or composites of other continuous functions:
+\[
+\begin{split}
+f(x) &= \frac{e^{\cos\left(\frac{1}{x}\right)}}{x^7 - 9x^2 + 23}\\
+g(x) &= \frac{1}{\arctan{x}} -\sqrt[3]{\log_5\left(2^x + 1\right)}\\
+h(x) &= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
+\end{split}
+\]
+@end
+@sep
+@eg
+The following functions are continuous at every point on the real line:
+<p>
+<ul>
+<li>
+\[
+g(x) = \begin{cases}
+\frac{\sin{x}}{x}\;, & x \neq 0;\\
+1, & x = 0;
+\end{cases}
+\]
+<li>
+\[
+f(x) = \begin{cases}
+x^2\cos\left(\frac{1}{e^x - 1}\right), & x \neq 0;\\
+0, & x = 0;
+\end{cases}
+\]
+</ul>
+@end
+
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Union/setLimitContinuity/c1s5p5.pg}
+@item @webwork{Library/Union/setLimitContinuity/s1_5_38.pg}
+@item @webwork{Library/Union/setLimitContinuity/ur_lr_5_4.pg}
+@item @webwork{Library/maCalcDB/setLimitsRates5Continuity/ur_lr_5_5_mo.pg}
+@endenumerate
+@end
+
+@sep
+@ex
+Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies:
+<ul>
+<li> $f(x+y)=f(x)f(y)$ for all $x,y\in\mathbb{R}$;
+<li> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$.
+</ul>
+<hr>
+@ol
+@li Show that $f(0)=1$.
+@li Show that $f(x)$ is continuous on $\mathbb{R}$.
+@endol
+@end
+@sep
+@thm
+@title{Intermediate value Theorem (IVT)}
+If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
+then $f$ attains every value between $f(a)$ and $f(b)$.
+<p>
+In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
+and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$.
+@end
+@ex
+@collapse
+<ul>
+<li>
+Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$.
+<li>
+Show that the range of $f(x) = e^x - \sqrt{x}$ <i>contains</i> $[1, \infty)$.
+</ul>
+@end
+<!-- @sep
+Consider a function $f : A \longrightarrow\mathbb{R}$.
+@def
+<ul>
+<li>
+If there is an element $c \in A$ such that: $f(c) \leq f(x)$
+for all $x \in A$, we say that $f(c)$ is the (absolute) <b>minimum</b> of $f$.
+<li>
+If there is an element $d \in A$ such that: $f(d) \geq f(x)$
+for all $x \in A$, we say that $f(d)$ is the (absolute) <b>maximum</b> of $f$.
+</ul>
+@end
+<hr>
+Note that in general a maximum or minimum does not necessarily exist.
+However:
+<p>
+@thm
+<b>Extreme Value Theorem (Maximum-Minimum Theorem).</b>
+@col
+If $f$ is a <u>continuous</u> function
+defined on a <u>closed</u> interval $[a, b]$,
+then it does attain both a maximum and a minimum on $[a, b].$
+@end -->
+<!-- <p>
+That is are $c, d \in [a, b]$ such that:
+\[
+f(c) \leq f(x) \leq f(d)
+\]
+for all $x \in [a, b]$.
+<ul>
+<li>
+$f(c)$ is called the (absolute) <b>minimum</b> of $f$ on $[a, b]$,
+<li>
+$f(d)$ is called the (absolute) <b>maximum</b> of $f$ on $[a, b]$.
+</ul> -->
+<!-- @sep
+In general (for any real-valued function $f$),
+@def
+<ul>
+<li>
+If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a <b>local/relative maximum</b> at $c$.
+<li>
+If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a <b>local/relative minimum</b> at $c$.
+</ul>
+@end -->
+
+@week{5}
+@topic{Differentiation}
+@section{Derivatives}
+@def
+We say that a function $f$ is <b>differentiable</b> at $c$ if the limit:
+\[
+f'(c) := \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}
+\]
+exists.
+The limit $f'(c)$, if it exists, is called the <b>derivative</b>
+of $f$ at $c$.
+@end
+@collapse
+We say that a function $f$ is <b>differentiable</b>
+if it is differentiable at every point in its domain.
+@sep
+@ex
+Let $f(x) = \abs{x}$.
+Is $f$ differentiable at $x = 0$?  If so, find $f'(0)$.
+@end
+@sep
+@thm
+If a function $f$ is differentiable at $c$, then it is also continuous at $c$.
+<p>
+(The converse is false in general.)
+@end
+@eg
+Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by\[
+    f(x) = \left\{ \begin{array}{ccc} x^3 & \textrm{if} & x\leq1; \\ \\ ax+b & \textrm{if} & x>1. \end{array}\right. \]
+    Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$.
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/AlfredUniv/anton8e/chapter3/3.2/prob5.pg}
+@item @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C02S08-Derivatives/2-8-21.pg}
+@item @webwork{Library/UCSB/Stewart5_2_8/Stewart5_2_8_22.pg}
+@item @webwork{Library/Westmont/ActiveCalculus/Preview_1_4/preview_1_4_ab.pg}
+@item @webwork{Library/OSU/high_school_apcalc/dchmwk3/prob9.pg}
+@item @webwork{Library/Wiley/setAnton_Section_2.2/Question13.pg}
+@item @webwork{Library/Hope/Calc1/03-02-Derivative-function/Thomas12-03-02-03.pg}
+@item @webwork{Library/UCSB/Stewart5_2_9/Stewart5_2_9_24.pg}
+@endenumerate
+@end
+@subsection{Tangent Line}
+If the derivative $f'(c)$, if it exists,
+then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$.
+<p>
+Moreover, the slope of the tangent line is $f'(c)$,
+and the tangent line is the graph of the equation:
+\[
+y = f'(c)(x - c) + f(c).
+\]
+@sep
+Given $f : A \longrightarrow\mathbb{R}$,
+the correspondence $x \mapsto f'(x)$ defines the <b>derivative function</b>
+$f' : A' \longrightarrow\mathbb{R}$, where $A'$ is the set of all points $c \in A$
+at which $f$ is differentiable.
+@sep
+@subsection{Some Common Derivative Identities}
+<table class="table table-hover table-striped table-bordered">
+  <thead class="thead-default">
+    <tr>
+      <th>$f(x)$</th>
+      <th>$f'(x)$</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>constant</td>
+    <td>$0$</td>
+  </tr>
+  <tr>
+    <td>$ax + b \quad (a, b \in \mathbb{R})$</td>
+    <td>$a$</td>
+  </tr>
+  <tr>
+    <td>$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</td>
+    <td>$nx^{n - 1}$</td>
+  </tr>
+  <tr>
+    <td>$x^r \quad (r \in \mathbb{R},\; x > 0)$</td>
+    <td>$rx^{r - 1}$</td>
+  </tr>
+<tr>
+    <td>$e^x$</td>
+    <td>$e^x$</td>
+  </tr>
+<tr>
+  <td>$a^x \quad (a > 0)$</td>
+  <td>$(\ln a)a^x$</td>
+</tr>
+<tr>
+  <td>$\ln \abs{x}$</td>
+  <td>$\displaystyle \frac{1}{x}$</td>
+</tr>
+<tr>
+  <td>$\log_a x \quad (a \neq 1,\; a > 0)$</td>
+  <td>$\displaystyle \frac {1}{(\ln a)x}$</td>
+</tr>
+<tr>
+    <td>$\sin x$</td>
+    <td>$\cos x$</td>
+  </tr>
+<tr>
+    <td>$\cos x$</td>
+    <td>$-\sin x$</td>
+</tr>
+<tr>
+    <td>$\tan x$</td>
+    <td>$\sec^2 x$</td>
+ </tr>
+<tr>
+    <td>$\sec x$</td>
+    <td>$\sec x\tan x$</td>
+</tr>
+<tr>
+    <td>$\cot x$</td>
+    <td>$-\csc^2 x$</td>
+</tr>
+<tr>
+    <td>$\csc x$</td>
+    <td>$-\csc x \cot x$</td>
+</tr>
+<tr>
+    <td>$\arctan x$</td>
+    <td>$\displaystyle \frac{1}{x^2 + 1}$</td>
+</tr>
+<tr>
+    <td>$\arcsin x\quad(-1 < x < 1)$</td>
+    <td>$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</td>
+</tr>
+</table>
+@section{Leibniz Notation}
+If $f$ is defined in terms of an independent variable $x$,
+we often denote $f'(x)$ by $\displaystyle \frac{df}{dx}\;$.
+Under this notation, for a given $c \in \mathbb{R}$
+the value $f'(c)$ is denoted by:
+\[
+\left.\frac{df}{dx}\,\right|_{x = c}
+\]
+
+<!-- <p>
+Sometimes people also use $Df$ to denote $f'$.
+-->
+
+@section{Rules of Differentiation}
+@keyword{product rule}
+@keyword{quotient rule}
+Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
+Then:
+<br/><br/>
+<h5>Sum/Difference Rule</h5>
+@keyword{sum/difference rule}
+<br/>
+@col
+$f \pm g$ is differentiable at $c$, with:
+\[
+(f \pm g)'(c) = f'(c) \pm g'(c).
+\]
+@proof  @newcol
+\begin{align*}
+(f + g)'(c) &= \lim_{h \rightarrow 0} \frac{(f + g)(c + h) - (f + g)(c)}{h}
+\\&
+= \lim_{h \rightarrow 0} \frac{f(c + h) + g(c + h) - f(c) - g(c)}{h}
+\\&
+= \lim_{h \rightarrow 0}\left[ \frac{f(c + h) - f(c)}{h} +
+\frac{g(c + h) - g(c)}{h} \right].
+\tag{$\ast$}
+\end{align*}
+@col
+Since by assumption both $f'(c) = \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}$
+and
+$g'(c) = \lim_{h \rightarrow 0} \frac{g(c + h) - g(c)}{h}$ exist,
+by the sum rule for limits the expression $(\ast)$ is equal to:
+\[
+f'(c) + g'(c).
+\]
+<strong>Exercise.</strong>
+Show that $(f - g)'(c) = f'(c) - g'(c)$.
+@qed
+@end
+@endcol
+<hr/>
+<h5>Product Rule</h5>
+<br/>
+@newcol
+$fg$ is differentiable at $c$, with:
+\[
+(fg)'(c) = f'(c)g(c) + f(c)g'(c).
+\]
+@endcol
+<hr/>
+<h5>Quotient Rule</h5>
+<br/>
+@newcol
+$f/g$ is differentiable at $c$ provided that $g(c) \neq 0$,
+in which case we have:
+\[
+\left(\frac{f}{g}\right)'(c) = \frac{g(c)f'(c) - f(c) g'(c)}{[g(c)]^2}\;\;.
+\]
+@endcol
+<hr/>
+
+@section{Chain Rule}
+@thm
+Suppose $f$ is differentiable at $c$ and $g$ is differentiable at $f(c)$,
+then $g \circ f$ is differentiable at $c$, with:
+\[
+(g\circ f)'(c) = g'(f(c))f'(c).
+\]
+@end
+@collapse
+In the Leibniz notation,
+the chain rule says that if $f$ is a differentiable function of $u$
+and $u$ is a differentiable function of $x$, then:
+\[
+\frac{df}{dx} = \frac{df}{du}\,\frac{du}{dx}\;,
+\]
+\[
+\left.\frac{df}{dx}\,\right|_{x = c} =
+\left.\frac{df}{du}\,\right|_{u = u(c)}\left.\frac{du}{dx}\,\right|_{x = c}
+\]
+@sep
+@ex
+Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by
+\[
+    f(x) = \begin{cases} x^2\sin\left(\frac{1}{x}\,\right) & \text{ if } x\neq 0; \\
+\;0 & \text{ if } x = 0.\end{cases}
+\]
+Find $f'$.  Is $f'$ continuous at $x = 0$?
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Michigan/Chap3Sec2/Q09.pg}
+@item @webwork{Library/OSU/high_school_apcalc/dchmwk4/prob14.pg}
+@item @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-24.pg}
+@item @webwork{Library/UCSB/Stewart5_3_8/Stewart5_3_8_19.pg}
+@item @webwork{Library/Michigan/Chap3Sec4/Q71.pg}
+@item @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-32g.pg}
+@item @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-35.pg}
+@item @webwork{Library/Union/setDervInverseTrig/osu_dr_6_3.pg}
+@item @webwork{Library/UCSB/Stewart5_3_8/Stewart5_3_8_11.pg}
+@item @webwork{Library/AlfredUniv/anton8e/chapter4/4.3/prob3.pg}
+@item @webwork{Library/Rochester/setDerivatives1/c1s5p8.pg}
+@item @webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.34.pg}
+@endenumerate
+@end
+
+@week{6}
+@topic{Implicit Differentiation<br>Higher Order Derivatives}
+@section{Implicit Differentiation}
+@eg
+For $x > 0$,
+\[
+\frac{d}{dx}\; \ln x = \frac{1}{x}\;.
+\]
+@end
+@proof
+@collapse
+Consider the equation:
+\[
+e^{\ln x} = x
+\]
+Differentiating both sides with respect to $x$, and applying the Chain Rule, we have:
+\begin{align*}
+\frac{d}{dx}\;e^{\ln x} &= \frac{d}{dx}\; x\\
+\underbrace{e^{\ln x}}_{ = x }\frac{d}{dx}\;\ln x &= 1
+\end{align*}
+Hence, $\displaystyle \frac{d}{dx}\;\ln x = \frac{1}{x}\;$.
+@endproof
+@end
+
+@eg
+@col
+Find $\dfrac{d}{dx}\left(x^x\right)$, where $x > 0$.
+<hr>
+@col
+For any $x > 0$, we have $x = e^{\ln x}$.
+Hence,
+\[
+x^x = \left(e^{\ln x}\right)^x = e^{x \ln x}.
+\]
+So,
+\[
+\begin{split}
+\dfrac{d}{dx}\left(x^x\right) &= \frac{d}{dx} e^{x \ln x}\\
+&= e^{x \ln x} \frac{d}{dx}(x \ln x) \quad (\text{ by the Chain Rule.})\\
+&= e^{x \ln x} \left(x\cdot \frac{1}{x} + \ln x\right) \quad (\text{ by the Product Rule.})\\
+&= e^{x \ln x} (1 + \ln x) \quad (\text{ since } x > 0.)\\
+&= (1 + \ln x)x^x.
+\end{split}
+\]
+@end
+@sep
+@ex
+@col
+Consider the curve $C: y^4-y\cos(x)-x^4 = 0$.
+<ol>
+<li> Find $\displaystyle{\frac{dy}{dx}}\;$. Express your answer in terms of $x,y$ only.
+<li> Let $\displaystyle P= \left(\frac{\pi}{2}\;,-\frac{\pi}{2}\right)$.
+<ul>
+<li> Verify that the point $P$ lies on the curve $C$.
+<li> Find the equation of the tangent line to the curve $C$ at the point $P$.
+</ul>
+</ol>
+@end
+@sol
+@col
+We provide here the solution to Part 2.
+<p>
+First, we differentiate both sides of the equation $y^4-y\cos(x)-x^4 = 0$
+with respect to $x$:
+\begin{equation}
+\label{dbsides}
+\frac{d}{dx}(y^4-y\cos(x)-x^4) = \frac{d}{dx} 0
+\end{equation}
+<p>
+@col
+By the chain rule, we have:
+\[
+\frac{d}{dx}y^4 = \frac{d\left(y^4\right)}{dy}\frac{dy}{dx} = 4y^3\frac{dy}{dx}.
+\]
+@col
+Hence, equation $\eqref{dbsides}$ gives:
+\[
+4y^3\frac{dy}{dx} - \left(y(-\sin(x)) + \frac{dy}{dx}\cdot \cos(x)\right) - 4x^3 = 0.
+\]
+@col
+Grouping all the terms involving $\frac{dy}{dx}$ together, we have:
+\[
+\left(4y^3 - \cos x\right)\frac{dy}{dx} = 4x^3 - y\sin x
+\]
+@col
+Hence,
+\[
+\frac{dy}{dx} = \frac{4x^3 - y\sin x}{4y^3 - \cos x}
+\]
+@col
+The tangent line to the curve $C$ at the point $(\pi/2, -\pi/2)$
+is equal to:
+\[
+\left.\frac{dy}{dx}\right|_{(\pi/2, -\pi/2)} = \frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}
+\]
+@col
+Hence, the equation of the tangent line is:
+\[
+y = \left(\frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}\right)(x - \pi/2) - \pi/2
+\]
+@col
+<div class='image'>
+<iframe src="https://www.desmos.com/calculator/fccp810zzb?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+</div>
+@endcol
+@end
+
+@sep
+@thm
+@label{inversederivative}
+Let $f$ be an injective function differentiable at $x = c$.
+If $f'(c) \neq 0$, then $f^{-1}$ is differentiable at $f(c)$, with:
+\[
+\left(f^{-1}\right)'(f(c)) = \frac{1}{f'(c)}\;.
+\]
+@end
+@sep
+@eg
+Consider the injective function:
+\[
+f : [-\pi/2, \pi/2] \longrightarrow\mathbb{R},
+\]
+\[
+f(x) = \sin x, \quad x \in [-\pi/2, \pi/2].
+\]
+<!-- Then, $f'(x) = \cos x$ for $x \in (-\pi/2, \pi/2)$. -->
+<!-- In particular, $f'$ is nonzero on $(-\pi/2, \pi/2)$. -->
+
+The inverse of $f$ is:
+\[
+f^{-1} = \arcsin : [-1, 1] \longrightarrow[-\pi/2, \pi/2].
+\]
+
+Consider any $y \in (-1, 1)$.
+We have $y = f(x) = \sin(x)$ for a unique $x = \arcsin y$ in $(-\pi/2, \pi/2)$.
+Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.
+Hence,
+by @ref{inversederivative}, $(f^{-1})'(y)$ exists, with:
+\[
+\left(f^{-1}\right)'(y) = \left(f^{-1}\right)'(f(x)) = \frac{1}{f'(x)} = \frac{1}{\cos{x}}\;.
+\]
+By the Pythagorean Theorem, we know that:
+\[
+\cos x = \pm \sqrt{1 - \sin^2{x}}\;.
+\]
+Moreover, since $x \in (-\pi/2, \pi/2)$, we have $\cos x > 0$, so:
+\[
+\cos x = +\sqrt{1 - \sin^2{x}} = \sqrt{1 - \sin^2(\arcsin(y))} = \sqrt{1 - y^2}.
+\]
+In conclusion, for $y \in (-1, 1)$, we have:
+\[
+\arcsin' y = \left(f^{-1}\right)'(y) = \frac{1}{\sqrt{1 - y^2}}\;.
+\]
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/ma122DB/set5/s3_6_25_mo.pg}
+@item @webwork{Library/Rochester/setDerivatives2_5Implicit/s2_6_1_mo.pg}
+@item @webwork{Library/UCSB/Stewart5_3_6/Stewart5_3_6_28/Stewart5_3_6_28.pg}
+@item @webwork{Library/Utah/Calculus_I/set5_The_Derivative/1210s5p17/1210s5p17.pg}
+@item @webwork{Library/UCSB/Stewart5_3_6/Stewart5_3_6_30/Stewart5_3_6_30.pg}
+@item @webwork{Library/Wiley/setAnton_Section_3.1/Anton3_1_Q12.pg}
+@endenumerate
+@end
+
+@section{Higher Order Derivatives}
+Let $f$ be a function.
+<hr>
+@collapse
+Its derivative $f'$ is often called the <b>first derivative</b> of $f$.
+<hr>
+@collapse
+<p>
+The derivative of $f'$, denoted by $f''$,
+is called the <b>second derivative</b> of $f$.
+<hr>
+@collapse
+<p>
+If $f''(c)$ exists, we say that $f$ is <b>twice differentiable</b> at $c$.
+<hr>
+@collapse
+<p>
+For $n \in \mathbb{N}$,
+the $n$-th derivative of $f$,
+denoted by $f^{(n)}$ is defined as the derivative of the $(n-1)$-st derivative of $f$.
+<hr>
+@collapse
+<p>
+If $f^{(n)}(c)$ exists, we say that $f$ is $n$ times differentiable at $c$.
+<hr>
+@collapse
+<p>
+We sometimes consider $f$ to be the "zero"-th derivative of itself,
+i.e. $f^{(0)} := f$.
+<hr>
+@collapse
+<p>
+In the Leibniz notation, we have:
+\[
+f^{(n)}(x) = \underbrace{\frac{d}{dx}\,\frac{d}{dx}\,\cdots \frac{d}{dx}}_{n\text{ times}}f,
+\]
+which is customarily written as:
+\[
+\frac{d^n f}{dx^n}\;\;.
+\]
+@sep
+@eg
+Consider the curve:
+\[
+x^2 + y^2 = 1
+\]
+Find $\dfrac{d^2y}{dx^2}$.
+@end
+@sol
+@col
+Applying implicit differentiation, we have:
+\[
+\frac{d}{dx}\left(x^2 + y^2\right) = \frac{d}{dx} 1
+\]
+\begin{equation}
+\label{impdiff1}
+2x + 2y\frac{dy}{dx} = 0
+\end{equation}
+This shows that:
+\[
+\frac{dy}{dx} = -\frac{x}{y}.
+\]
+@col
+Applying implicity differentiation to equation $\eqref{impdiff1}$, we have:
+\[
+\frac{d}{dx}\left(2x + 2y\frac{dy}{dx}\right)  = \frac{d}{dx} 0
+\]
+\[
+2 + 2\left(y\frac{d^2y}{dx^2} + \frac{dy}{dx}\frac{dy}{dx}\right) = 0
+\]
+@col
+It follows that:
+\[
+\begin{split}
+y\frac{d^2y}{dx^2} &= -1 - \left(\frac{dy}{dx}\right)^2\\
+&= -1 - \frac{x^2}{y^2}\\
+&= -\left(\frac{x^2 + y^2}{y^2}\right) = -\left(\frac{1}{y^2}\right)
+\end{split}
+\]
+@col
+Hence,
+\[
+\frac{d^2y}{dx^2} = -\left(\frac{1}{y^3}\right)
+\]
+@end
+@sep
+@eg
+Let:
+\[
+    f(x) = \begin{cases} x^4\sin\left(\frac{1}{x}\right) & \text{ if } x\neq 0; \\
+0 & \text{ if } x = 0.\end{cases}
+\]
+Find $f''(0)$, if it exists.
+@end
+@sol
+For $x \neq 0$, we have:
+
+@col
+@steps
+\begin{align*}
+f'(x) &= \frac{d}{dx} x^4 \sin(1/x)\\
+& #nstep{= 4x^3\sin(1/x) + x^4\cos(1/x)\cdot (-x^{-2})}\\
+& #nstep{= 4x^3\sin(1/x) - x^2\cos(1/x)}\\
+& #nstep{= x^2(4x\sin(1/x) - \cos(1/x))}
+\end{align*}
+@endsteps
+@col
+By the limit definition of the derivative, we have:
+@steps
+\[
+\begin{split}
+f'(0) &= \lim_{h \rightarrow 0} \frac{f(0 + h) - f(0)}{h}\\
+& #nstep{= \lim_{h \rightarrow 0} \frac{h^4\sin(1/h) - 0}{h}}\\
+& #nstep{= \lim_{h \rightarrow 0} h^3\sin(1/h) = 0\;\; (\text{by Sandwich Theorem})}
+\end{split}
+\]
+@endsteps
+
+@col
+Hence,
+\[
+f'(x) = \begin{cases}
+x^2(4x\sin(1/x) - \cos(1/x)), & x \neq 0;\\
+0, & x = 0.
+\end{cases}
+\]
+@col
+By definition:
+\[
+f''(0) = (f')'(0) = \lim_{h \rightarrow 0} \frac{f'(0 + h) - f'(0)}{h}.
+\]
+@col
+Hence,
+@steps
+\[
+\begin{split}
+f''(0)  &= \lim_{h \rightarrow 0} \frac{h^2(4h\sin(1/h) - \cos(1/h)) - 0}{h}\\
+& #nstep{= \lim_{h \rightarrow 0} h(4h\sin(1/h) - \cos(1/h))}\\
+& #nstep{= 0\;\; (\text{again by Sandwich Theorem}).}
+\end{split}
+\]
+@endsteps
+@end
+@sep
+@thm
+@title{General Leibniz Rule}
+Let $n \in \mathbb{N}$.
+Given any functions $f, g$ which are $n$ times differentiable at $c$,
+their product $fg$ is also $n$ times differentiable at $c$, with:
+\[
+(fg)^{(n)}(c) = \sum_{k  = 0}^n C^n_k f^{(k)}(c)g^{(n - k)}(c)
+\]
+Notice that when $n = 1$ this rule is simply the product rule
+we have introduced before.
+@end
+@eg
+@col
+Consider $h(x) = x^2 \sin(x)$.
+Then, $h = fg$, where $f(x) = x^2$ and $g(x) = \sin(x)$.
+
+We have:
+\[
+f'(x) = 2x, \quad f''(x) = 2,\quad  f^{(3)}(x) = 0.
+\]
+\[
+g'(x) = \cos(x), \quad g''(x) = -\sin x, \quad g^{(3)}(x) = -\cos(x).
+\]
+@col
+Hence, by the General Leibniz Rule,
+the first, second and third derivatives of $h$ may be computed as follows:
+
+@col
+@steps
+\begin{align*}
+h'(x) &= fg'(x) + f'g(x)
+\\&
+@nstep{= x^2\cos(x) + 2x\sin(x)}
+\end{align*}
+@endsteps
+@col
+@steps
+\begin{align*}
+h''(x) &= fg''(x) + 2f'g'(x) + f''g(x)
+\\&
+@nstep{= x^2(-\sin(x)) + 2(2x)\cos(x) + 2\sin(x)}
+\end{align*}
+@endsteps
+@col
+@steps
+\begin{align*}
+h^{(3)}(x) &= fg^{(3)}(x) + 3f'g''(x) + 3f''g'(x) + f^{(3)}g(x)
+\\&
+@nstep{= x^2(-\cos(x)) + 3(2x)(-\sin(x)) + 3(2)\cos(x) + 0\cdot \sin(x)}
+\\&
+@nstep{= -x^2\cos(x) -6x\sin(x) + 6\cos(x)}
+\end{align*}
+@endsteps
+@endcol
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C03S07-HigherDerivs/3-7-25.pg}
+@item @webwork{Library/UCSB/Stewart5_3_8/Stewart5_3_8_23.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_3_4_40.pg}
+@item @webwork{Library/UCSB/Stewart5_3_8/Stewart5_3_8_49.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_3_4_68.pg}
+@item @webwork{Library/UCSB/Stewart5_3_7/Stewart5_3_7_65.pg}
+@item @webwork{Library/UCSB/Stewart5_3_7/Stewart5_3_7_63.pg}
+@endenumerate
+@end
+
+@week{7}
+@topic{Mean Value Theorem}
+@sep
+@thm
+@title{Extreme Value Theorem}
+@label{evt}
+If $f$ is a <u>continuous</u> function
+defined on a <u>closed</u> interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+@end
+@section{The Mean Value Theorem}
+@thm
+@title{Rolle's Theorem}
+Let $f : [a, b] \longrightarrow\mathbb{R}$ be a function which is continuous on $[a, b]$
+and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
+If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
+@end
+@col
+<div class='image'>
+<a title="By Fulvio314 (Own work) [CC0], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARolle's_theorem_2.svg"><img alt="Rolle&#039;s theorem 2" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Rolle%27s_theorem_2.svg"/></a>
+</div>
+@endcol
+@proof
+@collapse
+<strong>Sketch of Proof.</strong>  First, it follows from the @ref{evt} that
+$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
+It may then be shown that:
+\[
+f'(c) = \lim_{h \rightarrow 0}\frac{f(c + h) - f(c)}{h} = 0,
+\]
+using that fact that if $f(c)$ is an absolute extremum, then
+$\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
+@endproof
+@end
+@sep
+@thm
+@title{Mean Value Theorem (MVT)}
+(Also known as <b>Lagrange's Mean Value Theorem</b>)
+
+If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+and differentiable on $(a, b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+@end
+@col
+<div class='image'>
+<a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg"><img alt="Mvt2" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Mvt2.svg"/></a>
+</div>
+<!-- <div class=dual> -->
+<!-- <div class=dual-left> -->
+<!-- <a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg"><img alt="Mvt2" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Mvt2.svg"/></a> -->
+<!-- </div> -->
+<!-- <div class=dual-right> -->
+<!-- <a title="By Who2010 (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMittelwertsatz3.svg"><img alt="Mittelwertsatz3" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Mittelwertsatz3.svg"/></a> -->
+<!-- </div> -->
+<!-- </div> -->
+@endcol
+@proof
+@collapse
+Let $f$ be a function which satisfies the conditions of the theorem.
+Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
+\[
+g(x) = f(x) - \left[\left(\frac{f(b) - f(a)}{b - a}\right)(x - a) + f(a)\right],
+\quad x \in [a, b].
+\]
+(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment
+joining $(a, f(a))$ and $(b, f(b))$.)
+Observe that:
+\[
+g(a) = g(b) = 0,
+\]
+so the function $g$ satisfies the conditions of Rolle's Theorem.
+Hence, there exists $c \in (a, b)$ such that:
+\[
+0 = g'(c) = f'(c) - \frac{f(b) - f(a)}{b - a}\,,
+\]
+which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
+@endproof
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/CSUN/Calculus/Mean_value_theorem_1.pg}
+@item @webwork{Library/ma122DB/set7/s4_2_24.pg}
+@item @webwork{Library/Michigan/Chap3Sec10/Q07.pg}
+@endenumerate
+@end
+@section{Applications of the Mean Value Theorem}
+@thm
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) = 0$ for all $x \in (a, b)$, then
+$f$ is constant on $(a, b)$.
+@end
+@proof
+@collapse
+<strong>Exercise.</strong>
+For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+is equal to $0$.
+@endproof
+@end
+@sep
+@thm
+#label{monotone}
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
+$f$ is <b>strictly increasing</b> (resp. <b>strictly decreasing</b>) on $(a, b)$.
+<p><br>
+<strong>Remark:</strong>
+If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+@end
+@proof
+@collapse
+We will prove the case $f'(x) > 0$.
+<br>
+Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
+such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
+\[
+f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}\;.
+\]
+@col
+@image{https://www.math.cuhk.edu.hk/~pschan/wb/math1010/mvt.jpg}
+@col
+By the condition $f'(x) > 0$ for all $x \in (a, b)$, we have $f'(c) > 0$.
+Also, $x_2 - x_1 > 0$.  Hence:
+\[
+f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
+\]
+This shows that $f$ is increasing on $(a, b)$.
+<!--
+@wiki{<a title="By Who2010 (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMittelwertsatz3.svg"><img alt="Mittelwertsatz3" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Mittelwertsatz3.svg"/></a>}
+-->
+@endproof
+@end
+@sep
+@eg
+Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
+is increasing/decreasing.
+@end
+@sol
+@col
+We apply #ref{monotone}.
+<p>
+@col
+First, we find:
+\[
+f'(x) = 3x^2 + 12 x - 15
+\]
+Observe that $f'$ is defined and continuous everywhere.
+Hence, the intervals where $f'$ is positive/negative
+are separated by points $c$ where $f'(c) = 0$. (Such points are called <b>stationary points</b> of $f$).
+<p>
+@col
+Setting:
+\[
+f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
+\]
+we see that the points where $f'$ <i>possibly</i> changes sign are:
+\[
+c = -5, 1
+\]
+@col
+Consider now the <b>sign chart</b>:
+<table class="table table-striped table-bordered" style="text-align:center">
+<tr>
+<td>$f$:</td><td><strong>$\nearrow$</strong></td><td></td><td><strong>$\searrow$</strong></td><td></td><td><strong>$\nearrow$</strong></td>
+</tr>
+<tr>
+<td>$f'(x)$:</td>
+<td>$+$</td><td>$0$</td><td>$-$</td><td>$0$</td>
+<td>$+$</td>
+</tr>
+<tr>
+<td>$x$:</td><td>$(-\infty, -5)$</td><td>$-5$</td><td>$(-5, 1)$</td><td>$1$</td>
+<td>$(1, \infty)$</td>
+</tr>
+</table>
+<p>
+@col
+It now follows from #ref{monotone} that:
+<ul>
+<li>
+$f$ is increasing on the intervals $(-\infty, -5)$ and $(1, \infty)$.
+<li>
+$f$ is decreasing on the interval $(-5, 1)$.
+</ul>
+@col
+<div class='image'>
+<iframe src="https://www.desmos.com/calculator/ja7cqgww7s?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+@end
+@sep
+@eg
+Let:
+\[
+f(x) = \begin{cases}
+(x + 1)^2, & x < 0; \\
+x + 1, & x \geq 0.
+\end{cases}
+\]
+Find the intervals where the function $f$ is increasing/decreasing.
+@end
+@sol
+@col
+We carry out the same steps as in the previous example.
+We leave it as an exercise to show that:
+\[
+f'(x) = \begin{cases}
+2x + 2, & x < 0; \\
+\text{undefined}, & x = 0;\\
+1, & x > 0.
+\end{cases}
+\]
+@col
+Note that $f'$ is not defined everywhere.
+In this case, the points where $f'$ possibly changes sign are points $c$
+where:
+\[
+f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
+\]
+Such points are called the <b>critical points</b>
+of $f$.  (Note that the set of stationary points is a subset of critical points).
+<p>
+@col
+Constructing a sign chart as in the previous example, we have:
+<table class="table-hover table table-striped table-bordered" style="text-align:center">
+<tr>
+<td>$f$:</td><td><strong>$\searrow$</strong></td><td></td><td><strong>$\nearrow$</strong></td><td></td>
+<td><strong>$\nearrow$</strong></td>
+</tr>
+<tr>
+<td>$f'(x)$:</td>
+<td>${\large -}$</td><td>$0$</td><td>${\large +}$</td><td>undefined</td>
+<td>${\large +}$</td>
+</tr>
+<tr>
+<td>$x$:</td><td>$(-\infty, -1)$</td><td>$-1$</td><td>$(-1, 0)$</td><td>$0$</td>
+<td>$(0, \infty)$</td>
+</tr>
+</table>
+<p>
+@col
+Hence, by #ref{monotone}, $f$ is <u>decreasing</u> on:
+\[(-\infty, -1],\]
+and increasing on both $[-1, 0]$ and $[0, \infty)$.
+<p>
+Since $f$ is continuous at $x = 0$, we conclude that $f$ is <u>increasing</u> on:
+\[
+[-1, \infty).
+\]
+@col
+<div class='image'>
+<iframe src="https://www.desmos.com/calculator/heievbyzs3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+@end
+@sep
+@ex
+Use the mean value theorem to prove that for $x>0$,
+\[
+\frac{x}{1+x} < \ln(1+x) < x.
+\]
+Hence, deduce that for $x>0$,
+\[
+\frac{1}{1+x} < \ln\left(1+\frac{1}{x}\right) < \frac{1}{x}\;.
+\]
+@end
+@sol
+@col
+We first show that:
+\[
+ \ln\left(1+x\right) < x\;.
+\]
+Consider the function:
+\[
+f(x) = \ln\left(1+x\right) - x\;.
+\]
+Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
+
+@col
+Hence, $f'(x) < 0$ for all $x > 0$.
+
+@col
+For any $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{f(x) - f(0)}{x - 0} = f'(c)
+\]
+for some $c \in (0, x)$.  Since $c > 0$, we have $f'(c) < 0$,
+which implies that:
+\[
+\frac{f(x) - f(0)}{x - 0} < 0.
+\]
+@col
+Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:
+\[
+\ln(1 + x) < x,
+\]
+for all $x > 0$.
+<p>
+<hr>
+@col
+To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
+
+@col
+Consider:
+\[
+g(x) = \ln(1 + x) - \frac{x}{1 + x}.
+\]
+@col
+Then, $g(0) = 0$, and:
+\[
+\begin{split}
+g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
+&= \frac{x}{(1 + x)^2}\\
+& > 0
+\end{split}
+\]
+for all $x > 0$.
+
+@col
+Hence, for all $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{g(x) - g(0)}{x - 0} = g'(c) > 0,
+\]
+where $c$ is some element which lies in $(0, x)$.
+
+@col
+This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
+\[
+\ln(1 + x) > \frac{x}{1 + x}
+\]
+for $x > 0$.
+<hr>
+@col
+Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
+\[
+\frac{x}{1+x} < \ln(1+x) < x
+\]
+to $x = \frac{1}{t}$, we have:
+\[
+\frac{1/t}{1+1/t} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t},
+\]
+@col
+which is equivalent to:
+\[
+\frac{1}{t + 1} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t}.
+\]
+@qed
+@end
+
+@week{8}
+@topic{Curve Sketching}
+@section{Absolute/Relative (Global/Local) Extrema}
+Consider a function $f : A \longrightarrow\mathbb{R}$.
+@def
+<ul>
+<li>
+If there is an element $c \in A$ such that: $f(c) \leq f(x)$
+for all $x \in A$, we say that $f(c)$ is the (absolute) <b>minimum</b> of $f$.
+<li>
+If there is an element $d \in A$ such that: $f(d) \geq f(x)$
+for all $x \in A$, we say that $f(d)$ is the (absolute) <b>maximum</b> of $f$.
+</ul>
+<!-- <h5>Remark</h5> (Optional): -->
+<!-- @collapse -->
+<!-- Note that in general a maximum or minimum does not necessarily exist. -->
+<!-- However: -->
+<!-- @thm -->
+<!-- @title{Extreme Value Theorem (Maximum-Minimum Theorem)} -->
+<!-- If $f$ is a <u>continuous</u> function -->
+<!-- defined on a <u>closed</u> interval $[a, b]$, -->
+<!-- then it does attain both a maximum and a minimum on $[a, b].$ -->
+<!-- @end -->
+@end
+@def
+@col
+<ul>
+<li>
+If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a <b>local/relative maximum</b> at $c$.
+<li>
+If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a <b>local/relative minimum</b> at $c$.
+</ul>
+@end
+@col
+<div class='image'>
+<a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" alt="Extrema example original.svg"></a><br>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a>
+</div>
+@sep
+@thm
+@title{First Derivative Test}
+Let $f : A \longrightarrow\mathbb{R} $ be a continuous function.
+For $c \in A$, if there exists an open interval $(a, b)$ containing $c$
+such that $f'(x) < 0$ (in particular it exists) for all $x \in (a, c)$,
+and $f'(x) > 0$ for all $x \in (c, b)$, then $f$ has a local minimum at $c$.
+
+Similarly, if $f'(x) > 0$ for all $x \in (a, c)$ and $f'(x) < 0 $ for
+all $x \in (c, b)$, then $f$ has a local maximum at $c$.
+@end
+<strong>Note:</strong>
+@col
+In the special case that the domain of $f$ is an open interval $(a, b)$,
+if $f'(x) > 0$ for <u>all</u> $x \in (a, c)$, and $f'(x) < 0$ for <u>all</u>
+ $x \in (c, b)$,
+then $f$ has an absolute maximum at $c$.
+<br>Similarly $f$ has an absolute minimum at $c$
+if each of the above inequalities is reversed.
+@endcol
+@eg
+@ul
+@li
+In <a target="_blank" href="https://www.math.cuhk.edu.hk/~pschan/elephas/?wb=content/math1010/t1_201819/week7.wb&present&slide=8#item7" title="Course:Math 1010">Example 7.7</a>,
+the function has a local maximum at $x = -5$, and a local minimum at $x = 1$.
+@li
+In <a target="_blank" href="https://www.math.cuhk.edu.hk/~pschan/elephas/?wb=content/math1010/t1_201819/week7.wb&present&slide=9#item8" title="Course:Math 1010">Example 7.8</a>,
+the function has only one local extremum, namely a local minimum at $x = -1$.
+In fact, $f(-1) = 0$ is the absolute minimum of $f$.
+@endul
+@end
+@sep
+@ex
+$\displaystyle f(x)=x^{\frac{1}{3}}-\frac{1}{3}x-\frac{2}{3}$ for $x>0$. Show that $f(x)\leq 0$ for all $x>0$.  Then, deduce that:
+\[
+u^{\frac{1}{3}}v^{\frac{2}{3}} \leq \frac{1}{3}u + \frac{2}{3}v
+\]
+for $u$, $v>0$.
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/OSU/high_school_apcalc/dchmwk8/prob3.pg}
+@item @webwork{Library/OSU/high_school_apcalc/dchmwk7/prob10.pg}
+@item @webwork{Library/Michigan/Chap6Sec1/Q23.pg}
+@item @webwork{Library/Utah/Quantitative_Analysis/set6_Applications_of_Derivatives/pr_9.pg}
+@item @webwork{Library/UCSB/Stewart5_4_1/Stewart5_4_1_40.pg}
+@item @webwork{Library/Wiley/setAnton_Section_4.2/question12.pg}
+@endenumerate
+@end
+@sep
+@thm
+@title{Second Derivative Test}
+Let $f$ be a function twice differentiable at $c \in \mathbb{R}$,
+such that $f'(c) = 0$.  If:
+<ul>
+<li>$f''(c) > 0$, then $f$ has a local minimum at $c$.
+<li>$f''(c) < 0$, then $f$ has a local maximum at $c$.
+</ul>
+@end
+@proof
+@collapse
+<strong>Sketch of Proof.</strong>
+Suppose $f''(c) > 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
+we have:
+\[
+0 < f''(c) = \lim_{h \rightarrow 0}\frac{f'(c + h)  - f'(c)}{h}
+= \lim_{h \rightarrow 0}\frac{f'(c + h)}{h}\;.
+\]
+It follows from the above identity that $f'(c + h)$ is $> 0$ for sufficiently small
+positive $h$, and $< 0$ for sufficiently small negative $h$.
+<br>
+@collapse
+Hence there is an open interval $(a, b)$ containing $c$ such that $f'$ is negative on
+$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test.
+<br>
+@collapse
+The case $f''(c) < 0$ may be proved similarly.
+@qed
+@end
+@section{Concavity}
+Let $f$ be a twice differentiable function.
+If $f''$ is positive (negative)
+on an open interval $(a, b)$, then the graph of $f$ over $(a, b)$
+is <b>concave up</b> (resp. <strong>down</strong> @keyword{concave down}).
+<p>
+@col
+This is due to the fact that $f''$ being positive (resp. negative) corresponds to
+$f'$ being increasing (resp. decreasing).
+<p>
+@col
+<div class='image'>
+<a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" alt="Animated illustration of inflection point.gif"></a><br>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293">Link</a></p>
+</div>
+@col
+A point on the graph of $f$ where the concavity changes is called an
+<b>inflection point</b>.
+It corresponds to a point in the domain of $f$ where $f''$ changes sign.
+@sep
+@eg
+Sketch the graph of:
+\[
+f(x) = \dfrac{x^2 + x - 2}{x^2}
+\]
+by first finding the following information about $f$:
+<ol>
+  <li> Domain.
+    @col
+    \[
+    \{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
+    \]
+    <hr>
+    @endcol
+  <li> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
+    @col
+    $f(x) = 0$ if and only if $x \neq 0$
+    and $x^2 + x - 2 = (x - 1)(x + 2) = 0$.
+    Hence, the $x$-intercepts are:
+    \[
+    x = 1, -2.
+    \]
+    In general, the $y$-intercept of the graph of a function
+    is the value of the function at $x = 0$.
+    In this case, $0$ is not in the domain of $f$,
+    hence the graph of $f$ has no $y$-intercept.
+    <hr>
+    @endcol
+  <li>
+    Asymptotes (Horizontal, Vertical, Oblique)
+    @col
+    \[
+    \lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow -\infty} f(x) = 1.
+    \]
+    Hence, the graph of $f$ has one horizontal asymptote: $y = 1$.
+    <p>
+      The value $f(x)$ is defined for all $x \neq 0$.
+    <p>
+      @col
+      Near $x = 0$, we have:
+      \[
+      \lim_{x \rightarrow 0^-} f(x) = \lim_{x \rightarrow 0^+} f(x) = -\infty.
+      \]
+      Hence, the graph of $f$ has a vertical asymptote at $x = 0$.
+    <p>
+      @col
+      Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
+      the graph of $f$ has no oblique asymptote.
+      <hr>
+      @endcol
+      <li>
+	Intervals where $f$ is increasing/decreasing.
+	@col
+	\[
+	\begin{split}
+	f'(x) &= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+	&= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+	&= \frac{1}{x^{3}} \left(4 - x\right)
+	\end{split}
+	\]
+	Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
+	<p>
+	  @col
+	  <table class="table-hover table table-striped table-bordered" style="text-align:center">
+	    <tr>
+	      <td>$y = f(x)$:</td><td><strong>$\searrow$</strong></td><td><strong>$\nearrow$</strong></td><td><strong>$\searrow$</strong></td>
+	    </tr>
+	    <tr>
+	      <td>$f'(x)$:</td>
+	      <td>$-$</td><td>$+$</td><td>$-$</td>
+	    </tr>
+	    <tr>
+	      <td>$x$:</td><td>$(-\infty, 0)$</td><td>$(0, 4)$</td><td>$(4, \infty)$</td>
+	    </tr>
+	  </table>
+	  It follows from the sign chart that $f$ is increasing on $(0, 4]$,
+	  and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
+	  <hr>
+	  @endcol
+	  <li>
+	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
+	    @col
+	    It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
+	    The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
+	    <hr>
+	    @endcol
+	  <li>
+	    Intervals where $f$ is concave up/down.
+	    @col
+	    The second derivative of $f$ is:
+	    \[
+	    f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
+	    \]
+	    The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
+	    or where $f''(p)$ is undefined.
+	    In this case, there are two such point: $p = 0, 6$.
+	    <p>
+	      @col
+	      <table class="table-hover table table-striped table-bordered" style="text-align:center">
+		<tr>
+		  <td>$y = f(x)$:</td><td><strong>$\cap$</strong></td><td><strong>$\cap$</strong></td><td><strong>$\cup$</strong></td>
+		</tr>
+		<tr>
+		  <td>$f''(x)$:</td>
+		  <td>$-$</td><td>$-$</td><td>$+$</td>
+		</tr>
+		<tr>
+		  <td>$x$:</td><td>$(-\infty, 0)$</td><td>$(0, 6)$</td><td>$(6, \infty)$</td>
+		</tr>
+</table>
+It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
+and concave down on $(-\infty, 0)$ and $(0, 6)$.
+<hr>
+@endcol
+<li>
+Inflection points on the graph of $f$.
+@col
+It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
+is the only reflection point on the graph of $f$.
+<hr>
+@endcol
+</ol>
+<h5 class="notkw">Graph</h5>
+@col
+<div class='image'>
+  <iframe src="https://www.desmos.com/calculator/t5cgqvw7id?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+  <p><br>
+    <strong>
+      $
+      y = \dfrac{x^2 + x - 2}{x^2}
+      $
+    </strong>
+</div>
+@endcol
+@end
+
+@sep
+@eg
+Following the guidelines of the previous example, sketch the graph of:
+<ol>
+<li>
+$f(x) = \abs{x + 1}(3 - x)$
+<li>
+$f(x) = x + \frac{1}{\abs{x}}$
+</ol>
+@end
+@sol
+<ol>
+<li>
+@col
+Domain: $\mathbb{R}$.
+<p>
+@col
+$x$-intercepts: $x = -1, 3$.
+<p>
+$y$-intercept: $y = f(0) = 3$.
+<p>
+@col
+Asymptotes: None.
+<p>
+@col
+\[
+f'(x) =
+\begin{cases}
+2x - 2 & x < -1;\\
+\text{undefined} & x = -1;\\
+-2 x + 2 & x > -1.
+\end{cases}
+\]
+Critical points: $c = -1, 1$.
+\[
+f''(x) =
+\begin{cases}
+2 & x < -1;\\
+\text{undefined} & x = -1;\\
+-2 & x > -1.
+\end{cases}
+\]
+Inflection point: $p = 1$.
+<p>
+@col
+<table class="table-hover table table-striped table-bordered" style="text-align:center">
+<tr>
+<td>$y = f(x)$:</td><td><strong>$\cup$<br>$\searrow$</strong></td><td><strong>$\cap$<br>$\nearrow$</strong></td><td><strong>$\cap$<br>$\searrow$</strong></td>
+</tr>
+<tr>
+<td>$f'(x)$:</td>
+<td>$-$</td><td>$+$</td><td>$-$</td>
+</tr>
+<tr>
+<td>$f''(x)$:</td>
+<td>$+$</td><td>$-$</td><td>$-$</td>
+</tr>
+<tr>
+<td>$x$:</td>
+<td>$(-\infty, -1)$</td><td>$(-1, 1)$</td><td>$(1, \infty)$</td>
+</tr>
+</table>
+@col
+<div class='image'>
+<iframe src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+</div>
+<!-- @col -->
+<!-- <div class='image'> -->
+<!-- @image{math1010/ex7.101.png} -->
+<!-- </div> -->
+@endcol
+<li>
+@col
+<!-- Observe that: -->
+<!-- \[ -->
+<!-- \lim_{x \rightarrow \pm\infty} \frac{f(x)}{x} = 1. -->
+<!-- \] -->
+<!-- This shows that the graph of $f$ has an oblique asymptote. -->
+<!-- That is, $y = f(x)$ resembles a line of the form $y = mx + b$  -->
+<!-- as $x$ approaches $\pm \infty$.  To find $m, b$, -->
+<!-- we use the fact that in general: -->
+<!-- @ul -->
+<!-- @li -->
+<!-- $m = \lim_{x \rightarrow \pm\infty} \frac{f(x)}{x}$. -->
+<!-- @li -->
+<!-- $b = \lim_{x \rightarrow \pm\infty} \left(f(x) - mx\right)$. -->
+<!-- @endul -->
+<!-- @newcol -->
+<!-- Hence, in this case we have $m = 1$, and: -->
+<!-- \[ -->
+<!-- b = \lim_{x \rightarrow \pm\infty} \left(x + \frac{1}{\abs{x}} - x\right) -->
+<!-- = \lim_{x \rightarrow \pm\infty} \frac{1}{\abs{x}} = 0. -->
+<!-- \] -->
+<!-- @col -->
+<!-- Hence, the oblique asymptote is $y = x$. -->
+<!-- <p> -->
+<!-- <b>Note:</b> -->
+<!-- <br> -->
+In general, if one can rewrite a function $f$
+(e.g. using long division if $f$ is a rational function) in the form:
+\[
+f(x) = mx + b + g(x),
+\]
+such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
+and $m, b$ are constants,
+then one can readily conclude that $y = mx + b$ is an asymptote
+for the graph of $f$.
+<p>
+If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
+If $m = 0$, then $y = b$ is a horizontal asymptote.
+<p>
+In this example, since
+$\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
+the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$.
+<p>
+@col
+We leave the rest of the calculations as an exercise.
+<p>
+<i>Hint</i>:
+\[
+f(x) = \begin{cases}
+x - \frac{1}{x} & x < 0;\\
+x + \frac{1}{x} & x > 0.
+\end{cases}
+\]
+The resulting graph is as follows:
+<p>
+@col
+<div class='image'>
+<iframe src="https://www.desmos.com/calculator/vtjauc9srj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+</div>
+@endcol
+</ol>
+@end
+
+@week{9}
+@topic{L'H&ocircpital's Rule<br>Taylor's Series}
+@sep
+@thm
+#label{cauchymvt}
+@title{Cauchy's Mean Value Theorem.}
+If $f, g : [a, b] \longrightarrow\mathbb{R}$ are functions which are continuous on $[a, b]$
+and differentiable on $(a, b)$, and $g(a) \neq g(b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+\frac{f'(c)}{g'(c)} = \frac{f(b) - f(a)}{g(b) - g(a)}
+\]
+@end
+@proof
+@collapse
+<strong>Exercise.</strong>
+Apply Rolle's Theorem to:
+\[
+h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
+\]
+@end
+@col
+<div class='image'>
+<a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg"><img width="512" alt="Cauchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"></a>
+</div>
+@end
+@sep
+@thm
+<strong>L'H&ocircpital's Rule.</strong>
+@keyword{L'Hopital's Rule}
+Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
+Let $f, g$ be functions which are differentiable at every point in
+$(a, c) \cup (c, b)$.
+Suppose:
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow c}f(x)$
+and $\displaystyle \lim_{x \rightarrow c}g(x)$ are both equal to $0$
+or both equal to $\pm \infty$.
+<!-- <li> $g'(x) \neq 0$ for all $x \in (a, c)\cup(c, b)$. -->
+<li> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists.
+</ul>
+Then,
+\[
+\ds
+\lim_{x\rightarrow c} \frac{f(x)}{g(x)} = \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}\;.
+\]
+@end
+@proof (Sketch)
+@col
+We consider the special case where:
+<ul>
+<li>
+$\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$.
+<li>
+$f$ and $g$ are continuous at $x = c$.
+</ul>
+For such functions $f, g$, we have:
+\[
+f(c) = g(c) = 0.
+\]
+Hence:
+<p>
+@col
+\[
+\frac{f(x)}{g(x)} = \frac{f(x) - f(c)}{g(x) - g(c)}
+= \frac{f'(t_x)}{g'(t_x)}
+\]
+for some $t_x$ between $c$ and $x$ by Cauchy's Mean Value Theorem.
+<p>
+@col
+As $x$ approaches $c$, the element $t_x$ lying between $x$ and $c$ must also
+approach $c$.
+<p>
+@col
+Hence,
+if the limit $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists,
+then intuitively it follows that:
+\[
+\begin{split}
+\lim_{x \rightarrow c} \frac{f(x)}{g(x)}
+&=
+\lim_{t_x \rightarrow c} \frac{f'(t_x)}{g'(t_x)}\\
+&=
+\lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
+\end{split}
+\]
+(<strong>Optional Exercise</strong>:
+To prove the above equality rigorously, one could, for example, apply the
+<a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank">
+sequential criterion for the limit of a function</a>.
+)
+@endcol
+@end
+@section{Indeterminate Forms}
+<hr>
+<ul>
+<li>
+$\frac{0}{0}$
+<hr>
+<li>
+$\frac{\infty}{\infty}$
+<hr>
+<li>
+$0\cdot\infty$
+<hr>
+<li>
+$\infty - \infty$
+<hr>
+<li>
+$0^0$
+<hr>
+<li>
+$\infty^0$
+<hr>
+<li>
+$1^\infty$
+</ul>
+<hr>
+Here, for example, $1^\infty$ represents the situation
+$\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
+and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.
+<p>
+Hence, the following limit corresponds to the indeterminate form $1^\infty$:
+\[
+\displaystyle \lim_{x \rightarrow \infty}\left(1 + \frac{1}{x}\right)^{x}.
+\]
+
+@sep
+@eg
+Use l'H&ocircpital's rule to evaluate the following limits:
+<p>
+<ol>
+<li>
+$\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
+<p><br>
+<strong>Solution.</strong>
+@col
+\[
+\begin{split}
+\lim_{x \rightarrow 0} \left(e^x - 1 - x - \frac{x^2}{2}\right) &= 0.\\
+\lim_{x \rightarrow 0} x^3 &= 0.
+\end{split}
+\]
+@col
+@steps
+\begin{align*}
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x - \frac{x^2}{2}\right)'}{\left(x^3\right)'}
+&=
+#nstep{\lim_{x\rightarrow 0} \frac{e^x - 1 - x}{3x^2} \quad \left(\rightarrow \frac{0}{0}\right)}\\
+#nstep{\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x\right)'}{\left(3x^2\right)'}}
+&
+#nstep{=\lim_{x\rightarrow 0} \frac{e^x - 1}{6x}}\\
+&
+#nstep{=\frac{1}{6}\lim_{x\rightarrow 0} \frac{e^x - 1}{x}}\\
+&
+#nstep{= \frac{1}{6}}
+\end{align*}
+@endsteps
+@col
+Hence, by l'H&ocircpital's rule,
+\[
+\begin{split}
+\lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}
+&=
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x - \frac{x^2}{2}\right)'}{\left(x^3\right)'}\\
+&=
+\lim_{x\rightarrow 0} \frac{\left(e^x - 1 - x\right)'}{\left(3x^2\right)'}\\
+&=
+\frac{1}{6}
+\end{split}
+\]
+@endcol
+<hr>
+<!-- \item $\lim\limits_{x\to 0}\dfrac{\sinh x-\sin x}{x(\cosh x-\cos x)}$ -->
+<!-- \item $\lim\limits_{x\to 0}\dfrac{\ln\cos 2x}{\ln\cos x}$ -->
+<!-- \item $\lim\limits_{x\to 0}\left(\dfrac{1}{x}-\dfrac{1}{e^x-1}\right)$ -->
+<!-- \item $\lim\limits_{x\to 1}\left(\dfrac{1}{\ln x}-\dfrac{1}{x-1}\right)$ -->
+<!-- \item $\lim\limits_{x\to 0}\dfrac{e^x-x-1}{\cosh x-1}$ -->
+<!-- \item $\lim\limits_{x\to 0}\dfrac{e-(1+x)^{\frac{1}{x}}}{x}$ -->
+<li>
+$\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$
+<p><br>
+<strong>Solution.</strong>
+@col
+(This limit corresponds to the indeterminate form $0^0$.)
+<p>
+For $x > 0$, we have $x = e^{\ln x}$.  Hence,
+<p>
+@col
+\[
+\lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}
+=
+\lim\limits_{x\to 0^+}e^{\left(\frac{1}{1+\ln x}\right)\ln x}
+=
+e^{\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}}
+\]
+The last equality holds because $f(x) = e^x$ is a continuous function.
+<p>
+@col
+The limit $\displaystyle \lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}$
+corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is <i>possible</i>
+in this case to apply l'Hopital's rule to help find the limit.
+<p>
+@col
+@steps
+\begin{align*}
+\lim_{x \rightarrow 0^+}\frac{(\ln x)'}{(1+\ln x)'}
+&= \lim_{x \rightarrow 0^+}\frac{\frac{1}{x}}{\frac{1}{x}}\\
+& #nstep{= \lim_{x \rightarrow 0^+}\frac{x}{x}}\\
+& #nstep{= 1}
+\end{align*}
+@endsteps
+@col
+By l'Hopital's rule, it now follows that:
+\[
+\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x} = 1.
+\]
+@col
+Hence,
+\[
+\begin{split}
+\lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}
+&= e^{\lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}} \\
+&= e^{1}\\
+&= e.
+\end{split}
+\]
+@endcol
+<hr>
+<!-- \item $\lim\limits_{x\to 1}x^{\frac{1}{1-x}}$ -->
+<!-- \item $\lim\limits_{x\to +\infty}\dfrac{\ln(2x^3-5x^2+3)}{\ln(4x^2+x-7)}$ -->
+<li>
+$\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$
+<p><br>
+<strong>Solution.</strong>
+@col
+(This limit corresponds to the indeterminate form $\infty\cdot 0$.)
+Rewrite the limit as follows:
+\[
+\lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)
+=
+\lim\limits_{x\to +\infty}\frac{\dfrac{\pi}{2}-\tan^{-1}x}{\frac{1}{x}}
+\quad\left(\rightarrow\frac{0}{0}\right).
+\]
+Now, compute:
+@steps
+\begin{align*}
+\lim\limits_{x\to +\infty}\frac{\left(\dfrac{\pi}{2}-\tan^{-1}x\right)'}{\left(-\frac{1}{x}\right)'}
+&=
+\lim\limits_{x\to +\infty}\frac{-\frac{1}{1 + x^2}}{-\frac{1}{x^2}}\\
+& #nstep{=\lim\limits_{x\to +\infty}\frac{x^2}{1 + x^2}}\\
+& #nstep{=\lim\limits_{x\to +\infty}\frac{1}{\left(1 + \frac{1}{x^2}\right)}}\\
+& #nstep{= 1}
+\end{align*}
+@endsteps
+@col
+Hence, by l'Hopital's rule,
+\[
+\lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right) = 1.
+\]
+@endcol
+<hr>
+<li>
+$\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$
+<p><br>
+<strong>Solution.</strong>
+@col
+(This limit corresponds to the indeterminate form $\infty^0$.)
+We have:
+<p>
+@col
+@steps
+\begin{align*}
+\lim\limits_{x\to +\infty} (e^x+x)^{\frac{1}{x}}
+&=
+\lim\limits_{x\to +\infty} \left(e^{\ln(e^x+x)}\right)^{\frac{1}{x}}\\
+& #nstep{= \lim\limits_{x\to +\infty} e^{\frac{\ln(e^x+x)}{x}}}\\
+& #nstep{= e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}}}
+\end{align*}
+@endsteps
+@col
+The limit $\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}$
+corresponds to the indeterminate form $\frac{\infty}{\infty}$.
+<p>
+@col
+@steps
+\begin{align*}
+\lim\limits_{x\to +\infty} \frac{\left(\ln(e^x+x)\right)'}{(x)'}
+&=
+#nstep{\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}
+}
+& #nstep{
+= \lim\limits_{x\to +\infty}
+\frac{\frac{1}{e^x}\left(1 + \frac{1}{e^x}\right)}{\frac{1}{e^x}\left(1 + \frac{x}{e^x}\right)}
+}\\
+& #nstep{
+= \lim\limits_{x\to +\infty}
+\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}
+}\\
+& #nstep{= 1.}
+\end{align*}
+@endsteps
+@col
+Hence, by l'Hopital's rule,
+\[
+\begin{split}
+\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}
+&=
+\lim\limits_{x\to +\infty} \frac{\left(\ln(e^x+x)\right)'}{(x)'}\\
+&=
+\lim\limits_{x\to +\infty} \frac{\left(e^x + 1\right)'}{\left(e^x + x\right)'}\\
+&= 1.
+\end{split}
+\]
+@col
+It now follows that:
+\[
+\lim\limits_{x\to +\infty} (e^x+x)^{\frac{1}{x}}
+= e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}} = e^1 = e.
+\]
+@endcol
+<hr>
+<li>
+$\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
+<p>
+<br>
+<strong>Solution.</strong>
+@col
+(This limit corresponds to the indeterminate form $\frac{0}{0}$.)
+Note that $\cot x = \dfrac{\cos x}{\sin x}$.
+Rewrite the limit as follows:
+\[
+\lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}
+=
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x\sin^2 x}
+\quad \left(\rightarrow\frac{0}{0}\right)
+\]
+One's first instinct might be to differentiate both numerator
+and denominator right away.
+But this seems unwise,
+since, looking further down the road, we would have to deal with an indeterminate
+form whose denominator is $(x \sin^2 x)' = 2x \sin x\cos x + \sin^2 x$.
+Repeating the differentiation of the numerator and denominator would
+only make the expression more and more complicated.
+<p>
+A cleverer way would be to rewrite the limit as follows:
+<p>
+@col
+\[
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x\sin^2 x}
+=
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}\cdot\frac{x^2}{\sin^2 x}.
+\]
+This is motivated by the observation that $\sin^2 x$ is very close to $x^2$
+when $x$ is close to $0$.
+<p>
+@col
+First, we have:
+\[
+\lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x}
+= \left(\lim_{x \rightarrow 0} \frac{x}{\sin x}\right)^2 = 1.
+\]
+The limit $\displaystyle \lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}$
+corresponds to the indeterminate form $\frac{0}{0}$.
+Differentiating both numerator and denominator, we have:
+<p>
+@col
+@steps
+\begin{align*}
+\lim\limits_{x\to 0}\dfrac{(\sin x-x\cos x)'}{\left(x^3\right)'}
+&= \lim\limits_{x\to 0}\dfrac{\cos x + x\sin x - \cos x}{3x^2}\\
+& #nstep{= \lim\limits_{x\to 0}\dfrac{x\sin x}{3x^2}}\\
+& #nstep{= \lim\limits_{x\to 0}\dfrac{\sin x}{3x}}\\
+& #nstep{= \frac{1}{3}.}
+\end{align*}
+@endsteps
+@col
+Hence, by l'Hopital's rule we have:
+\[
+\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}
+= \lim\limits_{x\to 0}\dfrac{(\sin x-x\cos x)'}{\left(x^3\right)'}
+= \frac{1}{3}.
+\]
+@col
+It now follows that:
+\[
+\begin{split}
+\lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}
+&=\lim\limits_{x\to 0}\dfrac{\sin x-x\cos x}{x^3}
+\cdot \lim_{x \rightarrow 0} \frac{x^2}{\sin^2 x}\\
+&= \frac{1}{3}\cdot{1}\\
+&= \frac{1}{3}.
+\end{split}
+\]
+@endcol
+<hr>
+</ol>
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/ma122DB/set8/s4_4_19.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_4_5_44.pg}
+@item @webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_14.pg}
+@item @webwork{Library/FortLewis/Calc1/04-07-LHopitals-rule/HGM5-04-07-LHopitals-rule-31.pg}
+@item @webwork{Library/AlfredUniv/anton8e/chapter4/4.4/prob3.pg}
+<!-- @item @webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_53.pg} -->
+<!-- @item @webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_17.pg} -->
+@item @webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_48.pg}
+@item @webwork{Library/UCSB/Stewart5_4_4/Stewart5_4_4_31.pg}
+@item @webwork{Library/Rochester/setDerivatives21LHospital/osu_dr_21_6.pg}
+@item @webwork{Library/Rochester/setDerivatives21LHospital/osu_dr_21_21.pg}
+@endenumerate
+@end
+@sep
+<strong>Important Note.</strong>
+If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
+and $\displaystyle \lim_{x \rightarrow c} \frac{f'(x)}{g'(x)}$ does not exist,
+it <i><strong>DOES NOT</strong></i>
+follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
+@eg
+\[
+\lim_{x \rightarrow \infty} \frac{x + \sin x}{x}
+\]
+@end
+@sep
+@def
+Given a function $f$ which is $n$ times differentiable at $a$.
+The <strong>$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</strong>
+@keyword{Taylor polynomial}
+is:
+\[
+P(x) = \sum_{k = 0}^n \frac{f^{(k)}(a)}{k!} (x - a)^k.
+\]
+@end
+@collapse
+Observe that:
+\[
+P^{(k)}(a) = f^{(k)}(a),
+\]
+for $k = 0, 1, 2, \ldots, n$.
+@sep
+@eg
+The Taylor polynomials at $a = 0$ for various functions $f$
+are as follows:
+<table class="table-hover table table-striped table-bordered">
+  <thead class="thead-default">
+    <tr>
+      <th>$f(x)$</th>
+      <th>$P(x)$</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>$\cos x$</td>
+    <td>$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</td>
+  </tr>
+  <tr>
+    <td>$\sin x$</td>
+    <td>$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</td>
+  </tr>
+  <tr>
+    <td>$e^x$</td>
+    <td>$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</td>
+  </tr>
+  <tr>
+    <td>$\ln(1 + x)$</td>
+    <td>$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</td>
+  </tr>
+  <!-- <tr> -->
+  <!--   <td>$\arctan x$</td> -->
+  <!--   <td>$\displaystyle x - \frac{x^3}{3} + \frac{x^5}{5} - \cdots + (-1)^{k}\frac{x^{2k+1}}{2k + 1}$</td> -->
+  <!-- </tr> -->
+  <tr>
+    <td>$\displaystyle \frac{1}{1 - x}$</td>
+    <td>$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</td>
+  </tr>
+</table>
+@end
+Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
+at $x = 0$ both have degree $5$.
+Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$.
+<hr>
+<ul>
+<li>
+<a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank">
+Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$.
+</a>
+<li>
+<a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank">
+Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$.
+</a>
+</ul>
+@sep
+@thm
+(<b>Taylor's Formula</b>)
+Let $n$ be a positive integer, and $a \in \mathbb{R}$.
+Let $f$ be a function which is $n + 1$ times differentiable on an open interval $I$
+containing $a$.
+Let:
+\[
+\begin{split}
+\displaystyle P_n(x) &= \sum_{k = 0}^n\frac{f^{(k)}(a)}{k!}(x - a)^k\\
+&= f(a) + f'(a)(x - a) + \frac{f^{(2)}(a)}{2!}(x - a)^2 + \frac{f^{(3)}(a)}{3!}(x - a)^3\\ &\quad + \ldots + \frac{f^{(n)}(a)}{n!}(x - a)^n
+\end{split}
+\]
+be the $n$-th Taylor polynomial of $f$ at $a$.
+Then, for any $x \in I$, we have:
+\[
+f(x) = P_n(x) + R_n(x),
+\]
+where the <b>remainder term</b> $R_n(x)$ is equal to:
+\[
+\frac{f^{(n + 1)}(c)}{(n + 1)!}\;(x - a)^{n + 1}
+\]
+for some $c$ between $a$ and $x$.
+@end
+Note that the special case $n = 0$ is equivalent to (Lagrange's) Mean Value Theorem.
+@proof
+@col
+Recall that $P_{n}^{(k)}(a) = f^{(k)}(a)$ for $k = 0, 1, 2, \ldots, n$.
+Moreover, observe that $P_n^{(k)} = 0$ for $k > n$,
+since $P_n$ is a polynomial of degree at most $n$.
+<p>
+@col
+Let:
+\[
+F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
+\]
+Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem (#ref{cauchymvt}), we have:
+<p>
+@col
+\[
+\begin{split}
+\frac{f(x) - P_{n}(x)}{(x - a)^{n+1}} &= \frac{F(x) - F(a)}{G(x) - G(a)}\\
+&= \frac{F'(x_1)}{G'(x_1)}\\
+&= \frac{f'(x_1) - P_{n}'(x_1)}{(n+1)(x_1 - a)^{n}}
+\end{split}
+\]
+for some $x_1$ between $a$ and $x$.
+<p>
+@col
+Now let:
+\[
+\begin{split}
+F_1(x) &=F'(x) = f'(x) - P'_n(x),\\
+G_1(x) &=G'(x) = (n + 1)(x - a)^{n}.
+\end{split}
+\]
+
+Repeating the same procedure carried out before, we have:
+<p>
+@col
+\[
+\frac{f'(x_1) - P_{n}'(x_1)}{(n + 1)(x_1 - a)^{n}}
+= \frac{F_1'(x)}{G_1'(x)}
+= \frac{f^{(2)}(x_2) - P_{n}^{(2)}(x_2)}{(n + 1)n(x_2 - a)^{n - 1}}
+\]
+for some $x_2$ between $a$ and $x_1$.
+Repeating this process $n + 1$ times, we have:
+<p>
+@col
+\[
+\begin{split}
+\frac{f(x) - P_{n}(x)}{(x - a)^{n+1}} &= \frac{f'(x_1) - P_{n}'(x_1)}{(n+1)(x_1 - a)^{n}}\\
+&= \frac{f^{(2)}(x_2) - P_{n}^{(2)}(x_2)}{(n + 1)n(x_2 - a)^{n - 1}}\\
+&\;\;\vdots\\
+&= \frac{f^{(n)}(x_n) - P_{n}^{(n)}(x_n)}{(n + 1)n(n - 1)\cdots 2 (x_n - a)}\\
+&= \frac{f^{(n + 1)}(x_{n + 1}) - 0}{(n + 1)!}
+\end{split}
+\]
+for some $x_{n + 1}$ between $a$ and $x$.
+Letting $c = x_{n + 1}$, the theorem follows.
+@qed
+@end
+@sep
+@def
+Given a function $f$ which is infinitely differentiable at $a$
+(i.e. $f^{(k)}(a)$ is defined for $k = 0, 1, 2, 3, \ldots$).
+The <strong>Taylor series of $f$ (centered) at $a$</strong>
+@keyword{Taylor series}
+is the power series:
+\[
+\begin{split}
+T(x) &= \sum_{k = 0}^\infty \frac{f^{(k)}(a)}{k!} (x - a)^k\\
+&= f(a) + f'(a)(x - a) + \frac{f''(a)}{2!}(x - a)^2 + \cdots + \frac{f^{(k)}(a)}{k!} (x - a)^k + \cdots
+\end{split}
+\]
+@end
+@collapse
+In general, for any power series of the form
+$\displaystyle S(x) = \sum_{k = 0}^\infty a_k (x - a)^k$,
+the value of $S$ at any given $c \in \mathbb{R}$ is by definition the limit:
+\[
+S(c) := \lim_{n \rightarrow \infty} \sum_{k = 0}^n a_k(c - a)^k.
+\]
+Note that this limit does not necessarily exist.
+If it does exist, we say that the power series $S$ <b>converges</b> at $x = c$,
+otherwise we say that it <b>diverges</b> at $x = c$.
+@sep
+@eg
+The Taylor series at $a = 0$ for various functions $f$ are as follows:
+<table class="table-hover table table-striped table-bordered">
+  <thead class="thead-default">
+    <tr>
+      <th>$f(x)$</th>
+      <th>$P(x)$</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>$\cos x$</td>
+    <td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td>
+  </tr>
+  <tr>
+    <td>$\sin x$</td>
+    <td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td>
+  </tr>
+  <tr>
+    <td>$e^x$</td>
+    <td>$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td>
+  </tr>
+  <tr>
+    <td>$\ln(1 + x)$</td>
+    <td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td>
+  </tr>
+  <!-- <tr> -->
+  <!--   <td>$\arctan x$</td> -->
+  <!--   <td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k+1}}{2k + 1}$</td> -->
+  <!-- </tr> -->
+  <tr>
+    <td>$\displaystyle \frac{1}{1 - x}$</td>
+    <td>$\displaystyle \sum_{k = 0}^\infty x^k$</td>
+  </tr>
+</table>
+@end
+@sep
+@eg
+The Taylor $T(x)$ series of $f(x) = e^x$ at $a = 0$ converges everywhere.
+Moreover, for each $x \in \mathbb{R}$, we do have:
+\[
+T(x) = \sum_{k = 0}^\infty \frac{1}{k!}\;x^k = e^x.
+\]
+@end
+@sep
+Similarly, for all $x \in \mathbb{R}$, we have:
+\[
+\sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}\;x^{2k + 1} = \sin x
+\]
+\[
+\sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}\;x^{2k} = \cos x
+\]
+However,
+<p>
+@collapse
+The Taylor series of  $f(x) = \ln( 1 + x)$ at $a = 0$ is:
+\[
+T(x) = \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}\;x^k,
+\]
+which converges only for $x \in (-1, 1]$.
+<p>
+For such $x$ we do have:
+\[
+T(x) = f(x).
+\]
+<p>
+@collapse
+In particular, we have:
+\[
+\ln 2 = \ln (1 + 1)
+= \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}\;1^k
+= 1 - \frac{1}{2} + \frac{1}{3} - \frac{1}{4} + \cdots
+\]
+@remark
+<p>
+@collapse
+There are functions whose Taylor series converge everywhere,
+but not to the functions themselves.
+@end
+
+@week{10}
+@topic{Taylor Series}
+@topic{Indefinite Integrals}
+@topic{Integration by Substitution}
+@topic{Integration by Parts}
+@section{Shortcuts for Computing Taylor Series}
+@thm
+Let $\displaystyle S(x) = \sum_{k = 0}^\infty a_k (x - a)^k$
+be a power series which converges on an open interval of the form $(a - r, a + r)$,
+$r > 0$,
+then the function $S(x)$ is differentiable on $(a - r, a + r)$,
+with
+\[
+\begin{split}
+\displaystyle S'(x) &= \sum_{k = 1}^\infty k a_k (x - a)^{k - 1}\\
+&= a_1 + 2a_2(x - a) + 3a_3(x - a)^2 + \cdots + ka_k(x - a)^{k - 1} + \cdots
+\end{split}
+\]
+for all $x \in (a - r, a + r)$.
+@end
+Applying this theorem repeatedly, it may be shown that $S(x)$
+is in fact infinitely differentiable on $(a - r, a + r)$,
+and its Taylor series at $x = a$ is itself.  That is:
+\[
+\frac{S^{(k)}(a)}{k!} = a_k, \quad k = 0, 1, 2, \ldots.
+\]
+@sep
+Put differently:
+@cor
+Let $f$ be a function.  If there is a sequence $\{a_k\}_{k = 0}^\infty$
+such that:
+\[
+f(x) = \sum_{k = 0}^\infty a_k (x - a)^k
+\]
+for all $x$ in some open interval centered at $a$,
+then $\sum_{k = 0}^\infty a_k (x - a)^k$ is the Taylor series of $f$ at $x = a$,
+with $\displaystyle a_k = \frac{f^{(k)}(a)}{k!}$.
+@end
+@cor
+If:
+\[
+\sum_{k = 0}^\infty a_k (x - a)^k = \sum_{k = 0}^\infty b_k (x - a)^k
+\]
+for all $x$ in some open interval centered at $a$, then $a_k = b_k$ for all $k$.
+@end
+@sep
+@ex
+Find the Taylor series of $f$ at the given point $a$.
+<table class="table-hover table table-striped table-bordered">
+  <thead class="thead-default">
+    <tr>
+      <th>$f(x)$</th>
+      <th>$a$</th>
+    </tr>
+  </thead>
+<tr><td>
+$\sin(5x)$</td><td>$0$</td>
+</tr>
+<tr>
+<td>$x^3\cos x$</td><td>$0$</td>
+</tr>
+<tr>
+<td>$\sin(x - \pi)$</td><td>$\pi$</td>
+</tr>
+<tr>
+<td>$\ln x$</td><td>$1$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{2 - x}$</td><td>$0$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{1 + x}$</td><td>$0$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{1 + x^2}$</td><td>$0$</td>
+</tr>
+<!-- <tr> -->
+<!-- <td>$\arctan x$</td><td>$0$</td> -->
+<!-- </tr> -->
+<tr>
+<td>$\displaystyle \frac{x + 1}{x^2 + x + 1}$</td><td>$0$</td>
+</tr>
+</table>
+@end
+@sep
+<table class="table-hover table table-striped table-bordered">
+  <thead class="thead-default">
+    <tr>
+      <th>$f(x)$</th>
+      <th>$a$</th>
+      <th>Series</th>
+    </tr>
+  </thead>
+<tr><td>
+$\sin(5x)$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k5^{2k + 1}}{(2k + 1)!}x^{2k + 1}$</td>
+</tr>
+<tr>
+<td>$x^3\cos x$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}x^{2k + 3}$</td>
+</tr>
+<tr>
+<td>$\sin(x - \pi)$</td><td>$\pi$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}(x - \pi)^{2k + 1}$</td>
+</tr>
+<tr>
+<td>$\ln x$</td><td>$1$</td>
+<td>$\displaystyle \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}(x - 1)^k$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{x}$</td><td>$1$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty (-1)^k (x - 1)^k$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{1 + x}$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty (-1)^k x^k$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{2 - x} = \frac{1}{2}\cdot\frac{1}{1 + \left(-\frac{x}{2}\right)}$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{1}{2^{k+1}}x^k$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{1 + x^2}$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty (-1)^k x^{2k}$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{(1 + x)^2}  = - \frac{d}{dx}\left(\frac{1}{1 + x}\right)$</td>
+<td>$0$</td>
+<td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1} k x^{k - 1}$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{x + 1}{x^2 + x + 1}$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty\left( x^{3k} - x^{3k + 2}\right)$</td>
+</tr>
+<tr>
+<td>$\displaystyle \frac{1}{(1 + x)(2 - x)} = \frac{1}{3}\left(\frac{1}{1 + x} + \frac{1}{2 - x}\right)$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{1}{3}\left((-1)^k + \frac{1}{2^{k + 1}}\right)  x^{k}$</td>
+</tr>
+<tr>
+<td>$\arctan x$</td><td>$0$</td>
+<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{2k + 1} x^{2k + 1}$</td>
+</tr>
+</table>
+@sep
+@ex
+@enumerate
+@item @webwork{Library/AlfredUniv/anton8e/chapter10/10.5/prob11.pg}
+@item @webwork{Library/Utah/Calculus_II/set9_Infinite_Series/set9_pr11.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_11_10_56.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_11_10_prob01.pg}
+@endenumerate
+@end
+<!-- @sep -->
+<!-- @thm -->
+<!-- <b>Generalized Binomial Theorem</b> -->
+<!-- For $t, r \in \mathbb{R}$ such that $\abs{t} < 1$, we have: -->
+<!-- \begin{multline*} -->
+<!-- (1 + t)^r = \sum_{k = 0}^\infty {r\choose k} t^k\\ -->
+<!-- = 1 + rt + \frac{r(r - 1)}{2!} t^2 + \frac{r(r - 1)(r - 2)}{3!}t^3 + \cdots, -->
+<!-- \end{multline*} -->
+<!-- where $\displaystyle {r\choose k} = \frac{r(r - 1)(r - 2)\cdots (r - k + 1)}{k!}$. -->
+<!-- @end -->
+<!-- @eg -->
+<!-- Find the Taylor series of $f(x) = \sqrt[3]{x - 1}$ at $0$. -->
+<!-- <p> -->
+<!-- Applying the Generalized Binonomial Theorem to $(1 + t)^r$, -->
+<!-- where $t = -x$ and $r = 1/3$, we have: -->
+<!-- \begin{multline*} -->
+<!-- f(x) = \sqrt[3]{x - 1} = -(1 - x)^{1/3}\\ -->
+<!-- = -\sum_{k = 0}^\infty {r\choose k} (-x)^k -->
+<!-- = \sum_{k = 0}^\infty {{1/3}\choose k} (-1)^{k + 1} x^k -->
+<!-- \end{multline*} -->
+<!-- \begin{multline*} -->
+<!-- = -1 + \frac{1}{3}x  -->
+<!-- - \frac{\left(\frac{1}{3}\right)\left(\frac{1}{3} - 1\right)}{2}x^2 -->
+<!-- + \frac{\left(\frac{1}{3}\right)\left(\frac{1}{3} - 1\right)\left(\frac{1}{3} - 2\right)}{3!}x^3 - \cdots\\ -->
+<!-- = -1 + \frac{1}{3}x  -->
+<!-- + \frac{1}{2!}\cdot\frac{2}{3^2}x^2 -->
+<!-- + \frac{1}{3!}\cdot\frac{2\cdot 5}{3^3}x^3   -->
+<!-- + \frac{1}{4!}\cdot\frac{2\cdot 5\cdot 8}{3^4}x^4 - \cdots\ -->
+<!-- \end{multline*} -->
+<!-- for $\abs{x} < 1$.   -->
+<!-- This is a power series centered at $0$, hence it is the Taylor series of $f$ at $0$. -->
+<!-- @end -->
+@sep
+It is sometimes useful to use Taylor series to find limits
+which involve indeterminate forms.
+@eg
+<ul>
+<li>
+\[
+\lim_{x \rightarrow 0} \frac{\sin x - x - x^3}{x^3}
+\]
+<li>
+\[
+\lim_{x \rightarrow 0} \frac{\sin x - x\cos x}{x\sin^2 x}
+\]
+<!-- \[ -->
+<!-- \lim_{x \rightarrow 0} \left(\frac{1}{x} - \frac{1}{\arctan x}\right) -->
+<!-- \] -->
+</ul>
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/ma123DB/set13/s11_10_45.pg}
+@item @webwork{Library/Union/setSeriesTaylor/ur_sr_9_2.pg}
+@item @webwork{Library/Union/setSeriesTaylor/e8_7_15.pg}
+@item @webwork{Library/Michigan/Chap10Sec3/Q27.pg}
+@endenumerate
+@end
+@section{Indefinite Integrals}
+@def
+If $F' = f$,
+we say that $F$ is an <b>antiderivative</b> of $f$.
+@end
+If two functions $F$ and $G$ are both antiderivatives of $f$ over $(a, b)$,
+then $F' = G' = f$, hence:
+\[
+(F - G)' = F' - G' = 0.
+\]
+By a corollary of the mean value theorem, this implies that $F - G$
+is a constant function on $(a, b)$.  That is, there exists $C \in \mathbb{R}$,
+such that $(F - G)(x) = C$ for all $x \in (a, b)$.
+
+<p>
+Put differently, if $F$ is an antiderivative of $f$ over $(a, b)$,
+then any antiderivative of $f$ over $(a, b)$ has the form $F + C$
+for some constant function $C$.
+
+@sep
+@def
+The collection of all antiderivatives of a function $f$ is called the
+<b>indefinite integral</b> of $f$, denoted by:
+\[
+\int f(x)\,dx.
+\]
+We call $f(x)$ the <b>integrand</b> of $\int f(x)\,dx$.
+@end
+If $F' = f$, we write:
+\[
+\int f(x) dx = F + C,
+\]
+where $C$ denotes some arbitrary constant.
+<p>
+@col
+@eg
+Since $\frac{d}{dx}\,x^2 = 2x$, we write:
+\[
+\int 2x\,dx = x^2 + C.
+\]
+Note that $x^2 + 17$ is also an antiderivative of $2x$,
+hence it is equally valid to write:
+\[
+\int 2x\,dx = x^2 + 17 + C.
+\]
+@end
+@section{Some Properties of Indefinite Integrals}
+@ul
+@li $\displaystyle \int 0 \;dx = C$,
+where $C$ is some constant.
+@li For $k \in \mathbb{R}$, we have $\displaystyle \int k\;dx = kx + C$.
+In particular,
+\[
+\int dx = \int 1\,dx = x + C.
+\]
+@li
+For $k \neq -1$,
+we have:
+\[
+\int x^k\;dx = \frac{x^{k + 1}}{k + 1} + C.
+\]
+@li
+$\ds
+\int \frac{1}{x}\,dx = \ln \abs{x} + C.
+$
+<br>
+(This identity is not quite true.  Will explain later.)
+@li
+$\displaystyle \int e^x \;dx = e^x + C.$
+@li
+$\displaystyle \int \cos x \;dx = \sin x + C.$
+@li
+$\displaystyle \int \sin x \;dx = -\cos x + C.$
+@li
+$\displaystyle \int \sec^2 x \;dx = \tan x + C.$
+@li
+$\displaystyle \int \sec x \tan x \;dx = \sec x + C.$
+@li
+$\displaystyle \int \frac{1}{1 + x^2} \;dx = \arctan x + C.$
+<hr>
+@li
+For any functions $f$, $g$  with antiderivatives $F$, $G$, respectively,
+we have:
+\[
+\displaystyle \int\left(f(x) + g(x)\right) \;dx = F(x) + G(x)  + C.
+\]
+@li
+For $k \in \mathbb{R}$, and any function $f$ with antiderivative $F$,
+we have:
+$\displaystyle \int k f(x) \;dx = kF(x) + C.$
+@endul
+@sep
+Observe that for any $a, b \in \mathbb{R}$,
+and differentiable function $F$, by the chain rule we have:
+\[
+\frac{d}{dx}\,F(ax + b) = aF'(ax + b)
+\]
+Hence, in general we have:
+\[
+\int f(ax + b)\;dx = \frac{1}{a}F(ax + b) + C,
+\]
+where $F$ is an antiderivative of $f$, and $C$ is some constant.
+@sep
+@eg
+@collapse
+\[
+\int \sin(5x + \pi/4)\;dx = -\frac{1}{5}\cos(5x + \pi/4) + C.
+\]
+@end
+@eg
+@collapse
+\begin{multline*}
+\int \left(x^3 + \frac{4}{x^{1/3}} + (x + 7)^9 + e^{2x + 1}\right)\,dx\\
+ = \frac{1}{4}x^4 + 4\left(\frac{3}{2}\right)x^{2/3} + \frac{1}{10}(x + 7)^{10}
++ \frac{1}{2}e^{2x + 1} + C.
+\end{multline*}
+@end
+@eg
+@collapse
+\begin{multline*}
+\int \sin^2(x) \,dx
+= \int \left(\frac{1 - \cos(2x)}{2}\right)dx
+= \int \left(\frac{1}{2} - \frac{1}{2}\cos(2x)\right)dx\\
+= \int \frac{1}{2}\,dx - \frac{1}{2}\int\cos(2x)dx\\
+= \frac{x}{2} - \frac{1}{4}\sin(2x) + C
+\end{multline*}
+Similarly, it may be shown that:
+\[
+\int \cos^2(x) \,dx = \frac{x}{2} + \frac{1}{4}\sin(2x) + C
+\]
+@end
+@section{Integration by Substitution}
+@thm
+If $F' = f$, and $g$ is a differentiable function, then:
+@framebox
+$\ds
+\int f(g(x))g'(x)\,dx = F(g(x)) + C.
+$
+@end
+@end
+@proof
+@collapse
+This is just the Chain Rule in reverse, since:
+\[\ds
+\frac{d}{dx} F(g(x)) = F'(g(x))g'(x) = f(g(x))g'(x).
+\]
+@end
+<p>
+@collapse
+In Leibniz Notation, the theorem may be formulated as follows:
+<p>
+Let $u = g(x)$,  then $\displaystyle \frac{du}{dx} = g'(x)$, and:
+\begin{multline*}
+\int f(g(x))g'(x)\,dx = \int f(u)\frac{du}{dx}\,dx\\
+= \int f(u)\,du = F(u) + C = F(g(x)) + C.
+\end{multline*}
+@sep
+@eg
+Evaluate:
+<p><br>
+<ul>
+<li>
+$\displaystyle \int x^2e^{x^3 + 4}\,dx$<br><br>
+<!-- <li>
+$\displaystyle \int \frac{\sqrt{\sqrt{t} - 1}}{\sqrt{t}}\,dt$<br><br>
+-->
+<li>
+$\displaystyle \int \frac{t}{\sqrt{t + 2}}\,dt$<br><br>
+<li>
+$\displaystyle \int \tan x\,dx$<br><br>
+<li>
+$\displaystyle \int \frac{x^5 + x^3 + x}{x^2 + 1}\,dx$<br><br>
+</ul>
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/ASU-topics/setCalc2/tracogna44.pg}
+@item @webwork{Library/Wiley/setAnton_Section_5.3/Anton_5_3_Q30.pg}
+@item @webwork{Library/UCSB/Stewart5_5_5/Stewart5_5_5_28.pg}
+@item @webwork{Library/UCSB/Stewart5_7_5/Stewart5_7_5_31.pg}
+@item @webwork{Library/OSU/accelerated_calculus_and_analytic_geometry_i/hmwk6/prob13.pg}
+@item @webwork{Library/ma122DB/set12/s5_5_43.pg}
+@item @webwork{Library/UMN/calculusStewartET/s_7_2_prob05.pg}
+@item @webwork{Library/ma123DB/set3/s7_5_61.pg}
+@endenumerate
+@end
+@section{Integration by Parts}
+Let $u, v$ be differentiable functions.
+Recall the Product Rule:
+\[
+\frac{d}{dx}\,(uv) = v \frac{du}{dx} + u \frac{dv}{dx}
+\]
+Taking the indefinite integral (with respect to $x$)
+of both sides of the above equation, we have:
+\[
+\int \frac{d}{dx}\,(uv) dx = \int v\frac{du}{dx}\,dx + \int u \frac{dv}{dx}\,dx,
+\]
+which implies that:
+\[
+\int d(uv) = \int v\,du + \int u\,dv.
+\]
+Hence,
+@framebox
+$\displaystyle \int u\,dv = (uv) - \int v\,du$
+@end
+@sep
+@eg
+Evaluate:
+<ul>
+<li>
+$\displaystyle \int xe^{3x} \,dx$<br><br>
+<li>
+$\displaystyle \int x^2 e^x \,dx$<br><br>
+<li>
+$\displaystyle \int x^5 e^x \,dx$<br><br>
+<li>
+$\displaystyle \int x^5 \sin x \,dx$<br><br>
+<li>
+$\displaystyle \int \ln x \,dx$<br><br>
+<li>
+$\displaystyle \int e^x \sin x \,dx$<br><br>
+</ul>
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/7_Techniques_of_Integration/7.1_Integration_by_Parts/7.1.19.pg}
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_5.pg}
+@item @webwork{Library/UMN/calculusStewartCCC/s_5_0_prob02.pg}
+@item @webwork{Library/Union/setIntByParts/sc5_6_07.pg}
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_38.pg}
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_10.pg}
+@item @webwork{Library/Union/setIntByParts/mec_int1.pg}
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_11.pg}
+@endenumerate
+@end
+
+@week{11}
+@topic{Indefinite Integrals<br/>Integration of Trig. Functions<br/>Trigonometric Substitution}
+@section{Integration of Trigonometric Functions}
+We have seen that:
+\[
+\int \sin^2 x\,dx
+= \frac{x}{2} - \frac{1}{4}\sin(2x) + C
+\]
+\[
+\int \cos^2 x\,dx
+= \frac{x}{2} + \frac{1}{4}\sin(2x) + C
+\]
+@sep
+@eg
+Using:
+\[
+\begin{split}
+\displaystyle \int \sec^2 x \,dx &= \tan x + C,\\
+ \int \csc^2 x\,dx &= -\cot x + C,
+\end{split}
+\]
+and the identity $\displaystyle 1 + \tan^2 x = \sec^2 x$
+(which follows from the Pythagorean Theorem),
+we may evaluate:
+<ul>
+<li>
+$\ds
+\int \tan^2 x \,dx
+$
+<br/>
+@col
+\begin{align*}
+\int \tan^2 x \, dx &= \int (\sec^2 x - 1)\, dx\\
+&= \tan x - x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+<li>
+$\ds
+\int \cot^2 x \,dx
+$
+<br/>
+@col
+\begin{align*}
+\int \cot^2 x \, dx &= \int (\csc^2 x - 1)\, dx\\
+&= -\cot x - x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+</ul>
+@sep
+To evaluate an integral of the form:
+\[
+\int \sin^m x \cos^n x \,dx,\quad n, m \in \mathbb{N},
+\]
+it is useful to make the following substitution:
+\[
+u = \begin{cases}
+\cos x,& \text{ if } m \text{ is odd,}\\
+\sin x,& \text{ if } n \text{ is odd,}\\
+\end{cases}
+\]
+and then apply the Pythagorean Theorem $\cos^2 x  + \sin^2 x = 1$
+to rewrite the original integral as:
+\[
+\int P(u)\, du,
+\]
+where $P(u)$ is some polynomial in $u$.
+@eg
+@collapse
+Evaluate:
+\[
+\int \cos^5 x \sin^3 x\, dx
+\]
+@col
+\begin{align*}
+\int \cos^5 x \sin^3 x\, dx &= \int \cos^5 x \sin^2 x (\sin x\, dx)
+\end{align*}
+Let $u = \cos x$.  Then, $du = \sin x\, dx$.
+So,
+\begin{align*}
+\int \cos^5 x \sin^3 x\, dx &= \int \cos^5 x \sin^2 x (\sin x\, dx)\\
+&=  \int u^5 (1 - u^2) du\\
+&= \int \left( u^5 - u^7 \right) du\\
+&= \frac{1}{6} u^6 - \frac{1}{8}u^8 + C\\
+&= \frac{1}{6}\cos^6 x - \frac{1}{8}\cos^8 x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+
+@endcol
+@end
+@sep
+Similarly, to evaluate integrals of the form:
+\[
+\int \tan^m x \sec^n x \,dx,\quad m, n \in \mathbb{N},
+\]
+it is useful to make the following substitution:
+\[
+u = \begin{cases}
+\sec x,& \text{ if } m \text{ is odd,}\\
+\tan x,& \text{ if } n \text{ is even,}\\
+\end{cases}
+\]
+and then apply the identity $1  + \tan^2 x = \sec^2 x$
+to rewrite the original integral as:
+\[
+\int P(u)\, du,
+\]
+where $P(u)$ is some polynomial in $u$.
+@eg
+@newcol
+Evaluate:
+$\displaystyle \int \tan^3 x \sec x \,dx.$
+<br/>
+@col
+\begin{align*}
+\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
+&= \int (\sec^2 - 1)\,dx.
+\end{align*}
+Let $u = \sec x$.  Then, $du = \sec x \tan x\, dx$, and:
+\begin{align*}
+\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
+&= \int (\sec^2 - 1)\sec x \tan x\,dx\\
+&= \int (u^2 - 1)\,du\\
+&= \frac{1}{3}u^3 - u + C\\
+&= \frac{1}{3}\sec^3 x - \sec x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+@end
+@claim
+@col
+\[
+\int \sec x \, dx = \ln \abs{\sec x + \tan x} + C,
+\]
+where $C$ represents an arbitrary constant.
+@end
+@proof
+@col
+\begin{align*}
+\int \sec x \, dx &= \int \frac{1}{\cos x} \, dx\\
+&= \int \frac{\cos x}{\cos^2 x} \, dx\\
+&= \int \frac{\cos x}{ 1 - \sin^2 x } \,dx\\
+\end{align*}
+Let $u = \sin x$.  Then $du = \cos x \, dx$, and consequently:
+\begin{align*}
+\int \sec x \, dx &= \int \frac{1}{1 - u^2}\,du\\
+&= \int \frac{1}{(1 - u)(1 + u)}\,du\\
+&= \frac{1}{2} \int \left( \frac{1}{1 - u} + \frac{1}{1 + u} \right) du\\
+&= \frac{1}{2} \left( -\ln \abs{ 1 - u } + \ln \abs{ 1 + u } \right ) + C\\
+&= \frac{1}{2} \ln \abs{\frac{1 + u}{1 - u}} + C\\
+&= \frac{1}{2} \ln \abs{\frac{ ( 1 + u )^2 }{ 1 - u^2 } } + C\\
+&= \ln \abs{ \frac{1 + u}{ \sqrt{1 - u^2} } } + C\\
+&= \ln \abs{\frac{1 + \sin x}{\cos x}} + C\\
+&= \ln \abs{\sec x + \tan x} + C,\\
+\end{align*}
+where $C$ represents an arbitrary constant.
+@end
+@eg
+@col
+Evaluate:
+$\displaystyle \int \sec^3 x \,dx.$ (Hint: Consider using integration by parts.)
+
+@col
+\begin{align*}
+\int \sec^3 x \,dx &= \int \sec x \sec^2 x\,dx.
+\end{align*}
+Let $U = \sec x$, $dV = \sec^2 x \,dx$.
+Taking $V = \tan x$, it follows from the Integration by Parts formula that:
+\begin{align*}
+\int \sec^3 x \,dx &= \int U dV\\
+&= UV - \int V\,du \\
+&= \sec x \tan x - \int \tan x \sec x \tan x \,dx\\
+& = \sec x \tan x - \int \sec x \tan^2 x \,dx\\
+& = \sec x \tan x - \int \sec x (\sec^2 x - 1) \,dx\\
+& = \sec x \tan x - \int \left( \sec^3 x - \sec x \right)\,dx\\
+& = \sec x \tan x + \ln\abs{\sec x + \tan x} - \int \sec^3 x\,dx
+\end{align*}
+This implies that:
+\[
+2\int \sec^3 x \, dx = \sec x \tan x + \ln\abs{\sec x + \tan x} + C
+\]
+where $C$ represents an arbitrary constant.
+Hence:
+\[
+\int \sec^3 x \, dx = \frac{1}{2}\left( \sec x \tan x + \ln\abs{\sec x + \tan x} \right) + C.
+\]
+@endcol
+@sep
+The following identities follow directly from the angle sum formulas of the
+sine and cosine functions:
+\[
+\begin{split}
+\cos x \cos y &=\frac{1}{2}\left(\cos(x + y) + \cos(x - y)\right)\\
+\cos x \sin y &=\frac{1}{2}\left(\sin(x + y) - \sin(x - y)\right)\\
+\sin x \sin y &=\frac{1}{2}\left(\cos(x - y) - \cos(x + y)\right)\\
+\end{split}
+\]
+They are useful for the evaluation of integrals such as:
+@eg
+@collapse
+\[
+\int \cos(3x)\sin(5x)\,dx
+\]
+@col
+\begin{align*}
+\int \cos(3x)\sin(5x)\,dx &= \int \frac{1}{2}\left( \sin(3x + 5x) - \sin(3x - 5x) \right)\,dx\\
+&= \frac{1}{2}\int \left( \sin(8x) + \sin(2x) \right)\,dx\\
+&= \frac{1}{2}\left( -\frac{1}{8}\cos(8x) - \frac{1}{2}\cos(2x) \right) + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/ma123DB/set2/s7_2_10.pg}
+@item @webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/7_Techniques_of_Integration/7.2_Trigonometric_Integrals/7.2.5.pg}
+@item @webwork{Library/ma123DB/set2/s7_2_16.pg}
+@item @webwork{Library/UCSB/Stewart5_7_2/Stewart5_7_2_45.pg}
+@item @webwork{Library/UCSB/Stewart5_7_2/Stewart5_7_2_33.pg}
+@item @webwork{Library/Rochester/setIntegrals5Trig/S07.02.TrigIntegrals.PTP15.pg}
+@item @webwork{Library/UCSB/Stewart5_7_5/Stewart5_7_5_41.pg}
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_42.pg}
+@item @webwork{Library/UCSB/Stewart5_7_2/Stewart5_7_2_46.pg}
+@item @webwork{Library/Indiana/Indiana_setIntegrals5Trig/ur_in_5_5.pg}
+@item @webwork{Library/UMN/calculusStewartET/s_7_2_45.pg}
+@endenumerate
+@end
+@section{Trigonometric Substitution}
+When an integrand involves $\sqrt{x^2 \pm a^2}$
+or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution:
+<p>
+<ul>
+<li>
+$\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.<br><br>
+<li>
+$\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.<br><br>
+<li>
+$\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.<br><br>
+</li>
+</ul>
+@sep
+@eg
+Evaluate:
+<p>
+<ul>
+<li>
+$\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$
+<br/>
+@col
+First, we note that the domain of the integrand is $(-1, 1)$.
+
+Let $\theta = \arcsin x$.
+Then $x = \sin \theta$, $dx = \cos \theta \, d\theta$,
+and:
+\[
+\sqrt{1 - x^2} = \sqrt{1 - \sin^2 \theta} = \abs{\cos\theta}
+= \cos \theta,
+\]
+since $\theta = \arcsin x \in [-\pi/2, \pi/2]$ for all $x \in (-1, 1)$.
+
+So,
+\begin{align*}
+\int \frac{x^3}{\sqrt{1 - x^2}} \,dx
+&=
+\int \frac{\sin^3\theta}{\cos \theta} \cos\theta\,d\theta\\
+&=
+\int \sin^3\theta \,d\theta \\
+&=
+\int (1 - \cos^2 \theta) \sin\theta\, d\theta\\
+&=
+-\int (1 - \cos^2\theta)\,d(\cos\theta)\\
+&= - \cos\theta + \frac{1}{3}\cos^3\theta + C\\
+&= - \sqrt{1 - x^2} + \frac{1}{3} (1 - x^2)^{3/2} + C.
+\end{align*}
+@endcol
+<li>
+$\displaystyle \int \frac{1}{(9 + x^2)^2} \,dx$<br/>
+@col
+Let $\theta = \arctan (x/3)$.
+Then $x = 3\tan \theta$, $dx = 3\sec^2 \theta \, d\theta$,
+and:
+\[
+9 + x^2 = 9 + 9\tan^2\theta = 9\sec^2 \theta.
+\]
+
+So,
+\begin{align*}
+\int \frac{1}{(9 + x^2)^2} \,dx
+&=
+\int \frac{1}{81\sec^4 \theta} 3\sec^2\theta \,d\theta\\
+&=
+\int \frac{1}{27\sec^2 \theta} \,d\theta\\
+&=
+\frac{1}{27}\int \cos^2\theta\,d\theta\\
+&=
+\frac{1}{27}\left( \frac{\theta}{2} + \frac{\sin(2\theta)}{4} \right) + C\\
+&=
+\frac{1}{27}\left( \frac{\theta}{2} + \frac{2\sin\theta\cos\theta}{4} \right) + C\\
+&=
+\frac{1}{27}\left( \frac{\theta}{2} + \frac{2\tan\theta\cos^2\theta}{4} \right) + C\\
+\end{align*}
+\[
+=
+\frac{\arctan(x/3)}{54} +
+\frac{\tan\left(\arctan(x/3)\right)\cos^2\left(\arctan(x/3)\right)}{54}
++ C
+\]
+Now,
+\begin{align*}
+\cos^2\left(\arctan(x/3)\right)
+&= \frac{1}{\sec^2\left(\arctan(x/3)\right)}\\
+&= \frac{1}{1 + \tan^2\left(\arctan(x/3)\right)}\\
+&= \frac{1}{1 + (x/3)^2} = \frac{9}{9 + x^2}
+\end{align*}
+Hence,
+\begin{align*}
+\int \frac{1}{(9 + x^2)^2} \,dx
+&=
+\frac{\arctan(x/3)}{54} +
+\frac{9x}{162(9 + x^2)}
++ C\\
+&=
+\frac{\arctan(x/3)}{54} +
+\frac{x}{18(9 + x^2)}
++ C
+\end{align*}
+@endcol
+<li>
+$\displaystyle \int \frac{\sqrt{x^2 - 25}}{x} \,dx$<br><br>
+<li>
+$\displaystyle \int \frac{x}{8 - 2x - x^2}\,dx$.<br><br>
+</ul>
+@end
+@sep
+@eg
+Evaluate:
+\[
+\int \frac{dx}{x\sqrt{x^2 - 1}}
+\]
+@col
+First, we note that the domain of the integrand is
+$(-\infty, -1) \cup (1, \infty)$.
+
+Let $\theta = \arccos (1/x)$.
+
+@col
+Then, $x = \sec \theta$, $dx = \sec \theta \tan \theta\, d\theta$, and:
+\[
+\sqrt{x^2 - 1} = \sqrt{\sec^2\theta - 1} = \sqrt{\tan^2 \theta}
+= \abs{\tan \theta}.
+\]
+Since:
+\[
+\theta = \arccos(1/x)
+\in
+\begin{cases}
+[0, \pi/2) & \text{ if } x > 1,\\
+(\pi/2, \pi] & \text{ if } x < -1,
+\end{cases}
+\]
+we have:
+\[
+\sqrt{x^2 - 1} = \abs{\tan \theta} =
+\begin{cases}
+\tan \theta & \text{ if } x  > 1,\\
+-\tan \theta & \text{ if } x  < -1.\\
+\end{cases}
+\]
+More succinctly, we have:
+\[
+\DeclareMathOperator{\sign}{sign}
+\sqrt{x^2 - 1} = \sign(x) \tan \theta.
+\]
+@col
+Hence,
+\begin{align*}
+\int \frac{dx}{x\sqrt{x^2 - 1}}
+&= \int \sign(x) \frac{\sec \theta \tan \theta}{\sec \theta \tan \theta} d\theta\\
+&= \int \sign(x) \,d\theta \\
+&= \sign(x) \theta + C\\
+&= \sign(x)\arccos(1/x) + C
+\end{align*}
+@end
+
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Rochester/setIntegrals14Substitution/sc5_5_101.pg}
+@item @webwork{Library/UMN/calculusStewartET/s_7_3_7.pg}
+@item @webwork{Library/ma123DB/set2/s7_3_28.pg}
+@item @webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_18.pg}
+@item @webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_19.pg}
+@item @webwork{Library/Wiley/setAnton_Section_7.4/Anton_7_4_Q19.pg}
+@item @webwork{Library/Wiley/setAnton_Section_7.4/Anton_7_4_Q18.pg}
+@item @webwork{Library/Rochester/setIntegrals10InvTrig/S07.03.TrigSubstitution.PTP08.pg}
+@item @webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_28.pg}
+@item @webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_27.pg}
+@endenumerate
+
+@week{12}
+@topic{Indefinite Integrals}
+@topic{Reduction Formulas}
+@topic{Partial Fractions}
+@section{Reduction Formulas}
+Let $\displaystyle n \in \mathbb{N}$.
+<ul>
+<li>
+\[
+\underbrace{\int x^n e^x\,dx}_{I_n} = x^ne ^x - n \underbrace{\int x^{n - 1}e^x\,dx}_{I_{n - 1}}.
+\]
+<hr>
+<li>
+For $n \geq 2$,
+\[
+\int \cos^n x\, dx = \frac{1}{n}\,\cos^{n - 1} x \sin x
++ \frac{n - 1}{n}\int \cos^{n - 2} x\,dx.
+\]
+@col
+Let $U = \cos^{n - 1} x$, $dV = \cos x \,dx$.
+Then:
+\[
+dU = -(n - 1)\cos^{n - 2} x \sin x\, dx, \quad V = \sin x.
+\]
+It follows from <a knowl="https://www.math.cuhk.edu.hk/~pschan/elephas/php/elephas_bare.php?wb=../content/math1010/t1_201819/week10.wb&query=//slide[@slide=%2716%27]"><b>Integration by Parts</b></a> that:
+\[
+\begin{split}
+\int U\,dV
+&= UV - \int V\,dU\\
+&= \cos^{n - 1} x \sin x  + (n - 1) \int \sin^2 x \cos^{n - 2} x \, dx\\
+&= \cos^{n - 1} x \sin x  + (n - 1) \int (1 - \cos^2 x) \cos^{n - 2} x \, dx\\
+&= \cos^{n - 1} x \sin x  + (n - 1) \int \cos^{n - 2} x \, dx - (n - 1) \int \cos^n x \, dx
+\end{split}
+\]
+Hence:
+\begin{multline*}
+\left(1 + ( n - 1)\right) \int \cos^n x \,dx
+\\=
+\cos^{n - 1} x \sin x + (n - 1) \int \cos^{n - 2} x \, dx.
+\end{multline*}
+Dividing both sides of the equation by $n$, we obtain:
+\[
+\int \cos^n x \,dx = \frac{1}{n}\sin x \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
+\]
+@endcol
+<hr>
+<li>
+For $n \geq 2$,
+\[
+\int \sin^n x\, dx = -\frac{1}{n}\,\sin^{n - 1} x \cos x
++ \frac{n - 1}{n}\int \sin^{n - 2} x\,dx.
+\]
+<hr>
+<li>
+For $n \geq 3$,
+\[
+\int \sec^n x\,dx = \frac{1}{n - 1}\,\sec^{n - 2} x \tan x
++ \frac{n - 2}{n - 1}\,\int \sec^{n - 2} x \,dx.
+\]
+<hr>
+<li>
+\[
+\int (\ln x)^n\,dx = x(\ln x)^n - n \int (\ln x)^{n - 1}\,dx.
+\]
+</ul>
+@sep
+@ex
+@enumerate
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_50.pg}
+@item @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_49.pg}
+@endenumerate
+@end
+@section{Partial Fractions}
+@def
+@keyword{proper rational function}
+A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
+is said to be <strong>proper</strong>
+if:
+\[
+\deg r < \deg s.
+\]
+@end
+By performing long division of polynomials,
+any rational function $\displaystyle \frac{p}{q}$, where $p, q$ are polynomials, may be expressed
+in the form:
+\[
+\frac{p}{q} = g + \frac{r}{s},
+\]
+where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational function.
+@sep
+<!-- We have seen that: -->
+<!-- \[ -->
+<!-- \frac{1}{(x - 1)(x + 1)} = \frac{1/2}{x - 1} - \frac{1/2}{x + 1}. -->
+<!-- \] -->
+<!-- More generally: -->
+<!-- <p> -->
+Let $\displaystyle \frac{r}{s}$ be a proper rational function.
+<p>
+Factor $s$ as a product of powers of distinct irreducible factors:
+\[
+s = \cdots (x - a)^m \cdots
+(\underbrace{x^2 + bx + c}_{\text{irreducible}\\\text{i.e. } b^2 - 4c < 0})^n \cdots.
+\]
+Then:
+@fact
+@label{partialfractions}
+The proper rational function $\displaystyle \frac{r}{s}$ may be written as a sum of rational functions as follows:
+\begin{multline*}
+\frac{r}{s}\, = \cdots \\
++ \frac{A_1}{x - a} + \frac{A_2}{(x - a)^2} + \cdots + \frac{A_m}{(x - a)^m}
++ \cdots\\
++ \frac{B_1 x + C_1}{x^2 + bx + c} + \frac{B_2 x + C_2}{(x^2 + bx + c)^2}
++ \cdots  + \frac{B_n x + C_n}{(x^2 + bx + c)^n} \\
++ \cdots,
+\end{multline*}
+where the $A_i, B_i, C_i$ are constants.
+@end
+@sep
+@eg
+<ul>
+<li>
+$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$
+<br/><br/>
+@col
+Performing long division for polynomials, we have:
+\[
+\begin{split}
+\int \frac{\left(x^3-x-2\right)}{x^2-2x}dx
+&= \int (x + 2) dx + \int \frac{3x - 2}{x^2 - 2x} dx\\
+&= \frac{1}{2}x^2 + 2x + \int \frac{3x - 2}{x^2 - 2x} dx.
+\end{split}
+\]
+To evaluate:
+\[
+\int \frac{3x - 2}{x^2 - 2x} dx,
+\]
+we first observe that the integrand is a proper rational function.
+Moreover, the denominator factors as follows:
+\[
+x^2 - 2x = x (x - 2).
+\]
+Hence, by @ref{partialfractions}, we have:
+\[
+\frac{3x - 2}{x^2 - 2x}
+=
+\frac{A}{x} + \frac{B}{x - 2},
+\]
+for some constants $A$ and $B$.
+Clearing denominators, we see that the equation above holds if and only if:
+\[
+3x - 2 = A(x - 2) + Bx.
+\tag{$\ast$}
+\]
+Letting $x = 2$, we have:
+\[
+3 \cdot  2 - 2 = B \cdot 2,
+\]
+which implies that $B = 2$.
+Similarly, letting $x = 0$ in equation $(\ast)$
+gives:
+\[
+-2 = -2 A,
+\]
+which implies that $A = 1$.
+Hence:
+\[
+\begin{split}
+\int \frac{3x - 2}{x^2 - 2x} dx
+&= \int \left( \frac{1}{x} + \frac{2}{x - 2} \right) dx\\
+&= \ln \abs{x} + 2\ln\abs{x - 2} + C,
+\end{split}
+\]
+where $C$ represents an arbitrary constant.
+
+We conclude that:
+\begin{multline*}
+\int \frac{\left(x^3-x-2\right)}{x^2-2x} dx
+=
+\frac{1}{2}x^2 + 2x + \ln \abs{x} + 2\ln\abs{x - 2} + C.
+\end{multline*}
+
+@endcol
+<hr/>
+<!--
+<li>
+$\displaystyle \int \frac{x^2 + 1}{x^3 + 4x^2 + 5x + 2}\,dx$
+-->
+<li>
+$\displaystyle \int \frac{x}{(x^2 + 4)(x - 3)}\,dx$<br/><br/>
+@col
+First we note that the integrand is a proper rational function.
+
+The quadratic factor $x^2 + 4$
+has discriminant $0^2 - 4\cdot 4 < 0$, hence it is irreducible.
+
+By @ref{partialfractions}, we have:
+\[
+\frac{x}{(x^2 + 4)(x - 3)}
+=
+\frac{Ax + B}{x^2 + 4} + \frac{C}{x - 3},
+\]
+for some constants $A, B$ and $C$.
+Clearing denominators, the equation above holds if and only if:
+\[
+x = (Ax + B)(x - 3) + C(x^2 + 4)
+\tag{$\ast$}
+\]
+Letting $x = 3$, we have:
+\[
+3 = C\cdot 13,
+\]
+which implies that $C = 3/13$.
+
+Letting $x = 0$, we have:
+\[
+0 = -3B + 4C,
+\]
+which implies that $B = (4/3)C = 4/13$.
+
+Finally, viewing each side of equation $(\ast)$ as polynomials and comparing
+the coefficients of $x^2$ on each side, we have:
+\[
+0 = A + C,
+\]
+which implies that $A = -C = -3/13$.
+
+Hence:
+\[
+\begin{split}
+&\int \frac{x}{(x^2 + 4)(x - 3)}\,dx\\
+&=
+\frac{1}{13} \int \frac{-3x + 4}{x^2 + 4}\,dx
++
+\frac{3}{13} \int \frac{1}{x - 3}\,dx\\
+&=
+\frac{1}{13}
+\left(
+\frac{-3}{2}\int \frac{1}{x^2 + 4}\,d(x^2 + 4)
++
+\int \frac{1}{(x/2)^2 + 1} \,dx
+\right.\\
+&\quad \left. +
+3 \int \frac{1}{x - 3}\,dx
+\right)\\
+&=
+\frac{1}{13}
+\left(
+\frac{-3}{2}\ln\abs{x^2 + 4}
++
+2\arctan(x/2)
++
+3 \ln\abs{x - 3}\right)
+ + D,
+\end{split}
+\]
+where $D$ represents an arbitrary constant.
+@endcol
+<hr/>
+<li>
+$\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx$<br/><br/>
+@col
+First, we observe that:
+\[
+\frac{x^3}{(x^2 + x + 1)(x - 3)^2}
+\]
+is a proper rational function.
+Moreover, since the discriminant of $x^2 + x + 1$ is $1^2 - 4 < 0$, this quadratic factor is irreducible.
+So, there exist constants $A, B, C, D$ such that:
+\[
+\frac{x^3}{(x^2 + x + 1)(x - 3)^2}
+=
+\frac{Ax + B}{x^2 + x + 1} + \frac{C}{x - 3} + \frac{D}{(x - 3)^2}.
+\]
+The equation above holds if and only if:
+\[
+\begin{split}
+x^3 &= (Ax + B)(x - 3)^2 + C(x^2 + x + 1)(x - 3) \\
+&+ D(x^2 + x + 1).
+\end{split}
+\tag{$\ast$}
+\]
+Letting $x = 3$, we have:
+\[
+27 = 13D.
+\]
+So, $ D = 27/13 $.
+
+To find $A, B$ and $C$, we view each side of the equation $(\ast)$
+as polynomials, then compare the coefficients
+of the $x^3, x^2, x$ and constant terms respectively:
+\begin{align}
+x^3: & \quad & 1 &= A + C \label{eq3}\\
+x^2: & \quad & 0 &= -6A + B - 2C + 27/13 \label{eq2}\\
+x: & \quad & 0   &= 9A -6B - 2C + 27/13 \label{eq1} \\
+1: & \quad & 0 &= 9B -3C  + 27/13 \label{eq0}
+\end{align}
+Subtracting equation \eqref{eq2} from equation \eqref{eq1}, we have:
+\[
+0 = 15A - 7B,
+\]
+which implies that $B = 15A/7$.
+Combining this with equation \eqref{eq3}, we have:
+\[
+B = 15(1 - C)/7 = 15/7 - 15C/7.
+\]
+It now follows from equation \eqref{eq0} that:
+\[
+0 = 135/7 - 135C/7 - 3C + 27/13.
+\]
+Hence:
+\[
+\begin{split}
+C &= \frac{162}{169}\\
+B &= \frac{15}{169}\\
+A &= \frac{7}{169}\\
+D &= \frac{27}{13}.
+\end{split}
+\]
+We have:
+\begin{multline*}
+\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
+\\=
+\int \left[ \frac{7x+15}{169\left(x^2+x+1\right)}
++\frac{162}{169\left(x-3\right)}
++\frac{27}{13\left(x-3\right)^2}
+\right] dx
+\end{multline*}
+\begin{multline*}
+=
+\int \frac{7x+15}{169\left(x^2+x+1\right)} dx
+\\
++ \frac{162}{169} \int \frac{1}{\left(x-3\right)} dx
++ \frac{27}{13} \int \frac{1}{\left(x-3\right)^2} dx
+\end{multline*}
+To evaluate $\int \frac{7x+15}{169\left(x^2+x+1\right)} dx$, we first rewrite the integral as follows:
+\[
+\int \frac{7x+15}{169\left(x^2+x+1\right)} dx
+= \frac{1}{169} \int
+\frac{7x + 7/2 - 7/2 +15}{x^2+x+1} dx
+\]
+\[
+=
+\frac{1}{169}\left[
+\frac{7}{2}\underbrace{\int \frac{2x + 1}{x^2 + x + 1} dx}_{\int \frac{1}{x^2 + x + 1}d(x^2 + x + 1)}
++
+\frac{23}{2}\underbrace{\displaystyle\int \frac{1}{(x + 1/2)^2 + 3/4} dx}_{\frac{4}{3}\int \frac{1}{\left((2x + 1)/\sqrt{3}\right)^2 + 1} dx}
+\right]
+\]
+\[
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23\cdot 2}{169\cdot 3} \frac{\sqrt{3}}{2}\arctan\left((2x + 1)/\sqrt{3}\right) + E
+\]
+\[
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23}{169\sqrt{3}}\arctan\left((2x + 1)/\sqrt{3}\right) + E,
+\]
+where $E$ represents an arbitrary constant.
+
+It now follows that:
+\begin{multline*}
+\int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
+\\
+= \frac{7}{338}\ln \abs{x^2 + x + 1}
++ \frac{23}{169\sqrt{3}}\arctan\left((2x + 1)/\sqrt{3}\right) \\
++ \frac{162}{169} \ln \abs{x - 3} - \frac{27}{13} \frac{1}{x - 3} + E.
+\end{multline*}
+@endcol
+<hr/>
+<li>
+$\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$<hr/>
+</ul>
+@end
+@sep
+@ex
+@enumerate
+@item @webwork{Library/Rochester/setIntegrals25RationalFunctions/S07.04.PartialFractions.PTP15.pg}
+@item @webwork{Library/Rochester/setIntegrals25RationalFunctions/osu_in_25_9d.pg}
+@item @webwork{Library/UMN/calculusStewartET/s_7_4_prob02.pg}
+@item @webwork{Library/Union/setIntInverseTrigSub/an8_4_09.pg}
+@item @webwork{Library/ma123DB/set3/s7_4_19.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_35.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_13.pg}
+@item @webwork{Library/ASU-topics/setCalculus/stef/stef7_4p2.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_24.pg}
+@item @webwork{Library/UCSB/Stewart5_7_5/Stewart5_7_5_26.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_43.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_37.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_38.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_45.pg}
+@item @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_39.pg}
+@endenumerate
+@end
+
+@week{13}
+@topic{Definite Integrals}
+@section{Motivation}
+Given a continuous function over a closed interval.
+We want to approximate the area of the region
+bounded by the graph of the function and the $x$-axis.
+
+One way to do so is by viewing the region roughly as a union of sequence of rectangles,
+and then adding up the areas of these rectangles.
+
+@collapse
+<div class='image'>
+<img src="content/math1010/lrs5.jpg"/>
+<br/>
+$5$ rectangles.
+</div>
+@collapse
+<div class='image'>
+<img src="content/math1010/lrs10.jpg"/>
+<br/>
+$10$ rectangles.
+</div>
+@collapse
+Intuitively, we see that the more (and smaller) rectangles are used,
+the more closely their union approximates the region in question.
+
+@collapse
+<div class='image'>
+<a title="By 09glasgow09 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARiemann_sum_(leftbox).gif"><img width="256" alt="Riemann sum (leftbox)" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif"/></a>
+</div>
+@sep
+
+@def
+
+Let $n$ be a positive integer.
+
+Let $f : [a, b] \longrightarrow \mathbb{R}$
+be a continuous function on a closed interval.
+
+Let:
+\[
+\Delta x = \frac{b - a}{n}.
+\]
+The <b>Left Riemann Sum</b> of $f$ over $[a, b]$
+associated with $n$ subintervals of equal lengths is:
+\begin{multline*}
+LS_n(f) = \sum_{k = 0}^{n -1} f(a + k\Delta x)\Delta x\\
+= \Delta x\Big[f(a) + f(a + \Delta x) + f(a + 2 \Delta x) + \ldots\\
+\cdots + f(a + (n - 1)\Delta x)\Big]
+\end{multline*}
+@end
+
+@col
+Each summand may be thought of as the area of the rectangle whose base is
+the subinterval $[a + k\Delta x, a + (k + 1)\Delta x]$,
+and whose height is the value of $f$ at the left endpoint of the subinterval.
+<div class='image' style="padding-top:2em;">
+<div style="position:relative;width:640px;height:400px">
+<img class="exempt" style="position:absolute;top:0;left:0" src="content/math1010/riemann/summand.svg"/>
+<div style="position:absolute;top:100;left:200">$y = f(x)$</div>
+<div style="position:absolute;top:270;left:365">$f(x)$</div>
+<div style="position:absolute;top:385;left:295">$\Delta x$</div>
+<div style="position:absolute;top:385;left:250">$x$</div>
+</div>
+</div>
+@sep
+<iframe style="width:640px;height:800px" src="content/math1010/lrs.html"></iframe>
+@sep
+@def
+Let $f : [a, b] \longrightarrow \mathbb{R}$
+be a continuous function on a closed interval.
+The <b>definite integral</b> $\displaystyle \int_a^b f(x)\,dx$ of $f$ over $[a, b]$
+is equal to the limit as $n$
+tends to infinity of the left Riemann sum defined previously.
+That is:
+\[
+\begin{split}
+\int_a^b f(x)\, dx &= \lim_{n \rightarrow \infty} LS_n(f)\\
+&= \lim_{n \rightarrow \infty}
+\frac{b - a}{n}\,\sum_{k = 0}^{n -1} f\left(a + \frac{k(b - a)}{n}\right)
+\end{split}
+\]
+@end
+It is an established theorem that the limit exists if $f$ is continuous.
+
+(In fact: One could define the definite integral in terms of the Right Riemann Sum or
+the Midpoint Riemann Sum.  All these sums tend to same limit in the case where $f$
+is continuous.)
+@sep
+Our eventual goal is to show that if $F$ is an antiderivative of a continuous function
+$f$, then:
+\[
+\int_a^b f(x)\,dx = F(x)\bigg|_a^b := F(b) - F(a).
+\]
+<hr>
+@collapse
+<ul>
+<li>
+<h5>Integration by Substitution</h5>
+\[
+\int_a^b f(u(x))u'(x)\,dx = \int_{u(a)}^{u(b)} f(u)\,du
+= F(u(b)) - F(u(a))
+\]
+if $F$ is an antiderivative of $f$.
+<li>
+<h5>Integration by Parts</h5>
+\[
+\int_a^b u(x) v'(x)dx = u(x)v(x)\bigg|_a^b - \int_a^b v(x)u'(x)\,dx.
+\]
+</ul>
+<hr>
+Before we prove the main theorem,
+we first state a couple of preliminary results.
+@sep
+@def
+For a continuous function $f$ on $[a, b]$,
+we define:
+\[
+\int_a^a f(x)\,dx = 0.
+\]
+\[
+\int_b^a f(x)\,dx = -\int_a^b f(x)\,dx.
+\]
+@end
+@claim
+Let $f$ be a continuous function on an interval $I$.
+For all $a, b, c \in I$, we have:
+\[
+\int_a^b f(x)\,dx + \int_b^c f(x)\,dx = \int_a^c f(x)\,dx.
+\]
+@end
+@sep
+@claim
+Let $f, g$ be continuous functions on $[a, b]$.
+If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
+\[
+\int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
+\]
+@end
+@sep
+@eg
+@keyword{area of a region}
+Find the area of the region in the $xy$-plane bounded between the graph of $y = x^2 - 2x - 3$ and the $x$-axis over
+the interval $[1, 5]$.
+<br/><br/>
+<!-- <iframe src="https://www.desmos.com/calculator/ixcjezeyw1?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe> -->
+<div class='image'>
+    <img class='exempt' style="max-width:65%" src='content/math1010/math1010_area.png'/>
+</div>
+@col
+The geometric area of the region described is equal to:
+\[
+\int_1^5 \abs{x^2 - 2x - 3} \,dx
+\]
+Consider the sign chart for the values of $f(x) = x^2 - 2x - 3 = (x + 1)(x - 3)$
+over the interval $[1, 5]$:
+<br/><br/>
+<table style="width:auto;margin:auto;text-align:center">
+    <tbody>
+        <tr>
+            <td>$f(x)$:</td><td>$-$</td><td>$0$</td><td>$+$</td>
+        </tr>
+        <tr>
+            <td>$x$:</td><td>$[1, 3)$</td><td>$3$</td><td>$(3, 5]$</td>
+        </tr>
+    </tbody>
+</table>
+<br/>
+Hence,
+<br/><br/>
+$\displaystyle
+\int_1^5 \abs{x^2 - 2x - 3} \,dx$
+\[
+\begin{split}
+&= \int_1^3 \abs{x^2 - 2x - 3} \, dx + \int_3^5 \abs{x^2 - 2x - 3} \, dx\\
+&= \int_1^3 -\left( x^2 - 2x - 3 \right) \, dx + \int_3^5 \left( x^2 - 2x - 3 \right) \, dx\\
+&= -\left.\left( \frac{1}{3}x^3 - x^2 - 3x \right) \right|_1^3 + \left.\left( \frac{1}{3}x^3 - x^2 - 3x \right)\right|_3^5\\
+&= \frac{16}{3} + \frac{32}{3}\\
+&= 16
+\end{split}
+\]
+@end
+@sep
+@thm
+(<b>Mean Value Theorem for Integrals</b>)
+Let $f$ be a continuous function on $[a, b]$.
+There exists $c \in [a, b]$ such that:
+\[
+f(c) = \frac{1}{b - a}\,\int_a^b f(x)\,dx.
+\]
+@end
+
+@proof
+@collapse
+Since $f$ is continuous on $[a, b]$, by the Extreme Value Theorem
+it has a maximum value $M$ and minimum value $m$ on $[a, b]$.
+
+In other words,
+\[
+m \leq f(x) \leq M
+\]
+for all $x \in [a, b]$.  Hence:
+
+@collapse
+\[
+\underbrace{\int_a^b m\,dx}_{m(b -a)}
+\leq \int_a^b f(x)\,dx \leq
+\underbrace{\int_a^b M\,dx}_{M(b - a)}.
+\]
+Dividing each expression by $b - a$, we have:
+
+@collapse
+\[
+m \leq \frac{1}{b - a}\int_a^bf(x)\,dx \leq M.
+\]
+
+@collapse
+Let $x_1, x_2$ be elements in $[a, b]$ such that
+$M = f(x_1)$ and $m = f(x_2)$.
+Since $f$ is continuous on $[a, b]$,
+and $\displaystyle \frac{1}{b - a}\int_a^bf(x)\,dx$
+is a number between $f(x_1)$ and $f(x_2)$,
+by the Intermediate Value Theorem there exists $c$ between $x_1$ and $x_2$
+such that:
+\[
+f(c) = \frac{1}{b - a}\int_a^bf(x)\,dx.
+\]
+This $c$ lies in $[a, b]$, since $x_1, x_2$ lies in $[a, b]$.
+@endproof
+@end
+@sep
+@thm
+#label{ftc1}
+@title{Fundamental Theorem of Calculus Part I}
+Let $f$ be a continuous function on $[a, b]$.
+Define a function $F : [a, b] \longrightarrow \mathbb{R}$ as follows:
+\[
+F(x) = \int_a^x f(t)\,dt, \quad x \in [a, b].
+\]
+Then, $F$ is continuous on $[a, b]$ and differentiable on $(a, b)$, with:
+\[
+F'(x) = f(x)
+\]
+for all $x \in (a, b)$.
+Equivalently:
+
+@collapse
+\[
+\frac{d}{dx}\int_a^x f(t)\,dt = f(x)
+\]
+@end
+
+@proof
+@collapse
+By definition:
+\[
+\begin{split}
+F'(x) &= \lim_{h \rightarrow 0}\frac{F(x + h) - F(x)}{h}.\\
+& = \lim_{h \rightarrow 0}\frac{\int_a^{x + h}f(t)\,dt - \int_a^xf(t)\,dt}{h}.\\
+& = \lim_{h \rightarrow 0}\frac{\int_x^{x + h}f(t)\,dt}{h}.
+\end{split}
+\]
+
+@collapse
+By the Mean Value Theorem for Integrals, there exists $c_h \in [x, x + h]$
+such that:
+\[
+f(c_h) = \frac{\int_x^{x + h}f(t)\,dt}{h}.
+\]
+Hence:
+
+@collapse
+\[
+F'(x) = \lim_{h \rightarrow 0}f(c_h) = f(x),
+\]
+since for any $h$ the number $c_h$ lies between $x$ and $x + h$,
+and $f$ is continuous.
+<hr>
+
+We leave the proof of the continuity of $F$ on $[a, b]$ as an exercise.
+@endproof
+@end
+@sep
+@cor
+#label{ftcicor}
+Let $f$ be a continuous function.
+Let $g$ and $h$ be differentiable functions.  Then:
+\[
+\frac{d}{dx}\int_{g(x)}^{h(x)}f(t)\,dt
+= f(h(x))h'(x) - f(g(x))g'(x).
+\]
+@end
+@eg
+
+@collapse
+Evaluate:
+\[
+\frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt
+\]
+<hr>
+@col
+@steps
+\[
+\begin{split}
+\frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt &=
+e^{\left(-(x^3 + 1)^2\right)}(x^3 + 1)' - e^{\left(-(\sin x)^2\right)}(\sin x)'\\
+&
+#nstep{= e^{\left(-(x^3 + 1)^2\right)}\cdot 3x^2 - e^{\left(-(\sin x)^2\right)}\cos x}
+\end{split}
+\]
+@endsteps
+@end
+@eg
+
+@collapse
+Evaluate:
+\[
+\lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt
+\]
+@col
+We have:
+\begin{equation}
+\label{ftc1eg2}
+\lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt
+=
+\lim_{h \rightarrow 0^+}\frac{\int_2^{2 + h}\sqrt{t^4 + 1}\,dt}{\ln(1 + h)}
+\end{equation}
+@col
+Computing the limits of the numerator and denominator separately, we have:
+\[
+\lim_{h \rightarrow 0^+}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt
+=
+\int_2^{2}\sqrt{t^4 + 1}\,dt = 0
+\]
+(because $F(h) = \int_2^{2 + h}\sqrt{t^4 + 1}\,dt$
+is a continuous function by #ref{ftc1}), and:
+\[
+\lim_{h \rightarrow 0^+} \ln(1 + h) = \ln (1 + 0) = 0
+\]
+(also because $f(h) = \ln (1 + h)$ is a continuous function).
+
+@col
+Hence, the limit \eqref{ftc1eg2} corresponds to the indeterminate form $\frac{0}{0}$.
+
+@col
+Taking the limit of the ratio of the derivatives of the numerator and denominator,
+we have:
+@steps
+\[
+\begin{split}
+\lim_{h \rightarrow 0^+} \frac{\frac{d}{dh}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt}{\frac{d}{dh}\ln(1 + h)}
+&=
+#nstep{\lim_{h \rightarrow 0^+}\frac{\left(\sqrt{(2 + h)^4 + 1}\right)(2 + h)'}{\frac{1}{1 + h}}}
+\\&
+#nstep{=\lim_{h \rightarrow 0^+}(1 + h)\left(\sqrt{(2 + h)^4 + 1}\right)}
+\\&
+#nstep{=\lim_{h \rightarrow 0^+}\sqrt{17}.}
+\end{split}
+\]
+@endsteps
+@col
+It now follows from l'H&ocirc;pital's rule that:
+\[
+\lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt = \sqrt{17}.
+\]
+@endcol
+@end
+@sep
+There is a general formula regarding derviatives of the form:
+\[
+\frac{d}{dx}\int_{a(x)}^{b(x)} f(x, t)\,dt,
+\]
+the discussion of which is beyond the scope of this course.
+However, in certain special cases, the derivative may be found using
+#ref{ftcicor} without much further effort:
+@eg
+Find:
+\begin{equation}
+\label{ddxfxt1}
+\frac{d}{dx}\int_{x}^1 x^3e^{(t^2)} \, dt
+\end{equation}
+<hr/>
+@col
+We may interpret the meaning of the derivative $\eqref{ddxfxt1}$ as follows:
+
+For each fixed number $x$ (e.g. $x = 2, 55, 3.1415, \ldots$),
+the definite integral:
+\[
+F(x) = \int_{x}^1 x^3e^{(t^2)}\,dt
+= x^3 \int_{x}^1 e^{(t^2)}\,dt
+\]
+is some number which depends on $x$.
+(The second equality holds because $x$ is a fixed constant.)
+
+@col
+Then, we let $x$ vary, and view $F(x)$ as a function of $x$.
+The expression $\eqref{ddxfxt1}$ is then the derivative $F'(x)$ of this $F(x)$
+with respect to $x$.
+
+@col
+By the the product rule and #ref{ftcicor}, we have:
+\[
+\begin{split}
+F'(x) &= 3x^2 \int_{x}^1 e^{(t^2)}\,dt
++ x^3\frac{d}{dx}\int_{x}^1 e^{(t^2)}\,dt\\
+&=
+3x^2 \int_{x}^1 e^{(t^2)}\,dt
++ x^3(-e^{(x^2)}).
+\end{split}
+\]
+(The function $G(x) = \int_{x}^1 e^{(t^2)}\,dt$ is not an elementary function in $x$,
+so we won't simplify it further.)
+@endcol
+@end
+@eg
+Find:
+\begin{equation}
+\label{ddxfxt2}
+\frac{d}{dx}\int_{x}^{3x^2} \frac{\sin(x^2 t)}{t} \, dt, \quad x > 0.
+\end{equation}
+<hr>
+@col
+Again, we first view $x$ as a constant.
+
+Let:
+\[
+u = x^2t.
+\]
+So:
+\[
+t = \frac{u}{x^2}, \quad dt = \frac{1}{x^2} du.
+\]
+@col
+Under this change of variable, the integral:
+\[
+\int_{t = x}^{t = 3x^2} \frac{\sin(x^2 t)}{t} \, dt
+\]
+is equal to:
+\[
+\begin{split}
+\int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{(u/x^2)}\frac{1}{x^2}\,du
+&=
+\int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{u}\,du
+\end{split}
+\]
+It now follows from #ref{ftcicor} that:
+\[
+\begin{split}
+\frac{d}{dx} \int_{t = x}^{t = 3x^2} \frac{\sin(x^2 t)}{t} \, dt
+&=
+\frac{d}{dx}
+\left[\int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{u}\,du\right].\\
+&=
+\frac{\sin(3x^4)}{3x^4}\cdot 12 x^3 - \frac{\sin(x^3)}{x^3}\cdot 3x^2\\
+&=
+\frac{4\sin(3x^4)}{x} - \frac{3\sin(x^3)}{x}\cdot
+\end{split}
+\]
+@end
+@sep
+@thm
+@title{Fundamental Theorem of Calculus Part II}
+Let $f$ be a continuous function on $[a, b]$.
+Let $F$ be a continuous function on $[a, b]$
+which is an antiderivative of $f$ over $(a, b)$.
+Then:
+\[
+\int_a^b f(x)\,dx = F(b) - F(a).
+\]
+@end
+
+@proof
+@collapse
+By the Fundamental Theorem of Calculus Part I,
+we know that $G(x) = \int_a^x f(t)\,dt$ is also an antiderivative of $f$.
+By Lagrange's Mean Value Theorem and the continuity of $F$ and $G$ on $[a, b]$,
+for all $x \in [a, b]$ we have:
+\[
+G(x) = F(x) + C
+\]
+for some constant $C$.
+
+@collapse
+Since $G(a) = \displaystyle \int_a^af(t)\,dt = 0$, we have $C = - F(a)$.
+
+@collapse
+Hence:
+\[
+\int_a^b f(t)\,dt = G(b) = F(b) + C = F(b) - F(a).
+\]
+@endproof
+@endcol
+@end
