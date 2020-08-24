@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">differentiable</keyword>
+      <keyword chapter="" slide="all">derivative</keyword>
+      <keyword chapter="" slide="all">differentiable</keyword>
+      <keyword chapter="" slide="all">derivative function</keyword>
+      <keyword chapter="" slide="all">product rule</keyword>
+      <keyword chapter="" slide="all">quotient rule</keyword>
+      <keyword chapter="" slide="all">Sum/Difference Rule</keyword>
+      <keyword chapter="" slide="all">sum/difference rule</keyword>
+      <keyword chapter="" slide="all">Product Rule</keyword>
+      <keyword chapter="" slide="all">Quotient Rule</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="5" title="" topic="Differentiation" course="Math 1010" serial="5">
+      <keywords slide="all" environ="chapter" chapter="5" course="Math 1010">
+        <keyword chapter="5" slide="all">differentiable</keyword>
+        <keyword chapter="5" slide="all">derivative</keyword>
+        <keyword chapter="5" slide="all">differentiable</keyword>
+        <keyword chapter="5" slide="all">derivative function</keyword>
+        <keyword chapter="5" slide="all">product rule</keyword>
+        <keyword chapter="5" slide="all">quotient rule</keyword>
+        <keyword chapter="5" slide="all">Sum/Difference Rule</keyword>
+        <keyword chapter="5" slide="all">sum/difference rule</keyword>
+        <keyword chapter="5" slide="all">Product Rule</keyword>
+        <keyword chapter="5" slide="all">Quotient Rule</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="5" section="" subsection="" subsubsection="" serial="5" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="5" section="" subsection="" subsubsection="" serial="5" slide="">Differentiation</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 1010" chapter="5" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Differentiation</topic>
+          <keywords slide="2" environ="slide" chapter="5" course="Math 1010"/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Derivatives" course="Math 1010" chapter="5" num="1" serial="5.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" serial="5.1" slide="">
+          <newline course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Derivatives</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Derivatives">
+            <keywords slide="3" environ="slide" chapter="5" course="Math 1010">
+              <keyword chapter="5" slide="3">differentiable</keyword>
+              <keyword chapter="5" slide="3">derivative</keyword>
+              <keyword chapter="5" slide="3">differentiable</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <newline course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Derivatives</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="e2155da3a1bf7e24cebf2801c08c41bb" course="Math 1010" chapter="5" slide="3" item="5.1">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> We say that a function $f$ is </paragraphs>
+              <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">differentiable</inline_keyword>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> at $c$ if the limit:
+\[
+f'(c) := \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}
+\]
+exists.
+The limit $f'(c)$, if it exists, is called the </paragraphs>
+              <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">derivative</inline_keyword>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $f$ at $c$. </paragraphs>
+            </statement>
+            <newcol course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We say that a function $f$ is </paragraphs>
+              <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">differentiable</inline_keyword>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> if it is differentiable at every point in its domain. </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Derivatives">
+            <keywords slide="4" environ="slide" chapter="5" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="2" md5="65db66c760ce200132a7046aa1dfcef5" course="Math 1010" chapter="5" slide="4" item="5.2">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f(x) = \abs{x}$.
+Is $f$ differentiable at $x = 0$?  If so, find $f'(0)$. </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Derivatives">
+            <keywords slide="5" environ="slide" chapter="5" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" md5="406bb1b04871f9c634b9a16bc72f7d98" course="Math 1010" chapter="5" slide="5" item="5.3">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a function $f$ is differentiable at $c$, then it is also continuous at $c$. </paragraphs>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (The converse is false in general.) </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="5d2152ec08d537729560b36dc21c59fa" course="Math 1010" chapter="5" slide="5" item="5.4">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by\[
+f(x) = \left\{ \begin{array}{ccc} x^3 &amp; \textrm{if} &amp; x\leq1; \\ \\ ax+b &amp; \textrm{if} &amp; x&gt;1. \end{array}\right. \]
+Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$. </paragraphs>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="5" num="2" serial="5.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="2" subsection="" subsubsection="" serial="5.2" slide="">
+          <newline course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="6" scope="section" id="s6" slide="6" course="Math 1010" chapter="5" section="2" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="6" environ="slide" chapter="5" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="6">
+              <newline course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            </title>
+            <enumerate course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/AlfredUniv/anton8e/chapter3/3.2/prob5.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UVA-Stew5e/setUVA-Stew5e-C02S08-Derivatives/2-8-21.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_2_8/Stewart5_2_8_22.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Westmont/ActiveCalculus/Preview_1_4/preview_1_4_ab.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/OSU/high_school_apcalc/dchmwk3/prob9.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_2.2/Question13.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Hope/Calc1/03-02-Derivative-function/Thomas12-03-02-03.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_2_9/Stewart5_2_9_24.pg"/>
+              </item>
+            </enumerate>
+            <newline course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Tangent Line" course="Math 1010" chapter="5" num="3" serial="5.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="3" subsection="" subsubsection="" serial="5.3" slide="">
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Tangent Line</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="7" scope="section" id="s7" slide="7" course="Math 1010" chapter="5" section="3" subsection="" subsubsection="" chapter_title="" section_title="Tangent Line">
+            <keywords slide="7" environ="slide" chapter="5" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="3" subsection="" subsubsection="" serial="" slide="7">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Tangent Line</paragraphs>
+            </title>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If the derivative $f'(c)$ exists,
+then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$. </paragraphs>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Moreover, the slope of the tangent line is $f'(c)$,
+and the tangent line is the graph of the equation:
+\[
+y = f'(c)(x - c) + f(c).
+\] </paragraphs>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 1010" chapter="5" section="3" subsection="" subsubsection="" chapter_title="" section_title="Tangent Line">
+            <keywords slide="8" environ="slide" chapter="5" course="Math 1010">
+              <keyword chapter="5" slide="8">derivative function</keyword>
+            </keywords>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Given $f : A \longrightarrow\mathbb{R}$,
+the correspondence $x \mapsto f'(x)$ defines the </paragraphs>
+            <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="">derivative function</inline_keyword>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $f' : A' \longrightarrow\mathbb{R}$, where $A'$ is the set of all points $c \in A$
+at which $f$ is differentiable. </paragraphs>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Some Common Derivative Identities" course="Math 1010" chapter="5" num="4" serial="5.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="4" subsection="" subsubsection="" serial="5.4" slide="">
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Some Common Derivative Identities</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 1010" chapter="5" section="4" subsection="" subsubsection="" chapter_title="" section_title="Some Common Derivative Identities">
+            <keywords slide="9" environ="slide" chapter="5" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="4" subsection="" subsubsection="" serial="" slide="9">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Some Common Derivative Identities</paragraphs>
+            </title>
+            <table xmlns="http://www.w3.org/1999/xhtml" class="table table-hover table-striped table-bordered" environment="">
+              <thead class="thead-default" environment="">
+                <tr environment="">
+                  <th environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$f(x)$</paragraphs>
+                  </th>
+                  <th environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$f'(x)$</paragraphs>
+                  </th>
+                </tr>
+              </thead>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">constant</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$0$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ax + b \quad (a, b \in \mathbb{R})$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$nx^{n - 1}$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$x^r \quad (r \in \mathbb{R},\; x &gt; 0)$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$rx^{r - 1}$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$e^x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$e^x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a^x \quad (a &gt; 0)$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$(\ln a)a^x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\ln \abs{x}$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{x}$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\log_a x \quad (a \neq 1,\; a &gt; 0)$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac {1}{(\ln a)x}$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sin x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cos x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cos x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\sin x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\tan x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec^2 x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec x\tan x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cot x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\csc^2 x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\csc x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\csc x \cot x$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\arctan x$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{x^2 + 1}$</paragraphs>
+                </td>
+              </tr>
+              <tr environment="">
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\arcsin x\quad(-1 &lt; x &lt; 1)$</paragraphs>
+                </td>
+                <td environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</paragraphs>
+                </td>
+              </tr>
+            </table>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Leibniz Notation" course="Math 1010" chapter="5" num="5" serial="5.5">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="5" subsection="" subsubsection="" serial="5.5" slide="">
+          <newline course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Leibniz Notation</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 1010" chapter="5" section="5" subsection="" subsubsection="" chapter_title="" section_title="Leibniz Notation">
+            <keywords slide="10" environ="slide" chapter="5" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="5" subsection="" subsubsection="" serial="" slide="10">
+              <newline course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Leibniz Notation</paragraphs>
+            </title>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $f$ is defined in terms of an independent variable $x$,
+we often denote $f'(x)$ by $\displaystyle \frac{df}{dx}\;$.
+Under this notation, for a given $c \in \mathbb{R}$
+the value $f'(c)$ is denoted by:
+\[
+\left.\frac{df}{dx}\,\right|_{x = c}
+\]</paragraphs>
+            <newline course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Rules of Differentiation" course="Math 1010" chapter="5" num="6" serial="5.6">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="6" subsection="" subsubsection="" serial="5.6" slide="">
+          <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rules of Differentiation</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 1010" chapter="5" section="6" subsection="" subsubsection="" chapter_title="" section_title="Rules of Differentiation">
+            <keywords slide="11" environ="slide" chapter="5" course="Math 1010">
+              <keyword chapter="5" slide="11">product rule</keyword>
+              <keyword chapter="5" slide="11">quotient rule</keyword>
+              <keyword chapter="5" slide="11">Sum/Difference Rule</keyword>
+              <keyword chapter="5" slide="11">sum/difference rule</keyword>
+              <keyword chapter="5" slide="11">Product Rule</keyword>
+              <keyword chapter="5" slide="11">Quotient Rule</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="6" subsection="" subsubsection="" serial="" slide="11">
+              <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rules of Differentiation</paragraphs>
+            </title>
+            <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">product rule</hc_keyword>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>
+            <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">quotient rule</hc_keyword>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
+Then: </paragraphs>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Sum/Difference Rule</paragraphs>
+            </h5>
+            <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">sum/difference rule</hc_keyword>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f \pm g$ is differentiable at $c$, with:
+\[
+(f \pm g)'(c) = f'(c) \pm g'(c).
+\] </paragraphs>
+              <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2cf2ab64571dd12c7c38a7d9196840b1" course="Math 1010" chapter="5" slide="11" of="5d2152ec08d537729560b36dc21c59fa">
+                <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{align*}
+(f + g)'(c) &amp;= \lim_{h \rightarrow 0} \frac{(f + g)(c + h) - (f + g)(c)}{h}
+\\&amp;
+= \lim_{h \rightarrow 0} \frac{f(c + h) + g(c + h) - f(c) - g(c)}{h}
+\\&amp;
+= \lim_{h \rightarrow 0}\left[ \frac{f(c + h) - f(c)}{h} +
+\frac{g(c + h) - g(c)}{h} \right].
+\tag{$\ast$}
+\end{align*} </paragraphs>
+                  <collapse course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since by assumption both $f'(c) = \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}$
+and
+$g'(c) = \lim_{h \rightarrow 0} \frac{g(c + h) - g(c)}{h}$ exist,
+by the sum rule for limits the expression $(\ast)$ is equal to:
+\[
+f'(c) + g'(c).
+\] </paragraphs>
+                    <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
+                    </strong>
+                    <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Show that $(f - g)'(c) = f'(c) - g'(c)$. </paragraphs>
+                  </collapse>
+                </newcol>
+              </substatement>
+            </newcol>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Product Rule</paragraphs>
+            </h5>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $fg$ is differentiable at $c$, with:
+\[
+(fg)'(c) = f'(c)g(c) + f(c)g'(c).
+\] </paragraphs>
+            </newcol>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Quotient Rule</paragraphs>
+            </h5>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f/g$ is differentiable at $c$ provided that $g(c) \neq 0$,
+in which case we have:
+\[
+\left(\frac{f}{g}\right)'(c) = \frac{g(c)f'(c) - f(c) g'(c)}{[g(c)]^2}\;\;.
+\] </paragraphs>
+            </newcol>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Chain Rule" course="Math 1010" chapter="5" num="7" serial="5.7">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" serial="5.7" slide="">
+          <newline course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Chain Rule</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" chapter_title="" section_title="Chain Rule">
+            <keywords slide="12" environ="slide" chapter="5" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" serial="" slide="12">
+              <newline course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Chain Rule</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="b181442a1c81dc6cddc4d0414c8db985" course="Math 1010" chapter="5" slide="12" item="5.5">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Suppose $f$ is differentiable at $c$ and $g$ is differentiable at $f(c)$,
+then $g \circ f$ is differentiable at $c$, with:
+\[
+(g\circ f)'(c) = g'(f(c))f'(c).
+\] </paragraphs>
+            </statement>
+            <newcol course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In the Leibniz notation,
+the chain rule says that if $f$ is a differentiable function of $u$
+and $u$ is a differentiable function of $x$, then:
+\[
+\frac{df}{dx} = \frac{df}{du}\,\frac{du}{dx}\;,
+\]
+\[
+\left.\frac{df}{dx}\,\right|_{x = c} =
+\left.\frac{df}{du}\,\right|_{u = u(c)}\left.\frac{du}{dx}\,\right|_{x = c}
+\] </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" chapter_title="" section_title="Chain Rule">
+            <keywords slide="13" environ="slide" chapter="5" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="bc75c4e8563baaf50c7a133c1235d12c" course="Math 1010" chapter="5" slide="13" item="5.6">
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by
+\[
+f(x) = \begin{cases} x^2\sin\left(\frac{1}{x}\,\right) &amp; \text{ if } x\neq 0; \\
+\;0 &amp; \text{ if } x = 0.\end{cases}
+\]
+Find $f'$.  Is $f'$ continuous at $x = 0$? </paragraphs>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="5" num="8" serial="5.8">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="8" subsection="" subsubsection="" serial="5.8" slide="">
+          <newline course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="14" scope="section" id="s14" slide="14" course="Math 1010" chapter="5" section="8" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="14" environ="slide" chapter="5" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="8" subsection="" subsubsection="" serial="" slide="14">
+              <newline course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            </title>
+            <enumerate course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap3Sec2/Q09.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/OSU/high_school_apcalc/dchmwk4/prob14.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-24.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_8/Stewart5_3_8_19.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap3Sec4/Q71.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-32g.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UVA-Stew5e/setUVA-Stew5e-C03S05-ChainRule/3-5-35.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setDervInverseTrig/osu_dr_6_3.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_3_8/Stewart5_3_8_11.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/AlfredUniv/anton8e/chapter4/4.3/prob3.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setDerivatives1/c1s5p8.pg"/>
+              </item>
+              <item course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.34.pg"/>
+              </item>
+            </enumerate>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

@@ -1,0 +1,442 @@
+@course{Math 1010}
+@week{11}
+@topic{Indefinite Integrals}
+@topic{Integration of Trig. Functions}
+@topic{Trigonometric Substitution}
+
+
+@section{
+Integration of Trigonometric Functions}
+We have seen that:
+\[
+\int \sin^2 x\,dx
+= \frac{x}{2} - \frac{1}{4}\sin(2x) + C
+\]
+\[
+\int \cos^2 x\,dx
+= \frac{x}{2} + \frac{1}{4}\sin(2x) + C
+\]
+@slide
+@eg
+Using:
+\[
+\begin{split}
+\displaystyle \int \sec^2 x \,dx &= \tan x + C,\\
+\int \csc^2 x\,dx &= -\cot x + C,
+\end{split}
+\]
+and the identity $\displaystyle 1 + \tan^2 x = \sec^2 x$
+(which follows from the Pythagorean Theorem),
+we may evaluate:
+<ul>
+<li>
+$\ds
+\int \tan^2 x \,dx
+$
+<br/>
+@newcol
+\begin{align*}
+\int \tan^2 x \, dx &= \int (\sec^2 x - 1)\, dx\\
+&= \tan x - x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+</li>
+<li>
+$\ds
+\int \cot^2 x \,dx
+$
+<br/>
+@newcol
+\begin{align*}
+\int \cot^2 x \, dx &= \int (\csc^2 x - 1)\, dx\\
+&= -\cot x - x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+</li></ul>
+@end
+@slide
+To evaluate an integral of the form:
+\[
+\int \sin^m x \cos^n x \,dx,\quad n, m \in \mathbb{N},
+\]
+it is useful to make the following substitution:
+\[
+u = \begin{cases}
+\cos x,& \text{ if } m \text{ is odd,}\\
+\sin x,& \text{ if } n \text{ is odd,}\\
+\end{cases}
+\]
+and then apply the Pythagorean Theorem $\cos^2 x  + \sin^2 x = 1$
+to rewrite the original integral as:
+\[
+\int P(u)\, du,
+\]
+where $P(u)$ is some polynomial in $u$.
+@eg
+@newcol
+Evaluate:
+\[
+\int \cos^5 x \sin^3 x\, dx
+\]
+@col
+\begin{align*}
+\int \cos^5 x \sin^3 x\, dx &= \int \cos^5 x \sin^2 x (\sin x\, dx)
+\end{align*}
+Let $u = \cos x$.  Then, $du = \sin x\, dx$.
+So,
+\begin{align*}
+\int \cos^5 x \sin^3 x\, dx &= \int \cos^5 x \sin^2 x (\sin x\, dx)\\
+&=  \int u^5 (1 - u^2) du\\
+&= \int \left( u^5 - u^7 \right) du\\
+&= \frac{1}{6} u^6 - \frac{1}{8}u^8 + C\\
+&= \frac{1}{6}\cos^6 x - \frac{1}{8}\cos^8 x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+
+
+@endcol
+@end
+@slide
+Similarly, to evaluate integrals of the form:
+\[
+\int \tan^m x \sec^n x \,dx,\quad m, n \in \mathbb{N},
+\]
+it is useful to make the following substitution:
+\[
+u = \begin{cases}
+\sec x,& \text{ if } m \text{ is odd,}\\
+\tan x,& \text{ if } n \text{ is even,}\\
+\end{cases}
+\]
+and then apply the identity $1  + \tan^2 x = \sec^2 x$
+to rewrite the original integral as:
+\[
+\int P(u)\, du,
+\]
+where $P(u)$ is some polynomial in $u$.
+@eg
+@newcol
+Evaluate:
+$\displaystyle \int \tan^3 x \sec x \,dx.$
+<br/>
+@col
+\begin{align*}
+\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
+&= \int (\sec^2 - 1)\,dx.
+\end{align*}
+Let $u = \sec x$.  Then, $du = \sec x \tan x\, dx$, and:
+\begin{align*}
+\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
+&= \int (\sec^2 - 1)\sec x \tan x\,dx\\
+&= \int (u^2 - 1)\,du\\
+&= \frac{1}{3}u^3 - u + C\\
+&= \frac{1}{3}\sec^3 x - \sec x + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+@end
+@claim
+@newcol
+\[
+\int \sec x \, dx = \ln \abs{\sec x + \tan x} + C,
+\]
+where $C$ represents an arbitrary constant.
+@endcol
+@end
+@proof
+@newcol
+\begin{align*}
+\int \sec x \, dx &= \int \frac{1}{\cos x} \, dx\\
+&= \int \frac{\cos x}{\cos^2 x} \, dx\\
+&= \int \frac{\cos x}{ 1 - \sin^2 x } \,dx\\
+\end{align*}
+Let $u = \sin x$.  Then $du = \cos x \, dx$, and consequently:
+\begin{align*}
+\int \sec x \, dx &= \int \frac{1}{1 - u^2}\,du\\
+&= \int \frac{1}{(1 - u)(1 + u)}\,du\\
+&= \frac{1}{2} \int \left( \frac{1}{1 - u} + \frac{1}{1 + u} \right) du\\
+&= \frac{1}{2} \left( -\ln \abs{ 1 - u } + \ln \abs{ 1 + u } \right ) + C\\
+&= \frac{1}{2} \ln \abs{\frac{1 + u}{1 - u}} + C\\
+&= \frac{1}{2} \ln \abs{\frac{ ( 1 + u )^2 }{ 1 - u^2 } } + C\\
+&= \ln \abs{ \frac{1 + u}{ \sqrt{1 - u^2} } } + C\\
+&= \ln \abs{\frac{1 + \sin x}{\cos x}} + C\\
+&= \ln \abs{\sec x + \tan x} + C,\\
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+@end
+@eg
+@newcol
+Evaluate:
+$\displaystyle \int \sec^3 x \,dx.$ (Hint: Consider using integration by parts.)
+
+
+@col
+\begin{align*}
+\int \sec^3 x \,dx &= \int \sec x \sec^2 x\,dx.
+\end{align*}
+Let $U = \sec x$, $dV = \sec^2 x \,dx$.
+Taking $V = \tan x$, it follows from the Integration by Parts formula that:
+\begin{align*}
+\int \sec^3 x \,dx &= \int U dV\\
+&= UV - \int V\,du \\
+&= \sec x \tan x - \int \tan x \sec x \tan x \,dx\\
+& = \sec x \tan x - \int \sec x \tan^2 x \,dx\\
+& = \sec x \tan x - \int \sec x (\sec^2 x - 1) \,dx\\
+& = \sec x \tan x - \int \left( \sec^3 x - \sec x \right)\,dx\\
+& = \sec x \tan x + \ln\abs{\sec x + \tan x} - \int \sec^3 x\,dx
+\end{align*}
+This implies that:
+\[
+2\int \sec^3 x \, dx = \sec x \tan x + \ln\abs{\sec x + \tan x} + C
+\]
+where $C$ represents an arbitrary constant.
+Hence:
+\[
+\int \sec^3 x \, dx = \frac{1}{2}\left( \sec x \tan x + \ln\abs{\sec x + \tan x} \right) + C.
+\]
+@endcol
+@end
+@slide
+The following identities follow directly from the angle sum formulas of the
+sine and cosine functions:
+\[
+\begin{split}
+\cos x \cos y &=\frac{1}{2}\left(\cos(x + y) + \cos(x - y)\right)\\
+\cos x \sin y &=\frac{1}{2}\left(\sin(x + y) - \sin(x - y)\right)\\
+\sin x \sin y &=\frac{1}{2}\left(\cos(x - y) - \cos(x + y)\right)\\
+\end{split}
+\]
+They are useful for the evaluation of integrals such as:
+@eg
+@newcol
+\[
+\int \cos(3x)\sin(5x)\,dx
+\]
+@col
+\begin{align*}
+\int \cos(3x)\sin(5x)\,dx &= \int \frac{1}{2}\left( \sin(3x + 5x) - \sin(3x - 5x) \right)\,dx\\
+&= \frac{1}{2}\int \left( \sin(8x) + \sin(2x) \right)\,dx\\
+&= \frac{1}{2}\left( -\frac{1}{8}\cos(8x) - \frac{1}{2}\cos(2x) \right) + C,
+\end{align*}
+where $C$ represents an arbitrary constant.
+@endcol
+@end
+@section{
+WeBWorK}
+@enumerate
+@item
+@webwork{Library/ma123DB/set2/s7_2_10.pg}
+@item
+@webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/7_Techniques_of_Integration/7.2_Trigonometric_Integrals/7.2.5.pg}
+@item
+@webwork{Library/ma123DB/set2/s7_2_16.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_2/Stewart5_7_2_45.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_2/Stewart5_7_2_33.pg}
+@item
+@webwork{Library/Rochester/setIntegrals5Trig/S07.02.TrigIntegrals.PTP15.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_5/Stewart5_7_5_41.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_2/Stewart5_7_2_46.pg}
+@item
+@webwork{Library/Indiana/Indiana_setIntegrals5Trig/ur_in_5_5.pg}
+@item
+@webwork{Library/UMN/calculusStewartET/s_7_2_45.pg}
+@endenumerate
+
+
+@section{
+Trigonometric Substitution}
+When an integrand involves $\sqrt{x^2 \pm a^2}$
+or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution:
+<p/>
+<ul>
+<li>
+$\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.<br/><br/>
+</li>
+<li>
+$\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.<br/><br/>
+</li>
+<li>
+$\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.<br/><br/>
+</li>
+</ul>
+@slide
+@eg
+Evaluate:
+$\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$
+<br/>
+@newcol
+First, we note that the domain of the integrand is $(-1, 1)$.
+
+
+Let $\theta = \arcsin x$.
+Then $x = \sin \theta$, $dx = \cos \theta \, d\theta$,
+and:
+\[
+\sqrt{1 - x^2} = \sqrt{1 - \sin^2 \theta} = \abs{\cos\theta}
+= \cos \theta,
+\]
+since $\theta = \arcsin x \in [-\pi/2, \pi/2]$ for all $x \in (-1, 1)$.
+
+
+So,
+\begin{align*}
+\int \frac{x^3}{\sqrt{1 - x^2}} \,dx
+&=
+\int \frac{\sin^3\theta}{\cos \theta} \cos\theta\,d\theta\\
+&=
+\int \sin^3\theta \,d\theta \\
+&=
+\int (1 - \cos^2 \theta) \sin\theta\, d\theta\\
+&=
+-\int (1 - \cos^2\theta)\,d(\cos\theta)\\
+&= - \cos\theta + \frac{1}{3}\cos^3\theta + C\\
+&= - \sqrt{1 - x^2} + \frac{1}{3} (1 - x^2)^{3/2} + C.
+\end{align*}
+@endcol
+@end
+@eg
+Evaluate:
+$\displaystyle \int \frac{1}{(9 + x^2)^2} \,dx$<br/>
+@newcol
+Let $\theta = \arctan (x/3)$.
+Then $x = 3\tan \theta$, $dx = 3\sec^2 \theta \, d\theta$,
+and:
+\[
+9 + x^2 = 9 + 9\tan^2\theta = 9\sec^2 \theta.
+\]
+
+
+So,
+\begin{align*}
+\int \frac{1}{(9 + x^2)^2} \,dx
+&=
+\int \frac{1}{81\sec^4 \theta} 3\sec^2\theta \,d\theta\\
+&=
+\int \frac{1}{27\sec^2 \theta} \,d\theta\\
+&=
+\frac{1}{27}\int \cos^2\theta\,d\theta\\
+&=
+\frac{1}{27}\left( \frac{\theta}{2} + \frac{\sin(2\theta)}{4} \right) + C\\
+&=
+\frac{1}{27}\left( \frac{\theta}{2} + \frac{2\sin\theta\cos\theta}{4} \right) + C\\
+&=
+\frac{1}{27}\left( \frac{\theta}{2} + \frac{2\tan\theta\cos^2\theta}{4} \right) + C\\
+\end{align*}
+\[
+=
+\frac{\arctan(x/3)}{54} +
+\frac{\tan\left(\arctan(x/3)\right)\cos^2\left(\arctan(x/3)\right)}{54}
++ C
+\]
+Now,
+\begin{align*}
+\cos^2\left(\arctan(x/3)\right)
+&= \frac{1}{\sec^2\left(\arctan(x/3)\right)}\\
+&= \frac{1}{1 + \tan^2\left(\arctan(x/3)\right)}\\
+&= \frac{1}{1 + (x/3)^2} = \frac{9}{9 + x^2}
+\end{align*}
+Hence,
+\begin{align*}
+\int \frac{1}{(9 + x^2)^2} \,dx
+&=
+\frac{\arctan(x/3)}{54} +
+\frac{9x}{162(9 + x^2)}
++ C\\
+&=
+\frac{\arctan(x/3)}{54} +
+\frac{x}{18(9 + x^2)}
++ C
+\end{align*}
+@endcol
+@end
+@eg
+Evaluate:
+$\displaystyle \int \frac{\sqrt{x^2 - 25}}{x} \,dx$<br/><br/>
+@end
+@eg
+Evaluate:
+$\displaystyle \int \frac{x}{8 - 2x - x^2}\,dx$.<br/><br/>
+@end
+@slide
+@eg
+Evaluate:
+\[
+\int \frac{dx}{x\sqrt{x^2 - 1}}
+\]
+@newcol
+First, we note that the domain of the integrand is
+$(-\infty, -1) \cup (1, \infty)$.
+
+
+Let $\theta = \arccos (1/x)$.
+
+
+@col
+Then, $x = \sec \theta$, $dx = \sec \theta \tan \theta\, d\theta$, and:
+\[
+\sqrt{x^2 - 1} = \sqrt{\sec^2\theta - 1} = \sqrt{\tan^2 \theta}
+= \abs{\tan \theta}.
+\]
+Since:
+\[
+\theta = \arccos(1/x)
+\in
+\begin{cases}
+[0, \pi/2) & \text{ if } x > 1,\\
+(\pi/2, \pi] & \text{ if } x < -1,
+\end{cases}
+\]
+we have:
+\[
+\sqrt{x^2 - 1} = \abs{\tan \theta} =
+\begin{cases}
+\tan \theta & \text{ if } x  > 1,\\
+-\tan \theta & \text{ if } x  < -1.\\
+\end{cases}
+\]
+More succinctly, we have:
+\[
+\DeclareMathOperator{\sign}{sign}
+\sqrt{x^2 - 1} = \sign(x) \tan \theta.
+\]
+@col
+Hence,
+\begin{align*}
+\int \frac{dx}{x\sqrt{x^2 - 1}}
+&= \int \sign(x) \frac{\sec \theta \tan \theta}{\sec \theta \tan \theta} d\theta\\
+&= \int \sign(x) \,d\theta \\
+&= \sign(x) \theta + C\\
+&= \sign(x)\arccos(1/x) + C
+\end{align*}
+@endcol
+@end
+@section{WeBWorK}
+@enumerate
+@item
+@webwork{Library/Rochester/setIntegrals14Substitution/sc5_5_101.pg}
+@item
+@webwork{Library/UMN/calculusStewartET/s_7_3_7.pg}
+@item
+@webwork{Library/ma123DB/set2/s7_3_28.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_18.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_19.pg}
+@item
+@webwork{Library/Wiley/setAnton_Section_7.4/Anton_7_4_Q19.pg}
+@item
+@webwork{Library/Wiley/setAnton_Section_7.4/Anton_7_4_Q18.pg}
+@item
+@webwork{Library/Rochester/setIntegrals10InvTrig/S07.03.TrigSubstitution.PTP08.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_28.pg}
+@item
+@webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_27.pg}
+@endenumerate

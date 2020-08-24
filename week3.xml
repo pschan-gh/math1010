@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+  <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
+    <keywords slide="all" environ="course" chapter="" course="Math 1010">
+      <keyword chapter="" slide="all">limit</keyword>
+      <keyword chapter="" slide="all">limit</keyword>
+      <keyword chapter="" slide="all">right limit</keyword>
+      <keyword chapter="" slide="all">left limit</keyword>
+      <keyword chapter="" slide="all">double-sided limit</keyword>
+    </keywords>
+    <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
+    <slides environment="" chapter_type="">
+      <slide environment="" chapter_type="" canon_num="1" scope="course" course="Math 1010" title="Math 1010" id="s1" slide="1" chapter="" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+        <title environment="title" chapter_type="" wbtag="course" scope="course" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="1">Math 1010</title>
+        <keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
+      </slide>
+    </slides>
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="3" title="" topic="Functions, Limits" course="Math 1010" serial="3">
+      <keywords slide="all" environ="chapter" chapter="3" course="Math 1010">
+        <keyword chapter="3" slide="all">limit</keyword>
+        <keyword chapter="3" slide="all">limit</keyword>
+        <keyword chapter="3" slide="all">right limit</keyword>
+        <keyword chapter="3" slide="all">left limit</keyword>
+        <keyword chapter="3" slide="all">double-sided limit</keyword>
+      </keywords>
+      <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Functions</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Limits</topic>
+      <slides environment="" chapter_type="">
+        <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title="">
+          <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Functions</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Limits</topic>
+          <keywords slide="2" environ="slide" chapter="3" course="Math 1010"/>
+        </slide>
+      </slides>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Limits of Functions on the Real Line" course="Math 1010" chapter="3" num="1" serial="3.1">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" serial="3.1" slide="">
+          <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Limits of Functions on the Real Line</paragraphs>
+          <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
+            <keywords slide="3" environ="slide" chapter="3" course="Math 1010">
+              <keyword chapter="3" slide="3">limit</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" serial="" slide="3">
+              <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Limits of Functions on the Real Line</paragraphs>
+              <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
+            </title>
+            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$.
+Let $a$ be a point on the real line such that $f$ is defined on a neighborhood of $a$
+(though not necessarily at $a$ itself). </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="5c994a41945c604af63752bba494ca7a" course="Math 1010" chapter="3" slide="3" item="3.1">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> We say that the </paragraphs>
+              <inline_keyword course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">limit</inline_keyword>
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $f$ at $a$ is $L$ if for all $\varepsilon &gt; 0$,
+there exists $\delta &gt; 0$ such that $\abs{f(x) - L} &lt; \varepsilon$
+whenever $x$ satisfies $0 &lt; \abs{x - a} &lt; \delta$. </paragraphs>
+            </statement>
+            <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f$ has a limit $L$ at $a$, we write:
+\[
+\lim_{x \rightarrow a} f(x) = L.
+\]
+Note that the limit may exist even if
+$a$ does not lie in the domain of $f$. </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
+            <keywords slide="4" environ="slide" chapter="3" course="Math 1010">
+              <keyword chapter="3" slide="4">limit</keyword>
+            </keywords>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="6c810d9579acf5113da2eaab3f50dfb6" course="Math 1010" chapter="3" slide="4" item="3.2">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$
+is unbounded towards $+\infty$ and/or $-\infty$.
+We say that the </paragraphs>
+              <inline_keyword course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">limit</inline_keyword>
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $f$ at $\infty$ (resp. $-\infty$)
+is $L$ if for all $\varepsilon &gt; 0$,
+there exists a $c \in \mathbb{R}$  such that $\abs{f(x) - L} &lt; \varepsilon$
+whenever $x &gt; c$ (resp. $x &lt; c$). </paragraphs>
+            </statement>
+            <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f$ has a limit $L$ at $\infty$ (resp $-\infty$), we write:
+\[
+\lim_{x \rightarrow \infty} f(x) = L
+\quad
+\left( \text{resp. }
+\lim_{x \rightarrow -\infty} f(x) = L
+\right)
+\] </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
+            <keywords slide="5" environ="slide" chapter="3" course="Math 1010"/>
+            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Some Useful Identities:</paragraphs>
+            </strong>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In the following idenities,
+the symbol $a$ can be either a real number or $\pm \infty$. </paragraphs>
+            <col_ol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For any constant $c \in \mathbb{R}$,
+we have $\displaystyle\lim_{x\rightarrow a} c = c$. </paragraphs>
+              </col_li>
+              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\displaystyle\lim_{x \rightarrow a} x = a.$ </paragraphs>
+              </col_li>
+              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L$, and $\lim_{x \rightarrow a} g(x) = M$,
+then: </paragraphs>
+                <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\lim_{x\rightarrow a} (f\pm g)(x) = L\pm M.$ </paragraphs>
+                  </col_li>
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\lim_{x\rightarrow a} fg(x) = LM.$ </paragraphs>
+                  </col_li>
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[\lim_{x\rightarrow a} \dfrac{f}{g}(x) = \dfrac{L}{M}\] provided that $M \neq 0$. </paragraphs>
+                  </col_li>
+                </col_ul>
+              </col_li>
+              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L$, then:
+\[
+\lim_{x\rightarrow a}(f(x))^n = L^n\quad
+\text{ for all } n \in \mathbb{N} = \{1, 2, 3, \ldots\},
+\]
+and
+\[
+\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
+\text{ for all odd positive integers } n.
+\] </paragraphs>
+              </col_li>
+              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L &gt; 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$. </paragraphs>
+              </col_li>
+            </col_ol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
+            <keywords slide="6" environ="slide" chapter="3" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="d025c7c9817ca9206f4135044d53f20c" course="Math 1010" chapter="3" slide="6" item="3.3">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Compute the following limits, if they exist: </paragraphs>
+              <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$ </paragraphs>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                </col_li>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
+                </col_li>
+              </col_ul>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="3" num="2" serial="3.2">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="2" subsection="" subsubsection="" serial="3.2" slide="">
+          <paragraphs course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="7" scope="section" id="s7" slide="7" course="Math 1010" chapter="3" section="2" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="7" environ="slide" chapter="3" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="2" subsection="" subsubsection="" serial="" slide="7">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            </title>
+            <enumerate course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Utah/AP_Calculus_I/set2_Derivatives_and_Limits/1210s2p26.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setLimitConcepts/3-2-50.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma122DB/set2/s2_6_21.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setLimitsRates3Infinite/ur_lr_3_1.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UMN/calculusStewartCCC/s_2_3_19.pg"/>
+              </item>
+            </enumerate>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="One-Sided Limits" course="Math 1010" chapter="3" num="3" serial="3.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" serial="3.3" slide="">
+          <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
+          <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">One-Sided Limits</paragraphs>
+          <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="One-Sided Limits">
+            <keywords slide="8" environ="slide" chapter="3" course="Math 1010">
+              <keyword chapter="3" slide="8">right limit</keyword>
+              <keyword chapter="3" slide="8">left limit</keyword>
+              <keyword chapter="3" slide="8">double-sided limit</keyword>
+            </keywords>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" serial="" slide="8">
+              <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">One-Sided Limits</paragraphs>
+              <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
+            </title>
+            <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <li environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
+if $f(x)$ approaches $L$ as $x$ approaches $a$ </paragraphs>
+                <i environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">from the right</paragraphs>
+                </i>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">.
+We call this $L$ the </paragraphs>
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="">right limit</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $f$ at $a$. </paragraphs>
+              </li>
+              <li environment="">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Similarly,
+we write $\displaystyle\lim_{x\rightarrow a^-} f(x) = L$
+if $f(x)$ approaches $L$ as $x$ approaches $a$ </paragraphs>
+                <i environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">from the left</paragraphs>
+                </i>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">.
+We call this $L$ the </paragraphs>
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="">left limit</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $f$ at $a$. </paragraphs>
+              </li>
+            </ul>
+            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> The limit $\displaystyle\lim_{x \rightarrow a}f(x)$
+is sometimes called the </paragraphs>
+            <inline_keyword course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="">double-sided limit</inline_keyword>
+            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> of $f$ at $a$.
+It exists if and only if both one-sided limits exist
+and are equal to each other.  In which case, we have:
+\[
+\lim_{x \rightarrow a}f(x) = \lim_{x\rightarrow a^+} f(x)
+= \lim_{x\rightarrow a^-} f(x).
+\]</paragraphs>
+            <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="One-Sided Limits">
+            <keywords slide="9" environ="slide" chapter="3" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="7ff2ad1557d3d453cae4b84bf9270245" course="Math 1010" chapter="3" slide="9" item="3.4">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Define
+\[  f(x) = \begin{cases}
+x-1  &amp; \text{if $1\le x \le 2$,}\\
+2x+3 &amp; \text{if $2 &lt; x \le 4$,}\\
+x^2 &amp; \text{otherwise.}
+\end{cases} \]
+Compute $\displaystyle \lim_{x\to 2^+} f(x)$ and
+$\displaystyle \lim_{x\to 2^-} f(x)$.
+Then, find $\displaystyle\lim_{x\to 2} f(x)$, if it exists. </paragraphs>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <h5 xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Answers.</paragraphs>
+              </h5>
+              <newcol course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+\begin{split}
+\lim_{x\to 2^+} f(x) &amp;= 7\\
+\lim_{x\to 2^-} f(x) &amp;= 1
+\end{split}
+\] </paragraphs>
+                  </col_li>
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Since $\displaystyle \lim_{x\to 2^+} f(x) \neq \lim_{x\to 2^-} f(x)$,
+the double-sided limit $\displaystyle\lim_{x\to 2} f(x)$ does not exist. </paragraphs>
+                  </col_li>
+                </col_ol>
+              </newcol>
+            </statement>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="3" num="4" serial="3.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="4" subsection="" subsubsection="" serial="3.4" slide="">
+          <paragraphs course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 1010" chapter="3" section="4" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="10" environ="slide" chapter="3" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="4" subsection="" subsubsection="" serial="" slide="10">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            </title>
+            <enumerate course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setFunctionBasics/srw2_1_23.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setLimitConcepts/ns2_2_x.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Union/setLimitConcepts/ur_lr_1-5_1.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma122DB/set1/ns2_2_xx.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ASU-topics/setCalculus/stef/stef2_3p3.pg"/>
+              </item>
+            </enumerate>
+          </slide>
+        </slides>
+      </section>
+    </chapter>
+  </course>
+</document>

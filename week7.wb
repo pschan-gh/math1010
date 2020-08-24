@@ -1,0 +1,357 @@
+@course{Math 1010}
+@week{7}
+@topic{Mean Value Theorem}
+@slide
+@thm
+@title{Extreme Value Theorem}
+@label{evt}
+If $f$ is a <u>continuous</u> function
+defined on a <u>closed</u> interval $[a, b]$,
+then it attains both a maximum value and a minimum value on $[a, b].$
+@end
+@section{
+The Mean Value Theorem}
+@thm
+@title{Rolle's Theorem}
+Let $f : [a, b] \longrightarrow\mathbb{R}$ be a function which is continuous on $[a, b]$
+and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
+If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
+@end
+@newcol
+<div class="image">
+<a title="By Fulvio314 (Own work) [CC0], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARolle's_theorem_2.svg"><img alt="Rolle's theorem 2" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Rolle%27s_theorem_2.svg"/></a>
+</div>
+@endcol
+@proof
+@newcol
+<strong>Sketch of Proof.</strong>  First, it follows from the  @ref{evt} that
+$f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
+It may then be shown that:
+\[
+f'(c) = \lim_{h \rightarrow 0}\frac{f(c + h) - f(c)}{h} = 0,
+\]
+using that fact that if $f(c)$ is an absolute extremum, then
+$\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
+@qed
+@endcol
+@end
+@slide
+@thm
+@title{Mean Value Theorem (MVT)}
+(Also known as @keyword{Lagrange's Mean Value Theorem})
+
+
+If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+and differentiable on $(a, b)$,
+then there exists $c \in (a, b)$ such that:
+\[
+f'(c) = \frac{f(b) - f(a)}{b - a}
+\]
+@end
+@newcol
+<div class="image">
+<a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg"><img alt="Mvt2" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Mvt2.svg"/></a>
+</div>
+@endcol
+@proof
+@newcol
+Let $f$ be a function which satisfies the conditions of the theorem.
+Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
+\[
+g(x) = f(x) - \left[\left(\frac{f(b) - f(a)}{b - a}\right)(x - a) + f(a)\right],
+\quad x \in [a, b].
+\]
+(Intuitively, $g$ is obtained from $f$ by subtracting from $f$ the line segment
+joining $(a, f(a))$ and $(b, f(b))$.)
+Observe that:
+\[
+g(a) = g(b) = 0,
+\]
+so the function $g$ satisfies the conditions of Rolle's Theorem.
+Hence, there exists $c \in (a, b)$ such that:
+\[
+0 = g'(c) = f'(c) - \frac{f(b) - f(a)}{b - a}\,,
+\]
+which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
+@qed
+@endcol
+@end
+@section{
+WeBWorK}
+@enumerate
+@item
+@webwork{Library/CSUN/Calculus/Mean_value_theorem_1.pg}
+@item
+@webwork{Library/ma122DB/set7/s4_2_24.pg}
+@item
+@webwork{Library/Michigan/Chap3Sec10/Q07.pg}
+@endenumerate
+
+
+@section{
+Applications of the Mean Value Theorem}
+@thm
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) = 0$ for all $x \in (a, b)$, then
+$f$ is constant on $(a, b)$.
+@end
+@proof
+@newcol
+<strong>Exercise.</strong>
+For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+is equal to $0$.
+@qed
+@endcol
+@end
+@slide
+@thm
+@label{monotone}
+Let $f$ be a differentiable function on an open interval $(a, b)$.
+If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
+$f$ is @keyword{strictly increasing} (resp. @keyword{strictly decreasing}) on $(a, b)$.
+<p/><br/>
+<strong>Remark:</strong>
+If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+@end
+@proof
+@newcol
+We will prove the case $f'(x) > 0$.
+<br/>
+Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
+such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
+\[
+f'(c) = \frac{f(x_2) - f(x_1)}{x_2 - x_1}\;.
+\]
+@col
+By the condition $f'(x) > 0$ for all $x \in (a, b)$, we have $f'(c) > 0$.
+Also, $x_2 - x_1 > 0$.  Hence:
+\[
+f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
+\]
+This shows that $f$ is increasing on $(a, b)$.
+@qed
+@endcol
+@end
+@slide
+@eg
+Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
+is increasing/decreasing.
+@end
+@sol
+@newcol
+We apply  @ref{monotone}.
+
+@col
+First, we find:
+\[
+f'(x) = 3x^2 + 12 x - 15
+\]
+Observe that $f'$ is defined and continuous everywhere.
+Hence, the intervals where $f'$ is positive/negative
+are separated by points $c$ where $f'(c) = 0$. (Such points are called @keyword{stationary points} of $f$).
+<p/>
+@col
+Setting:
+\[
+f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
+\]
+we see that the points where $f'$ <i>possibly</i> changes sign are:
+\[
+c = -5, 1
+\]
+@col
+Consider now the @keyword{sign chart}:
+<table class="table table-striped table-bordered" style="text-align:center">
+<tr>
+<td>$f$:</td><td><strong>$\nearrow$</strong></td><td/><td><strong>$\searrow$</strong></td><td/><td><strong>$\nearrow$</strong></td>
+</tr>
+<tr>
+<td>$f'(x)$:</td>
+<td>$+$</td><td>$0$</td><td>$-$</td><td>$0$</td>
+<td>$+$</td>
+</tr>
+<tr>
+<td>$x$:</td><td>$(-\infty, -5)$</td><td>$-5$</td><td>$(-5, 1)$</td><td>$1$</td>
+<td>$(1, \infty)$</td>
+</tr>
+</table>
+<p/>
+@col
+It now follows from  @ref{monotone} and the continuity of $f$ that:
+<ul>
+<li>
+$f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.
+</li>
+<li>
+$f$ is decreasing on the interval $[-5, 1]$.
+</li></ul>
+@col
+<div class="image">
+<iframe src="https://www.desmos.com/calculator/ja7cqgww7s?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
+</div>
+@endcol
+@end
+@slide
+@eg
+Let:
+\[
+f(x) = \begin{cases}
+(x + 1)^2, & x < 0; \\
+x + 1, & x \geq 0.
+\end{cases}
+\]
+Find the intervals where the function $f$ is increasing/decreasing.
+@end
+@sol
+@newcol
+We carry out the same steps as in the previous example.
+We leave it as an exercise to show that:
+\[
+f'(x) = \begin{cases}
+2x + 2, & x < 0; \\
+\text{undefined}, & x = 0;\\
+1, & x > 0.
+\end{cases}
+\]
+@col
+Note that $f'$ is not defined everywhere.
+In this case, the points where $f'$ possibly changes sign are points $c$
+where:
+\[
+f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
+\]
+Such points are called the @keyword{critical points}
+of $f$.  (Note that the set of stationary points is a subset of critical points).
+<p/>
+@col
+Constructing a sign chart as in the previous example, we have:
+<table class="table-hover table table-striped table-bordered" style="text-align:center">
+<tr>
+<td>$f$:</td><td><strong>$\searrow$</strong></td><td/><td><strong>$\nearrow$</strong></td><td/>
+<td><strong>$\nearrow$</strong></td>
+</tr>
+<tr>
+<td>$f'(x)$:</td>
+<td>${\large -}$</td><td>$0$</td><td>${\large +}$</td><td>undefined</td>
+<td>${\large +}$</td>
+</tr>
+<tr>
+<td>$x$:</td><td>$(-\infty, -1)$</td><td>$-1$</td><td>$(-1, 0)$</td><td>$0$</td>
+<td>$(0, \infty)$</td>
+</tr>
+</table>
+<p/>
+@col
+Hence, by  @ref{monotone}, $f$ is <u>decreasing</u> on:
+\[(-\infty, -1],\]
+and increasing on both $[-1, 0]$ and $[0, \infty)$.
+<p/>
+Since $f$ is continuous at $x = 0$, we conclude that $f$ is <u>increasing</u> on:
+\[
+[-1, \infty).
+\]
+@col
+<div class="image">
+<iframe src="https://www.desmos.com/calculator/heievbyzs3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
+</div>
+@endcol
+@end
+@slide
+@ex
+Use the mean value theorem to prove that for $x>0$,
+\[
+\frac{x}{1+x} < \ln(1+x) < x.
+\]
+Hence, deduce that for $x>0$,
+\[
+\frac{1}{1+x} < \ln\left(1+\frac{1}{x}\right) < \frac{1}{x}\;.
+\]
+@end
+@sol
+@newcol
+We first show that:
+\[
+\ln\left(1+x\right) < x\;.
+\]
+Consider the function:
+\[
+f(x) = \ln\left(1+x\right) - x\;.
+\]
+Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
+
+
+@col
+Hence, $f'(x) < 0$ for all $x > 0$.
+
+
+@col
+For any $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{f(x) - f(0)}{x - 0} = f'(c)
+\]
+for some $c \in (0, x)$.  Since $c > 0$, we have $f'(c) < 0$,
+which implies that:
+\[
+\frac{f(x) - f(0)}{x - 0} < 0.
+\]
+@col
+Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We conclude that:
+\[
+\ln(1 + x) < x,
+\]
+for all $x > 0$.
+<p/>
+<hr/>
+@col
+To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
+
+
+@col
+Consider:
+\[
+g(x) = \ln(1 + x) - \frac{x}{1 + x}.
+\]
+@col
+Then, $g(0) = 0$, and:
+\[
+\begin{split}
+g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
+&= \frac{x}{(1 + x)^2}\\
+& > 0
+\end{split}
+\]
+for all $x > 0$.
+
+
+@col
+Hence, for all $x > 0$, by the Mean Value Theorem we have:
+\[
+\frac{g(x) - g(0)}{x - 0} = g'(c) > 0,
+\]
+where $c$ is some element which lies in $(0, x)$.
+
+
+@col
+This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
+\[
+\ln(1 + x) > \frac{x}{1 + x}
+\]
+for $x > 0$.
+<hr/>
+@col
+Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
+\[
+\frac{x}{1+x} < \ln(1+x) < x
+\]
+to $x = \frac{1}{t}$, we have:
+\[
+\frac{1/t}{1+1/t} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t},
+\]
+@col
+which is equivalent to:
+\[
+\frac{1}{t + 1} < \ln\left( 1+\frac{1}{t}\right) < \frac{1}{t}.
+\]
+@qed
+@endcol
+@end

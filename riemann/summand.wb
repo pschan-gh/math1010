@@ -1,0 +1,8 @@
+@sep
+<div style="width:640px;height:400px">
+<img style="position:absolute;top:0;left:0" src="math1010/riemann/summand.svg">
+<div style="position:absolute;top:100;left:200">$y = f(x)$</div>
+<div style="position:absolute;top:270;left:365">$f(x)$</div>
+<div style="position:absolute;top:385;left:295">$\Delta x$</div>
+<div style="position:absolute;top:385;left:250">$x$</div>
+</div>

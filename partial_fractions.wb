@@ -1,0 +1,146 @@
+@course{Math 1010}
+@setchapter{0}
+@chapter{Partial Fraction Decomposition}
+@thm
+@title{Unique Factorization of Real Polynomials}
+@label{thm:ufd}
+@newcol
+Given any polynomial $f \in \mathbb{R}[x]$,
+that is:
+\[
+f = a_0 + a_1 x + ... + a_n x^n,\quad a_i \in \mathbb{R},
+\]
+There are distinct irreducible polynomials, $p_1, p_2, \ldots, p_l$ in $\mathbb{R}[x]$ , of degree at most 2,
+such that:
+\[
+f = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l}
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.  Up to ordering of the irreducible factors, this factorization is unique.
+@endcol
+@end
+@thm
+@title{Bézout's Identity}
+@label{thm:bezout}
+@newcol
+If $f$ and $g$ are two irreducible polynomials in $\mathbb{R}[x]$ with no common factors, then there exist $a, b\in \mathbb{R}[x]$ such that:
+\[
+af + bg = 1
+\]
+@endcol
+@end
+@slide
+Suppose we have a rational function $\frac{p}{q}$,
+where $p, q \in \mathbb{R}[x]$ have no common factors,
+and $\deg p < \deg q$.
+
+@newcol
+By @ref{thm:ufd}, there are distinct irreducible polynomials $q_1, q_2,\ldots, q_l$, of degree at most 2, such that:
+\[
+q = q_1^{n_1}q_2^{n_2}\cdots q_{l}^{n_l},
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.
+
+@col
+Since the polynomial $q_1^{n_1}$ has no common factors with $q_2^{n_2}\ldots q_{l}^{n_{l}}$, by @ref{thm:bezout} there exist polynomials $f, g$ such that:
+\[
+f\cdot\left(q_2^{n_2}\cdots q_l^{n_{l}}\right) + gq_{1}^{n_1} = 1.
+\]
+@col
+Hence,
+@steps
+\begin{align*}
+\frac{p}{q} &= \frac{p\cdot 1}{q}
+\\&
+@nstep{=
+\frac{p(fq_2^{n_2}\cdots q_l^{n_{l}} + gq_{1}^{n_1})}{q_1^{n_1}q_{2}^{n_{2}}\cdots q_1^{n_l}}
+}
+\\
+&
+@nstep{=
+\frac{pf}{q_1^{n_1}}
++
+\frac{pg}{q_{2}^{n_{2}}\cdots q_l^{n_l}}
+}
+\end{align*}
+@endsteps
+@col
+Consider now the term: $\ds \frac{pf}{q_1^{n_1}}$.
+By the Divison Algorithm for real polynomials,
+we have:
+\[
+pf = aq_1 + r
+\]
+for some real polynomials $a, r$ such that $\deg r < \deg q_1$.
+Hence,
+
+@col
+\[
+\frac{pf}{q_1^{n_1}} 
+= \frac{aq_1 + r}{q_1^{n_1}}
+= \frac{a}{q_1^{n_1 -1}} + \frac{r}{q_1^{n_1}}
+\]
+@col
+By the same reasoning, we have:
+\[
+\frac{a}{q_1^{n_1 - 1}} = \frac{b}{q_1^{n_1 -2}} + \frac{s}{q_1^{n_1 - 1}}
+\]
+for some polynomials $b, s$ such that $\deg s < \deg q_1$.
+
+@col
+Repeating this process, eventually we have:
+\[
+\frac{pf}{q_1^{n_1}}
+=
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1,
+\]
+where $\deg r_i < \deg q_1$, and $a_1$ is some polynomial.
+
+@col
+We now have:
+\[
+\frac{p}{g} =
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1
++
+\frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}.
+\]
+
+Applying the same procedure to the term: $\ds \frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}$, and repeating,
+we have:
+\begin{equation}
+\label{eq:1}
+\frac{p}{g} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j} + h,
+\end{equation}
+where $\deg r_{kj} < \deg q_k$, and $h$ is some polynomial in $\mathbb{R}[x]$.
+
+@col
+We claim that $h = 0$.
+
+@col
+Clearing the denominators in equation $\eqref{eq:1}$, we have:
+\[
+\frac{p}{g} = \frac{
+\sum_{k = 1}^l \sum_{j = 1}^{n_k} r_{kj}\cdot\frac{g}{q_k^j} + hg
+}{g}
+\]
+This implies that:
+\begin{equation}
+\label{eq:2}
+p = \sum_{k = 1}^l \sum_{j = 1}^{n_k} r_{kj}\cdot\frac{g}{q_k^j} + hg
+\end{equation}
+By assumption, $\deg p < \deg g$.  On the other hand, each term:
+\[
+r_{kj}\cdot\frac{g}{q_k^j}
+\]
+has degree strictly less than $g$, since $\deg r_{kj} < \deg q_k$.
+
+@col
+So, if $h \neq 0$, then the right-hand side of equation $\eqref{eq:2}$ has degree
+$\deg h + \deg g > \deg g > \deg p$, contradicting the equality of the two sides.
+
+Hence, $h = 0$.  It follows that:
+\[
+\frac{p}{g} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j}
+\]
+
+
+

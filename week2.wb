@@ -1,0 +1,405 @@
+@course{Math 1010}
+@week{2}
+@topic{Functions}
+@section{Functions}
+@def
+A function:
+\[
+f : A \longrightarrow B
+\]
+is a rule of correspondence from one set $A$ (called the @keyword{domain})
+to another set $B$ (called the @keyword{codomain}).
+<br>
+Under this rule of correspondence,
+each element $x \in A$ corresponds to <i>exactly one</i> element
+$f(x) \in B$, called the @keyword{value}
+of $f$ at $x$.
+@end
+In the context of this course,
+the domain $A$ is usually some subset (intervals, union of intervals)
+of $\mathbb{R}$,
+while the codomain $B$ is often presumed to be $\mathbb{R}$.
+@sep
+Sometimes, the domain of a function is not explicitly given,
+and a function is simply defined by an expression in terms of an independent variable.
+
+For example,
+\[
+f(x) = \sqrt{\frac{x + 1}{x - 2}}
+\]
+@col
+In this case, the domain of $f$ is assumed to be the @keyword{natural domain}
+(or @keyword{maximal domain}, @keyword{domain of definition}),
+namely the largest subset of $\mathbb{R}$ on which the expression defining $f$
+is well-defined.
+
+@eg
+@col
+For the function:
+\[
+\displaystyle f(x) = \sqrt{\frac{x+1}{x - 2}},
+\]
+the natural domain is:
+\[
+\begin{split}
+\mathrm{Domain}(f)
+&= \left\{ x \in \mathbb{R}\; \left|\; \frac{x+1}{x-2} \geq 0\right. \right\}\\
+&= (-\infty, -1] \cup (2, \infty).
+\end{split}
+\]
+@end
+
+@subsection{Graphs of Functions}
+For $f : A \longrightarrow B$ where $A, B$ are subsets of $\mathbb{R}$,
+it is often useful to consider the @keyword{graph} of $f$,
+namely the set of all points $(x, y)$ in the $xy$-plane
+where $x \in A$ and $y = f(x)$.
+<p/>
+By definition, any function $f$ takes on a unique value $f(x)$ for each
+$x$ in its domain, hence the graph of $f$ necessarily passes the
+so-called "@keyword{vertical line test}", namely, any vertical line which one
+draws in the $xy$-plane intersects the graph of $f$ <i>at most once</i>.
+
+<p/>
+The graph of a circle, for example, is not the graph of any function,
+since there are vertical lines which intersect the graph twice.
+
+@ex
+@col
+Graph the functions $f(x) = \displaystyle{\frac{x}{2}}$ and $g(x) = \displaystyle{\frac{4}{x}-1}$ together, to identify values of $x$ for which
+$$
+\frac{x}{2} > \frac{4}{x} - 1.
+$$
+Confirm your answer by solving the inequality algebraically.
+@end
+@sol
+@col
+The inequality holds if and only if:
+\[
+x \in (-4, 0)\cup (2, \infty)
+\]
+@endcol
+@end
+@sep
+@subsection{Algebraic Operations on Functions}
+@def
+Given two functions:
+\[
+f, g : A \longrightarrow \mathbb{R},
+\]
+@itemize
+@item
+Their @keyword{sum/difference} is:
+
+@col
+\[
+f \pm g : A \longrightarrow \mathbb{R},
+\]
+\[
+(f \pm g)(a) := f(a) \pm g(a), \quad \text{ for all } a \in A;
+\]
+@item
+Their @keyword{product} is:
+
+@col
+\[
+fg : A \longrightarrow \mathbb{R},
+\]
+\[
+fg (a) := f(a)g(a),\quad \text{ for all } a \in A;
+\]
+@item
+The @keyword{quotient function} $\dfrac{f}{g}$ is:
+
+@col
+\[
+\frac{f}{g} : A' \longrightarrow \mathbb{R},
+\]
+\[
+\frac{f}{g}(a) := \frac{f(a)}{g(a)}\;,\quad \text{ for all } a \in A',
+\]
+where \[A' = \{ a \in A : g(a) \neq 0\}.\]
+@enditemize
+@end
+@col
+More generally,
+For:
+\[
+f: A \longrightarrow \mathbb{R},
+\]
+\[
+g: B \longrightarrow \mathbb{R},
+\]
+we define $f\pm g$ and $fg$ as follows:
+<hr/>
+\[
+f\pm g : A \cap B \longrightarrow \mathbb{R},
+\]
+\[
+f\pm g (x) := f(x) \pm g(x), \quad x \in A \cap B.
+\]
+<hr/>
+\[
+fg : A \cap B \longrightarrow \mathbb{R},
+\]
+\[
+fg (x) := f(x)g(x), \quad x \in A \cap B.
+\]
+<hr/>
+Similary, we define:
+\[
+\frac{f}{g} : A\cap B' \longrightarrow \mathbb{R},
+\]
+\[
+\frac{f}{g}(x) = \frac{f(x)}{g(x)}, \quad x \in A \cap B',
+\]
+where $B' = \{b \in B : g(b) \neq 0\}$.
+
+@sep
+@subsection{Composition of Functions}
+Given two functions:
+\[
+f : A \longrightarrow B,\quad g : B \longrightarrow C,
+\]
+the @keyword{composite function} $g\circ f$ is defined as follows:
+\[
+g \circ f : A \longrightarrow C,
+\]
+\[
+(g\circ f)(a) := g(f(a)), \quad \text{ for all } a \in A.
+\]
+@col
+More generally, the domain of $g \circ f$ is defined to be:
+\[
+\mathrm{Domain}(g\circ f)
+=
+\{a \in \mathrm{Domain}(f) : f(a) \in \mathrm{Domain}(g)\}.
+\]
+@subsection{Inverse of a Function}
+The @keyword{range} or @keyword{image} of a function $f : A \longrightarrow B$
+is the set of all $b \in B$ such that $b = f(a)$ for some $a \in A$.
+</p>
+<p>
+@notation
+@col
+\[
+\mathrm{Image}(f) = \mathrm{Range}(f) := \{b \in B \, : \, b = f(a) \text{ for some } a \in A\}.
+\]
+@endcol
+@end
+@col
+Note that the range of $f$ is not necessarily equal to the codomain $B$.
+@endcol
+@def
+@col
+If $\mathrm{Range}(f) = B$, we say that $f$ is @keyword{surjective} or @keyword{onto}.
+@endcol
+@end
+@def
+@col
+If $f(a) \neq f(a')$ for all $a, a' \in \mathrm{Domain}(f)$ such that $a \neq a'$,
+we say that $f$ is @keyword{injective} or @keyword{one-to-one}.
+@endcol
+@end
+@sep
+If $f : A \longrightarrow B$ is injective, then there exists
+an @keyword{inverse function}:
+\[
+f^{-1} :  \mathrm{Range}(f) \longrightarrow A
+\]
+such that $f^{-1}\circ f$ is the @keyword{identity function} on $A$,
+and $f \circ f^{-1}$ is the identity function on $\mathrm{Range}(f)$, that is:
+<br>
+@ul
+@li
+\[
+f^{-1}(f(a)) = a, \quad \text{ for all } a \in A,
+\]
+@li
+\[
+f(f^{-1}(b)) = b, \quad \text{ for all } b \in \mathrm{Range}(f).
+\]
+@endul
+@eg
+\[
+f : \mathbb{R} \longrightarrow \mathbb{R},
+\]
+\[
+f(x) := x^2, \quad x \in \mathbb{R}.
+\]
+is not injective, hence it has no inverse.
+@end
+@sep
+On the other hand,
+\[
+f : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R},
+\]
+\[
+f(x) := x^2, \quad x \in \mathbb{R}_{\geq 0};
+\]
+<i>is</i> injective.
+<p>
+@col
+It's range is $\mathrm{Range}(f) = \mathbb{R}_{\geq 0}$.
+<p>
+@col
+Its inverse is:
+\[
+f^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\geq 0}
+\]
+\[
+f^{-1}(y) = \sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
+\]
+<hr>
+@col
+Similarly,
+\[
+g : \mathbb{R}_{\leq 0} \longrightarrow \mathbb{R},
+\]
+\[
+g(x) := x^2, \quad x \in \mathbb{R}_{\leq 0};
+\]
+is also injective,
+<p>
+@col
+with $\mathrm{Range}(g) = \mathbb{R}_{\geq 0}$,
+<p>
+@col
+and inverse:
+\[
+g^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\leq 0}
+\]
+\[
+g^{-1}(y) = -\sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
+\]
+<hr>
+@endcol
+
+@section{WeBWorK}
+@enumerate
+@item @webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
+@item @webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
+@item @webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
+@item @webwork{Library/UBC/setLimits/matching.pg}
+@item @webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
+@item @webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
+@end
+@section{Piecewise Defined Functions}
+@eg
+@ul
+@li
+\[
+f(x) = \begin{cases}
+-x + 1 & \text{ if } -2 \leq x < 0\\
+3x & \text{ if } 0 \leq x \leq 5
+\end{cases}
+\]
+<hr>
+@li
+The @keyword{absolute value function}
+\[
+|x| = \begin{cases}
+-x  & \text{ if } x < 0\\
+x & \text{ if } x \geq 0
+\end{cases}
+\]
+@endul
+@end
+@sep
+@ex
+Let $f: \mathbb{R} \longrightarrow \mathbb{R}$ be the function defined by:
+\[
+f(x) = -3x+4-|x+1|-|x-1|
+\]
+for any $x \in \mathbb{R}$.
+<ol>
+<li> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$.
+</li>
+<li>
+Sketch the graph of the function $f$.
+</li>
+<li>
+Is $f$ an injective function on $\mathbb{R}$? Justify your answer.
+</li>
+<li>
+What is the image of $\mathbb{R}$ under the function $f$?
+</li>
+</ol>
+<hr>
+<strong>Solution.</strong>
+@col
+@ol
+@li $f(x) = \displaystyle{\begin{cases}
+\begin{array}{lcl}
+-x+4  & \mbox{if} & x < -1 \\
+-3x+2 & \mbox{if} & -1 \leq x < 1\\
+-5x+4 & \mbox{if} & x \geq 1
+\end{array}
+\end{cases}}$
+@li
+<br>
+<div class="image">
+<iframe src="https://www.desmos.com/calculator/bbwogysjpd?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
+</div>
+@li $f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\
+R}$.
+<p>
+@li The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$.
+@endol
+@end
+@section{WeBWorK}
+@enumerate
+@item @webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
+@item @webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
+@item @webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
+@item @webwork{Library/UBC/setLimits/matching.pg}
+@item @webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
+@item @webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
+@endenumerate
+@section{Even and Odd Functions}
+@def
+Let $f$ be a real-valued function defined on real numbers.
+<ul>
+<li>
+It is said to be <strong>even</strong>
+<b style="display:none">even function</b>
+if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\[
+f(-x) = f(x).
+\]
+</li>
+<li>
+It is said to be <strong>odd</strong>
+<b style="display:none">odd function</b>
+if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\[
+f(-x) = -f(x).
+\]
+</li>
+</ul>
+@end
+@eg
+@ol
+@li
+The polynomial $f(x) = x^4 + x^2 + 1$ is even,
+while the polynomial $g(x) = x^5 + x^3 + x$ is odd.
+@li
+The function $f(x) = \cos x$ is even, while $f(x) = \sin x$ is odd.
+@li
+The absolute value function is even.
+@endol
+@end
+@fact
+@ol
+@li
+The sum of two even (resp. odd) functions is even (resp. odd).
+@li
+The product of two even functions is even.
+@li
+The product of two odd functions is also even.
+@li
+The product of an even function with an odd function is odd.
+
+For example, $f(x) = x \abs{x}$ is odd.
+@endol
+@end

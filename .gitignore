@@ -1,0 +1,4 @@
+**/.htaccess
+**/backup
+**/attic
+*.sh
