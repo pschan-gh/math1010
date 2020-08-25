@@ -716,7 +716,7 @@ since $P_n$ is a polynomial of degree at most $n$.</paragraphs>
 F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
 \]
 Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="cauchymvt" wbtag="ref" course="Math 1010" chapter="9" slide="11" src-course="Math 1010" src-chapter="9" src-slide="3" type="Theorem" item="9.1" src-filename="week9.xml" md5="88b4fa31b19d0d6154f41a045e07612a" class="lcref" serial="">
+                  <ref environment="newcol" chapter_type="" label="cauchymvt" wbtag="ref" course="Math 1010" chapter="9" slide="11" src-course="Math 1010" src-chapter="9" src-slide="101" type="Theorem" item="9.1" src-filename="weeks1-13.xml" md5="88b4fa31b19d0d6154f41a045e07612a" class="lcref" serial="">
                     <title>Cauchy's Mean Value Theorem.</title>
                   </ref>
                   <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">), we have:</paragraphs>

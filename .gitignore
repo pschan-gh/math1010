@@ -1,4 +1,6 @@
 **/.htaccess
 **/backup
 **/attic
+*.aux
+*.aux.xml
 *.sh

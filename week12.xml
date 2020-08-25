@@ -219,7 +219,7 @@ Moreover, the denominator factors as follows:
 x^2 - 2x = x (x - 2).
 \]
 Hence, by  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="6" type="Fact" item="12.7" src-filename="week12.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="148" type="Fact" item="12.7" src-filename="weeks1-13.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
                   <title>Fact 12.7</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have:
@@ -275,7 +275,7 @@ where $C$ represents an arbitrary constant.</paragraphs>
 has discriminant $0^2 - 4\cdot 4 &lt; 0$, hence it is irreducible.</paragraphs>
                 <newline course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="6" type="Fact" item="12.7" src-filename="week12.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="148" type="Fact" item="12.7" src-filename="weeks1-13.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
                   <title>Fact 12.7</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have:

@@ -299,17 +299,17 @@ f''(-5) = -18,\quad f''(1) = 18,
 \] </paragraphs>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> by the </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="thm:sdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="7" type="Theorem" item="8.6" src-filename="week8.xml" md5="5b5638f2b35a91cfb0919861ec06d0b2" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="thm:sdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="95" type="Theorem" item="8.6" src-filename="weeks1-13.xml" md5="5b5638f2b35a91cfb0919861ec06d0b2" class="lcref" serial="">
                         <title>Second Derivative Test</title>
                       </ref>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f(-5)$ is a local maximum,
 and $f(1)$ is a local minimum.  (This corroborates the conclusions
 of the </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="thm:fdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="4" type="Theorem" item="8.3" src-filename="week8.xml" md5="32c20d25b656b81930a8a63bc1b06476" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="thm:fdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="92" type="Theorem" item="8.3" src-filename="weeks1-13.xml" md5="32c20d25b656b81930a8a63bc1b06476" class="lcref" serial="">
                         <title>First Derivative Test</title>
                       </ref>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> applied to the same function, see </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="7c80e8e3f96891c595d6e3c37af5a5b3" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="4" type="Example" item="8.4" src-filename="week8.xml" md5="7c80e8e3f96891c595d6e3c37af5a5b3" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="7c80e8e3f96891c595d6e3c37af5a5b3" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="92" type="Example" item="8.4" src-filename="weeks1-13.xml" md5="7c80e8e3f96891c595d6e3c37af5a5b3" class="lcref" serial="">
                         <title>Example 8.4</title>
                       </ref>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.) </paragraphs>
@@ -328,7 +328,7 @@ $c = 0$ is the only point where $g'(c) = 0$.</paragraphs>
                   <newline course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this case, no conclusion can be drawn from the </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="thm:sdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="7" type="Theorem" item="8.6" src-filename="week8.xml" md5="5b5638f2b35a91cfb0919861ec06d0b2" class="lcref" serial="">
+                    <ref environment="newcol" chapter_type="" label="thm:sdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="95" type="Theorem" item="8.6" src-filename="weeks1-13.xml" md5="5b5638f2b35a91cfb0919861ec06d0b2" class="lcref" serial="">
                       <title>Second Derivative Test</title>
                     </ref>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">,
@@ -336,7 +336,7 @@ regarding whether $g(0)$ is a local minimum, maximum, or neither.</paragraphs>
                     <newline course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> However, one can still apply the </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="thm:fdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="4" type="Theorem" item="8.3" src-filename="week8.xml" md5="32c20d25b656b81930a8a63bc1b06476" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="thm:fdt" wbtag="ref" course="Math 1010" chapter="8" slide="8" src-course="Math 1010" src-chapter="8" src-slide="92" type="Theorem" item="8.3" src-filename="weeks1-13.xml" md5="32c20d25b656b81930a8a63bc1b06476" class="lcref" serial="">
                         <title>First Derivative Test</title>
                       </ref>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> to conclude that
