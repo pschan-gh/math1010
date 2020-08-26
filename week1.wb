@@ -11,6 +11,7 @@ Common notations:
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
 \] 
+<hr/>
 @endcol
 @eg
 @newcol
@@ -20,11 +21,13 @@ Common notations:
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
 \] 
+<hr/>
 @li
 \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
 \] 
+<hr/>
 @li
 @keyword{Fibonacci Sequence} \[
 a_1 = 1, a_2 = 1
@@ -36,6 +39,7 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
 In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}. 
+<hr/>
 @endul
 @endcol
 @end
@@ -84,6 +88,7 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 If $a_n = c$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. 
 @endcol
+<hr/>
 @item
 <h5 text="SumDifferencerule">Sum/Difference rule</h5>
 
@@ -92,6 +97,7 @@ If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 \[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
 = \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\] 
 @endcol
+<hr/>
 @item
 <h5 text="ProductRule">Product Rule</h5>
 
@@ -101,6 +107,7 @@ If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 = \left(\lim_{n\rightarrow\infty} a_n\right)
 \cdot\left( \lim_{n\rightarrow\infty}b_n\right).\] 
 @endcol
+<hr/>
 @item
 <h5 text="QuotientRule">Quotient Rule</h5>
 
@@ -111,10 +118,12 @@ then:
 \[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
 = \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\] 
 @endcol
+<hr/>
 @item
 @newcol
 \[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\] 
 @endcol
+<hr/>
 @item
 @newcol
 In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
@@ -143,7 +152,8 @@ $ <br/>
 @nstep{= \frac{3}{2}.}
 \end{align*}\]
 @endsteps
-@endcol</li>
+@endcol
+<hr/></li>
 <li> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ <br/>
 @newcol
 @steps
@@ -158,7 +168,8 @@ $ <br/>
 @nstep{=\frac{-3}{\sqrt[3]{27}} = -1.}
 \end{align*}\]
 @endsteps
-@endcol</li>
+@endcol
+<hr/></li>
 <li> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ <br/>
 @newcol
 @steps
@@ -271,6 +282,7 @@ Hence, $a_{n + 1} \geq 0$.
 
 It now follows from the principle of mathematical induction
 that $a_n \geq 0$ for all $a \in \mathbb{N}$. 
+<hr/>
 Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
 Whenever $a_n \leq 3$, we have:
@@ -283,6 +295,7 @@ Whenever $a_n \leq 3$, we have:
 \]
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
 for all $n \in \mathbb{N}$. 
+<hr/>
 @endcol
 
 2. 
