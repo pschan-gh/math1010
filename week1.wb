@@ -5,29 +5,29 @@
 A @keyword{sequence} is an ordered list of numbers:
 \[
 a_1, a_2, a_3, \ldots,a_n,\ldots
-\]
-@col
+\] 
+@newcol
 Common notations:
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
-\]
+\] 
 <hr/>
 @endcol
 @eg
-@col
+@newcol
 @ul
 @li
 \[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
-\]
-<hr>
+\] 
+<hr/>
 @li
 \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
-\]
-<hr>
+\] 
+<hr/>
 @li
 @keyword{Fibonacci Sequence}
 \[
@@ -39,25 +39,28 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \[
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
-In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}.
-<hr>
+In this case we say that the sequence $\{a_n\}$ is defined 
+@keyword{recursively}
+. 
+<hr/>
 @endul
+@endcol
 @end
-@sep
+@slide
 Sometimes, the terms $a_n$ of a sequence approach a single value $L$
-as $n$ tends to infinity.
-@def
+as $n$ tends to infinity. 
+@defn
 We say that the @keyword{limit} of a sequence $\{a_n\}$ is equal to $L$ if for
 all real numbers $\varepsilon > 0$ the exists a  number $N > 0$
-such that $|a_n - L| < \varepsilon$ for all $n > N$.
+such that $|a_n - L| < \varepsilon$ for all $n > N$. 
 @end
-@col
-If such a number $L$ exists, we say that:
+@newcol
+If such a number $L$ exists, we say that: 
 <blockquote>$\{a_n\}$ converges to $L$,</blockquote>
 and write:
 \[
 \lim_{n \rightarrow \infty} a_n = L.
-\]
+\] 
 @col
 If no such $L$ exists, we say that $\{a_n\}$ diverges.
 
@@ -65,24 +68,19 @@ If the values of $a_n$ increase (resp. decrease) without bound, we say that
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 \[
 \lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
-\]
+\] 
 @endcol
 @slide
 @ex
 <ol>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q15.pg}
-</li>
+@webwork{Library/Michigan/Chap9Sec1/Q15.pg}</li>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q17.pg}
-</li>
+@webwork{Library/Michigan/Chap9Sec1/Q17.pg}</li>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q19.pg}
-</li>
+@webwork{Library/Michigan/Chap9Sec1/Q19.pg}</li>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q23.pg}
-</li>
-</ol>
+@webwork{Library/Michigan/Chap9Sec1/Q23.pg}</li></ol>
 @end
 @subsection{Useful Properties}
 <hr/>
@@ -90,84 +88,78 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 @item
 <h5>Constant sequence</h5>
 
-@col
+@newcol
 If $a_n = c$ for all $n$,
-then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
+then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. 
 @endcol
 <hr/>
 @item
 <h5>Sum/Difference rule</h5>
 
-@col
+@newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 $$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
-= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$ 
 @endcol
 <hr/>
 @item
 <h5>Product Rule</h5>
 
-@col
+@newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 $$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
-\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$ 
 @endcol
 <hr/>
 @item
 <h5>Quotient Rule</h5>
 
-@col
+@newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge,
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
 $$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
-= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$ 
 @endcol
 <hr/>
 @item
-@col
-$$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$
+@newcol
+$$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$ 
 @endcol
 <hr/>
 @item
-@col
+@newcol
 In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
 or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 \[
 \lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
-\]
+\] 
 @endcol
-@end
+@enditemize
 @subsection{Examples}
-<hr/>
-<ul>
-<li>
-$\displaystyle
+<hr/><ul>
+<li> $\displaystyle
 \lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
-$
-<br/>
-@col
+$ <br/>
+@newcol
 @steps
 \begin{align*}
 &{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
 \frac{3n^2 - 2n + 7}{2n^2 + 3}}
 \\
 &
-#nstep{= \lim_{n \rightarrow \infty}
+@nstep{= \lim_{n \rightarrow \infty}
 \frac{3 - \frac{2}{n} + \frac{7}{n^2}}{2 + \frac{3}{n^2}}}
 \\
 &
-#nstep{= \frac{3}{2}.}
+@nstep{= \frac{3}{2}.}
 \end{align*}
 @endsteps
 @endcol
-<hr>
-</li>
-<li>
-$\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$
-<br/>
-@col
+<hr/></li>
+<li> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ <br/>
+@newcol
 @steps
 \begin{align*}
 &=
@@ -181,12 +173,9 @@ $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$
 \end{align*}
 @endsteps
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$
-<br/>
-@col
+<hr/></li>
+<li> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ <br/>
+@newcol
 @steps
 \begin{align*}
 &=
@@ -210,9 +199,7 @@ $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$
 @nstep{=\frac{1}{4}.}
 \end{align*}
 @endsteps
-@endcol
-</li>
-</ul>
+@endcol</li></ul>
 @slide
 @ex
 @itemize
@@ -222,17 +209,16 @@ $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$
 @webwork{Library/Dartmouth/setStewartCh12S1/problem_6.pg}
 @item
 @webwork{Library/Dartmouth/setStewartCh12S1/problem_7.pg}
+@enditemize
 @end
 @subsection{Monotonic Sequences}
-@def
-A sequence $\{a_n\}$ is said to be:
-<ul>
+@defn
+A sequence $\{a_n\}$ is said to be: <ul>
 <li>
-@keyword{increasing} if $a_{n+1} \geq a_n$ for all $n$,
+@keyword{increasing} if $a_{n+1} \geq a_n$ for all $n$, </li>
 <li>
-@keyword{decreasing} if $a_{n + 1} \leq a_n$ for all $n$.
-</ul>
-A sequence is said to be @keyword{monotonic} if it is either increasing or decreasing.
+@keyword{decreasing} if $a_{n + 1} \leq a_n$ for all $n$. </li></ul>
+A sequence is said to be @keyword{monotonic} if it is either increasing or decreasing. 
 @end
 
 @thm
@@ -241,17 +227,20 @@ A sequence is said to be @keyword{monotonic} if it is either increasing or decre
 If $\{a_n\}$ is either:
 
 @col
-<blockquote><i>increasing</i> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
+<blockquote>
+<i>increasing</i> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
 and bounded <i>above</i> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</blockquote>
 or
 
 @col
-<blockquote><i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
+<blockquote>
+<i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
 and bounded <i>below</i> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</blockquote>
-then $\{a_n\}$ converges.
+then $\{a_n\}$ converges. 
+@endcol
 @end
 
-@col
+@newcol
 Moreover,
 
 @col
@@ -262,41 +251,43 @@ then $\lim_{n \rightarrow \infty} a_n \leq M$.
 If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n \geq M$.
 
-@sep
+@endcol
+@slide
 @eg
 Let $\{a_n\}$ be a sequence of real numbers, which is defined by
 \[
 a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n>1$.}
-\]
-<ol>
-<li>
-Prove that $0 \leq a_n\leq 3$.
-(Hint: Perhaps @keyword{mathematical induction} could be useful here.)
-<li> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit.
-</li>
-</ol>
+\] <ol>
+<li> Prove that $0 \leq a_n\leq 3$.
+(Hint: Perhaps @keyword{mathematical induction} could be useful here.) </li>
+<li> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </li></ol>
 @end
 @sol
-@col
-1. @newcol
+@newcol
+1. 
+@newcol
 First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.
 
-<u>Base Step</u>: By definition, $a_1 = 1 \geq 0$.
+<u>Base Step</u>
+: By definition, $a_1 = 1 \geq 0$.
 
-<u>Inductive Step</u>: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
+<u>Inductive Step</u>
+: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
 
 By the definition of the sequence, we have:
 \[
 a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
-By the @keyword{induction hypothesis}, i.e. $a_n \geq 0$, we have:
+By the 
+@keyword{induction hypothesis}
+, i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
 Hence, $a_{n + 1} \geq 0$.
 
 It now follows from the principle of mathematical induction
-that $a_n \geq 0$ for all $a \in \mathbb{N}$.
+that $a_n \geq 0$ for all $a \in \mathbb{N}$. 
 <hr/>
 Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
@@ -309,11 +300,12 @@ Whenever $a_n \leq 3$, we have:
 \end{split}
 \]
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
-for all $n \in \mathbb{N}$.
+for all $n \in \mathbb{N}$. 
 <hr/>
 @endcol
 
-2. @newcol
+2. 
+@newcol
 Observe that for all $n \in \mathbb{N}$,
 we have:
 \[
@@ -360,8 +352,9 @@ we may eliminate the case $L = -4$.
 We conclude that:
 \[
 \lim_{n \rightarrow \infty} a_n = 3.
-\]
+\] 
 @qed
+@endcol
 @endcol
 @end
 @subsection{Sandwich Theorem}
@@ -376,41 +369,30 @@ If
 \[
 \lim_{n \rightarrow \infty} a_n  = \lim_{n \rightarrow \infty} c_n = L,
 \]
-then $\lim_{n \rightarrow \infty} b_n = L$ also.
+then $\lim_{n \rightarrow \infty} b_n = L$ also. 
 @end
 
 @eg
 @ol
 @li
 Find the following limit:
-$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
-<hr>
+$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$. 
+<hr/>
 @li
 <ul>
-<li>
-Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$.
-<li>
-Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$.
-</ul>
-<hr>
+<li> Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$. </li>
+<li> Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$. </li></ul>
+<hr/>
 @li
 Suppose $0 < a < 1$. Let $b=\frac{1}{a}-1$.
- For $n\ge 2$, use the binomial theorem to show that
- \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
- Then, show that:
- \[ \lim_{n \to \infty} na^n = 0. \]
-<hr>
+For $n\ge 2$, use the binomial theorem to show that
+\[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
+Then, show that:
+\[ \lim_{n \to \infty} na^n = 0. \] 
+<hr/>
 @endol
-<!--
-@enumerate
-@item @webwork{Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk1/prob1.pg}
-@item @webwork{Library/Rochester/setSequences2Limits/ur_sq_2_25.pg}
-@item @webwork{Library/Rochester/setSequences2Limits/ns8_1_25.pg}
-@item @webwork{Library/ma123DB/set10/s11_1_19.pg}
-@endenumerate
--->
 @end
-@sep
+@slide
 @ex
 Using the inequality:
 \[
@@ -421,51 +403,46 @@ Using the inequality:
 
 prove that:
 
-@col
+@newcol
 \[
-\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\] 
 @endcol
-<hr>
-<strong>Solution.</strong>
-@col
+<hr/><strong>Solution.</strong>
+@newcol
 We have:
 \begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\leq
-\underbrace{
-\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}
-}_{n \text{ times}}\\
+\underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+1}},
-\end{align*}
+\end{align*} 
 @col
 and:
 \begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\geq
-\underbrace{
-\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}
-}_{n \text{ times}}\\
+\underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}
+\end{align*} 
 @col
 Since:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
-\]
+\] 
 @col
 and:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
-\]
+\] 
 @col
 by the Sandwich Theorem we conclude that:
 \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
-\]
+\] 
 @qed
 @endcol
 @end
