@@ -2,7 +2,7 @@
 @week{1}
 @topic{Sequences}
 @section{Sequences and Limits}
-A @keyword{sequence} is an ordered list of real numbers:
+A @keyword{sequence} is an ordered list of numbers:
 \[
 a_1, a_2, a_3, \ldots,a_n,\ldots
 \] 
