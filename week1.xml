@@ -67,7 +67,7 @@
             </title>
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> A </paragraphs>
             <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="">sequence</inline_keyword>
-            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> is an ordered list of numbers:
+            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> is an ordered list of numbers TESTING COMMIT:
 \[
 a_1, a_2, a_3, \ldots,a_n,\ldots
 \] </paragraphs>
