@@ -543,7 +543,8 @@ we may eliminate the case $L = -4$.</paragraphs>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">We conclude that:
 \[
 \lim_{n \rightarrow \infty} a_n = 3.
-\] ◼︎ </paragraphs>
+\]  </paragraphs>
+                    <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                   </newcol>
                 </newcol>
               </substatement>
@@ -627,20 +628,20 @@ Then, show that:
                 </strong>
                 <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\leq
 \underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+1}},
-\end{align*}  </paragraphs>
+\end{align*}\]  </paragraphs>
                   <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\geq
 \underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}  </paragraphs>
+\end{align*}\]  </paragraphs>
                     <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
 \[
@@ -659,7 +660,8 @@ Then, show that:
                           <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> by the Sandwich Theorem we conclude that:
 \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
-\] ◼︎ </paragraphs>
+\]  </paragraphs>
+                          <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol"/>
                         </collapse>
                       </collapse>
                     </collapse>
