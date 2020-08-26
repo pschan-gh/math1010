@@ -72,7 +72,7 @@
 a_1, a_2, a_3, \ldots,a_n,\ldots
 \] </paragraphs>
             <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Common notations:
+              <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">TESTING Common notations:
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
 \] </paragraphs>
@@ -119,7 +119,7 @@ In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
             <keywords slide="4" environ="slide" chapter="1" course="Math 1010">
               <keyword chapter="1" slide="4">limit</keyword>
             </keywords>
-            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Sometimes, the terms $a_n$ of a sequence approach a single value $L$
+            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Sometimes TESTING 123, the terms $a_n$ of a sequence approach a single value $L$
 as $n$ tends to infinity. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="0b03077190fea8dc16adb3f47bcbe3ad" course="Math 1010" chapter="1" slide="4" item="1.2">
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> We say that the </paragraphs>
