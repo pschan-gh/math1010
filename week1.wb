@@ -38,7 +38,7 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \[
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
-In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}.
+In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively} .
 <hr/>
 @endul
 @endcol
@@ -66,18 +66,17 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 \lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
 \]
 @endcol
-@slide
-@ex
-<ol>
-<li>
-@webwork{Library/Michigan/Chap9Sec1/Q15.pg}</li>
-<li>
-@webwork{Library/Michigan/Chap9Sec1/Q17.pg}</li>
-<li>
-@webwork{Library/Michigan/Chap9Sec1/Q19.pg}</li>
-<li>
-@webwork{Library/Michigan/Chap9Sec1/Q23.pg}</li></ol>
-@end
+@subsection{WeBWorK}
+@enumerate
+@item
+@webwork{Library/Michigan/Chap9Sec1/Q15.pg}
+@item
+@webwork{Library/Michigan/Chap9Sec1/Q17.pg}
+@item
+@webwork{Library/Michigan/Chap9Sec1/Q19.pg}
+@item
+@webwork{Library/Michigan/Chap9Sec1/Q23.pg}
+@endenumerate
 @subsection{Useful Properties}
 <hr/>
 @itemize
@@ -140,7 +139,7 @@ or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 $ <br/>
 @newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
 \frac{3n^2 - 2n + 7}{2n^2 + 3}}
 \\
@@ -150,14 +149,14 @@ $ <br/>
 \\
 &
 @nstep{= \frac{3}{2}.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol
 <hr/></li>
 <li> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ <br/>
 @newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &=
 \lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
 \\
@@ -166,14 +165,14 @@ $ <br/>
 \\
 &
 @nstep{=\frac{-3}{\sqrt[3]{27}} = -1.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol
 <hr/></li>
 <li> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ <br/>
 @newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &=
 \lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
 \cdot
@@ -193,11 +192,10 @@ $ <br/>
 \\
 &
 @nstep{=\frac{1}{4}.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol</li></ul>
-@slide
-@ex
+@subsection{WeBWorK}
 @itemize
 @item
 @webwork{Library/Dartmouth/setStewartCh12S1/problem_5.pg}
@@ -206,7 +204,6 @@ $ <br/>
 @item
 @webwork{Library/Dartmouth/setStewartCh12S1/problem_7.pg}
 @enditemize
-@end
 @subsection{Monotonic Sequences}
 @defn
 A sequence $\{a_n\}$ is said to be: <ul>
@@ -274,7 +271,7 @@ By the definition of the sequence, we have:
 \[
 a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
-By the @keyword{induction hypothesis}, i.e. $a_n \geq 0$, we have:
+By the @keyword{induction hypothesis} , i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
@@ -404,20 +401,20 @@ prove that:
 <hr/><strong>Solution.</strong>
 @newcol
 We have:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\leq
 \underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+1}},
-\end{align*}
+\end{align*}\]
 @col
 and:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\geq
 \underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}
+\end{align*}\]
 @col
 Since:
 \[
