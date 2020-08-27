@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<document xmlns="http://www.math.cuhk.edu.hk/~pschan/elephas_index" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:lv="http://www.math.cuhk.edu.hk/~pschan/cranach" xmlns:idx="http://www.math.cuhk.edu.hk/~pschan/elephas_index">
+<?xml version="1.0"?><document xmlns="http://www.math.cuhk.edu.hk/~pschan/elephas_index" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:lv="http://www.math.cuhk.edu.hk/~pschan/cranach" xmlns:idx="http://www.math.cuhk.edu.hk/~pschan/elephas_index">
   <index>
     <entry keyword="sequence">
       <branch chapter="1" slide="3" filename="weeks1-13.xml" file_md5="5c139d36044465e17c95aa01c66f3f21" keyword="sequence">sequence</branch>
@@ -1121,9 +1120,9 @@
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Unique Factorization of Real Polynomials</title>
       </branch>
     </entry>
-    <entry md5="08893ed5b29692d555cd3dceca8f857d" item="12.13" slide="9" chapter="12" course="Math 1010" title="B&#xE9;zout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="B&#xE9;zout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-        <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="B&#xE9;zout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:bezout"/>
+    <entry md5="08893ed5b29692d555cd3dceca8f857d" item="12.13" slide="9" chapter="12" course="Math 1010" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
+      <branch item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
+        <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:bezout"/>
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
       </branch>
     </entry>
