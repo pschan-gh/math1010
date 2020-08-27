@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -71,13 +70,13 @@
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> is an ordered list of numbers:
 \[
 a_1, a_2, a_3, \ldots,a_n,\ldots
-\] </paragraphs>
+\]  </paragraphs>
             <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Common notations:
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
-\] </paragraphs>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+\]  </paragraphs>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
             </newcol>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="952504e836a0948c7e81649c676de462" course="Math 1010" chapter="1" slide="3" item="1.1">
               <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -86,15 +85,15 @@ a_1, a_2, a_3, \ldots,a_n,\ldots
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
-\] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+\]  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
-\] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+\]  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">Fibonacci Sequence</inline_keyword>
@@ -107,10 +106,10 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \[
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
-In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
+In this case we say that the sequence $\{a_n\}$ is defined  </paragraphs>
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">recursively</inline_keyword>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> .  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                 </col_ul>
               </newcol>
@@ -121,23 +120,23 @@ In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
               <keyword chapter="1" slide="4">limit</keyword>
             </keywords>
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Sometimes, the terms $a_n$ of a sequence approach a single value $L$
-as $n$ tends to infinity. </paragraphs>
+as $n$ tends to infinity.  </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="0b03077190fea8dc16adb3f47bcbe3ad" course="Math 1010" chapter="1" slide="4" item="1.2">
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> We say that the </paragraphs>
               <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">limit</inline_keyword>
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of a sequence $\{a_n\}$ is equal to $L$ if for
 all real numbers $\varepsilon &gt; 0$ the exists a  number $N &gt; 0$
-such that $|a_n - L| &lt; \varepsilon$ for all $n &gt; N$. </paragraphs>
+such that $|a_n - L| &lt; \varepsilon$ for all $n &gt; N$.  </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If such a number $L$ exists, we say that: </paragraphs>
+              <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If such a number $L$ exists, we say that:  </paragraphs>
               <blockquote xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\{a_n\}$ converges to $L$,</paragraphs>
               </blockquote>
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and write:
 \[
 \lim_{n \rightarrow \infty} a_n = L.
-\] </paragraphs>
+\]  </paragraphs>
               <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If no such $L$ exists, we say that $\{a_n\}$ diverges.</paragraphs>
                 <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
@@ -145,7 +144,7 @@ such that $|a_n - L| &lt; \varepsilon$ for all $n &gt; N$. </paragraphs>
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 \[
 \lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
-\] </paragraphs>
+\]  </paragraphs>
               </collapse>
             </newcol>
           </slide>
@@ -184,7 +183,7 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="1" subsubsection="" serial="" slide="6">
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Useful Properties</paragraphs>
               </title>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
               <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="itemize">
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
@@ -193,9 +192,9 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a_n = c$ for all $n$,
-then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. </paragraphs>
+then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.  </paragraphs>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
@@ -205,9 +204,9 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. </pa
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 $$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
-= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$ </paragraphs>
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$  </paragraphs>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
@@ -218,9 +217,9 @@ $$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 $$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
-\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$ </paragraphs>
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$  </paragraphs>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
@@ -232,15 +231,15 @@ $$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
 $$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
-= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$ </paragraphs>
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$  </paragraphs>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> $$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$ </paragraphs>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> $$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$  </paragraphs>
                   </newcol>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
@@ -248,7 +247,7 @@ $$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
 or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 \[
 \lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
-\] </paragraphs>
+\]  </paragraphs>
                   </newcol>
                 </item>
               </itemize>
@@ -265,13 +264,13 @@ or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="2" subsubsection="" serial="" slide="7">
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">Examples</paragraphs>
               </title>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
                 <li environment="">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle
 \lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
 $ </paragraphs>
-                  <br environment=""/>
+                  <br environment="" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
 \begin{align*}
@@ -287,11 +286,11 @@ $ </paragraphs>
 \end{align*}
 </steps>
                   </newcol>
-                  <hr environment=""/>
+                  <hr environment="" />
                 </li>
                 <li environment="">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ </paragraphs>
-                  <br environment=""/>
+                  <br environment="" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
 \begin{align*}
@@ -306,11 +305,11 @@ $ </paragraphs>
 \end{align*}
 </steps>
                   </newcol>
-                  <hr environment=""/>
+                  <hr environment="" />
                 </li>
                 <li environment="">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ </paragraphs>
-                  <br environment=""/>
+                  <br environment="" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
 \begin{align*}
@@ -386,7 +385,7 @@ $ </paragraphs>
                 </ul>
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> A sequence is said to be </paragraphs>
                 <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement">monotonic</inline_keyword>
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> if it is either increasing or decreasing. </paragraphs>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> if it is either increasing or decreasing.  </paragraphs>
               </statement>
               <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment=""/>
               <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="6" title="Monotone Convergence Theorem" md5="0a9a808f463b83d0689aff03cf2bbb05" course="Math 1010" chapter="1" slide="9" item="1.6">
@@ -420,7 +419,7 @@ and bounded </paragraphs>
                         </i>
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</paragraphs>
                       </blockquote>
-                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> then $\{a_n\}$ converges. </paragraphs>
+                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> then $\{a_n\}$ converges.  </paragraphs>
                     </collapse>
                   </collapse>
                 </newcol>
@@ -465,35 +464,35 @@ a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $
               </statement>
               <substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="6f56abde813587ae7a2aca13a764f1fa" course="Math 1010" chapter="1" slide="10">
                 <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> 1. </paragraphs>
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> 1.  </paragraphs>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Base Step</paragraphs>
                     </u>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">: By definition, $a_1 = 1 \geq 0$.</paragraphs>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> : By definition, $a_1 = 1 \geq 0$.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Inductive Step</paragraphs>
                     </u>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.</paragraphs>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> : Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">By the definition of the sequence, we have:
 \[
 a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
-By the </paragraphs>
+By the  </paragraphs>
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol">induction hypothesis</inline_keyword>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">, i.e. $a_n \geq 0$, we have:
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> , i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 &gt; 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
 Hence, $a_{n + 1} \geq 0$.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">It now follows from the principle of mathematical induction
-that $a_n \geq 0$ for all $a \in \mathbb{N}$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+that $a_n \geq 0$ for all $a \in \mathbb{N}$.  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
 Whenever $a_n \leq 3$, we have:
@@ -505,11 +504,11 @@ Whenever $a_n \leq 3$, we have:
 \end{split}
 \]
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
-for all $n \in \mathbb{N}$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+for all $n \in \mathbb{N}$.  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">2. </paragraphs>
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">2.  </paragraphs>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for all $n \in \mathbb{N}$,
 we have:
@@ -557,7 +556,7 @@ we may eliminate the case $L = -4$.</paragraphs>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">We conclude that:
 \[
 \lim_{n \rightarrow \infty} a_n = 3.
-\] </paragraphs>
+\]  </paragraphs>
                     <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                   </newcol>
                 </newcol>
@@ -588,15 +587,15 @@ If
 \[
 \lim_{n \rightarrow \infty} a_n  = \lim_{n \rightarrow \infty} c_n = L,
 \]
-then $\lim_{n \rightarrow \infty} b_n = L$ also. </paragraphs>
+then $\lim_{n \rightarrow \infty} b_n = L$ also.  </paragraphs>
               </statement>
               <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment=""/>
               <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="9" md5="ef7a816bb4b76b7754591fcabd071bbe" course="Math 1010" chapter="1" slide="11" item="1.9">
                 <col_ol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_ol">
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Find the following limit:
-$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_li">
                     <ul xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
@@ -607,20 +606,17 @@ $\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$. </paragraphs>
                       </li>
                     </ul>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_li">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Suppose $0 &lt; a &lt; 1$. Let $b=\frac{1}{a}-1$.
- For $n\ge 2$, use the binomial theorem to show that
- \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
- Then, show that:
- \[ \lim_{n \to \infty} na^n = 0. \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+For $n\ge 2$, use the binomial theorem to show that
+\[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
+Then, show that:
+\[ \lim_{n \to \infty} na^n = 0. \]  </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
                   </col_li>
                 </col_ol>
-                <paragraphs>
-                  <!--@enumerate@item @webwork{Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk1/prob1.pg}@item @webwork{Library/Rochester/setSequences2Limits/ur_sq_2_25.pg}@item @webwork{Library/Rochester/setSequences2Limits/ns8_1_25.pg}@item @webwork{Library/ma123DB/set10/s11_1_19.pg}@endenumerate-->
-                </paragraphs>
               </statement>
             </slide>
             <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" chapter_title="" section_title="Sequences and Limits">
@@ -637,9 +633,9 @@ $\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
                 <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement"/>
                 <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
-\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\] </paragraphs>
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]  </paragraphs>
                 </newcol>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                 </strong>
@@ -648,40 +644,36 @@ $\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
 \begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\leq
-\underbrace{
-\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}
-}_{n \text{ times}}\\
+\underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+1}},
-\end{align*} </paragraphs>
+\end{align*}  </paragraphs>
                   <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
 \begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\geq
-\underbrace{
-\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}
-}_{n \text{ times}}\\
+\underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+n}}.
-\end{align*} </paragraphs>
+\end{align*}  </paragraphs>
                     <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
-\] </paragraphs>
+\]  </paragraphs>
                       <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
-\] </paragraphs>
+\]  </paragraphs>
                         <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> by the Sandwich Theorem we conclude that:
 \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
-\] </paragraphs>
+\]  </paragraphs>
                           <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol"/>
                         </collapse>
                       </collapse>
