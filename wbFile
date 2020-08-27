@@ -1,0 +1,442 @@
+@course{Math 1010}
+@week{1}
+@topic{Sequences}
+@section{Sequences and Limits}
+A @keyword{sequence} is an ordered list of numbers:
+\[
+a_1, a_2, a_3, \ldots,a_n,\ldots
+\]
+@newcol
+Common notations:
+\[
+\{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
+\]
+<hr/>
+@endcol
+@eg
+@newcol
+@ul
+@li
+\[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
+\[
+\{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
+\]
+<hr/>
+@li
+\[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
+\[
+\{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
+\]
+<hr/>
+@li
+@keyword{Fibonacci Sequence} \[
+a_1 = 1, a_2 = 1
+\]
+\[
+a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
+\]
+\[
+\{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
+\]
+In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}.
+<hr/>
+@endul
+@endcol
+@end
+@slide
+Sometimes, the terms $a_n$ of a sequence approach a single value $L$
+as $n$ tends to infinity.
+@defn
+We say that the @keyword{limit} of a sequence $\{a_n\}$ is equal to $L$ if for
+all real numbers $\varepsilon > 0$ the exists a  number $N > 0$
+such that $|a_n - L| < \varepsilon$ for all $n > N$.
+@end
+@newcol
+If such a number $L$ exists, we say that: <blockquote>$\{a_n\}$ converges to $L$,</blockquote>
+and write:
+\[
+\lim_{n \rightarrow \infty} a_n = L.
+\]
+@col
+If no such $L$ exists, we say that $\{a_n\}$ diverges.
+
+If the values of $a_n$ increase (resp. decrease) without bound, we say that
+$\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
+\[
+\lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
+\]
+@endcol
+@slide
+@ex
+<ol>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q15.pg}</li>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q17.pg}</li>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q19.pg}</li>
+<li>
+@webwork{Library/Michigan/Chap9Sec1/Q23.pg}</li></ol>
+@end
+@subsection{Useful Properties}
+<hr/>
+@itemize
+@item
+<h5 text="Constantsequence">Constant sequence</h5>
+
+@newcol
+If $a_n = c$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
+@endcol
+<hr/>
+@item
+<h5 text="SumDifferencerule">Sum/Difference rule</h5>
+
+@newcol
+If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+\[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\]
+@endcol
+<hr/>
+@item
+<h5 text="ProductRule">Product Rule</h5>
+
+@newcol
+If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+\[\displaystyle\lim_{n\rightarrow \infty} a_n b_n
+= \left(\lim_{n\rightarrow\infty} a_n\right)
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).\]
+@endcol
+<hr/>
+@item
+<h5 text="QuotientRule">Quotient Rule</h5>
+
+@newcol
+If both $\{a_n\}$ and $\{b_n\}$ converge,
+and $\lim_{n \rightarrow \infty} b_n \neq 0$,
+then:
+\[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\]
+@endcol
+<hr/>
+@item
+@newcol
+\[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\]
+@endcol
+<hr/>
+@item
+@newcol
+In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
+or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
+\[
+\lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
+\]
+@endcol
+@enditemize
+@subsection{Examples}
+<hr/><ul>
+<li> $\displaystyle
+\lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
+$ <br/>
+@newcol
+@steps
+\begin{align*}
+&{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
+\frac{3n^2 - 2n + 7}{2n^2 + 3}}
+\\
+&
+@nstep{= \lim_{n \rightarrow \infty}
+\frac{3 - \frac{2}{n} + \frac{7}{n^2}}{2 + \frac{3}{n^2}}}
+\\
+&
+@nstep{= \frac{3}{2}.}
+\end{align*}
+@endsteps
+@endcol
+<hr/></li>
+<li> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ <br/>
+@newcol
+@steps
+\begin{align*}
+&=
+\lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{-3}{\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}}
+\\
+&
+@nstep{=\frac{-3}{\sqrt[3]{27}} = -1.}
+\end{align*}
+@endsteps
+@endcol
+<hr/></li>
+<li> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ <br/>
+@newcol
+@steps
+\begin{align*}
+&=
+\lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
+\cdot
+\frac{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty}\frac{\left(4n^2 + n\right) - \left(4n^2 - 1\right)}{\left(\sqrt{4n^2+n} + \sqrt{4n^2-1}\right)}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{n + 1}{\sqrt{4n^2+n} + \sqrt{4n^2-1}}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{n + 1}{n\left(\sqrt{4 + \frac{1}{n}} + \sqrt{4-\frac{1}{n^2}}\right)}}
+\\
+&
+@nstep{= \lim_{n\rightarrow\infty} \frac{1 + \frac{1}{n}}{\left(\sqrt{4 + \frac{1}{n}} + \sqrt{4-\frac{1}{n^2}}\right)}}
+\\
+&
+@nstep{=\frac{1}{4}.}
+\end{align*}
+@endsteps
+@endcol</li></ul>
+@slide
+@ex
+@itemize
+@item
+@webwork{Library/Dartmouth/setStewartCh12S1/problem_5.pg}
+@item
+@webwork{Library/Dartmouth/setStewartCh12S1/problem_6.pg}
+@item
+@webwork{Library/Dartmouth/setStewartCh12S1/problem_7.pg}
+@enditemize
+@end
+@subsection{Monotonic Sequences}
+@defn
+A sequence $\{a_n\}$ is said to be: <ul>
+<li>
+@keyword{increasing} if $a_{n+1} \geq a_n$ for all $n$, </li>
+<li>
+@keyword{decreasing} if $a_{n + 1} \leq a_n$ for all $n$. </li></ul>
+A sequence is said to be @keyword{monotonic} if it is either increasing or decreasing.
+@end
+
+@thm
+@title{Monotone Convergence Theorem}
+@newcol
+If $\{a_n\}$ is either:
+
+@col
+<blockquote>
+<i>increasing</i> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
+and bounded <i>above</i> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</blockquote>
+or
+
+@col
+<blockquote>
+<i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
+and bounded <i>below</i> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</blockquote>
+then $\{a_n\}$ converges.
+@endcol
+@end
+
+@newcol
+Moreover,
+
+@col
+if $\{a_n\}$ is increasing and $a_n \leq M$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n \leq M$.
+
+@col
+If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
+then $\lim_{n \rightarrow \infty} a_n \geq M$.
+
+@endcol
+@slide
+@eg
+Let $\{a_n\}$ be a sequence of real numbers, which is defined by
+\[
+a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n>1$.}
+\] <ol>
+<li> Prove that $0 \leq a_n\leq 3$.
+(Hint: Perhaps @keyword{mathematical induction} could be useful here.) </li>
+<li> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </li></ol>
+@end
+@sol
+@newcol
+1.
+@newcol
+First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.
+
+<u>Base Step</u>
+: By definition, $a_1 = 1 \geq 0$.
+
+<u>Inductive Step</u>
+: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
+
+By the definition of the sequence, we have:
+\[
+a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
+\]
+By the @keyword{induction hypothesis}, i.e. $a_n \geq 0$, we have:
+\[
+a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
+\]
+Hence, $a_{n + 1} \geq 0$.
+
+It now follows from the principle of mathematical induction
+that $a_n \geq 0$ for all $a \in \mathbb{N}$.
+<hr/>
+Similary, to show that $a_n \leq 3$, we first observe that
+by definition $a_1 = 1 \leq 3$.
+Whenever $a_n \leq 3$, we have:
+\[
+\begin{split}
+3 - a_{n+1} &= 3 - \frac{12a_n + 12}{a_n + 13}\\
+&= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}\\
+&= \frac{9(3 - a_n)}{a_n + 13} \geq 0,
+\end{split}
+\]
+which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
+for all $n \in \mathbb{N}$.
+<hr/>
+@endcol
+
+2.
+@newcol
+Observe that for all $n \in \mathbb{N}$,
+we have:
+\[
+\begin{split}
+a_{n + 1} - a_n
+&= \frac{12a_n + 12}{a_n + 13} - a_n\\
+&= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}\\
+&= -\frac{a_n^2 +a_n - 12}{a_n + 13}\\
+&= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}\\
+&\geq 0,
+\end{split}
+\]
+since $0 \leq a_n \leq 3$, as shown in Part 1.
+
+This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
+Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
+by the Monotone Convergence Theorem.
+
+To find $L$, we take the limit as $n \rightarrow \infty$ of
+both sides of the equation:
+\[
+a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
+\]
+That is:
+\[
+\lim_{n \rightarrow \infty} a_n=
+\lim_{n \rightarrow \infty}\frac{12a_{n-1}+12}{a_{n-1}+13},
+\]
+which gives:
+\[
+L = \frac{12 L  + 12}{L + 13},
+\]
+since
+$\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.
+
+The equation above implies that:
+\[
+L^2 + L - 12 = 0,
+\]
+which gives $L = 3$ or $L = -4$.
+Since the sequence $\{a_n\}$ is bounded below by $0$,
+we may eliminate the case $L = -4$.
+
+We conclude that:
+\[
+\lim_{n \rightarrow \infty} a_n = 3.
+\]
+@qed
+@endcol
+@endcol
+@end
+@subsection{Sandwich Theorem}
+@thm
+@title{Sandwich Theorem for Sequences}
+Let $\{a_n\}$, $\{b_n\}$, $\{c_n\}$ be sequences such that:
+\[
+a_n \leq b_n \leq c_n
+\]
+for all $n$ sufficiently large.
+If
+\[
+\lim_{n \rightarrow \infty} a_n  = \lim_{n \rightarrow \infty} c_n = L,
+\]
+then $\lim_{n \rightarrow \infty} b_n = L$ also.
+@end
+
+@eg
+@ol
+@li
+Find the following limit:
+$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
+<hr/>
+@li
+<ul>
+<li> Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$. </li>
+<li> Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$. </li></ul>
+<hr/>
+@li
+Suppose $0 < a < 1$. Let $b=\frac{1}{a}-1$.
+For $n\ge 2$, use the binomial theorem to show that
+\[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
+Then, show that:
+\[ \lim_{n \to \infty} na^n = 0. \]
+<hr/>
+@endol
+@end
+@slide
+@ex
+Using the inequality:
+\[
+\frac{1}{\sqrt{n^2+n}} \leq \frac{1}{\sqrt{n^2+r}} \leq \frac{1}{\sqrt{n^2+1}},
+\quad
+\text{ for } r=1,2,3,\cdots,n,
+\]
+
+prove that:
+
+@newcol
+\[
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]
+@endcol
+<hr/><strong>Solution.</strong>
+@newcol
+We have:
+\begin{align*}
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+&\leq
+\underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
+&= \frac{n}{\sqrt{n^2+1}},
+\end{align*}
+@col
+and:
+\begin{align*}
+\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
+&\geq
+\underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
+&= \frac{n}{\sqrt{n^2+n}}.
+\end{align*}
+@col
+Since:
+\[
+\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
+= \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
+= \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
+\]
+@col
+and:
+\[
+\lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
+= \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
+= \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
+\]
+@col
+by the Sandwich Theorem we conclude that:
+\[
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
+\]
+@qed
+@endcol
+@end

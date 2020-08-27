@@ -226,7 +226,7 @@
       <branch chapter="12" slide="9" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="unique factorization of real polynomials">Unique Factorization of Real Polynomials</branch>
     </entry>
     <entry keyword="b zout's identity">
-      <branch chapter="12" slide="9" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="b zout's identity">Bézout's Identity</branch>
+      <branch chapter="12" slide="9" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="b zout's identity">BÃ©zout's Identity</branch>
     </entry>
     <entry keyword="left riemann sum">
       <branch chapter="13" slide="4" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="left riemann sum">Left Riemann Sum</branch>
@@ -735,10 +735,10 @@
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Unique Factorization of Real Polynomials</title>
       </branch>
     </entry>
-    <entry md5="08893ed5b29692d555cd3dceca8f857d" item="12.13" slide="9" chapter="12" course="Math 1010" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-        <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:bezout"/>
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
+    <entry md5="08893ed5b29692d555cd3dceca8f857d" item="12.13" slide="9" chapter="12" course="Math 1010" title="BÃ©zout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
+      <branch item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="BÃ©zout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
+        <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="BÃ©zout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:bezout"/>
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">BÃ©zout's Identity</title>
       </branch>
     </entry>
     <entry md5="2e10768f117d32b9f77a1db4fee8e1a5" item="13.1" slide="4" chapter="13" course="Math 1010" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
@@ -879,7 +879,7 @@
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Unique Factorization of Real Polynomials</title>
     </ref>
     <ref serial="" class="lcref" md5="08893ed5b29692d555cd3dceca8f857d" src-filename="week12.xml" item="12.13" type="Theorem" src-slide="9" src-chapter="12" src-course="Math 1010" slide="10" chapter="12" course="Math 1010" wbtag="ref" label="thm:bezout" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Bézout's Identity</title>
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">BÃ©zout's Identity</title>
     </ref>
     <ref serial="" class="lcref" md5="5a73752c9025d70a4c5ef118ea05024b" src-filename="weeks1-13.xml" item="13.8" type="Theorem" src-slide="161" src-chapter="13" src-course="Math 1010" slide="13" chapter="13" course="Math 1010" wbtag="ref" label="ftc1" chapter_type="" environment="newcol" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fundamental Theorem of Calculus Part I</title>
