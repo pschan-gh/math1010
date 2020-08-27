@@ -5,12 +5,12 @@
 A @keyword{sequence} is an ordered list of numbers:
 \[
 a_1, a_2, a_3, \ldots,a_n,\ldots
-\]   
+\] 
 @newcol
 Common notations:
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
-\]   
+\] 
 <hr/>
 @endcol
 @eg
@@ -20,13 +20,13 @@ Common notations:
 \[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
-\]   
+\] 
 <hr/>
 @li
 \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
-\]   
+\] 
 <hr/>
 @li
 @keyword{Fibonacci Sequence} \[
@@ -38,25 +38,25 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \[
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
-In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}.   
+In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}. 
 <hr/>
 @endul
 @endcol
 @end
 @slide
 Sometimes, the terms $a_n$ of a sequence approach a single value $L$
-as $n$ tends to infinity.   
+as $n$ tends to infinity. 
 @defn
 We say that the @keyword{limit} of a sequence $\{a_n\}$ is equal to $L$ if for
 all real numbers $\varepsilon > 0$ the exists a  number $N > 0$
-such that $|a_n - L| < \varepsilon$ for all $n > N$.   
+such that $|a_n - L| < \varepsilon$ for all $n > N$. 
 @end
 @newcol
 If such a number $L$ exists, we say that: <blockquote>$\{a_n\}$ converges to $L$,</blockquote>
 and write:
 \[
 \lim_{n \rightarrow \infty} a_n = L.
-\]   
+\] 
 @col
 If no such $L$ exists, we say that $\{a_n\}$ diverges.
 
@@ -64,7 +64,7 @@ If the values of $a_n$ increase (resp. decrease) without bound, we say that
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 \[
 \lim_{n\rightarrow\infty} a_n = \infty\quad (\text{resp. } -\!\infty).
-\]   
+\] 
 @endcol
 @slide
 @ex
@@ -86,7 +86,7 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 
 @newcol
 If $a_n = c$ for all $n$,
-then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.   
+then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. 
 @endcol
 <hr/>
 @item
@@ -95,7 +95,7 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
 @newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 \[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
-= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\]   
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\] 
 @endcol
 <hr/>
 @item
@@ -105,7 +105,7 @@ If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 \[\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
-\cdot\left( \lim_{n\rightarrow\infty}b_n\right).\]   
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).\] 
 @endcol
 <hr/>
 @item
@@ -116,12 +116,12 @@ If both $\{a_n\}$ and $\{b_n\}$ converge,
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
 \[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
-= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\]   
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\] 
 @endcol
 <hr/>
 @item
 @newcol
-\[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\]   
+\[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\] 
 @endcol
 <hr/>
 @item
@@ -130,7 +130,7 @@ In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
 or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 \[
 \lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
-\]   
+\] 
 @endcol
 @enditemize
 @subsection{Examples}
@@ -214,7 +214,7 @@ A sequence $\{a_n\}$ is said to be: <ul>
 @keyword{increasing} if $a_{n+1} \geq a_n$ for all $n$, </li>
 <li>
 @keyword{decreasing} if $a_{n + 1} \leq a_n$ for all $n$. </li></ul>
-A sequence is said to be @keyword{monotonic} if it is either increasing or decreasing.   
+A sequence is said to be @keyword{monotonic} if it is either increasing or decreasing. 
 @end
 
 @thm
@@ -232,7 +232,7 @@ or
 <blockquote>
 <i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
 and bounded <i>below</i> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</blockquote>
-then $\{a_n\}$ converges.   
+then $\{a_n\}$ converges. 
 @endcol
 @end
 
@@ -260,7 +260,7 @@ a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $
 @end
 @sol
 @newcol
-1.   
+1. 
 @newcol
 First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.
 
@@ -281,7 +281,7 @@ a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 Hence, $a_{n + 1} \geq 0$.
 
 It now follows from the principle of mathematical induction
-that $a_n \geq 0$ for all $a \in \mathbb{N}$.   
+that $a_n \geq 0$ for all $a \in \mathbb{N}$. 
 <hr/>
 Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
@@ -294,11 +294,11 @@ Whenever $a_n \leq 3$, we have:
 \end{split}
 \]
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
-for all $n \in \mathbb{N}$.   
+for all $n \in \mathbb{N}$. 
 <hr/>
 @endcol
 
-2.   
+2. 
 @newcol
 Observe that for all $n \in \mathbb{N}$,
 we have:
@@ -346,7 +346,7 @@ we may eliminate the case $L = -4$.
 We conclude that:
 \[
 \lim_{n \rightarrow \infty} a_n = 3.
-\]   
+\] 
 @qed
 @endcol
 @endcol
@@ -363,14 +363,14 @@ If
 \[
 \lim_{n \rightarrow \infty} a_n  = \lim_{n \rightarrow \infty} c_n = L,
 \]
-then $\lim_{n \rightarrow \infty} b_n = L$ also.   
+then $\lim_{n \rightarrow \infty} b_n = L$ also. 
 @end
 
 @eg
 @ol
 @li
 Find the following limit:
-$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.   
+$\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$. 
 <hr/>
 @li
 <ul>
@@ -382,7 +382,7 @@ Suppose $0 < a < 1$. Let $b=\frac{1}{a}-1$.
 For $n\ge 2$, use the binomial theorem to show that
 \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
 Then, show that:
-\[ \lim_{n \to \infty} na^n = 0. \]   
+\[ \lim_{n \to \infty} na^n = 0. \] 
 <hr/>
 @endol
 @end
@@ -399,7 +399,7 @@ prove that:
 
 @newcol
 \[
-\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]   
+\lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\] 
 @endcol
 <hr/><strong>Solution.</strong>
 @newcol
@@ -409,7 +409,7 @@ We have:
 &\leq
 \underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+1}},
-\end{align*}   
+\end{align*} 
 @col
 and:
 \begin{align*}
@@ -417,26 +417,26 @@ and:
 &\geq
 \underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}   
+\end{align*} 
 @col
 Since:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
-\]   
+\] 
 @col
 and:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
-\]   
+\] 
 @col
 by the Sandwich Theorem we conclude that:
 \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
-\]   
+\] 
 @qed
 @endcol
 @end
