@@ -108,7 +108,7 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \]
 In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">recursively</inline_keyword>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">. </paragraphs>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> . </paragraphs>
                     <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                 </col_ul>
@@ -186,7 +186,7 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
               <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
               <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="itemize">
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
-                  <h5 xmlns="http://www.w3.org/1999/xhtml" text="Constantsequence" environment="itemize">
+                  <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Constant sequence</paragraphs>
                   </h5>
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
@@ -197,32 +197,32 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. </pa
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
-                  <h5 xmlns="http://www.w3.org/1999/xhtml" text="SumDifferencerule" environment="itemize">
+                  <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Sum/Difference rule</paragraphs>
                   </h5>
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
-\[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
-= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\] </paragraphs>
+$$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$ </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
-                  <h5 xmlns="http://www.w3.org/1999/xhtml" text="ProductRule" environment="itemize">
+                  <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Product Rule</paragraphs>
                   </h5>
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
-\[\displaystyle\lim_{n\rightarrow \infty} a_n b_n
+$$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
-\cdot\left( \lim_{n\rightarrow\infty}b_n\right).\] </paragraphs>
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$ </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
-                  <h5 xmlns="http://www.w3.org/1999/xhtml" text="QuotientRule" environment="itemize">
+                  <h5 xmlns="http://www.w3.org/1999/xhtml" environment="itemize">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Quotient Rule</paragraphs>
                   </h5>
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
@@ -230,14 +230,14 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. </pa
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge,
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
-\[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
-= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\] </paragraphs>
+$$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$ </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> \[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\] </paragraphs>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> $$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$ </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
@@ -484,7 +484,7 @@ a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
 By the </paragraphs>
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol">induction hypothesis</inline_keyword>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">, i.e. $a_n \geq 0$, we have:
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> , i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 &gt; 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
