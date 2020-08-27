@@ -76,7 +76,7 @@ a_1, a_2, a_3, \ldots,a_n,\ldots
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
 \] </paragraphs>
-              <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
             </newcol>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="952504e836a0948c7e81649c676de462" course="Math 1010" chapter="1" slide="3" item="1.1">
               <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -86,14 +86,14 @@ a_1, a_2, a_3, \ldots,a_n,\ldots
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
 \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="col_ul" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
 \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="col_ul" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">Fibonacci Sequence</inline_keyword>
@@ -109,7 +109,7 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">recursively</inline_keyword>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="col_ul" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                   </col_li>
                 </col_ul>
               </newcol>
@@ -148,94 +148,86 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
               </collapse>
             </newcol>
           </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <keywords slide="5" environ="slide" chapter="1" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="3" course="Math 1010" chapter="1" slide="5" item="1.3">
+              <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <li environment="statement">
+                  <webwork xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q15.pg"/>
+                </li>
+                <li environment="statement">
+                  <webwork xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q17.pg"/>
+                </li>
+                <li environment="statement">
+                  <webwork xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q19.pg"/>
+                </li>
+                <li environment="statement">
+                  <webwork xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q23.pg"/>
+                </li>
+              </ol>
+            </statement>
+          </slide>
         </slides>
-        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 1010" chapter="1" section="1" num="1" serial="1.1.1">
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Useful Properties" course="Math 1010" chapter="1" section="1" num="1" serial="1.1.1">
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.1" slide="">
-            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
-          </title>
-          <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="5" scope="subsection" id="s5" slide="5" course="Math 1010" chapter="1" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Sequences and Limits">
-              <keywords slide="5" environ="slide" chapter="1" course="Math 1010"/>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="1" subsubsection="" serial="" slide="5">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
-              </title>
-              <enumerate course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q15.pg"/>
-                </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q17.pg"/>
-                </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q19.pg"/>
-                </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap9Sec1/Q23.pg"/>
-                </item>
-              </enumerate>
-            </slide>
-          </slides>
-        </subsection>
-        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Useful Properties" course="Math 1010" chapter="1" section="1" num="2" serial="1.1.2">
-          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.2" slide="">
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Useful Properties</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="6" scope="subsection" id="s6" slide="6" course="Math 1010" chapter="1" section="1" subsection="2" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" canon_num="6" scope="subsection" id="s6" slide="6" course="Math 1010" chapter="1" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="6" environ="slide" chapter="1" course="Math 1010">
                 <keyword chapter="1" slide="6">Constant sequence</keyword>
                 <keyword chapter="1" slide="6">Sum/Difference rule</keyword>
                 <keyword chapter="1" slide="6">Product Rule</keyword>
                 <keyword chapter="1" slide="6">Quotient Rule</keyword>
               </keywords>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="2" subsubsection="" serial="" slide="6">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">Useful Properties</paragraphs>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="1" subsubsection="" serial="" slide="6">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Useful Properties</paragraphs>
               </title>
               <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
-              <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="itemize">
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+              <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="itemize">
+                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" text="Constantsequence" environment="itemize">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="paragraphs">Constant sequence</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Constant sequence</paragraphs>
                   </h5>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize"/>
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a_n = c$ for all $n$,
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If $a_n = c$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" text="SumDifferencerule" environment="itemize">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="paragraphs">Sum/Difference rule</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Sum/Difference rule</paragraphs>
                   </h5>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize"/>
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 \[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
 = \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" text="ProductRule" environment="itemize">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="paragraphs">Product Rule</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Product Rule</paragraphs>
                   </h5>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize"/>
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 \[\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
 \cdot\left( \lim_{n\rightarrow\infty}b_n\right).\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <h5 xmlns="http://www.w3.org/1999/xhtml" text="QuotientRule" environment="itemize">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="paragraphs">Quotient Rule</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="paragraphs">Quotient Rule</paragraphs>
                   </h5>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize"/>
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge,
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge,
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
 \[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
@@ -243,15 +235,15 @@ then:
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> \[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\] </paragraphs>
+                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> \[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
+                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
 or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 \[
 \lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
@@ -262,26 +254,26 @@ or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
             </slide>
           </slides>
         </subsection>
-        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Examples" course="Math 1010" chapter="1" section="1" num="3" serial="1.1.3">
-          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.3" slide="">
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Examples" course="Math 1010" chapter="1" section="1" num="2" serial="1.1.2">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.2" slide="">
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Examples</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="7" scope="subsection" id="s7" slide="7" course="Math 1010" chapter="1" section="1" subsection="3" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" canon_num="7" scope="subsection" id="s7" slide="7" course="Math 1010" chapter="1" section="1" subsection="2" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="7" environ="slide" chapter="1" course="Math 1010"/>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="3" subsubsection="" serial="" slide="7">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="title" wbtag="paragraphs">Examples</paragraphs>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="2" subsubsection="" serial="" slide="7">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">Examples</paragraphs>
               </title>
               <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
                 <li environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle
 \lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
 $ </paragraphs>
                   <br environment="" />
-                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
-                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
-\[\begin{align*}
+                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
+                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\begin{align*}
 &amp;{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
 \frac{3n^2 - 2n + 7}{2n^2 + 3}}
 \\
@@ -291,17 +283,17 @@ $ </paragraphs>
 \\
 &amp;
 \class{steps}{\cssId{step1}{= \frac{3}{2}.}}
-\end{align*}\]
+\end{align*}
 </steps>
                   </newcol>
                   <hr environment="" />
                 </li>
                 <li environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ </paragraphs>
                   <br environment="" />
-                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
-                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
-\[\begin{align*}
+                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
+                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\begin{align*}
 &amp;=
 \lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
 \\
@@ -310,17 +302,17 @@ $ </paragraphs>
 \\
 &amp;
 \class{steps}{\cssId{step1}{=\frac{-3}{\sqrt[3]{27}} = -1.}}
-\end{align*}\]
+\end{align*}
 </steps>
                   </newcol>
                   <hr environment="" />
                 </li>
                 <li environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ </paragraphs>
                   <br environment="" />
-                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
-                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
-\[\begin{align*}
+                  <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
+                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
+\begin{align*}
 &amp;=
 \lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
 \cdot
@@ -340,176 +332,168 @@ $ </paragraphs>
 \\
 &amp;
 \class{steps}{\cssId{step4}{=\frac{1}{4}.}}
-\end{align*}\]
+\end{align*}
 </steps>
                   </newcol>
                 </li>
               </ul>
             </slide>
-          </slides>
-        </subsection>
-        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 1010" chapter="1" section="1" num="4" serial="1.1.4">
-          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.4" slide="">
-            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
-          </title>
-          <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="8" scope="subsection" id="s8" slide="8" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 1010" chapter="1" section="1" subsection="2" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="8" environ="slide" chapter="1" course="Math 1010"/>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" serial="" slide="8">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
-              </title>
-              <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="itemize">
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_5.pg"/>
-                </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_6.pg"/>
-                </item>
-                <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="item">
-                  <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_7.pg"/>
-                </item>
-              </itemize>
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="4" course="Math 1010" chapter="1" slide="8" item="1.4">
+                <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="itemize">
+                  <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+                    <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_5.pg"/>
+                  </item>
+                  <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+                    <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_6.pg"/>
+                  </item>
+                  <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
+                    <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_7.pg"/>
+                  </item>
+                </itemize>
+              </statement>
             </slide>
           </slides>
         </subsection>
-        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Monotonic Sequences" course="Math 1010" chapter="1" section="1" num="5" serial="1.1.5">
-          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.5" slide="">
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Monotonic Sequences" course="Math 1010" chapter="1" section="1" num="3" serial="1.1.3">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.3" slide="">
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Monotonic Sequences</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="9" scope="subsection" id="s9" slide="9" course="Math 1010" chapter="1" section="1" subsection="5" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" canon_num="9" scope="subsection" id="s9" slide="9" course="Math 1010" chapter="1" section="1" subsection="3" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="9" environ="slide" chapter="1" course="Math 1010">
                 <keyword chapter="1" slide="9">increasing</keyword>
                 <keyword chapter="1" slide="9">decreasing</keyword>
                 <keyword chapter="1" slide="9">monotonic</keyword>
                 <keyword chapter="1" slide="9">Monotone Convergence Theorem</keyword>
               </keywords>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="5" subsubsection="" serial="" slide="9">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="title" wbtag="paragraphs">Monotonic Sequences</paragraphs>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="3" subsubsection="" serial="" slide="9">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="title" wbtag="paragraphs">Monotonic Sequences</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="3" md5="994db5d99f37e192c8dfc03fc2ec546c" course="Math 1010" chapter="1" slide="9" item="1.3">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> A sequence $\{a_n\}$ is said to be: </paragraphs>
+              <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="5" md5="994db5d99f37e192c8dfc03fc2ec546c" course="Math 1010" chapter="1" slide="9" item="1.5">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> A sequence $\{a_n\}$ is said to be: </paragraphs>
                 <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                   <li environment="statement">
-                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement">increasing</inline_keyword>
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> if $a_{n+1} \geq a_n$ for all $n$, </paragraphs>
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement">increasing</inline_keyword>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> if $a_{n+1} \geq a_n$ for all $n$, </paragraphs>
                   </li>
                   <li environment="statement">
-                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement">decreasing</inline_keyword>
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> if $a_{n + 1} \leq a_n$ for all $n$. </paragraphs>
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement">decreasing</inline_keyword>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> if $a_{n + 1} \leq a_n$ for all $n$. </paragraphs>
                   </li>
                 </ul>
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> A sequence is said to be </paragraphs>
-                <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement">monotonic</inline_keyword>
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> if it is either increasing or decreasing. </paragraphs>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> A sequence is said to be </paragraphs>
+                <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement">monotonic</inline_keyword>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> if it is either increasing or decreasing. </paragraphs>
               </statement>
-              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="4" title="Monotone Convergence Theorem" md5="0a9a808f463b83d0689aff03cf2bbb05" course="Math 1010" chapter="1" slide="9" item="1.4">
-                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="1" section="1" subsection="5" subsubsection="" serial="" slide="9">Monotone Convergence Theorem</title>
-                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\{a_n\}$ is either:</paragraphs>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="collapse">
+              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment=""/>
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="6" title="Monotone Convergence Theorem" md5="0a9a808f463b83d0689aff03cf2bbb05" course="Math 1010" chapter="1" slide="9" item="1.6">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="1" section="1" subsection="3" subsubsection="" serial="" slide="9">Monotone Convergence Theorem</title>
+                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\{a_n\}$ is either:</paragraphs>
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
                     <blockquote xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                       <i environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">increasing</paragraphs>
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">increasing</paragraphs>
                       </i>
-                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
 and bounded </paragraphs>
                       <i environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">above</paragraphs>
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">above</paragraphs>
                       </i>
-                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</paragraphs>
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</paragraphs>
                     </blockquote>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> or</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> or</paragraphs>
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
                       <blockquote xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                         <i environment="newcol">
-                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">decreasing</paragraphs>
+                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">decreasing</paragraphs>
                         </i>
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
 and bounded </paragraphs>
                         <i environment="newcol">
-                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">below</paragraphs>
+                          <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">below</paragraphs>
                         </i>
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</paragraphs>
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</paragraphs>
                       </blockquote>
-                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> then $\{a_n\}$ converges. </paragraphs>
+                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> then $\{a_n\}$ converges. </paragraphs>
                     </collapse>
                   </collapse>
                 </newcol>
               </statement>
-              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment=""/>
-              <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover,</paragraphs>
-                <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> if $\{a_n\}$ is increasing and $a_n \leq M$ for all $n$,
+              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment=""/>
+              <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover,</paragraphs>
+                <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> if $\{a_n\}$ is increasing and $a_n \leq M$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n \leq M$.</paragraphs>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                  <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n \geq M$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                   </collapse>
                 </collapse>
               </newcol>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="1" section="1" subsection="5" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="1" section="1" subsection="3" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="10" environ="slide" chapter="1" course="Math 1010">
                 <keyword chapter="1" slide="10">mathematical induction</keyword>
                 <keyword chapter="1" slide="10">induction hypothesis</keyword>
               </keywords>
-              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="5" md5="74514ec48de40abf38a267cbc1c55b96" course="Math 1010" chapter="1" slide="10" item="1.5">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\{a_n\}$ be a sequence of real numbers, which is defined by
+              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="7" md5="74514ec48de40abf38a267cbc1c55b96" course="Math 1010" chapter="1" slide="10" item="1.7">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\{a_n\}$ be a sequence of real numbers, which is defined by
 \[
 a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n&gt;1$.}
 \] </paragraphs>
                 <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                   <li environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> Prove that $0 \leq a_n\leq 3$.
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> Prove that $0 \leq a_n\leq 3$.
 (Hint: Perhaps </paragraphs>
-                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement">mathematical induction</inline_keyword>
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> could be useful here.) </paragraphs>
+                    <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement">mathematical induction</inline_keyword>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> could be useful here.) </paragraphs>
                   </li>
                   <li environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="statement" wbtag="paragraphs"> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </paragraphs>
                   </li>
                 </ol>
               </statement>
               <substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="6f56abde813587ae7a2aca13a764f1fa" course="Math 1010" chapter="1" slide="10">
-                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> 1. </paragraphs>
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
+                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> 1. </paragraphs>
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.</paragraphs>
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">Base Step</paragraphs>
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Base Step</paragraphs>
                     </u>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> : By definition, $a_1 = 1 \geq 0$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> : By definition, $a_1 = 1 \geq 0$.</paragraphs>
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">Inductive Step</paragraphs>
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Inductive Step</paragraphs>
                     </u>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> : Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">By the definition of the sequence, we have:
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> : Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.</paragraphs>
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">By the definition of the sequence, we have:
 \[
 a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
 By the </paragraphs>
-                    <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol">induction hypothesis</inline_keyword>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> , i.e. $a_n \geq 0$, we have:
+                    <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol">induction hypothesis</inline_keyword>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">, i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 &gt; 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
 Hence, $a_{n + 1} \geq 0$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">It now follows from the principle of mathematical induction
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">It now follows from the principle of mathematical induction
 that $a_n \geq 0$ for all $a \in \mathbb{N}$. </paragraphs>
                     <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, to show that $a_n \leq 3$, we first observe that
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
 Whenever $a_n \leq 3$, we have:
 \[
@@ -523,10 +507,10 @@ which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we
 for all $n \in \mathbb{N}$. </paragraphs>
                     <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
-                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">2. </paragraphs>
-                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for all $n \in \mathbb{N}$,
+                  <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">2. </paragraphs>
+                  <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for all $n \in \mathbb{N}$,
 we have:
 \[
 \begin{split}
@@ -539,12 +523,12 @@ a_{n + 1} - a_n
 \end{split}
 \]
 since $0 \leq a_n \leq 3$, as shown in Part 1.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
 Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
 by the Monotone Convergence Theorem.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">To find $L$, we take the limit as $n \rightarrow \infty$ of
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">To find $L$, we take the limit as $n \rightarrow \infty$ of
 both sides of the equation:
 \[
 a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
@@ -560,41 +544,41 @@ L = \frac{12 L  + 12}{L + 13},
 \]
 since
 $\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">The equation above implies that:
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">The equation above implies that:
 \[
 L^2 + L - 12 = 0,
 \]
 which gives $L = 3$ or $L = -4$.
 Since the sequence $\{a_n\}$ is bounded below by $0$,
 we may eliminate the case $L = -4$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol" wbtag="paragraphs">We conclude that:
+                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">We conclude that:
 \[
 \lim_{n \rightarrow \infty} a_n = 3.
 \] </paragraphs>
-                    <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="5" subsubsection="" environment="newcol"/>
+                    <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                   </newcol>
                 </newcol>
               </substatement>
             </slide>
           </slides>
         </subsection>
-        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Sandwich Theorem" course="Math 1010" chapter="1" section="1" num="6" serial="1.1.6">
-          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.6" slide="">
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Sandwich Theorem" course="Math 1010" chapter="1" section="1" num="4" serial="1.1.4">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" serial="1.1.4" slide="">
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Sandwich Theorem</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="11" scope="subsection" id="s11" slide="11" course="Math 1010" chapter="1" section="1" subsection="6" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" canon_num="11" scope="subsection" id="s11" slide="11" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="11" environ="slide" chapter="1" course="Math 1010">
                 <keyword chapter="1" slide="11">Sandwich Theorem for Sequences</keyword>
               </keywords>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="6" subsubsection="" serial="" slide="11">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="title" wbtag="paragraphs">Sandwich Theorem</paragraphs>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" serial="" slide="11">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="title" wbtag="paragraphs">Sandwich Theorem</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="6" title="Sandwich Theorem for Sequences" md5="c2d72236232e7c4d270f6a54704e8f35" course="Math 1010" chapter="1" slide="11" item="1.6">
-                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="1" section="1" subsection="6" subsubsection="" serial="" slide="11">Sandwich Theorem for Sequences</title>
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\{a_n\}$, $\{b_n\}$, $\{c_n\}$ be sequences such that:
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="8" title="Sandwich Theorem for Sequences" md5="c2d72236232e7c4d270f6a54704e8f35" course="Math 1010" chapter="1" slide="11" item="1.8">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" serial="" slide="11">Sandwich Theorem for Sequences</title>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement" wbtag="paragraphs"> Let $\{a_n\}$, $\{b_n\}$, $\{c_n\}$ be sequences such that:
 \[
 a_n \leq b_n \leq c_n
 \]
@@ -605,27 +589,27 @@ If
 \]
 then $\lim_{n \rightarrow \infty} b_n = L$ also. </paragraphs>
               </statement>
-              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment=""/>
-              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="7" md5="ef7a816bb4b76b7754591fcabd071bbe" course="Math 1010" chapter="1" slide="11" item="1.7">
-                <col_ol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="col_ol">
-                  <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="paragraphs"> Find the following limit:
+              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment=""/>
+              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="9" md5="ef7a816bb4b76b7754591fcabd071bbe" course="Math 1010" chapter="1" slide="11" item="1.9">
+                <col_ol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Find the following limit:
 $\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$. </paragraphs>
                     <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
                   </col_li>
-                  <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_li">
                     <ul xmlns="http://www.w3.org/1999/xhtml" environment="col_ol">
                       <li environment="col_ol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="paragraphs"> Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$. </paragraphs>
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$. </paragraphs>
                       </li>
                       <li environment="col_ol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="paragraphs"> Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$. </paragraphs>
+                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$. </paragraphs>
                       </li>
                     </ul>
                     <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
                   </col_li>
-                  <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="col_ol" wbtag="paragraphs"> Suppose $0 &lt; a &lt; 1$. Let $b=\frac{1}{a}-1$.
+                  <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ol" wbtag="paragraphs"> Suppose $0 &lt; a &lt; 1$. Let $b=\frac{1}{a}-1$.
 For $n\ge 2$, use the binomial theorem to show that
 \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
 Then, show that:
@@ -635,62 +619,62 @@ Then, show that:
                 </col_ol>
               </statement>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="1" section="1" subsection="6" subsubsection="" chapter_title="" section_title="Sequences and Limits">
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="1" section="1" subsection="4" subsubsection="" chapter_title="" section_title="Sequences and Limits">
               <keywords slide="12" environ="slide" chapter="1" course="Math 1010"/>
-              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="8" md5="ec9cbfb203da280be42d74e4c0671a19" course="Math 1010" chapter="1" slide="12" item="1.8">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="statement" wbtag="paragraphs"> Using the inequality:
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="10" md5="ec9cbfb203da280be42d74e4c0671a19" course="Math 1010" chapter="1" slide="12" item="1.10">
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement" wbtag="paragraphs"> Using the inequality:
 \[
 \frac{1}{\sqrt{n^2+n}} \leq \frac{1}{\sqrt{n^2+r}} \leq \frac{1}{\sqrt{n^2+1}},
 \quad
 \text{ for } r=1,2,3,\cdots,n,
 \]</paragraphs>
-                <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="statement"/>
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="statement" wbtag="paragraphs">prove that:</paragraphs>
-                <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="statement"/>
-                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+                <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement"/>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement" wbtag="paragraphs">prove that:</paragraphs>
+                <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement"/>
+                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\] </paragraphs>
                 </newcol>
                 <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
                 <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                 </strong>
-                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
-\[\begin{align*}
+                <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
+\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\leq
 \underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+1}},
-\end{align*}\] </paragraphs>
-                  <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="collapse">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
-\[\begin{align*}
+\end{align*} </paragraphs>
+                  <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
+\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\geq
 \underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}\] </paragraphs>
-                    <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="collapse">
-                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
+\end{align*} </paragraphs>
+                    <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+1}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n^2}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n^2}} = 1,
 \] </paragraphs>
-                      <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
+                      <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
 \[
 \lim_{n \rightarrow \infty} \frac{n}{\sqrt{n^2+n}}
 = \lim_{n \rightarrow \infty} \frac{n}{n\sqrt{1 + \frac{1}{n}}}
 = \lim_{n \rightarrow \infty} \frac{1}{1 + \frac{1}{n}} = 1,
 \] </paragraphs>
-                        <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="collapse">
-                          <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol" wbtag="paragraphs"> by the Sandwich Theorem we conclude that:
+                        <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> by the Sandwich Theorem we conclude that:
 \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.
 \] </paragraphs>
-                          <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="6" subsubsection="" environment="newcol"/>
+                          <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol"/>
                         </collapse>
                       </collapse>
                     </collapse>
