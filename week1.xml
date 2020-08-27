@@ -76,7 +76,7 @@ a_1, a_2, a_3, \ldots,a_n,\ldots
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
 \] </paragraphs>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+              <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
             </newcol>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="952504e836a0948c7e81649c676de462" course="Math 1010" chapter="1" slide="3" item="1.1">
               <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -86,14 +86,14 @@ a_1, a_2, a_3, \ldots,a_n,\ldots
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
 \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="col_ul" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
 \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="col_ul" />
                   </col_li>
                   <col_li course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">Fibonacci Sequence</inline_keyword>
@@ -108,8 +108,8 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \]
 In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
                     <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul">recursively</inline_keyword>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> . </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs">. </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="col_ul" />
                   </col_li>
                 </col_ul>
               </newcol>
