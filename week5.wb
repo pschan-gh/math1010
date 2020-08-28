@@ -1,20 +1,17 @@
 @course{Math 1010}
 @week{5}
 @topic{Differentiation}
-@section{
-Derivatives}
+@section{Derivatives}
 @defn
 We say that a function $f$ is @keyword{differentiable} at $c$ if the limit:
 \[
 f'(c) := \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}
 \]
 exists.
-The limit $f'(c)$, if it exists, is called the @keyword{derivative}
-of $f$ at $c$.
+The limit $f'(c)$, if it exists, is called the @keyword{derivative} of $f$ at $c$.
 @end
 @newcol
-We say that a function $f$ is @keyword{differentiable}
-if it is differentiable at every point in its domain.
+We say that a function $f$ is @keyword{differentiable} if it is differentiable at every point in its domain.
 @endcol
 @slide
 @ex
@@ -23,8 +20,7 @@ Is $f$ differentiable at $x = 0$?  If so, find $f'(0)$.
 @end
 @slide
 @thm
-If a function $f$ is differentiable at $c$, then it is also continuous at $c$.
-<p/>
+If a function $f$ is differentiable at $c$, then it is also continuous at $c$. <p/>
 (The converse is false in general.)
 @end
 @eg
@@ -32,8 +28,7 @@ Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by\[
 f(x) = \left\{ \begin{array}{ccc} x^3 & \textrm{if} & x\leq1; \\ \\ ax+b & \textrm{if} & x>1. \end{array}\right. \]
 Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$.
 @end
-@section{
-WeBWorK}
+@section{WeBWorK}
 @enumerate
 @item
 @webwork{Library/AlfredUniv/anton8e/chapter3/3.2/prob5.pg}
@@ -53,11 +48,9 @@ WeBWorK}
 @webwork{Library/UCSB/Stewart5_2_9/Stewart5_2_9_24.pg}
 @endenumerate
 
-
 @section{Tangent Line}
 If the derivative $f'(c)$ exists,
-then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$.
-<p/>
+then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$. <p/>
 Moreover, the slope of the tangent line is $f'(c)$,
 and the tangent line is the graph of the equation:
 \[
@@ -65,84 +58,31 @@ y = f'(c)(x - c) + f(c).
 \]
 @slide
 Given $f : A \longrightarrow\mathbb{R}$,
-the correspondence $x \mapsto f'(x)$ defines the @keyword{derivative function}
-$f' : A' \longrightarrow\mathbb{R}$, where $A'$ is the set of all points $c \in A$
+the correspondence $x \mapsto f'(x)$ defines the @keyword{derivative function} $f' : A' \longrightarrow\mathbb{R}$, where $A'$ is the set of all points $c \in A$
 at which $f$ is differentiable.
 @section{Some Common Derivative Identities}
 <table class="table table-hover table-striped table-bordered">
 <thead class="thead-default">
 <tr>
-<th>$f(x)$</th>
-<th>$f'(x)$</th>
-</tr>
-</thead>
+<th>$f(x)$</th><th>$f'(x)$</th></tr></thead><tbody>
 <tr>
-<td>constant</td>
-<td>$0$</td>
-</tr>
-<tr>
-<td>$ax + b \quad (a, b \in \mathbb{R})$</td>
-<td>$a$</td>
-</tr>
-<tr>
-<td>$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</td>
-<td>$nx^{n - 1}$</td>
-</tr>
-<tr>
-<td>$x^r \quad (r \in \mathbb{R},\; x > 0)$</td>
-<td>$rx^{r - 1}$</td>
-</tr>
-<tr>
-<td>$e^x$</td>
-<td>$e^x$</td>
-</tr>
-<tr>
-<td>$a^x \quad (a > 0)$</td>
-<td>$(\ln a)a^x$</td>
-</tr>
-<tr>
-<td>$\ln \abs{x}$</td>
-<td>$\displaystyle \frac{1}{x}$</td>
-</tr>
-<tr>
-<td>$\log_a x \quad (a \neq 1,\; a > 0)$</td>
-<td>$\displaystyle \frac {1}{(\ln a)x}$</td>
-</tr>
-<tr>
-<td>$\sin x$</td>
-<td>$\cos x$</td>
-</tr>
-<tr>
-<td>$\cos x$</td>
-<td>$-\sin x$</td>
-</tr>
-<tr>
-<td>$\tan x$</td>
-<td>$\sec^2 x$</td>
-</tr>
-<tr>
-<td>$\sec x$</td>
-<td>$\sec x\tan x$</td>
-</tr>
-<tr>
-<td>$\cot x$</td>
-<td>$-\csc^2 x$</td>
-</tr>
-<tr>
-<td>$\csc x$</td>
-<td>$-\csc x \cot x$</td>
-</tr>
-<tr>
-<td>$\arctan x$</td>
-<td>$\displaystyle \frac{1}{x^2 + 1}$</td>
-</tr>
-<tr>
-<td>$\arcsin x\quad(-1 < x < 1)$</td>
-<td>$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</td>
-</tr>
-</table>
-@section{
-Leibniz Notation}
+<td>constant</td><td>$0$</td></tr><tr>
+<td>$ax + b \quad (a, b \in \mathbb{R})$</td><td>$a$</td></tr><tr>
+<td>$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</td><td>$nx^{n - 1}$</td></tr><tr>
+<td>$x^r \quad (r \in \mathbb{R},\; x > 0)$</td><td>$rx^{r - 1}$</td></tr><tr>
+<td>$e^x$</td><td>$e^x$</td></tr><tr>
+<td>$a^x \quad (a > 0)$</td><td>$(\ln a)a^x$</td></tr><tr>
+<td>$\ln \abs{x}$</td><td>$\displaystyle \frac{1}{x}$</td></tr><tr>
+<td>$\log_a x \quad (a \neq 1,\; a > 0)$</td><td>$\displaystyle \frac {1}{(\ln a)x}$</td></tr><tr>
+<td>$\sin x$</td><td>$\cos x$</td></tr><tr>
+<td>$\cos x$</td><td>$-\sin x$</td></tr><tr>
+<td>$\tan x$</td><td>$\sec^2 x$</td></tr><tr>
+<td>$\sec x$</td><td>$\sec x\tan x$</td></tr><tr>
+<td>$\cot x$</td><td>$-\csc^2 x$</td></tr><tr>
+<td>$\csc x$</td><td>$-\csc x \cot x$</td></tr><tr>
+<td>$\arctan x$</td><td>$\displaystyle \frac{1}{x^2 + 1}$</td></tr><tr>
+<td>$\arcsin x\quad(-1 < x < 1)$</td><td>$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</td></tr></tbody></table>
+@section{Leibniz Notation}
 If $f$ is defined in terms of an independent variable $x$,
 we often denote $f'(x)$ by $\displaystyle \frac{df}{dx}\;$.
 Under this notation, for a given $c \in \mathbb{R}$
@@ -151,17 +91,10 @@ the value $f'(c)$ is denoted by:
 \left.\frac{df}{dx}\,\right|_{x = c}
 \]
 
-
-
-
-@section{
-Rules of Differentiation}
-@keyword*{product rule} @keyword*{quotient rule}
-Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
-Then:
-<br/><br/>
-<h5>Sum/Difference Rule</h5>@keyword*{sum/difference rule}
-<br/>
+@section{Rules of Differentiation}
+@keyword{product rule}
+@keyword{quotient rule} Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
+Then: <br/><br/><h5 text="SumDifferenceRule">Sum/Difference Rule</h5>@keyword{sum/difference rule} <br/>
 @newcol
 $f \pm g$ is differentiable at $c$, with:
 \[
@@ -169,7 +102,7 @@ $f \pm g$ is differentiable at $c$, with:
 \]
 @proof
 @newcol
-\begin{align*}
+\[\begin{align*}
 (f + g)'(c) &= \lim_{h \rightarrow 0} \frac{(f + g)(c + h) - (f + g)(c)}{h}
 \\&
 = \lim_{h \rightarrow 0} \frac{f(c + h) + g(c + h) - f(c) - g(c)}{h}
@@ -177,7 +110,7 @@ $f \pm g$ is differentiable at $c$, with:
 = \lim_{h \rightarrow 0}\left[ \frac{f(c + h) - f(c)}{h} +
 \frac{g(c + h) - g(c)}{h} \right].
 \tag{$\ast$}
-\end{align*}
+\end{align*}\]
 @col
 Since by assumption both $f'(c) = \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}$
 and
@@ -185,24 +118,18 @@ $g'(c) = \lim_{h \rightarrow 0} \frac{g(c + h) - g(c)}{h}$ exist,
 by the sum rule for limits the expression $(\ast)$ is equal to:
 \[
 f'(c) + g'(c).
-\]
-<strong>Exercise.</strong>
-Show that $(f - g)'(c) = f'(c) - g'(c)$.
+\] <strong>Exercise.</strong> Show that $(f - g)'(c) = f'(c) - g'(c)$.
 @endcol
 @end
 @endcol
-<hr/>
-<h5>Product Rule</h5>
-<br/>
+<hr/><h5 text="ProductRule">Product Rule</h5><br/>
 @newcol
 $fg$ is differentiable at $c$, with:
 \[
 (fg)'(c) = f'(c)g(c) + f(c)g'(c).
 \]
 @endcol
-<hr/>
-<h5>Quotient Rule</h5>
-<br/>
+<hr/><h5 text="QuotientRule">Quotient Rule</h5><br/>
 @newcol
 $f/g$ is differentiable at $c$ provided that $g(c) \neq 0$,
 in which case we have:
@@ -212,9 +139,7 @@ in which case we have:
 @endcol
 <hr/>
 
-
-@section{
-Chain Rule}
+@section{Chain Rule}
 @thm
 Suppose $f$ is differentiable at $c$ and $g$ is differentiable at $f(c)$,
 then $g \circ f$ is differentiable at $c$, with:
@@ -238,13 +163,12 @@ and $u$ is a differentiable function of $x$, then:
 @ex
 Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by
 \[
-f(x) = \begin{cases} x^2\sin\left(\frac{1}{x}\,\right) & \text{ if } x\neq 0; \\
+f(x) = \begin{cases} x\sin\left(\frac{1}{x^2}\,\right) & \text{ if } x\neq 0; \\
 \;0 & \text{ if } x = 0.\end{cases}
 \]
-Find $f'$.  Is $f'$ continuous at $x = 0$?
+Find $f'$.
 @end
-@section{
-WeBWorK}
+@section{WeBWorK}
 @enumerate
 @item
 @webwork{Library/Michigan/Chap3Sec2/Q09.pg}

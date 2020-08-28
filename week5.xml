@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -44,7 +43,6 @@
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Derivatives" course="Math 1010" chapter="5" num="1" serial="5.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" serial="5.1" slide="">
-          <newline course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Derivatives</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -55,7 +53,6 @@
               <keyword chapter="5" slide="3">differentiable</keyword>
             </keywords>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <newline course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Derivatives</paragraphs>
             </title>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="e2155da3a1bf7e24cebf2801c08c41bb" course="Math 1010" chapter="5" slide="3" item="5.1">
@@ -87,7 +84,7 @@ Is $f$ differentiable at $x = 0$?  If so, find $f'(0)$. </paragraphs>
             <keywords slide="5" environ="slide" chapter="5" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" md5="406bb1b04871f9c634b9a16bc72f7d98" course="Math 1010" chapter="5" slide="5" item="5.3">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a function $f$ is differentiable at $c$, then it is also continuous at $c$. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (The converse is false in general.) </paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="5d2152ec08d537729560b36dc21c59fa" course="Math 1010" chapter="5" slide="5" item="5.4">
@@ -100,14 +97,12 @@ Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$. </paragr
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="5" num="2" serial="5.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="2" subsection="" subsubsection="" serial="5.2" slide="">
-          <newline course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="6" scope="section" id="s6" slide="6" course="Math 1010" chapter="5" section="2" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
             <keywords slide="6" environ="slide" chapter="5" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="2" subsection="" subsubsection="" serial="" slide="6">
-              <newline course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
             <enumerate course="Math 1010" chapter="5" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -152,7 +147,7 @@ Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$. </paragr
             </title>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If the derivative $f'(c)$ exists,
 then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$. </paragraphs>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Moreover, the slope of the tangent line is $f'(c)$,
 and the tangent line is the graph of the equation:
 \[
@@ -192,148 +187,148 @@ at which $f$ is differentiable. </paragraphs>
                   </th>
                 </tr>
               </thead>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">constant</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$0$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ax + b \quad (a, b \in \mathbb{R})$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$nx^{n - 1}$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$x^r \quad (r \in \mathbb{R},\; x &gt; 0)$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$rx^{r - 1}$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$e^x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$e^x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a^x \quad (a &gt; 0)$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$(\ln a)a^x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\ln \abs{x}$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{x}$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\log_a x \quad (a \neq 1,\; a &gt; 0)$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac {1}{(\ln a)x}$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sin x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cos x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cos x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\sin x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\tan x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec^2 x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec x\tan x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cot x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\csc^2 x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\csc x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\csc x \cot x$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\arctan x$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{x^2 + 1}$</paragraphs>
-                </td>
-              </tr>
-              <tr environment="">
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\arcsin x\quad(-1 &lt; x &lt; 1)$</paragraphs>
-                </td>
-                <td environment="">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</paragraphs>
-                </td>
-              </tr>
+              <tbody environment="">
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">constant</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$0$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$ax + b \quad (a, b \in \mathbb{R})$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$nx^{n - 1}$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$x^r \quad (r \in \mathbb{R},\; x &gt; 0)$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$rx^{r - 1}$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$e^x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$e^x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$a^x \quad (a &gt; 0)$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$(\ln a)a^x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\ln \abs{x}$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{x}$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\log_a x \quad (a \neq 1,\; a &gt; 0)$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac {1}{(\ln a)x}$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sin x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cos x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cos x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\sin x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\tan x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec^2 x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\sec x\tan x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\cot x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\csc^2 x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\csc x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$-\csc x \cot x$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\arctan x$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{x^2 + 1}$</paragraphs>
+                  </td>
+                </tr>
+                <tr environment="">
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\arcsin x\quad(-1 &lt; x &lt; 1)$</paragraphs>
+                  </td>
+                  <td environment="">
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs">$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</paragraphs>
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </slide>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Leibniz Notation" course="Math 1010" chapter="5" num="5" serial="5.5">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="5" subsection="" subsubsection="" serial="5.5" slide="">
-          <newline course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Leibniz Notation</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="10" scope="section" id="s10" slide="10" course="Math 1010" chapter="5" section="5" subsection="" subsubsection="" chapter_title="" section_title="Leibniz Notation">
             <keywords slide="10" environ="slide" chapter="5" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="5" subsection="" subsubsection="" serial="" slide="10">
-              <newline course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Leibniz Notation</paragraphs>
             </title>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $f$ is defined in terms of an independent variable $x$,
@@ -349,7 +344,6 @@ the value $f'(c)$ is denoted by:
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Rules of Differentiation" course="Math 1010" chapter="5" num="6" serial="5.6">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="6" subsection="" subsubsection="" serial="5.6" slide="">
-          <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rules of Differentiation</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -363,21 +357,20 @@ the value $f'(c)$ is denoted by:
               <keyword chapter="5" slide="11">Quotient Rule</keyword>
             </keywords>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="6" subsection="" subsubsection="" serial="" slide="11">
-              <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Rules of Differentiation</paragraphs>
             </title>
-            <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">product rule</hc_keyword>
-            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>
-            <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">quotient rule</hc_keyword>
+            <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="">product rule</inline_keyword>
+            <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="">quotient rule</inline_keyword>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
 Then: </paragraphs>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <h5 xmlns="http://www.w3.org/1999/xhtml" text="SumDifferenceRule" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Sum/Difference Rule</paragraphs>
             </h5>
-            <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">sum/difference rule</hc_keyword>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="">sum/difference rule</inline_keyword>
+            <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs"> </paragraphs>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f \pm g$ is differentiable at $c$, with:
 \[
@@ -385,7 +378,7 @@ Then: </paragraphs>
 \] </paragraphs>
               <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2cf2ab64571dd12c7c38a7d9196840b1" course="Math 1010" chapter="5" slide="11" of="5d2152ec08d537729560b36dc21c59fa">
                 <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{align*}
+                  <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[\begin{align*}
 (f + g)'(c) &amp;= \lim_{h \rightarrow 0} \frac{(f + g)(c + h) - (f + g)(c)}{h}
 \\&amp;
 = \lim_{h \rightarrow 0} \frac{f(c + h) + g(c + h) - f(c) - g(c)}{h}
@@ -393,7 +386,7 @@ Then: </paragraphs>
 = \lim_{h \rightarrow 0}\left[ \frac{f(c + h) - f(c)}{h} +
 \frac{g(c + h) - g(c)}{h} \right].
 \tag{$\ast$}
-\end{align*} </paragraphs>
+\end{align*}\] </paragraphs>
                   <collapse course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since by assumption both $f'(c) = \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}$
 and
@@ -410,22 +403,22 @@ f'(c) + g'(c).
                 </newcol>
               </substatement>
             </newcol>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <h5 xmlns="http://www.w3.org/1999/xhtml" text="ProductRule" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Product Rule</paragraphs>
             </h5>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $fg$ is differentiable at $c$, with:
 \[
 (fg)'(c) = f'(c)g(c) + f(c)g'(c).
 \] </paragraphs>
             </newcol>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <h5 xmlns="http://www.w3.org/1999/xhtml" text="QuotientRule" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Quotient Rule</paragraphs>
             </h5>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f/g$ is differentiable at $c$ provided that $g(c) \neq 0$,
 in which case we have:
@@ -433,21 +426,19 @@ in which case we have:
 \left(\frac{f}{g}\right)'(c) = \frac{g(c)f'(c) - f(c) g'(c)}{[g(c)]^2}\;\;.
 \] </paragraphs>
             </newcol>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment=""/>
           </slide>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Chain Rule" course="Math 1010" chapter="5" num="7" serial="5.7">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" serial="5.7" slide="">
-          <newline course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Chain Rule</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" chapter_title="" section_title="Chain Rule">
             <keywords slide="12" environ="slide" chapter="5" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" serial="" slide="12">
-              <newline course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Chain Rule</paragraphs>
             </title>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="b181442a1c81dc6cddc4d0414c8db985" course="Math 1010" chapter="5" slide="12" item="5.5">
@@ -472,27 +463,25 @@ and $u$ is a differentiable function of $x$, then:
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="5" section="7" subsection="" subsubsection="" chapter_title="" section_title="Chain Rule">
             <keywords slide="13" environ="slide" chapter="5" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="bc75c4e8563baaf50c7a133c1235d12c" course="Math 1010" chapter="5" slide="13" item="5.6">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="6" md5="93ea1bc867b35738c2b62da9c7834cb7" course="Math 1010" chapter="5" slide="13" item="5.6">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="7" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by
 \[
-f(x) = \begin{cases} x^2\sin\left(\frac{1}{x}\,\right) &amp; \text{ if } x\neq 0; \\
+f(x) = \begin{cases} x\sin\left(\frac{1}{x^2}\,\right) &amp; \text{ if } x\neq 0; \\
 \;0 &amp; \text{ if } x = 0.\end{cases}
 \]
-Find $f'$.  Is $f'$ continuous at $x = 0$? </paragraphs>
+Find $f'$. </paragraphs>
             </statement>
           </slide>
         </slides>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="5" num="8" serial="5.8">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="8" subsection="" subsubsection="" serial="5.8" slide="">
-          <newline course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="14" scope="section" id="s14" slide="14" course="Math 1010" chapter="5" section="8" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
             <keywords slide="14" environ="slide" chapter="5" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="5" section="8" subsection="" subsubsection="" serial="" slide="14">
-              <newline course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
             <enumerate course="Math 1010" chapter="5" chapter_type="" section="8" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
