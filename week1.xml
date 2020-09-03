@@ -203,8 +203,8 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$. </pa
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
-$$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
-= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$ </paragraphs>
+\[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
@@ -215,9 +215,9 @@ $$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize"/>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge, then:
-$$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
+\[\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
-\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$ </paragraphs>
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
@@ -230,14 +230,14 @@ $$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> If both $\{a_n\}$ and $\{b_n\}$ converge,
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
-$$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
-= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$ </paragraphs>
+\[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
                 <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="itemize" wbtag="item">
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> $$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$ </paragraphs>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> \[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\] </paragraphs>
                   </newcol>
                   <hr xmlns="http://www.w3.org/1999/xhtml" environment="itemize" />
                 </item>
@@ -273,7 +273,7 @@ $ </paragraphs>
                   <br environment="" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
-\begin{align*}
+\[\begin{align*}
 &amp;{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
 \frac{3n^2 - 2n + 7}{2n^2 + 3}}
 \\
@@ -283,7 +283,7 @@ $ </paragraphs>
 \\
 &amp;
 \class{steps}{\cssId{step1}{= \frac{3}{2}.}}
-\end{align*}
+\end{align*}\]
 </steps>
                   </newcol>
                   <hr environment="" />
@@ -293,7 +293,7 @@ $ </paragraphs>
                   <br environment="" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
-\begin{align*}
+\[\begin{align*}
 &amp;=
 \lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
 \\
@@ -302,7 +302,7 @@ $ </paragraphs>
 \\
 &amp;
 \class{steps}{\cssId{step1}{=\frac{-3}{\sqrt[3]{27}} = -1.}}
-\end{align*}
+\end{align*}\]
 </steps>
                   </newcol>
                   <hr environment="" />
@@ -312,7 +312,7 @@ $ </paragraphs>
                   <br environment="" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                     <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
-\begin{align*}
+\[\begin{align*}
 &amp;=
 \lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
 \cdot
@@ -332,7 +332,7 @@ $ </paragraphs>
 \\
 &amp;
 \class{steps}{\cssId{step4}{=\frac{1}{4}.}}
-\end{align*}
+\end{align*}\]
 </steps>
                   </newcol>
                 </li>
@@ -462,7 +462,7 @@ a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $
                   </li>
                 </ol>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="6f56abde813587ae7a2aca13a764f1fa" course="Math 1010" chapter="1" slide="10">
+              <substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="302a6d8630af30ca991261f9a6f02026" course="Math 1010" chapter="1" slide="10">
                 <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> 1. </paragraphs>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
@@ -493,71 +493,103 @@ Hence, $a_{n + 1} \geq 0$.</paragraphs>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">It now follows from the principle of mathematical induction
 that $a_n \geq 0$ for all $a \in \mathbb{N}$. </paragraphs>
                     <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, to show that $a_n \leq 3$, we first observe that
+                    <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
-Whenever $a_n \leq 3$, we have:
+Whenever $a_n \leq 3$, we have:</paragraphs>
+                      <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                        <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps4">
 \[
 \begin{split}
-3 - a_{n+1} &amp;= 3 - \frac{12a_n + 12}{a_n + 13}\\
-&amp;= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}\\
-&amp;= \frac{9(3 - a_n)}{a_n + 13} \geq 0,
+3 - a_{n+1}
+&amp;
+\class{steps}{\cssId{step0}{= 3 - \frac{12a_n + 12}{a_n + 13}}}
+\\
+&amp;
+\class{steps}{\cssId{step1}{= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}}}
+\\
+&amp;
+\class{steps}{\cssId{step2}{= \frac{9(3 - a_n)}{a_n + 13} \geq 0,}}
 \end{split}
 \]
-which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
+</steps>
+                        <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
 for all $n \in \mathbb{N}$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                          <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                        </collapse>
+                      </collapse>
+                    </collapse>
                   </newcol>
                   <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                   <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">2. </paragraphs>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for all $n \in \mathbb{N}$,
-we have:
+we have: </paragraphs>
+                    <steps course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps5">
 \[
 \begin{split}
 a_{n + 1} - a_n
-&amp;= \frac{12a_n + 12}{a_n + 13} - a_n\\
-&amp;= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}\\
-&amp;= -\frac{a_n^2 +a_n - 12}{a_n + 13}\\
-&amp;= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}\\
-&amp;\geq 0,
+&amp;
+\class{steps}{\cssId{step0}{= \frac{12a_n + 12}{a_n + 13} - a_n}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}}}
+\\&amp;
+\class{steps}{\cssId{step2}{= -\frac{a_n^2 +a_n - 12}{a_n + 13}}}
+\\&amp;
+\class{steps}{\cssId{step3}{= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}}}
+\\&amp;
+\class{steps}{\cssId{step4}{\geq 0,}}
 \end{split}
 \]
-since $0 \leq a_n \leq 3$, as shown in Part 1.</paragraphs>
+</steps>
+                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> since $0 \leq a_n \leq 3$, as shown in Part 1.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
+                    <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
 Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
 by the Monotone Convergence Theorem.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">To find $L$, we take the limit as $n \rightarrow \infty$ of
+                      <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                      <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> To find $L$, we take the limit as $n \rightarrow \infty$ of
 both sides of the equation:
 \[
 a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
-\]
-That is:
+\] </paragraphs>
+                        <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> That is:
 \[
 \lim_{n \rightarrow \infty} a_n=
 \lim_{n \rightarrow \infty}\frac{12a_{n-1}+12}{a_{n-1}+13},
-\]
-which gives:
+\] </paragraphs>
+                          <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                            <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> which gives:
 \[
 L = \frac{12 L  + 12}{L + 13},
 \]
 since
 $\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">The equation above implies that:
+                            <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                            <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
+                              <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> The equation above implies that:
 \[
 L^2 + L - 12 = 0,
 \]
 which gives $L = 3$ or $L = -4$.
 Since the sequence $\{a_n\}$ is bounded below by $0$,
 we may eliminate the case $L = -4$.</paragraphs>
-                    <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                    <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">We conclude that:
+                              <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                              <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">We conclude that:
 \[
 \lim_{n \rightarrow \infty} a_n = 3.
 \] </paragraphs>
-                    <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                              <qed course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
+                            </collapse>
+                          </collapse>
+                        </collapse>
+                      </collapse>
+                    </collapse>
                   </newcol>
                 </newcol>
               </substatement>
@@ -641,20 +673,20 @@ Then, show that:
                 </strong>
                 <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> We have:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\leq
 \underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+1}},
-\end{align*} </paragraphs>
+\end{align*}\] </paragraphs>
                   <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &amp;\geq
 \underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &amp;= \frac{n}{\sqrt{n^2+n}}.
-\end{align*} </paragraphs>
+\end{align*}\] </paragraphs>
                     <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Since:
 \[

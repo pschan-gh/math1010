@@ -38,7 +38,7 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \[
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
-In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}.
+In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively} .
 <hr/>
 @endul
 @endcol
@@ -82,7 +82,7 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 <hr/>
 @itemize
 @item
-<h5 text="Constantsequence">Constant sequence</h5>
+<h5>Constant sequence</h5>
 
 @newcol
 If $a_n = c$ for all $n$,
@@ -90,7 +90,7 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
 @endcol
 <hr/>
 @item
-<h5 text="SumDifferencerule">Sum/Difference rule</h5>
+<h5>Sum/Difference rule</h5>
 
 @newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
@@ -99,7 +99,7 @@ If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 @endcol
 <hr/>
 @item
-<h5 text="ProductRule">Product Rule</h5>
+<h5>Product Rule</h5>
 
 @newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
@@ -109,7 +109,7 @@ If both $\{a_n\}$ and $\{b_n\}$ converge, then:
 @endcol
 <hr/>
 @item
-<h5 text="QuotientRule">Quotient Rule</h5>
+<h5>Quotient Rule</h5>
 
 @newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge,
@@ -140,7 +140,7 @@ or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 $ <br/>
 @newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
 \frac{3n^2 - 2n + 7}{2n^2 + 3}}
 \\
@@ -150,14 +150,14 @@ $ <br/>
 \\
 &
 @nstep{= \frac{3}{2}.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol
 <hr/></li>
 <li> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ <br/>
 @newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &=
 \lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
 \\
@@ -166,14 +166,14 @@ $ <br/>
 \\
 &
 @nstep{=\frac{-3}{\sqrt[3]{27}} = -1.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol
 <hr/></li>
 <li> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ <br/>
 @newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &=
 \lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
 \cdot
@@ -193,7 +193,7 @@ $ <br/>
 \\
 &
 @nstep{=\frac{1}{4}.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol</li></ul>
 @slide
@@ -274,7 +274,7 @@ By the definition of the sequence, we have:
 \[
 a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
-By the @keyword{induction hypothesis}, i.e. $a_n \geq 0$, we have:
+By the @keyword{induction hypothesis} , i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
@@ -283,16 +283,28 @@ Hence, $a_{n + 1} \geq 0$.
 It now follows from the principle of mathematical induction
 that $a_n \geq 0$ for all $a \in \mathbb{N}$.
 <hr/>
+@col
 Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
 Whenever $a_n \leq 3$, we have:
+
+@col
+@steps
 \[
 \begin{split}
-3 - a_{n+1} &= 3 - \frac{12a_n + 12}{a_n + 13}\\
-&= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}\\
-&= \frac{9(3 - a_n)}{a_n + 13} \geq 0,
+3 - a_{n+1}
+&
+@nstep{= 3 - \frac{12a_n + 12}{a_n + 13}}
+\\
+&
+@nstep{= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}}
+\\
+&
+@nstep{= \frac{9(3 - a_n)}{a_n + 13} \geq 0,}
 \end{split}
 \]
+@endsteps
+@col
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
 for all $n \in \mathbb{N}$.
 <hr/>
@@ -302,32 +314,43 @@ for all $n \in \mathbb{N}$.
 @newcol
 Observe that for all $n \in \mathbb{N}$,
 we have:
+@steps
 \[
 \begin{split}
 a_{n + 1} - a_n
-&= \frac{12a_n + 12}{a_n + 13} - a_n\\
-&= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}\\
-&= -\frac{a_n^2 +a_n - 12}{a_n + 13}\\
-&= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}\\
-&\geq 0,
+&
+@nstep{= \frac{12a_n + 12}{a_n + 13} - a_n}
+\\&
+@nstep{= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}}
+\\&
+@nstep{= -\frac{a_n^2 +a_n - 12}{a_n + 13}}
+\\&
+@nstep{= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}}
+\\&
+@nstep{\geq 0,}
 \end{split}
 \]
+@endsteps
 since $0 \leq a_n \leq 3$, as shown in Part 1.
 
+@col
 This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
 Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
 by the Monotone Convergence Theorem.
 
+@col
 To find $L$, we take the limit as $n \rightarrow \infty$ of
 both sides of the equation:
 \[
 a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
 \]
+@col
 That is:
 \[
 \lim_{n \rightarrow \infty} a_n=
 \lim_{n \rightarrow \infty}\frac{12a_{n-1}+12}{a_{n-1}+13},
 \]
+@col
 which gives:
 \[
 L = \frac{12 L  + 12}{L + 13},
@@ -335,6 +358,7 @@ L = \frac{12 L  + 12}{L + 13},
 since
 $\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.
 
+@col
 The equation above implies that:
 \[
 L^2 + L - 12 = 0,
@@ -404,20 +428,20 @@ prove that:
 <hr/><strong>Solution.</strong>
 @newcol
 We have:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\leq
 \underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+1}},
-\end{align*}
+\end{align*}\]
 @col
 and:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\geq
 \underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}
+\end{align*}\]
 @col
 Since:
 \[
