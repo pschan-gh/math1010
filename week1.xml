@@ -5,6 +5,8 @@
       <keyword chapter="" slide="all">Fibonacci Sequence</keyword>
       <keyword chapter="" slide="all">recursively</keyword>
       <keyword chapter="" slide="all">limit</keyword>
+      <keyword chapter="" slide="all">converges</keyword>
+      <keyword chapter="" slide="all">diverges</keyword>
       <keyword chapter="" slide="all">Constant sequence</keyword>
       <keyword chapter="" slide="all">Sum/Difference rule</keyword>
       <keyword chapter="" slide="all">Product Rule</keyword>
@@ -30,6 +32,8 @@
         <keyword chapter="1" slide="all">Fibonacci Sequence</keyword>
         <keyword chapter="1" slide="all">recursively</keyword>
         <keyword chapter="1" slide="all">limit</keyword>
+        <keyword chapter="1" slide="all">converges</keyword>
+        <keyword chapter="1" slide="all">diverges</keyword>
         <keyword chapter="1" slide="all">Constant sequence</keyword>
         <keyword chapter="1" slide="all">Sum/Difference rule</keyword>
         <keyword chapter="1" slide="all">Product Rule</keyword>
@@ -118,6 +122,8 @@ In this case we say that the sequence $\{a_n\}$ is defined </paragraphs>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="1" section="1" subsection="" subsubsection="" chapter_title="" section_title="Sequences and Limits">
             <keywords slide="4" environ="slide" chapter="1" course="Math 1010">
               <keyword chapter="1" slide="4">limit</keyword>
+              <keyword chapter="1" slide="4">converges</keyword>
+              <keyword chapter="1" slide="4">diverges</keyword>
             </keywords>
             <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Sometimes, the terms $a_n$ of a sequence approach a single value $L$
 as $n$ tends to infinity. </paragraphs>
@@ -131,14 +137,18 @@ such that $|a_n - L| &lt; \varepsilon$ for all $n &gt; N$. </paragraphs>
             <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If such a number $L$ exists, we say that: </paragraphs>
               <blockquote xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\{a_n\}$ converges to $L$,</paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\{a_n\}$ </paragraphs>
+                <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">converges</inline_keyword>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> to $L$,</paragraphs>
               </blockquote>
               <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and write:
 \[
 \lim_{n \rightarrow \infty} a_n = L.
 \] </paragraphs>
               <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If no such $L$ exists, we say that $\{a_n\}$ diverges.</paragraphs>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If no such $L$ exists, we say that $\{a_n\}$ </paragraphs>
+                <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">diverges</inline_keyword>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
                 <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If the values of $a_n$ increase (resp. decrease) without bound, we say that
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
