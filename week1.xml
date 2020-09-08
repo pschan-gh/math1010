@@ -148,7 +148,7 @@ such that $|a_n - L| &lt; \varepsilon$ for all $n &gt; N$. </paragraphs>
               <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If no such $L$ exists, we say that $\{a_n\}$ </paragraphs>
                 <inline_keyword course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">diverges</inline_keyword>
-                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
+                <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .</paragraphs>
                 <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">If the values of $a_n$ increase (resp. decrease) without bound, we say that
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
@@ -354,12 +354,6 @@ $ </paragraphs>
                 <itemize course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="itemize">
                   <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
                     <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_5.pg"/>
-                  </item>
-                  <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
-                    <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_6.pg"/>
-                  </item>
-                  <item course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="item">
-                    <webwork course="Math 1010" chapter="1" chapter_type="" section="1" subsection="2" subsubsection="" environment="itemize" wbtag="webwork" pg_file="Library/Dartmouth/setStewartCh12S1/problem_7.pg"/>
                   </item>
                 </itemize>
               </statement>
