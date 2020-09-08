@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -89,7 +88,7 @@ is a rule of correspondence from one set $A$ (called the </paragraphs>
 to another set $B$ (called the </paragraphs>
               <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">codomain</inline_keyword>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">). </paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Under this rule of correspondence,
 each element $x \in A$ corresponds to </paragraphs>
               <i xmlns="http://www.w3.org/1999/xhtml" environment="statement">
@@ -123,9 +122,9 @@ f(x) = \sqrt{\frac{x + 1}{x - 2}}
               <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">natural domain</inline_keyword>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> (or </paragraphs>
               <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">maximal domain</inline_keyword>
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, </paragraphs>
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , </paragraphs>
               <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">domain of definition</inline_keyword>
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">),
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ),
 namely the largest subset of $\mathbb{R}$ on which the expression defining $f$
 is well-defined.</paragraphs>
               <newline course="Math 1010" chapter="2" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
@@ -168,7 +167,7 @@ it is often useful to consider the </paragraphs>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> of $f$,
 namely the set of all points $(x, y)$ in the $xy$-plane
 where $x \in A$ and $y = f(x)$. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> By definition, any function $f$ takes on a unique value $f(x)$ for each
 $x$ in its domain, hence the graph of $f$ necessarily passes the
 so-called "</paragraphs>
@@ -180,16 +179,16 @@ draws in the $xy$-plane intersects the graph of $f$ </paragraphs>
               </i>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs">.</paragraphs>
               <newline course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment=""/>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> The graph of a circle, for example, is not the graph of any function,
 since there are vertical lines which intersect the graph twice.</paragraphs>
               <newline course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment=""/>
               <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="3" md5="f4cea4e03ac11a7d709885d08e16be80" course="Math 1010" chapter="2" slide="5" item="2.3">
                 <newcol course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> Graph the functions $f(x) = \displaystyle{\frac{x}{2}}$ and $g(x) = \displaystyle{\frac{4}{x}-1}$ together, to identify values of $x$ for which
-$$
+\[
 \frac{x}{2} &gt; \frac{4}{x} - 1.
-$$
+\]
 Confirm your answer by solving the inequality algebraically. </paragraphs>
                 </newcol>
               </statement>
@@ -279,21 +278,21 @@ f: A \longrightarrow \mathbb{R},
 g: B \longrightarrow \mathbb{R},
 \]
 we define $f\pm g$ and $fg$ as follows: </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 f\pm g : A \cap B \longrightarrow \mathbb{R},
 \]
 \[
 f\pm g (x) := f(x) \pm g(x), \quad x \in A \cap B.
 \] </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 fg : A \cap B \longrightarrow \mathbb{R},
 \]
 \[
 fg (x) := f(x)g(x), \quad x \in A \cap B.
 \] </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="2" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, we define:
 \[
 \frac{f}{g} : A\cap B' \longrightarrow \mathbb{R},
@@ -367,7 +366,7 @@ g \circ f : A \longrightarrow C,
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="" wbtag="paragraphs"> of a function $f : A \longrightarrow B$
 is the set of all $b \in B$ such that $b = f(a)$ for some $a \in A$.</paragraphs>
               <newline course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment=""/>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
               <substatement environment="substatement" chapter_type="" type="Notation" wbtag="notation" md5="aab92aed0be0614392cc1adf85a0623b" course="Math 1010" chapter="2" slide="8">
                 <newcol course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
@@ -384,7 +383,7 @@ is the set of all $b \in B$ such that $b = f(a)$ for some $a \in A$.</paragraphs
                   <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol">surjective</inline_keyword>
                   <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> or </paragraphs>
                   <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol">onto</inline_keyword>
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
                 </newcol>
               </statement>
               <statement environment="statement" chapter_type="" type="Definition" wbtag="defn" num="6" md5="52b76efa41aa388ff87adbc9ed4e074f" course="Math 1010" chapter="2" slide="8" item="2.6">
@@ -394,7 +393,7 @@ we say that $f$ is </paragraphs>
                   <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol">injective</inline_keyword>
                   <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> or </paragraphs>
                   <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol">one-to-one</inline_keyword>
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs">. </paragraphs>
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> . </paragraphs>
                 </newcol>
               </statement>
             </slide>
@@ -414,7 +413,7 @@ such that $f^{-1}\circ f$ is the </paragraphs>
               <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="">identity function</inline_keyword>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="" wbtag="paragraphs"> on $A$,
 and $f \circ f^{-1}$ is the identity function on $\mathrm{Range}(f)$, that is: </paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
               <col_ul course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ul" wbtag="col_ul">
                 <col_li course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ul" wbtag="col_li">
                   <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[
@@ -450,10 +449,10 @@ f(x) := x^2, \quad x \in \mathbb{R}_{\geq 0};
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="" wbtag="paragraphs">is</paragraphs>
               </i>
               <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="" wbtag="paragraphs"> injective. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
               <newcol course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> It's range is $\mathrm{Range}(f) = \mathbb{R}_{\geq 0}$. </paragraphs>
-                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                 <collapse course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Its inverse is:
 \[
@@ -462,7 +461,7 @@ f^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\geq 0}
 \[
 f^{-1}(y) = \sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
 \] </paragraphs>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   <collapse course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> Similarly,
 \[
@@ -472,10 +471,10 @@ g : \mathbb{R}_{\leq 0} \longrightarrow \mathbb{R},
 g(x) := x^2, \quad x \in \mathbb{R}_{\leq 0};
 \]
 is also injective, </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                     <collapse course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> with $\mathrm{Range}(g) = \mathbb{R}_{\geq 0}$, </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                       <collapse course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment="newcol" wbtag="paragraphs"> and inverse:
 \[
@@ -484,83 +483,43 @@ g^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\leq 0}
 \[
 g^{-1}(y) = -\sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
 \] </paragraphs>
-                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       </collapse>
                     </collapse>
                   </collapse>
                 </collapse>
               </newcol>
-              <newline course="Math 1010" chapter="2" chapter_type="" section="1" subsection="4" subsubsection="" environment=""/>
             </slide>
           </slides>
         </subsection>
       </section>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="2" num="2" serial="2.2">
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Piecewise Defined Functions" course="Math 1010" chapter="2" num="2" serial="2.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="2" subsection="" subsubsection="" serial="2.2" slide="">
-          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Piecewise Defined Functions</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 1010" chapter="2" section="2" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
-            <keywords slide="11" environ="slide" chapter="2" course="Math 1010"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="2" subsection="" subsubsection="" serial="" slide="11">
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
-            </title>
-            <enumerate course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
-              <item course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg"/>
-              </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg"/>
-              </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setAlgebra15Functions/s0_1_18.pg"/>
-              </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UBC/setLimits/matching.pg"/>
-              </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg"/>
-              </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_0.1/Question28a.pg"/>
-              </item>
-            </enumerate>
-          </slide>
-        </slides>
-      </section>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="Piecewise Defined Functions" course="Math 1010" chapter="2" num="3" serial="2.3">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" serial="2.3" slide="">
-          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Piecewise Defined Functions</paragraphs>
-        </title>
-        <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="Piecewise Defined Functions">
-            <keywords slide="12" environ="slide" chapter="2" course="Math 1010">
-              <keyword chapter="2" slide="12">absolute value function</keyword>
+          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 1010" chapter="2" section="2" subsection="" subsubsection="" chapter_title="" section_title="Piecewise Defined Functions">
+            <keywords slide="11" environ="slide" chapter="2" course="Math 1010">
+              <keyword chapter="2" slide="11">absolute value function</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" serial="" slide="12">
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Piecewise Defined Functions</paragraphs>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="2" subsection="" subsubsection="" serial="" slide="11">
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Piecewise Defined Functions</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="54448402eacf3e9afce99522973983c8" course="Math 1010" chapter="2" slide="12" item="2.8">
-              <col_ul course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="54448402eacf3e9afce99522973983c8" course="Math 1010" chapter="2" slide="11" item="2.8">
+              <col_ul course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[
 f(x) = \begin{cases}
 -x + 1 &amp; \text{ if } -2 \leq x &lt; 0\\
 3x &amp; \text{ if } 0 \leq x \leq 5
 \end{cases}
 \] </paragraphs>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                 </col_li>
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> The </paragraphs>
-                  <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul">absolute value function</inline_keyword>
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> The </paragraphs>
+                  <inline_keyword course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul">absolute value function</inline_keyword>
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[
 |x| = \begin{cases}
 -x  &amp; \text{ if } x &lt; 0\\
 x &amp; \text{ if } x \geq 0
@@ -570,56 +529,56 @@ x &amp; \text{ if } x \geq 0
               </col_ul>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="Piecewise Defined Functions">
-            <keywords slide="13" environ="slide" chapter="2" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="9" md5="72c748daec6478f9cbedb9147b386dfd" course="Math 1010" chapter="2" slide="13" item="2.9">
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f: \mathbb{R} \longrightarrow \mathbb{R}$ be the function defined by:
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="2" section="2" subsection="" subsubsection="" chapter_title="" section_title="Piecewise Defined Functions">
+            <keywords slide="12" environ="slide" chapter="2" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="9" md5="72c748daec6478f9cbedb9147b386dfd" course="Math 1010" chapter="2" slide="12" item="2.9">
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f: \mathbb{R} \longrightarrow \mathbb{R}$ be the function defined by:
 \[
 f(x) = -3x+4-|x+1|-|x-1|
 \]
 for any $x \in \mathbb{R}$. </paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$. </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$. </paragraphs>
                 </li>
                 <li environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Sketch the graph of the function $f$. </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Sketch the graph of the function $f$. </paragraphs>
                 </li>
                 <li environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Is $f$ an injective function on $\mathbb{R}$? Justify your answer. </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Is $f$ an injective function on $\mathbb{R}$? Justify your answer. </paragraphs>
                 </li>
                 <li environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> What is the image of $\mathbb{R}$ under the function $f$? </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> What is the image of $\mathbb{R}$ under the function $f$? </paragraphs>
                 </li>
               </ol>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
+                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
               </strong>
-              <newcol course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <col_ol course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                  <col_li course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $f(x) = \displaystyle{\begin{cases}
+              <newcol course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <col_ol course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                  <col_li course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> \[
+f(x) = \displaystyle \begin{cases}
 \begin{array}{lcl}
 -x+4  &amp; \mbox{if} &amp; x &lt; -1 \\
 -3x+2 &amp; \mbox{if} &amp; -1 \leq x &lt; 1\\
 -5x+4 &amp; \mbox{if} &amp; x \geq 1
 \end{array}
-\end{cases}}$ </paragraphs>
+\end{cases}
+\] </paragraphs>
                   </col_li>
-                  <col_li course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+                  <col_li course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ol" />
                     <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="col_ol">
-                      <iframe src="https://www.desmos.com/calculator/bbwogysjpd?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="col_ol"/>
+                      <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/bbwogysjpd?embed" rendered="0" src="https://www.desmos.com/calculator/bbwogysjpd?embed" id="iFrameResizer20" scrolling="no" environment="col_ol"></iframe>
                     </div>
                   </col_li>
-                  <col_li course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\
-R}$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="col_ol"/>
+                  <col_li course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\R}$. </paragraphs>
                   </col_li>
-                  <col_li course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$. </paragraphs>
+                  <col_li course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="2" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$. </paragraphs>
                   </col_li>
                 </col_ol>
               </newcol>
@@ -627,115 +586,109 @@ R}$. </paragraphs>
           </slide>
         </slides>
       </section>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="2" num="4" serial="2.4">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="4" subsection="" subsubsection="" serial="2.4" slide="">
-          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="2" num="3" serial="2.3">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" serial="2.3" slide="">
+          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="14" scope="section" id="s14" slide="14" course="Math 1010" chapter="2" section="4" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
-            <keywords slide="14" environ="slide" chapter="2" course="Math 1010"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="4" subsection="" subsubsection="" serial="" slide="14">
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+          <slide environment="" chapter_type="Week" canon_num="13" scope="section" id="s13" slide="13" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="13" environ="slide" chapter="2" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="3" subsection="" subsubsection="" serial="" slide="13">
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
-            <enumerate course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
-              <item course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg"/>
+            <enumerate course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg"/>
               </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg"/>
+              <item course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg"/>
               </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setAlgebra15Functions/s0_1_18.pg"/>
+              <item course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setAlgebra15Functions/s0_1_18.pg"/>
               </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UBC/setLimits/matching.pg"/>
+              <item course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UBC/setLimits/matching.pg"/>
               </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg"/>
+              <item course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg"/>
               </item>
-              <item course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
-                <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="paragraphs"> </paragraphs>
-                <webwork course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_0.1/Question28a.pg"/>
+              <item course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="2" chapter_type="" section="3" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Wiley/setAnton_Section_0.1/Question28a.pg"/>
               </item>
             </enumerate>
           </slide>
         </slides>
       </section>
-      <section environment="" chapter_type="" type="Section" wbtag="section" title="Even and Odd Functions" course="Math 1010" chapter="2" num="5" serial="2.5">
-        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="5" subsection="" subsubsection="" serial="2.5" slide="">
-          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Even and Odd Functions</paragraphs>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Even and Odd Functions" course="Math 1010" chapter="2" num="4" serial="2.4">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="4" subsection="" subsubsection="" serial="2.4" slide="">
+          <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Even and Odd Functions</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="15" scope="section" id="s15" slide="15" course="Math 1010" chapter="2" section="5" subsection="" subsubsection="" chapter_title="" section_title="Even and Odd Functions">
-            <keywords slide="15" environ="slide" chapter="2" course="Math 1010"/>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="5" subsection="" subsubsection="" serial="" slide="15">
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Even and Odd Functions</paragraphs>
+          <slide environment="" chapter_type="Week" canon_num="14" scope="section" id="s14" slide="14" course="Math 1010" chapter="2" section="4" subsection="" subsubsection="" chapter_title="" section_title="Even and Odd Functions">
+            <keywords slide="14" environ="slide" chapter="2" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="2" section="4" subsection="" subsubsection="" serial="" slide="14">
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Even and Odd Functions</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="10" md5="fc91cb5c4703e389f158d53abf8d3576" course="Math 1010" chapter="2" slide="15" item="2.10">
-              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a real-valued function defined on real numbers. </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="10" md5="fc91cb5c4703e389f158d53abf8d3576" course="Math 1010" chapter="2" slide="14" item="2.10">
+              <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a real-valued function defined on real numbers. </paragraphs>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> It is said to be </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> It is said to be </paragraphs>
                   <strong environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">even</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">even</paragraphs>
                   </strong>
                   <b style="display:none" environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">even function</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">even function</paragraphs>
                   </b>
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
 \[
 f(-x) = f(x).
 \] </paragraphs>
                 </li>
                 <li environment="statement">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> It is said to be </paragraphs>
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> It is said to be </paragraphs>
                   <strong environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">odd</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">odd</paragraphs>
                   </strong>
                   <b style="display:none" environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">odd function</paragraphs>
+                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">odd function</paragraphs>
                   </b>
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
 \[
 f(-x) = -f(x).
 \] </paragraphs>
                 </li>
               </ul>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="03f02598b25ca3c0a869e335b0f52a0e" course="Math 1010" chapter="2" slide="15" item="2.11">
-              <col_ol course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The polynomial $f(x) = x^4 + x^2 + 1$ is even,
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="03f02598b25ca3c0a869e335b0f52a0e" course="Math 1010" chapter="2" slide="14" item="2.11">
+              <col_ol course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The polynomial $f(x) = x^4 + x^2 + 1$ is even,
 while the polynomial $g(x) = x^5 + x^3 + x$ is odd. </paragraphs>
                 </col_li>
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The function $f(x) = \cos x$ is even, while $f(x) = \sin x$ is odd. </paragraphs>
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The function $f(x) = \cos x$ is even, while $f(x) = \sin x$ is odd. </paragraphs>
                 </col_li>
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The absolute value function is even. </paragraphs>
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The absolute value function is even. </paragraphs>
                 </col_li>
               </col_ol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="12" md5="5d25f9c4546fc425b7d93ef64f8944bc" course="Math 1010" chapter="2" slide="15" item="2.12">
-              <col_ol course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The sum of two even (resp. odd) functions is even (resp. odd). </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="12" md5="5d25f9c4546fc425b7d93ef64f8944bc" course="Math 1010" chapter="2" slide="14" item="2.12">
+              <col_ol course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The sum of two even (resp. odd) functions is even (resp. odd). </paragraphs>
                 </col_li>
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The product of two even functions is even. </paragraphs>
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The product of two even functions is even. </paragraphs>
                 </col_li>
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The product of two odd functions is also even. </paragraphs>
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The product of two odd functions is also even. </paragraphs>
                 </col_li>
-                <col_li course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The product of an even function with an odd function is odd.</paragraphs>
-                  <newline course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol"/>
-                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">For example, $f(x) = x \abs{x}$ is odd. </paragraphs>
+                <col_li course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> The product of an even function with an odd function is odd.</paragraphs>
+                  <newline course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol"/>
+                  <paragraphs course="Math 1010" chapter="2" chapter_type="" section="4" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs">For example, $f(x) = x \abs{x}$ is odd. </paragraphs>
                 </col_li>
               </col_ol>
             </statement>
