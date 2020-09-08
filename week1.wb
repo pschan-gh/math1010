@@ -58,7 +58,7 @@ and write:
 \lim_{n \rightarrow \infty} a_n = L.
 \]
 @col
-If no such $L$ exists, we say that $\{a_n\}$ @keyword{diverges}.
+If no such $L$ exists, we say that $\{a_n\}$ @keyword{diverges} .
 
 If the values of $a_n$ increase (resp. decrease) without bound, we say that
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
@@ -201,10 +201,6 @@ $ <br/>
 @itemize
 @item
 @webwork{Library/Dartmouth/setStewartCh12S1/problem_5.pg}
-@item
-@webwork{Library/Dartmouth/setStewartCh12S1/problem_6.pg}
-@item
-@webwork{Library/Dartmouth/setStewartCh12S1/problem_7.pg}
 @enditemize
 @end
 @subsection{Monotonic Sequences}
