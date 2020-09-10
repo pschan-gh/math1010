@@ -454,30 +454,30 @@ then $\lim_{n \rightarrow \infty} a_n \geq M$.</paragraphs>
 \[
 a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n&gt;1$.}
 \] </paragraphs>
-                <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-                  <li environment="statement">
+                <ol xmlns="http://www.w3.org/1999/xhtml" style="" environment="statement">
+                  <li style="" environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> Prove that $0 \leq a_n\leq 3$.
 (Hint: Perhaps </paragraphs>
                     <inline_keyword xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement">mathematical induction</inline_keyword>
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> could be useful here.) </paragraphs>
                   </li>
-                  <li environment="statement">
+                  <li style="" environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="statement" wbtag="paragraphs"> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </paragraphs>
                   </li>
                 </ol>
               </statement>
-              <substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="302a6d8630af30ca991261f9a6f02026" course="Math 1010" chapter="1" slide="10">
+              <substatement environment="substatement" chapter_type="" type="Solution" wbtag="sol" md5="d1b3fc23946fef5d85c437f6c6ab098e" course="Math 1010" chapter="1" slide="10">
                 <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
                   <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> 1. </paragraphs>
                   <newcol course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                    <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                    <u xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Base Step</paragraphs>
                     </u>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> : By definition, $a_1 = 1 \geq 0$.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
-                    <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                    <u xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">Inductive Step</paragraphs>
                     </u>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> : Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.</paragraphs>
@@ -495,8 +495,8 @@ a_n + 13 &gt; 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 Hence, $a_{n + 1} \geq 0$.</paragraphs>
                     <newline course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol"/>
                     <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs">It now follows from the principle of mathematical induction
-that $a_n \geq 0$ for all $a \in \mathbb{N}$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+that $a_n \geq 0$ for all $n \in \mathbb{N}$. </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
                     <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
@@ -521,7 +521,7 @@ Whenever $a_n \leq 3$, we have:</paragraphs>
                         <collapse course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 1010" chapter="1" chapter_type="" section="1" subsection="3" subsubsection="" environment="newcol" wbtag="paragraphs"> which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
 for all $n \in \mathbb{N}$. </paragraphs>
-                          <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                          <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
                         </collapse>
                       </collapse>
                     </collapse>
