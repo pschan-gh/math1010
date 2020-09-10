@@ -249,10 +249,10 @@ then $\lim_{n \rightarrow \infty} a_n \geq M$.
 Let $\{a_n\}$ be a sequence of real numbers, which is defined by
 \[
 a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n>1$.}
-\] <ol>
-<li> Prove that $0 \leq a_n\leq 3$.
+\] <ol style="">
+<li style=""> Prove that $0 \leq a_n\leq 3$.
 (Hint: Perhaps @keyword{mathematical induction} could be useful here.) </li>
-<li> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </li></ol>
+<li style=""> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </li></ol>
 @end
 @sol
 @newcol
@@ -260,10 +260,10 @@ a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $
 @newcol
 First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.
 
-<u>Base Step</u>
+<u style="">Base Step</u>
 : By definition, $a_1 = 1 \geq 0$.
 
-<u>Inductive Step</u>
+<u style="">Inductive Step</u>
 : Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
 
 By the definition of the sequence, we have:
@@ -277,8 +277,8 @@ a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 Hence, $a_{n + 1} \geq 0$.
 
 It now follows from the principle of mathematical induction
-that $a_n \geq 0$ for all $a \in \mathbb{N}$.
-<hr/>
+that $a_n \geq 0$ for all $n \in \mathbb{N}$.
+<hr style=""/>
 @col
 Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
@@ -303,7 +303,7 @@ Whenever $a_n \leq 3$, we have:
 @col
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
 for all $n \in \mathbb{N}$.
-<hr/>
+<hr style=""/>
 @endcol
 
 2.
