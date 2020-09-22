@@ -78,22 +78,25 @@ is very vague, and it is precisely because of this vagueness that mathematicians
 feel the need to define limits rigorously using the "$\delta$-$\epsilon$" language. </paragraphs>
               </newcol>
             </substatement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="eea0aa2e88b10ee7df7be899a4e9d17e" course="Math 1010" chapter="3" slide="3" item="3.2">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="0a26d350fc271e6ccb404fe0d8289f2e" course="Math 1010" chapter="3" slide="3" item="3.2">
               <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $f(x) = \frac{x^2 - 4}{x + 2}$.
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $f(x) = \dfrac{x^2 - 4}{x + 2}$.
 Note that the function $f$ is not defined at $-2$.</paragraphs>
                 <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$, 
 we have:
 \[
-f(-2.001) = -4.001, f(-1.9999) = -3.9999,
+f(-2.001) = -4.001,
+\]
+\[
+f(-1.9999) = -3.9999,
 \]
 which are close to $-4$.</paragraphs>
                   <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, as $x$ "approaches" $-2$ ($x = -2.001, -2.0001, -2.00001, \ldots$),
-we have $f(x) = -4.001, -4.0001, -4.00001$. So, it appears $(x)$ approaches $-4$
+we have $f(x) = -4.001, -4.0001, -4.00001$. So, it appears $f(x)$ approaches $-4$
 as $x$ approaches $-2$. This suggests that the limit of $f(x)$ at $x = -2$ is:
 \[
 \lim_{x \rightarrow -2} f(x) = -4.
@@ -104,7 +107,7 @@ as $x$ approaches $-2$. This suggests that the limit of $f(x)$ at $x = -2$ is:
 \[
 \begin{split}
 f(x) &amp;= \begin{cases}
-\frac{(x + 2)(x - 2)}{x + 2},&amp; \text{if}\; x \neq -2;\\
+\dfrac{(x + 2)(x - 2)}{x + 2},&amp; \text{if}\; x \neq -2;\\
 \text{undefined},&amp; \text{if}\; x = -2.
 \end{cases}
 \\&amp;

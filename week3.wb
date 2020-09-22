@@ -33,20 +33,23 @@ feel the need to define limits rigorously using the "$\delta$-$\epsilon$" langua
 @end
 @eg
 @col
-Consider $f(x) = \frac{x^2 - 4}{x + 2}$.
+Consider $f(x) = \dfrac{x^2 - 4}{x + 2}$.
 Note that the function $f$ is not defined at $-2$.
 
 @col
 Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$, 
 we have:
 \[
-f(-2.001) = -4.001, f(-1.9999) = -3.9999,
+f(-2.001) = -4.001,
+\]
+\[
+f(-1.9999) = -3.9999,
 \]
 which are close to $-4$.
 
 @col
 Moreover, as $x$ "approaches" $-2$ ($x = -2.001, -2.0001, -2.00001, \ldots$),
-we have $f(x) = -4.001, -4.0001, -4.00001$. So, it appears $(x)$ approaches $-4$
+we have $f(x) = -4.001, -4.0001, -4.00001$. So, it appears $f(x)$ approaches $-4$
 as $x$ approaches $-2$. This suggests that the limit of $f(x)$ at $x = -2$ is:
 \[
 \lim_{x \rightarrow -2} f(x) = -4.
@@ -57,7 +60,7 @@ This turns out to be true, and is not surprising, since we can rewrite $f(x)$ as
 \[
 \begin{split}
 f(x) &= \begin{cases}
-\frac{(x + 2)(x - 2)}{x + 2},& \text{if}\; x \neq -2;\\
+\dfrac{(x + 2)(x - 2)}{x + 2},& \text{if}\; x \neq -2;\\
 \text{undefined},& \text{if}\; x = -2.
 \end{cases}
 \\&
