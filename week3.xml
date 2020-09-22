@@ -15,7 +15,7 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="3" title="" topic="Functions, Limits" course="Math 1010" serial="3">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="3" title="" topic="Functions, Limits, Sandwich Theorem" course="Math 1010" serial="3">
       <keywords slide="all" environ="chapter" chapter="3" course="Math 1010">
         <keyword chapter="3" slide="all">limit</keyword>
         <keyword chapter="3" slide="all">limit</keyword>
@@ -26,11 +26,13 @@
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide=""/>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Functions</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Limits</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" serial="3" slide="">Sandwich Theorem</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 1010" chapter="3" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Functions</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Limits</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Sandwich Theorem</topic>
           <keywords slide="2" environ="slide" chapter="3" course="Math 1010"/>
         </slide>
       </slides>
@@ -371,6 +373,132 @@ the double-sided limit $\displaystyle\lim_{x\to 2} f(x)$ does not exist. </parag
                 <webwork course="Math 1010" chapter="3" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ASU-topics/setCalculus/stef/stef2_3p3.pg"/>
               </item>
             </enumerate>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="Sandwich Theorem for Functions on the Real Line" course="Math 1010" chapter="3" num="5" serial="3.5">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" serial="3.5" slide="">
+          <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Sandwich Theorem for Functions on the Real Line</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="11" scope="section" id="s11" slide="11" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" chapter_title="" section_title="Sandwich Theorem for Functions on the Real Line">
+            <keywords slide="11" environ="slide" chapter="3" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" serial="" slide="11">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Sandwich Theorem for Functions on the Real Line</paragraphs>
+            </title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" md5="d19463a2947a881eef330e9efeebeac3" course="Math 1010" chapter="3" slide="11" item="3.6">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $a \in \mathbb{R}$,
+$A$ an open neighborhood of $a$ which does not necessarily contain $a$ itself.
+Let $f, g, h : A \longrightarrow\mathbb{R}$
+be functions such that:
+\[
+g(x) \leq f(x) \leq h(x)\quad\text{ for all } x \in A,
+\]
+and
+\[
+\displaystyle \lim_{x \rightarrow a}g(x) = \lim_{x\rightarrow a}h(x) = L.
+\]
+Then, $\displaystyle\lim_{x \rightarrow a} f(x) = L$. </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" chapter_title="" section_title="Sandwich Theorem for Functions on the Real Line">
+            <keywords slide="12" environ="slide" chapter="3" course="Math 1010"/>
+            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Similary, </paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="c11fa1904f476143a50953fa227f70c0" course="Math 1010" chapter="3" slide="12" item="3.7">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f, g, h$ are functions on $\mathbb{R}$ such that:
+\[
+g(x) \leq f(x) \leq h(x)
+\]
+for all $x$ sufficiently large, and
+\[
+\lim_{x \rightarrow \infty}g(x) =\lim_{x \rightarrow \infty}h(x) = L,
+\]
+then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$. </paragraphs>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" chapter_title="" section_title="Sandwich Theorem for Functions on the Real Line">
+            <keywords slide="13" environ="slide" chapter="3" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="c1b2ec6d321f3151db6ffa66afa75d6f" course="Math 1010" chapter="3" slide="13" item="3.8">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the following limits, if they exist: </paragraphs>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$ </paragraphs>
+                  <hr environment="statement"/>
+                </li>
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$ </paragraphs>
+                </li>
+              </ul>
+            </statement>
+            <newline course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" chapter_title="" section_title="Sandwich Theorem for Functions on the Real Line">
+            <keywords slide="14" environ="slide" chapter="3" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="25c3ae4ca84c83bb8c23010598dc2f08" course="Math 1010" chapter="3" slide="14" item="3.9">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
+\lim_{x \rightarrow 0} \frac{\sin x}{x} = 1.
+\] </paragraphs>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="10" md5="bd5f1a9f72d20d1be738e4c11186402b" course="Math 1010" chapter="3" slide="14" item="3.10">
+              <newcol course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2} = \frac{1}{2}\;.
+\] </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" chapter_title="" section_title="Sandwich Theorem for Functions on the Real Line">
+            <keywords slide="15" environ="slide" chapter="3" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="11" md5="b422a7607f2e5c079be505ba89fe2773" course="Math 1010" chapter="3" slide="15" item="3.11">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the following limits, if they exist: </paragraphs>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$ </paragraphs>
+                  <hr environment="statement"/>
+                </li>
+                <li environment="statement">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$ </paragraphs>
+                </li>
+              </ul>
+            </statement>
+            <newline course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
+          </slide>
+        </slides>
+      </section>
+      <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="3" num="6" serial="3.6">
+        <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="6" subsection="" subsubsection="" serial="3.6" slide="">
+          <paragraphs course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+        </title>
+        <slides environment="" chapter_type="">
+          <slide environment="" chapter_type="Week" canon_num="16" scope="section" id="s16" slide="16" course="Math 1010" chapter="3" section="6" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
+            <keywords slide="16" environ="slide" chapter="3" course="Math 1010"/>
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="6" subsection="" subsubsection="" serial="" slide="16">
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
+            </title>
+            <enumerate course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
+              <item course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap1Sec8/Q05.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ASU-topics/setLimitConcepts/s1_3_19.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/2_Limits/2.6_Trigonometric_Limits/2.6.34.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_2_6/Stewart5_2_6_35.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ASU-topics/setLimitInfinity/ur_lr_3_11.pg"/>
+              </item>
+              <item course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="item">
+                <webwork course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UVA-Stew5e/setUVA-Stew5e-C02S03-CalcLimits/2-3-24.pg"/>
+              </item>
+            </enumerate>
+            <newline course="Math 1010" chapter="3" chapter_type="" section="6" subsection="" subsubsection="" environment=""/>
           </slide>
         </slides>
       </section>
