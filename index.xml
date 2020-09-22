@@ -2,9 +2,9 @@
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/elephas_index" xmlns:xh="http://www.w3.org/1999/xhtml" xmlns:lv="http://www.math.cuhk.edu.hk/~pschan/cranach" xmlns:idx="http://www.math.cuhk.edu.hk/~pschan/elephas_index">
   <index>
     <entry keyword="limit">
-      <branch chapter="3" slide="3" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f" keyword="limit">limit</branch>
-      <branch chapter="3" slide="4" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f" keyword="limit">limit</branch>
       <branch chapter="1" slide="4" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c" keyword="limit">limit</branch>
+      <branch chapter="3" slide="3" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6" keyword="limit">limit</branch>
+      <branch chapter="3" slide="4" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6" keyword="limit">limit</branch>
     </entry>
     <entry keyword="sum difference rule">
       <branch chapter="5" slide="11" filename="week5.xml" file_md5="8202644534f4ac5f1af6bfb410826435" keyword="sum difference rule">Sum/Difference Rule</branch>
@@ -17,15 +17,6 @@
     <entry keyword="quotient rule">
       <branch chapter="5" slide="11" filename="week5.xml" file_md5="8202644534f4ac5f1af6bfb410826435" keyword="quotient rule">quotient rule</branch>
       <branch chapter="1" slide="6" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c" keyword="quotient rule">Quotient Rule</branch>
-    </entry>
-    <entry keyword="right limit">
-      <branch chapter="3" slide="8" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f" keyword="right limit">right limit</branch>
-    </entry>
-    <entry keyword="left limit">
-      <branch chapter="3" slide="8" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f" keyword="left limit">left limit</branch>
-    </entry>
-    <entry keyword="double sided limit">
-      <branch chapter="3" slide="8" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f" keyword="double sided limit">double-sided limit</branch>
     </entry>
     <entry keyword="continuous">
       <branch chapter="4" slide="13" filename="week4.xml" file_md5="cedb757ff954cdef82087583c5632284" keyword="continuous">continuous</branch>
@@ -286,17 +277,14 @@
     <entry keyword="absolute value function">
       <branch chapter="2" slide="13" filename="week2.xml" file_md5="6f6980a0d7de7b27044b8d982c52640a" keyword="absolute value function">absolute value function</branch>
     </entry>
-    <entry md5="5c994a41945c604af63752bba494ca7a" item="3.1" slide="3" chapter="3" course="Math 1010" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f">
-      <branch item="3.1" slide="3" chapter="3" course="Math 1010" md5="5c994a41945c604af63752bba494ca7a" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f"/>
+    <entry keyword="right limit">
+      <branch chapter="3" slide="8" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6" keyword="right limit">right limit</branch>
     </entry>
-    <entry md5="6c810d9579acf5113da2eaab3f50dfb6" item="3.2" slide="4" chapter="3" course="Math 1010" num="2" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f">
-      <branch item="3.2" slide="4" chapter="3" course="Math 1010" md5="6c810d9579acf5113da2eaab3f50dfb6" num="2" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f"/>
+    <entry keyword="left limit">
+      <branch chapter="3" slide="8" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6" keyword="left limit">left limit</branch>
     </entry>
-    <entry md5="d025c7c9817ca9206f4135044d53f20c" item="3.3" slide="6" chapter="3" course="Math 1010" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f">
-      <branch item="3.3" slide="6" chapter="3" course="Math 1010" md5="d025c7c9817ca9206f4135044d53f20c" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f"/>
-    </entry>
-    <entry md5="7ff2ad1557d3d453cae4b84bf9270245" item="3.4" slide="9" chapter="3" course="Math 1010" num="4" wbtag="ex" type="Exercise" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f">
-      <branch item="3.4" slide="9" chapter="3" course="Math 1010" md5="7ff2ad1557d3d453cae4b84bf9270245" num="4" wbtag="ex" type="Exercise" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="dc836f5e54a56fb4ee73f1ee2a8de92f"/>
+    <entry keyword="double sided limit">
+      <branch chapter="3" slide="8" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6" keyword="double sided limit">double-sided limit</branch>
     </entry>
     <entry md5="d19463a2947a881eef330e9efeebeac3" item="4.1" slide="3" chapter="4" course="Math 1010" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week4.xml" file_md5="cedb757ff954cdef82087583c5632284">
       <branch item="4.1" slide="3" chapter="4" course="Math 1010" md5="d19463a2947a881eef330e9efeebeac3" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week4.xml" file_md5="cedb757ff954cdef82087583c5632284"/>
@@ -827,6 +815,24 @@
     </entry>
     <entry md5="5d25f9c4546fc425b7d93ef64f8944bc" item="2.14" slide="16" chapter="2" course="Math 1010" num="14" wbtag="fact" type="Fact" chapter_type="Week" environment="statement" filename="week2.xml" file_md5="6f6980a0d7de7b27044b8d982c52640a">
       <branch item="2.14" slide="16" chapter="2" course="Math 1010" md5="5d25f9c4546fc425b7d93ef64f8944bc" num="14" wbtag="fact" type="Fact" chapter_type="Week" environment="statement" filename="week2.xml" file_md5="6f6980a0d7de7b27044b8d982c52640a"/>
+    </entry>
+    <entry md5="5c994a41945c604af63752bba494ca7a" item="3.1" slide="3" chapter="3" course="Math 1010" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6">
+      <branch item="3.1" slide="3" chapter="3" course="Math 1010" md5="5c994a41945c604af63752bba494ca7a" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6"/>
+    </entry>
+    <entry md5="c7626dec14e24a53cecf2694668ae871" slide="3" chapter="3" course="Math 1010" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6">
+      <branch slide="3" chapter="3" course="Math 1010" md5="c7626dec14e24a53cecf2694668ae871" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6"/>
+    </entry>
+    <entry md5="eea0aa2e88b10ee7df7be899a4e9d17e" item="3.2" slide="3" chapter="3" course="Math 1010" num="2" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6">
+      <branch item="3.2" slide="3" chapter="3" course="Math 1010" md5="eea0aa2e88b10ee7df7be899a4e9d17e" num="2" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6"/>
+    </entry>
+    <entry md5="6c810d9579acf5113da2eaab3f50dfb6" item="3.3" slide="4" chapter="3" course="Math 1010" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6">
+      <branch item="3.3" slide="4" chapter="3" course="Math 1010" md5="6c810d9579acf5113da2eaab3f50dfb6" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6"/>
+    </entry>
+    <entry md5="d025c7c9817ca9206f4135044d53f20c" item="3.4" slide="6" chapter="3" course="Math 1010" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6">
+      <branch item="3.4" slide="6" chapter="3" course="Math 1010" md5="d025c7c9817ca9206f4135044d53f20c" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6"/>
+    </entry>
+    <entry md5="7ff2ad1557d3d453cae4b84bf9270245" item="3.5" slide="9" chapter="3" course="Math 1010" num="5" wbtag="ex" type="Exercise" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6">
+      <branch item="3.5" slide="9" chapter="3" course="Math 1010" md5="7ff2ad1557d3d453cae4b84bf9270245" num="5" wbtag="ex" type="Exercise" chapter_type="Week" environment="statement" filename="week3.xml" file_md5="9d5d2621fcea1bb194df37853d4ab6b6"/>
     </entry>
     <ref serial="" class="lcref" md5="f7d93b413dc01d8632fa7a46ff0fab4a" src-filename="weeks1-13.xml" item="6.4" type="Theorem" src-slide="72" src-chapter="6" src-course="Math 1010" slide="6" chapter="6" course="Math 1010" wbtag="ref" label="inversederivative" chapter_type="" environment="statement" filename="week6.xml" file_md5="94f8f416e4d1faba3934dff754e4a702">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 6.4</title>
