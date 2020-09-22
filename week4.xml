@@ -13,17 +13,19 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="4" title="" topic="Continuity" course="Math 1010" serial="4">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="4" title="" topic="Limits, Continuity" course="Math 1010" serial="4">
       <keywords slide="all" environ="chapter" chapter="4" course="Math 1010">
         <keyword chapter="4" slide="all">continuous</keyword>
         <keyword chapter="4" slide="all">Intermediate value Theorem IVT</keyword>
         <keyword chapter="4" slide="all">Extreme Value Theorem</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="4" section="" subsection="" subsubsection="" serial="4" slide=""/>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Limits</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="4" section="" subsection="" subsubsection="" serial="4" slide="">Continuity</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 1010" chapter="4" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Limits</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Continuity</topic>
           <keywords slide="2" environ="slide" chapter="4" course="Math 1010"/>
         </slide>
