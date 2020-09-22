@@ -75,7 +75,7 @@ $a$ does not lie in the domain of $f$. </paragraphs>
 value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
 is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
 is very vague, and it is precisely because of this vagueness that mathematicians
-feel the need to define limits rigorously using the "$\delta-\epsilon$" language. </paragraphs>
+feel the need to define limits rigorously using the "$\delta$"-"$\epsilon$" language. </paragraphs>
               </newcol>
             </substatement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="eea0aa2e88b10ee7df7be899a4e9d17e" course="Math 1010" chapter="3" slide="3" item="3.2">
