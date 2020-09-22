@@ -21,6 +21,7 @@ If $f$ has a limit $L$ at $a$, we write:
 Note that the limit may exist even if
 $a$ does not lie in the domain of $f$.
 @endcol
+
 @remark
 @col
 Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the 
@@ -31,6 +32,7 @@ feel the need to define limits rigorously using the "$\delta-\epsilon$" language
 @endcol
 @end
 @eg
+@col
 Consider $f(x) = \frac{x^2 - 4}{x + 2}$.
 Note that the function $f$ is not defined at $-2$.
 
