@@ -3,9 +3,7 @@
 @topic{Functions}
 @topic{Limits}
 @topic{Sandwich Theorem}
-@section{
-Limits of Functions on the Real Line
-}
+@section{Limits of Functions on the Real Line}
 Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$.
 Let $a$ be a point on the real line such that $f$ is defined on a neighborhood of $a$
 (though not necessarily at $a$ itself).
@@ -24,8 +22,8 @@ $a$ does not lie in the domain of $f$.
 @endcol
 
 @remark
-@col
-Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the 
+@newcol
+Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the
 value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
 is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
 is somewhat vague, and it is precisely because of this vagueness that mathematicians
@@ -33,12 +31,12 @@ feel the need to define limits rigorously using the "$\delta$-$\varepsilon$" lan
 @endcol
 @end
 @eg
-@col
+@newcol
 Consider $f(x) = \dfrac{x^2 - 4}{x + 2}$.
 Note that the function $f$ is not defined at $-2$.
 
 @col
-Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$, 
+Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$,
 we have:
 \[
 f(-2.001) = -4.001,
@@ -65,17 +63,16 @@ f(x) &= \begin{cases}
 \text{undefined},& \text{if}\; x = -2.
 \end{cases}
 \\&
-@nstep{
-= \begin{cases}
+@nstep{= \begin{cases}
 x - 2,& \text{if}\; x \neq -2;\\
 \text{undefined},& \text{if}\; x = -2.
-\end{cases}
-}
+\end{cases}}
 \end{split}
 \]
 @endsteps
 @col
 Hence, all along we have really been asking what $x - 2$ tends to as $x$ tends to $-2$.
+@endcol
 @end
 @slide
 @defn
@@ -96,9 +93,7 @@ If $f$ has a limit $L$ at $\infty$ (resp $-\infty$), we write:
 \right)
 \]
 @endcol
-@slide
-<strong>Some Useful Identities:</strong>
-<p/>
+@subsection{Some Useful Identities}
 In the following idenities,
 the symbol $a$ can be either a real number or $\pm \infty$.
 @ol
@@ -129,11 +124,12 @@ and
 \lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
 \text{ for all odd positive integers } n.
 \]
-@col
+@newcol
 In particular, for all positive integer $n$, we have:
 \[
-\lim_{x \rightarrow } x^n = a^n.
+\lim_{x \rightarrow a} x^n = a^n.
 \]
+@endcol
 @li
 If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$.
 @endol
@@ -161,23 +157,15 @@ $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
 @item
 @webwork{Library/UMN/calculusStewartCCC/s_2_3_19.pg}
 @endenumerate
-@end
-@section{
-One-Sided Limits
-}
+@section{One-Sided Limits}
 <ul>
-<li>
-We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
+<li> We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
 if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the right</i>.
-We call this $L$ the @keyword{right limit} of $f$ at $a$.
-</li>
-<li>
-Similarly,
+We call this $L$ the @keyword{right limit} of $f$ at $a$. </li>
+<li> Similarly,
 we write $\displaystyle\lim_{x\rightarrow a^-} f(x) = L$
 if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the left</i>.
-We call this $L$ the @keyword{left limit} of $f$ at $a$.
-</li>
-</ul>
+We call this $L$ the @keyword{left limit} of $f$ at $a$. </li></ul>
 The limit $\displaystyle\lim_{x \rightarrow a}f(x)$
 is sometimes called the @keyword{double-sided limit} of $f$ at $a$.
 It exists if and only if both one-sided limits exist
@@ -186,7 +174,6 @@ and are equal to each other.  In which case, we have:
 \lim_{x \rightarrow a}f(x) = \lim_{x\rightarrow a^+} f(x)
 = \lim_{x\rightarrow a^-} f(x).
 \]
-
 
 @slide
 @ex
@@ -199,8 +186,7 @@ x^2 & \text{otherwise.}
 Compute $\displaystyle \lim_{x\to 2^+} f(x)$ and
 $\displaystyle \lim_{x\to 2^-} f(x)$.
 Then, find $\displaystyle\lim_{x\to 2} f(x)$, if it exists.
-<hr/>
-<h5>Answers.</h5>
+<hr/><h5>Answers.</h5>
 @newcol
 @ol
 @li
@@ -229,7 +215,6 @@ the double-sided limit $\displaystyle\lim_{x\to 2} f(x)$ does not exist.
 @item
 @webwork{Library/ASU-topics/setCalculus/stef/stef2_3p3.pg}
 @endenumerate
-@end
 @section{Sandwich Theorem for Functions on the Real Line}
 @thm
 Let $a \in \mathbb{R}$,
@@ -260,18 +245,11 @@ then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$.
 @end
 @slide
 @ex
-Find the following limits, if they exist:
-<p/>
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$
-<hr/>
-</li>
-<li>
-$\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$
-</li></ul>
+Find the following limits, if they exist: <p/><ul>
+<li> $\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$
+<hr/></li>
+<li> $\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$ </li></ul>
 @end
-
 
 @slide
 @thm
@@ -287,19 +265,12 @@ $\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$
 @endcol
 @end
 
-
 @slide
 @ex
-Find the following limits, if they exist:
-<p/>
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$
-<hr/>
-</li>
-<li>
-$\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$
-</li></ul>
+Find the following limits, if they exist: <p/><ul>
+<li> $\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$
+<hr/></li>
+<li> $\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$ </li></ul>
 @end
 
 @section{WeBWorK}
@@ -317,5 +288,4 @@ $\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan
 @item
 @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C02S03-CalcLimits/2-3-24.pg}
 @endenumerate
-
 
