@@ -151,7 +151,7 @@ The following functions are continuous at every point on the real line:
 <li>
 \[
 g(x) = \begin{cases}
-\frac{\sin{x}}{x}\;, & x \neq 0;\\
+\dfrac{\sin{x}}{x}\;, & x \neq 0;\\
 1, & x = 0;
 \end{cases}
 \]
@@ -159,7 +159,7 @@ g(x) = \begin{cases}
 <li>
 \[
 f(x) = \begin{cases}
-x^2\cos\left(\frac{1}{e^x - 1}\right), & x \neq 0;\\
+x^2\cos\left(\dfrac{1}{e^x - 1}\right), & x \neq 0;\\
 0, & x = 0;
 \end{cases}
 \]

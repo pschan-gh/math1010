@@ -214,14 +214,14 @@ h(x) &amp;= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
             <keywords slide="11" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="82f3fb1e55a7bb3fc8d57aaad5861525" course="Math 1010" chapter="4" slide="11" item="4.12">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="9717de5e23b01a20373937e5d10434a8" course="Math 1010" chapter="4" slide="11" item="4.12">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The following functions are continuous at every point on the real line: </paragraphs>
               <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
 g(x) = \begin{cases}
-\frac{\sin{x}}{x}\;, &amp; x \neq 0;\\
+\dfrac{\sin{x}}{x}\;, &amp; x \neq 0;\\
 1, &amp; x = 0;
 \end{cases}
 \] </paragraphs>
@@ -229,7 +229,7 @@ g(x) = \begin{cases}
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
 f(x) = \begin{cases}
-x^2\cos\left(\frac{1}{e^x - 1}\right), &amp; x \neq 0;\\
+x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
 0, &amp; x = 0;
 \end{cases}
 \] </paragraphs>
