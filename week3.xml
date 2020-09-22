@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -38,9 +37,7 @@
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Limits of Functions on the Real Line" course="Math 1010" chapter="3" num="1" serial="3.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" serial="3.1" slide="">
-          <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Limits of Functions on the Real Line</paragraphs>
-          <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
@@ -48,9 +45,7 @@
               <keyword chapter="3" slide="3">limit</keyword>
             </keywords>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Limits of Functions on the Real Line</paragraphs>
-              <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
             </title>
             <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$.
 Let $a$ be a point on the real line such that $f$ is defined on a neighborhood of $a$
@@ -73,7 +68,7 @@ $a$ does not lie in the domain of $f$. </paragraphs>
             <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="4406c29c190be7ebd7d2eabd26b46296" course="Math 1010" chapter="3" slide="3">
               <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the 
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the
 value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
 is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
 is somewhat vague, and it is precisely because of this vagueness that mathematicians
@@ -86,7 +81,7 @@ feel the need to define limits rigorously using the "$\delta$-$\varepsilon$" lan
 Note that the function $f$ is not defined at $-2$.</paragraphs>
                 <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$, 
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$,
 we have:
 \[
 f(-2.001) = -4.001,
@@ -154,39 +149,44 @@ whenever $x &gt; c$ (resp. $x &lt; c$). </paragraphs>
 \] </paragraphs>
             </newcol>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
-            <keywords slide="5" environ="slide" chapter="3" course="Math 1010"/>
-            <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Some Useful Identities:</paragraphs>
-            </strong>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
-            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In the following idenities,
+        </slides>
+        <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="Some Useful Identities" course="Math 1010" chapter="3" section="1" num="1" serial="3.1.1">
+          <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" serial="3.1.1" slide="">
+            <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Some Useful Identities</paragraphs>
+          </title>
+          <slides environment="" chapter_type="">
+            <slide environment="" chapter_type="Week" canon_num="5" scope="subsection" id="s5" slide="5" course="Math 1010" chapter="3" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
+              <keywords slide="5" environ="slide" chapter="3" course="Math 1010"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="3" section="1" subsection="1" subsubsection="" serial="" slide="5">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">Some Useful Identities</paragraphs>
+              </title>
+              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="" wbtag="paragraphs"> In the following idenities,
 the symbol $a$ can be either a real number or $\pm \infty$. </paragraphs>
-            <col_ol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
-              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> For any constant $c \in \mathbb{R}$,
+              <col_ol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_ol">
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> For any constant $c \in \mathbb{R}$,
 we have $\displaystyle\lim_{x\rightarrow a} c = c$. </paragraphs>
-              </col_li>
-              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\displaystyle\lim_{x \rightarrow a} x = a.$ </paragraphs>
-              </col_li>
-              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L$, and $\lim_{x \rightarrow a} g(x) = M$,
+                </col_li>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> $\displaystyle\lim_{x \rightarrow a} x = a.$ </paragraphs>
+                </col_li>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L$, and $\lim_{x \rightarrow a} g(x) = M$,
 then: </paragraphs>
-                <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
-                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\lim_{x\rightarrow a} (f\pm g)(x) = L\pm M.$ </paragraphs>
-                  </col_li>
-                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\lim_{x\rightarrow a} fg(x) = LM.$ </paragraphs>
-                  </col_li>
-                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[\lim_{x\rightarrow a} \dfrac{f}{g}(x) = \dfrac{L}{M}\] provided that $M \neq 0$. </paragraphs>
-                  </col_li>
-                </col_ul>
-              </col_li>
-              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L$, then:
+                  <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_ul">
+                    <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_li">
+                      <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\lim_{x\rightarrow a} (f\pm g)(x) = L\pm M.$ </paragraphs>
+                    </col_li>
+                    <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_li">
+                      <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\lim_{x\rightarrow a} fg(x) = LM.$ </paragraphs>
+                    </col_li>
+                    <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_li">
+                      <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="paragraphs"> \[\lim_{x\rightarrow a} \dfrac{f}{g}(x) = \dfrac{L}{M}\] provided that $M \neq 0$. </paragraphs>
+                    </col_li>
+                  </col_ul>
+                </col_li>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L$, then:
 \[
 \lim_{x\rightarrow a}(f(x))^n = L^n\quad
 \text{ for all } n \in \mathbb{N} = \{1, 2, 3, \ldots\},
@@ -196,34 +196,35 @@ and
 \lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
 \text{ for all odd positive integers } n.
 \] </paragraphs>
-                <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for all positive integer $n$, we have:
+                  <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for all positive integer $n$, we have:
 \[
 \lim_{x \rightarrow } x^n = a^n.
 \] </paragraphs>
-                </newcol>
-              </col_li>
-              <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L &gt; 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$. </paragraphs>
-              </col_li>
-            </col_ol>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
-            <keywords slide="6" environ="slide" chapter="3" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="19d013c26c7ccb4ea192354f43700a01" course="Math 1010" chapter="3" slide="6" item="3.4">
-              <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Compute the following limits, if they exist: </paragraphs>
-              <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
-                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                  </newcol>
                 </col_li>
-                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$ </paragraphs>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L &gt; 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$. </paragraphs>
                 </col_li>
-              </col_ul>
-            </statement>
-          </slide>
-        </slides>
+              </col_ol>
+            </slide>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="3" section="1" subsection="1" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
+              <keywords slide="6" environ="slide" chapter="3" course="Math 1010"/>
+              <statement environment="statement" chapter_type="" type="Example" wbtag="eg" num="4" md5="19d013c26c7ccb4ea192354f43700a01" course="Math 1010" chapter="3" slide="6" item="3.4">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="statement" wbtag="paragraphs"> Compute the following limits, if they exist: </paragraphs>
+                <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_ul">
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
+                  </col_li>
+                  <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="col_li">
+                    <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$ </paragraphs>
+                  </col_li>
+                </col_ul>
+              </statement>
+            </slide>
+          </slides>
+        </subsection>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="3" num="2" serial="3.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="2" subsection="" subsubsection="" serial="3.2" slide="">
@@ -257,9 +258,7 @@ and
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="One-Sided Limits" course="Math 1010" chapter="3" num="3" serial="3.3">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" serial="3.3" slide="">
-          <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">One-Sided Limits</paragraphs>
-          <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" chapter_title="" section_title="One-Sided Limits">
@@ -269,9 +268,7 @@ and
               <keyword chapter="3" slide="8">double-sided limit</keyword>
             </keywords>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="3" section="3" subsection="" subsubsection="" serial="" slide="8">
-              <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">One-Sided Limits</paragraphs>
-              <newline course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
             </title>
             <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
               <li environment="">
@@ -322,7 +319,7 @@ x^2 &amp; \text{otherwise.}
 Compute $\displaystyle \lim_{x\to 2^+} f(x)$ and
 $\displaystyle \lim_{x\to 2^-} f(x)$.
 Then, find $\displaystyle\lim_{x\to 2} f(x)$, if it exists. </paragraphs>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <h5 xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Answers.</paragraphs>
               </h5>
@@ -420,11 +417,11 @@ then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$. </paragraphs>
             <keywords slide="13" environ="slide" chapter="3" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="8" md5="c1b2ec6d321f3151db6ffa66afa75d6f" course="Math 1010" chapter="3" slide="13" item="3.8">
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the following limits, if they exist: </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$ </paragraphs>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$ </paragraphs>
@@ -453,11 +450,11 @@ then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$. </paragraphs>
             <keywords slide="15" environ="slide" chapter="3" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="11" md5="b422a7607f2e5c079be505ba89fe2773" course="Math 1010" chapter="3" slide="15" item="3.11">
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the following limits, if they exist: </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$ </paragraphs>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$ </paragraphs>
