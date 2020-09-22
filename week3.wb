@@ -27,7 +27,7 @@ $a$ does not lie in the domain of $f$.
 Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the 
 value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
 is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
-is very vague, and it is precisely because of this vagueness that mathematicians
+is somewhat vague, and it is precisely because of this vagueness that mathematicians
 feel the need to define limits rigorously using the "$\delta$-$\epsilon$" language.
 @endcol
 @end
