@@ -211,9 +211,10 @@ and
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="19d013c26c7ccb4ea192354f43700a01" course="Math 1010" chapter="3" slide="6" item="3.4">
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Compute the following limits, if they exist: </paragraphs>
               <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
-                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
-                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li"/>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                </col_li>
                 <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                   <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$ </paragraphs>
                 </col_li>

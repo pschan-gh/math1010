@@ -140,9 +140,9 @@ If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(
 @eg
 Compute the following limits, if they exist:
 @ul
+@li
 $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
 <hr/>
-@li
 @li
 $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
 @endul
