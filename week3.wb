@@ -28,7 +28,7 @@ Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the
 value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
 is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
 is somewhat vague, and it is precisely because of this vagueness that mathematicians
-feel the need to define limits rigorously using the "$\delta$-$\epsilon$" language.
+feel the need to define limits rigorously using the "$\delta$-$\varepsilon$" language.
 @endcol
 @end
 @eg
@@ -128,6 +128,11 @@ and
 \lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
 \text{ for all odd positive integers } n.
 \]
+@col
+In particular, for all positive integer $n$, we have:
+\[
+\lim_{x \rightarrow } x^n = a^n.
+\]
 @li
 If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$.
 @endol
@@ -135,11 +140,11 @@ If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(
 @eg
 Compute the following limits, if they exist:
 @ul
-@li
-$\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
+$\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
 <hr/>
 @li
-$\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
+@li
+$\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
 @endul
 @end
 @section{WeBWorK}

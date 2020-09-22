@@ -69,13 +69,13 @@ Note that the limit may exist even if
 $a$ does not lie in the domain of $f$. </paragraphs>
             </newcol>
             <newline course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="8fe5e4d39c9363efffbd218a0d068f13" course="Math 1010" chapter="3" slide="3">
+            <substatement environment="substatement" chapter_type="Week" type="Remark" wbtag="remark" md5="4406c29c190be7ebd7d2eabd26b46296" course="Math 1010" chapter="3" slide="3">
               <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the 
 value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
 is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
 is somewhat vague, and it is precisely because of this vagueness that mathematicians
-feel the need to define limits rigorously using the "$\delta$-$\epsilon$" language. </paragraphs>
+feel the need to define limits rigorously using the "$\delta$-$\varepsilon$" language. </paragraphs>
               </newcol>
             </substatement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="0a26d350fc271e6ccb404fe0d8289f2e" course="Math 1010" chapter="3" slide="3" item="3.2">
@@ -194,6 +194,12 @@ and
 \lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
 \text{ for all odd positive integers } n.
 \] </paragraphs>
+                <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for all positive integer $n$, we have:
+\[
+\lim_{x \rightarrow } x^n = a^n.
+\] </paragraphs>
+                </newcol>
               </col_li>
               <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                 <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> If $\lim_{x \rightarrow a} f(x) = L &gt; 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$. </paragraphs>
@@ -202,15 +208,14 @@ and
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="3" section="1" subsection="" subsubsection="" chapter_title="" section_title="Limits of Functions on the Real Line">
             <keywords slide="6" environ="slide" chapter="3" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="d025c7c9817ca9206f4135044d53f20c" course="Math 1010" chapter="3" slide="6" item="3.4">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="19d013c26c7ccb4ea192354f43700a01" course="Math 1010" chapter="3" slide="6" item="3.4">
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Compute the following limits, if they exist: </paragraphs>
               <col_ul course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li"/>
                 <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                   <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$ </paragraphs>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
-                </col_li>
-                <col_li course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
-                  <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$ </paragraphs>
                 </col_li>
               </col_ul>
             </statement>
