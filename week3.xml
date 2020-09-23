@@ -199,7 +199,7 @@ and
                   <newcol course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="3" chapter_type="" section="1" subsection="1" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for all positive integer $n$, we have:
 \[
-\lim_{x \rightarrow } x^n = a^n.
+\lim_{x \rightarrow a} x^n = a^n.
 \] </paragraphs>
                   </newcol>
                 </col_li>
