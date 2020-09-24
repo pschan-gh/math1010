@@ -264,7 +264,35 @@ Find the following limits, if they exist: <p/><ul>
 \]
 @endcol
 @end
+@proof
+@newcol
+@steps
+\[
+\begin{split}
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2}
+&=
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2}\cdot\left(\frac{1 + \cos x}{1 + \cos x}\right)
+\\&
+@nstep{= \lim_{x \rightarrow 0} \frac{1 - \cos^2 x}{x^2 \left(1 + \cos x\right)}}
+\\&
+@nstep{= \lim_{x \rightarrow 0} \frac{\sin^2 x}{x^2 \left(1 + \cos x\right)}}
+\\&
+@nstep{= \lim_{x \rightarrow 0} \left(\frac{\sin x}{x}\right)^2\frac{1}{1 + \cos x}}
+\\&
+@nstep{= 1^2 \cdot \frac{1}{1 + 1} = \frac{1}{2}}
+\end{split}
+\]
+@endsteps
+@endcol
+@end
+@cor
+@newcol
+\[
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x} = 0\;.
+\]
+@endcol
 
+@end
 @slide
 @ex
 Find the following limits, if they exist: <p/><ul>

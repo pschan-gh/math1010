@@ -444,11 +444,39 @@ then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$. </paragraphs>
 \] </paragraphs>
               </newcol>
             </statement>
-            <newline course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment=""/>
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="2e91751bd87f3443172075e16e69a179" course="Math 1010" chapter="3" slide="14" of="bd5f1a9f72d20d1be738e4c11186402b">
+              <newcol course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <steps course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+\[
+\begin{split}
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2}
+&amp;=
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2}\cdot\left(\frac{1 + \cos x}{1 + \cos x}\right)
+\\&amp;
+\class{steps}{\cssId{step0}{= \lim_{x \rightarrow 0} \frac{1 - \cos^2 x}{x^2 \left(1 + \cos x\right)}}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \lim_{x \rightarrow 0} \frac{\sin^2 x}{x^2 \left(1 + \cos x\right)}}}
+\\&amp;
+\class{steps}{\cssId{step2}{= \lim_{x \rightarrow 0} \left(\frac{\sin x}{x}\right)^2\frac{1}{1 + \cos x}}}
+\\&amp;
+\class{steps}{\cssId{step3}{= 1^2 \cdot \frac{1}{1 + 1} = \frac{1}{2}}}
+\end{split}
+\]
+</steps>
+              </newcol>
+            </substatement>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="11" md5="b66804d8d9412c9ae3c3325a290654cc" course="Math 1010" chapter="3" slide="14" item="3.11">
+              <newcol course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x} = 0\;.
+\] </paragraphs>
+              </newcol>
+              <newline course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement"/>
+            </statement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 1010" chapter="3" section="5" subsection="" subsubsection="" chapter_title="" section_title="Sandwich Theorem for Functions on the Real Line">
             <keywords slide="15" environ="slide" chapter="3" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="11" md5="b422a7607f2e5c079be505ba89fe2773" course="Math 1010" chapter="3" slide="15" item="3.11">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="12" md5="b422a7607f2e5c079be505ba89fe2773" course="Math 1010" chapter="3" slide="15" item="3.12">
               <paragraphs course="Math 1010" chapter="3" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the following limits, if they exist: </paragraphs>
               <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
