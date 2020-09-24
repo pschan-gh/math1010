@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -129,7 +128,6 @@ x = e^t - 1.
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Continuity</paragraphs>
             </title>
             <hc_keyword course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">continuous</hc_keyword>
-            <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs">  </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="bb3181ea074cd6d1c3defe76dc6968da" course="Math 1010" chapter="4" slide="7" item="4.8">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A function $f : A \longrightarrow\mathbb{R}$ is said to be </paragraphs>
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
@@ -148,10 +146,10 @@ A function is said to be </paragraphs>
             <newcol course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Should $c$ be an endpoint in the domain of $f$,
 the continuity of $f$ at $c$ is defined in terms of a one-sided limit. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> That is, right limit if $c$ is a left endpoint,
 and left limit if $c$ is a right endpoint. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <collapse course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, the function:
 \[
@@ -174,7 +172,7 @@ f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan,  e^x, \ln x, \arcsin x, \arccos x
 \]
 Due to the laws of sum/difference/product/quotient for limits,
 the sum/difference/product/quotient of continuous functions is also continous. </paragraphs>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In particular, polynomials and rational functions are all continuous on their domains. </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
@@ -216,7 +214,7 @@ h(x) &amp;= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
             <keywords slide="11" environ="slide" chapter="4" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="9717de5e23b01a20373937e5d10434a8" course="Math 1010" chapter="4" slide="11" item="4.12">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The following functions are continuous at every point on the real line: </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
@@ -250,7 +248,7 @@ x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$. </paragraphs>
                 </li>
               </ul>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <col_ol course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_ol">
                 <col_li course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="col_li">
                   <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="col_ol" wbtag="paragraphs"> Show that $f(0)=1$. </paragraphs>
@@ -265,14 +263,12 @@ x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
         </slides>
         <subsection environment="" chapter_type="" type="Section" wbtag="subsection" title="WeBWorK" course="Math 1010" chapter="4" section="2" num="1" serial="4.2.1">
           <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" serial="4.2.1" slide="">
-            <newline course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
           </title>
           <slides environment="" chapter_type="">
             <slide environment="" chapter_type="Week" canon_num="13" scope="subsection" id="s13" slide="13" course="Math 1010" chapter="4" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Continuity">
               <keywords slide="13" environ="slide" chapter="4" course="Math 1010"/>
               <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="4" section="2" subsection="1" subsubsection="" serial="" slide="13">
-                <newline course="Math 1010" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="title"/>
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
               </title>
               <enumerate course="Math 1010" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -309,7 +305,7 @@ x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
                 <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="14">Intermediate value Theorem (IVT)</title>
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
 then $f$ attains every value between $f(a)$ and $f(b)$. </paragraphs>
-                <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
 and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$. </paragraphs>
               </statement>
