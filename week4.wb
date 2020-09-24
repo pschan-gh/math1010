@@ -15,7 +15,6 @@ It is known that:
 e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
 \]
 
-
 @slide
 @thm
 \[
@@ -25,7 +24,6 @@ e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
 @end
 @cor
 @newcol
-
 
 \[
 \lim_{x \rightarrow \infty} \left(1 - \frac{1}{x}\right)^x
@@ -42,7 +40,6 @@ Find:
 \]
 @endcol
 @end
-
 
 @slide
 @thm
@@ -74,23 +71,19 @@ x = e^t - 1.
 \]
 @end
 @section{Continuity}
-@keyword*{continuous} 
+@keyword*{continuous}
 @defn
-A function $f : A \longrightarrow\mathbb{R}$ is said to be <strong>continuous</strong>
-at $c \in A$ if:
+A function $f : A \longrightarrow\mathbb{R}$ is said to be <strong>continuous</strong> at $c \in A$ if:
 \[
 \lim_{x\rightarrow c} f(x) = f(c).
 \]
-A function is said to be <strong>continuous</strong>
-if it is continuous at every point in its domain.
+A function is said to be <strong>continuous</strong> if it is continuous at every point in its domain.
 @end
 @newcol
 Should $c$ be an endpoint in the domain of $f$,
-the continuity of $f$ at $c$ is defined in terms of a one-sided limit.
-<p/>
+the continuity of $f$ at $c$ is defined in terms of a one-sided limit. <p/>
 That is, right limit if $c$ is a left endpoint,
-and left limit if $c$ is a right endpoint.
-<p/>
+and left limit if $c$ is a right endpoint. <p/>
 @col
 Hence, the function:
 \[
@@ -145,35 +138,26 @@ h(x) &= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
 @end
 @slide
 @eg
-The following functions are continuous at every point on the real line:
-<p/>
-<ul>
-<li>
-\[
+The following functions are continuous at every point on the real line: <p/><ul>
+<li> \[
 g(x) = \begin{cases}
 \dfrac{\sin{x}}{x}\;, & x \neq 0;\\
 1, & x = 0;
 \end{cases}
-\]
-</li>
-<li>
-\[
+\] </li>
+<li> \[
 f(x) = \begin{cases}
 x^2\cos\left(\dfrac{1}{e^x - 1}\right), & x \neq 0;\\
 0, & x = 0;
 \end{cases}
-\]
-</li></ul>
+\] </li></ul>
 @end
 
 @slide
 @ex
-Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies:
-<ul>
-<li> $f(x+y)=f(x)f(y)$ for all $x,y\in\mathbb{R}$;
-</li>
-<li> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$.
-</li></ul>
+Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies: <ul>
+<li> $f(x+y)=f(x)f(y)$ for all $x,y\in\mathbb{R}$; </li>
+<li> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$. </li></ul>
 <hr/>
 @ol
 @li
@@ -183,8 +167,7 @@ Show that $f(x)$ is continuous on $\mathbb{R}$.
 @endol
 @end
 
-@subsection{
-WeBWorK}
+@subsection{WeBWorK}
 @enumerate
 @item
 @webwork{Library/Union/setLimitContinuity/c1s5p5.pg}
@@ -200,27 +183,24 @@ WeBWorK}
 @thm
 @title{Intermediate value Theorem (IVT)}
 If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
-then $f$ attains every value between $f(a)$ and $f(b)$.
-<p/>
+then $f$ attains every value between $f(a)$ and $f(b)$. <p/>
 In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
 and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$.
 @end
 @ex
 @newcol
 <ul>
-<li>
-Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$.
-</li>
-<li>
-Show that the range of $f(x) = e^x - \sqrt{x}$ <i>contains</i> $[1, \infty)$.
-</li></ul>
+<li> Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$. </li>
+<li> Show that the range of $f(x) = e^x - \sqrt{x}$ <i>contains</i> $[1, \infty)$. </li></ul>
 @endcol
 @end
 @slide
 @thm
 @title{Extreme Value Theorem}
 @label{evt}
-If $f$ is a <u>continuous</u> function
-defined on a <u>closed</u> interval $[a, b]$,
+If $f$ is a <u>continuous</u>
+function
+defined on a <u>closed</u>
+interval $[a, b]$,
 then it attains both a maximum value and a minimum value on $[a, b].$
 @end
