@@ -113,16 +113,16 @@ is continuous at $x = 0$, since $\mathrm{Domain}(f) = [0, \infty)$, and:
 The following "elementary functions"
 are continuous at every element in their domains:
 \[
-f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan,  e^x, \ln x, \arcsin x, \arccos x,
+f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan x,  e^x, \ln x, \arcsin x, \arccos x,
 \arctan x
 \]
 Due to the laws of sum/difference/product/quotient for limits,
 the sum/difference/product/quotient of continuous functions is also continous.
-<hr/>
+<hr style=""/>
 In particular, polynomials and rational functions are all continuous on their domains.
 @slide
 @thm
-for functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
+For functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
 $f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
 \[
 \lim_{x \rightarrow a} f(g(x)) = f\left(\lim_{x\rightarrow a}g(x)\right).

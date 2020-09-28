@@ -187,18 +187,18 @@ is continuous at $x = 0$, since $\mathrm{Domain}(f) = [0, \infty)$, and:
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> The following "elementary functions"
 are continuous at every element in their domains:
 \[
-f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan,  e^x, \ln x, \arcsin x, \arccos x,
+f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan x,  e^x, \ln x, \arcsin x, \arccos x,
 \arctan x
 \]
 Due to the laws of sum/difference/product/quotient for limits,
 the sum/difference/product/quotient of continuous functions is also continous. </paragraphs>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="" />
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In particular, polynomials and rational functions are all continuous on their domains. </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
             <keywords slide="10" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="e807eae7c193aa9387a581af5b3d88bf" course="Math 1010" chapter="4" slide="10" item="4.10">
-              <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> for functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="bf355bc41b4026540f3fea4ddd222d62" course="Math 1010" chapter="4" slide="10" item="4.10">
+              <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
 $f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
 \[
 \lim_{x \rightarrow a} f(g(x)) = f\left(\lim_{x\rightarrow a}g(x)\right).
