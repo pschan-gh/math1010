@@ -3,6 +3,16 @@
 @topic{Limits}
 @topic{Continuity}
 @section{More Limit Identities}
+@eg
+Find:
+@ul
+@li
+$\displaystyle \lim_{x \rightarrow 0^+} \sin\left(\frac{1}{x}\right)$
+@li
+$\displaystyle \lim_{x \rightarrow 0^+} x\sin\left(\frac{1}{x}\right)$
+@endul
+@end
+@slide
 @defn
 For each $x \in \mathbb{R}$, we let:
 \[
@@ -24,11 +34,16 @@ e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
 @end
 @cor
 @newcol
-
 \[
 \lim_{x \rightarrow \infty} \left(1 - \frac{1}{x}\right)^x
 = \lim_{x \rightarrow 0} (1 - x)^{\frac{1}{x}}
 = \frac{1}{e}
+\]
+@col
+For all $a \in \mathbb{R}$,
+\[
+\lim_{x \rightarrow \infty} \left(1 + \frac{a}{x}\right)^x
+= e^a
 \]
 @endcol
 @end

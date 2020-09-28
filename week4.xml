@@ -39,7 +39,21 @@
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" serial="" slide="3">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">More Limit Identities</paragraphs>
             </title>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="1" md5="c91014d459334d011e4552f619867e9d" course="Math 1010" chapter="4" slide="3" item="4.1">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="3f799a8b0419d6afe7317288d0dc4392" course="Math 1010" chapter="4" slide="3" item="4.1">
+              <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find: </paragraphs>
+              <col_ul course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_ul">
+                <col_li course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \rightarrow 0^+} \sin\left(\frac{1}{x}\right)$ </paragraphs>
+                </col_li>
+                <col_li course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
+                  <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \lim_{x \rightarrow 0^+} x\sin\left(\frac{1}{x}\right)$ </paragraphs>
+                </col_li>
+              </col_ul>
+            </statement>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
+            <keywords slide="4" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="2" md5="c91014d459334d011e4552f619867e9d" course="Math 1010" chapter="4" slide="4" item="4.2">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For each $x \in \mathbb{R}$, we let:
 \[
 e^x = \sum_{k = 0}^\infty \frac{x^k}{k!}
@@ -52,25 +66,31 @@ e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
 \]</paragraphs>
             <newline course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
-            <keywords slide="4" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="cb1e5d959725988434089ed5ca5a1056" course="Math 1010" chapter="4" slide="4" item="4.2">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
+            <keywords slide="5" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" md5="cb1e5d959725988434089ed5ca5a1056" course="Math 1010" chapter="4" slide="5" item="4.3">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
 \lim_{x \rightarrow \infty} \left(1 + \frac{1}{x}\right)^x
 = \lim_{x \rightarrow 0} (1 + x)^{\frac{1}{x}} = e
 \] </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="3" md5="acac239972e231946f878d8253bc872b" course="Math 1010" chapter="4" slide="4" item="4.3">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="4" md5="73749299a574dd1967339a57384e7d96" course="Math 1010" chapter="4" slide="5" item="4.4">
               <newcol course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <newline course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
-                <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">\[
+                <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \lim_{x \rightarrow \infty} \left(1 - \frac{1}{x}\right)^x
 = \lim_{x \rightarrow 0} (1 - x)^{\frac{1}{x}}
 = \frac{1}{e}
 \] </paragraphs>
+                <collapse course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $a \in \mathbb{R}$,
+\[
+\lim_{x \rightarrow \infty} \left(1 + \frac{a}{x}\right)^x
+= e^a
+\] </paragraphs>
+                </collapse>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="4" md5="6d7bbf668b3e83e80c6f9b178c086deb" course="Math 1010" chapter="4" slide="4" item="4.4">
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="5" md5="6d7bbf668b3e83e80c6f9b178c086deb" course="Math 1010" chapter="4" slide="5" item="4.5">
               <newcol course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Find:
 \[
@@ -80,15 +100,15 @@ e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
             </statement>
             <newline course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
-            <keywords slide="5" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="d907aebecd5c5527fdde29d703ac76c5" course="Math 1010" chapter="4" slide="5" item="4.5">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
+            <keywords slide="6" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="6" md5="d907aebecd5c5527fdde29d703ac76c5" course="Math 1010" chapter="4" slide="6" item="4.6">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For all $n \in \{1, 2, 3, \ldots\}$, we have:
 \[
 \lim_{x \rightarrow \infty} \frac{x^n}{e^x} = 0.
 \] </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="6" md5="2c4f1cf6e976c5dbfe12ab0c2078f0e7" course="Math 1010" chapter="4" slide="5" item="4.6">
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="7" md5="2c4f1cf6e976c5dbfe12ab0c2078f0e7" course="Math 1010" chapter="4" slide="6" item="4.7">
               <newcol course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For all $n \in \{1, 2, 3, \ldots\}$, and $b &gt; 1$, we have:
 \[
@@ -97,9 +117,9 @@ e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
-            <keywords slide="6" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="7" md5="9df5120b483bac3f51d2134d162a67cc" course="Math 1010" chapter="4" slide="6" item="4.7">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="7" id="s7" slide="7" course="Math 1010" chapter="4" section="1" subsection="" subsubsection="" chapter_title="" section_title="More Limit Identities">
+            <keywords slide="7" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="8" md5="9df5120b483bac3f51d2134d162a67cc" course="Math 1010" chapter="4" slide="7" item="4.8">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
 \lim_{x \rightarrow 0} \frac{\ln(1 + x)}{x} = 1.
 \]
@@ -120,15 +140,15 @@ x = e^t - 1.
           <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Continuity</paragraphs>
         </title>
         <slides environment="" chapter_type="">
-          <slide environment="" chapter_type="Week" canon_num="7" scope="section" id="s7" slide="7" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
-            <keywords slide="7" environ="slide" chapter="4" course="Math 1010">
-              <keyword chapter="4" slide="7">continuous</keyword>
+          <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
+            <keywords slide="8" environ="slide" chapter="4" course="Math 1010">
+              <keyword chapter="4" slide="8">continuous</keyword>
             </keywords>
-            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" serial="" slide="7">
+            <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" serial="" slide="8">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Continuity</paragraphs>
             </title>
             <hc_keyword course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">continuous</hc_keyword>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="8" md5="bb3181ea074cd6d1c3defe76dc6968da" course="Math 1010" chapter="4" slide="7" item="4.8">
+            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="9" md5="bb3181ea074cd6d1c3defe76dc6968da" course="Math 1010" chapter="4" slide="8" item="4.9">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A function $f : A \longrightarrow\mathbb{R}$ is said to be </paragraphs>
               <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">continuous</paragraphs>
@@ -162,8 +182,8 @@ is continuous at $x = 0$, since $\mathrm{Domain}(f) = [0, \infty)$, and:
               </collapse>
             </newcol>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
-            <keywords slide="8" environ="slide" chapter="4" course="Math 1010"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
+            <keywords slide="9" environ="slide" chapter="4" course="Math 1010"/>
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> The following "elementary functions"
 are continuous at every element in their domains:
 \[
@@ -175,9 +195,9 @@ the sum/difference/product/quotient of continuous functions is also continous. <
             <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In particular, polynomials and rational functions are all continuous on their domains. </paragraphs>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
-            <keywords slide="9" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" md5="e807eae7c193aa9387a581af5b3d88bf" course="Math 1010" chapter="4" slide="9" item="4.9">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
+            <keywords slide="10" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="10" md5="e807eae7c193aa9387a581af5b3d88bf" course="Math 1010" chapter="4" slide="10" item="4.10">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> for functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
 $f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
 \[
@@ -185,7 +205,7 @@ $f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
 \] </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="35c028668f251af7ecc577aa665896d7" course="Math 1010" chapter="4" slide="9" item="4.10">
+              <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="35c028668f251af7ecc577aa665896d7" course="Math 1010" chapter="4" slide="10" item="4.11">
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> It follows from this theorem that:
 \[
 \lim_{x \rightarrow 0} \frac{\ln(1 + x)}{x} = 1
@@ -193,11 +213,11 @@ $f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
               </statement>
             </newcol>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
-            <keywords slide="10" environ="slide" chapter="4" course="Math 1010"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
+            <keywords slide="11" environ="slide" chapter="4" course="Math 1010"/>
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="" wbtag="paragraphs"> It also follows from the previous theorem that any composite
 of continuous functions is continuous. </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="700333525409d06ae3cc3e3604650e91" course="Math 1010" chapter="4" slide="10" item="4.11">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="700333525409d06ae3cc3e3604650e91" course="Math 1010" chapter="4" slide="11" item="4.12">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The following functions are all continuous,
 since they are the sums, differences, products, quotients,
 or composites of other continuous functions:
@@ -210,9 +230,9 @@ h(x) &amp;= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
 \] </paragraphs>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
-            <keywords slide="11" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="9717de5e23b01a20373937e5d10434a8" course="Math 1010" chapter="4" slide="11" item="4.12">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
+            <keywords slide="12" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="9717de5e23b01a20373937e5d10434a8" course="Math 1010" chapter="4" slide="12" item="4.13">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The following functions are continuous at every point on the real line: </paragraphs>
               <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
@@ -236,9 +256,9 @@ x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
             </statement>
             <newline course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
-            <keywords slide="12" environ="slide" chapter="4" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="13" md5="a9e17e63fdeaf144addc3a9fe06ed810" course="Math 1010" chapter="4" slide="12" item="4.13">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="4" section="2" subsection="" subsubsection="" chapter_title="" section_title="Continuity">
+            <keywords slide="13" environ="slide" chapter="4" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Exercise" wbtag="ex" num="14" md5="a9e17e63fdeaf144addc3a9fe06ed810" course="Math 1010" chapter="4" slide="13" item="4.14">
               <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies: </paragraphs>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
@@ -266,9 +286,9 @@ x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="13" scope="subsection" id="s13" slide="13" course="Math 1010" chapter="4" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Continuity">
-              <keywords slide="13" environ="slide" chapter="4" course="Math 1010"/>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="4" section="2" subsection="1" subsubsection="" serial="" slide="13">
+            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 1010" chapter="4" section="2" subsection="1" subsubsection="" chapter_title="" section_title="Continuity">
+              <keywords slide="14" environ="slide" chapter="4" course="Math 1010"/>
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="4" section="2" subsection="1" subsubsection="" serial="" slide="14">
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
               </title>
               <enumerate course="Math 1010" chapter="4" chapter_type="" section="2" subsection="1" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -294,22 +314,22 @@ x^2\cos\left(\dfrac{1}{e^x - 1}\right), &amp; x \neq 0;\\
             <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Further Properties of Continuous Functions</paragraphs>
           </title>
           <slides environment="" chapter_type="">
-            <slide environment="" chapter_type="Week" canon_num="14" scope="subsection" id="s14" slide="14" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" chapter_title="" section_title="Continuity">
-              <keywords slide="14" environ="slide" chapter="4" course="Math 1010">
-                <keyword chapter="4" slide="14">Intermediate value Theorem IVT</keyword>
+            <slide environment="" chapter_type="Week" canon_num="15" scope="subsection" id="s15" slide="15" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" chapter_title="" section_title="Continuity">
+              <keywords slide="15" environ="slide" chapter="4" course="Math 1010">
+                <keyword chapter="4" slide="15">Intermediate value Theorem IVT</keyword>
               </keywords>
-              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="14">
+              <title environment="title" chapter_type="Week" wbtag="title" scope="subsection" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="15">
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="title" wbtag="paragraphs">Further Properties of Continuous Functions</paragraphs>
               </title>
-              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="14" title="Intermediate value Theorem IVT" md5="ae37497a5761ac335d0681d023a972aa" course="Math 1010" chapter="4" slide="14" item="4.14">
-                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="14">Intermediate value Theorem (IVT)</title>
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="15" title="Intermediate value Theorem IVT" md5="ae37497a5761ac335d0681d023a972aa" course="Math 1010" chapter="4" slide="15" item="4.15">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="15">Intermediate value Theorem (IVT)</title>
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
 then $f$ attains every value between $f(a)$ and $f(b)$. </paragraphs>
                 <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
 and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$. </paragraphs>
               </statement>
-              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="15" md5="6c75557a8e84db593b05e0887dbfcf10" course="Math 1010" chapter="4" slide="14" item="4.15">
+              <statement environment="statement" chapter_type="" type="Exercise" wbtag="ex" num="16" md5="6c75557a8e84db593b05e0887dbfcf10" course="Math 1010" chapter="4" slide="15" item="4.16">
                 <newcol course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="newcol" wbtag="newcol">
                   <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                     <li environment="newcol">
@@ -326,12 +346,12 @@ and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$. </paragraphs>
                 </newcol>
               </statement>
             </slide>
-            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" chapter_title="" section_title="Continuity">
-              <keywords slide="15" environ="slide" chapter="4" course="Math 1010">
-                <keyword chapter="4" slide="15">Extreme Value Theorem</keyword>
+            <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" chapter_title="" section_title="Continuity">
+              <keywords slide="16" environ="slide" chapter="4" course="Math 1010">
+                <keyword chapter="4" slide="16">Extreme Value Theorem</keyword>
               </keywords>
-              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="16" title="Extreme Value Theorem" md5="4e5b41e44aeb0e3dac182548166c66dd" course="Math 1010" chapter="4" slide="15" item="4.16">
-                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="15">Extreme Value Theorem</title>
+              <statement environment="statement" chapter_type="" type="Theorem" wbtag="thm" num="17" title="Extreme Value Theorem" md5="4e5b41e44aeb0e3dac182548166c66dd" course="Math 1010" chapter="4" slide="16" item="4.17">
+                <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="4" section="2" subsection="2" subsubsection="" serial="" slide="16">Extreme Value Theorem</title>
                 <label course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="statement" wbtag="label" name="evt" type="Theorem"/>
                 <paragraphs course="Math 1010" chapter="4" chapter_type="" section="2" subsection="2" subsubsection="" environment="statement" wbtag="paragraphs"> If $f$ is a </paragraphs>
                 <u xmlns="http://www.w3.org/1999/xhtml" environment="statement">
