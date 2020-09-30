@@ -118,7 +118,7 @@ f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan x,  e^x, \ln x, \arcsin x, \arccos
 \]
 Due to the laws of sum/difference/product/quotient for limits,
 the sum/difference/product/quotient of continuous functions is also continous.
-<hr style=""/>
+<hr/>
 In particular, polynomials and rational functions are all continuous on their domains.
 @slide
 @thm
@@ -196,17 +196,17 @@ Show that $f(x)$ is continuous on $\mathbb{R}$.
 
 @subsection{Further Properties of Continuous Functions}
 @thm
-@title{Intermediate value Theorem (IVT)}
+@title{Intermediate Value Theorem (IVT)}
 If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
-then $f$ attains every value between $f(a)$ and $f(b)$. <p/>
+then $f$ attains every value between $f(a)$ and $f(b)$. <p style=""/>
 In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
 and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$.
 @end
 @ex
 @newcol
-<ul>
-<li> Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$. </li>
-<li> Show that the range of $f(x) = e^x - \sqrt{x}$ <i>contains</i> $[1, \infty)$. </li></ul>
+<ul style="">
+<li style=""> Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$. </li>
+<li style=""> Show that the range of $f(x) = e^x - \sqrt{x}$ <i style="">contains</i> $[1, \infty)$. </li></ul>
 @endcol
 @end
 @slide
