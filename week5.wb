@@ -10,6 +10,73 @@ f'(c) := \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}
 exists.
 The limit $f'(c)$, if it exists, is called the @keyword{derivative} of $f$ at $c$.
 @end
+@col
+@figure
+@label{Slope of secant line}
+@caption{Slope of secant line}
+<div id="box" class="jxgbox" style="width:500px;height:500px;margin:auto"></div>
+<div id="slope"></div>
+<script>
+JXG.Options.text.useMathJax = true;
+board = JXG.JSXGraph.initBoard('box', {
+    boundingbox: [-1, 6.5, 4.5, -3], 
+    axis: true,
+    defaultAxes: {
+                 x: {
+                     name: 'x',
+                     ticks: {
+                         label: {
+                             fontSize: 12,
+                             offset: [0, -5]
+                         },
+                         drawZero: false,
+                         visible: 'inherit'
+                     }
+                 }
+             },
+    showClearTrace: true,
+    showFullscreen: true});
+
+// var p = [];
+// p[0] = board.create('point', [-1,0], {withLabel: false, size:2, color:'blue'});
+// p[1] = board.create('point', [-0.5,3], {withLabel: false, size:2, color:'blue'});
+// p[2] = board.create('point', [2,0.5], {withLabel: false, size:2, color:'blue'});
+// p[3] = board.create('point', [6, 3], {withLabel: false, size:2, color:'blue'});
+// var pol = JXG.Math.Numerics.lagrangePolynomial(p);
+var pol = function(x){ 
+	return x**3 - 6*x**2 + 9*x - 1; 
+}
+var graph = board.create('functiongraph', [pol, -5, 5], {strokeWidth: 2, name:"", withLabel: true});
+
+var x0 = board.create('glider', [2, 0, board.defaultAxes.x], {name: '$c$', size:3});
+var fx0 = board.create('point', [
+                function() { return x0.X(); }, 
+                function() { return pol(x0.X()); }
+          ], {name: '', color: 'grey', fixed: true, size:3});
+var x = board.create('glider', [4, 0, board.defaultAxes.x], {name: '$c + h$', size:3});
+var fx = board.create('point', [
+                function() { return x.X(); }, 
+                function() { return pol(x.X()); }
+          ], {name: '', color: 'grey', fixed: true, size:3});
+var line = board.create('line',[fx0, fx],{strokeColor:'#ff0000',dash:2});
+
+// var f1 = board.create('point', [
+//         function() { return x.X(); },
+//         function() { return (fx.Y()-fx0.Y())/(fx.X()-fx0.X() + 0.0000001); }],
+//         { size: 1, name: 'f_1', color: 'black', fixed: true, trace: true});
+    
+var txt = board.create('text', [0.25, 4, function() { 
+        return '\\[\\begin{split}\\text{Slope} = \\dfrac{f(c + h) - f(c)}{h} &= \\dfrac{' + 
+               fx.Y().toFixed(2) + ' - ' + fx0.Y().toFixed(2) + '}{' + 
+               (fx.X() - fx0.X()).toFixed(2) +'}\\\\ &= ' 
+               + ((fx.Y()-fx0.Y())/(fx.X()-fx0.X())).toFixed(3) + '\\end{split}\\]';
+    }]);
+var txt = board.create('text', [0.25, 5.5, function() { 
+            return '$y = f(x) = x^3 -6x^2 + 9x - 1$';
+    }]);
+</script>
+@end
+
 @newcol
 We say that a function $f$ is @keyword{differentiable} if it is differentiable at every point in its domain.
 @endcol

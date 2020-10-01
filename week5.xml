@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -68,9 +69,77 @@ The limit $f'(c)$, if it exists, is called the </paragraphs>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $f$ at $c$. </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We say that a function $f$ is </paragraphs>
-              <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">differentiable</inline_keyword>
-              <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> if it is differentiable at every point in its domain. </paragraphs>
+              <figure environment="figure" chapter_type="Week" wbtag="figure" type="Figure" num="1" md5="fca8c93e62b92434a221c166ffcc4bff" course="Math 1010" chapter="5" slide="3" item="5.1">
+                <label course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="figure" wbtag="label" name="Slope of secant line" type="Figure"/>
+                <caption environment="figure" chapter_type="Week" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" slide="3" item="1">Slope of secant line</caption>
+                <div xmlns="http://www.w3.org/1999/xhtml" id="box" class="jxgbox" style="width:500px;height:500px;margin:auto" environment="figure"/>
+                <div xmlns="http://www.w3.org/1999/xhtml" id="slope" environment="figure"/>
+                <script xmlns="http://www.w3.org/1999/xhtml" environment="figure">
+JXG.Options.text.useMathJax = true;
+board = JXG.JSXGraph.initBoard('box', {
+    boundingbox: [-1, 6.5, 4.5, -3], 
+    axis: true,
+    defaultAxes: {
+                 x: {
+                     name: 'x',
+                     ticks: {
+                         label: {
+                             fontSize: 12,
+                             offset: [0, -5]
+                         },
+                         drawZero: false,
+                         visible: 'inherit'
+                     }
+                 }
+             },
+    showClearTrace: true,
+    showFullscreen: true});
+
+// var p = [];
+// p[0] = board.create('point', [-1,0], {withLabel: false, size:2, color:'blue'});
+// p[1] = board.create('point', [-0.5,3], {withLabel: false, size:2, color:'blue'});
+// p[2] = board.create('point', [2,0.5], {withLabel: false, size:2, color:'blue'});
+// p[3] = board.create('point', [6, 3], {withLabel: false, size:2, color:'blue'});
+// var pol = JXG.Math.Numerics.lagrangePolynomial(p);
+var pol = function(x){ 
+	return x**3 - 6*x**2 + 9*x - 1; 
+}
+var graph = board.create('functiongraph', [pol, -5, 5], {strokeWidth: 2, name:"", withLabel: true});
+
+var x0 = board.create('glider', [2, 0, board.defaultAxes.x], {name: '$c$', size:3});
+var fx0 = board.create('point', [
+                function() { return x0.X(); }, 
+                function() { return pol(x0.X()); }
+          ], {name: '', color: 'grey', fixed: true, size:3});
+var x = board.create('glider', [4, 0, board.defaultAxes.x], {name: '$c + h$', size:3});
+var fx = board.create('point', [
+                function() { return x.X(); }, 
+                function() { return pol(x.X()); }
+          ], {name: '', color: 'grey', fixed: true, size:3});
+var line = board.create('line',[fx0, fx],{strokeColor:'#ff0000',dash:2});
+
+// var f1 = board.create('point', [
+//         function() { return x.X(); },
+//         function() { return (fx.Y()-fx0.Y())/(fx.X()-fx0.X() + 0.0000001); }],
+//         { size: 1, name: 'f_1', color: 'black', fixed: true, trace: true});
+    
+var txt = board.create('text', [0.25, 4, function() { 
+        return '\\[\\begin{split}\\text{Slope} = \\dfrac{f(c + h) - f(c)}{h} &amp;= \\dfrac{' + 
+               fx.Y().toFixed(2) + ' - ' + fx0.Y().toFixed(2) + '}{' + 
+               (fx.X() - fx0.X()).toFixed(2) +'}\\\\ &amp;= ' 
+               + ((fx.Y()-fx0.Y())/(fx.X()-fx0.X())).toFixed(3) + '\\end{split}\\]';
+    }]);
+var txt = board.create('text', [0.25, 5.5, function() { 
+            return '$y = f(x) = x^3 -6x^2 + 9x - 1$';
+    }]);
+</script>
+              </figure>
+              <newline course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+              <newcol course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We say that a function $f$ is </paragraphs>
+                <inline_keyword course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol">differentiable</inline_keyword>
+                <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> if it is differentiable at every point in its domain. </paragraphs>
+              </newcol>
             </newcol>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="5" section="1" subsection="" subsubsection="" chapter_title="" section_title="Derivatives">
@@ -84,7 +153,7 @@ Is $f$ differentiable at $x = 0$?  If so, find $f'(0)$. </paragraphs>
             <keywords slide="5" environ="slide" chapter="5" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" md5="406bb1b04871f9c634b9a16bc72f7d98" course="Math 1010" chapter="5" slide="5" item="5.3">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If a function $f$ is differentiable at $c$, then it is also continuous at $c$. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (The converse is false in general.) </paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="4" md5="5d2152ec08d537729560b36dc21c59fa" course="Math 1010" chapter="5" slide="5" item="5.4">
@@ -147,7 +216,7 @@ Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$. </paragr
             </title>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If the derivative $f'(c)$ exists,
 then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$. </paragraphs>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Moreover, the slope of the tangent line is $f'(c)$,
 and the tangent line is the graph of the equation:
 \[
@@ -363,13 +432,13 @@ the value $f'(c)$ is denoted by:
             <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">quotient rule</hc_keyword>
             <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
 Then: </paragraphs>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Sum/Difference Rule</paragraphs>
             </h5>
             <hc_keyword course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">sum/difference rule</hc_keyword>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f \pm g$ is differentiable at $c$, with:
 \[
@@ -402,22 +471,22 @@ f'(c) + g'(c).
                 </newcol>
               </substatement>
             </newcol>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Product Rule</paragraphs>
             </h5>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $fg$ is differentiable at $c$, with:
 \[
 (fg)'(c) = f'(c)g(c) + f(c)g'(c).
 \] </paragraphs>
             </newcol>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <h5 xmlns="http://www.w3.org/1999/xhtml" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="" wbtag="paragraphs">Quotient Rule</paragraphs>
             </h5>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <br xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <newcol course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f/g$ is differentiable at $c$ provided that $g(c) \neq 0$,
 in which case we have:
@@ -425,7 +494,7 @@ in which case we have:
 \left(\frac{f}{g}\right)'(c) = \frac{g(c)f'(c) - f(c) g'(c)}{[g(c)]^2}\;\;.
 \] </paragraphs>
             </newcol>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
             <newline course="Math 1010" chapter="5" chapter_type="" section="6" subsection="" subsubsection="" environment=""/>
           </slide>
         </slides>
