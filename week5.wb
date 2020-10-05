@@ -11,6 +11,7 @@ exists.
 The limit $f'(c)$, if it exists, is called the @keyword{derivative} of $f$ at $c$.
 @end
 @newcol
+<div id="box" class="jxgbox" style="width:500px;height:500px;margin:auto"></div>
 <script>
 JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('box', {boundingbox: [-1, 6.5, 4.5, -3],

@@ -69,6 +69,7 @@ The limit $f'(c)$, if it exists, is called the </paragraphs>
               <paragraphs course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $f$ at $c$. </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="5" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <div xmlns="http://www.w3.org/1999/xhtml" id="box" class="jxgbox" style="width:500px;height:500px;margin:auto" environment="newcol"/>
               <script xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
 JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('box', {boundingbox: [-1, 6.5, 4.5, -3],
