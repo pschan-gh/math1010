@@ -81,20 +81,14 @@ drawZero: false,
 visible: 'inherit'}}},
 showClearTrace: true,
 showFullscreen: true});
-// var p = [];
-// p[0] = board.create('point', [-1,0], {withLabel: false, size:2, color:'blue'});
-// p[1] = board.create('point', [-0.5,3], {withLabel: false, size:2, color:'blue'});
-// p[2] = board.create('point', [2,0.5], {withLabel: false, size:2, color:'blue'});
-// p[3] = board.create('point', [6, 3], {withLabel: false, size:2, color:'blue'});
-// var pol = JXG.Math.Numerics.lagrangePolynomial(p);
 var pol = function(x){return x**3 - 6*x**2 + 9*x - 1; }
 var graph = board.create('functiongraph', [pol, -5, 5], {strokeWidth: 2, name:"", withLabel: true});
-var x0 = board.create('glider', [2, 0, board.defaultAxes.x], {name: '$c$', size:3});
+var x0 = board.create('glider', [2, 1, board.defaultAxes.x], {name: '$c$', size:3});
 var fx0 = board.create('point', [
 function() { return x0.X(); },
 function() { return pol(x0.X()); }
 ], {name: '', color: 'grey', fixed: true, size:3});
-var x = board.create('glider', [4, 0, board.defaultAxes.x], {name: '$c + h$', size:3});
+var x = board.create('glider', [4, 1, board.defaultAxes.x], {name: '$c + h$', size:3});
 var fx = board.create('point', [
 function() { return x.X(); },
 function() { return pol(x.X()); }
