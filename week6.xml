@@ -207,7 +207,7 @@ We have $y = f(x) = \sin(x)$ for a unique $x = \arcsin y$ in $(-\pi/2, \pi/2)$.
 Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.
 Hence,
 by  </paragraphs>
-              <ref environment="statement" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="72" type="Theorem" item="6.4" src-filename="weeks1-13.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
+              <ref environment="statement" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
                 <title>Theorem 6.4</title>
               </ref>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">, $(f^{-1})'(y)$ exists, with:
