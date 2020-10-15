@@ -153,7 +153,7 @@ y = \left(\frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}\right)(x - \pi/2) - \pi/2
 \] </paragraphs>
                             <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                               <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/fccp810zzb?embed" rendered="0" src="https://www.desmos.com/calculator/fccp810zzb?embed" id="iFrameResizer0" scrolling="no" environment="newcol"></iframe>
+                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/fccp810zzb?embed" rendered="0" id="iFrameResizer0" scrolling="no" src="https://www.desmos.com/calculator/fccp810zzb?embed" environment="newcol"></iframe>
                               </div>
                             </collapse>
                           </collapse>
@@ -209,7 +209,7 @@ by </paragraphs>
                     <ref environment="newcol" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
                       <title>Theorem 6.4</title>
                     </ref>
-                    <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, $(f^{-1})'(y)$ exists, with:
+                    <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , $(f^{-1})'(y)$ exists, with:
 \[
 \left(f^{-1}\right)'(y) = \left(f^{-1}\right)'(f(x)) = \frac{1}{f'(x)} = \frac{1}{\cos{x}}\;.
 \] </paragraphs>
@@ -247,13 +247,14 @@ g(x) = \cos x, \quad x \in [0, \pi].
 \] </paragraphs>
                   <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $y \in (-1, 1)$, we have $g^{-1}(y) \in (0, \pi)$,
-so $g'(g^{-1}(y)) = -\sin(\arccos(y)) \neq 0$. </paragraphs>
+so $g'(g^{-1}(y)) = -\sin(\arccos(y)) \neq 0$.</paragraphs>
+                    <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by </paragraphs>
                       <ref environment="newcol" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
                         <title>Theorem 6.4</title>
                       </ref>
-                      <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, the function $g^{-1}$ is differentiable at $y \in (-1, 1)$, with:
+                      <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , the function $g^{-1}$ is differentiable at $y \in (-1, 1)$, with:
 \[
 (g^{-1})'(y) = \frac{1}{g'(g^{-1}(y))} = \frac{1}{-\sin(\arccos(y)}.
 \] </paragraphs>
