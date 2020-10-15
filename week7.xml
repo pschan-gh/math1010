@@ -45,7 +45,7 @@
           </keywords>
           <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Extreme Value Theorem" md5="4e5b41e44aeb0e3dac182548166c66dd" course="Math 1010" chapter="7" slide="3" item="7.1">
             <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="" subsection="" subsubsection="" serial="" slide="3">Extreme Value Theorem</title>
-            <label course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="label" name="evt" type="Theorem"/>
+            <label wbtag="label" name="evt" type="Theorem"/>
             <paragraphs course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f$ is a </paragraphs>
             <u xmlns="http://www.w3.org/1999/xhtml" environment="statement">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">continuous</paragraphs>
@@ -93,7 +93,7 @@ If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$. </para
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Sketch of Proof.</paragraphs>
                 </strong>
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">  First, it follows from the  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="evt" wbtag="ref" course="Math 1010" chapter="7" slide="4" src-course="Math 1010" src-chapter="4" src-slide="55" type="Theorem" item="4.22" src-filename="weeks1-13.xml" md5="4e5b41e44aeb0e3dac182548166c66dd" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="evt" wbtag="ref" course="Math 1010" chapter="7" slide="4" src-course="Math 1010" src-chapter="4" src-slide="16" type="Theorem" item="4.17" src-filename="week4.xml" md5="4e5b41e44aeb0e3dac182548166c66dd" class="lcref" serial="">
                   <title>Extreme Value Theorem</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that
@@ -220,7 +220,7 @@ is equal to $0$. </paragraphs>
               <keyword chapter="7" slide="8">strictly decreasing</keyword>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="069473d5d9a203227e942c93d29f1a7d" course="Math 1010" chapter="7" slide="8" item="7.5">
-              <label course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="monotone" type="Theorem"/>
+              <label wbtag="label" name="monotone" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a differentiable function on an open interval $(a, b)$.
 If $f'(x) &gt; 0$ (resp. $f'(x) &lt; 0$)  for all $x \in (a, b)$, then
 $f$ is </paragraphs>
@@ -268,7 +268,7 @@ is increasing/decreasing. </paragraphs>
             <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="cb9c0e82ca291054ebc23c34902111f1" course="Math 1010" chapter="7" slide="9">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We apply  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="86" type="Theorem" item="7.5" src-filename="weeks1-13.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
                   <title>Theorem 7.5</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
@@ -368,7 +368,7 @@ c = -5, 1
                       <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from  </paragraphs>
-                        <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="86" type="Theorem" item="7.5" src-filename="weeks1-13.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
+                        <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
                           <title>Theorem 7.5</title>
                         </ref>
                         <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and the continuity of $f$ that: </paragraphs>
@@ -497,7 +497,7 @@ Such points are called the </paragraphs>
                     <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
                     <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by  </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="10" src-course="Math 1010" src-chapter="7" src-slide="86" type="Theorem" item="7.5" src-filename="weeks1-13.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="10" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
                         <title>Theorem 7.5</title>
                       </ref>
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, $f$ is </paragraphs>
