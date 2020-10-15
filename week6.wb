@@ -139,33 +139,66 @@ f : [-\pi/2, \pi/2] \longrightarrow\mathbb{R},
 \[
 f(x) = \sin x, \quad x \in [-\pi/2, \pi/2].
 \]
-
-
+@col
 The inverse of $f$ is:
 \[
 f^{-1} = \arcsin : [-1, 1] \longrightarrow[-\pi/2, \pi/2].
 \]
-
-
+@col
 Consider any $y \in (-1, 1)$.
 We have $y = f(x) = \sin(x)$ for a unique $x = \arcsin y$ in $(-\pi/2, \pi/2)$.
 Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.
+
+@col
 Hence,
-by  @ref{inversederivative}, $(f^{-1})'(y)$ exists, with:
+by @ref{inversederivative}, $(f^{-1})'(y)$ exists, with:
 \[
 \left(f^{-1}\right)'(y) = \left(f^{-1}\right)'(f(x)) = \frac{1}{f'(x)} = \frac{1}{\cos{x}}\;.
 \]
+@col
 By the Pythagorean Theorem, we know that:
 \[
 \cos x = \pm \sqrt{1 - \sin^2{x}}\;.
 \]
+@col
 Moreover, since $x \in (-\pi/2, \pi/2)$, we have $\cos x > 0$, so:
 \[
 \cos x = +\sqrt{1 - \sin^2{x}} = \sqrt{1 - \sin^2(\arcsin(y))} = \sqrt{1 - y^2}.
 \]
+@col
 In conclusion, for $y \in (-1, 1)$, we have:
 \[
 \arcsin' y = \left(f^{-1}\right)'(y) = \frac{1}{\sqrt{1 - y^2}}\;.
+\]
+@end
+@eg
+@col
+Similary, we can find the derivative of $\arccos$ as follows:
+
+@col
+The function $\arccos$ is the inverse function $g^{-1}$ of the following
+injective function:
+\[
+g(x) = \cos x, \quad x \in [0, \pi].
+\]
+@col
+For any $y \in (-1, 1)$, we have $g^{-1}(y) \in (0, \pi)$,
+so $g'(g^{-1}(y)) = -\sin(\arccos(y)) \neq 0$.
+@col
+Hence, by @ref{inversederivative}, the function $g^{-1}$ is differentiable at $y \in (-1, 1)$, with:
+\[
+(g^{-1})'(y) = \frac{1}{g'(g^{-1}(y))} = \frac{1}{-\sin(\arccos(y)}.
+\]
+@col
+By the Pythagorean Theorem, $\sin x = \pm \sqrt{1 - \cos^2(x)}$.
+Since $\arccos(y) \in (0, \pi)$ for $y \in (-1, 1)$, we have:
+\[
+\sin(\arccos(y)) = + \sqrt{1 - \cos^2(\arccos(y))} = \sqrt{1 - y^2}.
+\]
+@col
+Hence,
+\[
+\arccos' y = (g^{-1})'(y) = -\frac{1}{\sqrt{1 - y^2}}.
 \]
 @end
 @section{

@@ -172,7 +172,7 @@ y = \left(\frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}\right)(x - \pi/2) - \pi/2
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title="Implicit Differentiation">
             <keywords slide="5" environ="slide" chapter="6" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="4" md5="f7d93b413dc01d8632fa7a46ff0fab4a" course="Math 1010" chapter="6" slide="5" item="6.4">
-              <label course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="label" name="inversederivative" type="Theorem"/>
+              <label wbtag="label" name="inversederivative" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be an injective function differentiable at $x = c$.
 If $f'(c) \neq 0$, then $f^{-1}$ is differentiable at $f(c)$, with:
 \[
@@ -195,37 +195,88 @@ f : [-\pi/2, \pi/2] \longrightarrow\mathbb{R},
 \]
 \[
 f(x) = \sin x, \quad x \in [-\pi/2, \pi/2].
-\]</paragraphs>
-              <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
-              <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">The inverse of $f$ is:
+\] </paragraphs>
+              <newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The inverse of $f$ is:
 \[
 f^{-1} = \arcsin : [-1, 1] \longrightarrow[-\pi/2, \pi/2].
-\]</paragraphs>
-              <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
-              <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Consider any $y \in (-1, 1)$.
+\] </paragraphs>
+                <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider any $y \in (-1, 1)$.
 We have $y = f(x) = \sin(x)$ for a unique $x = \arcsin y$ in $(-\pi/2, \pi/2)$.
-Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.
-Hence,
-by  </paragraphs>
-              <ref environment="statement" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
-                <title>Theorem 6.4</title>
-              </ref>
-              <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">, $(f^{-1})'(y)$ exists, with:
+Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.</paragraphs>
+                  <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence,
+by </paragraphs>
+                    <ref environment="newcol" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
+                      <title>Theorem 6.4</title>
+                    </ref>
+                    <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, $(f^{-1})'(y)$ exists, with:
 \[
 \left(f^{-1}\right)'(y) = \left(f^{-1}\right)'(f(x)) = \frac{1}{f'(x)} = \frac{1}{\cos{x}}\;.
-\]
-By the Pythagorean Theorem, we know that:
+\] </paragraphs>
+                    <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the Pythagorean Theorem, we know that:
 \[
 \cos x = \pm \sqrt{1 - \sin^2{x}}\;.
-\]
-Moreover, since $x \in (-\pi/2, \pi/2)$, we have $\cos x &gt; 0$, so:
+\] </paragraphs>
+                      <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Moreover, since $x \in (-\pi/2, \pi/2)$, we have $\cos x &gt; 0$, so:
 \[
 \cos x = +\sqrt{1 - \sin^2{x}} = \sqrt{1 - \sin^2(\arcsin(y))} = \sqrt{1 - y^2}.
-\]
-In conclusion, for $y \in (-1, 1)$, we have:
+\] </paragraphs>
+                        <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In conclusion, for $y \in (-1, 1)$, we have:
 \[
 \arcsin' y = \left(f^{-1}\right)'(y) = \frac{1}{\sqrt{1 - y^2}}\;.
 \] </paragraphs>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="5a4c676f62437870991f21b9c2cd753f" course="Math 1010" chapter="6" slide="6" item="6.6">
+              <newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, we can find the derivative of $\arccos$ as follows:</paragraphs>
+                <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                  <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The function $\arccos$ is the inverse function $g^{-1}$ of the following
+injective function:
+\[
+g(x) = \cos x, \quad x \in [0, \pi].
+\] </paragraphs>
+                  <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                    <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $y \in (-1, 1)$, we have $g^{-1}(y) \in (0, \pi)$,
+so $g'(g^{-1}(y)) = -\sin(\arccos(y)) \neq 0$. </paragraphs>
+                    <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                      <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by </paragraphs>
+                      <ref environment="newcol" chapter_type="" label="inversederivative" wbtag="ref" course="Math 1010" chapter="6" slide="6" src-course="Math 1010" src-chapter="6" src-slide="5" type="Theorem" item="6.4" src-filename="week6.xml" md5="f7d93b413dc01d8632fa7a46ff0fab4a" class="lcref" serial="">
+                        <title>Theorem 6.4</title>
+                      </ref>
+                      <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, the function $g^{-1}$ is differentiable at $y \in (-1, 1)$, with:
+\[
+(g^{-1})'(y) = \frac{1}{g'(g^{-1}(y))} = \frac{1}{-\sin(\arccos(y)}.
+\] </paragraphs>
+                      <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                        <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the Pythagorean Theorem, $\sin x = \pm \sqrt{1 - \cos^2(x)}$.
+Since $\arccos(y) \in (0, \pi)$ for $y \in (-1, 1)$, we have:
+\[
+\sin(\arccos(y)) = + \sqrt{1 - \cos^2(\arccos(y))} = \sqrt{1 - y^2}.
+\] </paragraphs>
+                        <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                          <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence,
+\[
+\arccos' y = (g^{-1})'(y) = -\frac{1}{\sqrt{1 - y^2}}.
+\] </paragraphs>
+                        </collapse>
+                      </collapse>
+                    </collapse>
+                  </collapse>
+                </collapse>
+              </newcol>
             </statement>
           </slide>
         </slides>
@@ -337,7 +388,7 @@ which is customarily written as:
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" chapter_title="" section_title="Higher Order Derivatives">
             <keywords slide="9" environ="slide" chapter="6" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="604745cadfdf23fcd405eb3bb21f9fdb" course="Math 1010" chapter="6" slide="9" item="6.6">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="604745cadfdf23fcd405eb3bb21f9fdb" course="Math 1010" chapter="6" slide="9" item="6.7">
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Consider the curve:
 \[
 x^2 + y^2 = 1
@@ -388,7 +439,7 @@ y\frac{d^2y}{dx^2} &amp;= -1 - \left(\frac{dy}{dx}\right)^2\\
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" chapter_title="" section_title="Higher Order Derivatives">
             <keywords slide="10" environ="slide" chapter="6" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="af482fb3fc76837b049d319302f1269c" course="Math 1010" chapter="6" slide="10" item="6.7">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="af482fb3fc76837b049d319302f1269c" course="Math 1010" chapter="6" slide="10" item="6.8">
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let:
 \[
 f(x) = \begin{cases} x^4\sin\left(\frac{1}{x}\right) &amp; \text{ if } x\neq 0; \\
@@ -455,7 +506,7 @@ f''(0)  &amp;= \lim_{h \rightarrow 0} \frac{h^2(4h\sin(1/h) - \cos(1/h)) - 0}{h}
             <keywords slide="11" environ="slide" chapter="6" course="Math 1010">
               <keyword chapter="6" slide="11">General Leibniz Rule</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="General Leibniz Rule" md5="eadbe80273db2aa8aff8ca1eff981b60" course="Math 1010" chapter="6" slide="11" item="6.8">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="9" title="General Leibniz Rule" md5="eadbe80273db2aa8aff8ca1eff981b60" course="Math 1010" chapter="6" slide="11" item="6.9">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" serial="" slide="11">General Leibniz Rule</title>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $n \in \mathbb{N}$.
 Given any functions $f, g$ which are $n$ times differentiable at $c$,
@@ -466,7 +517,7 @@ their product $fg$ is also $n$ times differentiable at $c$, with:
 Notice that when $n = 1$ this rule is simply the product rule
 we have introduced before. </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="c65aa5c9ee1fc2e0e91b417c5aca21d9" course="Math 1010" chapter="6" slide="11" item="6.9">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="c65aa5c9ee1fc2e0e91b417c5aca21d9" course="Math 1010" chapter="6" slide="11" item="6.10">
               <newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider $h(x) = x^2 \sin(x)$.
 Then, $h = fg$, where $f(x) = x^2$ and $g(x) = \sin(x)$.</paragraphs>
