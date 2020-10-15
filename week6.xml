@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -35,14 +34,12 @@
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Implicit Differentiation" course="Math 1010" chapter="6" num="1" serial="6.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" serial="6.1" slide="">
-          <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Implicit Differentiation</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" chapter_title="" section_title="Implicit Differentiation">
             <keywords slide="3" environ="slide" chapter="6" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <newline course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Implicit Differentiation</paragraphs>
             </title>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="6f47cbd135e93870340f95099f31e87c" course="Math 1010" chapter="6" slide="3" item="6.1">
@@ -58,10 +55,10 @@
 e^{\ln x} = x
 \]
 Differentiating both sides with respect to $x$, and applying the Chain Rule, we have:
-\begin{align*}
+\[\begin{align*}
 \frac{d}{dx}\;e^{\ln x} &amp;= \frac{d}{dx}\; x\\
 \underbrace{e^{\ln x}}_{ = x }\frac{d}{dx}\;\ln x &amp;= 1
-\end{align*}
+\end{align*}\]
 Hence, $\displaystyle \frac{d}{dx}\;\ln x = \frac{1}{x}\;$. </paragraphs>
                 <qed course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
@@ -70,7 +67,7 @@ Hence, $\displaystyle \frac{d}{dx}\;\ln x = \frac{1}{x}\;$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="1f8928ddfcf273a2852940d61c041bea" course="Math 1010" chapter="6" slide="3" item="6.2">
               <newcol course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Find $\dfrac{d}{dx}\left(x^x\right)$, where $x &gt; 0$. </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $x &gt; 0$, we have $x = e^{\ln x}$.
 Hence,
@@ -122,7 +119,7 @@ with respect to $x$:
 \label{dbsides}
 \frac{d}{dx}(y^4-y\cos(x)-x^4) = \frac{d}{dx} 0
 \end{equation} </paragraphs>
-                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                 <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the chain rule, we have:
 \[
@@ -156,7 +153,7 @@ y = \left(\frac{4(\pi/2)^3 + \pi/2}{-4(\pi/2)^3}\right)(x - \pi/2) - \pi/2
 \] </paragraphs>
                             <collapse course="Math 1010" chapter="6" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                               <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                                <iframe src="https://www.desmos.com/calculator/fccp810zzb?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="newcol"/>
+                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/fccp810zzb?embed" rendered="0" src="https://www.desmos.com/calculator/fccp810zzb?embed" id="iFrameResizer0" scrolling="no" environment="newcol"></iframe>
                               </div>
                             </collapse>
                           </collapse>
@@ -283,14 +280,12 @@ Since $\arccos(y) \in (0, \pi)$ for $y \in (-1, 1)$, we have:
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="6" num="2" serial="6.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="2" subsection="" subsubsection="" serial="6.2" slide="">
-          <newline course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="7" scope="section" id="s7" slide="7" course="Math 1010" chapter="6" section="2" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
             <keywords slide="7" environ="slide" chapter="6" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="2" subsection="" subsubsection="" serial="" slide="7">
-              <newline course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
             <enumerate course="Math 1010" chapter="6" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -319,7 +314,6 @@ Since $\arccos(y) \in (0, \pi)$ for $y \in (-1, 1)$, we have:
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Higher Order Derivatives" course="Math 1010" chapter="6" num="3" serial="6.3">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" serial="6.3" slide="">
-          <newline course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Higher Order Derivatives</paragraphs>
         </title>
         <slides environment="" chapter_type="">
@@ -330,46 +324,45 @@ Since $\arccos(y) \in (0, \pi)$ for $y \in (-1, 1)$, we have:
               <keyword chapter="6" slide="8">twice differentiable</keyword>
             </keywords>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="3" subsection="" subsubsection="" serial="" slide="8">
-              <newline course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Higher Order Derivatives</paragraphs>
             </title>
             <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $f$ be a function. </paragraphs>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Its derivative $f'$ is often called the </paragraphs>
               <inline_keyword course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">first derivative</inline_keyword>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$. </paragraphs>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
               <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                 <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The derivative of $f'$, denoted by $f''$,
 is called the </paragraphs>
                 <inline_keyword course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">second derivative</inline_keyword>
                 <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$. </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                   <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f''(c)$ exists, we say that $f$ is </paragraphs>
                   <inline_keyword course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">twice differentiable</inline_keyword>
                   <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> at $c$. </paragraphs>
-                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                     <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $n \in \mathbb{N}$,
 the $n$-th derivative of $f$,
 denoted by $f^{(n)}$ is defined as the derivative of the $(n-1)$-st derivative of $f$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                       <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f^{(n)}(c)$ exists, we say that $f$ is $n$ times differentiable at $c$. </paragraphs>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                         <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We sometimes consider $f$ to be the "zero"-th derivative of itself,
 i.e. $f^{(0)} := f$. </paragraphs>
-                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                         <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                          <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                           <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In the Leibniz notation, we have:
 \[
 f^{(n)}(x) = \underbrace{\frac{d}{dx}\,\frac{d}{dx}\,\cdots \frac{d}{dx}}_{n\text{ times}}f,
@@ -395,7 +388,7 @@ x^2 + y^2 = 1
 \]
 Find $\dfrac{d^2y}{dx^2}$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="ee62ec68700af35d594475ad2e7e8358" course="Math 1010" chapter="6" slide="9">
+            <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="90b8980a7a34479cffd149e06d65ac98" course="Math 1010" chapter="6" slide="9">
               <newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Applying implicit differentiation, we have:
 \[
@@ -410,7 +403,7 @@ This shows that:
 \frac{dy}{dx} = -\frac{x}{y}.
 \] </paragraphs>
                 <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Applying implicity differentiation to equation $\eqref{impdiff1}$, we have:
+                  <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Applying implicit differentiation to equation $\eqref{impdiff1}$, we have:
 \[
 \frac{d}{dx}\left(2x + 2y\frac{dy}{dx}\right)  = \frac{d}{dx} 0
 \]
@@ -452,12 +445,12 @@ Find $f''(0)$, if it exists. </paragraphs>
               <newline course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="substatement"/>
               <newcol course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
-\begin{align*}
+\[\begin{align*}
 f'(x) &amp;= \frac{d}{dx} x^4 \sin(1/x)\\
 &amp; \class{steps}{\cssId{step0}{= 4x^3\sin(1/x) + x^4\cos(1/x)\cdot (-x^{-2})}}\\
 &amp; \class{steps}{\cssId{step1}{= 4x^3\sin(1/x) - x^2\cos(1/x)}}\\
 &amp; \class{steps}{\cssId{step2}{= x^2(4x\sin(1/x) - \cos(1/x))}}
-\end{align*}
+\end{align*}\]
 </steps>
                 <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the limit definition of the derivative, we have: </paragraphs>
@@ -535,29 +528,29 @@ the first, second and third derivatives of $h$ may be computed as follows:</para
                   <newline course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps4">
-\begin{align*}
+\[\begin{align*}
 h'(x) &amp;= fg'(x) + f'g(x)
 \\&amp;
 \class{steps}{\cssId{step0}{= x^2\cos(x) + 2x\sin(x)}}
-\end{align*}
+\end{align*}\]
 </steps>
                     <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps5">
-\begin{align*}
+\[\begin{align*}
 h''(x) &amp;= fg''(x) + 2f'g'(x) + f''g(x)
 \\&amp;
 \class{steps}{\cssId{step0}{= x^2(-\sin(x)) + 2(2x)\cos(x) + 2\sin(x)}}
-\end{align*}
+\end{align*}\]
 </steps>
                       <collapse course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <steps course="Math 1010" chapter="6" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps6">
-\begin{align*}
+\[\begin{align*}
 h^{(3)}(x) &amp;= fg^{(3)}(x) + 3f'g''(x) + 3f''g'(x) + f^{(3)}g(x)
 \\&amp;
 \class{steps}{\cssId{step0}{= x^2(-\cos(x)) + 3(2x)(-\sin(x)) + 3(2)\cos(x) + 0\cdot \sin(x)}}
 \\&amp;
 \class{steps}{\cssId{step1}{= -x^2\cos(x) -6x\sin(x) + 6\cos(x)}}
-\end{align*}
+\end{align*}\]
 </steps>
                       </collapse>
                     </collapse>
@@ -570,14 +563,12 @@ h^{(3)}(x) &amp;= fg^{(3)}(x) + 3f'g''(x) + 3f''g'(x) + f^{(3)}g(x)
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="6" num="4" serial="6.4">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="4" subsection="" subsubsection="" serial="6.4" slide="">
-          <newline course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="12" scope="section" id="s12" slide="12" course="Math 1010" chapter="6" section="4" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
             <keywords slide="12" environ="slide" chapter="6" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="6" section="4" subsection="" subsubsection="" serial="" slide="12">
-              <newline course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
             <enumerate course="Math 1010" chapter="6" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
