@@ -84,17 +84,17 @@ JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
 board.suspendUpdate();
 var p = [];
-p[0] = board.create('point', [-1,2], {name:'', size:3,face:'x',fixed:true});
-p[1] = board.create('point', [6,2], {name:'', size:3,face:'x',fixed:true});
-p[2] = board.create('point', [-5,8], {name:'', color:'blue', size:2});
-p[3] = board.create('point', [7,6], {name:'', color:'blue', size:2});
+p[0] = board.create('point', [-1,2], {name:'', size:3,color:'blue',fixed:true});
+p[1] = board.create('point', [6,2], {name:'', size:3,color:'blue',fixed:true});
+p[2] = board.create('point', [-5,8], {name:'', color:'blue',face:'x', size:2});
+p[3] = board.create('point', [7,6], {name:'', color:'blue',face:'x', size:2});
 var f = JXG.Math.Numerics.lagrangePolynomial(p);
 var graph = board.create('functiongraph', [f, -10, 10]);
 board.create('glider', [function() { return p[0].X();}, function() { return 0;}, graph], {size:3,name:'$a$'});
 board.create('glider', [function() {return p[1].X(); }, function() { return  0; }, graph], {size:3,name:'$b$'});
 var r = board.create('glider', [function() { return JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5); },
 function() { return f(JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5)); },graph],
-{name:' ', size:4, face:'x'});
+{name:' ', size:3, color:'blue'});
 var rx = board.create('glider', [function() { return JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5); },
 function() { return 0; },graph],
 {name:'$c$',size:3});
@@ -144,11 +144,38 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 \] </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
-                <a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg" environment="newcol">
-                  <img alt="Mvt2" rendered="0" width="450" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Mvt2.svg" environment="newcol" />
-                </a>
-              </div>
+              <div xmlns="http://www.w3.org/1999/xhtml" id="mvt_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;" environment="newcol"></div>
+              <script xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+JXG.Options.text.useMathJax = true;
+board = JXG.JSXGraph.initBoard('mvt_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
+board.suspendUpdate();
+var p = [];
+p[0] = board.create('point', [-1,-2], {name:'', size:3,color:'blue',fixed:false});
+p[1] = board.create('point', [6,3], {name:'', size:3,color:'blue',fixed:false});
+p[2] = board.create('point', [-2,-6], {name:'', color:'blue', size:0, fixed:true, face:'x'});
+p[3] = board.create('point', [7,0], {name:'', color:'blue', size:0, fixed:true, face:'x'});
+var f = JXG.Math.Numerics.lagrangePolynomial(p);
+var graph = board.create('functiongraph', [f, -10, 10]);
+var g = function(x) {return JXG.Math.Numerics.D(f)(x)-(p[1].Y()-p[0].Y())/(p[1].X()-p[0].X());};
+board.create('glider', [function() { return p[0].X();}, function() { return 0;}, graph], {size:3,name:'$a$'});
+board.create('glider', [function() {return p[1].X(); }, function() { return  0; }, graph], {size:3,name:'$b$'});
+var r = board.create('glider', [
+function() { return JXG.Math.Numerics.root(g,(p[0].X()+p[1].X())*0.5); },
+function() { return f(JXG.Math.Numerics.root(g,(p[0].X()+p[1].X())*0.5)); },
+graph], {name:' ',size:4,fixed:true});
+board.create('tangent', [r], {strokeColor:'#ff0000'});
+var rx = board.create('glider', [function() { return JXG.Math.Numerics.root(g,(p[0].X()+p[1].X())*0.5); },
+function() { return 0; },graph],
+{name:'$c$',size:3, color:'blue'});
+line = board.create('line',[p[0],p[1]],{strokeColor:'#ff0000',dash:1});
+board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
+board.unsuspendUpdate();
+</script>
+              <collapse course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
+                <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
+                  <a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg" environment="newcol"></a>
+                </div>
+              </collapse>
             </newcol>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f1553277d66f8ef0095615be3e976478" course="Math 1010" chapter="7" slide="5" of="ac81d7f217862ee60cb955e0bc2a4011">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -397,7 +424,7 @@ c = -5, 1
                         </ul>
                         <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                            <iframe width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" environment="newcol"></iframe>
+                            <iframe width="500px" height="500px" style="" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" environment="newcol"></iframe>
                           </div>
                         </collapse>
                       </collapse>
@@ -535,7 +562,7 @@ and increasing on both $[-1, 0]$ and $[0, \infty)$. </paragraphs>
 \] </paragraphs>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                          <iframe width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" environment="newcol"></iframe>
+                          <iframe width="500px" height="500px" style="" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" environment="newcol"></iframe>
                         </div>
                       </collapse>
                     </collapse>
