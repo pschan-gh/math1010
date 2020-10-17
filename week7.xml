@@ -79,8 +79,8 @@ and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
 If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$. </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <div xmlns="http://www.w3.org/1999/xhtml" id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;" environment="newcol">
-                <script environment="newcol">
+              <div xmlns="http://www.w3.org/1999/xhtml" id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;" environment="newcol"/>
+              <script xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
 JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
 board.suspendUpdate();
@@ -104,7 +104,6 @@ line = board.create('line',[p[0],p[1]],{strokeColor:'#ff9999',dash:1});
 board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
 board.unsuspendUpdate();
 </script>
-              </div>
             </newcol>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46f1c12e4b769fe2d7350c5e7888be93" course="Math 1010" chapter="7" slide="4" of="de5cd3aeffe274ade857ff981b7ffaf8">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">

@@ -19,7 +19,7 @@ and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
 If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
 @end
 @newcol
-<div id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;">
+<div id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"></div>
 <script>
 JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
