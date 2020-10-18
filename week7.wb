@@ -25,13 +25,15 @@ board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis
 board.suspendUpdate();
 var p = [];
 p[0] = board.create('point', [-1,2], {name:'', size:3,color:'blue',fixed:true});
+board.create('point', [-1,0], {name:'', size:3,color:'red',fixed:true});
 p[1] = board.create('point', [6,2], {name:'', size:3,color:'blue',fixed:true});
+board.create('point', [6,0], {name:'', size:3,color:'red',fixed:true});
 p[2] = board.create('point', [-5,8], {name:'', color:'blue',face:'x', size:2});
 p[3] = board.create('point', [7,6], {name:'', color:'blue',face:'x', size:2});
 var f = JXG.Math.Numerics.lagrangePolynomial(p);
 var graph = board.create('functiongraph', [f, -10, 10]);
-board.create('glider', [function() { return p[0].X();}, function() { return 0;}, graph], {size:3,name:'$a$'});
-board.create('glider', [function() {return p[1].X(); }, function() { return  0; }, graph], {size:3,name:'$b$'});
+//board.create('glider', [function() { return p[0].X();}, function() { return 0;}, graph], {size:3,name:'$a$'});
+//board.create('glider', [function() {return p[1].X(); }, function() { return  0; }, graph], {size:3,name:'$b$'});
 var r = board.create('glider', [function() { return JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5); },
 function() { return f(JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5)); },graph],
 {name:' ', size:3, color:'blue'});
@@ -72,34 +74,30 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 @newcol
 <div id="mvt_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/><script>
 JXG.Options.text.useMathJax = true;
-board = JXG.JSXGraph.initBoard('mvt_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
-board.suspendUpdate();
-var p = [];
-p[0] = board.create('point', [-1,-2], {name:'', size:3,color:'blue',fixed:false});
-p[1] = board.create('point', [6,3], {name:'', size:3,color:'blue',fixed:false});
-p[2] = board.create('point', [-2,-6], {name:'', color:'blue', size:0, fixed:true, face:'x'});
-p[3] = board.create('point', [7,0], {name:'', color:'blue', size:0, fixed:true, face:'x'});
-var f = JXG.Math.Numerics.lagrangePolynomial(p);
-var graph = board.create('functiongraph', [f, -10, 10]);
-var g = function(x) {return JXG.Math.Numerics.D(f)(x)-(p[1].Y()-p[0].Y())/(p[1].X()-p[0].X());};
-board.create('glider', [function() { return p[0].X();}, function() { return 0;}, graph], {size:3,name:'$a$'});
-board.create('glider', [function() {return p[1].X(); }, function() { return  0; }, graph], {size:3,name:'$b$'});
-var r = board.create('glider', [
-function() { return JXG.Math.Numerics.root(g,(p[0].X()+p[1].X())*0.5); },
-function() { return f(JXG.Math.Numerics.root(g,(p[0].X()+p[1].X())*0.5)); },
-graph], {name:' ',size:4,fixed:true});
-board.create('tangent', [r], {strokeColor:'#ff0000'});
-var rx = board.create('glider', [function() { return JXG.Math.Numerics.root(g,(p[0].X()+p[1].X())*0.5); },
-function() { return 0; },graph],
+board1 = JXG.JSXGraph.initBoard('mvt_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
+board1.suspendUpdate();
+var q = [];
+q[0] = board1.create('point', [-1,-2], {name:'', size:3,color:'blue',fixed:false});
+q[1] = board1.create('point', [6,3], {name:'', size:3,color:'blue',fixed:false});
+q[2] = board1.create('point', [-2,-6], {name:'', color:'blue', size:0, fixed:true, face:'x'});
+q[3] = board1.create('point', [7,0], {name:'', color:'blue', size:0, fixed:true, face:'x'});
+var h = JXG.Math.Numerics.lagrangePolynomial(q);
+var graph1 = board1.create('functiongraph', [h, -10, 10]);
+var g = function(x) {return JXG.Math.Numerics.D(h)(x)-(q[1].Y()-q[0].Y())/(q[1].X()-q[0].X());};
+board1.create('glider', [function() { return q[0].X();}, function() { return 0;}, graph1], {size:3,name:'$a$'});
+board1.create('glider', [function() {return q[1].X(); }, function() { return  0; }, graph1], {size:3,name:'$b$'});
+var s = board1.create('glider', [
+function() { return JXG.Math.Numerics.root(g,(q[0].X()+q[1].X())*0.5); },
+function() { return h(JXG.Math.Numerics.root(g,(q[0].X()+q[1].X())*0.5)); },
+graph1], {name:' ',size:4,fixed:true});
+board1.create('tangent', [s], {strokeColor:'#ff0000'});
+var sx = board1.create('glider', [function() { return JXG.Math.Numerics.root(g,(q[0].X()+q[1].X())*0.5); },
+function() { return 0; },graph1],
 {name:'$c$',size:3, color:'blue'});
-line = board.create('line',[p[0],p[1]],{strokeColor:'#ff0000',dash:1});
-board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
-board.unsuspendUpdate();
+line = board1.create('line',[q[0],q[1]],{strokeColor:'#ff0000',dash:1});
+board1.create('segment',[sx,s],{strokeColor:'#9999ff',dash:1});
+board1.unsuspendUpdate();
 </script>
-@col
-<div class="image" style="width: 450px;">
-<a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg">
-</a></div>
 @endcol
 @proof
 @newcol
