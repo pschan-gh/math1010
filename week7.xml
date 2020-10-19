@@ -45,16 +45,12 @@
           <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Extreme Value Theorem" md5="4e5b41e44aeb0e3dac182548166c66dd" course="Math 1010" chapter="7" slide="3" item="7.1">
             <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="" subsection="" subsubsection="" serial="" slide="3">Extreme Value Theorem</title>
             <label wbtag="label" name="evt" type="Theorem"/>
-            <paragraphs course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f$ is a </paragraphs>
-            <u xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">continuous</paragraphs>
-            </u>
-            <paragraphs course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> function
-defined on a </paragraphs>
-            <u xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">closed</paragraphs>
-            </u>
-            <paragraphs course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> interval $[a, b]$,
+            <paragraphs course="Math 1010" chapter="7" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f$ is a
+continuous
+function
+defined on a
+closed
+interval $[a, b]$,
 then it attains both a maximum value and a minimum value on $[a, b].$ </paragraphs>
           </statement>
         </slide>
@@ -79,8 +75,7 @@ If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$. </para
             </statement>
             <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <div xmlns="http://www.w3.org/1999/xhtml" id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;" environment="newcol"></div>
-              <script xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-JXG.Options.text.useMathJax = true;
+              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
 board.suspendUpdate();
 var p = [];
@@ -103,15 +98,12 @@ function() { return 0; },graph],
 var t = board.create('tangent', [r], {strokeColor:'#ff0000'});
 line = board.create('line',[p[0],p[1]],{strokeColor:'#ff9999',dash:1});
 board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
-board.unsuspendUpdate();
-</script>
+board.unsuspendUpdate(); </paragraphs>
             </newcol>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46f1c12e4b769fe2d7350c5e7888be93" course="Math 1010" chapter="7" slide="4" of="de5cd3aeffe274ade857ff981b7ffaf8">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Sketch of Proof.</paragraphs>
-                </strong>
-                <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> First, it follows from the </paragraphs>
+                <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Sketch of Proof.
+First, it follows from the </paragraphs>
                 <ref environment="newcol" chapter_type="" label="evt" wbtag="ref" course="Math 1010" chapter="7" slide="4" src-course="Math 1010" src-chapter="4" src-slide="16" type="Theorem" item="4.17" src-filename="week4.xml" md5="4e5b41e44aeb0e3dac182548166c66dd" class="lcref" serial="">
                   <title>Extreme Value Theorem</title>
                 </ref>
@@ -147,8 +139,7 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
             </statement>
             <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <div xmlns="http://www.w3.org/1999/xhtml" id="mvt_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;" environment="newcol"></div>
-              <script xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-JXG.Options.text.useMathJax = true;
+              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> JXG.Options.text.useMathJax = true;
 board1 = JXG.JSXGraph.initBoard('mvt_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
 board1.suspendUpdate();
 var q = [];
@@ -171,8 +162,7 @@ function() { return 0; },graph1],
 {name:'$c$',size:3, color:'blue'});
 line = board1.create('line',[q[0],q[1]],{strokeColor:'#ff0000',dash:1});
 board1.create('segment',[sx,s],{strokeColor:'#9999ff',dash:1});
-board1.unsuspendUpdate();
-</script>
+board1.unsuspendUpdate(); </paragraphs>
             </newcol>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f1553277d66f8ef0095615be3e976478" course="Math 1010" chapter="7" slide="5" of="ac81d7f217862ee60cb955e0bc2a4011">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -242,10 +232,8 @@ $f$ is constant on $(a, b)$. </paragraphs>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1486131dcdc3cbc8e6cba5522349edad" course="Math 1010" chapter="7" slide="7" of="7f59b29de784f17ee25ce44cf7b79422">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
-                </strong>
-                <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+                <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Exercise.
+For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
 is equal to $0$. </paragraphs>
                 <qed course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
               </newcol>
@@ -256,7 +244,7 @@ is equal to $0$. </paragraphs>
               <keyword chapter="7" slide="8">strictly increasing</keyword>
               <keyword chapter="7" slide="8">strictly decreasing</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="069473d5d9a203227e942c93d29f1a7d" course="Math 1010" chapter="7" slide="8" item="7.5">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="5" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" course="Math 1010" chapter="7" slide="8" item="7.5">
               <label wbtag="label" name="monotone" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a differentiable function on an open interval $(a, b)$.
 If $f'(x) &gt; 0$ (resp. $f'(x) &lt; 0$)  for all $x \in (a, b)$, then
@@ -265,14 +253,10 @@ $f$ is </paragraphs>
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (resp. </paragraphs>
               <inline_keyword course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement">strictly decreasing</inline_keyword>
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">) on $(a, b)$. </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
               <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
-              <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Remark:</paragraphs>
-              </strong>
-              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$. </paragraphs>
+              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Remark: If $f$ is moreover continuous on $[a, b]$, then $f$ is strictly increasing (resp. strictly decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f4627bd0f72b1babd204fa12fb525532" course="Math 1010" chapter="7" slide="8" of="069473d5d9a203227e942c93d29f1a7d">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4f214076035b582f3d13a730fcba9ab" course="Math 1010" chapter="7" slide="8" of="ef6dceaba7e98eaa82d2d7e1e5d7c4bb">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We will prove the case $f'(x) &gt; 0$. </paragraphs>
                 <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
@@ -287,7 +271,7 @@ Also, $x_2 - x_1 &gt; 0$.  Hence:
 \[
 f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) &gt; 0.
 \]
-This shows that $f$ is increasing on $(a, b)$. </paragraphs>
+This shows that $f$ is strictly increasing on $(a, b)$. </paragraphs>
                   <qed course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                 </collapse>
               </newcol>
@@ -302,7 +286,7 @@ This shows that $f$ is increasing on $(a, b)$. </paragraphs>
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the intervals where the function $f(x) = x^3 + 6x^2  - 15x + 7$
 is increasing/decreasing. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="cb9c0e82ca291054ebc23c34902111f1" course="Math 1010" chapter="7" slide="9">
+            <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="471c5046ad0db26c0ee7b8c5c9e7c4cb" course="Math 1010" chapter="7" slide="9">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We apply </paragraphs>
                 <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
@@ -320,17 +304,14 @@ Hence, the intervals where $f'$ is positive/negative
 are separated by points $c$ where $f'(c) = 0$. (Such points are called </paragraphs>
                   <inline_keyword course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">stationary points</inline_keyword>
                   <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$). </paragraphs>
-                  <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                   <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Setting:
 \[
 f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
 \]
-we see that the points where $f'$ </paragraphs>
-                    <i xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">possibly</paragraphs>
-                    </i>
-                    <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> changes sign are:
+we see that the points where $f'$
+possibly
+changes sign are:
 \[
 c = -5, 1
 \] </paragraphs>
@@ -338,91 +319,15 @@ c = -5, 1
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Consider now the </paragraphs>
                       <inline_keyword course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">sign chart</inline_keyword>
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> : </paragraphs>
-                      <table xmlns="http://www.w3.org/1999/xhtml" class="table table-striped table-bordered" style="text-align:center" environment="newcol">
-                        <tbody environment="newcol">
-                          <tr environment="newcol">
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$f$:</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <strong environment="newcol">
-                                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\nearrow$</paragraphs>
-                              </strong>
-                            </td>
-                            <td environment="newcol"></td>
-                            <td environment="newcol">
-                              <strong environment="newcol">
-                                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\searrow$</paragraphs>
-                              </strong>
-                            </td>
-                            <td environment="newcol"></td>
-                            <td environment="newcol">
-                              <strong environment="newcol">
-                                <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\nearrow$</paragraphs>
-                              </strong>
-                            </td>
-                          </tr>
-                          <tr environment="newcol">
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$f'(x)$:</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$+$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$0$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$0$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$+$</paragraphs>
-                            </td>
-                          </tr>
-                          <tr environment="newcol">
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$x$:</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(-\infty, -5)$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-5$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(-5, 1)$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$1$</paragraphs>
-                            </td>
-                            <td environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(1, \infty)$</paragraphs>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                      <table xmlns="http://www.w3.org/1999/xhtml" class="table table-striped table-bordered" style="text-align: center;" environment="newcol"></table>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
                         <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
                           <title>Theorem 7.5</title>
                         </ref>
-                        <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and the continuity of $f$ that: </paragraphs>
-                        <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                          <li environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$. </paragraphs>
-                          </li>
-                          <li environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $f$ is decreasing on the interval $[-5, 1]$. </paragraphs>
-                          </li>
-                        </ul>
+                        <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and the continuity of $f$ that:  $f$ is strictly increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.  $f$ is strictly decreasing on the interval $[-5, 1]$. </paragraphs>
                         <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                          <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                            <iframe width="500px" height="500px" style="" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" environment="newcol"></iframe>
-                          </div>
+                          <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol"></div>
                         </collapse>
                       </collapse>
                     </collapse>
@@ -445,7 +350,7 @@ x + 1, &amp; x \geq 0.
 \]
 Find the intervals where the function $f$ is increasing/decreasing. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="a8694eed86d5efc24ff6b01242f382f8" course="Math 1010" chapter="7" slide="10">
+            <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="7d5b213ab0a60646fa35ee7c9e10b645" course="Math 1010" chapter="7" slide="10">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We carry out the same steps as in the previous example.
 We leave it as an exercise to show that:
@@ -466,101 +371,22 @@ f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
 Such points are called the </paragraphs>
                   <inline_keyword course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">critical points</inline_keyword>
                   <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$.  (Note that the set of stationary points is a subset of critical points). </paragraphs>
-                  <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
                   <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Constructing a sign chart as in the previous example, we have: </paragraphs>
-                    <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align:center" environment="newcol">
-                      <tbody environment="newcol">
-                        <tr environment="newcol">
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$f$:</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <strong environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\searrow$</paragraphs>
-                            </strong>
-                          </td>
-                          <td environment="newcol"></td>
-                          <td environment="newcol">
-                            <strong environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\nearrow$</paragraphs>
-                            </strong>
-                          </td>
-                          <td environment="newcol"></td>
-                          <td environment="newcol">
-                            <strong environment="newcol">
-                              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\nearrow$</paragraphs>
-                            </strong>
-                          </td>
-                        </tr>
-                        <tr environment="newcol">
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$f'(x)$:</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">${\large -}$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$0$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">${\large +}$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">undefined</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">${\large +}$</paragraphs>
-                          </td>
-                        </tr>
-                        <tr environment="newcol">
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$x$:</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(-\infty, -1)$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-1$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(-1, 0)$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$0$</paragraphs>
-                          </td>
-                          <td environment="newcol">
-                            <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(0, \infty)$</paragraphs>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                    <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align: center;" environment="newcol"></table>
                     <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by </paragraphs>
                       <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="10" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="069473d5d9a203227e942c93d29f1a7d" class="lcref" serial="">
                         <title>Theorem 7.5</title>
                       </ref>
-                      <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , $f$ is </paragraphs>
-                      <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">decreasing</paragraphs>
-                      </u>
-                      <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> on:
+                      <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , $f$ is strictly decreasing on:
 \[(-\infty, -1],\]
-and increasing on both $[-1, 0]$ and $[0, \infty)$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
-                      <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $f$ is continuous at $x = 0$, we conclude that $f$ is </paragraphs>
-                      <u xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                        <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">increasing</paragraphs>
-                      </u>
-                      <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> on:
+and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is continuous at $x = 0$, we conclude that $f$ is strictly increasing on:
 \[
 [-1, \infty).
 \] </paragraphs>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                          <iframe width="500px" height="500px" style="" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" environment="newcol"></iframe>
-                        </div>
+                        <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol"></div>
                       </collapse>
                     </collapse>
                   </collapse>
@@ -611,8 +437,6 @@ which implies that:
 \ln(1 + x) &lt; x,
 \]
 for all $x &gt; 0$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> To show that $\frac{x}{1+x} &lt; \ln(1+x)$, we proceed similarly.</paragraphs>
                         <newline course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
@@ -645,7 +469,6 @@ where $c$ is some element which lies in $(0, x)$.</paragraphs>
 \ln(1 + x) &gt; \frac{x}{1 + x}
 \]
 for $x &gt; 0$. </paragraphs>
-                                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                                 <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                                   <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Finally, for all $t&gt; 0$, we have $\frac{1}{t} &gt; 0$.  Applying the inequality:
 \[
