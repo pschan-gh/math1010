@@ -5,9 +5,11 @@
 @thm
 @title{Extreme Value Theorem}
 @label{evt}
-If $f$ is a <u>continuous</u>
+If $f$ is a
+continuous
 function
-defined on a <u>closed</u>
+defined on a
+closed
 interval $[a, b]$,
 then it attains both a maximum value and a minimum value on $[a, b].$
 @end
@@ -19,7 +21,7 @@ and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
 If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
 @end
 @newcol
-<div id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/><script>
+<div id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/>
 JXG.Options.text.useMathJax = true;
 board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
 board.suspendUpdate();
@@ -44,11 +46,11 @@ var t = board.create('tangent', [r], {strokeColor:'#ff0000'});
 line = board.create('line',[p[0],p[1]],{strokeColor:'#ff9999',dash:1});
 board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
 board.unsuspendUpdate();
-</script>
 @endcol
 @proof
 @newcol
-<strong>Sketch of Proof.</strong> First, it follows from the @ref{evt} that
+Sketch of Proof.
+First, it follows from the @ref{evt} that
 $f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
 It may then be shown that:
 \[
@@ -72,7 +74,7 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 \]
 @end
 @newcol
-<div id="mvt_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/><script>
+<div id="mvt_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/>
 JXG.Options.text.useMathJax = true;
 board1 = JXG.JSXGraph.initBoard('mvt_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
 board1.suspendUpdate();
@@ -97,7 +99,6 @@ function() { return 0; },graph1],
 line = board1.create('line',[q[0],q[1]],{strokeColor:'#ff0000',dash:1});
 board1.create('segment',[sx,s],{strokeColor:'#9999ff',dash:1});
 board1.unsuspendUpdate();
-</script>
 @endcol
 @proof
 @newcol
@@ -140,7 +141,8 @@ $f$ is constant on $(a, b)$.
 @end
 @proof
 @newcol
-<strong>Exercise.</strong> For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
+Exercise.
+For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
 is equal to $0$.
 @qed
 @endcol
@@ -150,7 +152,7 @@ is equal to $0$.
 @label{monotone}
 Let $f$ be a differentiable function on an open interval $(a, b)$.
 If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
-$f$ is @keyword{strictly increasing} (resp. @keyword{strictly decreasing}) on $(a, b)$. <p/><br/><strong>Remark:</strong> If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+$f$ is @keyword{strictly increasing} (resp. @keyword{strictly decreasing}) on $(a, b)$. <br/>Remark: If $f$ is moreover continuous on $[a, b]$, then $f$ is strictly increasing (resp. strictly decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
 @end
 @proof
 @newcol
@@ -166,7 +168,7 @@ Also, $x_2 - x_1 > 0$.  Hence:
 \[
 f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
 \]
-This shows that $f$ is increasing on $(a, b)$.
+This shows that $f$ is strictly increasing on $(a, b)$.
 @qed
 @endcol
 @end
@@ -186,33 +188,24 @@ f'(x) = 3x^2 + 12 x - 15
 \]
 Observe that $f'$ is defined and continuous everywhere.
 Hence, the intervals where $f'$ is positive/negative
-are separated by points $c$ where $f'(c) = 0$. (Such points are called @keyword{stationary points} of $f$). <p/>
+are separated by points $c$ where $f'(c) = 0$. (Such points are called @keyword{stationary points} of $f$).
 @col
 Setting:
 \[
 f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
 \]
-we see that the points where $f'$ <i>possibly</i> changes sign are:
+we see that the points where $f'$
+possibly
+changes sign are:
 \[
 c = -5, 1
 \]
 @col
-Consider now the @keyword{sign chart} : <table class="table table-striped table-bordered" style="text-align:center">
-<tbody>
-<tr>
-<td>$f$:</td><td>
-<strong>$\nearrow$</strong></td><td/><td>
-<strong>$\searrow$</strong></td><td/><td>
-<strong>$\nearrow$</strong></td></tr><tr>
-<td>$f'(x)$:</td><td>$+$</td><td>$0$</td><td>$-$</td><td>$0$</td><td>$+$</td></tr><tr>
-<td>$x$:</td><td>$(-\infty, -5)$</td><td>$-5$</td><td>$(-5, 1)$</td><td>$1$</td><td>$(1, \infty)$</td></tr></tbody></table><p/>
+Consider now the @keyword{sign chart} : <table class="table table-striped table-bordered" style="text-align: center;">$f$:$\nearrow$$\searrow$$\nearrow$$f'(x)$:$+$$0$$-$$0$$+$$x$:$(-\infty, -5)$$-5$$(-5, 1)$$1$$(1, \infty)$</table>
 @col
-It now follows from @ref{monotone} and the continuity of $f$ that: <ul>
-<li> $f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$. </li>
-<li> $f$ is decreasing on the interval $[-5, 1]$. </li></ul>
+It now follows from @ref{monotone} and the continuity of $f$ that:  $f$ is strictly increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.  $f$ is strictly decreasing on the interval $[-5, 1]$.
 @col
-<div class="image">
-<iframe width="500px" height="500px" style="" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0"/></div>
+<div class="image" style=""/>
 @endcol
 @end
 @slide
@@ -244,27 +237,18 @@ where:
 \[
 f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
 \]
-Such points are called the @keyword{critical points} of $f$.  (Note that the set of stationary points is a subset of critical points). <p/>
+Such points are called the @keyword{critical points} of $f$.  (Note that the set of stationary points is a subset of critical points).
 @col
-Constructing a sign chart as in the previous example, we have: <table class="table-hover table table-striped table-bordered" style="text-align:center">
-<tbody>
-<tr>
-<td>$f$:</td><td>
-<strong>$\searrow$</strong></td><td/><td>
-<strong>$\nearrow$</strong></td><td/><td>
-<strong>$\nearrow$</strong></td></tr><tr>
-<td>$f'(x)$:</td><td>${\large -}$</td><td>$0$</td><td>${\large +}$</td><td>undefined</td><td>${\large +}$</td></tr><tr>
-<td>$x$:</td><td>$(-\infty, -1)$</td><td>$-1$</td><td>$(-1, 0)$</td><td>$0$</td><td>$(0, \infty)$</td></tr></tbody></table><p/>
+Constructing a sign chart as in the previous example, we have: <table class="table-hover table table-striped table-bordered" style="text-align: center;">$f$:$\searrow$$\nearrow$$\nearrow$$f'(x)$:${\large -}$$0$${\large +}$undefined${\large +}$$x$:$(-\infty, -1)$$-1$$(-1, 0)$$0$$(0, \infty)$</table>
 @col
-Hence, by @ref{monotone} , $f$ is <u>decreasing</u> on:
+Hence, by @ref{monotone} , $f$ is strictly decreasing on:
 \[(-\infty, -1],\]
-and increasing on both $[-1, 0]$ and $[0, \infty)$. <p/> Since $f$ is continuous at $x = 0$, we conclude that $f$ is <u>increasing</u> on:
+and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is continuous at $x = 0$, we conclude that $f$ is strictly increasing on:
 \[
 [-1, \infty).
 \]
 @col
-<div class="image">
-<iframe width="500px" height="500px" style="" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0"/></div>
+<div class="image" style=""/>
 @endcol
 @end
 @slide
@@ -308,8 +292,7 @@ Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We 
 \[
 \ln(1 + x) < x,
 \]
-for all $x > 0$. <p/>
-<hr/>
+for all $x > 0$.
 @col
 To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
 
@@ -342,7 +325,6 @@ This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
 \ln(1 + x) > \frac{x}{1 + x}
 \]
 for $x > 0$.
-<hr/>
 @col
 Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
 \[
