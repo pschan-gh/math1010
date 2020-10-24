@@ -181,7 +181,7 @@ is increasing/decreasing.
 @end
 @sol
 @newcol
-We apply @ref{monotone} .
+We apply @ref{monotone}.
 
 @col
 First, we find:
@@ -191,6 +191,7 @@ f'(x) = 3x^2 + 12 x - 15
 Observe that $f'$ is defined and continuous everywhere.
 Hence, the intervals where $f'$ is positive/negative
 are separated by points $c$ where $f'(c) = 0$. (Such points are called @keyword{stationary points} of $f$).
+
 @col
 Setting:
 \[
@@ -219,7 +220,7 @@ It now follows from @ref{monotone} and the continuity of $f$ that: <ul>
 <li> $f$ is strictly decreasing on the interval $[-5, 1]$. </li></ul>
 @col
 <div class="image">
-<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" src="https://www.desmos.com/calculator/ja7cqgww7s?embed" id="iFrameResizer5" scrolling="no"/></div>
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no" src="https://www.desmos.com/calculator/ja7cqgww7s?embed"/></div>
 @endcol
 @end
 @slide
@@ -273,7 +274,7 @@ and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is conti
 \]
 @col
 <div class="image">
-<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" src="https://www.desmos.com/calculator/heievbyzs3?embed" id="iFrameResizer6" scrolling="no"/></div>
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no" src="https://www.desmos.com/calculator/heievbyzs3?embed"/></div>
 @endcol
 @end
 @slide
@@ -350,6 +351,7 @@ This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
 \ln(1 + x) > \frac{x}{1 + x}
 \]
 for $x > 0$.
+
 @col
 Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
 \[
