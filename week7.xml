@@ -296,7 +296,7 @@ is increasing/decreasing. </paragraphs>
                 <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
                   <title>Theorem 7.5</title>
                 </ref>
-                <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .</paragraphs>
+                <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
                 <newline course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we find:
@@ -307,7 +307,8 @@ Observe that $f'$ is defined and continuous everywhere.
 Hence, the intervals where $f'$ is positive/negative
 are separated by points $c$ where $f'(c) = 0$. (Such points are called </paragraphs>
                   <inline_keyword course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol">stationary points</inline_keyword>
-                  <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$). </paragraphs>
+                  <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> of $f$).</paragraphs>
+                  <newline course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Setting:
 \[
@@ -406,7 +407,7 @@ c = -5, 1
                         </ul>
                         <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                            <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" src="https://www.desmos.com/calculator/ja7cqgww7s?embed" id="iFrameResizer5" scrolling="no" environment="newcol"></iframe>
+                            <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no" src="https://www.desmos.com/calculator/ja7cqgww7s?embed" environment="newcol"></iframe>
                           </div>
                         </collapse>
                       </collapse>
@@ -534,7 +535,7 @@ and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is conti
 \] </paragraphs>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                          <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" src="https://www.desmos.com/calculator/heievbyzs3?embed" id="iFrameResizer6" scrolling="no" environment="newcol"></iframe>
+                          <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no" src="https://www.desmos.com/calculator/heievbyzs3?embed" environment="newcol"></iframe>
                         </div>
                       </collapse>
                     </collapse>
@@ -617,7 +618,8 @@ where $c$ is some element which lies in $(0, x)$.</paragraphs>
 \[
 \ln(1 + x) &gt; \frac{x}{1 + x}
 \]
-for $x &gt; 0$. </paragraphs>
+for $x &gt; 0$.</paragraphs>
+                                <newline course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                                 <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                                   <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Finally, for all $t&gt; 0$, we have $\frac{1}{t} &gt; 0$.  Applying the inequality:
 \[
