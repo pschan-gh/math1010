@@ -1,52 +1,37 @@
 @course{Math 1010}
 @week{8}
 @topic{Curve Sketching}
-@section{
-Absolute/Relative (Global/Local) Extrema}
-Consider a function $f : A \longrightarrow\mathbb{R}$.
+@section{Absolute/Relative (Global/Local) Extrema}
+Consider a function $f : A \longrightarrow\mathbb{R}$. @keyword*{absolute minimum}@keyword*{global minimum}@keyword*{absolute maximum}@keyword*{global maximum}
 @defn
 <ul>
-<li>
-If there is an element $c \in A$ such that: $f(c) \leq f(x)$
-for all $x \in A$, we say that $f(c)$ is the (global/absolute) @keyword{minimum} of $f$.
-@keyword*{absolute minimum}
-@keyword*{global minimum}
-</li>
-<li>
-If there is an element $d \in A$ such that: $f(d) \geq f(x)$
-for all $x \in A$, we say that $f(d)$ is the (global/absolute) @keyword{maximum} of $f$.
-@keyword*{absolute maximum}
-@keyword*{global maximum}
-</li></ul>
+<li> If there is an element $c \in A$ such that: $f(c) \leq f(x)$
+for all $x \in A$, we say that $f(c)$ is the (global/absolute) @keyword{minimum} of $f$. </li>
+<li> If there is an element $d \in A$ such that: $f(d) \geq f(x)$
+for all $x \in A$, we say that $f(d)$ is the (global/absolute) @keyword{maximum} of $f$. </li></ul>
 @end
 @defn
 @newcol
 <ul>
-<li>
-If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
-we say that $f$ has a @keyword{local/relative minimum} at $c$.
-</li>
-<li>
-If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
-we say that $f$ has a @keyword{local/relative maximum} at $c$.
-</li>
-</ul>
+<li> If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a @keyword{local/relative minimum} at $c$. </li>
+<li> If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a @keyword{local/relative maximum} at $c$. </li></ul>
 @endcol
 @end
 @newcol
-<div class="image">
-<a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" alt="Extrema example original.svg"/></a><br/>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a>
-</div>
+<div class="image" style="width: 450px;">
+<a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg">
+<img alt="Extrema example original.svg" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" width="450" style="background: none;"/></a><br/>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a></div>
 @endcol
 @slide
 @thm
-@label{thm:fdt}
 @title{First Derivative Test}
+@label{thm:fdt}
 Let $f : A \longrightarrow\mathbb{R} $ be a continuous function.
 For $c \in A$, if there exists an open interval $(a, b)$ containing $c$
 such that $f'(x) < 0$ (in particular it exists) for all $x \in (a, c)$,
 and $f'(x) > 0$ for all $x \in (c, b)$, then $f$ has a local minimum at $c$.
-
 
 Similarly, if $f'(x) > 0$ for all $x \in (a, c)$ and $f'(x) < 0 $ for
 all $x \in (c, b)$, then $f$ has a local maximum at $c$.
@@ -54,10 +39,11 @@ all $x \in (c, b)$, then $f$ has a local maximum at $c$.
 <strong>Note:</strong>
 @newcol
 In the special case that the domain of $f$ is an open interval $(a, b)$,
-if $f'(x) > 0$ for <u>all</u> $x \in (a, c)$, and $f'(x) < 0$ for <u>all</u>
+if $f'(x) > 0$ for <u>all</u>
+$x \in (a, c)$, and $f'(x) < 0$ for <u>all</u>
 $x \in (c, b)$,
-then $f$ has an absolute maximum at $c$.
-<br/>Similarly $f$ has an absolute minimum at $c$
+then $f$ has an absolute maximum at $c$. <br/>
+Similarly $f$ has an absolute minimum at $c$
 if each of the above inequalities is reversed.
 @endcol
 @eg
@@ -79,8 +65,7 @@ u^{\frac{1}{3}}v^{\frac{2}{3}} \leq \frac{1}{3}u + \frac{2}{3}v
 \]
 for $u$, $v>0$.
 @end
-@section{
-WeBWorK}
+@section{WeBWorK}
 @enumerate
 @item
 @webwork{Library/OSU/high_school_apcalc/dchmwk8/prob3.pg}
@@ -96,35 +81,28 @@ WeBWorK}
 @webwork{Library/Wiley/setAnton_Section_4.2/question12.pg}
 @endenumerate
 
-
 @slide
 @thm
-@label{thm:sdt}
 @title{Second Derivative Test}
+@label{thm:sdt}
 Let $f$ be a function twice differentiable at $c \in \mathbb{R}$,
-such that $f'(c) = 0$.  If:
-<ul>
-<li>$f''(c) > 0$, then $f$ has a local minimum at $c$.
-</li>
-<li>$f''(c) < 0$, then $f$ has a local maximum at $c$.
-</li></ul>
+such that $f'(c) = 0$.  If: <ul>
+<li>$f''(c) > 0$, then $f$ has a local minimum at $c$. </li>
+<li>$f''(c) < 0$, then $f$ has a local maximum at $c$. </li></ul>
 @end
 @proof
 @newcol
-<strong>Sketch of Proof.</strong>
-Suppose $f''(c) > 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
+<strong>Sketch of Proof.</strong> Suppose $f''(c) > 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
 we have:
 \[
 0 < f''(c) = \lim_{h \rightarrow 0}\frac{f'(c + h)  - f'(c)}{h}
 = \lim_{h \rightarrow 0}\frac{f'(c + h)}{h}\;.
 \]
 It follows from the above identity that $f'(c + h)$ is $> 0$ for sufficiently small
-positive $h$, and $< 0$ for sufficiently small negative $h$.
-<br/>
+positive $h$, and $< 0$ for sufficiently small negative $h$. <br/>
 @col
 Hence there is an open interval $(a, b)$ containing $c$ such that $f'$ is negative on
-$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test.
-<br/>
+$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test. <br/>
 @col
 The case $f''(c) < 0$ may be proved similarly.
 @qed
@@ -132,10 +110,9 @@ The case $f''(c) < 0$ may be proved similarly.
 @end
 @slide
 @eg
-Consider the function $f(x) = x^3 + 6x^2  - 15x + 7$ in
-@ref{dbee36c80786eacbe8adcb4d1cbb5875}, we have:
+Consider the function $f(x) = x^3 + 6x^2  - 15x + 7$ in @ref{dbee36c80786eacbe8adcb4d1cbb5875}, we have:
 
-@col
+@newcol
 \[
 f''(x) = 6x + 12
 \]
@@ -152,9 +129,10 @@ f''(-5) = -18,\quad f''(1) = 18,
 by the @ref{thm:sdt} $f(-5)$ is a local maximum,
 and $f(1)$ is a local minimum.  (This corroborates the conclusions
 of the @ref{thm:fdt} applied to the same function, see @ref{7c80e8e3f96891c595d6e3c37af5a5b3}.)
+@endcol
 @end
 @eg
-@col
+@newcol
 Consider $g(x) = x^4$.  Then, $g'(x) = 4x^3$, which implies that
 $c = 0$ is the only point where $g'(c) = 0$.
 
@@ -168,25 +146,22 @@ regarding whether $g(0)$ is a local minimum, maximum, or neither.
 @col
 However, one can still apply the @ref{thm:fdt} to conclude that
 $f(0) = 0$ is a local minimum.
+@endcol
 @end
-@section{
-Concavity}
+@section{Concavity}
 Let $f$ be a twice differentiable function.
-If $f''$ is positive (negative)
+If $f''$ is positive (resp. negative)
 on an open interval $(a, b)$, then the graph of $f$ over $(a, b)$
-is @keyword{concave up} (resp. <strong>down</strong>@keyword*{concave down}  ).
-<p/>
+is @keyword{concave up} (resp. <strong style="">down</strong>@keyword*{concave down}  ). <p style=""/>
 @newcol
 This is due to the fact that $f''$ being positive (resp. negative) corresponds to
-$f'$ being increasing (resp. decreasing).
-<p/>
+$f'$ being increasing (resp. decreasing). <p style=""/>
 @col
-<div class="image">
-<a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" alt="Animated illustration of inflection point.gif"/></a><br/>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293">Link</a>
-</div>
+<div class="image" style="">
+<a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" style="">
+<img alt="Animated illustration of inflection point.gif" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" style="max-width: 100%; height: auto; background: none;"/></a><br/>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" style="">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293" style="">Link</a></div>
 @col
-A point on the graph of $f$ where the concavity changes is called an
-@keyword{inflection point}.
+A point on the graph of $f$ where the concavity changes is called an @keyword{inflection point}.
 It corresponds to a point in the domain of $f$ where $f''$ changes sign.
 @endcol
 @slide
@@ -195,17 +170,15 @@ Sketch the graph of:
 \[
 f(x) = \dfrac{x^2 + x - 2}{x^2}
 \]
-by first finding the following information about $f$:
-<ol>
-<li> Domain.
+by first finding the following information about $f$: <ol style="">
+<li style=""> Domain.
 @newcol
 \[
 \{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
 \]
-<hr/>
-@endcol
-</li>
-<li> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
+<hr style=""/>
+@endcol</li>
+<li style=""> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
 @newcol
 $f(x) = 0$ if and only if $x \neq 0$
 and $x^2 + x - 2 = (x - 1)(x + 2) = 0$.
@@ -217,156 +190,122 @@ In general, the $y$-intercept of the graph of a function
 is the value of the function at $x = 0$.
 In this case, $0$ is not in the domain of $f$,
 hence the graph of $f$ has no $y$-intercept.
-<hr/>
-@endcol
-</li>
-<li>
-Asymptotes (Horizontal, Vertical, Oblique)
+<hr style=""/>
+@endcol</li>
+<li style=""> Asymptotes (Horizontal, Vertical, Oblique)
 @newcol
 \[
 \lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow -\infty} f(x) = 1.
 \]
-Hence, the graph of $f$ has one horizontal asymptote: $y = 1$.
-<p/>
-The value $f(x)$ is defined for all $x \neq 0$.
-<p/>
+Hence, the graph of $f$ has one horizontal asymptote: $y = 1$. <p style=""/>
+The value $f(x)$ is defined for all $x \neq 0$. Hence, $f$, being a rational function, is continuous at all $x \neq 0$. So, there are no vertical asymptotes at $x \neq 0$.<p style=""/>
 @col
 Near $x = 0$, we have:
 \[
 \lim_{x \rightarrow 0^-} f(x) = \lim_{x \rightarrow 0^+} f(x) = -\infty.
 \]
-Hence, the graph of $f$ has a vertical asymptote at $x = 0$.
-<p/>
+Hence, the graph of $f$ has a vertical asymptote at $x = 0$. <p style=""/>
 @col
 Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
 the graph of $f$ has no oblique asymptote.
-<hr/>
+<hr style=""/>
+@endcol</li>
+<li style=""> 	Intervals where $f$ is increasing/decreasing.
+
+@newcol
+\[
+\begin{split}
+f'(x) &= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+&= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+&= \frac{1}{x^{3}} \left(4 - x\right)
+\end{split}
+\]
+Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
+<p style=""/>
+
+@col
+<table class="table-hover table table-striped table-bordered" style="text-align: center;">
+<tbody style="">
+<tr style="">
+<td style="">$y = f(x)$:</td><td style="">
+<strong style="">$\searrow$</strong></td><td style="">
+<strong style="">$\nearrow$</strong></td><td style="">
+<strong style="">$\searrow$</strong></td></tr><tr style="">
+<td style="">$f'(x)$:</td><td style="">$-$</td><td style="">$+$</td><td style="">$-$</td></tr><tr style="">
+<td style="">$x$:</td><td style="">$(-\infty, 0)$</td><td style="">$(0, 4)$</td><td style="">$(4, \infty)$</td></tr></tbody></table>
+It follows from the sign chart that $f$ is increasing on $(0, 4]$,
+and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
+
+<hr style=""/>
+
 @endcol
 </li>
-<li>
-	Intervals where $f$ is increasing/decreasing.
+<li style=""> 	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
 
 @newcol
-	\[
-	\begin{split}
-	f'(x) &= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
-	&= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
-	&= \frac{1}{x^{3}} \left(4 - x\right)
-	\end{split}
-	\]
-	Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
-	<p/>
+It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
+The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
 
-@col
-	  <table class="table-hover table table-striped table-bordered" style="text-align:center">
-	    <tr>
-	      <td>$y = f(x)$:</td><td><strong>$\searrow$</strong></td><td><strong>$\nearrow$</strong></td><td><strong>$\searrow$</strong></td>
-	    </tr>
-	    <tr>
-	      <td>$f'(x)$:</td>
-	      <td>$-$</td><td>$+$</td><td>$-$</td>
-	    </tr>
-	    <tr>
-	      <td>$x$:</td><td>$(-\infty, 0)$</td><td>$(0, 4)$</td><td>$(4, \infty)$</td>
-	    </tr>
-	  </table>
-	  It follows from the sign chart that $f$ is increasing on $(0, 4]$,
-	  and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
-
-<hr/>
+<hr style=""/>
 
 @endcol
-	  </li>
-<li>
-	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
+</li>
+<li style=""> 	    Intervals where $f$ is concave up/down.
 
 @newcol
-	    It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
-	    The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
-
-<hr/>
-
-@endcol
-	  </li>
-<li>
-	    Intervals where $f$ is concave up/down.
-
-@newcol
-	    The second derivative of $f$ is:
-	    \[
-	    f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
-	    \]
-	    The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
-	    or where $f''(p)$ is undefined.
-	    In this case, there are two such point: $p = 0, 6$.
-	    <p/>
+The second derivative of $f$ is:
+\[
+f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
+\]
+The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
+or where $f''(p)$ is undefined.
+In this case, there are two such point: $p = 0, 6$.
+<p style=""/>
 
 @col
-	      <table class="table-hover table table-striped table-bordered" style="text-align:center">
-		<tr>
-		  <td>$y = f(x)$:</td><td><strong>$\cap$</strong></td><td><strong>$\cap$</strong></td><td><strong>$\cup$</strong></td>
-		</tr>
-		<tr>
-		  <td>$f''(x)$:</td>
-		  <td>$-$</td><td>$-$</td><td>$+$</td>
-		</tr>
-		<tr>
-		  <td>$x$:</td><td>$(-\infty, 0)$</td><td>$(0, 6)$</td><td>$(6, \infty)$</td>
-		</tr>
-</table>
+<table class="table-hover table table-striped table-bordered" style="text-align: center;">
+<tbody style="">
+<tr style="">
+<td style="">$y = f(x)$:</td><td style="">
+<strong style="">$\cap$</strong></td><td style="">
+<strong style="">$\cap$</strong></td><td style="">
+<strong style="">$\cup$</strong></td></tr><tr style="">
+<td style="">$f''(x)$:</td><td style="">$-$</td><td style="">$-$</td><td style="">$+$</td></tr><tr style="">
+<td style="">$x$:</td><td style="">$(-\infty, 0)$</td><td style="">$(0, 6)$</td><td style="">$(6, \infty)$</td></tr></tbody></table>
 It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
 and concave down on $(-\infty, 0)$ and $(0, 6)$.
-<hr/>
-@endcol
-</li>
-<li>
-Inflection points on the graph of $f$.
+<hr style=""/>
+@endcol</li>
+<li style=""> Inflection points on the graph of $f$.
 @newcol
 It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
 is the only reflection point on the graph of $f$.
-<hr/>
-@endcol
-</li></ol>
-<h5 class="notkw">Graph</h5>
+<hr style=""/>
+@endcol</li></ol><h5 class="notkw" style="">Graph</h5>
 @newcol
-<div class="image">
-<iframe src="https://www.desmos.com/calculator/t5cgqvw7id?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-<p/><br/>
-<strong>
-$
+<div class="image" style="">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" src="https://www.desmos.com/calculator/t5cgqvw7id?embed" id="iFrameResizer0" scrolling="no"/><p style=""/><br/><strong style=""> $
 y = \dfrac{x^2 + x - 2}{x^2}
-$
-</strong>
-</div>
+$ </strong></div>
 @endcol
 @end
 
-
 @slide
 @eg
-Following the guidelines of the previous example, sketch the graph of:
-<ol>
-<li>
-$f(x) = \abs{x + 1}(3 - x)$
-</li>
-<li>
-$f(x) = x + \frac{1}{\abs{x}}$
-</li></ol>
+Following the guidelines of the previous example, sketch the graph of: <ol>
+<li> $f(x) = \abs{x + 1}(3 - x)$ </li>
+<li> $f(x) = x + \frac{1}{\abs{x}}$ </li></ol>
 @end
 @sol
 <ol>
 <li>
 @newcol
-Domain: $\mathbb{R}$.
-<p/>
+Domain: $\mathbb{R}$. <p/>
 @col
-$x$-intercepts: $x = -1, 3$.
-<p/>
-$y$-intercept: $y = f(0) = 3$.
-<p/>
+$x$-intercepts: $x = -1, 3$. <p/>
+$y$-intercept: $y = f(0) = 3$. <p/>
 @col
-Asymptotes: None.
-<p/>
+Asymptotes: None. <p/>
 @col
 \[
 f'(x) =
@@ -385,32 +324,22 @@ f''(x) =
 -2 & x > -1.
 \end{cases}
 \]
-Inflection point: $p = 1$.
-<p/>
+Inflection point: $p = 1$. <p/>
 @col
 <table class="table-hover table table-striped table-bordered" style="text-align:center">
+<tbody>
 <tr>
-<td>$y = f(x)$:</td><td><strong>$\cup$<br/>$\searrow$</strong></td><td><strong>$\cap$<br/>$\nearrow$</strong></td><td><strong>$\cap$<br/>$\searrow$</strong></td>
-</tr>
-<tr>
-<td>$f'(x)$:</td>
-<td>$-$</td><td>$+$</td><td>$-$</td>
-</tr>
-<tr>
-<td>$f''(x)$:</td>
-<td>$+$</td><td>$-$</td><td>$-$</td>
-</tr>
-<tr>
-<td>$x$:</td>
-<td>$(-\infty, -1)$</td><td>$(-1, 1)$</td><td>$(1, \infty)$</td>
-</tr>
-</table>
+<td>$y = f(x)$:</td><td>
+<strong>$\cup$<br/>$\searrow$</strong></td><td>
+<strong>$\cap$<br/>$\nearrow$</strong></td><td>
+<strong>$\cap$<br/>$\searrow$</strong></td></tr><tr>
+<td>$f'(x)$:</td><td>$-$</td><td>$+$</td><td>$-$</td></tr><tr>
+<td>$f''(x)$:</td><td>$+$</td><td>$-$</td><td>$-$</td></tr><tr>
+<td>$x$:</td><td>$(-\infty, -1)$</td><td>$(-1, 1)$</td><td>$(1, \infty)$</td></tr></tbody></table>
 @col
 <div class="image">
-<iframe src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-</div>
-@endcol
-</li>
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" id="iFrameResizer1" scrolling="no"/></div>
+@endcol</li>
 <li>
 @newcol
 In general, if one can rewrite a function $f$
@@ -421,31 +350,23 @@ f(x) = mx + b + g(x),
 such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
 and $m, b$ are constants,
 then one can readily conclude that $y = mx + b$ is an asymptote
-for the graph of $f$.
-<p/>
+for the graph of $f$. <p/>
 If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
-If $m = 0$, then $y = b$ is a horizontal asymptote.
-<p/>
+If $m = 0$, then $y = b$ is a horizontal asymptote. <p/>
 In this example, since
 $\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
-the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$.
-<p/>
+the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$. <p/>
 @col
-We leave the rest of the calculations as an exercise.
-<p/>
-<i>Hint</i>:
+We leave the rest of the calculations as an exercise. <p/><i>Hint</i>:
 \[
 f(x) = \begin{cases}
 x - \frac{1}{x} & x < 0;\\
 x + \frac{1}{x} & x > 0.
 \end{cases}
 \]
-The resulting graph is as follows:
-<p/>
+The resulting graph is as follows: <p/>
 @col
 <div class="image">
-<iframe src="https://www.desmos.com/calculator/vtjauc9srj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-</div>
-@endcol
-</li></ol>
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" src="https://www.desmos.com/calculator/vtjauc9srj?embed" id="iFrameResizer2" scrolling="no"/></div>
+@endcol</li></ol>
 @end
