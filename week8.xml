@@ -108,7 +108,7 @@ we say that $f$ has a </paragraphs>
             <newcol course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
                 <a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg" environment="newcol">
-                  <img alt="Extrema example original.svg" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" width="450" style="background: none;" environment="newcol" />
+                  <img alt="Extrema example original.svg" rendered="0" width="450" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" environment="newcol" />
                 </a>
                 <br environment="newcol" />
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By KSmrq - </paragraphs>
@@ -413,7 +413,7 @@ by first finding the following information about $f$: </paragraphs>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
 \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                 </li>
                 <li style="" environment="statement">
@@ -429,7 +429,7 @@ In general, the $y$-intercept of the graph of a function
 is the value of the function at $x = 0$.
 In this case, $0$ is not in the domain of $f$,
 hence the graph of $f$ has no $y$-intercept. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                 </li>
                 <li style="" environment="statement">
@@ -452,7 +452,7 @@ Hence, the graph of $f$ has a vertical asymptote at $x = 0$. </paragraphs>
                       <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
 the graph of $f$ has no oblique asymptote. </paragraphs>
-                        <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       </collapse>
                     </collapse>
                   </newcol>
@@ -527,7 +527,7 @@ Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$. </paragra
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from the sign chart that $f$ is increasing on $(0, 4]$,
 and decreasing on $(-\infty, 0)$ and $[4, \infty)$.</paragraphs>
                       <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                     </collapse>
                   </newcol>
@@ -539,7 +539,7 @@ and decreasing on $(-\infty, 0)$ and $[4, \infty)$.</paragraphs>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
 The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.</paragraphs>
                     <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                   </newcol>
                 </li>
@@ -611,7 +611,7 @@ In this case, there are two such point: $p = 0, 6$. </paragraphs>
                       </table>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
 and concave down on $(-\infty, 0)$ and $(0, 6)$. </paragraphs>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     </collapse>
                   </newcol>
                 </li>
@@ -620,7 +620,7 @@ and concave down on $(-\infty, 0)$ and $(0, 6)$. </paragraphs>
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
 is the only reflection point on the graph of $f$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                 </li>
               </ol>
@@ -629,7 +629,7 @@ is the only reflection point on the graph of $f$. </paragraphs>
               </h5>
               <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
-                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" src="https://www.desmos.com/calculator/t5cgqvw7id?embed" id="iFrameResizer0" scrolling="no" environment="newcol"></iframe>
+                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" id="iFrameResizer0" scrolling="no" src="https://www.desmos.com/calculator/t5cgqvw7id?embed" environment="newcol"></iframe>
                   <p style="" environment="newcol"></p>
                   <br environment="newcol" />
                   <strong style="" environment="newcol">
@@ -646,29 +646,29 @@ $ </paragraphs>
             <keywords slide="11" environ="slide" chapter="8" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="60b1121b5df1efc9e2eaa6cfb5a1e77e" course="Math 1010" chapter="8" slide="11" item="8.10">
               <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Following the guidelines of the previous example, sketch the graph of: </paragraphs>
-              <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-                <li environment="statement">
+              <ol xmlns="http://www.w3.org/1999/xhtml" style="" environment="statement">
+                <li style="" environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $f(x) = \abs{x + 1}(3 - x)$ </paragraphs>
                 </li>
-                <li environment="statement">
+                <li style="" environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $f(x) = x + \frac{1}{\abs{x}}$ </paragraphs>
                 </li>
               </ol>
             </statement>
             <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="24d61af2b2cb4d4fe3ebf529b5756d57" course="Math 1010" chapter="8" slide="11">
-              <ol xmlns="http://www.w3.org/1999/xhtml" environment="substatement">
-                <li environment="substatement">
+              <ol xmlns="http://www.w3.org/1999/xhtml" style="" environment="substatement">
+                <li style="" environment="substatement">
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Domain: $\mathbb{R}$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $x$-intercepts: $x = -1, 3$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $y$-intercept: $y = f(0) = 3$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Asymptotes: None. </paragraphs>
-                        <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                        <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                         <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 f'(x) =
@@ -687,84 +687,84 @@ f''(x) =
 -2 &amp; x &gt; -1.
 \end{cases}
 \]
-Inflection point: $p = 1$. </paragraphs>
-                          <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+Inflection point: $p = -1$. </paragraphs>
+                          <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                           <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                            <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align:center" environment="newcol">
-                              <tbody environment="newcol">
-                                <tr environment="newcol">
-                                  <td environment="newcol">
+                            <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align: center;" environment="newcol">
+                              <tbody style="" environment="newcol">
+                                <tr style="" environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$y = f(x)$:</paragraphs>
                                   </td>
-                                  <td environment="newcol">
-                                    <strong environment="newcol">
+                                  <td style="" environment="newcol">
+                                    <strong style="" environment="newcol">
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\cup$</paragraphs>
                                       <br environment="newcol" />
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\searrow$</paragraphs>
                                     </strong>
                                   </td>
-                                  <td environment="newcol">
-                                    <strong environment="newcol">
+                                  <td style="" environment="newcol">
+                                    <strong style="" environment="newcol">
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\cap$</paragraphs>
                                       <br environment="newcol" />
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\nearrow$</paragraphs>
                                     </strong>
                                   </td>
-                                  <td environment="newcol">
-                                    <strong environment="newcol">
+                                  <td style="" environment="newcol">
+                                    <strong style="" environment="newcol">
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\cap$</paragraphs>
                                       <br environment="newcol" />
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\searrow$</paragraphs>
                                     </strong>
                                   </td>
                                 </tr>
-                                <tr environment="newcol">
-                                  <td environment="newcol">
+                                <tr style="" environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$f'(x)$:</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-$</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$+$</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-$</paragraphs>
                                   </td>
                                 </tr>
-                                <tr environment="newcol">
-                                  <td environment="newcol">
+                                <tr style="" environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$f''(x)$:</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$+$</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-$</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$-$</paragraphs>
                                   </td>
                                 </tr>
-                                <tr environment="newcol">
-                                  <td environment="newcol">
+                                <tr style="" environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$x$:</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(-\infty, -1)$</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(-1, 1)$</paragraphs>
                                   </td>
-                                  <td environment="newcol">
+                                  <td style="" environment="newcol">
                                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$(1, \infty)$</paragraphs>
                                   </td>
                                 </tr>
                               </tbody>
                             </table>
                             <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                              <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" id="iFrameResizer1" scrolling="no" environment="newcol"></iframe>
+                              <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
+                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" id="iFrameResizer1" scrolling="no" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" environment="newcol"></iframe>
                               </div>
                             </collapse>
                           </collapse>
@@ -773,7 +773,7 @@ Inflection point: $p = 1$. </paragraphs>
                     </collapse>
                   </newcol>
                 </li>
-                <li environment="substatement">
+                <li style="" environment="substatement">
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In general, if one can rewrite a function $f$
 (e.g. using long division if $f$ is a rational function) in the form:
@@ -784,18 +784,18 @@ such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
 and $m, b$ are constants,
 then one can readily conclude that $y = mx + b$ is an asymptote
 for the graph of $f$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
 If $m = 0$, then $y = b$ is a horizontal asymptote. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this example, since
 $\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
 the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We leave the rest of the calculations as an exercise. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
-                      <i xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
+                      <i xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hint</paragraphs>
                       </i>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:
@@ -806,10 +806,10 @@ x + \frac{1}{x} &amp; x &gt; 0.
 \end{cases}
 \]
 The resulting graph is as follows: </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                          <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" src="https://www.desmos.com/calculator/vtjauc9srj?embed" id="iFrameResizer2" scrolling="no" environment="newcol"></iframe>
+                        <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
+                          <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" id="iFrameResizer2" scrolling="no" src="https://www.desmos.com/calculator/vtjauc9srj?embed" environment="newcol"></iframe>
                         </div>
                       </collapse>
                     </collapse>
