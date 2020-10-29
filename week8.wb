@@ -22,7 +22,7 @@ we say that $f$ has a @keyword{local/relative maximum} at $c$. </li></ul>
 @newcol
 <div class="image" style="width: 450px;">
 <a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg">
-<img alt="Extrema example original.svg" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" width="450" style="background: none;"/></a><br/>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a></div>
+<img alt="Extrema example original.svg" rendered="0" width="450" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg"/></a><br/>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a></div>
 @endcol
 @slide
 @thm
@@ -176,7 +176,7 @@ by first finding the following information about $f$: <ol style="">
 \[
 \{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
 \]
-<hr style=""/>
+<hr/>
 @endcol</li>
 <li style=""> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
 @newcol
@@ -190,7 +190,7 @@ In general, the $y$-intercept of the graph of a function
 is the value of the function at $x = 0$.
 In this case, $0$ is not in the domain of $f$,
 hence the graph of $f$ has no $y$-intercept.
-<hr style=""/>
+<hr/>
 @endcol</li>
 <li style=""> Asymptotes (Horizontal, Vertical, Oblique)
 @newcol
@@ -208,7 +208,7 @@ Hence, the graph of $f$ has a vertical asymptote at $x = 0$. <p style=""/>
 @col
 Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
 the graph of $f$ has no oblique asymptote.
-<hr style=""/>
+<hr/>
 @endcol</li>
 <li style=""> 	Intervals where $f$ is increasing/decreasing.
 
@@ -220,8 +220,7 @@ f'(x) &= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
 &= \frac{1}{x^{3}} \left(4 - x\right)
 \end{split}
 \]
-Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
-<p style=""/>
+Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$. <p style=""/>
 
 @col
 <table class="table-hover table table-striped table-bordered" style="text-align: center;">
@@ -236,20 +235,18 @@ Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
 It follows from the sign chart that $f$ is increasing on $(0, 4]$,
 and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
 
-<hr style=""/>
+<hr/>
 
-@endcol
-</li>
+@endcol</li>
 <li style=""> 	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
 
 @newcol
 It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
 The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
 
-<hr style=""/>
+<hr/>
 
-@endcol
-</li>
+@endcol</li>
 <li style=""> 	    Intervals where $f$ is concave up/down.
 
 @newcol
@@ -259,8 +256,7 @@ f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
 \]
 The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
 or where $f''(p)$ is undefined.
-In this case, there are two such point: $p = 0, 6$.
-<p style=""/>
+In this case, there are two such point: $p = 0, 6$. <p style=""/>
 
 @col
 <table class="table-hover table table-striped table-bordered" style="text-align: center;">
@@ -274,17 +270,17 @@ In this case, there are two such point: $p = 0, 6$.
 <td style="">$x$:</td><td style="">$(-\infty, 0)$</td><td style="">$(0, 6)$</td><td style="">$(6, \infty)$</td></tr></tbody></table>
 It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
 and concave down on $(-\infty, 0)$ and $(0, 6)$.
-<hr style=""/>
+<hr/>
 @endcol</li>
 <li style=""> Inflection points on the graph of $f$.
 @newcol
 It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
 is the only reflection point on the graph of $f$.
-<hr style=""/>
+<hr/>
 @endcol</li></ol><h5 class="notkw" style="">Graph</h5>
 @newcol
 <div class="image" style="">
-<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" src="https://www.desmos.com/calculator/t5cgqvw7id?embed" id="iFrameResizer0" scrolling="no"/><p style=""/><br/><strong style=""> $
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" id="iFrameResizer0" scrolling="no" src="https://www.desmos.com/calculator/t5cgqvw7id?embed"/><p style=""/><br/><strong style=""> $
 y = \dfrac{x^2 + x - 2}{x^2}
 $ </strong></div>
 @endcol
@@ -292,20 +288,20 @@ $ </strong></div>
 
 @slide
 @eg
-Following the guidelines of the previous example, sketch the graph of: <ol>
-<li> $f(x) = \abs{x + 1}(3 - x)$ </li>
-<li> $f(x) = x + \frac{1}{\abs{x}}$ </li></ol>
+Following the guidelines of the previous example, sketch the graph of: <ol style="">
+<li style=""> $f(x) = \abs{x + 1}(3 - x)$ </li>
+<li style=""> $f(x) = x + \frac{1}{\abs{x}}$ </li></ol>
 @end
 @sol
-<ol>
-<li>
+<ol style="">
+<li style="">
 @newcol
-Domain: $\mathbb{R}$. <p/>
+Domain: $\mathbb{R}$. <p style=""/>
 @col
-$x$-intercepts: $x = -1, 3$. <p/>
-$y$-intercept: $y = f(0) = 3$. <p/>
+$x$-intercepts: $x = -1, 3$. <p style=""/>
+$y$-intercept: $y = f(0) = 3$. <p style=""/>
 @col
-Asymptotes: None. <p/>
+Asymptotes: None. <p style=""/>
 @col
 \[
 f'(x) =
@@ -324,23 +320,23 @@ f''(x) =
 -2 & x > -1.
 \end{cases}
 \]
-Inflection point: $p = 1$. <p/>
+Inflection point: $p = -1$. <p style=""/>
 @col
-<table class="table-hover table table-striped table-bordered" style="text-align:center">
-<tbody>
-<tr>
-<td>$y = f(x)$:</td><td>
-<strong>$\cup$<br/>$\searrow$</strong></td><td>
-<strong>$\cap$<br/>$\nearrow$</strong></td><td>
-<strong>$\cap$<br/>$\searrow$</strong></td></tr><tr>
-<td>$f'(x)$:</td><td>$-$</td><td>$+$</td><td>$-$</td></tr><tr>
-<td>$f''(x)$:</td><td>$+$</td><td>$-$</td><td>$-$</td></tr><tr>
-<td>$x$:</td><td>$(-\infty, -1)$</td><td>$(-1, 1)$</td><td>$(1, \infty)$</td></tr></tbody></table>
+<table class="table-hover table table-striped table-bordered" style="text-align: center;">
+<tbody style="">
+<tr style="">
+<td style="">$y = f(x)$:</td><td style="">
+<strong style="">$\cup$<br/>$\searrow$</strong></td><td style="">
+<strong style="">$\cap$<br/>$\nearrow$</strong></td><td style="">
+<strong style="">$\cap$<br/>$\searrow$</strong></td></tr><tr style="">
+<td style="">$f'(x)$:</td><td style="">$-$</td><td style="">$+$</td><td style="">$-$</td></tr><tr style="">
+<td style="">$f''(x)$:</td><td style="">$+$</td><td style="">$-$</td><td style="">$-$</td></tr><tr style="">
+<td style="">$x$:</td><td style="">$(-\infty, -1)$</td><td style="">$(-1, 1)$</td><td style="">$(1, \infty)$</td></tr></tbody></table>
 @col
-<div class="image">
-<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" id="iFrameResizer1" scrolling="no"/></div>
+<div class="image" style="">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" id="iFrameResizer1" scrolling="no" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed"/></div>
 @endcol</li>
-<li>
+<li style="">
 @newcol
 In general, if one can rewrite a function $f$
 (e.g. using long division if $f$ is a rational function) in the form:
@@ -350,23 +346,23 @@ f(x) = mx + b + g(x),
 such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
 and $m, b$ are constants,
 then one can readily conclude that $y = mx + b$ is an asymptote
-for the graph of $f$. <p/>
+for the graph of $f$. <p style=""/>
 If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
-If $m = 0$, then $y = b$ is a horizontal asymptote. <p/>
+If $m = 0$, then $y = b$ is a horizontal asymptote. <p style=""/>
 In this example, since
 $\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
-the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$. <p/>
+the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$. <p style=""/>
 @col
-We leave the rest of the calculations as an exercise. <p/><i>Hint</i>:
+We leave the rest of the calculations as an exercise. <p style=""/><i style="">Hint</i>:
 \[
 f(x) = \begin{cases}
 x - \frac{1}{x} & x < 0;\\
 x + \frac{1}{x} & x > 0.
 \end{cases}
 \]
-The resulting graph is as follows: <p/>
+The resulting graph is as follows: <p style=""/>
 @col
-<div class="image">
-<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" src="https://www.desmos.com/calculator/vtjauc9srj?embed" id="iFrameResizer2" scrolling="no"/></div>
+<div class="image" style="">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" id="iFrameResizer2" scrolling="no" src="https://www.desmos.com/calculator/vtjauc9srj?embed"/></div>
 @endcol</li></ol>
 @end
