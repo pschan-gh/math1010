@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -109,9 +108,9 @@ we say that $f$ has a </paragraphs>
             <newcol course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
                 <a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg" environment="newcol">
-                  <img alt="Extrema example original.svg" rendered="0" width="450" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" environment="newcol"/>
+                  <img alt="Extrema example original.svg" rendered="0" width="450" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" environment="newcol" />
                 </a>
-                <br environment="newcol"/>
+                <br environment="newcol" />
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By KSmrq - </paragraphs>
                 <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</paragraphs>
@@ -157,7 +156,7 @@ if $f'(x) &gt; 0$ for </paragraphs>
               </u>
               <paragraphs course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $x \in (c, b)$,
 then $f$ has an absolute maximum at $c$. </paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
               <paragraphs course="Math 1010" chapter="8" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similarly $f$ has an absolute minimum at $c$
 if each of the above inequalities is reversed. </paragraphs>
             </newcol>
@@ -258,11 +257,11 @@ we have:
 \]
 It follows from the above identity that $f'(c + h)$ is $&gt; 0$ for sufficiently small
 positive $h$, and $&lt; 0$ for sufficiently small negative $h$. </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence there is an open interval $(a, b)$ containing $c$ such that $f'$ is negative on
 $(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test. </paragraphs>
-                  <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                  <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   <collapse course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The case $f''(c) &lt; 0$ may be proved similarly. </paragraphs>
                     <qed course="Math 1010" chapter="8" chapter_type="" section="2" subsection="" subsubsection="" environment="newcol"/>
@@ -370,17 +369,17 @@ is </paragraphs>
             </strong>
             <hc_keyword course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">concave down</hc_keyword>
             <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs">  ). </paragraphs>
-            <p xmlns="http://www.w3.org/1999/xhtml" style="" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" style="" environment=""></p>
             <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> This is due to the fact that $f''$ being positive (resp. negative) corresponds to
 $f'$ being increasing (resp. decreasing). </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
               <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
                   <a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" style="" environment="newcol">
-                    <img alt="Animated illustration of inflection point.gif" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" style="max-width: 100%; height: auto; background: none;" environment="newcol"/>
+                    <img alt="Animated illustration of inflection point.gif" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
                   </a>
-                  <br environment="newcol"/>
+                  <br environment="newcol" />
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By dino - </paragraphs>
                   <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" style="" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</paragraphs>
@@ -414,7 +413,7 @@ by first finding the following information about $f$: </paragraphs>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
 \] </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                 </li>
                 <li style="" environment="statement">
@@ -430,7 +429,7 @@ In general, the $y$-intercept of the graph of a function
 is the value of the function at $x = 0$.
 In this case, $0$ is not in the domain of $f$,
 hence the graph of $f$ has no $y$-intercept. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                 </li>
                 <li style="" environment="statement">
@@ -440,20 +439,20 @@ hence the graph of $f$ has no $y$-intercept. </paragraphs>
 \lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow -\infty} f(x) = 1.
 \]
 Hence, the graph of $f$ has one horizontal asymptote: $y = 1$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> The value $f(x)$ is defined for all $x \neq 0$. Hence, $f$, being a rational function, is continuous at all $x \neq 0$. So, there are no vertical asymptotes at $x \neq 0$.</paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Near $x = 0$, we have:
 \[
 \lim_{x \rightarrow 0^-} f(x) = \lim_{x \rightarrow 0^+} f(x) = -\infty.
 \]
 Hence, the graph of $f$ has a vertical asymptote at $x = 0$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
 the graph of $f$ has no oblique asymptote. </paragraphs>
-                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                        <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       </collapse>
                     </collapse>
                   </newcol>
@@ -470,7 +469,7 @@ f'(x) &amp;= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
 \end{split}
 \]
 Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align: center;" environment="newcol">
@@ -528,7 +527,7 @@ Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$. </paragra
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from the sign chart that $f$ is increasing on $(0, 4]$,
 and decreasing on $(-\infty, 0)$ and $[4, \infty)$.</paragraphs>
                       <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                       <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                     </collapse>
                   </newcol>
@@ -540,7 +539,7 @@ and decreasing on $(-\infty, 0)$ and $[4, \infty)$.</paragraphs>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
 The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.</paragraphs>
                     <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                   </newcol>
                 </li>
@@ -555,7 +554,7 @@ f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
 The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
 or where $f''(p)$ is undefined.
 In this case, there are two such point: $p = 0, 6$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align: center;" environment="newcol">
@@ -612,7 +611,7 @@ In this case, there are two such point: $p = 0, 6$. </paragraphs>
                       </table>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
 and concave down on $(-\infty, 0)$ and $(0, 6)$. </paragraphs>
-                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                      <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                     </collapse>
                   </newcol>
                 </li>
@@ -621,7 +620,7 @@ and concave down on $(-\infty, 0)$ and $(0, 6)$. </paragraphs>
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
 is the only reflection point on the graph of $f$. </paragraphs>
-                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                    <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                   </newcol>
                 </li>
               </ol>
@@ -630,9 +629,9 @@ is the only reflection point on the graph of $f$. </paragraphs>
               </h5>
               <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
-                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" id="iFrameResizer0" scrolling="no" src="https://www.desmos.com/calculator/t5cgqvw7id?embed" environment="newcol"/>
-                  <p style="" environment="newcol"/>
-                  <br environment="newcol"/>
+                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" id="iFrameResizer0" scrolling="no" src="https://www.desmos.com/calculator/t5cgqvw7id?embed" environment="newcol"></iframe>
+                  <p style="" environment="newcol"></p>
+                  <br environment="newcol" />
                   <strong style="" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $
 y = \dfrac{x^2 + x - 2}{x^2}
@@ -661,15 +660,15 @@ $ </paragraphs>
                 <li style="" environment="substatement">
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Domain: $\mathbb{R}$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $x$-intercepts: $x = -1, 3$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $y$-intercept: $y = f(0) = 3$. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Asymptotes: None. </paragraphs>
-                        <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                        <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                         <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 f'(x) =
@@ -689,7 +688,7 @@ f''(x) =
 \end{cases}
 \]
 Inflection point: $p = -1$. </paragraphs>
-                          <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                          <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                           <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                             <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="text-align: center;" environment="newcol">
                               <tbody style="" environment="newcol">
@@ -700,21 +699,21 @@ Inflection point: $p = -1$. </paragraphs>
                                   <td style="" environment="newcol">
                                     <strong style="" environment="newcol">
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\cup$</paragraphs>
-                                      <br environment="newcol"/>
+                                      <br environment="newcol" />
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\searrow$</paragraphs>
                                     </strong>
                                   </td>
                                   <td style="" environment="newcol">
                                     <strong style="" environment="newcol">
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\cap$</paragraphs>
-                                      <br environment="newcol"/>
+                                      <br environment="newcol" />
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\nearrow$</paragraphs>
                                     </strong>
                                   </td>
                                   <td style="" environment="newcol">
                                     <strong style="" environment="newcol">
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\cap$</paragraphs>
-                                      <br environment="newcol"/>
+                                      <br environment="newcol" />
                                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$\searrow$</paragraphs>
                                     </strong>
                                   </td>
@@ -765,7 +764,7 @@ Inflection point: $p = -1$. </paragraphs>
                             </table>
                             <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                               <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
-                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" id="iFrameResizer1" scrolling="no" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" environment="newcol"/>
+                                <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" id="iFrameResizer1" scrolling="no" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" environment="newcol"></iframe>
                               </div>
                             </collapse>
                           </collapse>
@@ -785,17 +784,17 @@ such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
 and $m, b$ are constants,
 then one can readily conclude that $y = mx + b$ is an asymptote
 for the graph of $f$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
 If $m = 0$, then $y = b$ is a horizontal asymptote. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In this example, since
 $\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
 the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$. </paragraphs>
-                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                    <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We leave the rest of the calculations as an exercise. </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <i xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Hint</paragraphs>
                       </i>
@@ -807,10 +806,10 @@ x + \frac{1}{x} &amp; x &gt; 0.
 \end{cases}
 \]
 The resulting graph is as follows: </paragraphs>
-                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"/>
+                      <p xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol"></p>
                       <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
-                          <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" id="iFrameResizer2" scrolling="no" src="https://www.desmos.com/calculator/vtjauc9srj?embed" environment="newcol"/>
+                          <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" id="iFrameResizer2" scrolling="no" src="https://www.desmos.com/calculator/vtjauc9srj?embed" environment="newcol"></iframe>
                         </div>
                       </collapse>
                     </collapse>
@@ -826,7 +825,7 @@ The resulting graph is as follows: </paragraphs>
 We have:
 \[
 f(x) = 5x - 5 + \frac{7}{x + 1}
-\] 
+\]
 Since $\lim_{x \rightarrow \pm \infty} \frac{7}{x + 1} = 0$, the graph of $f$ approaches the line $y = 5x - 5$
 as $x$ approaches $\pm \infty$.</paragraphs>
               <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
@@ -834,14 +833,14 @@ as $x$ approaches $\pm \infty$.</paragraphs>
               <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
               <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                  <iframe src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="newcol"/>
+                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" id="iFrameResizer8" scrolling="no" environment="newcol"></iframe>
                 </div>
               </newcol>
             </statement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="8" section="3" subsection="" subsubsection="" chapter_title="" section_title="Concavity">
             <keywords slide="13" environ="slide" chapter="8" course="Math 1010"/>
-            <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In general, if the graph of $f$ approaches the line correpsonding to $l(x) = mx + b$, as $x$ tends to $\pm \infty$, 
+            <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> In general, if the graph of $f$ approaches the line correpsonding to $l(x) = mx + b$, as $x$ tends to $\pm \infty$,
 we have:
 \[
 m = \lim_{x \rightarrow \pm \infty} \frac{f(x)}{x}.
@@ -850,30 +849,28 @@ and
 \[
 b = \lim_{x \rightarrow \pm \infty} (f(x) - mx).
 \] </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="072e51a40e1deb196f5d0e8cdf67b81e" course="Math 1010" chapter="8" slide="13" item="8.12">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="8cf95d621815903309e469c88a13d2f8" course="Math 1010" chapter="8" slide="13" item="8.12">
               <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $g(x) = \sqrt{x^2 + 1} + 4$.</paragraphs>
                 <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <strong xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
                 </strong>
                 <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \lim_{x \rightarrow \infty} \frac{f(x)}{x} = 1.
-\]
-Hence $y = f(x)$ approaches $y = x + b$ as $x \rightarrow \infty$, where:</paragraphs>
+\]This suggests that $y = f(x)$ approaches $y = x + b$ as $x \rightarrow \infty$, where:</paragraphs>
                 <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                <strong xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
                 </strong>
                 <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 b = \lim_{x \rightarrow \pm \infty} (f(x) - 1\cdot x) = 4.
-\]
-Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.</paragraphs>
+\]Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.</paragraphs>
                 <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Similary, as $x$ tends to $-\infty$, we have:</paragraphs>
                   <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
-                  <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
+                  <strong xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
                   </strong>
                   <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
@@ -886,13 +883,13 @@ So, $y = f(x)$ approaches $y = -x + 4$ as $x$ tends to $-\infty$.</paragraphs>
                   <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We conclude that the graph of $f$ has two oblique asymptotes:
-\begin{align*}
+\[\begin{align*}
 y &amp;= x + 4,\\
 y &amp;= -x + 4.
-\end{align*} </paragraphs>
+\end{align*}\] </paragraphs>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <center course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="center" wbtag="center">
-                        <iframe xmlns="http://www.w3.org/1999/xhtml" src="https://www.desmos.com/calculator/nihvy79gye?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0" environment="center"/>
+                        <iframe xmlns="http://www.w3.org/1999/xhtml" width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" src="https://www.desmos.com/calculator/nihvy79gye?embed" id="iFrameResizer9" scrolling="no" environment="center"></iframe>
                       </center>
                     </collapse>
                   </collapse>
