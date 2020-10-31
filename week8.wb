@@ -365,25 +365,26 @@ The resulting graph is as follows: <p style=""/>
 <div class="image" style="">
 <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" id="iFrameResizer2" scrolling="no" src="https://www.desmos.com/calculator/vtjauc9srj?embed"/></div>
 @endcol</li></ol>
+@end
 @slide
 @eg
 Consider the function $f(x) = \frac{5x^2 + 2}{x + 1}$.
 We have:
 \[
 f(x) = 5x - 5 + \frac{7}{x + 1}
-\] 
+\]
 Since $\lim_{x \rightarrow \pm \infty} \frac{7}{x + 1} = 0$, the graph of $f$ approaches the line $y = 5x - 5$
 as $x$ approaches $\pm \infty$.
 
 We conclude that $y = 5x - 5$ is an oblique asymptote for the graph of $f$.
 
-@col
+@newcol
 <div class="image">
-<iframe src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
-</div>
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" id="iFrameResizer8" scrolling="no"/></div>
+@endcol
 @end
 @slide
-In general, if the graph of $f$ approaches the line correpsonding to $l(x) = mx + b$, as $x$ tends to $\pm \infty$, 
+In general, if the graph of $f$ approaches the line correpsonding to $l(x) = mx + b$, as $x$ tends to $\pm \infty$,
 we have:
 \[
 m = \lim_{x \rightarrow \pm \infty} \frac{f(x)}{x}.
@@ -393,26 +394,21 @@ and
 b = \lim_{x \rightarrow \pm \infty} (f(x) - mx).
 \]
 @eg
-@col
+@newcol
 Let $g(x) = \sqrt{x^2 + 1} + 4$.
 
-<strong>Exercise.</strong>
-\[
+<strong style="">Exercise.</strong> \[
 \lim_{x \rightarrow \infty} \frac{f(x)}{x} = 1.
-\]
-Hence $y = f(x)$ approaches $y = x + b$ as $x \rightarrow \infty$, where:
+\]This suggests that $y = f(x)$ approaches $y = x + b$ as $x \rightarrow \infty$, where:
 
-<strong>Exercise.</strong>
-\[
+<strong style="">Exercise.</strong> \[
 b = \lim_{x \rightarrow \pm \infty} (f(x) - 1\cdot x) = 4.
-\]
-Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.
+\]Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.
 
 @col
 Similary, as $x$ tends to $-\infty$, we have:
 
-<strong>Exercise.</strong>
-\[
+<strong style="">Exercise.</strong> \[
 m = \lim_{x \rightarrow -\infty} \frac{f(x)}{x} = -1.
 \]
 \[
@@ -422,13 +418,13 @@ So, $y = f(x)$ approaches $y = -x + 4$ as $x$ tends to $-\infty$.
 
 @col
 We conclude that the graph of $f$ has two oblique asymptotes:
-\begin{align*}
+\[\begin{align*}
 y &= x + 4,\\
 y &= -x + 4.
-\end{align*}
+\end{align*}\]
 @col
 @center
-<iframe src="https://www.desmos.com/calculator/nihvy79gye?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" src="https://www.desmos.com/calculator/nihvy79gye?embed" id="iFrameResizer9" scrolling="no"/>
 @endcenter
-@end
+@endcol
 @end
