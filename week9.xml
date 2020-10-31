@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -10,6 +9,7 @@
       <keyword chapter="" slide="all">converges</keyword>
       <keyword chapter="" slide="all">diverges</keyword>
       <keyword chapter="" slide="all">Cauchy's Mean Value Theorem</keyword>
+      <keyword chapter="" slide="all">L'Hôpital's Rule</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
     <slides environment="" chapter_type="">
@@ -18,7 +18,7 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="L'H&amp;ocircpital's Rule, Taylor Series" course="Math 1010" serial="9">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="L'Hôpital's Rule, Taylor Series" course="Math 1010" serial="9">
       <keywords slide="all" environ="chapter" chapter="9" course="Math 1010">
         <keyword chapter="9" slide="all">L'Hopital's Rule</keyword>
         <keyword chapter="9" slide="all">Taylor polynomial</keyword>
@@ -28,14 +28,15 @@
         <keyword chapter="9" slide="all">converges</keyword>
         <keyword chapter="9" slide="all">diverges</keyword>
         <keyword chapter="9" slide="all">Cauchy's Mean Value Theorem</keyword>
+        <keyword chapter="9" slide="all">L'Hôpital's Rule</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide=""/>
-      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">L'H&amp;ocircpital's Rule</topic>
+      <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">L'Hôpital's Rule</topic>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">Taylor Series</topic>
       <slides environment="" chapter_type="">
         <slide environment="" chapter_type="Week" canon_num="2" scope="week" id="s2" slide="2" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2"/>
-          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">L'H&amp;ocircpital's Rule</topic>
+          <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">L'Hôpital's Rule</topic>
           <topic environment="" chapter_type="Week" scope="chapter" course="" chapter="" section="" subsection="" subsubsection="" serial="" slide="2">Taylor Series</topic>
           <keywords slide="2" environ="slide" chapter="9" course="Math 1010"/>
         </slide>
@@ -45,7 +46,7 @@
           </keywords>
           <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="1" title="Cauchy's Mean Value Theorem" md5="88b4fa31b19d0d6154f41a045e07612a" course="Math 1010" chapter="9" slide="3" item="9.1">
             <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="" slide="3">Cauchy's Mean Value Theorem.</title>
-            <label course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="label" name="cauchymvt" type="Theorem"/>
+            <label wbtag="label" name="cauchymvt" type="Theorem"/>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> If $f, g : [a, b] \longrightarrow\mathbb{R}$ are functions which are continuous on $[a, b]$
 and differentiable on $(a, b)$, and $g(a) \neq g(b)$,
 then there exists $c \in (a, b)$ such that:
@@ -65,9 +66,9 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
             </newcol>
           </substatement>
           <newcol course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-            <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
+            <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
               <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg" environment="newcol">
-                <img width="512" alt="Cauchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol"/>
+                <img width="450" alt="Cauchy" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" style="background-image: none; background-position: initial initial; background-repeat: initial initial;" environment="newcol" />
               </a>
             </div>
           </newcol>
@@ -75,12 +76,11 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
         <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" chapter_title="" section_title="">
           <keywords slide="4" environ="slide" chapter="9" course="Math 1010">
             <keyword chapter="9" slide="4">L'Hopital's Rule</keyword>
+            <keyword chapter="9" slide="4">L'Hôpital's Rule</keyword>
           </keywords>
           <hc_keyword course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">L'Hopital's Rule</hc_keyword>
-          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" md5="b2de4233ba93fec7b60a48b62d957d98" course="Math 1010" chapter="9" slide="4" item="9.2">
-            <strong xmlns="http://www.w3.org/1999/xhtml" environment="statement">
-              <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">L'H&amp;ocircpital's Rule.</paragraphs>
-            </strong>
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" title="L'Hôpital's Rule" md5="ae9e3f92545edeb2cdf0ae1d35054d93" course="Math 1010" chapter="9" slide="4" item="9.2">
+            <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="" slide="4">L'Hôpital's Rule</title>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
 Let $f, g$ be functions which are differentiable at every point in
 $(a, c) \cup (c, b)$.
@@ -95,8 +95,8 @@ or both equal to $\pm \infty$. </paragraphs>
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists. </paragraphs>
               </li>
             </ul>
-            <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (&amp;bull; $g'(x) \neq 0$ for all $x \neq c$ in $I$.) </paragraphs>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+            <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (• $g'(x) \neq 0$ for all $x \neq c$ in $I$.) </paragraphs>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
             <newline course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Then,
 \[
@@ -104,7 +104,7 @@ or both equal to $\pm \infty$. </paragraphs>
 \lim_{x\rightarrow c} \frac{f(x)}{g(x)} = \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}\;.
 \] </paragraphs>
           </statement>
-          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="df47a045aef454572d1491a9b433dc29" course="Math 1010" chapter="9" slide="4" of="b2de4233ba93fec7b60a48b62d957d98">
+          <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="df47a045aef454572d1491a9b433dc29" course="Math 1010" chapter="9" slide="4" of="ae9e3f92545edeb2cdf0ae1d35054d93">
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="substatement" wbtag="paragraphs"> (Sketch) </paragraphs>
             <newcol course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We consider the special case where: </paragraphs>
@@ -146,16 +146,16 @@ then intuitively it follows that:
 \lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
 \end{split}
 \]
-(</paragraphs>
+( </paragraphs>
                     <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Optional Exercise</paragraphs>
                     </strong>
-                    <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">:
+                    <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> :
 To prove the above equality rigorously, one could, for example, apply the </paragraphs>
                     <a xmlns="http://www.w3.org/1999/xhtml" href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank" environment="newcol">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> sequential criterion for the limit of a function</paragraphs>
                     </a>
-                    <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.
+                    <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
 ) </paragraphs>
                   </collapse>
                 </collapse>
@@ -166,47 +166,45 @@ To prove the above equality rigorously, one could, for example, apply the </para
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Indeterminate Forms" course="Math 1010" chapter="9" num="1" serial="9.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="9.1" slide="">
-          <newline course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Indeterminate Forms</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="5" scope="section" id="s5" slide="5" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Indeterminate Forms">
             <keywords slide="5" environ="slide" chapter="9" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="5">
-              <newline course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Indeterminate Forms</paragraphs>
             </title>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\frac{0}{0}$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\frac{\infty}{\infty}$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $0\cdot\infty$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\infty - \infty$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $0^0$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\infty^0$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $1^\infty$ </paragraphs>
               </li>
             </ul>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Here, for example, $1^\infty$ represents the situation
 $\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
 and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
@@ -218,14 +216,14 @@ and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Indeterminate Forms">
             <keywords slide="6" environ="slide" chapter="9" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="5c41af35ed4ddadbb5094f2199b78c0d" course="Math 1010" chapter="9" slide="6" item="9.3">
-              <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Use l'H&amp;ocircpital's rule to evaluate the following limits:</paragraphs>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="7aabc8c375e391f63146c682e7880a71" course="Math 1010" chapter="9" slide="6" item="9.3">
+              <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Use l'Hôpital's rule to evaluate the following limits:</paragraphs>
               <newline course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -252,7 +250,7 @@ and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
 \end{align*}
 </steps>
                       <collapse course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                        <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by l'H&amp;ocircpital's rule,
+                        <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by l'Hôpital's rule,
 \[
 \begin{split}
 \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}
@@ -267,12 +265,12 @@ and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -329,12 +327,12 @@ corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is </pa
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -365,12 +363,12 @@ Now, compute: </paragraphs>
 \] </paragraphs>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -431,12 +429,12 @@ corresponds to the indeterminate form $\frac{\infty}{\infty}$.</paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$</paragraphs>
                   <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -513,7 +511,7 @@ Differentiating both numerator and denominator, we have:</paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
               </ol>
             </statement>
@@ -612,52 +610,54 @@ are as follows: </paragraphs>
                     </th>
                   </tr>
                 </thead>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\cos x$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\sin x$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$e^x$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\ln(1 + x)$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</paragraphs>
-                  </td>
-                </tr>
+                <tbody environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\cos x$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\sin x$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$e^x$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\ln(1 + x)$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</paragraphs>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </statement>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
 at $x = 0$ both have degree $5$.
 Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$. </paragraphs>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
               <li environment="">
                 <a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank" environment="">
@@ -716,10 +716,10 @@ since $P_n$ is a polynomial of degree at most $n$.</paragraphs>
 F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
 \]
 Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="cauchymvt" wbtag="ref" course="Math 1010" chapter="9" slide="11" src-course="Math 1010" src-chapter="9" src-slide="101" type="Theorem" item="9.1" src-filename="weeks1-13.xml" md5="88b4fa31b19d0d6154f41a045e07612a" class="lcref" serial="">
+                  <ref environment="newcol" chapter_type="" label="cauchymvt" wbtag="ref" course="Math 1010" chapter="9" slide="11" src-course="Math 1010" src-chapter="9" src-slide="3" type="Theorem" item="9.1" src-filename="week9.xml" md5="88b4fa31b19d0d6154f41a045e07612a" class="lcref" serial="">
                     <title>Cauchy's Mean Value Theorem.</title>
                   </ref>
-                  <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">), we have:</paragraphs>
+                  <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ), we have:</paragraphs>
                   <newline course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
                   <collapse course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                     <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
@@ -823,46 +823,48 @@ otherwise we say that it </paragraphs>
                     </th>
                   </tr>
                 </thead>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\cos x$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\sin x$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$e^x$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\ln(1 + x)$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</paragraphs>
-                  </td>
-                </tr>
-                <tr environment="statement">
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs>
-                  </td>
-                  <td environment="statement">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty x^k$</paragraphs>
-                  </td>
-                </tr>
+                <tbody environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\cos x$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\sin x$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$e^x$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\ln(1 + x)$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</paragraphs>
+                    </td>
+                  </tr>
+                  <tr environment="statement">
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs>
+                    </td>
+                    <td environment="statement">
+                      <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty x^k$</paragraphs>
+                    </td>
+                  </tr>
+                </tbody>
               </table>
             </statement>
           </slide>
