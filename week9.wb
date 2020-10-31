@@ -1,6 +1,6 @@
 @course{Math 1010}
 @week{9}
-@topic{L'H&ocircpital's Rule}
+@topic{L'Hôpital's Rule}
 @topic{Taylor Series}
 @slide
 @thm
@@ -15,37 +15,30 @@ then there exists $c \in (a, b)$ such that:
 @end
 @proof
 @newcol
-<strong>Exercise.</strong>
-Apply Rolle's Theorem to:
+<strong>Exercise.</strong> Apply Rolle's Theorem to:
 \[
 h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 \]
 @endcol
 @end
 @newcol
-<div class="image">
-<a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg"><img width="512" alt="Cauchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a>
-</div>
+<div class="image" style="width: 450px;">
+<a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
+<img width="450" alt="Cauchy" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" style="background-image: none; background-position: initial initial; background-repeat: initial initial;"/></a></div>
 @endcol
 @slide
 @keyword*{L'Hopital's Rule}
 @thm
-<strong>L'H&ocircpital's Rule.</strong>
+@title{L'Hôpital's Rule}
 Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
 Let $f, g$ be functions which are differentiable at every point in
 $(a, c) \cup (c, b)$.
-Suppose:
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow c}f(x)$
+Suppose: <ul>
+<li> $\displaystyle \lim_{x \rightarrow c}f(x)$
 and $\displaystyle \lim_{x \rightarrow c}g(x)$ are both equal to $0$
-or both equal to $\pm \infty$.
-</li>
-<li> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists.
-</li>
-</ul>
-(&bull; $g'(x) \neq 0$ for all $x \neq c$ in $I$.)
-<br/>
+or both equal to $\pm \infty$. </li>
+<li> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists. </li></ul>
+(• $g'(x) \neq 0$ for all $x \neq c$ in $I$.) <br/>
 
 Then,
 \[
@@ -56,14 +49,9 @@ Then,
 @proof
 (Sketch)
 @newcol
-We consider the special case where:
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$.
-</li>
-<li>
-$f$ and $g$ are continuous at $x = c$.
-</li></ul>
+We consider the special case where: <ul>
+<li> $\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$. </li>
+<li> $f$ and $g$ are continuous at $x = c$. </li></ul>
 For such functions $f, g$, we have:
 \[
 f(c) = g(c) = 0.
@@ -94,44 +82,26 @@ then intuitively it follows that:
 \lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
 \end{split}
 \]
-(<strong>Optional Exercise</strong>:
-To prove the above equality rigorously, one could, for example, apply the
-<a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank">
-sequential criterion for the limit of a function</a>.
+( <strong>Optional Exercise</strong> :
+To prove the above equality rigorously, one could, for example, apply the <a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank"> sequential criterion for the limit of a function</a> .
 )
 @endcol
 @end
-@section{
-Indeterminate Forms}
-<hr/>
-<ul>
-<li>
-$\frac{0}{0}$
-<hr/>
-</li>
-<li>
-$\frac{\infty}{\infty}$
-<hr/>
-</li>
-<li>
-$0\cdot\infty$
-<hr/>
-</li>
-<li>
-$\infty - \infty$
-<hr/>
-</li>
-<li>
-$0^0$
-<hr/>
-</li>
-<li>
-$\infty^0$
-<hr/>
-</li>
-<li>
-$1^\infty$
-</li></ul>
+@section{Indeterminate Forms}
+<hr/><ul>
+<li> $\frac{0}{0}$
+<hr/></li>
+<li> $\frac{\infty}{\infty}$
+<hr/></li>
+<li> $0\cdot\infty$
+<hr/></li>
+<li> $\infty - \infty$
+<hr/></li>
+<li> $0^0$
+<hr/></li>
+<li> $\infty^0$
+<hr/></li>
+<li> $1^\infty$ </li></ul>
 <hr/>
 Here, for example, $1^\infty$ represents the situation
 $\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
@@ -143,13 +113,10 @@ Hence, the following limit corresponds to the indeterminate form $1^\infty$:
 \]
 @slide
 @eg
-Use l'H&ocircpital's rule to evaluate the following limits:
+Use l'Hôpital's rule to evaluate the following limits:
 
 <ol>
-<li>
-$\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
-<p/><br/>
-<strong>Solution.</strong>
+<li> $\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$ <p/><br/><strong>Solution.</strong>
 @newcol
 \[
 \begin{split}
@@ -173,7 +140,7 @@ $\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
 \end{align*}
 @endsteps
 @col
-Hence, by l'H&ocircpital's rule,
+Hence, by l'Hôpital's rule,
 \[
 \begin{split}
 \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}
@@ -186,12 +153,8 @@ Hence, by l'H&ocircpital's rule,
 \end{split}
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$
-<p/><br/>
-<strong>Solution.</strong>
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$ <p/><br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $0^0$.)
 
@@ -209,8 +172,7 @@ The last equality holds because $f(x) = e^x$ is a continuous function.
 
 @col
 The limit $\displaystyle \lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}$
-corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is <i>possible</i>
-in this case to apply l'Hopital's rule to help find the limit.
+corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is <i>possible</i> in this case to apply l'Hopital's rule to help find the limit.
 
 @col
 @steps
@@ -237,12 +199,8 @@ Hence,
 \end{split}
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$
-<p/><br/>
-<strong>Solution.</strong>
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$ <p/><br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $\infty\cdot 0$.)
 Rewrite the limit as follows:
@@ -269,12 +227,8 @@ Hence, by l'Hopital's rule,
 \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right) = 1.
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$
-<p/><br/>
-<strong>Solution.</strong>
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$ <p/><br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $\infty^0$.)
 We have:
@@ -300,15 +254,11 @@ corresponds to the indeterminate form $\frac{\infty}{\infty}$.
 &=
 @nstep{\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}}
 \\&
-@nstep{
-= \lim\limits_{x\to +\infty}
-\frac{{e^x}\left(1 + \frac{1}{e^x}\right)}{{e^x}\left(1 + \frac{x}{e^x}\right)}
-}
+@nstep{= \lim\limits_{x\to +\infty}
+\frac{{e^x}\left(1 + \frac{1}{e^x}\right)}{{e^x}\left(1 + \frac{x}{e^x}\right)}}
 \\&
-@nstep{
-= \lim\limits_{x\to +\infty}
-\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}
-}\\
+@nstep{= \lim\limits_{x\to +\infty}
+\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}}\\
 & @nstep{= 1.}
 \end{align*}
 @endsteps
@@ -331,13 +281,10 @@ It now follows that:
 = e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}} = e^1 = e.
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
 
-<br/>
-<strong>Solution.</strong>
+<br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $\frac{0}{0}$.)
 Note that $\cot x = \dfrac{\cos x}{\sin x}$.
@@ -406,8 +353,7 @@ It now follows that:
 \end{split}
 \]
 @endcol
-<hr/>
-</li></ol>
+<hr/></li></ol>
 @end
 @slide
 @ex
@@ -433,11 +379,10 @@ It now follows that:
 @endenumerate
 @end
 @slide
-<strong>Important Note.</strong>
-If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
+<strong>Important Note.</strong> If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
 and $\displaystyle \lim_{x \rightarrow c} \frac{f'(x)}{g'(x)}$ does not exist,
-it <i><strong>DOES NOT</strong></i>
-follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
+it <i>
+<strong>DOES NOT</strong></i> follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
 @eg
 \[
 \lim_{x \rightarrow \infty} \frac{x + \sin x}{x}
@@ -447,8 +392,7 @@ follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not ex
 @keyword*{Taylor polynomial}
 @defn
 Given a function $f$ which is $n$ times differentiable at $a$.
-The <strong>$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</strong>
-is:
+The <strong>$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</strong> is:
 \[
 P(x) = \sum_{k = 0}^n \frac{f^{(k)}(a)}{k!} (x - a)^k.
 \]
@@ -463,51 +407,25 @@ for $k = 0, 1, 2, \ldots, n$.
 @slide
 @eg
 The Taylor polynomials at $a = 0$ for various functions $f$
-are as follows:
-<table class="table-hover table table-striped table-bordered">
+are as follows: <table class="table-hover table table-striped table-bordered">
 <thead class="thead-default">
 <tr>
-<th>$f(x)$</th>
-<th>$P(x)$</th>
-</tr>
-</thead>
+<th>$f(x)$</th><th>$P(x)$</th></tr></thead><tbody>
 <tr>
-<td>$\cos x$</td>
-<td>$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</td>
-</tr>
-<tr>
-<td>$\sin x$</td>
-<td>$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</td>
-</tr>
-<tr>
-<td>$e^x$</td>
-<td>$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</td>
-</tr>
-<tr>
-<td>$\ln(1 + x)$</td>
-<td>$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 - x}$</td>
-<td>$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</td>
-</tr>
-</table>
+<td>$\cos x$</td><td>$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</td></tr><tr>
+<td>$\sin x$</td><td>$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</td></tr><tr>
+<td>$e^x$</td><td>$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</td></tr><tr>
+<td>$\ln(1 + x)$</td><td>$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</td></tr><tr>
+<td>$\displaystyle \frac{1}{1 - x}$</td><td>$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</td></tr></tbody></table>
 @end
 Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
 at $x = 0$ both have degree $5$.
 Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$.
-<hr/>
-<ul>
+<hr/><ul>
 <li>
-<a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank">
-Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$.
-</a>
-</li>
+<a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank"> Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$. </a></li>
 <li>
-<a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank">
-Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$.
-</a>
-</li></ul>
+<a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank"> Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$. </a></li></ul>
 @slide
 @thm
 (@keyword{Taylor's Formula})
@@ -544,7 +462,7 @@ Let:
 \[
 F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
 \]
-Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( @ref{cauchymvt}), we have:
+Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( @ref{cauchymvt} ), we have:
 
 @col
 \[
@@ -594,8 +512,7 @@ Letting $c = x_{n + 1}$, the theorem follows.
 @defn
 Given a function $f$ which is infinitely differentiable at $a$
 (i.e. $f^{(k)}(a)$ is defined for $k = 0, 1, 2, 3, \ldots$).
-The <strong>Taylor series of $f$ (centered) at $a$</strong>
-is the power series:
+The <strong>Taylor series of $f$ (centered) at $a$</strong> is the power series:
 \[
 \begin{split}
 T(x) &= \sum_{k = 0}^\infty \frac{f^{(k)}(a)}{k!} (x - a)^k\\
@@ -616,35 +533,16 @@ otherwise we say that it @keyword{diverges} at $x = c$.
 @endcol
 @slide
 @eg
-The Taylor series at $a = 0$ for various functions $f$ are as follows:
-<table class="table-hover table table-striped table-bordered">
+The Taylor series at $a = 0$ for various functions $f$ are as follows: <table class="table-hover table table-striped table-bordered">
 <thead class="thead-default">
 <tr>
-<th>$f(x)$</th>
-<th>$T(x)$</th>
-</tr>
-</thead>
+<th>$f(x)$</th><th>$T(x)$</th></tr></thead><tbody>
 <tr>
-<td>$\cos x$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td>
-</tr>
-<tr>
-<td>$\sin x$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td>
-</tr>
-<tr>
-<td>$e^x$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td>
-</tr>
-<tr>
-<td>$\ln(1 + x)$</td>
-<td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 - x}$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty x^k$</td>
-</tr>
-</table>
+<td>$\cos x$</td><td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td></tr><tr>
+<td>$\sin x$</td><td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td></tr><tr>
+<td>$e^x$</td><td>$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td></tr><tr>
+<td>$\ln(1 + x)$</td><td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td></tr><tr>
+<td>$\displaystyle \frac{1}{1 - x}$</td><td>$\displaystyle \sum_{k = 0}^\infty x^k$</td></tr></tbody></table>
 @end
 @slide
 @eg
@@ -688,4 +586,5 @@ In particular, we have:
 There are functions whose Taylor series converge everywhere,
 but not to the functions themselves.
 @endcol
-@end@endcol
+@end
+@endcol
