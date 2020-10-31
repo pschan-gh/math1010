@@ -3,13 +3,13 @@
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
       <keyword chapter="" slide="all">L'Hopital's Rule</keyword>
       <keyword chapter="" slide="all">Taylor polynomial</keyword>
-      <keyword chapter="" slide="all">Taylor's Formula</keyword>
       <keyword chapter="" slide="all">remainder term</keyword>
       <keyword chapter="" slide="all">Taylor series</keyword>
       <keyword chapter="" slide="all">converges</keyword>
       <keyword chapter="" slide="all">diverges</keyword>
       <keyword chapter="" slide="all">Cauchy's Mean Value Theorem</keyword>
       <keyword chapter="" slide="all">L'Hôpital's Rule</keyword>
+      <keyword chapter="" slide="all">Taylor's Formula</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
     <slides environment="" chapter_type="">
@@ -22,13 +22,13 @@
       <keywords slide="all" environ="chapter" chapter="9" course="Math 1010">
         <keyword chapter="9" slide="all">L'Hopital's Rule</keyword>
         <keyword chapter="9" slide="all">Taylor polynomial</keyword>
-        <keyword chapter="9" slide="all">Taylor's Formula</keyword>
         <keyword chapter="9" slide="all">remainder term</keyword>
         <keyword chapter="9" slide="all">Taylor series</keyword>
         <keyword chapter="9" slide="all">converges</keyword>
         <keyword chapter="9" slide="all">diverges</keyword>
         <keyword chapter="9" slide="all">Cauchy's Mean Value Theorem</keyword>
         <keyword chapter="9" slide="all">L'Hôpital's Rule</keyword>
+        <keyword chapter="9" slide="all">Taylor's Formula</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide=""/>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">L'Hôpital's Rule</topic>
@@ -68,7 +68,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
           <newcol course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
             <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
               <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg" environment="newcol">
-                <img width="450" alt="Cauchy" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" style="background-image: none; background-position: initial initial; background-repeat: initial initial;" environment="newcol" />
+                <img width="450" alt="Cauchy" rendered="0" style="background-image: none; width: 100%; background-position: initial initial; background-repeat: initial initial;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol" />
               </a>
             </div>
           </newcol>
@@ -673,14 +673,12 @@ Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$. </parag
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Indeterminate Forms">
             <keywords slide="11" environ="slide" chapter="9" course="Math 1010">
-              <keyword chapter="9" slide="11">Taylor's Formula</keyword>
               <keyword chapter="9" slide="11">remainder term</keyword>
+              <keyword chapter="9" slide="11">Taylor's Formula</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" md5="b551b7ed906e413f7f5ffc542364a4de" course="Math 1010" chapter="9" slide="11" item="9.8">
-              <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (</paragraphs>
-              <inline_keyword course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Taylor's Formula</inline_keyword>
-              <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">)
-Let $n$ be a positive integer, and $a \in \mathbb{R}$.
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Taylor's Formula" md5="b551b7ed906e413f7f5ffc542364a4de" course="Math 1010" chapter="9" slide="11" item="9.8">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="11">Taylor's Formula</title>
+              <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $n$ be a positive integer, and $a \in \mathbb{R}$.
 Let $f$ be a function which is $n + 1$ times differentiable on an open interval $I$
 containing $a$.
 Let:

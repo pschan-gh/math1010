@@ -24,7 +24,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 @newcol
 <div class="image" style="width: 450px;">
 <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
-<img width="450" alt="Cauchy" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" style="background-image: none; background-position: initial initial; background-repeat: initial initial;"/></a></div>
+<img width="450" alt="Cauchy" rendered="0" style="background-image: none; width: 100%; background-position: initial initial; background-repeat: initial initial;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
 @endcol
 @slide
 @keyword*{L'Hopital's Rule}
@@ -428,7 +428,7 @@ Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$.
 <a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank"> Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$. </a></li></ul>
 @slide
 @thm
-(@keyword{Taylor's Formula})
+@title{Taylor's Formula}
 Let $n$ be a positive integer, and $a \in \mathbb{R}$.
 Let $f$ be a function which is $n + 1$ times differentiable on an open interval $I$
 containing $a$.
