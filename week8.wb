@@ -159,7 +159,7 @@ $f'$ being increasing (resp. decreasing). <p style=""/>
 @col
 <div class="image" style="">
 <a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" style="">
-<img alt="Animated illustration of inflection point.gif" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" style="max-width: 100%; height: auto; background: none;"/></a><br/>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" style="">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293" style="">Link</a></div>
+<img alt="Animated illustration of inflection point.gif" rendered="0" style="max-width: 100%; height: auto; background: none;"/></a><br/>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" style="">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293" style="">Link</a></div>
 @col
 A point on the graph of $f$ where the concavity changes is called an @keyword{inflection point}.
 It corresponds to a point in the domain of $f$ where $f''$ changes sign.
@@ -380,7 +380,7 @@ We conclude that $y = 5x - 5$ is an oblique asymptote for the graph of $f$.
 
 @newcol
 <div class="image">
-<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" id="iFrameResizer8" scrolling="no"/></div>
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" id="iFrameResizer8" scrolling="no" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed"/></div>
 @endcol
 @end
 @slide
@@ -402,7 +402,7 @@ Let $g(x) = \sqrt{x^2 + 1} + 4$.
 \]This suggests that $y = f(x)$ approaches $y = x + b$ as $x \rightarrow \infty$, where:
 
 <strong style="">Exercise.</strong> \[
-b = \lim_{x \rightarrow \pm \infty} (f(x) - 1\cdot x) = 4.
+b = \lim_{x \rightarrow \infty} (f(x) - 1\cdot x) = 4.
 \]Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.
 
 @col
@@ -424,7 +424,7 @@ y &= -x + 4.
 \end{align*}\]
 @col
 @center
-<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" src="https://www.desmos.com/calculator/nihvy79gye?embed" id="iFrameResizer9" scrolling="no"/>
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" id="iFrameResizer9" scrolling="no" src="https://www.desmos.com/calculator/nihvy79gye?embed"/>
 @endcenter
 @endcol
 @end

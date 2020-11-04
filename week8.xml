@@ -377,7 +377,7 @@ $f'$ being increasing (resp. decreasing). </paragraphs>
               <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="" environment="newcol">
                   <a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" style="" environment="newcol">
-                    <img alt="Animated illustration of inflection point.gif" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
+                    <img alt="Animated illustration of inflection point.gif" rendered="0" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
                   </a>
                   <br environment="newcol" />
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By dino - </paragraphs>
@@ -833,7 +833,7 @@ as $x$ approaches $\pm \infty$.</paragraphs>
               <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="statement"/>
               <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" id="iFrameResizer8" scrolling="no" environment="newcol"></iframe>
+                  <iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" id="iFrameResizer8" scrolling="no" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" environment="newcol"></iframe>
                 </div>
               </newcol>
             </statement>
@@ -849,7 +849,7 @@ and
 \[
 b = \lim_{x \rightarrow \pm \infty} (f(x) - mx).
 \] </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="8cf95d621815903309e469c88a13d2f8" course="Math 1010" chapter="8" slide="13" item="8.12">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="6d0016ec7057731b70058e2d937c1e42" course="Math 1010" chapter="8" slide="13" item="8.12">
               <newcol course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $g(x) = \sqrt{x^2 + 1} + 4$.</paragraphs>
                 <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
@@ -864,7 +864,7 @@ b = \lim_{x \rightarrow \pm \infty} (f(x) - mx).
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Exercise.</paragraphs>
                 </strong>
                 <paragraphs course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
-b = \lim_{x \rightarrow \pm \infty} (f(x) - 1\cdot x) = 4.
+b = \lim_{x \rightarrow \infty} (f(x) - 1\cdot x) = 4.
 \]Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.</paragraphs>
                 <newline course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                 <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
@@ -889,7 +889,7 @@ y &amp;= -x + 4.
 \end{align*}\] </paragraphs>
                     <collapse course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <center course="Math 1010" chapter="8" chapter_type="" section="3" subsection="" subsubsection="" environment="center" wbtag="center">
-                        <iframe xmlns="http://www.w3.org/1999/xhtml" width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" src="https://www.desmos.com/calculator/nihvy79gye?embed" id="iFrameResizer9" scrolling="no" environment="center"></iframe>
+                        <iframe xmlns="http://www.w3.org/1999/xhtml" width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" id="iFrameResizer9" scrolling="no" src="https://www.desmos.com/calculator/nihvy79gye?embed" environment="center"></iframe>
                       </center>
                     </collapse>
                   </collapse>
