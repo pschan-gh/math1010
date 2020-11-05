@@ -40,7 +40,7 @@
     </entry>
     <entry keyword="integration by parts">
       <branch chapter="12" slide="3" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="integration by parts">Integration by Parts</branch>
-      <branch chapter="13" slide="7" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="integration by parts">Integration by Parts</branch>
+      <branch chapter="13" slide="7" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="integration by parts">Integration by Parts</branch>
     </entry>
     <entry keyword="proper rational function">
       <branch chapter="12" slide="5" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="proper rational function">proper rational function</branch>
@@ -50,27 +50,6 @@
     </entry>
     <entry keyword="b zout's identity">
       <branch chapter="12" slide="9" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="b zout's identity">Bézout's Identity</branch>
-    </entry>
-    <entry keyword="left riemann sum">
-      <branch chapter="13" slide="4" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="left riemann sum">Left Riemann Sum</branch>
-    </entry>
-    <entry keyword="definite integral">
-      <branch chapter="13" slide="6" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="definite integral">definite integral</branch>
-    </entry>
-    <entry keyword="integration by substitution">
-      <branch chapter="13" slide="7" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="integration by substitution">Integration by Substitution</branch>
-    </entry>
-    <entry keyword="area of a region">
-      <branch chapter="13" slide="10" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="area of a region">area of a region</branch>
-    </entry>
-    <entry keyword="mean value theorem for integrals">
-      <branch chapter="13" slide="11" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="mean value theorem for integrals">Mean Value Theorem for Integrals</branch>
-    </entry>
-    <entry keyword="fundamental theorem of calculus part i">
-      <branch chapter="13" slide="12" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="fundamental theorem of calculus part i">Fundamental Theorem of Calculus Part I</branch>
-    </entry>
-    <entry keyword="fundamental theorem of calculus part ii">
-      <branch chapter="13" slide="15" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" keyword="fundamental theorem of calculus part ii">Fundamental Theorem of Calculus Part II</branch>
     </entry>
     <entry keyword="sequence">
       <branch chapter="1" slide="3" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c" keyword="sequence">sequence</branch>
@@ -288,6 +267,27 @@
     <entry keyword="inflection point">
       <branch chapter="8" slide="9" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d" keyword="inflection point">inflection point</branch>
     </entry>
+    <entry keyword="left riemann sum">
+      <branch chapter="13" slide="4" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="left riemann sum">Left Riemann Sum</branch>
+    </entry>
+    <entry keyword="definite integral">
+      <branch chapter="13" slide="6" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="definite integral">definite integral</branch>
+    </entry>
+    <entry keyword="integration by substitution">
+      <branch chapter="13" slide="7" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="integration by substitution">Integration by Substitution</branch>
+    </entry>
+    <entry keyword="area of a region">
+      <branch chapter="13" slide="10" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="area of a region">area of a region</branch>
+    </entry>
+    <entry keyword="mean value theorem for integrals">
+      <branch chapter="13" slide="11" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="mean value theorem for integrals">Mean Value Theorem for Integrals</branch>
+    </entry>
+    <entry keyword="fundamental theorem of calculus part i">
+      <branch chapter="13" slide="12" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="fundamental theorem of calculus part i">Fundamental Theorem of Calculus Part I</branch>
+    </entry>
+    <entry keyword="fundamental theorem of calculus part ii">
+      <branch chapter="13" slide="15" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" keyword="fundamental theorem of calculus part ii">Fundamental Theorem of Calculus Part II</branch>
+    </entry>
     <entry md5="4e5b41e44aeb0e3dac182548166c66dd" item="4.17" slide="16" chapter="4" course="Math 1010" title="Extreme Value Theorem" num="17" wbtag="thm" type="Theorem" chapter_type="" environment="statement" filename="week4.xml" file_md5="076f1092a33db8b9595c54cf3dc7b138">
       <branch item="4.17" slide="16" chapter="4" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="17" wbtag="thm" type="Theorem" chapter_type="" environment="statement" filename="week4.xml" file_md5="076f1092a33db8b9595c54cf3dc7b138">
         <label item="4.17" slide="16" chapter="4" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="17" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week4.xml" file_md5="076f1092a33db8b9595c54cf3dc7b138" section="2" subsection="2" subsubsection="" name="evt"/>
@@ -425,61 +425,6 @@
         <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:bezout"/>
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
       </branch>
-    </entry>
-    <entry md5="2e10768f117d32b9f77a1db4fee8e1a5" item="13.1" slide="4" chapter="13" course="Math 1010" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.1" slide="4" chapter="13" course="Math 1010" md5="2e10768f117d32b9f77a1db4fee8e1a5" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="764c3612f3e7954f5552e29f69a37a95" item="13.2" slide="6" chapter="13" course="Math 1010" num="2" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.2" slide="6" chapter="13" course="Math 1010" md5="764c3612f3e7954f5552e29f69a37a95" num="2" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="178b54e0d9eec75f0e2091d5e09b6304" item="13.3" slide="8" chapter="13" course="Math 1010" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.3" slide="8" chapter="13" course="Math 1010" md5="178b54e0d9eec75f0e2091d5e09b6304" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="4f662ad85aacecdfd1f6133888493938" item="13.4" slide="8" chapter="13" course="Math 1010" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.4" slide="8" chapter="13" course="Math 1010" md5="4f662ad85aacecdfd1f6133888493938" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="71b42a6c0839a08bc1723f134a477f9d" item="13.5" slide="9" chapter="13" course="Math 1010" num="5" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.5" slide="9" chapter="13" course="Math 1010" md5="71b42a6c0839a08bc1723f134a477f9d" num="5" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="8e0f4d5d5a428d7698faa949acfc3654" item="13.6" slide="10" chapter="13" course="Math 1010" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.6" slide="10" chapter="13" course="Math 1010" md5="8e0f4d5d5a428d7698faa949acfc3654" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="1194f9d40a968cdf22a5c626d3d06e89" item="13.7" slide="11" chapter="13" course="Math 1010" num="7" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.7" slide="11" chapter="13" course="Math 1010" md5="1194f9d40a968cdf22a5c626d3d06e89" num="7" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="45115378efb397a37165a0fdd1a54307" of="1194f9d40a968cdf22a5c626d3d06e89" slide="11" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" ofmd5="1194f9d40a968cdf22a5c626d3d06e89">
-      <branch of="1194f9d40a968cdf22a5c626d3d06e89" slide="11" chapter="13" course="Math 1010" md5="45115378efb397a37165a0fdd1a54307" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" ofmd5="1194f9d40a968cdf22a5c626d3d06e89"/>
-    </entry>
-    <entry md5="5a73752c9025d70a4c5ef118ea05024b" item="13.8" slide="12" chapter="13" course="Math 1010" title="Fundamental Theorem of Calculus Part I" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.8" slide="12" chapter="13" course="Math 1010" md5="5a73752c9025d70a4c5ef118ea05024b" title="Fundamental Theorem of Calculus Part I" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-        <label item="13.8" slide="12" chapter="13" course="Math 1010" md5="5a73752c9025d70a4c5ef118ea05024b" title="Fundamental Theorem of Calculus Part I" num="8" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" section="1" subsection="" subsubsection="" name="ftc1"/>
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="12">Fundamental Theorem of Calculus Part I</title>
-      </branch>
-    </entry>
-    <entry md5="6e96636d25b29e43728f93892a0e99a6" of="5a73752c9025d70a4c5ef118ea05024b" slide="12" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" ofmd5="5a73752c9025d70a4c5ef118ea05024b">
-      <branch of="5a73752c9025d70a4c5ef118ea05024b" slide="12" chapter="13" course="Math 1010" md5="6e96636d25b29e43728f93892a0e99a6" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" ofmd5="5a73752c9025d70a4c5ef118ea05024b"/>
-    </entry>
-    <entry md5="178d029790ae3be10c77d6253dacf8ba" item="13.9" slide="13" chapter="13" course="Math 1010" num="9" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.9" slide="13" chapter="13" course="Math 1010" md5="178d029790ae3be10c77d6253dacf8ba" num="9" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-        <label item="13.9" slide="13" chapter="13" course="Math 1010" md5="178d029790ae3be10c77d6253dacf8ba" num="9" wbtag="label" type="Corollary" chapter_type="" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" section="1" subsection="" subsubsection="" name="ftcicor"/>
-      </branch>
-    </entry>
-    <entry md5="f17a804349a8bc89368953f6c61689c0" item="13.10" slide="13" chapter="13" course="Math 1010" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.10" slide="13" chapter="13" course="Math 1010" md5="f17a804349a8bc89368953f6c61689c0" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="911245c3e1f97311dc883bab93962079" item="13.11" slide="13" chapter="13" course="Math 1010" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.11" slide="13" chapter="13" course="Math 1010" md5="911245c3e1f97311dc883bab93962079" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="41beb664230edaac904541bf05a57317" item="13.12" slide="14" chapter="13" course="Math 1010" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.12" slide="14" chapter="13" course="Math 1010" md5="41beb664230edaac904541bf05a57317" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d"/>
-    </entry>
-    <entry md5="246b618e8c95c3e171594b072375a33a" item="13.13" slide="15" chapter="13" course="Math 1010" title="Fundamental Theorem of Calculus Part II" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <branch item="13.13" slide="15" chapter="13" course="Math 1010" md5="246b618e8c95c3e171594b072375a33a" title="Fundamental Theorem of Calculus Part II" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="15">Fundamental Theorem of Calculus Part II</title>
-      </branch>
-    </entry>
-    <entry md5="7f8e9bbfa156da93a6982a5045a910bb" of="246b618e8c95c3e171594b072375a33a" slide="15" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" ofmd5="246b618e8c95c3e171594b072375a33a">
-      <branch of="246b618e8c95c3e171594b072375a33a" slide="15" chapter="13" course="Math 1010" md5="7f8e9bbfa156da93a6982a5045a910bb" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d" ofmd5="246b618e8c95c3e171594b072375a33a"/>
     </entry>
     <entry md5="952504e836a0948c7e81649c676de462" item="1.1" slide="3" chapter="1" course="Math 1010" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c">
       <branch item="1.1" slide="3" chapter="1" course="Math 1010" md5="952504e836a0948c7e81649c676de462" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c"/>
@@ -834,7 +779,7 @@
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="8" section="2" subsection="" subsubsection="" serial="" slide="7">Second Derivative Test</title>
       </branch>
     </entry>
-    <entry md5="761dad2fa60bbf695fca24c4e8bb33fa" of="5b5638f2b35a91cfb0919861ec06d0b2" slide="7" chapter="8" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d">
+    <entry md5="761dad2fa60bbf695fca24c4e8bb33fa" of="5b5638f2b35a91cfb0919861ec06d0b2" slide="7" chapter="8" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d" ofmd5="5b5638f2b35a91cfb0919861ec06d0b2">
       <branch of="5b5638f2b35a91cfb0919861ec06d0b2" slide="7" chapter="8" course="Math 1010" md5="761dad2fa60bbf695fca24c4e8bb33fa" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d" ofmd5="5b5638f2b35a91cfb0919861ec06d0b2"/>
     </entry>
     <entry md5="10a13b53c940ec6ea198fc83858728f7" item="8.7" slide="8" chapter="8" course="Math 1010" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d">
@@ -858,6 +803,61 @@
     <entry md5="6d0016ec7057731b70058e2d937c1e42" item="8.12" slide="13" chapter="8" course="Math 1010" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d">
       <branch item="8.12" slide="13" chapter="8" course="Math 1010" md5="6d0016ec7057731b70058e2d937c1e42" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d"/>
     </entry>
+    <entry md5="2e10768f117d32b9f77a1db4fee8e1a5" item="13.1" slide="4" chapter="13" course="Math 1010" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.1" slide="4" chapter="13" course="Math 1010" md5="2e10768f117d32b9f77a1db4fee8e1a5" num="1" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="764c3612f3e7954f5552e29f69a37a95" item="13.2" slide="6" chapter="13" course="Math 1010" num="2" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.2" slide="6" chapter="13" course="Math 1010" md5="764c3612f3e7954f5552e29f69a37a95" num="2" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="178b54e0d9eec75f0e2091d5e09b6304" item="13.3" slide="8" chapter="13" course="Math 1010" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.3" slide="8" chapter="13" course="Math 1010" md5="178b54e0d9eec75f0e2091d5e09b6304" num="3" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="4f662ad85aacecdfd1f6133888493938" item="13.4" slide="8" chapter="13" course="Math 1010" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.4" slide="8" chapter="13" course="Math 1010" md5="4f662ad85aacecdfd1f6133888493938" num="4" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="71b42a6c0839a08bc1723f134a477f9d" item="13.5" slide="9" chapter="13" course="Math 1010" num="5" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.5" slide="9" chapter="13" course="Math 1010" md5="71b42a6c0839a08bc1723f134a477f9d" num="5" wbtag="claim" type="Claim" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="8e0f4d5d5a428d7698faa949acfc3654" item="13.6" slide="10" chapter="13" course="Math 1010" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.6" slide="10" chapter="13" course="Math 1010" md5="8e0f4d5d5a428d7698faa949acfc3654" num="6" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="1194f9d40a968cdf22a5c626d3d06e89" item="13.7" slide="11" chapter="13" course="Math 1010" num="7" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.7" slide="11" chapter="13" course="Math 1010" md5="1194f9d40a968cdf22a5c626d3d06e89" num="7" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="45115378efb397a37165a0fdd1a54307" of="1194f9d40a968cdf22a5c626d3d06e89" slide="11" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch of="1194f9d40a968cdf22a5c626d3d06e89" slide="11" chapter="13" course="Math 1010" md5="45115378efb397a37165a0fdd1a54307" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" ofmd5="1194f9d40a968cdf22a5c626d3d06e89"/>
+    </entry>
+    <entry md5="5a73752c9025d70a4c5ef118ea05024b" item="13.8" slide="12" chapter="13" course="Math 1010" title="Fundamental Theorem of Calculus Part I" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.8" slide="12" chapter="13" course="Math 1010" md5="5a73752c9025d70a4c5ef118ea05024b" title="Fundamental Theorem of Calculus Part I" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+        <label item="13.8" slide="12" chapter="13" course="Math 1010" md5="5a73752c9025d70a4c5ef118ea05024b" title="Fundamental Theorem of Calculus Part I" num="8" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" name="ftc1"/>
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="12">Fundamental Theorem of Calculus Part I</title>
+      </branch>
+    </entry>
+    <entry md5="6e96636d25b29e43728f93892a0e99a6" of="5a73752c9025d70a4c5ef118ea05024b" slide="12" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch of="5a73752c9025d70a4c5ef118ea05024b" slide="12" chapter="13" course="Math 1010" md5="6e96636d25b29e43728f93892a0e99a6" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" ofmd5="5a73752c9025d70a4c5ef118ea05024b"/>
+    </entry>
+    <entry md5="178d029790ae3be10c77d6253dacf8ba" item="13.9" slide="13" chapter="13" course="Math 1010" num="9" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.9" slide="13" chapter="13" course="Math 1010" md5="178d029790ae3be10c77d6253dacf8ba" num="9" wbtag="cor" type="Corollary" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+        <label item="13.9" slide="13" chapter="13" course="Math 1010" md5="178d029790ae3be10c77d6253dacf8ba" num="9" wbtag="label" type="Corollary" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" name="ftcicor"/>
+      </branch>
+    </entry>
+    <entry md5="f17a804349a8bc89368953f6c61689c0" item="13.10" slide="13" chapter="13" course="Math 1010" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.10" slide="13" chapter="13" course="Math 1010" md5="f17a804349a8bc89368953f6c61689c0" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="1a9e8d87a857149659a538b5803a0f2b" item="13.11" slide="13" chapter="13" course="Math 1010" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.11" slide="13" chapter="13" course="Math 1010" md5="1a9e8d87a857149659a538b5803a0f2b" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="41beb664230edaac904541bf05a57317" item="13.12" slide="14" chapter="13" course="Math 1010" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.12" slide="14" chapter="13" course="Math 1010" md5="41beb664230edaac904541bf05a57317" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34"/>
+    </entry>
+    <entry md5="246b618e8c95c3e171594b072375a33a" item="13.13" slide="15" chapter="13" course="Math 1010" title="Fundamental Theorem of Calculus Part II" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch item="13.13" slide="15" chapter="13" course="Math 1010" md5="246b618e8c95c3e171594b072375a33a" title="Fundamental Theorem of Calculus Part II" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="15">Fundamental Theorem of Calculus Part II</title>
+      </branch>
+    </entry>
+    <entry md5="7f8e9bbfa156da93a6982a5045a910bb" of="246b618e8c95c3e171594b072375a33a" slide="15" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <branch of="246b618e8c95c3e171594b072375a33a" slide="15" chapter="13" course="Math 1010" md5="7f8e9bbfa156da93a6982a5045a910bb" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34" ofmd5="246b618e8c95c3e171594b072375a33a"/>
+    </entry>
     <ref serial="" class="lcref" md5="91baf885e3d214e57ec3f8faebe85b91" src-filename="weeks1-13.xml" item="12.7" type="Fact" src-slide="148" src-chapter="12" src-course="Math 1010" slide="7" chapter="12" course="Math 1010" wbtag="ref" label="partialfractions" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fact 12.7</title>
     </ref>
@@ -869,15 +869,6 @@
     </ref>
     <ref serial="" class="lcref" md5="08893ed5b29692d555cd3dceca8f857d" src-filename="week12.xml" item="12.13" type="Theorem" src-slide="9" src-chapter="12" src-course="Math 1010" slide="10" chapter="12" course="Math 1010" wbtag="ref" label="thm:bezout" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Bézout's Identity</title>
-    </ref>
-    <ref serial="" class="lcref" md5="5a73752c9025d70a4c5ef118ea05024b" src-filename="weeks1-13.xml" item="13.8" type="Theorem" src-slide="161" src-chapter="13" src-course="Math 1010" slide="13" chapter="13" course="Math 1010" wbtag="ref" label="ftc1" chapter_type="" environment="newcol" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fundamental Theorem of Calculus Part I</title>
-    </ref>
-    <ref serial="" class="lcref" md5="178d029790ae3be10c77d6253dacf8ba" src-filename="weeks1-13.xml" item="13.9" type="Corollary" src-slide="162" src-chapter="13" src-course="Math 1010" slide="14" chapter="13" course="Math 1010" wbtag="ref" label="ftcicor" chapter_type="" environment="" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Corollary 13.9</title>
-    </ref>
-    <ref serial="" class="lcref" md5="178d029790ae3be10c77d6253dacf8ba" src-filename="weeks1-13.xml" item="13.9" type="Corollary" src-slide="162" src-chapter="13" src-course="Math 1010" slide="14" chapter="13" course="Math 1010" wbtag="ref" label="ftcicor" chapter_type="" environment="newcol" filename="week13.xml" file_md5="243bf44c9532fc9a65b160247276147d">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Corollary 13.9</title>
     </ref>
     <ref serial="" class="lcref" md5="f7d93b413dc01d8632fa7a46ff0fab4a" src-filename="week6.xml" item="6.4" type="Theorem" src-slide="5" src-chapter="6" src-course="Math 1010" slide="6" chapter="6" course="Math 1010" wbtag="ref" label="inversederivative" chapter_type="" environment="newcol" filename="week6.xml" file_md5="fcea5d272915eecb990114653c9bf3f3">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 6.4</title>
@@ -923,6 +914,15 @@
     </ref>
     <ref serial="" class="lcref" md5="32c20d25b656b81930a8a63bc1b06476" src-filename="week8.xml" item="8.3" type="Theorem" src-slide="4" src-chapter="8" src-course="Math 1010" slide="8" chapter="8" course="Math 1010" wbtag="ref" label="thm:fdt" chapter_type="" environment="newcol" filename="week8.xml" file_md5="ae0a37b1ad59307726b511de014ae51d">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">First Derivative Test</title>
+    </ref>
+    <ref serial="" class="lcref" md5="5a73752c9025d70a4c5ef118ea05024b" src-filename="week13.xml" item="13.8" type="Theorem" src-slide="12" src-chapter="13" src-course="Math 1010" slide="13" chapter="13" course="Math 1010" wbtag="ref" label="ftc1" chapter_type="" environment="newcol" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fundamental Theorem of Calculus Part I</title>
+    </ref>
+    <ref serial="" class="lcref" md5="178d029790ae3be10c77d6253dacf8ba" src-filename="week13.xml" item="13.9" type="Corollary" src-slide="13" src-chapter="13" src-course="Math 1010" slide="14" chapter="13" course="Math 1010" wbtag="ref" label="ftcicor" chapter_type="" environment="" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Corollary 13.9</title>
+    </ref>
+    <ref serial="" class="lcref" md5="178d029790ae3be10c77d6253dacf8ba" src-filename="week13.xml" item="13.9" type="Corollary" src-slide="13" src-chapter="13" src-course="Math 1010" slide="14" chapter="13" course="Math 1010" wbtag="ref" label="ftcicor" chapter_type="" environment="newcol" filename="week13.xml" file_md5="8b1767c6c2fffcc1c6aab0a8dea16c34">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Corollary 13.9</title>
     </ref>
   </index>
 </document>
