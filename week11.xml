@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010"/>
@@ -27,14 +26,12 @@
       </slides>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Integration of Trigonometric Functions" course="Math 1010" chapter="11" num="1" serial="11.1">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="11" section="1" subsection="" subsubsection="" serial="11.1" slide="">
-          <newline course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integration of Trigonometric Functions</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="3" scope="section" id="s3" slide="3" course="Math 1010" chapter="11" section="1" subsection="" subsubsection="" chapter_title="" section_title="Integration of Trigonometric Functions">
             <keywords slide="3" environ="slide" chapter="11" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="11" section="1" subsection="" subsubsection="" serial="" slide="3">
-              <newline course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integration of Trigonometric Functions</paragraphs>
             </title>
             <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> We have seen that:
@@ -65,7 +62,7 @@ we may evaluate: </paragraphs>
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\ds
 \int \tan^2 x \,dx
 $ </paragraphs>
-                  <br environment="statement"/>
+                  <br environment="statement" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{align*}
 \int \tan^2 x \, dx &amp;= \int (\sec^2 x - 1)\, dx\\
@@ -78,7 +75,7 @@ where $C$ represents an arbitrary constant. </paragraphs>
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\ds
 \int \cot^2 x \,dx
 $ </paragraphs>
-                  <br environment="statement"/>
+                  <br environment="statement" />
                   <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                     <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{align*}
 \int \cot^2 x \, dx &amp;= \int (\csc^2 x - 1)\, dx\\
@@ -153,20 +150,19 @@ to rewrite the original integral as:
 \int P(u)\, du,
 \]
 where $P(u)$ is some polynomial in $u$. </paragraphs>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="9965e528394029d7873660a7f1d3e9d1" course="Math 1010" chapter="11" slide="6" item="11.3">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="3" md5="c08cce9c062a1b747b066d4b44f83f27" course="Math 1010" chapter="11" slide="6" item="11.3">
               <newcol course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Evaluate:
 $\displaystyle \int \tan^3 x \sec x \,dx.$ </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <paragraphs course="Math 1010" chapter="11" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \begin{align*}
-\int \tan^3 x \sec x \,dx &amp;= \int \tan^2x \sec x \tan x \, dx\\
-&amp;= \int (\sec^2 - 1)\,dx.
+\int \tan^3 x \sec x \,dx &amp;= \int \tan^2x \sec x \tan x \, dx.
 \end{align*}
 Let $u = \sec x$.  Then, $du = \sec x \tan x\, dx$, and:
 \begin{align*}
 \int \tan^3 x \sec x \,dx &amp;= \int \tan^2x \sec x \tan x \, dx\\
-&amp;= \int (\sec^2 - 1)\sec x \tan x\,dx\\
+&amp;= \int (\sec^2 x - 1)\sec x \tan x\,dx\\
 &amp;= \int (u^2 - 1)\,du\\
 &amp;= \frac{1}{3}u^3 - u + C\\
 &amp;= \frac{1}{3}\sec^3 x - \sec x + C,
@@ -270,14 +266,12 @@ where $C$ represents an arbitrary constant. </paragraphs>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="WeBWorK" course="Math 1010" chapter="11" num="2" serial="11.2">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="11" section="2" subsection="" subsubsection="" serial="11.2" slide="">
-          <newline course="Math 1010" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="8" scope="section" id="s8" slide="8" course="Math 1010" chapter="11" section="2" subsection="" subsubsection="" chapter_title="" section_title="WeBWorK">
             <keywords slide="8" environ="slide" chapter="11" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="11" section="2" subsection="" subsubsection="" serial="" slide="8">
-              <newline course="Math 1010" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
             <enumerate course="Math 1010" chapter="11" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
@@ -318,34 +312,32 @@ where $C$ represents an arbitrary constant. </paragraphs>
       </section>
       <section environment="" chapter_type="" type="Section" wbtag="section" title="Trigonometric Substitution" course="Math 1010" chapter="11" num="3" serial="11.3">
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="11" section="3" subsection="" subsubsection="" serial="11.3" slide="">
-          <newline course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
           <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Trigonometric Substitution</paragraphs>
         </title>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="9" scope="section" id="s9" slide="9" course="Math 1010" chapter="11" section="3" subsection="" subsubsection="" chapter_title="" section_title="Trigonometric Substitution">
             <keywords slide="9" environ="slide" chapter="11" course="Math 1010"/>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="11" section="3" subsection="" subsubsection="" serial="" slide="9">
-              <newline course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="title"/>
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Trigonometric Substitution</paragraphs>
             </title>
             <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> When an integrand involves $\sqrt{x^2 \pm a^2}$
 or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution: </paragraphs>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
             <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.</paragraphs>
-                <br environment=""/>
-                <br environment=""/>
+                <br environment="" />
+                <br environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.</paragraphs>
-                <br environment=""/>
-                <br environment=""/>
+                <br environment="" />
+                <br environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.</paragraphs>
-                <br environment=""/>
-                <br environment=""/>
+                <br environment="" />
+                <br environment="" />
               </li>
             </ul>
           </slide>
@@ -354,7 +346,7 @@ or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitutio
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="7" md5="723fb9b8e7d335894e8a932b766ddcdf" course="Math 1010" chapter="11" slide="10" item="11.7">
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
 $\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$ </paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <newcol course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we note that the domain of the integrand is $(-1, 1)$.</paragraphs>
                 <newline course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
@@ -386,7 +378,7 @@ since $\theta = \arcsin x \in [-\pi/2, \pi/2]$ for all $x \in (-1, 1)$.</paragra
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="26c7385e67f3000be98d0f516ad3da2f" course="Math 1010" chapter="11" slide="10" item="11.8">
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
 $\displaystyle \int \frac{1}{(9 + x^2)^2} \,dx$</paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <newcol course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $\theta = \arctan (x/3)$.
 Then $x = 3\tan \theta$, $dx = 3\sec^2 \theta \, d\theta$,
@@ -441,14 +433,14 @@ Hence,
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="aec7d8d235d1d35bedc197cb8a4a2941" course="Math 1010" chapter="11" slide="10" item="11.9">
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
 $\displaystyle \int \frac{\sqrt{x^2 - 25}}{x} \,dx$</paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
             </statement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="e96a2950f0ec3a84b1a916a1f9dd3042" course="Math 1010" chapter="11" slide="10" item="11.10">
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
 $\displaystyle \int \frac{x}{8 - 2x - x^2}\,dx$.</paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
             </statement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="11" section="3" subsection="" subsubsection="" chapter_title="" section_title="Trigonometric Substitution">
