@@ -4,9 +4,7 @@
 @topic{Integration of Trig. Functions}
 @topic{Trigonometric Substitution}
 
-
-@section{
-Integration of Trigonometric Functions}
+@section{Integration of Trigonometric Functions}
 We have seen that:
 \[
 \int \sin^2 x\,dx
@@ -27,34 +25,27 @@ Using:
 \]
 and the identity $\displaystyle 1 + \tan^2 x = \sec^2 x$
 (which follows from the Pythagorean Theorem),
-we may evaluate:
-<ul>
-<li>
-$\ds
+we may evaluate: <ul>
+<li> $\ds
 \int \tan^2 x \,dx
-$
-<br/>
+$ <br/>
 @newcol
 \begin{align*}
 \int \tan^2 x \, dx &= \int (\sec^2 x - 1)\, dx\\
 &= \tan x - x + C,
 \end{align*}
 where $C$ represents an arbitrary constant.
-@endcol
-</li>
-<li>
-$\ds
+@endcol</li>
+<li> $\ds
 \int \cot^2 x \,dx
-$
-<br/>
+$ <br/>
 @newcol
 \begin{align*}
 \int \cot^2 x \, dx &= \int (\csc^2 x - 1)\, dx\\
 &= -\cot x - x + C,
 \end{align*}
 where $C$ represents an arbitrary constant.
-@endcol
-</li></ul>
+@endcol</li></ul>
 @end
 @slide
 To evaluate an integral of the form:
@@ -95,7 +86,6 @@ So,
 \end{align*}
 where $C$ represents an arbitrary constant.
 
-
 @endcol
 @end
 @slide
@@ -119,17 +109,15 @@ where $P(u)$ is some polynomial in $u$.
 @eg
 @newcol
 Evaluate:
-$\displaystyle \int \tan^3 x \sec x \,dx.$
-<br/>
+$\displaystyle \int \tan^3 x \sec x \,dx.$ <br/>
 @col
 \begin{align*}
-\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
-&= \int (\sec^2 - 1)\,dx.
+\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx.
 \end{align*}
 Let $u = \sec x$.  Then, $du = \sec x \tan x\, dx$, and:
 \begin{align*}
 \int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
-&= \int (\sec^2 - 1)\sec x \tan x\,dx\\
+&= \int (\sec^2 x - 1)\sec x \tan x\,dx\\
 &= \int (u^2 - 1)\,du\\
 &= \frac{1}{3}u^3 - u + C\\
 &= \frac{1}{3}\sec^3 x - \sec x + C,
@@ -171,7 +159,6 @@ where $C$ represents an arbitrary constant.
 @newcol
 Evaluate:
 $\displaystyle \int \sec^3 x \,dx.$ (Hint: Consider using integration by parts.)
-
 
 @col
 \begin{align*}
@@ -224,8 +211,7 @@ They are useful for the evaluation of integrals such as:
 where $C$ represents an arbitrary constant.
 @endcol
 @end
-@section{
-WeBWorK}
+@section{WeBWorK}
 @enumerate
 @item
 @webwork{Library/ma123DB/set2/s7_2_10.pg}
@@ -249,31 +235,18 @@ WeBWorK}
 @webwork{Library/UMN/calculusStewartET/s_7_2_45.pg}
 @endenumerate
 
-
-@section{
-Trigonometric Substitution}
+@section{Trigonometric Substitution}
 When an integrand involves $\sqrt{x^2 \pm a^2}$
-or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution:
-<p/>
-<ul>
-<li>
-$\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.<br/><br/>
-</li>
-<li>
-$\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.<br/><br/>
-</li>
-<li>
-$\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.<br/><br/>
-</li>
-</ul>
+or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution: <p/><ul>
+<li> $\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.<br/><br/></li>
+<li> $\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.<br/><br/></li>
+<li> $\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.<br/><br/></li></ul>
 @slide
 @eg
 Evaluate:
-$\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$
-<br/>
+$\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$ <br/>
 @newcol
 First, we note that the domain of the integrand is $(-1, 1)$.
-
 
 Let $\theta = \arcsin x$.
 Then $x = \sin \theta$, $dx = \cos \theta \, d\theta$,
@@ -283,7 +256,6 @@ and:
 = \cos \theta,
 \]
 since $\theta = \arcsin x \in [-\pi/2, \pi/2]$ for all $x \in (-1, 1)$.
-
 
 So,
 \begin{align*}
@@ -311,7 +283,6 @@ and:
 \[
 9 + x^2 = 9 + 9\tan^2\theta = 9\sec^2 \theta.
 \]
-
 
 So,
 \begin{align*}
@@ -374,9 +345,7 @@ Evaluate:
 First, we note that the domain of the integrand is
 $(-\infty, -1) \cup (1, \infty)$.
 
-
 Let $\theta = \arccos (1/x)$.
-
 
 @col
 Then, $x = \sec \theta$, $dx = \sec \theta \tan \theta\, d\theta$, and:
