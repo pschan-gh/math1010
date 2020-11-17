@@ -56,13 +56,13 @@ and then adding up the areas of these rectangles.</paragraphs>
             <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                <img rendered="0" src="content/math1010/lrs5.jpg" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
+                <img rendered="0" src="https://raw.githubusercontent.com/pschan-gh/math1010/devel/riemann/riemann-12.png" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
                 <br environment="newcol" />
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $5$ rectangles. </paragraphs>
               </div>
               <collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                 <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                  <img rendered="0" src="content/math1010/lrs10.jpg" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
+                  <img rendered="0" src="https://raw.githubusercontent.com/pschan-gh/math1010/devel/riemann/riemann-35.png" style="max-width: 100%; height: auto; background: none;" environment="newcol" />
                   <br environment="newcol" />
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> $10$ rectangles. </paragraphs>
                 </div>
@@ -99,19 +99,19 @@ The </paragraphs>
               <inline_keyword course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Left Riemann Sum</inline_keyword>
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> of $f$ over $[a, b]$
 associated with $n$ subintervals of equal lengths is:
-\[\begin{multline*}
+\begin{multline*}
 LS_n(f) = \sum_{k = 0}^{n -1} f(a + k\Delta x)\Delta x\\
 = \Delta x\Big[f(a) + f(a + \Delta x) + f(a + 2 \Delta x) + \ldots\\
 \cdots + f(a + (n - 1)\Delta x)\Big]
-\end{multline*}\] </paragraphs>
+\end{multline*} </paragraphs>
             </statement>
             <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Each summand may be thought of as the area of the rectangle whose base is
 the subinterval $[a + k\Delta x, a + (k + 1)\Delta x]$,
 and whose height is the value of $f$ at the left endpoint of the subinterval. </paragraphs>
-              <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="padding-top: 2em; width: 450px;" environment="newcol">
+              <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
                 <div style="position:relative;width:640px;height:400px" environment="newcol">
-                  <img style="position: absolute; top: 0px; left: 0px; background: none;" rendered="0" src="content/math1010/riemann/summand.svg" width="450" environment="newcol" />
+                  <img style="position: absolute; top: 0px; left: 0px; background: none; width: 100%;" rendered="0" width="450" src="content/math1010/riemann/summand.svg" environment="newcol" />
                   <div style="position:absolute;top:100;left:200" environment="newcol">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">$y = f(x)$</paragraphs>
                   </div>
@@ -130,7 +130,7 @@ and whose height is the value of $f$ at the left endpoint of the subinterval. </
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="5" id="s5" slide="5" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
             <keywords slide="5" environ="slide" chapter="13" course="Math 1010"/>
-            <iframe xmlns="http://www.w3.org/1999/xhtml" style="width: 640px; height: 800px; background: none; overflow: hidden;" data-src="content/math1010/lrs.html" rendered="0" src="content/math1010/lrs.html" id="iFrameResizer1" scrolling="no" environment=""></iframe>
+            <iframe xmlns="http://www.w3.org/1999/xhtml" style="width: 640px; height: 800px; background: none; overflow: hidden;" data-src="content/math1010/lrs.html" rendered="0" id="iFrameResizer1" scrolling="no" src="content/math1010/lrs.html" environment=""></iframe>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
             <keywords slide="6" environ="slide" chapter="13" course="Math 1010">

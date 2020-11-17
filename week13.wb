@@ -11,10 +11,10 @@ and then adding up the areas of these rectangles.
 
 @newcol
 <div class="image">
-<img rendered="0" src="content/math1010/lrs5.jpg" style="max-width: 100%; height: auto; background: none;"/><br/> $5$ rectangles. </div>
+<img rendered="0" src="https://raw.githubusercontent.com/pschan-gh/math1010/devel/riemann/riemann-12.png" style="max-width: 100%; height: auto; background: none;"/><br/> $5$ rectangles. </div>
 @col
 <div class="image">
-<img rendered="0" src="content/math1010/lrs10.jpg" style="max-width: 100%; height: auto; background: none;"/><br/> $10$ rectangles. </div>
+<img rendered="0" src="https://raw.githubusercontent.com/pschan-gh/math1010/devel/riemann/riemann-35.png" style="max-width: 100%; height: auto; background: none;"/><br/> $10$ rectangles. </div>
 @col
 Intuitively, we see that the more (and smaller) rectangles are used,
 the more closely their union approximates the region in question.
@@ -37,21 +37,21 @@ Let:
 \]
 The @keyword{Left Riemann Sum} of $f$ over $[a, b]$
 associated with $n$ subintervals of equal lengths is:
-\[\begin{multline*}
+\begin{multline*}
 LS_n(f) = \sum_{k = 0}^{n -1} f(a + k\Delta x)\Delta x\\
 = \Delta x\Big[f(a) + f(a + \Delta x) + f(a + 2 \Delta x) + \ldots\\
 \cdots + f(a + (n - 1)\Delta x)\Big]
-\end{multline*}\]
+\end{multline*}
 @end
 @newcol
 Each summand may be thought of as the area of the rectangle whose base is
 the subinterval $[a + k\Delta x, a + (k + 1)\Delta x]$,
-and whose height is the value of $f$ at the left endpoint of the subinterval. <div class="image" style="padding-top: 2em; width: 450px;">
+and whose height is the value of $f$ at the left endpoint of the subinterval. <div class="image" style="width: 450px;">
 <div style="position:relative;width:640px;height:400px">
-<img style="position: absolute; top: 0px; left: 0px; background: none;" rendered="0" src="content/math1010/riemann/summand.svg" width="450"/><div style="position:absolute;top:100;left:200">$y = f(x)$</div><div style="position:absolute;top:270;left:365">$f(x)$</div><div style="position:absolute;top:385;left:295">$\Delta x$</div><div style="position:absolute;top:385;left:250">$x$</div></div></div>
+<img style="position: absolute; top: 0px; left: 0px; background: none; width: 100%;" rendered="0" width="450" src="content/math1010/riemann/summand.svg"/><div style="position:absolute;top:100;left:200">$y = f(x)$</div><div style="position:absolute;top:270;left:365">$f(x)$</div><div style="position:absolute;top:385;left:295">$\Delta x$</div><div style="position:absolute;top:385;left:250">$x$</div></div></div>
 @endcol
 @slide
-<iframe style="width: 640px; height: 800px; background: none; overflow: hidden;" data-src="content/math1010/lrs.html" rendered="0" src="content/math1010/lrs.html" id="iFrameResizer1" scrolling="no"/>
+<iframe style="width: 640px; height: 800px; background: none; overflow: hidden;" data-src="content/math1010/lrs.html" rendered="0" id="iFrameResizer1" scrolling="no" src="content/math1010/lrs.html"/>
 @slide
 @defn
 Let $f : [a, b] \longrightarrow \mathbb{R}$
