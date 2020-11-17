@@ -386,6 +386,12 @@ Hence,
 \end{align*}
 @endcol
 @end
+@eg
+Evaluate:
+\[
+\int \frac{x^4}{\sqrt{9 - x^2}}\,dx
+\]
+@end
 @section{WeBWorK}
 @enumerate
 @item

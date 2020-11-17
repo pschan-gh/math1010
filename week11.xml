@@ -497,6 +497,12 @@ More succinctly, we have:
                 </collapse>
               </newcol>
             </statement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="8b238c7d3108a2cba0cefa248ff40c65" course="Math 1010" chapter="11" slide="11" item="11.12">
+              <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
+\[
+\int \frac{x^4}{\sqrt{9 - x^2}}\,dx
+\] </paragraphs>
+            </statement>
           </slide>
         </slides>
       </section>
