@@ -445,7 +445,7 @@ $\displaystyle \int \frac{x}{8 - 2x - x^2}\,dx$.</paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="11" section="3" subsection="" subsubsection="" chapter_title="" section_title="Trigonometric Substitution">
             <keywords slide="11" environ="slide" chapter="11" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="f7f344269d0bd80bb94b62ea3c2717bd" course="Math 1010" chapter="11" slide="11" item="11.11">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="e00344520bee10c0cce592dd88670c21" course="Math 1010" chapter="11" slide="11" item="11.11">
               <paragraphs course="Math 1010" chapter="11" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
 \[
 \int \frac{dx}{x\sqrt{x^2 - 1}}
@@ -467,8 +467,8 @@ Since:
 \theta = \arccos(1/x)
 \in
 \begin{cases}
-[0, \pi/2) &amp; \text{ if } x &gt; 1,\\
-(\pi/2, \pi] &amp; \text{ if } x &lt; -1,
+[0, \pi/2) &amp; \text{ if } x &gt; 0,\\
+(\pi/2, \pi] &amp; \text{ if } x &lt; 0,
 \end{cases}
 \]
 we have:

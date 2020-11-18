@@ -358,8 +358,8 @@ Since:
 \theta = \arccos(1/x)
 \in
 \begin{cases}
-[0, \pi/2) & \text{ if } x > 1,\\
-(\pi/2, \pi] & \text{ if } x < -1,
+[0, \pi/2) & \text{ if } x > 0,\\
+(\pi/2, \pi] & \text{ if } x < 0,
 \end{cases}
 \]
 we have:
