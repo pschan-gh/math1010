@@ -24,7 +24,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 @newcol
 <div class="image" style="width: 450px;">
 <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
-<img width="450" alt="Cauchy" rendered="0" style="background-image: none; width: 100%; background-position: initial initial; background-repeat: initial initial;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
+<img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
 @endcol
 @slide
 @keyword*{L'Hopital's Rule}
@@ -544,9 +544,10 @@ The Taylor series at $a = 0$ for various functions $f$ are as follows: <table cl
 <td>$\ln(1 + x)$</td><td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td></tr><tr>
 <td>$\displaystyle \frac{1}{1 - x}$</td><td>$\displaystyle \sum_{k = 0}^\infty x^k$</td></tr></tbody></table>
 @end
-@theorem
+@thm
 @title{Binomial Series}
-@col
+@label{thm:binomseries}
+@newcol
 For $\alpha \in \mathbb{R}$, $\abs{x} < 1$,
 \[
 (1 + x)^\alpha
@@ -559,17 +560,19 @@ where:
 \[
 \binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!}
 \]
+@endcol
 @end
 @eg
-@col
+@newcol
 In particular, for $\abs{x} < 1$, we have:
 \[
 \begin{split}
 \sqrt{1 + x} &= (1 + x)^{1/2} \\
-&= 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2 
+&= 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2
 + \frac{(1/2)(1/2 - 1)(1/2 -2)}{3!}x^3 + \cdots
 \end{split}
 \]
+@endcol
 @end
 
 @slide
