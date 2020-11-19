@@ -544,6 +544,31 @@ The Taylor series at $a = 0$ for various functions $f$ are as follows: <table cl
 <td>$\ln(1 + x)$</td><td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td></tr><tr>
 <td>$\displaystyle \frac{1}{1 - x}$</td><td>$\displaystyle \sum_{k = 0}^\infty x^k$</td></tr></tbody></table>
 @end
+@theorem
+@title{Binomial Series}
+@col
+For $\alpha \in \mathbb{R}$, $\abs{x} < 1$,
+\[
+(1 + x)^\alpha
+=
+\sum_{k = 0}^\infty \binom{\alpha}{k} x^k
+=
+1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!}x^2 + \cdots,
+\]
+where:
+\[
+\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha + k - 1)}{k!}
+\]
+@end
+@eg
+@col
+In particular, for $\abs{x} < 1$, we have:
+\[
+\sqrt{1 + x} = (1 + x)^{1/2} = 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2 
++ \frac{(1/2)(1/2 - 1)(1/2 -2)}{3!}x^3 + \cdots
+\]
+@end
+
 @slide
 @eg
 The Taylor $T(x)$ series of $f(x) = e^x$ at $a = 0$ converges everywhere.

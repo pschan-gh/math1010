@@ -11,6 +11,7 @@
       <keyword chapter="" slide="all">Cauchy's Mean Value Theorem</keyword>
       <keyword chapter="" slide="all">L'Hôpital's Rule</keyword>
       <keyword chapter="" slide="all">Taylor's Formula</keyword>
+      <keyword chapter="" slide="all">Binomial Series</keyword>
     </keywords>
     <title environment="title" chapter_type="" wbtag="course" scope="course" course="Math 1010" chapter="" section="" subsection="" subsubsection="" serial="" slide="">Math 1010</title>
     <slides environment="" chapter_type="">
@@ -30,6 +31,7 @@
         <keyword chapter="9" slide="all">Cauchy's Mean Value Theorem</keyword>
         <keyword chapter="9" slide="all">L'Hôpital's Rule</keyword>
         <keyword chapter="9" slide="all">Taylor's Formula</keyword>
+        <keyword chapter="9" slide="all">Binomial Series</keyword>
       </keywords>
       <title environment="title" chapter_type="Week" wbtag="week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide=""/>
       <topic environment="" chapter_type="Week" scope="chapter" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="9" slide="">L'Hôpital's Rule</topic>
@@ -808,7 +810,9 @@ otherwise we say that it </paragraphs>
             </newcol>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Indeterminate Forms">
-            <keywords slide="13" environ="slide" chapter="9" course="Math 1010"/>
+            <keywords slide="13" environ="slide" chapter="9" course="Math 1010">
+              <keyword chapter="9" slide="13">Binomial Series</keyword>
+            </keywords>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="b1e7eda5ddb11b3d2a9f6354c3292c68" course="Math 1010" chapter="9" slide="13" item="9.10">
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The Taylor series at $a = 0$ for various functions $f$ are as follows: </paragraphs>
               <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" environment="statement">
@@ -866,10 +870,37 @@ otherwise we say that it </paragraphs>
                 </tbody>
               </table>
             </statement>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Binomial Series" md5="c8678fe807f1f7c3e91d17b562e9a14c" course="Math 1010" chapter="9" slide="13" item="9.11">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="13">Binomial Series</title>
+              <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $\alpha \in \mathbb{R}$, $\abs{x} &lt; 1$,
+\[
+(1 + x)^\alpha
+=
+\sum_{k = 0}^\infty \binom{\alpha}{k} x^k
+=
+1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!}x^2 + \cdots,
+\]
+where:
+\[
+\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha + k - 1)}{k!}
+\] </paragraphs>
+              </newcol>
+            </statement>
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="5801ff892d04e9d97a0ca0d4981e7b0b" course="Math 1010" chapter="9" slide="13" item="9.12">
+              <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for $\abs{x} &lt; 1$, we have:
+\[
+\sqrt{1 + x} = (1 + x)^{1/2} = 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2 
++ \frac{(1/2)(1/2 - 1)(1/2 -2)}{3!}x^3 + \cdots
+\] </paragraphs>
+              </newcol>
+            </statement>
+            <newline course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="Indeterminate Forms">
             <keywords slide="14" environ="slide" chapter="9" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="cb7611cbd00de7587a7bc6182c9d4716" course="Math 1010" chapter="9" slide="14" item="9.11">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="cb7611cbd00de7587a7bc6182c9d4716" course="Math 1010" chapter="9" slide="14" item="9.13">
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The Taylor $T(x)$ series of $f(x) = e^x$ at $a = 0$ converges everywhere.
 Moreover, for each $x \in \mathbb{R}$, we do have:
 \[
