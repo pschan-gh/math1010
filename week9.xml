@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -20,7 +19,7 @@
         <keywords slide="1" environ="slide" chapter="" course="Math 1010"/>
       </slide>
     </slides>
-    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="L'H&#xF4;pital's Rule, Taylor Series" course="Math 1010" serial="9">
+    <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="L'Hôpital's Rule, Taylor Series" course="Math 1010" serial="9">
       <keywords slide="all" environ="chapter" chapter="9" course="Math 1010">
         <keyword chapter="9" slide="all">L'Hopital's Rule</keyword>
         <keyword chapter="9" slide="all">Taylor polynomial</keyword>
@@ -71,7 +70,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
           <newcol course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
             <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
               <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg" environment="newcol">
-                <img width="450" alt="Cauchy" rendered="0" style="background-image: none; width: 100%; background-position: initial initial; background-repeat: initial initial;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol"/>
+                <img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol" />
               </a>
             </div>
           </newcol>
@@ -82,7 +81,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
             <keyword chapter="9" slide="4">L'Hôpital's Rule</keyword>
           </keywords>
           <hc_keyword course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">L'Hopital's Rule</hc_keyword>
-          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" title="L'H&#xF4;pital's Rule" md5="ae9e3f92545edeb2cdf0ae1d35054d93" course="Math 1010" chapter="9" slide="4" item="9.2">
+          <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" title="L'Hôpital's Rule" md5="ae9e3f92545edeb2cdf0ae1d35054d93" course="Math 1010" chapter="9" slide="4" item="9.2">
             <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="" slide="4">L'Hôpital's Rule</title>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
 Let $f, g$ be functions which are differentiable at every point in
@@ -99,7 +98,7 @@ or both equal to $\pm \infty$. </paragraphs>
               </li>
             </ul>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (• $g'(x) \neq 0$ for all $x \neq c$ in $I$.) </paragraphs>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
             <newline course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement"/>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Then,
 \[
@@ -177,37 +176,37 @@ To prove the above equality rigorously, one could, for example, apply the </para
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="5">
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Indeterminate Forms</paragraphs>
             </title>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\frac{0}{0}$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\frac{\infty}{\infty}$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $0\cdot\infty$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\infty - \infty$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $0^0$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $\infty^0$ </paragraphs>
-                <hr environment=""/>
+                <hr environment="" />
               </li>
               <li environment="">
                 <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> $1^\infty$ </paragraphs>
               </li>
             </ul>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Here, for example, $1^\infty$ represents the situation
 $\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
 and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
@@ -225,8 +224,8 @@ and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
               <ol xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -268,12 +267,12 @@ and $\displaystyle \lim_{x\rightarrow c}g(x) = \infty$.</paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -330,12 +329,12 @@ corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is </pa
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -366,12 +365,12 @@ Now, compute: </paragraphs>
 \] </paragraphs>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$ </paragraphs>
-                  <p environment="statement"/>
-                  <br environment="statement"/>
+                  <p environment="statement"></p>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -432,12 +431,12 @@ corresponds to the indeterminate form $\frac{\infty}{\infty}$.</paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$</paragraphs>
                   <newline xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
                   <strong environment="statement">
                     <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Solution.</paragraphs>
                   </strong>
@@ -514,7 +513,7 @@ Differentiating both numerator and denominator, we have:</paragraphs>
                       </collapse>
                     </collapse>
                   </newcol>
-                  <hr environment="statement"/>
+                  <hr environment="statement" />
                 </li>
               </ol>
             </statement>
@@ -660,7 +659,7 @@ are as follows: </paragraphs>
             <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
 at $x = 0$ both have degree $5$.
 Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$. </paragraphs>
-            <hr xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
               <li environment="">
                 <a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank" environment="">
@@ -872,6 +871,7 @@ otherwise we say that it </paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Binomial Series" md5="c8678fe807f1f7c3e91d17b562e9a14c" course="Math 1010" chapter="9" slide="13" item="9.11">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="13">Binomial Series</title>
+              <label wbtag="label" name="thm:binomseries" type="Theorem"/>
               <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $\alpha \in \mathbb{R}$, $\abs{x} &lt; 1$,
 \[
@@ -893,7 +893,7 @@ where:
 \[
 \begin{split}
 \sqrt{1 + x} &amp;= (1 + x)^{1/2} \\
-&amp;= 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2 
+&amp;= 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2
 + \frac{(1/2)(1/2 - 1)(1/2 -2)}{3!}x^3 + \cdots
 \end{split}
 \] </paragraphs>
