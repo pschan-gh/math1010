@@ -24,7 +24,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 @newcol
 <div class="image" style="width: 450px;">
 <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
-<img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;"/></a></div>
+<img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
 @endcol
 @slide
 @keyword*{L'Hopital's Rule}
@@ -533,22 +533,21 @@ otherwise we say that it @keyword{diverges} at $x = c$.
 @endcol
 @slide
 @eg
-The Taylor series at $a = 0$ for various functions $f$ are as follows: <table class="table-hover table table-striped table-bordered" style="">
-<thead class="thead-default" style="">
-<tr style="">
-<th style="">$f(x)$</th><th style="">$T(x)$</th></tr></thead><tbody style="">
-<tr style="">
-<td style="">$\cos x$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td></tr><tr style="">
-<td style="">$\sin x$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td></tr><tr style="">
-<td style="">$e^x$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td></tr><tr style="">
-<td style="">$\ln(1 + x)$</td><td style="">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td></tr><tr style="">
-<td style="">$\displaystyle \frac{1}{1 - x}$</td><td style="">$\displaystyle \sum_{k = 0}^\infty x^k$</td></tr></tbody></table>
+The Taylor series at $a = 0$ for various functions $f$ are as follows: <table class="table-hover table table-striped table-bordered">
+<thead class="thead-default">
+<tr>
+<th>$f(x)$</th><th>$T(x)$</th></tr></thead><tbody>
+<tr>
+<td>$\cos x$</td><td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td></tr><tr>
+<td>$\sin x$</td><td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td></tr><tr>
+<td>$e^x$</td><td>$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td></tr><tr>
+<td>$\ln(1 + x)$</td><td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td></tr><tr>
+<td>$\displaystyle \frac{1}{1 - x}$</td><td>$\displaystyle \sum_{k = 0}^\infty x^k$</td></tr></tbody></table>
 @end
 @thm
 @title{Binomial Series}
-@label{thm:binomseries}
 @newcol
-For $\alpha \in \mathbb{R}$, $|x| < 1$,
+For $\alpha \in \mathbb{R}$, $\abs{x} < 1$,
 \[
 (1 + x)^\alpha
 =
@@ -564,7 +563,7 @@ where:
 @end
 @eg
 @newcol
-In particular, for $|x| < 1$, we have:
+In particular, for $\abs{x} < 1$, we have:
 \[
 \begin{split}
 \sqrt{1 + x} &= (1 + x)^{1/2} \\

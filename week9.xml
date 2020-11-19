@@ -70,7 +70,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
           <newcol course="Math 1010" chapter="9" chapter_type="" section="" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
             <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
               <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg" environment="newcol">
-                <img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" environment="newcol" />
+                <img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol" />
               </a>
             </div>
           </newcol>
@@ -814,66 +814,65 @@ otherwise we say that it </paragraphs>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="b1e7eda5ddb11b3d2a9f6354c3292c68" course="Math 1010" chapter="9" slide="13" item="9.10">
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The Taylor series at $a = 0$ for various functions $f$ are as follows: </paragraphs>
-              <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" style="" environment="statement">
-                <thead class="thead-default" style="" environment="statement">
-                  <tr style="" environment="statement">
-                    <th style="" environment="statement">
+              <table xmlns="http://www.w3.org/1999/xhtml" class="table-hover table table-striped table-bordered" environment="statement">
+                <thead class="thead-default" environment="statement">
+                  <tr environment="statement">
+                    <th environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$f(x)$</paragraphs>
                     </th>
-                    <th style="" environment="statement">
+                    <th environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$T(x)$</paragraphs>
                     </th>
                   </tr>
                 </thead>
-                <tbody style="" environment="statement">
-                  <tr style="" environment="statement">
-                    <td style="" environment="statement">
+                <tbody environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\cos x$</paragraphs>
                     </td>
-                    <td style="" environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</paragraphs>
                     </td>
                   </tr>
-                  <tr style="" environment="statement">
-                    <td style="" environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\sin x$</paragraphs>
                     </td>
-                    <td style="" environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</paragraphs>
                     </td>
                   </tr>
-                  <tr style="" environment="statement">
-                    <td style="" environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$e^x$</paragraphs>
                     </td>
-                    <td style="" environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</paragraphs>
                     </td>
                   </tr>
-                  <tr style="" environment="statement">
-                    <td style="" environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\ln(1 + x)$</paragraphs>
                     </td>
-                    <td style="" environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</paragraphs>
                     </td>
                   </tr>
-                  <tr style="" environment="statement">
-                    <td style="" environment="statement">
+                  <tr environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \frac{1}{1 - x}$</paragraphs>
                     </td>
-                    <td style="" environment="statement">
+                    <td environment="statement">
                       <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">$\displaystyle \sum_{k = 0}^\infty x^k$</paragraphs>
                     </td>
                   </tr>
                 </tbody>
               </table>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Binomial Series" md5="ceb8189124462a7662d3b63da39a1097" course="Math 1010" chapter="9" slide="13" item="9.11">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Binomial Series" md5="c8678fe807f1f7c3e91d17b562e9a14c" course="Math 1010" chapter="9" slide="13" item="9.11">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="13">Binomial Series</title>
-              <label wbtag="label" name="thm:binomseries" type="Theorem"/>
               <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $\alpha \in \mathbb{R}$, $|x| &lt; 1$,
+                <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> For $\alpha \in \mathbb{R}$, $\abs{x} &lt; 1$,
 \[
 (1 + x)^\alpha
 =
@@ -887,9 +886,9 @@ where:
 \] </paragraphs>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="42ce1a0766ad58e4c1ab07a38fd60cae" course="Math 1010" chapter="9" slide="13" item="9.12">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="7325993713ba48fedd9eabc994e24fce" course="Math 1010" chapter="9" slide="13" item="9.12">
               <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-                <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for $|x| &lt; 1$, we have:
+                <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for $\abs{x} &lt; 1$, we have:
 \[
 \begin{split}
 \sqrt{1 + x} &amp;= (1 + x)^{1/2} \\
