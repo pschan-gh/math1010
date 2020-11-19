@@ -869,7 +869,7 @@ otherwise we say that it </paragraphs>
                 </tbody>
               </table>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Binomial Series" md5="ceb8189124462a7662d3b63da39a1097" course="Math 1010" chapter="9" slide="13" item="9.11">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="11" title="Binomial Series" md5="d55f430fc73bbbf51786b8d57b82fb26" course="Math 1010" chapter="9" slide="13" item="9.11">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="13">Binomial Series</title>
               <label wbtag="label" name="thm:binomseries" type="Theorem"/>
               <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -883,7 +883,7 @@ otherwise we say that it </paragraphs>
 \]
 where:
 \[
-\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!}
+\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!} \text{ if } k &gt; 0,\quad \binom{\alpha}{0} = 1.
 \] </paragraphs>
               </newcol>
             </statement>
