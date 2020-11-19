@@ -558,7 +558,7 @@ For $\alpha \in \mathbb{R}$, $|x| < 1$,
 \]
 where:
 \[
-\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!}
+\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!} \text{ if } k > 0,\quad \binom{\alpha}{0} = 1.
 \]
 @endcol
 @end
