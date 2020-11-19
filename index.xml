@@ -24,11 +24,11 @@
     </entry>
     <entry keyword="converges">
       <branch chapter="1" slide="4" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c" keyword="converges">converges</branch>
-      <branch chapter="9" slide="12" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="converges">converges</branch>
+      <branch chapter="9" slide="12" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="converges">converges</branch>
     </entry>
     <entry keyword="diverges">
       <branch chapter="1" slide="4" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c" keyword="diverges">diverges</branch>
-      <branch chapter="9" slide="12" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="diverges">diverges</branch>
+      <branch chapter="9" slide="12" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="diverges">diverges</branch>
     </entry>
     <entry keyword="integration by parts">
       <branch chapter="12" slide="3" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="integration by parts">Integration by Parts</branch>
@@ -260,28 +260,28 @@
       <branch chapter="13" slide="15" filename="week13.xml" file_md5="e25f60222a983d7d267b59c3cabc716f" keyword="fundamental theorem of calculus part ii">Fundamental Theorem of Calculus Part II</branch>
     </entry>
     <entry keyword="cauchy s mean value theorem">
-      <branch chapter="9" slide="3" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="cauchy s mean value theorem">Cauchy's Mean Value Theorem</branch>
+      <branch chapter="9" slide="3" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="cauchy s mean value theorem">Cauchy's Mean Value Theorem</branch>
     </entry>
     <entry keyword="l hopital's rule">
-      <branch chapter="9" slide="4" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="l hopital's rule">L'Hopital's Rule</branch>
+      <branch chapter="9" slide="4" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="l hopital's rule">L'Hopital's Rule</branch>
     </entry>
     <entry keyword="l h&#xF4;pital's rule">
-      <branch chapter="9" slide="4" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="l h&#xF4;pital's rule">L'Hôpital's Rule</branch>
+      <branch chapter="9" slide="4" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="l h&#xF4;pital's rule">L'Hôpital's Rule</branch>
     </entry>
     <entry keyword="taylor polynomial">
-      <branch chapter="9" slide="9" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="taylor polynomial">Taylor polynomial</branch>
+      <branch chapter="9" slide="9" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="taylor polynomial">Taylor polynomial</branch>
     </entry>
     <entry keyword="remainder term">
-      <branch chapter="9" slide="11" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="remainder term">remainder term</branch>
+      <branch chapter="9" slide="11" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="remainder term">remainder term</branch>
     </entry>
     <entry keyword="taylor s formula">
-      <branch chapter="9" slide="11" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="taylor s formula">Taylor's Formula</branch>
+      <branch chapter="9" slide="11" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="taylor s formula">Taylor's Formula</branch>
     </entry>
     <entry keyword="taylor series">
-      <branch chapter="9" slide="12" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="taylor series">Taylor series</branch>
+      <branch chapter="9" slide="12" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="taylor series">Taylor series</branch>
     </entry>
     <entry keyword="binomial series">
-      <branch chapter="9" slide="13" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" keyword="binomial series">Binomial Series</branch>
+      <branch chapter="9" slide="13" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" keyword="binomial series">Binomial Series</branch>
     </entry>
     <entry keyword="antiderivative">
       <branch chapter="10" slide="10" filename="week10.xml" file_md5="808fb024f14755b9f8db3a4b59b2a427" keyword="antiderivative">antiderivative</branch>
@@ -732,62 +732,62 @@
     <entry md5="7f8e9bbfa156da93a6982a5045a910bb" of="246b618e8c95c3e171594b072375a33a" slide="15" chapter="13" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="e25f60222a983d7d267b59c3cabc716f" ofmd5="246b618e8c95c3e171594b072375a33a">
       <branch of="246b618e8c95c3e171594b072375a33a" slide="15" chapter="13" course="Math 1010" md5="7f8e9bbfa156da93a6982a5045a910bb" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week13.xml" file_md5="e25f60222a983d7d267b59c3cabc716f" ofmd5="246b618e8c95c3e171594b072375a33a"/>
     </entry>
-    <entry md5="88b4fa31b19d0d6154f41a045e07612a" item="9.1" slide="3" chapter="9" course="Math 1010" title="Cauchy's Mean Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.1" slide="3" chapter="9" course="Math 1010" md5="88b4fa31b19d0d6154f41a045e07612a" title="Cauchy's Mean Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-        <label item="9.1" slide="3" chapter="9" course="Math 1010" md5="88b4fa31b19d0d6154f41a045e07612a" title="Cauchy's Mean Value Theorem" num="1" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" name="cauchymvt"/>
+    <entry md5="88b4fa31b19d0d6154f41a045e07612a" item="9.1" slide="3" chapter="9" course="Math 1010" title="Cauchy's Mean Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.1" slide="3" chapter="9" course="Math 1010" md5="88b4fa31b19d0d6154f41a045e07612a" title="Cauchy's Mean Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+        <label item="9.1" slide="3" chapter="9" course="Math 1010" md5="88b4fa31b19d0d6154f41a045e07612a" title="Cauchy's Mean Value Theorem" num="1" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" name="cauchymvt"/>
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="" slide="3">Cauchy's Mean Value Theorem.</title>
       </branch>
     </entry>
-    <entry md5="1c3794a886343cb6476d9bd016d2bafa" of="88b4fa31b19d0d6154f41a045e07612a" slide="3" chapter="9" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" ofmd5="88b4fa31b19d0d6154f41a045e07612a">
-      <branch of="88b4fa31b19d0d6154f41a045e07612a" slide="3" chapter="9" course="Math 1010" md5="1c3794a886343cb6476d9bd016d2bafa" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" ofmd5="88b4fa31b19d0d6154f41a045e07612a"/>
+    <entry md5="1c3794a886343cb6476d9bd016d2bafa" of="88b4fa31b19d0d6154f41a045e07612a" slide="3" chapter="9" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" ofmd5="88b4fa31b19d0d6154f41a045e07612a">
+      <branch of="88b4fa31b19d0d6154f41a045e07612a" slide="3" chapter="9" course="Math 1010" md5="1c3794a886343cb6476d9bd016d2bafa" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" ofmd5="88b4fa31b19d0d6154f41a045e07612a"/>
     </entry>
-    <entry md5="ae9e3f92545edeb2cdf0ae1d35054d93" item="9.2" slide="4" chapter="9" course="Math 1010" title="L'H&#xF4;pital's Rule" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.2" slide="4" chapter="9" course="Math 1010" md5="ae9e3f92545edeb2cdf0ae1d35054d93" title="L'H&#xF4;pital's Rule" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
+    <entry md5="ae9e3f92545edeb2cdf0ae1d35054d93" item="9.2" slide="4" chapter="9" course="Math 1010" title="L'H&#xF4;pital's Rule" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.2" slide="4" chapter="9" course="Math 1010" md5="ae9e3f92545edeb2cdf0ae1d35054d93" title="L'H&#xF4;pital's Rule" num="2" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="" subsection="" subsubsection="" serial="" slide="4">L'Hôpital's Rule</title>
       </branch>
     </entry>
-    <entry md5="df47a045aef454572d1491a9b433dc29" of="ae9e3f92545edeb2cdf0ae1d35054d93" slide="4" chapter="9" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" ofmd5="ae9e3f92545edeb2cdf0ae1d35054d93">
-      <branch of="ae9e3f92545edeb2cdf0ae1d35054d93" slide="4" chapter="9" course="Math 1010" md5="df47a045aef454572d1491a9b433dc29" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" ofmd5="ae9e3f92545edeb2cdf0ae1d35054d93"/>
+    <entry md5="df47a045aef454572d1491a9b433dc29" of="ae9e3f92545edeb2cdf0ae1d35054d93" slide="4" chapter="9" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" ofmd5="ae9e3f92545edeb2cdf0ae1d35054d93">
+      <branch of="ae9e3f92545edeb2cdf0ae1d35054d93" slide="4" chapter="9" course="Math 1010" md5="df47a045aef454572d1491a9b433dc29" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" ofmd5="ae9e3f92545edeb2cdf0ae1d35054d93"/>
     </entry>
-    <entry md5="7aabc8c375e391f63146c682e7880a71" item="9.3" slide="6" chapter="9" course="Math 1010" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.3" slide="6" chapter="9" course="Math 1010" md5="7aabc8c375e391f63146c682e7880a71" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="7aabc8c375e391f63146c682e7880a71" item="9.3" slide="6" chapter="9" course="Math 1010" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.3" slide="6" chapter="9" course="Math 1010" md5="7aabc8c375e391f63146c682e7880a71" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="3504033b673782967d6500d72047af9b" item="9.5" slide="8" chapter="9" course="Math 1010" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.5" slide="8" chapter="9" course="Math 1010" md5="3504033b673782967d6500d72047af9b" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="3504033b673782967d6500d72047af9b" item="9.5" slide="8" chapter="9" course="Math 1010" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.5" slide="8" chapter="9" course="Math 1010" md5="3504033b673782967d6500d72047af9b" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="e4eac67321db8e874e559cbc24946688" item="9.6" slide="9" chapter="9" course="Math 1010" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.6" slide="9" chapter="9" course="Math 1010" md5="e4eac67321db8e874e559cbc24946688" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="e4eac67321db8e874e559cbc24946688" item="9.6" slide="9" chapter="9" course="Math 1010" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.6" slide="9" chapter="9" course="Math 1010" md5="e4eac67321db8e874e559cbc24946688" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="294911d1d072c51211ba0992f2b14484" item="9.7" slide="10" chapter="9" course="Math 1010" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.7" slide="10" chapter="9" course="Math 1010" md5="294911d1d072c51211ba0992f2b14484" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="294911d1d072c51211ba0992f2b14484" item="9.7" slide="10" chapter="9" course="Math 1010" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.7" slide="10" chapter="9" course="Math 1010" md5="294911d1d072c51211ba0992f2b14484" num="7" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="b551b7ed906e413f7f5ffc542364a4de" item="9.8" slide="11" chapter="9" course="Math 1010" title="Taylor's Formula" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.8" slide="11" chapter="9" course="Math 1010" md5="b551b7ed906e413f7f5ffc542364a4de" title="Taylor's Formula" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
+    <entry md5="b551b7ed906e413f7f5ffc542364a4de" item="9.8" slide="11" chapter="9" course="Math 1010" title="Taylor's Formula" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.8" slide="11" chapter="9" course="Math 1010" md5="b551b7ed906e413f7f5ffc542364a4de" title="Taylor's Formula" num="8" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="11">Taylor's Formula</title>
       </branch>
     </entry>
-    <entry md5="ec21bdc4b1aff85c7a648450f41e001d" of="b551b7ed906e413f7f5ffc542364a4de" slide="11" chapter="9" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" ofmd5="b551b7ed906e413f7f5ffc542364a4de">
-      <branch of="b551b7ed906e413f7f5ffc542364a4de" slide="11" chapter="9" course="Math 1010" md5="ec21bdc4b1aff85c7a648450f41e001d" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea" ofmd5="b551b7ed906e413f7f5ffc542364a4de"/>
+    <entry md5="ec21bdc4b1aff85c7a648450f41e001d" of="b551b7ed906e413f7f5ffc542364a4de" slide="11" chapter="9" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" ofmd5="b551b7ed906e413f7f5ffc542364a4de">
+      <branch of="b551b7ed906e413f7f5ffc542364a4de" slide="11" chapter="9" course="Math 1010" md5="ec21bdc4b1aff85c7a648450f41e001d" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3" ofmd5="b551b7ed906e413f7f5ffc542364a4de"/>
     </entry>
-    <entry md5="84952052276eabd0346af5ef783aef38" item="9.9" slide="12" chapter="9" course="Math 1010" num="9" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.9" slide="12" chapter="9" course="Math 1010" md5="84952052276eabd0346af5ef783aef38" num="9" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="84952052276eabd0346af5ef783aef38" item="9.9" slide="12" chapter="9" course="Math 1010" num="9" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.9" slide="12" chapter="9" course="Math 1010" md5="84952052276eabd0346af5ef783aef38" num="9" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="b1e7eda5ddb11b3d2a9f6354c3292c68" item="9.10" slide="13" chapter="9" course="Math 1010" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.10" slide="13" chapter="9" course="Math 1010" md5="b1e7eda5ddb11b3d2a9f6354c3292c68" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="b1e7eda5ddb11b3d2a9f6354c3292c68" item="9.10" slide="13" chapter="9" course="Math 1010" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.10" slide="13" chapter="9" course="Math 1010" md5="b1e7eda5ddb11b3d2a9f6354c3292c68" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="c8678fe807f1f7c3e91d17b562e9a14c" item="9.11" slide="13" chapter="9" course="Math 1010" title="Binomial Series" num="11" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.11" slide="13" chapter="9" course="Math 1010" md5="c8678fe807f1f7c3e91d17b562e9a14c" title="Binomial Series" num="11" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
+    <entry md5="c8678fe807f1f7c3e91d17b562e9a14c" item="9.11" slide="13" chapter="9" course="Math 1010" title="Binomial Series" num="11" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.11" slide="13" chapter="9" course="Math 1010" md5="c8678fe807f1f7c3e91d17b562e9a14c" title="Binomial Series" num="11" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="13">Binomial Series</title>
       </branch>
     </entry>
-    <entry md5="5801ff892d04e9d97a0ca0d4981e7b0b" item="9.12" slide="13" chapter="9" course="Math 1010" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.12" slide="13" chapter="9" course="Math 1010" md5="5801ff892d04e9d97a0ca0d4981e7b0b" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="7325993713ba48fedd9eabc994e24fce" item="9.12" slide="13" chapter="9" course="Math 1010" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.12" slide="13" chapter="9" course="Math 1010" md5="7325993713ba48fedd9eabc994e24fce" num="12" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="cb7611cbd00de7587a7bc6182c9d4716" item="9.13" slide="14" chapter="9" course="Math 1010" num="13" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch item="9.13" slide="14" chapter="9" course="Math 1010" md5="cb7611cbd00de7587a7bc6182c9d4716" num="13" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="cb7611cbd00de7587a7bc6182c9d4716" item="9.13" slide="14" chapter="9" course="Math 1010" num="13" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch item="9.13" slide="14" chapter="9" course="Math 1010" md5="cb7611cbd00de7587a7bc6182c9d4716" num="13" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
-    <entry md5="96dfa436142b71e1984511c461a56f0c" slide="15" chapter="9" course="Math 1010" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
-      <branch slide="15" chapter="9" course="Math 1010" md5="96dfa436142b71e1984511c461a56f0c" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea"/>
+    <entry md5="96dfa436142b71e1984511c461a56f0c" slide="15" chapter="9" course="Math 1010" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
+      <branch slide="15" chapter="9" course="Math 1010" md5="96dfa436142b71e1984511c461a56f0c" wbtag="remark" type="Remark" chapter_type="Week" environment="substatement" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3"/>
     </entry>
     <entry md5="a97326c75b00fc5cdcb9ce790c7b98af" item="10.1" slide="3" chapter="10" course="Math 1010" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="808fb024f14755b9f8db3a4b59b2a427">
       <branch item="10.1" slide="3" chapter="10" course="Math 1010" md5="a97326c75b00fc5cdcb9ce790c7b98af" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="808fb024f14755b9f8db3a4b59b2a427"/>
@@ -936,7 +936,7 @@
     <ref serial="" class="lcref" md5="178d029790ae3be10c77d6253dacf8ba" src-filename="week13.xml" item="13.9" type="Corollary" src-slide="13" src-chapter="13" src-course="Math 1010" slide="14" chapter="13" course="Math 1010" wbtag="ref" label="ftcicor" chapter_type="" environment="newcol" filename="week13.xml" file_md5="e25f60222a983d7d267b59c3cabc716f">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Corollary 13.9</title>
     </ref>
-    <ref serial="" class="lcref" md5="88b4fa31b19d0d6154f41a045e07612a" src-filename="week9.xml" item="9.1" type="Theorem" src-slide="3" src-chapter="9" src-course="Math 1010" slide="11" chapter="9" course="Math 1010" wbtag="ref" label="cauchymvt" chapter_type="" environment="newcol" filename="week9.xml" file_md5="3b8542c78c1ac4dade031b8b94663aea">
+    <ref serial="" class="lcref" md5="88b4fa31b19d0d6154f41a045e07612a" src-filename="week9.xml" item="9.1" type="Theorem" src-slide="3" src-chapter="9" src-course="Math 1010" slide="11" chapter="9" course="Math 1010" wbtag="ref" label="cauchymvt" chapter_type="" environment="newcol" filename="week9.xml" file_md5="30f8c6f18aab3bb8e27e7cc4c11079a3">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Cauchy's Mean Value Theorem.</title>
     </ref>
   </index>

@@ -883,16 +883,19 @@ otherwise we say that it </paragraphs>
 \]
 where:
 \[
-\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha + k - 1)}{k!}
+\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!}
 \] </paragraphs>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="5801ff892d04e9d97a0ca0d4981e7b0b" course="Math 1010" chapter="9" slide="13" item="9.12">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="7325993713ba48fedd9eabc994e24fce" course="Math 1010" chapter="9" slide="13" item="9.12">
               <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In particular, for $\abs{x} &lt; 1$, we have:
 \[
-\sqrt{1 + x} = (1 + x)^{1/2} = 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2 
+\begin{split}
+\sqrt{1 + x} &amp;= (1 + x)^{1/2} \\
+&amp;= 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2 
 + \frac{(1/2)(1/2 - 1)(1/2 -2)}{3!}x^3 + \cdots
+\end{split}
 \] </paragraphs>
               </newcol>
             </statement>
