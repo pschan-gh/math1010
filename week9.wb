@@ -24,10 +24,9 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 @newcol
 <div class="image" style="width: 450px;">
 <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
-<img width="450" alt="Cauchy" rendered="0" style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
+<img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
 @endcol
 @slide
-@keyword*{L'Hopital's Rule}
 @thm
 @title{L'Hôpital's Rule}
 Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
@@ -82,9 +81,8 @@ then intuitively it follows that:
 \lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
 \end{split}
 \]
-( <strong>Optional Exercise</strong> :
-To prove the above equality rigorously, one could, for example, apply the <a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank"> sequential criterion for the limit of a function</a> .
-)
+(<strong>Optional Exercise</strong> :
+To prove the above equality rigorously, one could, for example, apply the <a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank"> sequential criterion for the limit of a function</a>.)
 @endcol
 @end
 @subsection{Indeterminate Forms}
