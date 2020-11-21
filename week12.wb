@@ -3,8 +3,7 @@
 @topic{Indefinite Integrals}
 @topic{Reduction Formulas}
 @topic{Partial Fractions}
-@section{
-Reduction Formulas}
+@section{Reduction Formulas}
 Let $\displaystyle n \in \mathbb{N}$.
 @eg
 \[
@@ -23,7 +22,7 @@ Then:
 \[
 dU = -(n - 1)\cos^{n - 2} x \sin x\, dx, \quad V = \sin x.
 \]
-It follows from <a knowl="https://www.math.cuhk.edu.hk/~pschan/elephas/php/elephas_bare.php?wb=../content/math1010/t1_201819/week10.wb&query=//slide[@slide=%2716%27]">@keyword{Integration by Parts}</a> that:
+It follows from @ref{sec:intbyparts} that:
 \[
 \begin{split}
 \int U\,dV
@@ -77,8 +76,7 @@ For $n \geq 3$,
 @keyword*{proper rational function}
 @defn
 A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
-is said to be <strong>proper</strong>
-if:
+is said to be <strong>proper</strong> if:
 \[
 \deg r < \deg s.
 \]
@@ -91,8 +89,7 @@ in the form:
 \]
 where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational function.
 @slide
-Let $\displaystyle \frac{r}{s}$ be a proper rational function.
-<p/>
+Let $\displaystyle \frac{r}{s}$ be a proper rational function. <p/>
 Factor $s$ as a product of powers of distinct irreducible factors:
 \[
 s = \cdots (x - a)^m \cdots
@@ -114,8 +111,7 @@ where the $A_i, B_i, C_i$ are constants.
 @end
 @slide
 @eg
-$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$
-<br/><br/>
+$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$ <br/><br/>
 @newcol
 Performing long division for polynomials, we have:
 \[
@@ -134,7 +130,7 @@ Moreover, the denominator factors as follows:
 \[
 x^2 - 2x = x (x - 2).
 \]
-Hence, by  @ref{partialfractions}, we have:
+Hence, by @ref{partialfractions} , we have:
 \[
 \frac{3x - 2}{x^2 - 2x}
 =
@@ -167,14 +163,12 @@ Hence:
 \]
 where $C$ represents an arbitrary constant.
 
-
 We conclude that:
 \begin{multline*}
 \int \frac{\left(x^3-x-2\right)}{x^2-2x} dx
 =
 \frac{1}{2}x^2 + 2x + \ln \abs{x} + 2\ln\abs{x - 2} + C.
 \end{multline*}
-
 
 @endcol
 @end
@@ -183,12 +177,10 @@ $\displaystyle \int \frac{x}{(x^2 + 4)(x - 3)}\,dx$<br/><br/>
 @newcol
 First we note that the integrand is a proper rational function.
 
-
 The quadratic factor $x^2 + 4$
 has discriminant $0^2 - 4\cdot 4 < 0$, hence it is irreducible.
 
-
-By  @ref{partialfractions}, we have:
+By @ref{partialfractions} , we have:
 \[
 \frac{x}{(x^2 + 4)(x - 3)}
 =
@@ -206,13 +198,11 @@ Letting $x = 3$, we have:
 \]
 which implies that $C = 3/13$.
 
-
 Letting $x = 0$, we have:
 \[
 0 = -3B + 4C,
 \]
 which implies that $B = (4/3)C = 4/13$.
-
 
 Finally, viewing each side of equation $(\ast)$ as polynomials and comparing
 the coefficients of $x^2$ on each side, we have:
@@ -220,7 +210,6 @@ the coefficients of $x^2$ on each side, we have:
 0 = A + C,
 \]
 which implies that $A = -C = -3/13$.
-
 
 Hence:
 \[
@@ -282,7 +271,6 @@ Letting $x = 3$, we have:
 27 = 13D.
 \]
 So, $ D = 27/13 $.
-
 
 To find $A, B$ and $C$, we view each side of the equation $(\ast)$
 as polynomials, then compare the coefficients
@@ -355,7 +343,6 @@ To evaluate $\int \frac{7x+15}{169\left(x^2+x+1\right)} dx$, we first rewrite th
 \]
 where $E$ represents an arbitrary constant.
 
-
 It now follows that:
 \begin{multline*}
 \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
@@ -403,9 +390,7 @@ $\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
 @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_39.pg}
 @endenumerate
 @section{How Does Partial Fractions Decomposition Work?}
-<strong>
-This section is optional.  You don't have to study it for Math 1010.
-</strong>
+<strong> This section is optional.  You don't have to study it for Math 1010. </strong>
 @thm
 @title{Unique Factorization of Real Polynomials}
 @label{thm:ufd}
@@ -439,7 +424,7 @@ where $p, q \in \mathbb{R}[x]$ have no common factors,
 and $\deg p < \deg q$.
 
 @newcol
-By @ref{thm:ufd}, there are distinct irreducible polynomials $q_1, q_2,\ldots, q_l$, of degree at most 2, such that:
+By @ref{thm:ufd} , there are distinct irreducible polynomials $q_1, q_2,\ldots, q_l$, of degree at most 2, such that:
 \[
 q = q_1^{n_1}q_2^{n_2}\cdots q_{l}^{n_l},
 \]
@@ -457,15 +442,13 @@ Hence,
 \frac{p}{q} &= \frac{p\cdot 1}{q}
 \\&
 @nstep{=
-\frac{p(fq_2^{n_2}\cdots q_l^{n_{l}} + gq_{1}^{n_1})}{q_1^{n_1}q_{2}^{n_{2}}\cdots q_1^{n_l}}
-}
+\frac{p(fq_2^{n_2}\cdots q_l^{n_{l}} + gq_{1}^{n_1})}{q_1^{n_1}q_{2}^{n_{2}}\cdots q_1^{n_l}}}
 \\
 &
 @nstep{=
 \frac{pf}{q_1^{n_1}}
 +
-\frac{pg}{q_{2}^{n_{2}}\cdots q_l^{n_l}}
-}
+\frac{pg}{q_{2}^{n_{2}}\cdots q_l^{n_l}}}
 \end{align*}
 @endsteps
 @col
@@ -546,3 +529,4 @@ Hence, $h = 0$.  It follows that:
 \[
 \frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j}
 \]
+@endcol
