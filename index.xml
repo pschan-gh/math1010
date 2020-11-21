@@ -30,17 +30,7 @@
       <branch chapter="9" slide="12" filename="week9.xml" file_md5="d595db3e2fd890a71f7a79d3230e7e7f" keyword="diverges">diverges</branch>
     </entry>
     <entry keyword="integration by parts">
-      <branch chapter="12" slide="3" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="integration by parts">Integration by Parts</branch>
       <branch chapter="13" slide="7" filename="week13.xml" file_md5="e25f60222a983d7d267b59c3cabc716f" keyword="integration by parts">Integration by Parts</branch>
-    </entry>
-    <entry keyword="proper rational function">
-      <branch chapter="12" slide="5" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="proper rational function">proper rational function</branch>
-    </entry>
-    <entry keyword="unique factorization of real polynomials">
-      <branch chapter="12" slide="9" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="unique factorization of real polynomials">Unique Factorization of Real Polynomials</branch>
-    </entry>
-    <entry keyword="b zout's identity">
-      <branch chapter="12" slide="9" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" keyword="b zout's identity">Bézout's Identity</branch>
     </entry>
     <entry keyword="sequence">
       <branch chapter="1" slide="3" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c" keyword="sequence">sequence</branch>
@@ -291,6 +281,15 @@
     <entry keyword="integrand">
       <branch chapter="10" slide="11" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325" keyword="integrand">integrand</branch>
     </entry>
+    <entry keyword="proper rational function">
+      <branch chapter="12" slide="5" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5" keyword="proper rational function">proper rational function</branch>
+    </entry>
+    <entry keyword="unique factorization of real polynomials">
+      <branch chapter="12" slide="9" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5" keyword="unique factorization of real polynomials">Unique Factorization of Real Polynomials</branch>
+    </entry>
+    <entry keyword="bézout's identity">
+      <branch chapter="12" slide="9" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5" keyword="bézout's identity">Bézout's Identity</branch>
+    </entry>
     <entry md5="4e5b41e44aeb0e3dac182548166c66dd" item="4.17" slide="16" chapter="4" course="Math 1010" title="Extreme Value Theorem" num="17" wbtag="thm" type="Theorem" chapter_type="" environment="statement" filename="week4.xml" file_md5="076f1092a33db8b9595c54cf3dc7b138">
       <branch item="4.17" slide="16" chapter="4" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="17" wbtag="thm" type="Theorem" chapter_type="" environment="statement" filename="week4.xml" file_md5="076f1092a33db8b9595c54cf3dc7b138">
         <label item="4.17" slide="16" chapter="4" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="17" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week4.xml" file_md5="076f1092a33db8b9595c54cf3dc7b138" section="2" subsection="2" subsubsection="" name="evt"/>
@@ -299,53 +298,6 @@
       <branch item="7.1" slide="3" chapter="7" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="1" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="1edc1f5d7440ac97d00e2ec1a413b240">
         <label item="7.1" slide="3" chapter="7" course="Math 1010" md5="4e5b41e44aeb0e3dac182548166c66dd" title="Extreme Value Theorem" num="1" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week7.xml" file_md5="1edc1f5d7440ac97d00e2ec1a413b240" name="evt"/>
         <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="" subsection="" subsubsection="" serial="" slide="3">Extreme Value Theorem</title>
-      </branch>
-    </entry>
-    <entry md5="3bc09525ab53959f8276e5ad137b4c47" item="12.1" slide="3" chapter="12" course="Math 1010" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.1" slide="3" chapter="12" course="Math 1010" md5="3bc09525ab53959f8276e5ad137b4c47" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="5d8b6a4f8421ec4b3de62d677114bdc7" item="12.2" slide="3" chapter="12" course="Math 1010" num="2" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.2" slide="3" chapter="12" course="Math 1010" md5="5d8b6a4f8421ec4b3de62d677114bdc7" num="2" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="51913d30c883b538d66e60c92f6d31f2" item="12.3" slide="3" chapter="12" course="Math 1010" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.3" slide="3" chapter="12" course="Math 1010" md5="51913d30c883b538d66e60c92f6d31f2" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="bc2f1c158f4b877115e9d05b492df2b0" item="12.4" slide="3" chapter="12" course="Math 1010" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.4" slide="3" chapter="12" course="Math 1010" md5="bc2f1c158f4b877115e9d05b492df2b0" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="f3b0b0a6bc23e81ed55cd64f1dbde6d8" item="12.5" slide="3" chapter="12" course="Math 1010" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.5" slide="3" chapter="12" course="Math 1010" md5="f3b0b0a6bc23e81ed55cd64f1dbde6d8" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="f448b688d23495292f1b258d4ed95be0" item="12.6" slide="5" chapter="12" course="Math 1010" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.6" slide="5" chapter="12" course="Math 1010" md5="f448b688d23495292f1b258d4ed95be0" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="91baf885e3d214e57ec3f8faebe85b91" item="12.7" slide="6" chapter="12" course="Math 1010" num="7" wbtag="fact" type="Fact" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.7" slide="6" chapter="12" course="Math 1010" md5="91baf885e3d214e57ec3f8faebe85b91" num="7" wbtag="fact" type="Fact" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-        <label item="12.7" slide="6" chapter="12" course="Math 1010" md5="91baf885e3d214e57ec3f8faebe85b91" num="7" wbtag="label" type="Fact" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="3" subsection="" subsubsection="" name="partialfractions"/>
-      </branch>
-    </entry>
-    <entry md5="92ea0043eb2c1081f6e22431c39030bd" item="12.8" slide="7" chapter="12" course="Math 1010" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.8" slide="7" chapter="12" course="Math 1010" md5="92ea0043eb2c1081f6e22431c39030bd" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="9700c0a8dbb6337882a449b17e26af47" item="12.9" slide="7" chapter="12" course="Math 1010" num="9" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.9" slide="7" chapter="12" course="Math 1010" md5="9700c0a8dbb6337882a449b17e26af47" num="9" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="ea373c49db6a710013cbea63bb2d728c" item="12.10" slide="7" chapter="12" course="Math 1010" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.10" slide="7" chapter="12" course="Math 1010" md5="ea373c49db6a710013cbea63bb2d728c" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="cc9f958deb9eb8f349ac668f2820609d" item="12.11" slide="7" chapter="12" course="Math 1010" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.11" slide="7" chapter="12" course="Math 1010" md5="cc9f958deb9eb8f349ac668f2820609d" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889"/>
-    </entry>
-    <entry md5="d16fb3accfdcceb1bc393e9659417717" item="12.12" slide="9" chapter="12" course="Math 1010" title="Unique Factorization of Real Polynomials" num="12" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.12" slide="9" chapter="12" course="Math 1010" md5="d16fb3accfdcceb1bc393e9659417717" title="Unique Factorization of Real Polynomials" num="12" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-        <label item="12.12" slide="9" chapter="12" course="Math 1010" md5="d16fb3accfdcceb1bc393e9659417717" title="Unique Factorization of Real Polynomials" num="12" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:ufd"/>
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Unique Factorization of Real Polynomials</title>
-      </branch>
-    </entry>
-    <entry md5="08893ed5b29692d555cd3dceca8f857d" item="12.13" slide="9" chapter="12" course="Math 1010" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <branch item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-        <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="" environment="statement" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889" section="5" subsection="" subsubsection="" name="thm:bezout"/>
-        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
       </branch>
     </entry>
     <entry md5="952504e836a0948c7e81649c676de462" item="1.1" slide="3" chapter="1" course="Math 1010" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week1.xml" file_md5="2f3bdeada0879b273f63fdcf7ac8276c">
@@ -864,7 +816,7 @@
     <entry md5="c4aaa08348198fa6b1f345c90956b5cf" item="10.12" slide="15" chapter="10" course="Math 1010" num="12" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325">
       <branch item="10.12" slide="15" chapter="10" course="Math 1010" md5="c4aaa08348198fa6b1f345c90956b5cf" num="12" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325"/>
     </entry>
-    <entry md5="10972cafd17ca1bc204e96b099f62841" of="c4aaa08348198fa6b1f345c90956b5cf" slide="15" chapter="10" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325">
+    <entry md5="10972cafd17ca1bc204e96b099f62841" of="c4aaa08348198fa6b1f345c90956b5cf" slide="15" chapter="10" course="Math 1010" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325" ofmd5="c4aaa08348198fa6b1f345c90956b5cf">
       <branch of="c4aaa08348198fa6b1f345c90956b5cf" slide="15" chapter="10" course="Math 1010" md5="10972cafd17ca1bc204e96b099f62841" wbtag="proof" type="Proof" chapter_type="Week" environment="substatement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325" ofmd5="c4aaa08348198fa6b1f345c90956b5cf"/>
     </entry>
     <entry md5="d1d9ded7102c75d7512039fce58fe979" item="10.13" slide="16" chapter="10" course="Math 1010" num="13" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325">
@@ -873,18 +825,53 @@
     <entry md5="10b05008d1d3be4a593234d51a7de64d" item="10.14" slide="19" chapter="10" course="Math 1010" num="14" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325">
       <branch item="10.14" slide="19" chapter="10" course="Math 1010" md5="10b05008d1d3be4a593234d51a7de64d" num="14" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325"/>
     </entry>
-    <ref serial="" class="lcref" md5="91baf885e3d214e57ec3f8faebe85b91" src-filename="weeks1-13.xml" item="12.7" type="Fact" src-slide="148" src-chapter="12" src-course="Math 1010" slide="7" chapter="12" course="Math 1010" wbtag="ref" label="partialfractions" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fact 12.7</title>
-    </ref>
-    <ref serial="" class="lcref" md5="91baf885e3d214e57ec3f8faebe85b91" src-filename="weeks1-13.xml" item="12.7" type="Fact" src-slide="148" src-chapter="12" src-course="Math 1010" slide="7" chapter="12" course="Math 1010" wbtag="ref" label="partialfractions" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fact 12.7</title>
-    </ref>
-    <ref serial="" class="lcref" md5="d16fb3accfdcceb1bc393e9659417717" src-filename="week12.xml" item="12.12" type="Theorem" src-slide="9" src-chapter="12" src-course="Math 1010" slide="10" chapter="12" course="Math 1010" wbtag="ref" label="thm:ufd" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Unique Factorization of Real Polynomials</title>
-    </ref>
-    <ref serial="" class="lcref" md5="08893ed5b29692d555cd3dceca8f857d" src-filename="week12.xml" item="12.13" type="Theorem" src-slide="9" src-chapter="12" src-course="Math 1010" slide="10" chapter="12" course="Math 1010" wbtag="ref" label="thm:bezout" chapter_type="" environment="newcol" filename="week12.xml" file_md5="b1a334676f19ee334db73bdb257a6889">
-      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Bézout's Identity</title>
-    </ref>
+    <entry md5="3bc09525ab53959f8276e5ad137b4c47" item="12.1" slide="3" chapter="12" course="Math 1010" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.1" slide="3" chapter="12" course="Math 1010" md5="3bc09525ab53959f8276e5ad137b4c47" num="1" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="146b0f0237a8957e0a1ffa0b08242881" item="12.2" slide="3" chapter="12" course="Math 1010" num="2" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.2" slide="3" chapter="12" course="Math 1010" md5="146b0f0237a8957e0a1ffa0b08242881" num="2" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="51913d30c883b538d66e60c92f6d31f2" item="12.3" slide="3" chapter="12" course="Math 1010" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.3" slide="3" chapter="12" course="Math 1010" md5="51913d30c883b538d66e60c92f6d31f2" num="3" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="bc2f1c158f4b877115e9d05b492df2b0" item="12.4" slide="3" chapter="12" course="Math 1010" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.4" slide="3" chapter="12" course="Math 1010" md5="bc2f1c158f4b877115e9d05b492df2b0" num="4" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="f3b0b0a6bc23e81ed55cd64f1dbde6d8" item="12.5" slide="3" chapter="12" course="Math 1010" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.5" slide="3" chapter="12" course="Math 1010" md5="f3b0b0a6bc23e81ed55cd64f1dbde6d8" num="5" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="f448b688d23495292f1b258d4ed95be0" item="12.6" slide="5" chapter="12" course="Math 1010" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.6" slide="5" chapter="12" course="Math 1010" md5="f448b688d23495292f1b258d4ed95be0" num="6" wbtag="defn" type="Definition" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="91baf885e3d214e57ec3f8faebe85b91" item="12.7" slide="6" chapter="12" course="Math 1010" num="7" wbtag="fact" type="Fact" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.7" slide="6" chapter="12" course="Math 1010" md5="91baf885e3d214e57ec3f8faebe85b91" num="7" wbtag="fact" type="Fact" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+        <label item="12.7" slide="6" chapter="12" course="Math 1010" md5="91baf885e3d214e57ec3f8faebe85b91" num="7" wbtag="label" type="Fact" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5" name="partialfractions"/>
+      </branch>
+    </entry>
+    <entry md5="92ea0043eb2c1081f6e22431c39030bd" item="12.8" slide="7" chapter="12" course="Math 1010" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.8" slide="7" chapter="12" course="Math 1010" md5="92ea0043eb2c1081f6e22431c39030bd" num="8" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="9700c0a8dbb6337882a449b17e26af47" item="12.9" slide="7" chapter="12" course="Math 1010" num="9" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.9" slide="7" chapter="12" course="Math 1010" md5="9700c0a8dbb6337882a449b17e26af47" num="9" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="ea373c49db6a710013cbea63bb2d728c" item="12.10" slide="7" chapter="12" course="Math 1010" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.10" slide="7" chapter="12" course="Math 1010" md5="ea373c49db6a710013cbea63bb2d728c" num="10" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="cc9f958deb9eb8f349ac668f2820609d" item="12.11" slide="7" chapter="12" course="Math 1010" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.11" slide="7" chapter="12" course="Math 1010" md5="cc9f958deb9eb8f349ac668f2820609d" num="11" wbtag="eg" type="Example" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5"/>
+    </entry>
+    <entry md5="d16fb3accfdcceb1bc393e9659417717" item="12.12" slide="9" chapter="12" course="Math 1010" title="Unique Factorization of Real Polynomials" num="12" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.12" slide="9" chapter="12" course="Math 1010" md5="d16fb3accfdcceb1bc393e9659417717" title="Unique Factorization of Real Polynomials" num="12" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+        <label item="12.12" slide="9" chapter="12" course="Math 1010" md5="d16fb3accfdcceb1bc393e9659417717" title="Unique Factorization of Real Polynomials" num="12" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5" name="thm:ufd"/>
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Unique Factorization of Real Polynomials</title>
+      </branch>
+    </entry>
+    <entry md5="08893ed5b29692d555cd3dceca8f857d" item="12.13" slide="9" chapter="12" course="Math 1010" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <branch item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="thm" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+        <label item="12.13" slide="9" chapter="12" course="Math 1010" md5="08893ed5b29692d555cd3dceca8f857d" title="Bézout's Identity" num="13" wbtag="label" type="Theorem" chapter_type="Week" environment="statement" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5" name="thm:bezout"/>
+        <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
+      </branch>
+    </entry>
     <ref serial="" class="lcref" md5="f7d93b413dc01d8632fa7a46ff0fab4a" src-filename="week6.xml" item="6.4" type="Theorem" src-slide="5" src-chapter="6" src-course="Math 1010" slide="6" chapter="6" course="Math 1010" wbtag="ref" label="inversederivative" chapter_type="" environment="newcol" filename="week6.xml" file_md5="fcea5d272915eecb990114653c9bf3f3">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Theorem 6.4</title>
     </ref>
@@ -938,6 +925,23 @@
     </ref>
     <ref serial="" class="lcref" md5="88b4fa31b19d0d6154f41a045e07612a" src-filename="week9.xml" item="9.1" type="Theorem" src-slide="3" src-chapter="9" src-course="Math 1010" slide="11" chapter="9" course="Math 1010" wbtag="ref" label="cauchymvt" chapter_type="" environment="newcol" filename="week9.xml" file_md5="d595db3e2fd890a71f7a79d3230e7e7f">
       <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Cauchy's Mean Value Theorem.</title>
+    </ref>
+    <ref serial="10.8" class="lcref" md5="" src-filename="week10.xml" type="Section" src-slide="" src-chapter="10" src-course="Math 1010" slide="3" chapter="12" course="Math 1010" wbtag="ref" label="sec:intbyparts" chapter_type="" environment="newcol" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
+          <paragraphs course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integration by Parts</paragraphs>
+        </title>
+    </ref>
+    <ref serial="" class="lcref" md5="91baf885e3d214e57ec3f8faebe85b91" src-filename="week12.xml" item="12.7" type="Fact" src-slide="6" src-chapter="12" src-course="Math 1010" slide="7" chapter="12" course="Math 1010" wbtag="ref" label="partialfractions" chapter_type="" environment="newcol" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fact 12.7</title>
+    </ref>
+    <ref serial="" class="lcref" md5="91baf885e3d214e57ec3f8faebe85b91" src-filename="week12.xml" item="12.7" type="Fact" src-slide="6" src-chapter="12" src-course="Math 1010" slide="7" chapter="12" course="Math 1010" wbtag="ref" label="partialfractions" chapter_type="" environment="newcol" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Fact 12.7</title>
+    </ref>
+    <ref serial="" class="lcref" md5="d16fb3accfdcceb1bc393e9659417717" src-filename="week12.xml" item="12.12" type="Theorem" src-slide="9" src-chapter="12" src-course="Math 1010" slide="10" chapter="12" course="Math 1010" wbtag="ref" label="thm:ufd" chapter_type="" environment="newcol" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Unique Factorization of Real Polynomials</title>
+    </ref>
+    <ref serial="" class="lcref" md5="08893ed5b29692d555cd3dceca8f857d" src-filename="week12.xml" item="12.13" type="Theorem" src-slide="9" src-chapter="12" src-course="Math 1010" slide="10" chapter="12" course="Math 1010" wbtag="ref" label="thm:bezout" chapter_type="" environment="newcol" filename="week12.xml" file_md5="3b869f4213c2d8f3d1792adff322d7a5">
+      <title xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">Bézout's Identity</title>
     </ref>
     <section serial="10.8" num="8" chapter="10" course="Math 1010" title="Integration by Parts" wbtag="section" type="Section" chapter_type="" environment="" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325">
       <label serial="10.8" num="8" chapter="10" course="Math 1010" title="Integration by Parts" wbtag="label" type="Section" chapter_type="" environment="" filename="week10.xml" file_md5="8764d9af00ddc29e58f783965caee325" name="sec:intbyparts"/>
