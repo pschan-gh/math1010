@@ -301,6 +301,7 @@ Evaluate: <p/><br/><ul>
 @endenumerate
 
 @section{Integration by Parts}
+@label{sec:intbyparts}
 Let $u, v$ be differentiable functions.
 Recall the Product Rule:
 \[

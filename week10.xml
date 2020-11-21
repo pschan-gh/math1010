@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -426,7 +425,7 @@ By a corollary of the mean value theorem, this implies that $F - G$
 is a constant function on $(a, b)$.  That is, there exists $C \in \mathbb{R}$,
 such that $(F - G)(x) = C$ for all $x \in (a, b)$.</paragraphs>
             <newline course="Math 1010" chapter="10" chapter_type="" section="4" subsection="" subsubsection="" environment=""/>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
             <paragraphs course="Math 1010" chapter="10" chapter_type="" section="4" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Put differently, if $F$ is an antiderivative of $f$ over $(a, b)$,
 then any antiderivative of $f$ over $(a, b)$ has the form $F + C$
 for some constant function $C$.</paragraphs>
@@ -453,7 +452,7 @@ We call $f(x)$ the </paragraphs>
 \int f(x) dx = F + C,
 \]
 where $C$ denotes some arbitrary constant. </paragraphs>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
             <newcol course="Math 1010" chapter="10" chapter_type="" section="4" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="99f811eca9b591a05372eca511a0f43b" course="Math 1010" chapter="10" slide="11" item="10.8">
                 <paragraphs course="Math 1010" chapter="10" chapter_type="" section="4" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Since $\frac{d}{dx}\,x^2 = 2x$, we write:
@@ -503,7 +502,7 @@ we have:
                 <paragraphs course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\ds
 \int \frac{1}{x}\,dx = \ln \abs{x} + C.
 $ </paragraphs>
-                <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
                 <paragraphs course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> (This identity is not quite true.  Will explain later.) </paragraphs>
               </col_li>
               <col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
@@ -523,7 +522,7 @@ $ </paragraphs>
               </col_li>
               <col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                 <paragraphs course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> $\displaystyle \int \frac{1}{1 + x^2} \;dx = \arctan x + C.$ </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul"/>
+                <hr xmlns="http://www.w3.org/1999/xhtml" environment="col_ul" />
               </col_li>
               <col_li course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="col_li">
                 <paragraphs course="Math 1010" chapter="10" chapter_type="" section="5" subsection="" subsubsection="" environment="col_ul" wbtag="paragraphs"> For any functions $f$, $g$  with antiderivatives $F$, $G$, respectively,
@@ -612,10 +611,10 @@ $ </paragraphs>
 \] </paragraphs>
               </newcol>
             </substatement>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
             <newcol course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> In Leibniz Notation, the theorem may be formulated as follows: </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="newcol"></p>
               <paragraphs course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $u = g(x)$,  then $\displaystyle \frac{du}{dx} = g'(x)$, and:
 \begin{multline*}
 \int f(g(x))g'(x)\,dx = \int f(u)\frac{du}{dx}\,dx\\
@@ -627,28 +626,28 @@ $ </paragraphs>
             <keywords slide="16" environ="slide" chapter="10" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="13" md5="d1d9ded7102c75d7512039fce58fe979" course="Math 1010" chapter="10" slide="16" item="10.13">
               <paragraphs course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate: </paragraphs>
-              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <p xmlns="http://www.w3.org/1999/xhtml" environment="statement"></p>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int x^2e^{x^3 + 4}\,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int \frac{t}{\sqrt{t + 2}}\,dt$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int \tan x\,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="6" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int \frac{x^5 + x^3 + x}{x^2 + 1}\,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
               </ul>
             </statement>
@@ -699,6 +698,7 @@ $ </paragraphs>
         <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="10" section="8" subsection="" subsubsection="" serial="10.8" slide="">
           <paragraphs course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integration by Parts</paragraphs>
         </title>
+        <label wbtag="label" name="sec:intbyparts" type="Section"/>
         <slides environment="" chapter_type="">
           <slide environment="" chapter_type="Week" canon_num="18" scope="section" id="s18" slide="18" course="Math 1010" chapter="10" section="8" subsection="" subsubsection="" chapter_title="" section_title="Integration by Parts">
             <keywords slide="18" environ="slide" chapter="10" course="Math 1010"/>
@@ -729,33 +729,33 @@ $\displaystyle \int u\,dv = (uv) - \int v\,du$ </paragraphs>
               <ul xmlns="http://www.w3.org/1999/xhtml" environment="statement">
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int xe^{3x} \,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int x^2 e^x \,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int x^5 e^x \,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int x^5 \sin x \,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int \ln x \,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
                 <li environment="statement">
                   <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int e^x \sin x \,dx$</paragraphs>
-                  <br environment="statement"/>
-                  <br environment="statement"/>
+                  <br environment="statement" />
+                  <br environment="statement" />
                 </li>
               </ul>
             </statement>
