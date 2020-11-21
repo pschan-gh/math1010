@@ -181,7 +181,7 @@ s = \cdots (x - a)^m \cdots
 \]
 Then: </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="7" md5="91baf885e3d214e57ec3f8faebe85b91" course="Math 1010" chapter="12" slide="6" item="12.7">
-              <label course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="label" name="partialfractions" type="Fact"/>
+              <label wbtag="label" name="partialfractions" type="Fact"/>
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> The proper rational function $\displaystyle \frac{r}{s}$ may be written as a sum of rational functions as follows:
 \begin{multline*}
 \frac{r}{s}\, = \cdots \\
@@ -219,7 +219,7 @@ Moreover, the denominator factors as follows:
 x^2 - 2x = x (x - 2).
 \]
 Hence, by  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="148" type="Fact" item="12.7" src-filename="weeks1-13.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="6" type="Fact" item="12.7" src-filename="week12.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
                   <title>Fact 12.7</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have:
@@ -275,7 +275,7 @@ where $C$ represents an arbitrary constant.</paragraphs>
 has discriminant $0^2 - 4\cdot 4 &lt; 0$, hence it is irreducible.</paragraphs>
                 <newline course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">By  </paragraphs>
-                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="148" type="Fact" item="12.7" src-filename="weeks1-13.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="partialfractions" wbtag="ref" course="Math 1010" chapter="12" slide="7" src-course="Math 1010" src-chapter="12" src-slide="6" type="Fact" item="12.7" src-filename="week12.xml" md5="91baf885e3d214e57ec3f8faebe85b91" class="lcref" serial="">
                   <title>Fact 12.7</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">, we have:
@@ -537,7 +537,7 @@ where $E$ represents an arbitrary constant.</paragraphs>
             </strong>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="12" title="Unique Factorization of Real Polynomials" md5="d16fb3accfdcceb1bc393e9659417717" course="Math 1010" chapter="12" slide="9" item="12.12">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Unique Factorization of Real Polynomials</title>
-              <label course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:ufd" type="Theorem"/>
+              <label wbtag="label" name="thm:ufd" type="Theorem"/>
               <newcol course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Given any polynomial $f \in \mathbb{R}[x]$,
 that is:
@@ -554,7 +554,7 @@ for some positive integers $n_1, n_2, \ldots, n_l$.  Up to ordering of the irred
             </statement>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="B&#xE9;zout's Identity" md5="08893ed5b29692d555cd3dceca8f857d" course="Math 1010" chapter="12" slide="9" item="12.13">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
-              <label course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="statement" wbtag="label" name="thm:bezout" type="Theorem"/>
+              <label wbtag="label" name="thm:bezout" type="Theorem"/>
               <newcol course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> If $f$ and $g$ are two irreducible polynomials in $\mathbb{R}[x]$ with no common factors, then there exist $a, b\in \mathbb{R}[x]$ such that:
 \[
