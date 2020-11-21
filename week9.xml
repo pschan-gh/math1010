@@ -1,7 +1,6 @@
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
-      <keyword chapter="" slide="all">L'Hopital's Rule</keyword>
       <keyword chapter="" slide="all">Taylor polynomial</keyword>
       <keyword chapter="" slide="all">remainder term</keyword>
       <keyword chapter="" slide="all">Taylor series</keyword>
@@ -21,7 +20,6 @@
     </slides>
     <chapter environment="" chapter_type="Week" type="Chapter" wbtag="week" num="9" title="" topic="L'Hôpital's Rule, Taylor Series" course="Math 1010" serial="9">
       <keywords slide="all" environ="chapter" chapter="9" course="Math 1010">
-        <keyword chapter="9" slide="all">L'Hopital's Rule</keyword>
         <keyword chapter="9" slide="all">Taylor polynomial</keyword>
         <keyword chapter="9" slide="all">remainder term</keyword>
         <keyword chapter="9" slide="all">Taylor series</keyword>
@@ -79,17 +77,15 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
             <newcol course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <div xmlns="http://www.w3.org/1999/xhtml" class="image" style="width: 450px;" environment="newcol">
                 <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg" environment="newcol">
-                  <img width="450" alt="Cauchy" rendered="0" style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol" />
+                  <img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png" environment="newcol" />
                 </a>
               </div>
             </newcol>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="4" id="s4" slide="4" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" chapter_title="" section_title="L'Hôpital's Rule">
             <keywords slide="4" environ="slide" chapter="9" course="Math 1010">
-              <keyword chapter="9" slide="4">L'Hopital's Rule</keyword>
               <keyword chapter="9" slide="4">L'Hôpital's Rule</keyword>
             </keywords>
-            <hc_keyword course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">L'Hopital's Rule</hc_keyword>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="2" title="L'Hôpital's Rule" md5="ae9e3f92545edeb2cdf0ae1d35054d93" course="Math 1010" chapter="9" slide="4" item="9.2">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="9" section="1" subsection="" subsubsection="" serial="" slide="4">L'Hôpital's Rule</title>
               <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
@@ -157,7 +153,7 @@ then intuitively it follows that:
 \lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
 \end{split}
 \]
-( </paragraphs>
+(</paragraphs>
                       <strong xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Optional Exercise</paragraphs>
                       </strong>
@@ -166,8 +162,7 @@ To prove the above equality rigorously, one could, for example, apply the </para
                       <a xmlns="http://www.w3.org/1999/xhtml" href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank" environment="newcol">
                         <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> sequential criterion for the limit of a function</paragraphs>
                       </a>
-                      <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> .
-) </paragraphs>
+                      <paragraphs course="Math 1010" chapter="9" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.) </paragraphs>
                     </collapse>
                   </collapse>
                 </collapse>
