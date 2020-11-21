@@ -2,7 +2,7 @@
 @week{9}
 @topic{L'Hôpital's Rule}
 @topic{Taylor Series}
-@slide
+@section{L'Hôpital's Rule}
 @thm
 @title{Cauchy's Mean Value Theorem.}
 @label{cauchymvt}
@@ -24,7 +24,7 @@ h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 @newcol
 <div class="image" style="width: 450px;">
 <a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
-<img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
+<img width="450" alt="Cauchy" rendered="0" style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
 @endcol
 @slide
 @keyword*{L'Hopital's Rule}
@@ -87,7 +87,7 @@ To prove the above equality rigorously, one could, for example, apply the <a hre
 )
 @endcol
 @end
-@section{Indeterminate Forms}
+@subsection{Indeterminate Forms}
 <hr/><ul>
 <li> $\frac{0}{0}$
 <hr/></li>
@@ -388,7 +388,7 @@ it <i>
 \lim_{x \rightarrow \infty} \frac{x + \sin x}{x}
 \]
 @end
-@slide
+@section{Taylor Series}
 @keyword*{Taylor polynomial}
 @defn
 Given a function $f$ which is $n$ times differentiable at $a$.
