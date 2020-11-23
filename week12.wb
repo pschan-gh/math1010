@@ -40,7 +40,7 @@ Hence:
 \end{multline*}
 Dividing both sides of the equation by $n$, we obtain:
 \[
-\int \cos^n x \,dx = \frac{1}{n}\sin x \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
+\int \cos^n x \,dx = \frac{1}{n} \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
 \]
 @endcol
 @end
@@ -281,16 +281,16 @@ x^2: & \quad & 0 &= -6A + B - 2C + 27/13 \label{eq2}\\
 x: & \quad & 0   &= 9A -6B - 2C + 27/13 \label{eq1} \\
 1: & \quad & 0 &= 9B -3C  + 27/13 \label{eq0}
 \end{align}
-Subtracting equation \eqref{eq2} from equation \eqref{eq1}, we have:
+Subtracting equation $\eqref{eq2}$ from equation $\eqref{eq1}$, we have:
 \[
 0 = 15A - 7B,
 \]
 which implies that $B = 15A/7$.
-Combining this with equation \eqref{eq3}, we have:
+Combining this with equation $\eqref{eq3}$, we have:
 \[
 B = 15(1 - C)/7 = 15/7 - 15C/7.
 \]
-It now follows from equation \eqref{eq0} that:
+It now follows from equation $\eqref{eq0}$ that:
 \[
 0 = 135/7 - 135C/7 - 3C + 27/13.
 \]

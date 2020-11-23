@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <document xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach">
   <course environment="" chapter_type="" type="Course" wbtag="course" title="Math 1010">
     <keywords slide="all" environ="course" chapter="" course="Math 1010">
@@ -48,7 +47,7 @@
 \underbrace{\int x^n e^x\,dx}_{I_n} = x^ne ^x - n \underbrace{\int x^{n - 1}e^x\,dx}_{I_{n - 1}}.
 \] </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="146b0f0237a8957e0a1ffa0b08242881" course="Math 1010" chapter="12" slide="3" item="12.2">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="2" md5="3ad1f7dd6cc40ff10cb39314fb2f15d5" course="Math 1010" chapter="12" slide="3" item="12.2">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For $n \geq 2$,
 \[
 \int \cos^n x\, dx = \frac{1}{n}\,\cos^{n - 1} x \sin x
@@ -63,7 +62,7 @@ dU = -(n - 1)\cos^{n - 2} x \sin x\, dx, \quad V = \sin x.
 It follows from </paragraphs>
                 <ref environment="newcol" chapter_type="" label="sec:intbyparts" wbtag="ref" course="Math 1010" chapter="12" slide="3" src-course="Math 1010" src-chapter="10" src-slide="" type="Section" src-filename="week10.xml" md5="" class="lcref" serial="10.8">
                   <title>
-          <paragraphs course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integration by Parts</paragraphs>
+          <paragraphs xmlns:xh="http://www.w3.org/1999/xhtml" course="Math 1010" chapter="10" chapter_type="" section="8" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Integration by Parts</paragraphs>
         </title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
@@ -84,7 +83,7 @@ Hence:
 \end{multline*}
 Dividing both sides of the equation by $n$, we obtain:
 \[
-\int \cos^n x \,dx = \frac{1}{n}\sin x \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
+\int \cos^n x \,dx = \frac{1}{n} \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
 \] </paragraphs>
               </newcol>
             </statement>
@@ -169,7 +168,7 @@ where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational 
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="6" id="s6" slide="6" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" chapter_title="" section_title="Partial Fractions">
             <keywords slide="6" environ="slide" chapter="12" course="Math 1010"/>
             <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\displaystyle \frac{r}{s}$ be a proper rational function. </paragraphs>
-            <p xmlns="http://www.w3.org/1999/xhtml" environment=""/>
+            <p xmlns="http://www.w3.org/1999/xhtml" environment=""></p>
             <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Factor $s$ as a product of powers of distinct irreducible factors:
 \[
 s = \cdots (x - a)^m \cdots
@@ -194,8 +193,8 @@ where the $A_i, B_i, C_i$ are constants. </paragraphs>
             <keywords slide="7" environ="slide" chapter="12" course="Math 1010"/>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="8" md5="92ea0043eb2c1081f6e22431c39030bd" course="Math 1010" chapter="12" slide="7" item="12.8">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$ </paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <newcol course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Performing long division for polynomials, we have:
 \[
@@ -262,8 +261,8 @@ where $C$ represents an arbitrary constant.</paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="9" md5="9700c0a8dbb6337882a449b17e26af47" course="Math 1010" chapter="12" slide="7" item="12.9">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int \frac{x}{(x^2 + 4)(x - 3)}\,dx$</paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <newcol course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> First we note that the integrand is a proper rational function.</paragraphs>
                 <newline course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
@@ -339,8 +338,8 @@ where $D$ represents an arbitrary constant. </paragraphs>
             </statement>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="ea373c49db6a710013cbea63bb2d728c" course="Math 1010" chapter="12" slide="7" item="12.10">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> $\displaystyle \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx$</paragraphs>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
-              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement"/>
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
+              <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <newcol course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> First, we observe that:
 \[
@@ -377,16 +376,16 @@ x^2: &amp; \quad &amp; 0 &amp;= -6A + B - 2C + 27/13 \label{eq2}\\
 x: &amp; \quad &amp; 0   &amp;= 9A -6B - 2C + 27/13 \label{eq1} \\
 1: &amp; \quad &amp; 0 &amp;= 9B -3C  + 27/13 \label{eq0}
 \end{align}
-Subtracting equation \eqref{eq2} from equation \eqref{eq1}, we have:
+Subtracting equation $\eqref{eq2}$ from equation $\eqref{eq1}$, we have:
 \[
 0 = 15A - 7B,
 \]
 which implies that $B = 15A/7$.
-Combining this with equation \eqref{eq3}, we have:
+Combining this with equation $\eqref{eq3}$, we have:
 \[
 B = 15(1 - C)/7 = 15/7 - 15C/7.
 \]
-It now follows from equation \eqref{eq0} that:
+It now follows from equation $\eqref{eq0}$ that:
 \[
 0 = 135/7 - 135C/7 - 3C + 27/13.
 \]
@@ -548,7 +547,7 @@ f = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l}
 for some positive integers $n_1, n_2, \ldots, n_l$.  Up to ordering of the irreducible factors, this factorization is unique. </paragraphs>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="B&#xE9;zout's Identity" md5="08893ed5b29692d555cd3dceca8f857d" course="Math 1010" chapter="12" slide="9" item="12.13">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="Bézout's Identity" md5="08893ed5b29692d555cd3dceca8f857d" course="Math 1010" chapter="12" slide="9" item="12.13">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">Bézout's Identity</title>
               <label wbtag="label" name="thm:bezout" type="Theorem"/>
               <newcol course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
