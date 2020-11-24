@@ -530,3 +530,126 @@ Hence, $h = 0$.  It follows that:
 \frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j}
 \]
 @endcol
+@section{$t$-Substitution}
+@eg
+Evaluate:
+\[
+\int \frac{1}{1 + 2\cos x}\,dx
+\]
+@col
+Let:
+\[
+t = \tan \frac{x}{2}.
+\]
+<!--
+(Here, we are assuming that $x \in (-\pi, \pi)$).
+-->
+Then,
+
+@col
+\[
+x = 2\arctan t,
+\]
+\[
+dx = \frac{2}{1 + t^2}dt
+\]
+Moreover,
+
+@col
+by the double-angle formula for the sine function, we have:
+\[
+\begin{split}
+\sin x  &= 2\sin\frac{x}{2}\cos\frac{x}{2}\\
+&= 2\frac{\sin\frac{x}{2}}{\cos\frac{x}{2}}\cos^2\frac{x}{2}\\
+&= \frac{2\tan\frac{x}{2}}{\sec^2\frac{x}{2}}\\
+&= \frac{2t}{1 + t^2}
+\end{split}
+\]
+@col
+Similarly, by the double-angle formula for the cosine function, we have:
+\[
+\begin{split}
+\cos x &= 1 - 2\sin^2\frac{x}{2}\\
+&= 1 - 2 \tan^2\frac{x}{2}\cos^2\frac{x}{2}\\
+&= 1 - \frac{2\tan^2\frac{x}{2}}{\sec^2\frac{x}{2}}\\
+&= 1 - \frac{2t^2}{1 + t^2}\\
+&= \frac{1 - t^2}{1 + t^2}
+\end{split}
+\]
+@col
+We have:
+@steps
+\[
+\begin{split}
+\int \frac{1}{1 + 2\cos x}\,dx 
+& 
+@nstep{= \int \frac{1}{1 + 2\left(\frac{1 - t^2}{1 + t^2}\right)}\frac{2}{1 + t^2}\,dt}
+\\
+&
+@nstep{= 
+\int \frac{2}{3 - t^2}\,dt
+}
+\\
+&
+@nstep{= \frac{1}{\sqrt{3}}
+\int \left(\frac{1}{\sqrt{3} + t} + \frac{1}{\sqrt{3} - t}\right) \,dt
+}
+\\
+&
+@nstep{= \frac{1}{\sqrt{3}}\left(\ln\abs{\sqrt{3} + t} - \ln\abs{\sqrt{3} - t}\right) + C}
+\\
+&
+@nstep{= \frac{1}{\sqrt{3}}
+\ln\abs{\frac{\sqrt{3} + \tan\frac{x}{2}}{\sqrt{3} - \tan\frac{x}{2}}} + C,
+}
+\end{split}
+\]
+@endsteps
+@col
+where $C$ is an arbitrary constant.
+@end
+@eg
+@col
+Evaluate:
+\[
+\int \frac{1}{1 + \sin x + \cos x} dx
+\]
+@col
+Let $t = \tan\frac{x}{2}$.
+Then:
+\[
+\begin{split} 
+dx &= \dfrac{2}{1 + t^2}dt\\
+\sin x &= \frac{2}{1 + t^2}\\
+\cos x &= \frac{1 - t^2}{1 + t^2}
+\end{split}
+\]
+@col
+@steps
+\[
+\begin{split}
+\int \frac{1}{1 + \sin x + \cos x} dx
+&=
+\int \frac{\frac{2}{1 + t^2}dt}{1 + \frac{2}{1 + t^2} + \frac{1 - t^2}{1 + t^2}}
+\\&
+@nstep{
+\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt
+}
+\\&
+@nstep{
+\ln\abs{1 + t} + C
+}
+\\&
+@nstep{
+\ln \abs{1 + \tan \frac{x}{2}} + C
+}
+\\&
+@nstep{
+\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,
+}
+\end{split}
+\]
+@endsteps
+@col
+where $C$ is an arbitrary constant.
+@end
