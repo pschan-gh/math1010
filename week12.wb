@@ -76,7 +76,7 @@ For $n \geq 3$,
 @keyword*{proper rational function}
 @defn
 A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
-is said to be <strong>proper</strong> if:
+is said to be <strong style="">proper</strong> if:
 \[
 \deg r < \deg s.
 \]
@@ -85,15 +85,15 @@ By performing long division of polynomials,
 any rational function $\displaystyle \frac{p}{q}$, where $p, q$ are polynomials, may be expressed
 in the form:
 \[
-\frac{p}{q} = g + \frac{r}{s},
+\frac{p}{q} = g + \frac{r}{q},
 \]
-where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational function.
+where $g$ is a polynomial, and $\displaystyle \frac{r}{q}$ is a proper rational function.
 @slide
-Let $\displaystyle \frac{r}{s}$ be a proper rational function. <p/>
+Let $\displaystyle \frac{r}{s}$ be a proper rational function. <p style=""/>
 Factor $s$ as a product of powers of distinct irreducible factors:
 \[
 s = \cdots (x - a)^m \cdots
-(\underbrace{x^2 + bx + c}_{\text{irreducible}\\\text{i.e. } b^2 - 4c < 0})^n \cdots.
+(\underbrace{x^2 + bx + c}_{\text{irreducible }\\\text{i.e. } b^2 - 4c < 0})^n \cdots.
 \]
 Then:
 @fact
@@ -536,7 +536,7 @@ Evaluate:
 \[
 \int \frac{1}{1 + 2\cos x}\,dx
 \]
-@col
+@newcol
 Let:
 \[
 t = \tan \frac{x}{2}.
@@ -581,35 +581,33 @@ We have:
 @steps
 \[
 \begin{split}
-\int \frac{1}{1 + 2\cos x}\,dx 
-& 
+\int \frac{1}{1 + 2\cos x}\,dx
+&
 @nstep{= \int \frac{1}{1 + 2\left(\frac{1 - t^2}{1 + t^2}\right)}\frac{2}{1 + t^2}\,dt}
 \\
 &
-@nstep{= 
-\int \frac{2}{3 - t^2}\,dt
-}
+@nstep{=
+\int \frac{2}{3 - t^2}\,dt}
 \\
 &
 @nstep{= \frac{1}{\sqrt{3}}
-\int \left(\frac{1}{\sqrt{3} + t} + \frac{1}{\sqrt{3} - t}\right) \,dt
-}
+\int \left(\frac{1}{\sqrt{3} + t} + \frac{1}{\sqrt{3} - t}\right) \,dt}
 \\
 &
 @nstep{= \frac{1}{\sqrt{3}}\left(\ln\abs{\sqrt{3} + t} - \ln\abs{\sqrt{3} - t}\right) + C}
 \\
 &
 @nstep{= \frac{1}{\sqrt{3}}
-\ln\abs{\frac{\sqrt{3} + \tan\frac{x}{2}}{\sqrt{3} - \tan\frac{x}{2}}} + C,
-}
+\ln\abs{\frac{\sqrt{3} + \tan\frac{x}{2}}{\sqrt{3} - \tan\frac{x}{2}}} + C,}
 \end{split}
 \]
 @endsteps
 @col
 where $C$ is an arbitrary constant.
+@endcol
 @end
 @eg
-@col
+@newcol
 Evaluate:
 \[
 \int \frac{1}{1 + \sin x + \cos x} dx
@@ -618,9 +616,9 @@ Evaluate:
 Let $t = \tan\frac{x}{2}$.
 Then:
 \[
-\begin{split} 
+\begin{split}
 dx &= \dfrac{2}{1 + t^2}dt\\
-\sin x &= \frac{2}{1 + t^2}\\
+\sin x &= \frac{2t}{1 + t^2}\\
 \cos x &= \frac{1 - t^2}{1 + t^2}
 \end{split}
 \]
@@ -630,26 +628,19 @@ dx &= \dfrac{2}{1 + t^2}dt\\
 \begin{split}
 \int \frac{1}{1 + \sin x + \cos x} dx
 &=
-\int \frac{\frac{2}{1 + t^2}dt}{1 + \frac{2}{1 + t^2} + \frac{1 - t^2}{1 + t^2}}
+\int \frac{\frac{2}{1 + t^2}dt}{1 + \frac{2t}{1 + t^2} + \frac{1 - t^2}{1 + t^2}}
 \\&
-@nstep{
-\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt
-}
+@nstep{\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt}
 \\&
-@nstep{
-\ln\abs{1 + t} + C
-}
+@nstep{\ln\abs{1 + t} + C}
 \\&
-@nstep{
-\ln \abs{1 + \tan \frac{x}{2}} + C
-}
+@nstep{\ln \abs{1 + \tan \frac{x}{2}} + C}
 \\&
-@nstep{
-\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,
-}
+@nstep{\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,}
 \end{split}
 \]
 @endsteps
 @col
 where $C$ is an arbitrary constant.
+@endcol
 @end
