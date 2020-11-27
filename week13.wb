@@ -2,6 +2,7 @@
 @week{13}
 @topic{Definite Integrals}
 @section{Motivation}
+<br/>
 Given a continuous function over a closed interval.
 We want to approximate the area of the region
 bounded by the graph of the function and the $x$-axis.
@@ -395,6 +396,7 @@ It now follows from @ref{ftcicor} that:
 @slide
 @thm
 @title{Fundamental Theorem of Calculus Part II}
+@label{thm:ftc2}
 Let $f$ be a continuous function on $[a, b]$.
 Let $F$ be a continuous function on $[a, b]$
 which is an antiderivative of $f$ over $(a, b)$.
