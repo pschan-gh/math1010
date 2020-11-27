@@ -41,6 +41,7 @@
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="1" subsection="" subsubsection="" serial="" slide="3">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Reduction Formulas</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Let $\displaystyle n \in \mathbb{N}$. </paragraphs>
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="1" md5="3bc09525ab53959f8276e5ad137b4c47" course="Math 1010" chapter="12" slide="3" item="12.1">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> \[
@@ -119,6 +120,7 @@ Dividing both sides of the equation by $n$, we obtain:
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="2" subsection="" subsubsection="" serial="" slide="4">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <enumerate course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
               <item course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                 <webwork course="Math 1010" chapter="12" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/UCSB/Stewart5_7_1/Stewart5_7_1_50.pg"/>
@@ -145,6 +147,7 @@ Dividing both sides of the equation by $n$, we obtain:
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="3" subsection="" subsubsection="" serial="" slide="5">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Partial Fractions</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <hc_keyword course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">proper rational function</hc_keyword>
             <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="6" md5="f448b688d23495292f1b258d4ed95be0" course="Math 1010" chapter="12" slide="5" item="12.6">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
@@ -464,6 +467,7 @@ where $E$ represents an arbitrary constant.</paragraphs>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="4" subsection="" subsubsection="" serial="" slide="8">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="title" wbtag="paragraphs">WeBWorK</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <enumerate course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
               <item course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                 <webwork course="Math 1010" chapter="12" chapter_type="" section="4" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Rochester/setIntegrals25RationalFunctions/S07.04.PartialFractions.PTP15.pg"/>
@@ -527,6 +531,7 @@ where $E$ represents an arbitrary constant.</paragraphs>
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="5" subsection="" subsubsection="" serial="" slide="9">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="title" wbtag="paragraphs">How Does Partial Fractions Decomposition Work?</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <strong xmlns="http://www.w3.org/1999/xhtml" environment="">
               <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="12" chapter_type="" section="5" subsection="" subsubsection="" environment="" wbtag="paragraphs"> This section is optional.  You don't have to study it for Math 1010. </paragraphs>
             </strong>
@@ -703,6 +708,7 @@ $\deg h + \deg q \geq \deg q &gt; \deg p$, contradicting the equality of the two
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="12" section="6" subsection="" subsubsection="" serial="" slide="11">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="6" subsection="" subsubsection="" environment="title" wbtag="paragraphs">$t$-Substitution</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="14" md5="c0b17d2fcbb10b7dc1be1af577a67a16" course="Math 1010" chapter="12" slide="11" item="12.14">
               <paragraphs course="Math 1010" chapter="12" chapter_type="" section="6" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Evaluate:
 \[
@@ -807,13 +813,13 @@ dx &amp;= \dfrac{2}{1 + t^2}dt\\
 &amp;=
 \int \frac{\frac{2}{1 + t^2}dt}{1 + \frac{2t}{1 + t^2} + \frac{1 - t^2}{1 + t^2}}
 \\&amp;
-\class{steps}{\cssId{step0}{\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt}}
+\class{steps}{\cssId{step0}{=\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt}}
 \\&amp;
-\class{steps}{\cssId{step1}{\ln\abs{1 + t} + C}}
+\class{steps}{\cssId{step1}{=\ln\abs{1 + t} + C}}
 \\&amp;
-\class{steps}{\cssId{step2}{\ln \abs{1 + \tan \frac{x}{2}} + C}}
+\class{steps}{\cssId{step2}{=\ln \abs{1 + \tan \frac{x}{2}} + C}}
 \\&amp;
-\class{steps}{\cssId{step3}{\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,}}
+\class{steps}{\cssId{step3}{=\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,}}
 \end{split}
 \]
 </steps>

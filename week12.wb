@@ -4,6 +4,7 @@
 @topic{Reduction Formulas}
 @topic{Partial Fractions}
 @section{Reduction Formulas}
+<br/>
 Let $\displaystyle n \in \mathbb{N}$.
 @eg
 \[
@@ -64,6 +65,7 @@ For $n \geq 3$,
 \]
 @end
 @section{WeBWorK}
+<br/>
 @enumerate
 @item
 @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_50.pg}
@@ -73,7 +75,7 @@ For $n \geq 3$,
 @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_49.pg}
 @endenumerate
 @section{Partial Fractions}
-@keyword*{proper rational function}
+<br/>@keyword*{proper rational function}
 @defn
 A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
 is said to be <strong style="">proper</strong> if:
@@ -357,6 +359,7 @@ It now follows that:
 $\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
 @end
 @section{WeBWorK}
+<br/>
 @enumerate
 @item
 @webwork{Library/Rochester/setIntegrals25RationalFunctions/S07.04.PartialFractions.PTP15.pg}
@@ -390,7 +393,7 @@ $\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
 @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_39.pg}
 @endenumerate
 @section{How Does Partial Fractions Decomposition Work?}
-<strong> This section is optional.  You don't have to study it for Math 1010. </strong>
+<br/><strong> This section is optional.  You don't have to study it for Math 1010. </strong>
 @thm
 @title{Unique Factorization of Real Polynomials}
 @label{thm:ufd}
@@ -531,6 +534,7 @@ Hence, $h = 0$.  It follows that:
 \]
 @endcol
 @section{$t$-Substitution}
+<br/>
 @eg
 Evaluate:
 \[
@@ -630,13 +634,13 @@ dx &= \dfrac{2}{1 + t^2}dt\\
 &=
 \int \frac{\frac{2}{1 + t^2}dt}{1 + \frac{2t}{1 + t^2} + \frac{1 - t^2}{1 + t^2}}
 \\&
-@nstep{\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt}
+@nstep{=\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt}
 \\&
-@nstep{\ln\abs{1 + t} + C}
+@nstep{=\ln\abs{1 + t} + C}
 \\&
-@nstep{\ln \abs{1 + \tan \frac{x}{2}} + C}
+@nstep{=\ln \abs{1 + \tan \frac{x}{2}} + C}
 \\&
-@nstep{\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,}
+@nstep{=\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,}
 \end{split}
 \]
 @endsteps
