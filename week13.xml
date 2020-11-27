@@ -47,6 +47,7 @@
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="3">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Motivation</paragraphs>
             </title>
+            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Given a continuous function over a closed interval.
 We want to approximate the area of the region
 bounded by the graph of the function and the $x$-axis.</paragraphs>
@@ -581,6 +582,7 @@ It now follows from </paragraphs>
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="Fundamental Theorem of Calculus Part II" md5="246b618e8c95c3e171594b072375a33a" course="Math 1010" chapter="13" slide="15" item="13.13">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="15">Fundamental Theorem of Calculus Part II</title>
+              <label wbtag="label" name="thm:ftc2" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a continuous function on $[a, b]$.
 Let $F$ be a continuous function on $[a, b]$
 which is an antiderivative of $f$ over $(a, b)$.
