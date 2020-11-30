@@ -47,7 +47,6 @@
             <title environment="title" chapter_type="Week" wbtag="title" scope="section" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="3">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="title" wbtag="paragraphs">Motivation</paragraphs>
             </title>
-            <br xmlns="http://www.w3.org/1999/xhtml" environment="" />
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Given a continuous function over a closed interval.
 We want to approximate the area of the region
 bounded by the graph of the function and the $x$-axis.</paragraphs>
