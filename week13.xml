@@ -252,16 +252,6 @@ For all $a, b, c \in I$, we have:
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="9" id="s9" slide="9" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
             <keywords slide="9" environ="slide" chapter="13" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="71b42a6c0839a08bc1723f134a477f9d" course="Math 1010" chapter="13" slide="9" item="13.5">
-              <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f, g$ be continuous functions on $[a, b]$.
-If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
-\[
-\int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
-\] </paragraphs>
-            </statement>
-          </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="10" environ="slide" chapter="13" course="Math 1010"/>
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $f$ is an odd continuous function, then:</paragraphs>
             <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
@@ -286,6 +276,16 @@ If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
 \int_{-a}^a f(x) dx = 2\int_0^a f(x) dx
 \] </paragraphs>
             </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="10" environ="slide" chapter="13" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="5" md5="71b42a6c0839a08bc1723f134a477f9d" course="Math 1010" chapter="13" slide="10" item="13.5">
+              <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f, g$ be continuous functions on $[a, b]$.
+If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
+\[
+\int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
+\] </paragraphs>
+            </statement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
             <keywords slide="11" environ="slide" chapter="13" course="Math 1010">

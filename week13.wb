@@ -138,14 +138,6 @@ For all $a, b, c \in I$, we have:
 \]
 @end
 @slide
-@claim
-Let $f, g$ be continuous functions on $[a, b]$.
-If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
-\[
-\int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
-\]
-@end
-@slide
 If $f$ is an odd continuous function, then:
 
 @newcol
@@ -170,6 +162,14 @@ If $f$ is an even continuous function, then:
 \int_{-a}^a f(x) dx = 2\int_0^a f(x) dx
 \]
 @endcol
+@slide
+@claim
+Let $f, g$ be continuous functions on $[a, b]$.
+If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
+\[
+\int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
+\]
+@end
 @slide
 @keyword*{area of a region}
 @eg
