@@ -2,7 +2,6 @@
 @week{13}
 @topic{Definite Integrals}
 @section{Motivation}
-<br/>
 Given a continuous function over a closed interval.
 We want to approximate the area of the region
 bounded by the graph of the function and the $x$-axis.
