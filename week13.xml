@@ -5,6 +5,8 @@
       <keyword chapter="" slide="all">definite integral</keyword>
       <keyword chapter="" slide="all">Integration by Substitution</keyword>
       <keyword chapter="" slide="all">Integration by Parts</keyword>
+      <keyword chapter="" slide="all">Integration by Trigonometric Substitution</keyword>
+      <keyword chapter="" slide="all">Reduction Formulas</keyword>
       <keyword chapter="" slide="all">area of a region</keyword>
       <keyword chapter="" slide="all">Mean Value Theorem for Integrals</keyword>
       <keyword chapter="" slide="all">Fundamental Theorem of Calculus Part I</keyword>
@@ -23,6 +25,8 @@
         <keyword chapter="13" slide="all">definite integral</keyword>
         <keyword chapter="13" slide="all">Integration by Substitution</keyword>
         <keyword chapter="13" slide="all">Integration by Parts</keyword>
+        <keyword chapter="13" slide="all">Integration by Trigonometric Substitution</keyword>
+        <keyword chapter="13" slide="all">Reduction Formulas</keyword>
         <keyword chapter="13" slide="all">area of a region</keyword>
         <keyword chapter="13" slide="all">Mean Value Theorem for Integrals</keyword>
         <keyword chapter="13" slide="all">Fundamental Theorem of Calculus Part I</keyword>
@@ -163,6 +167,8 @@ is continuous.) </paragraphs>
             <keywords slide="7" environ="slide" chapter="13" course="Math 1010">
               <keyword chapter="13" slide="7">Integration by Substitution</keyword>
               <keyword chapter="13" slide="7">Integration by Parts</keyword>
+              <keyword chapter="13" slide="7">Integration by Trigonometric Substitution</keyword>
+              <keyword chapter="13" slide="7">Reduction Formulas</keyword>
             </keywords>
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> Our eventual goal is to show that if $F$ is an antiderivative of a continuous function
 $f$, then:
@@ -170,28 +176,56 @@ $f$, then:
 \int_a^b f(x)\,dx = F(x)\bigg|_a^b := F(b) - F(a).
 \] </paragraphs>
             <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
-            <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
-              <ul xmlns="http://www.w3.org/1999/xhtml" environment="newcol">
-                <li environment="newcol">
-                  <h5 environment="newcol">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Integration by Substitution</paragraphs>
-                  </h5>
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+            <ul xmlns="http://www.w3.org/1999/xhtml" environment="">
+              <li environment="">
+                <h5 environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Integration by Substitution</paragraphs>
+                </h5>
+                <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \int_a^b f(u(x))u'(x)\,dx = \int_{u(a)}^{u(b)} f(u)\,du
 = F(u(b)) - F(u(a))
 \]
 if $F$ is an antiderivative of $f$. </paragraphs>
-                </li>
-                <li environment="newcol">
-                  <h5 environment="newcol">
-                    <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">Integration by Parts</paragraphs>
-                  </h5>
-                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+                </newcol>
+              </li>
+              <li environment="">
+                <h5 environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Integration by Parts</paragraphs>
+                </h5>
+                <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
 \int_a^b u(x) v'(x)dx = u(x)v(x)\bigg|_a^b - \int_a^b v(x)u'(x)\,dx.
 \] </paragraphs>
-                </li>
-              </ul>
-              <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                </newcol>
+              </li>
+              <li environment="">
+                <h5 environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Integration by Trigonometric Substitution</paragraphs>
+                </h5>
+                <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                  <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol"/>
+                  <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">\[
+\int_{-3}^3 \frac{dx}{\sqrt{3^2 + x^2}}
+= \int_{-\pi/4}^{\pi/4} \cos\theta \sec^2\theta d\theta
+\] </paragraphs>
+                </newcol>
+              </li>
+              <li environment="">
+                <h5 environment="">
+                  <paragraphs xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">Reduction Formulas</paragraphs>
+                </h5>
+                <newcol xmlns="http://www.math.cuhk.edu.hk/~pschan/cranach" course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+                  <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\int_0^{\pi/2} \cos^n x\, dx
+= \left.\left(\frac{1}{n}\,\cos^{n - 1} x \sin x\right)\right|_0^{\pi/2}
++ \frac{n - 1}{n}\int_0^{\pi/2} \cos^{n - 2} x\,dx.
+\] </paragraphs>
+                </newcol>
+              </li>
+            </ul>
+            <hr xmlns="http://www.w3.org/1999/xhtml" environment="" />
+            <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Before we prove the main theorem,
 we first state a couple of preliminary results. </paragraphs>
             </newcol>
@@ -227,11 +261,38 @@ If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
             </statement>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="10" id="s10" slide="10" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="10" environ="slide" chapter="13" course="Math 1010">
-              <keyword chapter="13" slide="10">area of a region</keyword>
+            <keywords slide="10" environ="slide" chapter="13" course="Math 1010"/>
+            <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> If $f$ is an odd continuous function, then:</paragraphs>
+            <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+\begin{align*}
+\int_{-a}^a f(x) dx &amp;
+\class{steps}{\cssId{step0}{= \int_{-a}^0 f(x) dx + \int_0^a f(x) dx}}
+\\&amp;
+\class{steps}{\cssId{step1}{= \int_{-a}^0(f(-x)) dx + \int_0^a f(x) dx}}
+\\&amp;
+\class{steps}{\cssId{step2}{= \underbrace{-\int_{t = 0}^{t = a}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}}
+\\&amp;
+\class{steps}{\cssId{step3}{= 0}}
+\end{align*}
+</steps>
+            </newcol>
+            <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs">If $f$ is an even continuous function, then:</paragraphs>
+            <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
+            <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
+              <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
+\int_{-a}^a f(x) = 2\int_0^a f(x) dx
+\] </paragraphs>
+            </newcol>
+          </slide>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="11" environ="slide" chapter="13" course="Math 1010">
+              <keyword chapter="13" slide="11">area of a region</keyword>
             </keywords>
             <hc_keyword course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="hc_keyword" class="hidden">area of a region</hc_keyword>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="8e0f4d5d5a428d7698faa949acfc3654" course="Math 1010" chapter="13" slide="10" item="13.6">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="6" md5="8e0f4d5d5a428d7698faa949acfc3654" course="Math 1010" chapter="13" slide="11" item="13.6">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find the area of the region in the $xy$-plane bounded between the graph of $y = x^2 - 2x - 3$ and the $x$-axis over
 the interval $[1, 5]$. </paragraphs>
               <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
@@ -298,11 +359,11 @@ over the interval $[1, 5]$: </paragraphs>
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="11" id="s11" slide="11" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="11" environ="slide" chapter="13" course="Math 1010">
-              <keyword chapter="13" slide="11">Mean Value Theorem for Integrals</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="12" environ="slide" chapter="13" course="Math 1010">
+              <keyword chapter="13" slide="12">Mean Value Theorem for Integrals</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="1194f9d40a968cdf22a5c626d3d06e89" course="Math 1010" chapter="13" slide="11" item="13.7">
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="7" md5="1194f9d40a968cdf22a5c626d3d06e89" course="Math 1010" chapter="13" slide="12" item="13.7">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (</paragraphs>
               <inline_keyword course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Mean Value Theorem for Integrals</inline_keyword>
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">)
@@ -312,7 +373,7 @@ There exists $c \in [a, b]$ such that:
 f(c) = \frac{1}{b - a}\,\int_a^b f(x)\,dx.
 \] </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="45115378efb397a37165a0fdd1a54307" course="Math 1010" chapter="13" slide="11" of="1194f9d40a968cdf22a5c626d3d06e89">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="45115378efb397a37165a0fdd1a54307" course="Math 1010" chapter="13" slide="12" of="1194f9d40a968cdf22a5c626d3d06e89">
               <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Since $f$ is continuous on $[a, b]$, by the Extreme Value Theorem
 it has a maximum value $M$ and minimum value $m$ on $[a, b]$.</paragraphs>
@@ -355,12 +416,12 @@ This $c$ lies in $[a, b]$, since $x_1, x_2$ lies in $[a, b]$. </paragraphs>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="12" id="s12" slide="12" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="12" environ="slide" chapter="13" course="Math 1010">
-              <keyword chapter="13" slide="12">Fundamental Theorem of Calculus Part I</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="13" environ="slide" chapter="13" course="Math 1010">
+              <keyword chapter="13" slide="13">Fundamental Theorem of Calculus Part I</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Fundamental Theorem of Calculus Part I" md5="5a73752c9025d70a4c5ef118ea05024b" course="Math 1010" chapter="13" slide="12" item="13.8">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="12">Fundamental Theorem of Calculus Part I</title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="8" title="Fundamental Theorem of Calculus Part I" md5="5a73752c9025d70a4c5ef118ea05024b" course="Math 1010" chapter="13" slide="13" item="13.8">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="13">Fundamental Theorem of Calculus Part I</title>
               <label wbtag="label" name="ftc1" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a continuous function on $[a, b]$.
 Define a function $F : [a, b] \longrightarrow \mathbb{R}$ as follows:
@@ -380,7 +441,7 @@ Equivalently:</paragraphs>
 \] </paragraphs>
               </newcol>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6e96636d25b29e43728f93892a0e99a6" course="Math 1010" chapter="13" slide="12" of="5a73752c9025d70a4c5ef118ea05024b">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="6e96636d25b29e43728f93892a0e99a6" course="Math 1010" chapter="13" slide="13" of="5a73752c9025d70a4c5ef118ea05024b">
               <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By definition:
 \[
@@ -414,9 +475,9 @@ and $f$ is continuous. </paragraphs>
               </newcol>
             </substatement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="13" id="s13" slide="13" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="13" environ="slide" chapter="13" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="9" md5="178d029790ae3be10c77d6253dacf8ba" course="Math 1010" chapter="13" slide="13" item="13.9">
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="14" environ="slide" chapter="13" course="Math 1010"/>
+            <statement environment="statement" chapter_type="Week" type="Corollary" wbtag="cor" num="9" md5="178d029790ae3be10c77d6253dacf8ba" course="Math 1010" chapter="13" slide="14" item="13.9">
               <label wbtag="label" name="ftcicor" type="Corollary"/>
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a continuous function.
 Let $g$ and $h$ be differentiable functions.  Then:
@@ -425,7 +486,7 @@ Let $g$ and $h$ be differentiable functions.  Then:
 = f(h(x))h'(x) - f(g(x))g'(x).
 \] </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="f17a804349a8bc89368953f6c61689c0" course="Math 1010" chapter="13" slide="13" item="13.10">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="10" md5="f17a804349a8bc89368953f6c61689c0" course="Math 1010" chapter="13" slide="14" item="13.10">
               <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Evaluate:
 \[
@@ -433,7 +494,7 @@ Let $g$ and $h$ be differentiable functions.  Then:
 \] </paragraphs>
                 <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
                 <collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
-                  <steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps1">
+                  <steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
 \[
 \begin{split}
 \frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt &amp;=
@@ -446,7 +507,7 @@ e^{\left(-(x^3 + 1)^2\right)}(x^3 + 1)' - e^{\left(-(\sin x)^2\right)}(\sin x)'\
                 </collapse>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="1a9e8d87a857149659a538b5803a0f2b" course="Math 1010" chapter="13" slide="13" item="13.11">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="1a9e8d87a857149659a538b5803a0f2b" course="Math 1010" chapter="13" slide="14" item="13.11">
               <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Evaluate:
 \[
@@ -469,7 +530,7 @@ e^{\left(-(x^3 + 1)^2\right)}(x^3 + 1)' - e^{\left(-(\sin x)^2\right)}(\sin x)'\
 \]
 (because $F(h) = \int_2^{2 + h}\sqrt{t^4 + 1}\,dt$
 is a continuous function by </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="ftc1" wbtag="ref" course="Math 1010" chapter="13" slide="13" src-course="Math 1010" src-chapter="13" src-slide="12" type="Theorem" item="13.8" src-filename="week13.xml" md5="5a73752c9025d70a4c5ef118ea05024b" class="lcref" serial="">
+                    <ref environment="newcol" chapter_type="" label="ftc1" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="12" type="Theorem" item="13.8" src-filename="week13.xml" md5="5a73752c9025d70a4c5ef118ea05024b" class="lcref" serial="">
                       <title>Fundamental Theorem of Calculus Part I</title>
                     </ref>
                     <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ), and:
@@ -484,7 +545,7 @@ is a continuous function by </paragraphs>
                       <collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Taking the limit of the ratio of the derivatives of the numerator and denominator,
 we have: </paragraphs>
-                        <steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
+                        <steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps3">
 \[
 \begin{split}
 \lim_{h \rightarrow 0^+} \frac{\frac{d}{dh}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt}{\frac{d}{dh}\ln(1 + h)}
@@ -510,20 +571,20 @@ we have: </paragraphs>
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="14" id="s14" slide="14" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="14" environ="slide" chapter="13" course="Math 1010"/>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="15" environ="slide" chapter="13" course="Math 1010"/>
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> There is a general formula regarding derviatives of the form:
 \[
 \frac{d}{dx}\int_{a(x)}^{b(x)} f(x, t)\,dt,
 \]
 the discussion of which is beyond the scope of this course.
 However, in certain special cases, the derivative may be found using </paragraphs>
-            <ref environment="" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
+            <ref environment="" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="15" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
               <title>Corollary 13.9</title>
             </ref>
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> without much further effort:</paragraphs>
             <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="41beb664230edaac904541bf05a57317" course="Math 1010" chapter="13" slide="14" item="13.12">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="12" md5="41beb664230edaac904541bf05a57317" course="Math 1010" chapter="13" slide="15" item="13.12">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Find:
 \begin{equation}
 \label{ddxfxt2}
@@ -555,7 +616,7 @@ is equal to:
 \end{split}
 \]
 It now follows from </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
+                  <ref environment="newcol" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="15" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
                     <title>Corollary 13.9</title>
                   </ref>
                   <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
@@ -575,12 +636,12 @@ It now follows from </paragraphs>
               </newcol>
             </statement>
           </slide>
-          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="15" id="s15" slide="15" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
-            <keywords slide="15" environ="slide" chapter="13" course="Math 1010">
-              <keyword chapter="13" slide="15">Fundamental Theorem of Calculus Part II</keyword>
+          <slide environment="" chapter_type="Week" wbtag="slide" canon_num="16" id="s16" slide="16" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
+            <keywords slide="16" environ="slide" chapter="13" course="Math 1010">
+              <keyword chapter="13" slide="16">Fundamental Theorem of Calculus Part II</keyword>
             </keywords>
-            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="Fundamental Theorem of Calculus Part II" md5="246b618e8c95c3e171594b072375a33a" course="Math 1010" chapter="13" slide="15" item="13.13">
-              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="15">Fundamental Theorem of Calculus Part II</title>
+            <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="13" title="Fundamental Theorem of Calculus Part II" md5="246b618e8c95c3e171594b072375a33a" course="Math 1010" chapter="13" slide="16" item="13.13">
+              <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" serial="" slide="16">Fundamental Theorem of Calculus Part II</title>
               <label wbtag="label" name="thm:ftc2" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a continuous function on $[a, b]$.
 Let $F$ be a continuous function on $[a, b]$
@@ -590,7 +651,7 @@ Then:
 \int_a^b f(x)\,dx = F(b) - F(a).
 \] </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7f8e9bbfa156da93a6982a5045a910bb" course="Math 1010" chapter="13" slide="15" of="246b618e8c95c3e171594b072375a33a">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="7f8e9bbfa156da93a6982a5045a910bb" course="Math 1010" chapter="13" slide="16" of="246b618e8c95c3e171594b072375a33a">
               <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> By the Fundamental Theorem of Calculus Part I,
 we know that $G(x) = \int_a^x f(t)\,dt$ is also an antiderivative of $f$.

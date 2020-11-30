@@ -79,20 +79,43 @@ $f$, then:
 \[
 \int_a^b f(x)\,dx = F(x)\bigg|_a^b := F(b) - F(a).
 \]
-<hr/>
-@newcol
-<ul>
+<hr/><ul>
 <li>
-<h5>Integration by Substitution</h5> \[
+<h5>Integration by Substitution</h5>
+@newcol
+\[
 \int_a^b f(u(x))u'(x)\,dx = \int_{u(a)}^{u(b)} f(u)\,du
 = F(u(b)) - F(u(a))
 \]
-if $F$ is an antiderivative of $f$. </li>
+if $F$ is an antiderivative of $f$.
+@endcol</li>
 <li>
-<h5>Integration by Parts</h5> \[
+<h5>Integration by Parts</h5>
+@newcol
+\[
 \int_a^b u(x) v'(x)dx = u(x)v(x)\bigg|_a^b - \int_a^b v(x)u'(x)\,dx.
-\] </li></ul>
+\]
+@endcol</li>
+<li>
+<h5>Integration by Trigonometric Substitution</h5>
+@newcol
+
+\[
+\int_{-3}^3 \frac{dx}{\sqrt{3^2 + x^2}}
+= \int_{-\pi/4}^{\pi/4} \cos\theta \sec^2\theta d\theta
+\]
+@endcol</li>
+<li>
+<h5>Reduction Formulas</h5>
+@newcol
+\[
+\int_0^{\pi/2} \cos^n x\, dx
+= \left.\left(\frac{1}{n}\,\cos^{n - 1} x \sin x\right)\right|_0^{\pi/2}
++ \frac{n - 1}{n}\int_0^{\pi/2} \cos^{n - 2} x\,dx.
+\]
+@endcol</li></ul>
 <hr/>
+@newcol
 Before we prove the main theorem,
 we first state a couple of preliminary results.
 @endcol
@@ -122,6 +145,31 @@ If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
 \int_a^b f(x)\,dx \leq \int_a^b g(x)\,dx.
 \]
 @end
+@slide
+If $f$ is an odd continuous function, then:
+
+@newcol
+@steps
+\begin{align*}
+\int_{-a}^a f(x) dx &
+@nstep{= \int_{-a}^0 f(x) dx + \int_0^a f(x) dx}
+\\&
+@nstep{= \int_{-a}^0(f(-x)) dx + \int_0^a f(x) dx}
+\\&
+@nstep{= \underbrace{-\int_{t = 0}^{t = a}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}
+\\&
+@nstep{= 0}
+\end{align*}
+@endsteps
+@endcol
+
+If $f$ is an even continuous function, then:
+
+@newcol
+\[
+\int_{-a}^a f(x) = 2\int_0^a f(x) dx
+\]
+@endcol
 @slide
 @keyword*{area of a region}
 @eg
