@@ -270,9 +270,9 @@ If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
 \int_{-a}^a f(x) dx &amp;
 \class{steps}{\cssId{step0}{= \int_{-a}^0 f(x) dx + \int_0^a f(x) dx}}
 \\&amp;
-\class{steps}{\cssId{step1}{= \int_{-a}^0(f(-x)) dx + \int_0^a f(x) dx}}
+\class{steps}{\cssId{step1}{= \int_{-a}^0-(f(-x)) dx + \int_0^a f(x) dx}}
 \\&amp;
-\class{steps}{\cssId{step2}{= \underbrace{-\int_{t = 0}^{t = a}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}}
+\class{steps}{\cssId{step2}{= \underbrace{\int_{t = a}^{t = 0}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}}
 \\&amp;
 \class{steps}{\cssId{step3}{= 0}}
 \end{align*}
@@ -283,7 +283,7 @@ If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
             <newline course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment=""/>
             <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> \[
-\int_{-a}^a f(x) = 2\int_0^a f(x) dx
+\int_{-a}^a f(x) dx = 2\int_0^a f(x) dx
 \] </paragraphs>
             </newcol>
           </slide>
@@ -530,7 +530,7 @@ e^{\left(-(x^3 + 1)^2\right)}(x^3 + 1)' - e^{\left(-(\sin x)^2\right)}(\sin x)'\
 \]
 (because $F(h) = \int_2^{2 + h}\sqrt{t^4 + 1}\,dt$
 is a continuous function by </paragraphs>
-                    <ref environment="newcol" chapter_type="" label="ftc1" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="12" type="Theorem" item="13.8" src-filename="week13.xml" md5="5a73752c9025d70a4c5ef118ea05024b" class="lcref" serial="">
+                    <ref environment="newcol" chapter_type="" label="ftc1" wbtag="ref" course="Math 1010" chapter="13" slide="14" src-course="Math 1010" src-chapter="13" src-slide="13" type="Theorem" item="13.8" src-filename="week13.xml" md5="5a73752c9025d70a4c5ef118ea05024b" class="lcref" serial="">
                       <title>Fundamental Theorem of Calculus Part I</title>
                     </ref>
                     <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> ), and:
@@ -579,7 +579,7 @@ we have: </paragraphs>
 \]
 the discussion of which is beyond the scope of this course.
 However, in certain special cases, the derivative may be found using </paragraphs>
-            <ref environment="" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="15" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
+            <ref environment="" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="15" src-course="Math 1010" src-chapter="13" src-slide="14" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
               <title>Corollary 13.9</title>
             </ref>
             <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="" wbtag="paragraphs"> without much further effort:</paragraphs>
@@ -616,7 +616,7 @@ is equal to:
 \end{split}
 \]
 It now follows from </paragraphs>
-                  <ref environment="newcol" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="15" src-course="Math 1010" src-chapter="13" src-slide="13" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
+                  <ref environment="newcol" chapter_type="" label="ftcicor" wbtag="ref" course="Math 1010" chapter="13" slide="15" src-course="Math 1010" src-chapter="13" src-slide="14" type="Corollary" item="13.9" src-filename="week13.xml" md5="178d029790ae3be10c77d6253dacf8ba" class="lcref" serial="">
                     <title>Corollary 13.9</title>
                   </ref>
                   <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that:
