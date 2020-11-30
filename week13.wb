@@ -154,9 +154,9 @@ If $f$ is an odd continuous function, then:
 \int_{-a}^a f(x) dx &
 @nstep{= \int_{-a}^0 f(x) dx + \int_0^a f(x) dx}
 \\&
-@nstep{= \int_{-a}^0(f(-x)) dx + \int_0^a f(x) dx}
+@nstep{= \int_{-a}^0-(f(-x)) dx + \int_0^a f(x) dx}
 \\&
-@nstep{= \underbrace{-\int_{t = 0}^{t = a}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}
+@nstep{= \underbrace{\int_{t = a}^{t = 0}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}
 \\&
 @nstep{= 0}
 \end{align*}
@@ -167,7 +167,7 @@ If $f$ is an even continuous function, then:
 
 @newcol
 \[
-\int_{-a}^a f(x) = 2\int_0^a f(x) dx
+\int_{-a}^a f(x) dx = 2\int_0^a f(x) dx
 \]
 @endcol
 @slide
