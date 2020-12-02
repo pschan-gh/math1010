@@ -120,9 +120,9 @@ Before we prove the main theorem,
 we first state a couple of preliminary results.
 @endcol
 @slide
-@defn
+@fact
 For a continuous function $f$ on $[a, b]$,
-we define:
+we have:
 \[
 \int_a^a f(x)\,dx = 0.
 \]
@@ -130,7 +130,7 @@ we define:
 \int_b^a f(x)\,dx = -\int_a^b f(x)\,dx.
 \]
 @end
-@claim
+@fact
 Let $f$ be a continuous function on an interval $I$.
 For all $a, b, c \in I$, we have:
 \[
