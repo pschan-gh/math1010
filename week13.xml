@@ -264,7 +264,9 @@ For all $a, b, c \in I$, we have:
 \\&amp;
 \class{steps}{\cssId{step2}{= \underbrace{\int_{t = a}^{t = 0}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}}
 \\&amp;
-\class{steps}{\cssId{step3}{= 0}}
+\class{steps}{\cssId{step3}{= \int_a^a f(x) dx}}
+\\&amp;
+\class{steps}{\cssId{step4}{= 0}}
 \end{align*}
 </steps>
             </newcol>
