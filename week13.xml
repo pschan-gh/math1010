@@ -232,9 +232,9 @@ we first state a couple of preliminary results. </paragraphs>
           </slide>
           <slide environment="" chapter_type="Week" wbtag="slide" canon_num="8" id="s8" slide="8" course="Math 1010" chapter="13" section="1" subsection="" subsubsection="" chapter_title="" section_title="Motivation">
             <keywords slide="8" environ="slide" chapter="13" course="Math 1010"/>
-            <statement environment="statement" chapter_type="Week" type="Definition" wbtag="defn" num="3" md5="178b54e0d9eec75f0e2091d5e09b6304" course="Math 1010" chapter="13" slide="8" item="13.3">
+            <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="3" md5="49ea3ac862ccfc2e84a9f28f133aabb8" course="Math 1010" chapter="13" slide="8" item="13.3">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> For a continuous function $f$ on $[a, b]$,
-we define:
+we have:
 \[
 \int_a^a f(x)\,dx = 0.
 \]
@@ -242,7 +242,7 @@ we define:
 \int_b^a f(x)\,dx = -\int_a^b f(x)\,dx.
 \] </paragraphs>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Claim" wbtag="claim" num="4" md5="4f662ad85aacecdfd1f6133888493938" course="Math 1010" chapter="13" slide="8" item="13.4">
+            <statement environment="statement" chapter_type="Week" type="Fact" wbtag="fact" num="4" md5="4f662ad85aacecdfd1f6133888493938" course="Math 1010" chapter="13" slide="8" item="13.4">
               <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> Let $f$ be a continuous function on an interval $I$.
 For all $a, b, c \in I$, we have:
 \[
