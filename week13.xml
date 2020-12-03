@@ -494,7 +494,7 @@ Let $g$ and $h$ be differentiable functions.  Then:
 \[
 \frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt
 \] </paragraphs>
-                <hr xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
+                <hr xmlns="http://www.w3.org/1999/xhtml" style="" environment="newcol" />
                 <collapse course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                   <steps course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="steps" stepsid="steps2">
 \[
@@ -509,7 +509,7 @@ e^{\left(-(x^3 + 1)^2\right)}(x^3 + 1)' - e^{\left(-(\sin x)^2\right)}(\sin x)'\
                 </collapse>
               </newcol>
             </statement>
-            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="1a9e8d87a857149659a538b5803a0f2b" course="Math 1010" chapter="13" slide="14" item="13.11">
+            <statement environment="statement" chapter_type="Week" type="Example" wbtag="eg" num="11" md5="1c0330b5d985dbb5e30cd29ceb9550bb" course="Math 1010" chapter="13" slide="14" item="13.11">
               <newcol course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="13" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Evaluate:
 \[
@@ -556,7 +556,7 @@ we have: </paragraphs>
 \\&amp;
 \class{steps}{\cssId{step1}{=\lim_{h \rightarrow 0^+}(1 + h)\left(\sqrt{(2 + h)^4 + 1}\right)}}
 \\&amp;
-\class{steps}{\cssId{step2}{=\lim_{h \rightarrow 0^+}\sqrt{17}.}}
+\class{steps}{\cssId{step2}{=\sqrt{17}.}}
 \end{split}
 \]
 </steps>

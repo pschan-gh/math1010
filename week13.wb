@@ -320,7 +320,7 @@ Evaluate:
 \[
 \frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt
 \]
-<hr/>
+<hr style=""/>
 @col
 @steps
 \[
@@ -377,7 +377,7 @@ we have:
 \\&
 @nstep{=\lim_{h \rightarrow 0^+}(1 + h)\left(\sqrt{(2 + h)^4 + 1}\right)}
 \\&
-@nstep{=\lim_{h \rightarrow 0^+}\sqrt{17}.}
+@nstep{=\sqrt{17}.}
 \end{split}
 \]
 @endsteps
