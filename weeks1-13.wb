@@ -1,4 +1,4 @@
-@course{Math 1010}
+@course{MATH 1010DE}
 @week{1}
 @topic{Sequences}
 @section{Sequences and Limits}
@@ -6,7 +6,7 @@ A @keyword{sequence} is an ordered list of numbers:
 \[
 a_1, a_2, a_3, \ldots,a_n,\ldots
 \]
-@col
+@newcol
 Common notations:
 \[
 \{a_n\},\; \{a_n\}_{n \in \mathbb{N}},\; \{a_n\}_{n = 1}^\infty
@@ -14,23 +14,22 @@ Common notations:
 <hr/>
 @endcol
 @eg
-@col
+@newcol
 @ul
 @li
 \[a_n = \sqrt{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{a_n\}_{n \in \mathbb{N}} = \{1, \sqrt{2}, \sqrt{3}, \ldots\}.
 \]
-<hr>
+<hr/>
 @li
 \[b_n = (-1)^{n+1}\frac{1}{n}\;,\quad n \in \mathbb{N}\]
 \[
 \{b_n\} = \left\{1, -\frac{1}{2}\;, \frac{1}{3}\;, -\frac{1}{4}\;, \ldots\right\}.
 \]
-<hr>
+<hr/>
 @li
-@keyword{Fibonacci Sequence}
-\[
+@keyword{Fibonacci Sequence} \[
 a_1 = 1, a_2 = 1
 \]
 \[
@@ -39,27 +38,27 @@ a_n = a_{n - 2} + a_{n - 1} \text{ for } n \geq 3.
 \[
 \{a_n\} = \{1, 1, 2, 3, 5, 8, 13, \ldots\}
 \]
-In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively}.
-<hr>
+In this case we say that the sequence $\{a_n\}$ is defined @keyword{recursively} .
+<hr/>
 @endul
+@endcol
 @end
 @slide
 Sometimes, the terms $a_n$ of a sequence approach a single value $L$
 as $n$ tends to infinity.
-@def
+@defn
 We say that the @keyword{limit} of a sequence $\{a_n\}$ is equal to $L$ if for
 all real numbers $\varepsilon > 0$ the exists a  number $N > 0$
 such that $|a_n - L| < \varepsilon$ for all $n > N$.
 @end
-@col
-If such a number $L$ exists, we say that:
-<blockquote>$\{a_n\}$ converges to $L$,</blockquote>
+@newcol
+If such a number $L$ exists, we say that: <blockquote>$\{a_n\}$ @keyword{converges} to $L$,</blockquote>
 and write:
 \[
 \lim_{n \rightarrow \infty} a_n = L.
 \]
 @col
-If no such $L$ exists, we say that $\{a_n\}$ diverges.
+If no such $L$ exists, we say that $\{a_n\}$ @keyword{diverges} .
 
 If the values of $a_n$ increase (resp. decrease) without bound, we say that
 $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
@@ -71,18 +70,13 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 @ex
 <ol>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q15.pg}
-</li>
+@webwork{Library/Michigan/Chap9Sec1/Q15.pg}</li>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q17.pg}
-</li>
+@webwork{Library/Michigan/Chap9Sec1/Q17.pg}</li>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q19.pg}
-</li>
+@webwork{Library/Michigan/Chap9Sec1/Q19.pg}</li>
 <li>
-@webwork{Library/Michigan/Chap9Sec1/Q23.pg}
-</li>
-</ol>
+@webwork{Library/Michigan/Chap9Sec1/Q23.pg}</li></ol>
 @end
 @subsection{Useful Properties}
 <hr/>
@@ -90,7 +84,7 @@ $\{a_n\}$ diverges to $\infty$ (resp. $-\infty$), and write:
 @item
 <h5>Constant sequence</h5>
 
-@col
+@newcol
 If $a_n = c$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
 @endcol
@@ -98,78 +92,72 @@ then $\lim_{n \rightarrow \infty} a_n = \lim_{n \rightarrow \infty} c = c$.
 @item
 <h5>Sum/Difference rule</h5>
 
-@col
+@newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
-$$\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
-= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.$$
+\[\displaystyle\lim_{n\rightarrow \infty} (a_n \pm b_n)
+= \lim_{n\rightarrow\infty} a_n \pm \lim_{n\rightarrow\infty}b_n.\]
 @endcol
 <hr/>
 @item
 <h5>Product Rule</h5>
 
-@col
+@newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge, then:
-$$\displaystyle\lim_{n\rightarrow \infty} a_n b_n
+\[\displaystyle\lim_{n\rightarrow \infty} a_n b_n
 = \left(\lim_{n\rightarrow\infty} a_n\right)
-\cdot\left( \lim_{n\rightarrow\infty}b_n\right).$$
+\cdot\left( \lim_{n\rightarrow\infty}b_n\right).\]
 @endcol
 <hr/>
 @item
 <h5>Quotient Rule</h5>
 
-@col
+@newcol
 If both $\{a_n\}$ and $\{b_n\}$ converge,
 and $\lim_{n \rightarrow \infty} b_n \neq 0$,
 then:
-$$\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
-= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.$$
+\[\displaystyle\lim_{n\rightarrow \infty} \frac{a_n}{b_n}
+= \frac{\lim_{n\rightarrow\infty} a_n}{\lim_{n\rightarrow\infty}b_n}\;.\]
 @endcol
 <hr/>
 @item
-@col
-$$\lim_{n\rightarrow \infty} \frac{1}{n} = 0.$$
+@newcol
+\[\lim_{n\rightarrow \infty} \frac{1}{n} = 0.\]
 @endcol
 <hr/>
 @item
-@col
+@newcol
 In general, if $\lim_{n \rightarrow \infty} a_n = +\infty$
 or $\lim_{n \rightarrow \infty} a_n = -\infty$, we have:
 \[
 \lim_{n \rightarrow \infty} \frac{1}{a_n} = 0.
 \]
 @endcol
-@end
+@enditemize
 @subsection{Examples}
-<hr/>
-<ul>
-<li>
-$\displaystyle
+<hr/><ul>
+<li> $\displaystyle
 \lim_{n \rightarrow \infty} \frac{3n^2 - 2n + 7}{2n^2 + 3}
-$
-<br/>
-@col
+$ <br/>
+@newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &{= \lim_{n \rightarrow \infty} \frac{\frac{1}{n^2}}{\frac{1}{n^2}}\cdot
 \frac{3n^2 - 2n + 7}{2n^2 + 3}}
 \\
 &
-#nstep{= \lim_{n \rightarrow \infty}
+@nstep{= \lim_{n \rightarrow \infty}
 \frac{3 - \frac{2}{n} + \frac{7}{n^2}}{2 + \frac{3}{n^2}}}
 \\
 &
-#nstep{= \frac{3}{2}.}
-\end{align*}
+@nstep{= \frac{3}{2}.}
+\end{align*}\]
 @endsteps
 @endcol
-<hr>
-</li>
-<li>
-$\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$
-<br/>
-@col
+<hr/></li>
+<li> $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$ <br/>
+@newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &=
 \lim_{n\rightarrow\infty} \frac{-3n^2}{n^2\sqrt[3]{27-\frac{5}{n^5}+\frac{1}{n^6}}}
 \\
@@ -178,17 +166,14 @@ $\displaystyle \lim_{n\rightarrow\infty} \frac{-3n^2}{\sqrt[3]{27n^6-5n+1}}$
 \\
 &
 @nstep{=\frac{-3}{\sqrt[3]{27}} = -1.}
-\end{align*}
+\end{align*}\]
 @endsteps
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$
-<br/>
-@col
+<hr/></li>
+<li> $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$ <br/>
+@newcol
 @steps
-\begin{align*}
+\[\begin{align*}
 &=
 \lim_{n\rightarrow\infty} \left(\sqrt{4n^2+n} - \sqrt{4n^2-1}\right)
 \cdot
@@ -208,30 +193,23 @@ $\displaystyle \lim_{n\rightarrow\infty} \sqrt{4n^2+n}-\sqrt{4n^2-1}$
 \\
 &
 @nstep{=\frac{1}{4}.}
-\end{align*}
+\end{align*}\]
 @endsteps
-@endcol
-</li>
-</ul>
+@endcol</li></ul>
 @slide
 @ex
 @itemize
 @item
 @webwork{Library/Dartmouth/setStewartCh12S1/problem_5.pg}
-@item
-@webwork{Library/Dartmouth/setStewartCh12S1/problem_6.pg}
-@item
-@webwork{Library/Dartmouth/setStewartCh12S1/problem_7.pg}
+@enditemize
 @end
 @subsection{Monotonic Sequences}
-@def
-A sequence $\{a_n\}$ is said to be:
-<ul>
+@defn
+A sequence $\{a_n\}$ is said to be: <ul>
 <li>
-@keyword{increasing} if $a_{n+1} \geq a_n$ for all $n$,
+@keyword{increasing} if $a_{n+1} \geq a_n$ for all $n$, </li>
 <li>
-@keyword{decreasing} if $a_{n + 1} \leq a_n$ for all $n$.
-</ul>
+@keyword{decreasing} if $a_{n + 1} \leq a_n$ for all $n$. </li></ul>
 A sequence is said to be @keyword{monotonic} if it is either increasing or decreasing.
 @end
 
@@ -241,17 +219,20 @@ A sequence is said to be @keyword{monotonic} if it is either increasing or decre
 If $\{a_n\}$ is either:
 
 @col
-<blockquote><i>increasing</i> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
+<blockquote>
+<i>increasing</i> (i.e. $a_{n + 1} \geq a_n$ for all $n$)
 and bounded <i>above</i> (i.e. There exists a number $M$ such that $a_n \leq M$ for all $n$.),</blockquote>
 or
 
 @col
-<blockquote><i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
+<blockquote>
+<i>decreasing</i> (i.e. $a_{n + 1} \leq a_n$ for all $n$)
 and bounded <i>below</i> (i.e. There exists a number $M$ such that $a_n \geq M$ for all $n$.),</blockquote>
 then $\{a_n\}$ converges.
+@endcol
 @end
 
-@col
+@newcol
 Moreover,
 
 @col
@@ -262,86 +243,110 @@ then $\lim_{n \rightarrow \infty} a_n \leq M$.
 If $\{a_n\}$ is decreasing and $a_n \geq M$ for all $n$,
 then $\lim_{n \rightarrow \infty} a_n \geq M$.
 
+@endcol
 @slide
 @eg
 Let $\{a_n\}$ be a sequence of real numbers, which is defined by
 \[
 a_1=1\qquad\textrm{and}\qquad a_n=\frac{12a_{n-1}+12}{a_{n-1}+13} \textrm{ for $n>1$.}
-\]
-<ol>
-<li>
-Prove that $0 \leq a_n\leq 3$.
-(Hint: Perhaps @keyword{mathematical induction} could be useful here.)
-<li> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit.
-</li>
-</ol>
+\] <ol style="">
+<li style=""> Prove that $0 \leq a_n\leq 3$.
+(Hint: Perhaps @keyword{mathematical induction} could be useful here.) </li>
+<li style=""> Prove that $\{a_n\}$ converges (i.e. $\displaystyle \lim_{n\rightarrow\infty} a_n$ exists), then find its limit. </li></ol>
 @end
 @sol
-@col
-1. @newcol
+@newcol
+1.
+@newcol
 First, we show that $a_n \geq 0$ for all $n \in \mathbb{N}$.
 
-<u>Base Step</u>: By definition, $a_1 = 1 \geq 0$.
+<u style="">Base Step</u>
+: By definition, $a_1 = 1 \geq 0$.
 
-<u>Inductive Step</u>: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
+<u style="">Inductive Step</u>
+: Suppose $a_n \geq 0$ for some $n \in \mathbb{N}$.  We want to show that $a_{n+1} \geq 0$ also.
 
 By the definition of the sequence, we have:
 \[
 a_{n + 1} = \frac{12a_n + 12}{a_n + 13}.
 \]
-By the @keyword{induction hypothesis}, i.e. $a_n \geq 0$, we have:
+By the @keyword{induction hypothesis} , i.e. $a_n \geq 0$, we have:
 \[
 a_n + 13 > 0 \quad \text{ and } \quad 12a_n + 12 \geq 0.
 \]
 Hence, $a_{n + 1} \geq 0$.
 
 It now follows from the principle of mathematical induction
-that $a_n \geq 0$ for all $a \in \mathbb{N}$.
-<hr/>
+that $a_n \geq 0$ for all $n \in \mathbb{N}$.
+<hr style=""/>
+@col
 Similary, to show that $a_n \leq 3$, we first observe that
 by definition $a_1 = 1 \leq 3$.
 Whenever $a_n \leq 3$, we have:
+
+@col
+@steps
 \[
 \begin{split}
-3 - a_{n+1} &= 3 - \frac{12a_n + 12}{a_n + 13}\\
-&= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}\\
-&= \frac{9(3 - a_n)}{a_n + 13} \geq 0,
+3 - a_{n+1}
+&
+@nstep{= 3 - \frac{12a_n + 12}{a_n + 13}}
+\\
+&
+@nstep{= \frac{3a_n + 39 - 12a_n - 12}{a_n + 13}}
+\\
+&
+@nstep{= \frac{9(3 - a_n)}{a_n + 13} \geq 0,}
 \end{split}
 \]
+@endsteps
+@col
 which implies that $a_{n + 1} \leq 3$ also.  Hence, by mathematical induction we conclude that $a_n \leq 3$
 for all $n \in \mathbb{N}$.
-<hr/>
+<hr style=""/>
 @endcol
 
-2. @newcol
+2.
+@newcol
 Observe that for all $n \in \mathbb{N}$,
 we have:
+@steps
 \[
 \begin{split}
 a_{n + 1} - a_n
-&= \frac{12a_n + 12}{a_n + 13} - a_n\\
-&= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}\\
-&= -\frac{a_n^2 +a_n - 12}{a_n + 13}\\
-&= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}\\
-&\geq 0,
+&
+@nstep{= \frac{12a_n + 12}{a_n + 13} - a_n}
+\\&
+@nstep{= \frac{12a_n + 12 - a_n^2 - 13a_n}{a_n + 13}}
+\\&
+@nstep{= -\frac{a_n^2 +a_n - 12}{a_n + 13}}
+\\&
+@nstep{= -\frac{(a_n - 3)(a_n + 4)}{a_n + 13}}
+\\&
+@nstep{\geq 0,}
 \end{split}
 \]
+@endsteps
 since $0 \leq a_n \leq 3$, as shown in Part 1.
 
+@col
 This shows that $\{a_n\}$ is an increasing sequence bounded above by $3$.
 Hence, the limit $\displaystyle L = \lim_{n \rightarrow \infty} a_n$ exists,
 by the Monotone Convergence Theorem.
 
+@col
 To find $L$, we take the limit as $n \rightarrow \infty$ of
 both sides of the equation:
 \[
 a_n=\frac{12a_{n-1}+12}{a_{n-1}+13}.
 \]
+@col
 That is:
 \[
 \lim_{n \rightarrow \infty} a_n=
 \lim_{n \rightarrow \infty}\frac{12a_{n-1}+12}{a_{n-1}+13},
 \]
+@col
 which gives:
 \[
 L = \frac{12 L  + 12}{L + 13},
@@ -349,6 +354,7 @@ L = \frac{12 L  + 12}{L + 13},
 since
 $\lim_{n \rightarrow \infty} a_{n - 1}  = \lim_{n \rightarrow \infty} a_n = L$.
 
+@col
 The equation above implies that:
 \[
 L^2 + L - 12 = 0,
@@ -362,6 +368,7 @@ We conclude that:
 \lim_{n \rightarrow \infty} a_n = 3.
 \]
 @qed
+@endcol
 @endcol
 @end
 @subsection{Sandwich Theorem}
@@ -378,37 +385,28 @@ If
 \]
 then $\lim_{n \rightarrow \infty} b_n = L$ also.
 @end
-
+@week{2}
+@topic{Functions}
+@section{Sandwich Theorem - Continued}
 @eg
 @ol
 @li
 Find the following limit:
 $\displaystyle \lim_{n\rightarrow\infty} \frac{\sin(2^n)+(-1)^n\cos(2^n)}{n^3}$.
-<hr>
+<hr/>
 @li
 <ul>
-<li>
-Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$.
-<li>
-Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$.
-</ul>
-<hr>
+<li> Prove that $\displaystyle \frac{2^n}{n!}\leq \frac{4}{n}$ for all natural numbers $n\geq 2$. </li>
+<li> Then, show that $\displaystyle \lim_{n\rightarrow\infty} \frac{2^n}{n!}=0$. </li></ul>
+<hr/>
 @li
 Suppose $0 < a < 1$. Let $b=\frac{1}{a}-1$.
- For $n\ge 2$, use the binomial theorem to show that
- \[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
- Then, show that:
- \[ \lim_{n \to \infty} na^n = 0. \]
-<hr>
+For $n\ge 2$, use the binomial theorem to show that
+\[ \frac{1}{a^n} \ge  \frac{n(n-1)}{2} b^2. \]
+Then, show that:
+\[ \lim_{n \to \infty} na^n = 0. \]
+<hr/>
 @endol
-<!--
-@enumerate
-@item @webwork{Library/OSU/accelerated_calculus_and_analytic_geometry_ii/hmwk1/prob1.pg}
-@item @webwork{Library/Rochester/setSequences2Limits/ur_sq_2_25.pg}
-@item @webwork{Library/Rochester/setSequences2Limits/ns8_1_25.pg}
-@item @webwork{Library/ma123DB/set10/s11_1_19.pg}
-@endenumerate
--->
 @end
 @slide
 @ex
@@ -421,32 +419,27 @@ Using the inequality:
 
 prove that:
 
-@col
+@newcol
 \[
 \lim_{n\rightarrow\infty} \left(\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}\right) = 1.\]
 @endcol
-<hr>
-<strong>Solution.</strong>
-@col
+<hr/><strong>Solution.</strong>
+@newcol
 We have:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\leq
-\underbrace{
-\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}
-}_{n \text{ times}}\\
+\underbrace{\frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+1}}+\cdots+\frac{1}{\sqrt{n^2+1}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+1}},
-\end{align*}
+\end{align*}\]
 @col
 and:
-\begin{align*}
+\[\begin{align*}
 \frac{1}{\sqrt{n^2+1}}+\frac{1}{\sqrt{n^2+2}}+\cdots+\frac{1}{\sqrt{n^2+n}}
 &\geq
-\underbrace{
-\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}
-}_{n \text{ times}}\\
+\underbrace{\frac{1}{\sqrt{n^2+n}}+\frac{1}{\sqrt{n^2+n}}+\cdots+\frac{1}{\sqrt{n^2+n}}}_{n \text{ times}}\\
 &= \frac{n}{\sqrt{n^2+n}}.
-\end{align*}
+\end{align*}\]
 @col
 Since:
 \[
@@ -469,21 +462,16 @@ by the Sandwich Theorem we conclude that:
 @qed
 @endcol
 @end
-@week{2}
-@topic{Functions}
 @section{Functions}
-@def
+@defn
 A function:
 \[
 f : A \longrightarrow B
 \]
 is a rule of correspondence from one set $A$ (called the @keyword{domain})
-to another set $B$ (called the @keyword{codomain}).
-<br>
-Under this rule of correspondence,
+to another set $B$ (called the @keyword{codomain}). <br/> Under this rule of correspondence,
 each element $x \in A$ corresponds to <i>exactly one</i> element
-$f(x) \in B$, called the @keyword{value}
-of $f$ at $x$.
+$f(x) \in B$, called the @keyword{value} of $f$ at $x$.
 @end
 In the context of this course,
 the domain $A$ is usually some subset (intervals, union of intervals)
@@ -497,14 +485,13 @@ For example,
 \[
 f(x) = \sqrt{\frac{x + 1}{x - 2}}
 \]
-@col
-In this case, the domain of $f$ is assumed to be the @keyword{natural domain}
-(or @keyword{maximal domain}, @keyword{domain of definition}),
+@newcol
+In this case, the domain of $f$ is assumed to be the @keyword{natural domain} (or @keyword{maximal domain} , @keyword{domain of definition} ),
 namely the largest subset of $\mathbb{R}$ on which the expression defining $f$
 is well-defined.
 
 @eg
-@col
+@newcol
 For the function:
 \[
 \displaystyle f(x) = \sqrt{\frac{x+1}{x - 2}},
@@ -517,33 +504,33 @@ the natural domain is:
 &= (-\infty, -1] \cup (2, \infty).
 \end{split}
 \]
+@endcol
 @end
 
+@endcol
 @subsection{Graphs of Functions}
 For $f : A \longrightarrow B$ where $A, B$ are subsets of $\mathbb{R}$,
 it is often useful to consider the @keyword{graph} of $f$,
 namely the set of all points $(x, y)$ in the $xy$-plane
-where $x \in A$ and $y = f(x)$.
-<p/>
-By definition, any function $f$ takes on a unique value $f(x)$ for each
+where $x \in A$ and $y = f(x)$. <p/> By definition, any function $f$ takes on a unique value $f(x)$ for each
 $x$ in its domain, hence the graph of $f$ necessarily passes the
 so-called "@keyword{vertical line test}", namely, any vertical line which one
 draws in the $xy$-plane intersects the graph of $f$ <i>at most once</i>.
 
-<p/>
-The graph of a circle, for example, is not the graph of any function,
+<p/> The graph of a circle, for example, is not the graph of any function,
 since there are vertical lines which intersect the graph twice.
 
 @ex
-@col
+@newcol
 Graph the functions $f(x) = \displaystyle{\frac{x}{2}}$ and $g(x) = \displaystyle{\frac{4}{x}-1}$ together, to identify values of $x$ for which
-$$
+\[
 \frac{x}{2} > \frac{4}{x} - 1.
-$$
+\]
 Confirm your answer by solving the inequality algebraically.
+@endcol
 @end
 @sol
-@col
+@newcol
 The inequality holds if and only if:
 \[
 x \in (-4, 0)\cup (2, \infty)
@@ -551,7 +538,7 @@ x \in (-4, 0)\cup (2, \infty)
 @endcol
 @end
 @subsection{Algebraic Operations on Functions}
-@def
+@defn
 Given two functions:
 \[
 f, g : A \longrightarrow \mathbb{R},
@@ -560,27 +547,29 @@ f, g : A \longrightarrow \mathbb{R},
 @item
 Their @keyword{sum/difference} is:
 
-@col
+@newcol
 \[
 f \pm g : A \longrightarrow \mathbb{R},
 \]
 \[
 (f \pm g)(a) := f(a) \pm g(a), \quad \text{ for all } a \in A;
 \]
+@endcol
 @item
 Their @keyword{product} is:
 
-@col
+@newcol
 \[
 fg : A \longrightarrow \mathbb{R},
 \]
 \[
 fg (a) := f(a)g(a),\quad \text{ for all } a \in A;
 \]
+@endcol
 @item
 The @keyword{quotient function} $\dfrac{f}{g}$ is:
 
-@col
+@newcol
 \[
 \frac{f}{g} : A' \longrightarrow \mathbb{R},
 \]
@@ -588,9 +577,10 @@ The @keyword{quotient function} $\dfrac{f}{g}$ is:
 \frac{f}{g}(a) := \frac{f(a)}{g(a)}\;,\quad \text{ for all } a \in A',
 \]
 where \[A' = \{ a \in A : g(a) \neq 0\}.\]
+@endcol
 @enditemize
 @end
-@col
+@newcol
 More generally,
 For:
 \[
@@ -624,6 +614,7 @@ Similary, we define:
 \]
 where $B' = \{b \in B : g(b) \neq 0\}$.
 
+@endcol
 @subsection{Composition of Functions}
 Given two functions:
 \[
@@ -636,37 +627,38 @@ g \circ f : A \longrightarrow C,
 \[
 (g\circ f)(a) := g(f(a)), \quad \text{ for all } a \in A.
 \]
-@col
+@newcol
 More generally, the domain of $g \circ f$ is defined to be:
 \[
 \mathrm{Domain}(g\circ f)
 =
 \{a \in \mathrm{Domain}(f) : f(a) \in \mathrm{Domain}(g)\}.
 \]
+@endcol
 @subsection{Inverse of a Function}
 The @keyword{range} or @keyword{image} of a function $f : A \longrightarrow B$
 is the set of all $b \in B$ such that $b = f(a)$ for some $a \in A$.
-</p>
-<p>
+
+<p/>
 @notation
-@col
+@newcol
 \[
 \mathrm{Image}(f) = \mathrm{Range}(f) := \{b \in B \, : \, b = f(a) \text{ for some } a \in A\}.
 \]
 @endcol
 @end
-@col
+@newcol
 Note that the range of $f$ is not necessarily equal to the codomain $B$.
 @endcol
-@def
-@col
-If $\mathrm{Range}(f) = B$, we say that $f$ is @keyword{surjective} or @keyword{onto}.
+@defn
+@newcol
+If $\mathrm{Range}(f) = B$, we say that $f$ is @keyword{surjective} or @keyword{onto} .
 @endcol
 @end
-@def
-@col
+@defn
+@newcol
 If $f(a) \neq f(a')$ for all $a, a' \in \mathrm{Domain}(f)$ such that $a \neq a'$,
-we say that $f$ is @keyword{injective} or @keyword{one-to-one}.
+we say that $f$ is @keyword{injective} or @keyword{one-to-one} .
 @endcol
 @end
 @slide
@@ -676,8 +668,7 @@ an @keyword{inverse function}:
 f^{-1} :  \mathrm{Range}(f) \longrightarrow A
 \]
 such that $f^{-1}\circ f$ is the @keyword{identity function} on $A$,
-and $f \circ f^{-1}$ is the identity function on $\mathrm{Range}(f)$, that is:
-<br>
+and $f \circ f^{-1}$ is the identity function on $\mathrm{Range}(f)$, that is: <br/>
 @ul
 @li
 \[
@@ -704,12 +695,9 @@ f : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R},
 \]
 \[
 f(x) := x^2, \quad x \in \mathbb{R}_{\geq 0};
-\]
-<i>is</i> injective.
-<p>
-@col
-It's range is $\mathrm{Range}(f) = \mathbb{R}_{\geq 0}$.
-<p>
+\] <i>is</i> injective. <p/>
+@newcol
+It's range is $\mathrm{Range}(f) = \mathbb{R}_{\geq 0}$. <p/>
 @col
 Its inverse is:
 \[
@@ -718,7 +706,7 @@ f^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\geq 0}
 \[
 f^{-1}(y) = \sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
 \]
-<hr>
+<hr/>
 @col
 Similarly,
 \[
@@ -727,11 +715,9 @@ g : \mathbb{R}_{\leq 0} \longrightarrow \mathbb{R},
 \[
 g(x) := x^2, \quad x \in \mathbb{R}_{\leq 0};
 \]
-is also injective,
-<p>
+is also injective, <p/>
 @col
-with $\mathrm{Range}(g) = \mathbb{R}_{\geq 0}$,
-<p>
+with $\mathrm{Range}(g) = \mathbb{R}_{\geq 0}$, <p/>
 @col
 and inverse:
 \[
@@ -740,18 +726,8 @@ g^{-1} : \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}_{\leq 0}
 \[
 g^{-1}(y) = -\sqrt{y}, \quad y \in \mathbb{R}_{\geq 0}.
 \]
-<hr>
+<hr/>
 @endcol
-
-@section{WeBWorK}
-@enumerate
-@item @webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
-@item @webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
-@item @webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
-@item @webwork{Library/UBC/setLimits/matching.pg}
-@item @webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
-@item @webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
-@end
 @section{Piecewise Defined Functions}
 @eg
 @ul
@@ -762,10 +738,9 @@ f(x) = \begin{cases}
 3x & \text{ if } 0 \leq x \leq 5
 \end{cases}
 \]
-<hr>
+<hr/>
 @li
-The @keyword{absolute value function}
-\[
+The @keyword{absolute value function} \[
 |x| = \begin{cases}
 -x  & \text{ if } x < 0\\
 x & \text{ if } x \geq 0
@@ -779,72 +754,60 @@ Let $f: \mathbb{R} \longrightarrow \mathbb{R}$ be the function defined by:
 \[
 f(x) = -3x+4-|x+1|-|x-1|
 \]
-for any $x \in \mathbb{R}$.
-<ol>
-<li> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$.
-</li>
-<li>
-Sketch the graph of the function $f$.
-</li>
-<li>
-Is $f$ an injective function on $\mathbb{R}$? Justify your answer.
-</li>
-<li>
-What is the image of $\mathbb{R}$ under the function $f$?
-</li>
-</ol>
-<hr>
-<strong>Solution.</strong>
-@col
+for any $x \in \mathbb{R}$. <ol>
+<li> Express the 'explicit formula' of the function $f$ as that of a piecewise defined function, with one 'piece' for each of $(-\infty,-1)$, $[-1,1)$,  $[1,+\infty)$. </li>
+<li> Sketch the graph of the function $f$. </li>
+<li> Is $f$ an injective function on $\mathbb{R}$? Justify your answer. </li>
+<li> What is the image of $\mathbb{R}$ under the function $f$? </li></ol>
+<hr/><strong>Solution.</strong>
+@newcol
 @ol
-@li $f(x) = \displaystyle{\begin{cases}
+@li
+\[
+f(x) = \displaystyle \begin{cases}
 \begin{array}{lcl}
 -x+4  & \mbox{if} & x < -1 \\
 -3x+2 & \mbox{if} & -1 \leq x < 1\\
 -5x+4 & \mbox{if} & x \geq 1
 \end{array}
-\end{cases}}$
+\end{cases}
+\]
 @li
-<br>
-<div class="image">
-<iframe src="https://www.desmos.com/calculator/bbwogysjpd?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"></iframe>
-</div>
-@li $f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\
-R}$.
-<p>
-@li The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$.
+<br/><div class="image">
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/bbwogysjpd?embed" rendered="0" src="https://www.desmos.com/calculator/bbwogysjpd?embed" id="iFrameResizer20" scrolling="no"/></div>
+@li
+$f$ is strictly decreasing on $\mathbb{R}$. Hence, $f$ is injective on $\mathbf{\R}$.
+@li
+The image of $\mathbb{R}$ under $f$ is $\mathbb{R}$.
 @endol
+@endcol
 @end
 @section{WeBWorK}
 @enumerate
-@item @webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
-@item @webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
-@item @webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
-@item @webwork{Library/UBC/setLimits/matching.pg}
-@item @webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
-@item @webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
+@item
+@webwork{Library/Mizzou/Algebra/functions_piecewise/determine_formula_from_graph_03.pg}
+@item
+@webwork{Library/Mizzou/Algebra/functions_domain_range/fun_dom_25.pg}
+@item
+@webwork{Library/Rochester/setAlgebra15Functions/s0_1_18.pg}
+@item
+@webwork{Library/UBC/setLimits/matching.pg}
+@item
+@webwork{Library/Mizzou/College_Algebra/Functions_Domain_Range/Domain_Range_Graph_02.pg}
+@item
+@webwork{Library/Wiley/setAnton_Section_0.1/Question28a.pg}
 @endenumerate
 @section{Even and Odd Functions}
-@def
-Let $f$ be a real-valued function defined on real numbers.
-<ul>
-<li>
-It is said to be <strong>even</strong>
-<b style="display:none">even function</b>
-if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+@defn
+Let $f$ be a real-valued function defined on real numbers. <ul>
+<li> It is said to be <strong>even</strong><b style="display:none">even function</b> if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
 \[
 f(-x) = f(x).
-\]
-</li>
-<li>
-It is said to be <strong>odd</strong>
-<b style="display:none">odd function</b>
-if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
+\] </li>
+<li> It is said to be <strong>odd</strong><b style="display:none">odd function</b> if for any $x \in \mathrm{Domain}(f)$, $-x$ also lies in $\mathrm{Domain}(f)$ and:
 \[
 f(-x) = -f(x).
-\]
-</li>
-</ul>
+\] </li></ul>
 @end
 @eg
 @ol
@@ -874,8 +837,8 @@ For example, $f(x) = x \abs{x}$ is odd.
 @week{3}
 @topic{Functions}
 @topic{Limits}
-@section{Limits of Functions on the Real Line
-}
+@topic{Sandwich Theorem}
+@section{Limits of Functions on the Real Line}
 Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$.
 Let $a$ be a point on the real line such that $f$ is defined on a neighborhood of $a$
 (though not necessarily at $a$ itself).
@@ -892,6 +855,60 @@ If $f$ has a limit $L$ at $a$, we write:
 Note that the limit may exist even if
 $a$ does not lie in the domain of $f$.
 @endcol
+
+@remark
+@newcol
+Intuitively, $\displaystyle \lim_{x \rightarrow a} f(x) = L$ means that the
+value $f(x)$ approaches $L$ as $x$ approaches $a$ from either side, or that $f(x)$
+is very near $L$ whenever $x$ is very near $a$. Obviously, the term "near"
+is somewhat vague, and it is precisely because of this vagueness that mathematicians
+feel the need to define limits rigorously using the "$\delta$-$\varepsilon$" language.
+@endcol
+@end
+@eg
+@newcol
+Consider $f(x) = \dfrac{x^2 - 4}{x + 2}$.
+Note that the function $f$ is not defined at $-2$.
+
+@col
+Observe that for $x$ near $-2$, for example, $x = -2.001$, or $x = -1.9999$,
+we have:
+\[
+f(-2.001) = -4.001,
+\]
+\[
+f(-1.9999) = -3.9999,
+\]
+which are close to $-4$.
+
+@col
+Moreover, as $x$ "approaches" $-2$ ($x = -2.001, -2.0001, -2.00001, \ldots$),
+we have $f(x) = -4.001, -4.0001, -4.00001$. So, it appears $f(x)$ approaches $-4$
+as $x$ approaches $-2$. This suggests that the limit of $f(x)$ at $x = -2$ is:
+\[
+\lim_{x \rightarrow -2} f(x) = -4.
+\]
+@col
+This turns out to be true, and is not surprising, since we can rewrite $f(x)$ as follows:
+@steps
+\[
+\begin{split}
+f(x) &= \begin{cases}
+\dfrac{(x + 2)(x - 2)}{x + 2},& \text{if}\; x \neq -2;\\
+\text{undefined},& \text{if}\; x = -2.
+\end{cases}
+\\&
+@nstep{= \begin{cases}
+x - 2,& \text{if}\; x \neq -2;\\
+\text{undefined},& \text{if}\; x = -2.
+\end{cases}}
+\end{split}
+\]
+@endsteps
+@col
+Hence, all along we have really been asking what $x - 2$ tends to as $x$ tends to $-2$.
+@endcol
+@end
 @slide
 @defn
 Let $f : A \longrightarrow\mathbb{R}$ be a function, where $A \subseteq \mathbb{R}$
@@ -911,9 +928,7 @@ If $f$ has a limit $L$ at $\infty$ (resp $-\infty$), we write:
 \right)
 \]
 @endcol
-@slide
-<strong>Some Useful Identities:</strong>
-<p/>
+@subsection{Some Useful Identities}
 In the following idenities,
 the symbol $a$ can be either a real number or $\pm \infty$.
 @ol
@@ -944,6 +959,12 @@ and
 \lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}\quad
 \text{ for all odd positive integers } n.
 \]
+@newcol
+In particular, for all positive integer $n$, we have:
+\[
+\lim_{x \rightarrow a} x^n = a^n.
+\]
+@endcol
 @li
 If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(x)} = \sqrt[n]{L}$ for all $n \in \mathbb{N}$.
 @endol
@@ -952,10 +973,10 @@ If $\lim_{x \rightarrow a} f(x) = L > 0$, then $\lim_{x\rightarrow a}\sqrt[n]{f(
 Compute the following limits, if they exist:
 @ul
 @li
-$\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
+$\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
 <hr/>
 @li
-$\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
+$\displaystyle \lim_{x \to 4} \frac{2-\sqrt{x}}{16-x^2}$
 @endul
 @end
 @section{WeBWorK}
@@ -971,22 +992,15 @@ $\displaystyle  \lim_{x \to -1} \frac{x^2-1}{x^2 - 5x - 6}$
 @item
 @webwork{Library/UMN/calculusStewartCCC/s_2_3_19.pg}
 @endenumerate
-@end
-@section{One-Sided Limits
-}
+@section{One-Sided Limits}
 <ul>
-<li>
-We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
+<li> We write $\displaystyle\lim_{x\rightarrow a^+} f(x) = L$
 if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the right</i>.
-We call this $L$ the @keyword{right limit} of $f$ at $a$.
-</li>
-<li>
-Similarly,
+We call this $L$ the @keyword{right limit} of $f$ at $a$. </li>
+<li> Similarly,
 we write $\displaystyle\lim_{x\rightarrow a^-} f(x) = L$
 if $f(x)$ approaches $L$ as $x$ approaches $a$ <i>from the left</i>.
-We call this $L$ the @keyword{left limit} of $f$ at $a$.
-</li>
-</ul>
+We call this $L$ the @keyword{left limit} of $f$ at $a$. </li></ul>
 The limit $\displaystyle\lim_{x \rightarrow a}f(x)$
 is sometimes called the @keyword{double-sided limit} of $f$ at $a$.
 It exists if and only if both one-sided limits exist
@@ -995,7 +1009,6 @@ and are equal to each other.  In which case, we have:
 \lim_{x \rightarrow a}f(x) = \lim_{x\rightarrow a^+} f(x)
 = \lim_{x\rightarrow a^-} f(x).
 \]
-
 
 @slide
 @ex
@@ -1008,8 +1021,7 @@ x^2 & \text{otherwise.}
 Compute $\displaystyle \lim_{x\to 2^+} f(x)$ and
 $\displaystyle \lim_{x\to 2^-} f(x)$.
 Then, find $\displaystyle\lim_{x\to 2} f(x)$, if it exists.
-<hr/>
-<h5>Answers.</h5>
+<hr/><h5>Answers.</h5>
 @newcol
 @ol
 @li
@@ -1038,15 +1050,6 @@ the double-sided limit $\displaystyle\lim_{x\to 2} f(x)$ does not exist.
 @item
 @webwork{Library/ASU-topics/setCalculus/stef/stef2_3p3.pg}
 @endenumerate
-@end
-
-
-
-@week{4}
-@topic{Sandwich Theorem}
-@topic{Continuity}
-
-
 @section{Sandwich Theorem for Functions on the Real Line}
 @thm
 Let $a \in \mathbb{R}$,
@@ -1077,18 +1080,11 @@ then $\displaystyle\lim_{x \rightarrow \infty} f(x) = L$.
 @end
 @slide
 @ex
-Find the following limits, if they exist:
-<p/>
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$
-<hr/>
-</li>
-<li>
-$\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$
-</li></ul>
+Find the following limits, if they exist: <p/><ul>
+<li> $\displaystyle \lim_{x \rightarrow \infty} \frac{\sin x}{x}$
+<hr/></li>
+<li> $\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$ </li></ul>
 @end
-
 
 @slide
 @thm
@@ -1103,20 +1099,41 @@ $\displaystyle \lim_{x\rightarrow \infty} \frac{x + \sin x}{x - \sin x}$
 \]
 @endcol
 @end
+@proof
+@newcol
+@steps
+\[
+\begin{split}
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2}
+&=
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x^2}\cdot\left(\frac{1 + \cos x}{1 + \cos x}\right)
+\\&
+@nstep{= \lim_{x \rightarrow 0} \frac{1 - \cos^2 x}{x^2 \left(1 + \cos x\right)}}
+\\&
+@nstep{= \lim_{x \rightarrow 0} \frac{\sin^2 x}{x^2 \left(1 + \cos x\right)}}
+\\&
+@nstep{= \lim_{x \rightarrow 0} \left(\frac{\sin x}{x}\right)^2\frac{1}{1 + \cos x}}
+\\&
+@nstep{= 1^2 \cdot \frac{1}{1 + 1} = \frac{1}{2}}
+\end{split}
+\]
+@endsteps
+@endcol
+@end
+@cor
+@newcol
+\[
+\lim_{x \rightarrow 0} \frac{1 - \cos x}{x} = 0\;.
+\]
+@endcol
 
-
+@end
 @slide
 @ex
-Find the following limits, if they exist:
-<p/>
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$
-<hr/>
-</li>
-<li>
-$\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$
-</li></ul>
+Find the following limits, if they exist: <p/><ul>
+<li> $\displaystyle \lim_{x \rightarrow 0} \frac{\sin(5x)}{\tan(3x)}$
+<hr/></li>
+<li> $\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan x}$ </li></ul>
 @end
 
 @section{WeBWorK}
@@ -1135,7 +1152,20 @@ $\displaystyle \lim_{x\rightarrow 0} \frac{x^3\cos\left(\frac{1}{x}\right)}{\tan
 @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C02S03-CalcLimits/2-3-24.pg}
 @endenumerate
 
+@week{4}
+@topic{Limits}
+@topic{Continuity}
 @section{More Limit Identities}
+@eg
+Find:
+@ul
+@li
+$\displaystyle \lim_{x \rightarrow 0^+} \sin\left(\frac{1}{x}\right)$
+@li
+$\displaystyle \lim_{x \rightarrow 0^+} x\sin\left(\frac{1}{x}\right)$
+@endul
+@end
+@slide
 @defn
 For each $x \in \mathbb{R}$, we let:
 \[
@@ -1148,7 +1178,6 @@ It is known that:
 e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
 \]
 
-
 @slide
 @thm
 \[
@@ -1158,12 +1187,16 @@ e^x = \lim_{n\rightarrow \infty} \left(1 + \frac{x}{n}\right)^n.
 @end
 @cor
 @newcol
-
-
 \[
 \lim_{x \rightarrow \infty} \left(1 - \frac{1}{x}\right)^x
 = \lim_{x \rightarrow 0} (1 - x)^{\frac{1}{x}}
 = \frac{1}{e}
+\]
+@col
+For all $a \in \mathbb{R}$,
+\[
+\lim_{x \rightarrow \infty} \left(1 + \frac{a}{x}\right)^x
+= e^a
 \]
 @endcol
 @end
@@ -1175,7 +1208,6 @@ Find:
 \]
 @endcol
 @end
-
 
 @slide
 @thm
@@ -1209,21 +1241,17 @@ x = e^t - 1.
 @section{Continuity}
 @keyword*{continuous}
 @defn
-A function $f : A \longrightarrow\mathbb{R}$ is said to be <strong>continuous</strong>
-at $c \in A$ if:
+A function $f : A \longrightarrow\mathbb{R}$ is said to be <strong>continuous</strong> at $c \in A$ if:
 \[
 \lim_{x\rightarrow c} f(x) = f(c).
 \]
-A function is said to be <strong>continuous</strong>
-if it is continuous at every point in its domain.
+A function is said to be <strong>continuous</strong> if it is continuous at every point in its domain.
 @end
 @newcol
 Should $c$ be an endpoint in the domain of $f$,
-the continuity of $f$ at $c$ is defined in terms of a one-sided limit.
-<p/>
+the continuity of $f$ at $c$ is defined in terms of a one-sided limit. <p/>
 That is, right limit if $c$ is a left endpoint,
-and left limit if $c$ is a right endpoint.
-<p/>
+and left limit if $c$ is a right endpoint. <p/>
 @col
 Hence, the function:
 \[
@@ -1238,7 +1266,7 @@ is continuous at $x = 0$, since $\mathrm{Domain}(f) = [0, \infty)$, and:
 The following "elementary functions"
 are continuous at every element in their domains:
 \[
-f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan,  e^x, \ln x, \arcsin x, \arccos x,
+f(x) = x, \frac{1}{x}\;, \sin x, \cos x, \tan x,  e^x, \ln x, \arcsin x, \arccos x,
 \arctan x
 \]
 Due to the laws of sum/difference/product/quotient for limits,
@@ -1247,7 +1275,7 @@ the sum/difference/product/quotient of continuous functions is also continous.
 In particular, polynomials and rational functions are all continuous on their domains.
 @slide
 @thm
-for functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
+For functions $g, f$ with the property that $\displaystyle \lim_{x\rightarrow a}g(x)$ exists and
 $f$ is continuous at $\lim_{x\rightarrow a}g(x)$, we have:
 \[
 \lim_{x \rightarrow a} f(g(x)) = f\left(\lim_{x\rightarrow a}g(x)\right).
@@ -1278,35 +1306,26 @@ h(x) &= \sin\left(x^{-3} + \left(\cos\left(e^{x^2} + 1\right)\right)\right)
 @end
 @slide
 @eg
-The following functions are continuous at every point on the real line:
-<p/>
-<ul>
-<li>
-\[
+The following functions are continuous at every point on the real line: <p/><ul>
+<li> \[
 g(x) = \begin{cases}
-\frac{\sin{x}}{x}\;, & x \neq 0;\\
+\dfrac{\sin{x}}{x}\;, & x \neq 0;\\
 1, & x = 0;
 \end{cases}
-\]
-</li>
-<li>
-\[
+\] </li>
+<li> \[
 f(x) = \begin{cases}
-x^2\cos\left(\frac{1}{e^x - 1}\right), & x \neq 0;\\
+x^2\cos\left(\dfrac{1}{e^x - 1}\right), & x \neq 0;\\
 0, & x = 0;
 \end{cases}
-\]
-</li></ul>
+\] </li></ul>
 @end
 
 @slide
 @ex
-Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies:
-<ul>
-<li> $f(x+y)=f(x)f(y)$ for all $x,y\in\mathbb{R}$;
-</li>
-<li> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$.
-</li></ul>
+Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be a function that satisfies: <ul>
+<li> $f(x+y)=f(x)f(y)$ for all $x,y\in\mathbb{R}$; </li>
+<li> $f(x)$ is continuous at $x=0$ and $f(0)\neq 0$. </li></ul>
 <hr/>
 @ol
 @li
@@ -1330,35 +1349,29 @@ Show that $f(x)$ is continuous on $\mathbb{R}$.
 
 @subsection{Further Properties of Continuous Functions}
 @thm
-@title{Intermediate value Theorem (IVT)}
+@title{Intermediate Value Theorem (IVT)}
 If $\displaystyle f : [a, b] \longrightarrow\mathbb{R}$ is continuous,
-then $f$ attains every value between $f(a)$ and $f(b)$.
-<p/>
+then $f$ attains every value between $f(a)$ and $f(b)$. <p style=""/>
 In other words, for any $y \in \mathbb{R}$ between the values of $f(a)$
 and $f(b),$ there exists $c \in [a, b]$ such that $f(c) = y$.
 @end
 @ex
 @newcol
-<ul>
-<li>
-Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$.
-</li>
-<li>
-Show that the range of $f(x) = e^x - \sqrt{x}$ <i>contains</i> $[1, \infty)$.
-</li></ul>
+<ul style="">
+<li style=""> Show that $f(x) = x^5 + x^2 - 10 = 0$ has a real root between $x = 1$ and $x = 2$. </li>
+<li style=""> Show that the range of $f(x) = e^x - \sqrt{x}$ <i style="">contains</i> $[1, \infty)$. </li></ul>
 @endcol
 @end
 @slide
 @thm
 @title{Extreme Value Theorem}
 @label{evt}
-If $f$ is a <u>continuous</u> function
-defined on a <u>closed</u> interval $[a, b]$,
+If $f$ is a <u>continuous</u>
+function
+defined on a <u>closed</u>
+interval $[a, b]$,
 then it attains both a maximum value and a minimum value on $[a, b].$
-@end
-
-
-@week{5}
+@end@week{5}
 @topic{Differentiation}
 @section{Derivatives}
 @defn
@@ -1367,12 +1380,48 @@ We say that a function $f$ is @keyword{differentiable} at $c$ if the limit:
 f'(c) := \lim_{h \rightarrow 0} \frac{f(c + h) - f(c)}{h}
 \]
 exists.
-The limit $f'(c)$, if it exists, is called the @keyword{derivative}
-of $f$ at $c$.
+The limit $f'(c)$, if it exists, is called the @keyword{derivative} of $f$ at $c$.
 @end
 @newcol
-We say that a function $f$ is @keyword{differentiable}
-if it is differentiable at every point in its domain.
+<div id="box" class="jxgbox" style="width:500px;height:500px;margin:auto"></div>
+<script>
+JXG.Options.text.useMathJax = true;
+board = JXG.JSXGraph.initBoard('box', {boundingbox: [-1, 6.5, 4.5, -3],
+axis: true,
+defaultAxes: {x: {name: 'x',
+ticks: {label: {fontSize: 12,
+offset: [0, -5]},
+drawZero: false,
+visible: 'inherit'}}},
+showClearTrace: true,
+showFullscreen: true});
+var pol = function(x){return x**3 - 6*x**2 + 9*x - 1; }
+var graph = board.create('functiongraph', [pol, -5, 5], {strokeWidth: 2, name:"", withLabel: true});
+var x0 = board.create('glider', [2, 0, board.defaultAxes.x], {name: '$c$', size:3});
+var fx0 = board.create('point', [
+function() { return x0.X(); },
+function() { return pol(x0.X()); }
+], {name: '', color: 'grey', fixed: true, size:3});
+var x = board.create('glider', [4, 0, board.defaultAxes.x], {name: '$c + h$', size:3});
+var fx = board.create('point', [
+function() { return x.X(); },
+function() { return pol(x.X()); }
+], {name: '', color: 'grey', fixed: true, size:3});
+var line = board.create('line',[fx0, fx],{strokeColor:'#ff0000',dash:2});
+// var f1 = board.create('point', [
+//         function() { return x.X(); },
+//         function() { return (fx.Y()-fx0.Y())/(fx.X()-fx0.X() + 0.0000001); }],
+//         { size: 1, name: 'f_1', color: 'black', fixed: true, trace: true});
+var txt = board.create('text', [0.25, 4, function() {return '\\[\\begin{split}\\text{Slope} = \\dfrac{f(c + h) - f(c)}{h} &= \\dfrac{' +
+fx.Y().toFixed(2) + ' - ' + fx0.Y().toFixed(2) + '}{' +
+(fx.X() - fx0.X()).toFixed(2) +'}\\\\ &= '
++ ((fx.Y()-fx0.Y())/(fx.X()-fx0.X())).toFixed(3) + '\\end{split}\\]';}]);
+var txt = board.create('text', [0.25, 5.5, function() {return '$y = f(x) = x^3 -6x^2 + 9x - 1$';}]);
+</script>
+
+@newcol
+We say that a function $f$ is @keyword{differentiable} if it is differentiable at every point in its domain.
+@endcol
 @endcol
 @slide
 @ex
@@ -1381,8 +1430,7 @@ Is $f$ differentiable at $x = 0$?  If so, find $f'(0)$.
 @end
 @slide
 @thm
-If a function $f$ is differentiable at $c$, then it is also continuous at $c$.
-<p/>
+If a function $f$ is differentiable at $c$, then it is also continuous at $c$. <p/>
 (The converse is false in general.)
 @end
 @eg
@@ -1410,11 +1458,9 @@ Suppose $f(x)$ differentiable at $x=1$, find the values of $a$ and $b$.
 @webwork{Library/UCSB/Stewart5_2_9/Stewart5_2_9_24.pg}
 @endenumerate
 
-
 @section{Tangent Line}
 If the derivative $f'(c)$ exists,
-then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$.
-<p/>
+then there exists a tangent line to the graph $y = f(x)$ of $f$ at $(c, f(c))$. <p/>
 Moreover, the slope of the tangent line is $f'(c)$,
 and the tangent line is the graph of the equation:
 \[
@@ -1422,82 +1468,30 @@ y = f'(c)(x - c) + f(c).
 \]
 @slide
 Given $f : A \longrightarrow\mathbb{R}$,
-the correspondence $x \mapsto f'(x)$ defines the @keyword{derivative function}
-$f' : A' \longrightarrow\mathbb{R}$, where $A'$ is the set of all points $c \in A$
+the correspondence $x \mapsto f'(x)$ defines the @keyword{derivative function} $f' : A' \longrightarrow\mathbb{R}$, where $A'$ is the set of all points $c \in A$
 at which $f$ is differentiable.
 @section{Some Common Derivative Identities}
 <table class="table table-hover table-striped table-bordered">
 <thead class="thead-default">
 <tr>
-<th>$f(x)$</th>
-<th>$f'(x)$</th>
-</tr>
-</thead>
+<th>$f(x)$</th><th>$f'(x)$</th></tr></thead><tbody>
 <tr>
-<td>constant</td>
-<td>$0$</td>
-</tr>
-<tr>
-<td>$ax + b \quad (a, b \in \mathbb{R})$</td>
-<td>$a$</td>
-</tr>
-<tr>
-<td>$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</td>
-<td>$nx^{n - 1}$</td>
-</tr>
-<tr>
-<td>$x^r \quad (r \in \mathbb{R},\; x > 0)$</td>
-<td>$rx^{r - 1}$</td>
-</tr>
-<tr>
-<td>$e^x$</td>
-<td>$e^x$</td>
-</tr>
-<tr>
-<td>$a^x \quad (a > 0)$</td>
-<td>$(\ln a)a^x$</td>
-</tr>
-<tr>
-<td>$\ln \abs{x}$</td>
-<td>$\displaystyle \frac{1}{x}$</td>
-</tr>
-<tr>
-<td>$\log_a x \quad (a \neq 1,\; a > 0)$</td>
-<td>$\displaystyle \frac {1}{(\ln a)x}$</td>
-</tr>
-<tr>
-<td>$\sin x$</td>
-<td>$\cos x$</td>
-</tr>
-<tr>
-<td>$\cos x$</td>
-<td>$-\sin x$</td>
-</tr>
-<tr>
-<td>$\tan x$</td>
-<td>$\sec^2 x$</td>
-</tr>
-<tr>
-<td>$\sec x$</td>
-<td>$\sec x\tan x$</td>
-</tr>
-<tr>
-<td>$\cot x$</td>
-<td>$-\csc^2 x$</td>
-</tr>
-<tr>
-<td>$\csc x$</td>
-<td>$-\csc x \cot x$</td>
-</tr>
-<tr>
-<td>$\arctan x$</td>
-<td>$\displaystyle \frac{1}{x^2 + 1}$</td>
-</tr>
-<tr>
-<td>$\arcsin x\quad(-1 < x < 1)$</td>
-<td>$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</td>
-</tr>
-</table>
+<td>constant</td><td>$0$</td></tr><tr>
+<td>$ax + b \quad (a, b \in \mathbb{R})$</td><td>$a$</td></tr><tr>
+<td>$x^n \quad (n \in \mathbb{Z},\; n \neq 0, 1)$</td><td>$nx^{n - 1}$</td></tr><tr>
+<td>$x^r \quad (r \in \mathbb{R},\; x > 0)$</td><td>$rx^{r - 1}$</td></tr><tr>
+<td>$e^x$</td><td>$e^x$</td></tr><tr>
+<td>$a^x \quad (a > 0)$</td><td>$(\ln a)a^x$</td></tr><tr>
+<td>$\ln \abs{x}$</td><td>$\displaystyle \frac{1}{x}$</td></tr><tr>
+<td>$\log_a x \quad (a \neq 1,\; a > 0)$</td><td>$\displaystyle \frac {1}{(\ln a)x}$</td></tr><tr>
+<td>$\sin x$</td><td>$\cos x$</td></tr><tr>
+<td>$\cos x$</td><td>$-\sin x$</td></tr><tr>
+<td>$\tan x$</td><td>$\sec^2 x$</td></tr><tr>
+<td>$\sec x$</td><td>$\sec x\tan x$</td></tr><tr>
+<td>$\cot x$</td><td>$-\csc^2 x$</td></tr><tr>
+<td>$\csc x$</td><td>$-\csc x \cot x$</td></tr><tr>
+<td>$\arctan x$</td><td>$\displaystyle \frac{1}{x^2 + 1}$</td></tr><tr>
+<td>$\arcsin x\quad(-1 < x < 1)$</td><td>$\displaystyle \frac{1}{\sqrt{1 - x^2}}$</td></tr></tbody></table>
 @section{Leibniz Notation}
 If $f$ is defined in terms of an independent variable $x$,
 we often denote $f'(x)$ by $\displaystyle \frac{df}{dx}\;$.
@@ -1507,16 +1501,11 @@ the value $f'(c)$ is denoted by:
 \left.\frac{df}{dx}\,\right|_{x = c}
 \]
 
-
-
-
 @section{Rules of Differentiation}
-@keyword*{product rule} @keyword*{quotient rule}
+@keyword*{product rule}
+@keyword*{quotient rule}
 Let $f$, $g$ be functions differentiable at $c \in \mathbb{R}$.
-Then:
-<br/><br/>
-<h5>Sum/Difference Rule</h5>@keyword*{sum/difference rule}
-<br/>
+Then: <br/><br/><h5>Sum/Difference Rule</h5>@keyword*{sum/difference rule}<br/>
 @newcol
 $f \pm g$ is differentiable at $c$, with:
 \[
@@ -1540,24 +1529,18 @@ $g'(c) = \lim_{h \rightarrow 0} \frac{g(c + h) - g(c)}{h}$ exist,
 by the sum rule for limits the expression $(\ast)$ is equal to:
 \[
 f'(c) + g'(c).
-\]
-<strong>Exercise.</strong>
-Show that $(f - g)'(c) = f'(c) - g'(c)$.
+\] <strong>Exercise.</strong> Show that $(f - g)'(c) = f'(c) - g'(c)$.
 @endcol
 @end
 @endcol
-<hr/>
-<h5>Product Rule</h5>
-<br/>
+<hr/><h5>Product Rule</h5><br/>
 @newcol
 $fg$ is differentiable at $c$, with:
 \[
 (fg)'(c) = f'(c)g(c) + f(c)g'(c).
 \]
 @endcol
-<hr/>
-<h5>Quotient Rule</h5>
-<br/>
+<hr/><h5>Quotient Rule</h5><br/>
 @newcol
 $f/g$ is differentiable at $c$ provided that $g(c) \neq 0$,
 in which case we have:
@@ -1566,7 +1549,6 @@ in which case we have:
 \]
 @endcol
 <hr/>
-
 
 @section{Chain Rule}
 @thm
@@ -1592,10 +1574,10 @@ and $u$ is a differentiable function of $x$, then:
 @ex
 Let $f:\mathbb{R}\rightarrow\mathbb{R}$ be the function defined by
 \[
-f(x) = \begin{cases} x^2\sin\left(\frac{1}{x}\,\right) & \text{ if } x\neq 0; \\
+f(x) = \begin{cases} x\sin\left(\frac{1}{x^2}\,\right) & \text{ if } x\neq 0; \\
 \;0 & \text{ if } x = 0.\end{cases}
 \]
-Find $f'$.  Is $f'$ continuous at $x = 0$?
+Find $f'$.
 @end
 @section{WeBWorK}
 @enumerate
@@ -1623,16 +1605,13 @@ Find $f'$.  Is $f'$ continuous at $x = 0$?
 @webwork{Library/Rochester/setDerivatives1/c1s5p8.pg}
 @item
 @webwork{Library/WHFreeman/Rogawski_Calculus_Early_Transcendentals_Second_Edition/3_Differentiation/3.8_Derivatives_of_Inverse_Functions/3.8.34.pg}
-@endenumerate
-
-
-
-@week{6}
+@endenumerate@week{6}
 @topic{Implicit Differentiation}
 @topic{Higher Order Derivatives}
 
 
-@section{Implicit Differentiation}
+@section{
+Implicit Differentiation}
 @eg
 For $x > 0$,
 \[
@@ -1766,36 +1745,70 @@ f : [-\pi/2, \pi/2] \longrightarrow\mathbb{R},
 \[
 f(x) = \sin x, \quad x \in [-\pi/2, \pi/2].
 \]
-
-
+@col
 The inverse of $f$ is:
 \[
 f^{-1} = \arcsin : [-1, 1] \longrightarrow[-\pi/2, \pi/2].
 \]
-
-
+@col
 Consider any $y \in (-1, 1)$.
 We have $y = f(x) = \sin(x)$ for a unique $x = \arcsin y$ in $(-\pi/2, \pi/2)$.
 Since $x \in (-\pi/2, \pi/2)$, we have $f'(x) = \cos (x) \neq 0$.
+
+@col
 Hence,
-by  @ref{inversederivative}, $(f^{-1})'(y)$ exists, with:
+by @ref{inversederivative}, $(f^{-1})'(y)$ exists, with:
 \[
 \left(f^{-1}\right)'(y) = \left(f^{-1}\right)'(f(x)) = \frac{1}{f'(x)} = \frac{1}{\cos{x}}\;.
 \]
+@col
 By the Pythagorean Theorem, we know that:
 \[
 \cos x = \pm \sqrt{1 - \sin^2{x}}\;.
 \]
+@col
 Moreover, since $x \in (-\pi/2, \pi/2)$, we have $\cos x > 0$, so:
 \[
 \cos x = +\sqrt{1 - \sin^2{x}} = \sqrt{1 - \sin^2(\arcsin(y))} = \sqrt{1 - y^2}.
 \]
+@col
 In conclusion, for $y \in (-1, 1)$, we have:
 \[
 \arcsin' y = \left(f^{-1}\right)'(y) = \frac{1}{\sqrt{1 - y^2}}\;.
 \]
 @end
-@section{WeBWorK}
+@eg
+@col
+Similary, we can find the derivative of $\arccos$ as follows:
+
+@col
+The function $\arccos$ is the inverse function $g^{-1}$ of the following
+injective function:
+\[
+g(x) = \cos x, \quad x \in [0, \pi].
+\]
+@col
+For any $y \in (-1, 1)$, we have $g^{-1}(y) \in (0, \pi)$,
+so $g'(g^{-1}(y)) = -\sin(\arccos(y)) \neq 0$.
+@col
+Hence, by @ref{inversederivative}, the function $g^{-1}$ is differentiable at $y \in (-1, 1)$, with:
+\[
+(g^{-1})'(y) = \frac{1}{g'(g^{-1}(y))} = \frac{1}{-\sin(\arccos(y)}.
+\]
+@col
+By the Pythagorean Theorem, $\sin x = \pm \sqrt{1 - \cos^2(x)}$.
+Since $\arccos(y) \in (0, \pi)$ for $y \in (-1, 1)$, we have:
+\[
+\sin(\arccos(y)) = + \sqrt{1 - \cos^2(\arccos(y))} = \sqrt{1 - y^2}.
+\]
+@col
+Hence,
+\[
+\arccos' y = (g^{-1})'(y) = -\frac{1}{\sqrt{1 - y^2}}.
+\]
+@end
+@section{
+WeBWorK}
 @enumerate
 @item
 @webwork{Library/ma122DB/set5/s3_6_25_mo.pg}
@@ -1812,7 +1825,8 @@ In conclusion, for $y \in (-1, 1)$, we have:
 @endenumerate
 
 
-@section{Higher Order Derivatives}
+@section{
+Higher Order Derivatives}
 Let $f$ be a function.
 <hr/>
 @newcol
@@ -2018,7 +2032,8 @@ h^{(3)}(x) &= fg^{(3)}(x) + 3f'g''(x) + 3f''g'(x) + f^{(3)}g(x)
 @endsteps
 @endcol
 @end
-@section{WeBWorK}
+@section{
+WeBWorK}
 @enumerate
 @item
 @webwork{Library/UVA-Stew5e/setUVA-Stew5e-C03S07-HigherDerivs/3-7-25.pg}
@@ -2035,17 +2050,18 @@ h^{(3)}(x) &= fg^{(3)}(x) + 3f'g''(x) + 3f''g'(x) + f^{(3)}g(x)
 @item
 @webwork{Library/UCSB/Stewart5_3_7/Stewart5_3_7_63.pg}
 @endenumerate
-
-
-
 @week{7}
 @topic{Mean Value Theorem}
 @slide
 @thm
 @title{Extreme Value Theorem}
 @label{evt}
-If $f$ is a <u>continuous</u> function
-defined on a <u>closed</u> interval $[a, b]$,
+If $f$ is a
+continuous
+function
+defined on a
+closed
+interval $[a, b]$,
 then it attains both a maximum value and a minimum value on $[a, b].$
 @end
 @section{The Mean Value Theorem}
@@ -2056,13 +2072,37 @@ and differentiable on $(a, b)$ (i.e. $f'(x)$ exists for all $x \in (a, b)$).
 If $f(a) = f(b)$, then there exists $c \in (a, b)$ such that $f'(c) = 0$.
 @end
 @newcol
-<div class="image">
-<a title="By Fulvio314 (Own work) [CC0], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARolle's_theorem_2.svg"><img alt="Rolle's theorem 2" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Rolle%27s_theorem_2.svg"/></a>
-</div>
+<div id="rolles_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/><script>
+JXG.Options.text.useMathJax = true;
+board = JXG.JSXGraph.initBoard('rolles_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
+board.suspendUpdate();
+var p = [];
+p[0] = board.create('point', [-1,2], {name:'', size:3,color:'blue',fixed:true});
+board.create('point', [-1,0], {name:'$a$', size:3,color:'red',fixed:true});
+p[1] = board.create('point', [6,2], {name:'', size:3,color:'blue',fixed:true});
+board.create('point', [6,0], {name:'$b$', size:3,color:'red',fixed:true});
+p[2] = board.create('point', [-5,8], {name:'', color:'blue',face:'x', size:2});
+p[3] = board.create('point', [7,6], {name:'', color:'blue',face:'x', size:2});
+var f = JXG.Math.Numerics.lagrangePolynomial(p);
+var graph = board.create('functiongraph', [f, -10, 10]);
+//board.create('glider', [function() { return p[0].X();}, function() { return 0;}, graph], {size:3,name:'$a$'});
+//board.create('glider', [function() {return p[1].X(); }, function() { return  0; }, graph], {size:3,name:'$b$'});
+var r = board.create('glider', [function() { return JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5); },
+function() { return f(JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5)); },graph],
+{name:' ', size:3, color:'blue'});
+var rx = board.create('glider', [function() { return JXG.Math.Numerics.root(JXG.Math.Numerics.D(f),(p[0].X()+p[1].X())*0.5); },
+function() { return 0; },graph],
+{name:'$c$',size:3});
+var t = board.create('tangent', [r], {strokeColor:'#ff0000'});
+line = board.create('line',[p[0],p[1]],{strokeColor:'#ff9999',dash:1});
+board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
+board.unsuspendUpdate();
+</script>
 @endcol
 @proof
 @newcol
-<strong>Sketch of Proof.</strong>  First, it follows from the  @ref{evt} that
+Sketch of Proof.
+First, it follows from the @ref{evt} that
 $f$ has an absolute maximum or minimum at a point $c$ in $(a, b)$.
 It may then be shown that:
 \[
@@ -2078,7 +2118,6 @@ $\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
 @title{Mean Value Theorem (MVT)}
 (Also known as @keyword{Lagrange's Mean Value Theorem})
 
-
 If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
 and differentiable on $(a, b)$,
 then there exists $c \in (a, b)$ such that:
@@ -2087,9 +2126,32 @@ f'(c) = \frac{f(b) - f(a)}{b - a}
 \]
 @end
 @newcol
-<div class="image">
-<a title="By 4C (Own work, based on PNG version) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY-SA 2.5-2.0-1.0 (https://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3AMvt2.svg"><img alt="Mvt2" src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Mvt2.svg"/></a>
-</div>
+<div id="mvt_box" class="jxgbox" style="width: 400px; height: 400px; margin: auto; user-select: none; overflow: hidden; position: relative; touch-action: none;"/><script>
+JXG.Options.text.useMathJax = true;
+board1 = JXG.JSXGraph.initBoard('mvt_box', {boundingbox: [-5, 10, 7, -6], axis: true, showFullscreen: true});
+board1.suspendUpdate();
+var q = [];
+q[0] = board1.create('point', [-1,-2], {name:'', size:3,color:'blue',fixed:false});
+q[1] = board1.create('point', [6,3], {name:'', size:3,color:'blue',fixed:false});
+q[2] = board1.create('point', [-2,-6], {name:'', color:'blue', size:0, fixed:true, face:'x'});
+q[3] = board1.create('point', [7,0], {name:'', color:'blue', size:0, fixed:true, face:'x'});
+var h = JXG.Math.Numerics.lagrangePolynomial(q);
+var graph1 = board1.create('functiongraph', [h, -10, 10]);
+var g = function(x) {return JXG.Math.Numerics.D(h)(x)-(q[1].Y()-q[0].Y())/(q[1].X()-q[0].X());};
+board1.create('glider', [function() { return q[0].X();}, function() { return 0;}, graph1], {size:3,name:'$a$'});
+board1.create('glider', [function() {return q[1].X(); }, function() { return  0; }, graph1], {size:3,name:'$b$'});
+var s = board1.create('glider', [
+function() { return JXG.Math.Numerics.root(g,(q[0].X()+q[1].X())*0.5); },
+function() { return h(JXG.Math.Numerics.root(g,(q[0].X()+q[1].X())*0.5)); },
+graph1], {name:' ',size:4,fixed:true});
+board1.create('tangent', [s], {strokeColor:'#ff0000'});
+var sx = board1.create('glider', [function() { return JXG.Math.Numerics.root(g,(q[0].X()+q[1].X())*0.5); },
+function() { return 0; },graph1],
+{name:'$c$',size:3, color:'blue'});
+line = board1.create('line',[q[0],q[1]],{strokeColor:'#ff0000',dash:1});
+board1.create('segment',[sx,s],{strokeColor:'#9999ff',dash:1});
+board1.unsuspendUpdate();
+</script>
 @endcol
 @proof
 @newcol
@@ -2124,7 +2186,6 @@ which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
 @webwork{Library/Michigan/Chap3Sec10/Q07.pg}
 @endenumerate
 
-
 @section{Applications of the Mean Value Theorem}
 @thm
 Let $f$ be a differentiable function on an open interval $(a, b)$.
@@ -2133,7 +2194,7 @@ $f$ is constant on $(a, b)$.
 @end
 @proof
 @newcol
-<strong>Exercise.</strong>
+Exercise.
 For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
 is equal to $0$.
 @qed
@@ -2144,15 +2205,11 @@ is equal to $0$.
 @label{monotone}
 Let $f$ be a differentiable function on an open interval $(a, b)$.
 If $f'(x) > 0$ (resp. $f'(x) < 0$)  for all $x \in (a, b)$, then
-$f$ is @keyword{strictly increasing} (resp. @keyword{strictly decreasing}) on $(a, b)$.
-<p/><br/>
-<strong>Remark:</strong>
-If $f$ is moreover continuous on $[a, b]$, then $f$ is increasing (resp. decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
+$f$ is @keyword{strictly increasing} (resp. @keyword{strictly decreasing}) on $(a, b)$. <br/>Remark: If $f$ is moreover continuous on $[a, b]$, then $f$ is strictly increasing (resp. strictly decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$.
 @end
 @proof
 @newcol
-We will prove the case $f'(x) > 0$.
-<br/>
+We will prove the case $f'(x) > 0$. <br/>
 Suppose $f'(x) > 0 $ for all $x \in (a, b)$.  Given any $x_1, x_2 \in (a, b)$,
 such that $x_1 < x_2$, by the MVT there exists $c \in (x_1, x_2)$ such that
 \[
@@ -2164,7 +2221,7 @@ Also, $x_2 - x_1 > 0$.  Hence:
 \[
 f(x_2) - f(x_1) = f'(c) \cdot (x_2 - x_1) > 0.
 \]
-This shows that $f$ is increasing on $(a, b)$.
+This shows that $f$ is strictly increasing on $(a, b)$.
 @qed
 @endcol
 @end
@@ -2175,7 +2232,7 @@ is increasing/decreasing.
 @end
 @sol
 @newcol
-We apply  @ref{monotone}.
+We apply @ref{monotone}.
 
 @col
 First, we find:
@@ -2185,46 +2242,36 @@ f'(x) = 3x^2 + 12 x - 15
 Observe that $f'$ is defined and continuous everywhere.
 Hence, the intervals where $f'$ is positive/negative
 are separated by points $c$ where $f'(c) = 0$. (Such points are called @keyword{stationary points} of $f$).
-<p/>
+
 @col
 Setting:
 \[
 f'(c) = 3c^2 + 12c - 15 = 3(c^2 + 4c - 5) = 3(c + 5)(c - 1) = 0,
 \]
-we see that the points where $f'$ <i>possibly</i> changes sign are:
+we see that the points where $f'$
+possibly
+changes sign are:
 \[
 c = -5, 1
 \]
 @col
-Consider now the @keyword{sign chart}:
-<table class="table table-striped table-bordered" style="text-align:center">
+Consider now the @keyword{sign chart} : <table class="table table-striped table-bordered" style="text-align:center">
+<tbody>
 <tr>
-<td>$f$:</td><td><strong>$\nearrow$</strong></td><td/><td><strong>$\searrow$</strong></td><td/><td><strong>$\nearrow$</strong></td>
-</tr>
-<tr>
-<td>$f'(x)$:</td>
-<td>$+$</td><td>$0$</td><td>$-$</td><td>$0$</td>
-<td>$+$</td>
-</tr>
-<tr>
-<td>$x$:</td><td>$(-\infty, -5)$</td><td>$-5$</td><td>$(-5, 1)$</td><td>$1$</td>
-<td>$(1, \infty)$</td>
-</tr>
-</table>
-<p/>
+<td>$f$:</td><td>
+<strong>$\nearrow$</strong></td><td/><td>
+<strong>$\searrow$</strong></td><td/><td>
+<strong>$\nearrow$</strong></td></tr><tr>
+<td>$f'(x)$:</td><td>$+$</td><td>$0$</td><td>$-$</td><td>$0$</td><td>$+$</td></tr><tr>
+<td>$x$:</td><td>$(-\infty, -5)$</td><td>$-5$</td><td>$(-5, 1)$</td><td>$1$</td><td>$(1, \infty)$</td></tr></tbody></table>
+
 @col
-It now follows from  @ref{monotone} and the continuity of $f$ that:
-<ul>
-<li>
-$f$ is increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.
-</li>
-<li>
-$f$ is decreasing on the interval $[-5, 1]$.
-</li></ul>
+It now follows from @ref{monotone} and the continuity of $f$ that: <ul>
+<li>$f$ is strictly increasing on the intervals $(-\infty, -5]$ and $[1, \infty)$.   </li>
+<li> $f$ is strictly decreasing on the interval $[-5, 1]$. </li></ul>
 @col
 <div class="image">
-<iframe src="https://www.desmos.com/calculator/ja7cqgww7s?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-</div>
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no" src="https://www.desmos.com/calculator/ja7cqgww7s?embed"/></div>
 @endcol
 @end
 @slide
@@ -2256,40 +2303,29 @@ where:
 \[
 f'(c) = 0\quad \textit{or} \quad f'(c) \text{ is undefined.}
 \]
-Such points are called the @keyword{critical points}
-of $f$.  (Note that the set of stationary points is a subset of critical points).
-<p/>
+Such points are called the @keyword{critical points} of $f$.  (Note that the set of stationary points is a subset of critical points).
+
 @col
-Constructing a sign chart as in the previous example, we have:
-<table class="table-hover table table-striped table-bordered" style="text-align:center">
+Constructing a sign chart as in the previous example, we have: <table class="table-hover table table-striped table-bordered" style="text-align:center">
+<tbody>
 <tr>
-<td>$f$:</td><td><strong>$\searrow$</strong></td><td/><td><strong>$\nearrow$</strong></td><td/>
-<td><strong>$\nearrow$</strong></td>
-</tr>
-<tr>
-<td>$f'(x)$:</td>
-<td>${\large -}$</td><td>$0$</td><td>${\large +}$</td><td>undefined</td>
-<td>${\large +}$</td>
-</tr>
-<tr>
-<td>$x$:</td><td>$(-\infty, -1)$</td><td>$-1$</td><td>$(-1, 0)$</td><td>$0$</td>
-<td>$(0, \infty)$</td>
-</tr>
-</table>
-<p/>
+<td>$f$:</td><td>
+<strong>$\searrow$</strong></td><td/><td>
+<strong>$\nearrow$</strong></td><td/><td>
+<strong>$\nearrow$</strong></td></tr><tr>
+<td>$f'(x)$:</td><td>${\large -}$</td><td>$0$</td><td>${\large +}$</td><td>undefined</td><td>${\large +}$</td></tr><tr>
+<td>$x$:</td><td>$(-\infty, -1)$</td><td>$-1$</td><td>$(-1, 0)$</td><td>$0$</td><td>$(0, \infty)$</td></tr></tbody></table>
+
 @col
-Hence, by  @ref{monotone}, $f$ is <u>decreasing</u> on:
+Hence, by @ref{monotone} , $f$ is strictly decreasing on:
 \[(-\infty, -1],\]
-and increasing on both $[-1, 0]$ and $[0, \infty)$.
-<p/>
-Since $f$ is continuous at $x = 0$, we conclude that $f$ is <u>increasing</u> on:
+and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is continuous at $x = 0$, we conclude that $f$ is strictly increasing on:
 \[
 [-1, \infty).
 \]
 @col
 <div class="image">
-<iframe src="https://www.desmos.com/calculator/heievbyzs3?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-</div>
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no" src="https://www.desmos.com/calculator/heievbyzs3?embed"/></div>
 @endcol
 @end
 @slide
@@ -2315,10 +2351,8 @@ f(x) = \ln\left(1+x\right) - x\;.
 \]
 Then, $f(0) = 0$, and $f'(x) = \dfrac{-x}{1 + x}$.
 
-
 @col
 Hence, $f'(x) < 0$ for all $x > 0$.
-
 
 @col
 For any $x > 0$, by the Mean Value Theorem we have:
@@ -2336,11 +2370,8 @@ Since $x > 0$, we conclude that $\ln(1 + x) - x = f(x) = f(x) - f(0)  < 0$.  We 
 \ln(1 + x) < x,
 \]
 for all $x > 0$.
-<p/>
-<hr/>
 @col
 To show that $\frac{x}{1+x} < \ln(1+x)$, we proceed similarly.
-
 
 @col
 Consider:
@@ -2358,7 +2389,6 @@ g'(x) &= \frac{1}{1 + x} - \frac{(1 + x)1 - x(1)}{(1 + x)^2}\\
 \]
 for all $x > 0$.
 
-
 @col
 Hence, for all $x > 0$, by the Mean Value Theorem we have:
 \[
@@ -2366,14 +2396,13 @@ Hence, for all $x > 0$, by the Mean Value Theorem we have:
 \]
 where $c$ is some element which lies in $(0, x)$.
 
-
 @col
 This shows that $\ln(1 + x) - \frac{x}{1 + x} = g(x) > 0$.  Hence,
 \[
 \ln(1 + x) > \frac{x}{1 + x}
 \]
 for $x > 0$.
-<hr/>
+
 @col
 Finally, for all $t> 0$, we have $\frac{1}{t} > 0$.  Applying the inequality:
 \[
@@ -2390,57 +2419,39 @@ which is equivalent to:
 \]
 @qed
 @endcol
-@end
-
-
-
-@week{8}
+@end@week{8}
 @topic{Curve Sketching}
 @section{Absolute/Relative (Global/Local) Extrema}
-Consider a function $f : A \longrightarrow\mathbb{R}$.
+Consider a function $f : A \longrightarrow\mathbb{R}$. @keyword*{absolute minimum}@keyword*{global minimum}@keyword*{absolute maximum}@keyword*{global maximum}
 @defn
 <ul>
-<li>
-If there is an element $c \in A$ such that: $f(c) \leq f(x)$
-for all $x \in A$, we say that $f(c)$ is the (global/absolute) @keyword{minimum} of $f$.
-@keyword*{absolute minimum}
-@keyword*{global minimum}
-</li>
-<li>
-If there is an element $d \in A$ such that: $f(d) \geq f(x)$
-for all $x \in A$, we say that $f(d)$ is the (global/absolute) @keyword{maximum} of $f$.
-@keyword*{absolute maximum}
-@keyword*{global maximum}
-</li></ul>
+<li> If there is an element $c \in A$ such that: $f(c) \leq f(x)$
+for all $x \in A$, we say that $f(c)$ is the (global/absolute) @keyword{minimum} of $f$. </li>
+<li> If there is an element $d \in A$ such that: $f(d) \geq f(x)$
+for all $x \in A$, we say that $f(d)$ is the (global/absolute) @keyword{maximum} of $f$. </li></ul>
 @end
 @defn
 @newcol
 <ul>
-<li>
-If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
-we say that $f$ has a @keyword{local/relative minimum} at $c$.
-</li>
-<li>
-If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
-we say that $f$ has a @keyword{local/relative maximum} at $c$.
-</li>
-</ul>
+<li> If $f(c) \leq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a @keyword{local/relative minimum} at $c$. </li>
+<li> If $f(c) \geq f(x)$ for all $x$ in an open interval containing $c$,
+we say that $f$ has a @keyword{local/relative maximum} at $c$. </li></ul>
 @endcol
 @end
 @newcol
-<div class="image">
-<a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg" alt="Extrema example original.svg"/></a><br/>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a>
-</div>
+<div class="image" style="width: 450px;">
+<a href="https://commons.wikimedia.org/wiki/File:Extrema_example_original.svg#/media/File:Extrema_example_original.svg">
+<img alt="Extrema example original.svg" rendered="0" width="450" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/1/1e/Extrema_example.svg"/></a><br/>By KSmrq - <a class="external free" href="http://commons.wikimedia.org/wiki/File:Extrema_example.svg">http://commons.wikimedia.org/wiki/File:Extrema_example.svg</a>, <a href="http://www.gnu.org/licenses/old-licenses/fdl-1.2.html" title="GNU Free Documentation License 1.2">GFDL 1.2</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=6870865">Link</a></div>
 @endcol
 @slide
 @thm
-@label{thm:fdt}
 @title{First Derivative Test}
+@label{thm:fdt}
 Let $f : A \longrightarrow\mathbb{R} $ be a continuous function.
 For $c \in A$, if there exists an open interval $(a, b)$ containing $c$
 such that $f'(x) < 0$ (in particular it exists) for all $x \in (a, c)$,
 and $f'(x) > 0$ for all $x \in (c, b)$, then $f$ has a local minimum at $c$.
-
 
 Similarly, if $f'(x) > 0$ for all $x \in (a, c)$ and $f'(x) < 0 $ for
 all $x \in (c, b)$, then $f$ has a local maximum at $c$.
@@ -2448,10 +2459,11 @@ all $x \in (c, b)$, then $f$ has a local maximum at $c$.
 <strong>Note:</strong>
 @newcol
 In the special case that the domain of $f$ is an open interval $(a, b)$,
-if $f'(x) > 0$ for <u>all</u> $x \in (a, c)$, and $f'(x) < 0$ for <u>all</u>
+if $f'(x) > 0$ for <u>all</u>
+$x \in (a, c)$, and $f'(x) < 0$ for <u>all</u>
 $x \in (c, b)$,
-then $f$ has an absolute maximum at $c$.
-<br/>Similarly $f$ has an absolute minimum at $c$
+then $f$ has an absolute maximum at $c$. <br/>
+Similarly $f$ has an absolute minimum at $c$
 if each of the above inequalities is reversed.
 @endcol
 @eg
@@ -2489,35 +2501,28 @@ for $u$, $v>0$.
 @webwork{Library/Wiley/setAnton_Section_4.2/question12.pg}
 @endenumerate
 
-
 @slide
 @thm
-@label{thm:sdt}
 @title{Second Derivative Test}
+@label{thm:sdt}
 Let $f$ be a function twice differentiable at $c \in \mathbb{R}$,
-such that $f'(c) = 0$.  If:
-<ul>
-<li>$f''(c) > 0$, then $f$ has a local minimum at $c$.
-</li>
-<li>$f''(c) < 0$, then $f$ has a local maximum at $c$.
-</li></ul>
+such that $f'(c) = 0$.  If: <ul>
+<li>$f''(c) > 0$, then $f$ has a local minimum at $c$. </li>
+<li>$f''(c) < 0$, then $f$ has a local maximum at $c$. </li></ul>
 @end
 @proof
 @newcol
-<strong>Sketch of Proof.</strong>
-Suppose $f''(c) > 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
+<strong>Sketch of Proof.</strong> Suppose $f''(c) > 0$, by the definition of $f''(c)$ as the derivative of $f'$ at $c$,
 we have:
 \[
 0 < f''(c) = \lim_{h \rightarrow 0}\frac{f'(c + h)  - f'(c)}{h}
 = \lim_{h \rightarrow 0}\frac{f'(c + h)}{h}\;.
 \]
 It follows from the above identity that $f'(c + h)$ is $> 0$ for sufficiently small
-positive $h$, and $< 0$ for sufficiently small negative $h$.
-<br/>
+positive $h$, and $< 0$ for sufficiently small negative $h$. <br/>
 @col
 Hence there is an open interval $(a, b)$ containing $c$ such that $f'$ is negative on
-$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test.
-<br/>
+$(a, c)$ and positive on $(c, b)$.  So, $f$ has a local minimum at $c$ by the First Derivative Test. <br/>
 @col
 The case $f''(c) < 0$ may be proved similarly.
 @qed
@@ -2525,10 +2530,9 @@ The case $f''(c) < 0$ may be proved similarly.
 @end
 @slide
 @eg
-Consider the function $f(x) = x^3 + 6x^2  - 15x + 7$ in
-@ref{dbee36c80786eacbe8adcb4d1cbb5875}, we have:
+Consider the function $f(x) = x^3 + 6x^2  - 15x + 7$ in @ref{dbee36c80786eacbe8adcb4d1cbb5875}, we have:
 
-@col
+@newcol
 \[
 f''(x) = 6x + 12
 \]
@@ -2545,9 +2549,10 @@ f''(-5) = -18,\quad f''(1) = 18,
 by the @ref{thm:sdt} $f(-5)$ is a local maximum,
 and $f(1)$ is a local minimum.  (This corroborates the conclusions
 of the @ref{thm:fdt} applied to the same function, see @ref{7c80e8e3f96891c595d6e3c37af5a5b3}.)
+@endcol
 @end
 @eg
-@col
+@newcol
 Consider $g(x) = x^4$.  Then, $g'(x) = 4x^3$, which implies that
 $c = 0$ is the only point where $g'(c) = 0$.
 
@@ -2561,24 +2566,22 @@ regarding whether $g(0)$ is a local minimum, maximum, or neither.
 @col
 However, one can still apply the @ref{thm:fdt} to conclude that
 $f(0) = 0$ is a local minimum.
+@endcol
 @end
 @section{Concavity}
 Let $f$ be a twice differentiable function.
-If $f''$ is positive (negative)
+If $f''$ is positive (resp. negative)
 on an open interval $(a, b)$, then the graph of $f$ over $(a, b)$
-is @keyword{concave up} (resp. <strong>down</strong>@keyword*{concave down}  ).
-<p/>
+is @keyword{concave up} (resp. <strong style="">down</strong>@keyword*{concave down}  ). <p style=""/>
 @newcol
 This is due to the fact that $f''$ being positive (resp. negative) corresponds to
-$f'$ being increasing (resp. decreasing).
-<p/>
+$f'$ being increasing (resp. decreasing). <p style=""/>
 @col
-<div class="image">
-<a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Animated_illustration_of_inflection_point.gif" alt="Animated illustration of inflection point.gif"/></a><br/>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293">Link</a>
-</div>
+<div class="image" style="">
+<a href="https://commons.wikimedia.org/wiki/File:Animated_illustration_of_inflection_point.gif#/media/File:Animated_illustration_of_inflection_point.gif" style="">
+<img alt="Animated illustration of inflection point.gif" rendered="0" style="max-width: 100%; height: auto; background: none;"/></a><br/>By dino - <a class="external free" href="http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif" style="">http://en.wikipedia.org/wiki/File:Animated_illustration_of_inflection_point.gif</a>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=9704293" style="">Link</a></div>
 @col
-A point on the graph of $f$ where the concavity changes is called an
-@keyword{inflection point}.
+A point on the graph of $f$ where the concavity changes is called an @keyword{inflection point}.
 It corresponds to a point in the domain of $f$ where $f''$ changes sign.
 @endcol
 @slide
@@ -2587,17 +2590,15 @@ Sketch the graph of:
 \[
 f(x) = \dfrac{x^2 + x - 2}{x^2}
 \]
-by first finding the following information about $f$:
-<ol>
-<li> Domain.
+by first finding the following information about $f$: <ol style="">
+<li style=""> Domain.
 @newcol
 \[
 \{x \in \mathbb{R} : x \neq 0 \} = (-\infty, 0 ) \cup (0, \infty)
 \]
 <hr/>
-@endcol
-</li>
-<li> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
+@endcol</li>
+<li style=""> $x$-intercepts (if sufficiently easy to find), and $y$-intercept.
 @newcol
 $f(x) = 0$ if and only if $x \neq 0$
 and $x^2 + x - 2 = (x - 1)(x + 2) = 0$.
@@ -2610,155 +2611,117 @@ is the value of the function at $x = 0$.
 In this case, $0$ is not in the domain of $f$,
 hence the graph of $f$ has no $y$-intercept.
 <hr/>
-@endcol
-</li>
-<li>
-Asymptotes (Horizontal, Vertical, Oblique)
+@endcol</li>
+<li style=""> Asymptotes (Horizontal, Vertical, Oblique)
 @newcol
 \[
 \lim_{x \rightarrow \infty} f(x) = \lim_{x \rightarrow -\infty} f(x) = 1.
 \]
-Hence, the graph of $f$ has one horizontal asymptote: $y = 1$.
-<p/>
-The value $f(x)$ is defined for all $x \neq 0$.
-<p/>
+Hence, the graph of $f$ has one horizontal asymptote: $y = 1$. <p style=""/>
+The value $f(x)$ is defined for all $x \neq 0$. Hence, $f$, being a rational function, is continuous at all $x \neq 0$. So, there are no vertical asymptotes at $x \neq 0$.<p style=""/>
 @col
 Near $x = 0$, we have:
 \[
 \lim_{x \rightarrow 0^-} f(x) = \lim_{x \rightarrow 0^+} f(x) = -\infty.
 \]
-Hence, the graph of $f$ has a vertical asymptote at $x = 0$.
-<p/>
+Hence, the graph of $f$ has a vertical asymptote at $x = 0$. <p style=""/>
 @col
 Since $f(x)$ approaches $1$ as $x$ approaches $\pm \infty$,
 the graph of $f$ has no oblique asymptote.
 <hr/>
-@endcol
-</li>
-<li>
-	Intervals where $f$ is increasing/decreasing.
+@endcol</li>
+<li style=""> 	Intervals where $f$ is increasing/decreasing.
 
 @newcol
-	\[
-	\begin{split}
-	f'(x) &= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
-	&= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
-	&= \frac{1}{x^{3}} \left(4 - x\right)
-	\end{split}
-	\]
-	Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$.
-	<p/>
+\[
+\begin{split}
+f'(x) &= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+&= \frac{x^2(2x + 1) - (x^2 + x - 2)2x}{\left(x^2\right)^2}\\
+&= \frac{1}{x^{3}} \left(4 - x\right)
+\end{split}
+\]
+Hence, the points $c$ where $f'$ possibly changes sign are $c = 0, 4$. <p style=""/>
 
 @col
-	  <table class="table-hover table table-striped table-bordered" style="text-align:center">
-	    <tr>
-	      <td>$y = f(x)$:</td><td><strong>$\searrow$</strong></td><td><strong>$\nearrow$</strong></td><td><strong>$\searrow$</strong></td>
-	    </tr>
-	    <tr>
-	      <td>$f'(x)$:</td>
-	      <td>$-$</td><td>$+$</td><td>$-$</td>
-	    </tr>
-	    <tr>
-	      <td>$x$:</td><td>$(-\infty, 0)$</td><td>$(0, 4)$</td><td>$(4, \infty)$</td>
-	    </tr>
-	  </table>
-	  It follows from the sign chart that $f$ is increasing on $(0, 4]$,
-	  and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
+<table class="table-hover table table-striped table-bordered" style="text-align: center;">
+<tbody style="">
+<tr style="">
+<td style="">$y = f(x)$:</td><td style="">
+<strong style="">$\searrow$</strong></td><td style="">
+<strong style="">$\nearrow$</strong></td><td style="">
+<strong style="">$\searrow$</strong></td></tr><tr style="">
+<td style="">$f'(x)$:</td><td style="">$-$</td><td style="">$+$</td><td style="">$-$</td></tr><tr style="">
+<td style="">$x$:</td><td style="">$(-\infty, 0)$</td><td style="">$(0, 4)$</td><td style="">$(4, \infty)$</td></tr></tbody></table>
+It follows from the sign chart that $f$ is increasing on $(0, 4]$,
+and decreasing on $(-\infty, 0)$ and $[4, \infty)$.
 
 <hr/>
 
-@endcol
-	  </li>
-<li>
-	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
+@endcol</li>
+<li style=""> 	    "Turning Points" on the graph of $f$ (i.e. points corresponding to local extrema).
 
 @newcol
-	    It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
-	    The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
+It follows from the sign chart above that $f$ as a local maximum at $x = 4$.
+The corresponding point on the graph is $(4, f(4)) = (4, 9/8)$.
 
 <hr/>
 
-@endcol
-	  </li>
-<li>
-	    Intervals where $f$ is concave up/down.
+@endcol</li>
+<li style=""> 	    Intervals where $f$ is concave up/down.
 
 @newcol
-	    The second derivative of $f$ is:
-	    \[
-	    f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
-	    \]
-	    The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
-	    or where $f''(p)$ is undefined.
-	    In this case, there are two such point: $p = 0, 6$.
-	    <p/>
+The second derivative of $f$ is:
+\[
+f''(x) = \frac{1}{x^{4}} \left(2 x - 12\right)
+\]
+The points where $f''$ possibly changes sign are points $p$ where $f''(p) = 0$,
+or where $f''(p)$ is undefined.
+In this case, there are two such point: $p = 0, 6$. <p style=""/>
 
 @col
-	      <table class="table-hover table table-striped table-bordered" style="text-align:center">
-		<tr>
-		  <td>$y = f(x)$:</td><td><strong>$\cap$</strong></td><td><strong>$\cap$</strong></td><td><strong>$\cup$</strong></td>
-		</tr>
-		<tr>
-		  <td>$f''(x)$:</td>
-		  <td>$-$</td><td>$-$</td><td>$+$</td>
-		</tr>
-		<tr>
-		  <td>$x$:</td><td>$(-\infty, 0)$</td><td>$(0, 6)$</td><td>$(6, \infty)$</td>
-		</tr>
-</table>
+<table class="table-hover table table-striped table-bordered" style="text-align: center;">
+<tbody style="">
+<tr style="">
+<td style="">$y = f(x)$:</td><td style="">
+<strong style="">$\cap$</strong></td><td style="">
+<strong style="">$\cap$</strong></td><td style="">
+<strong style="">$\cup$</strong></td></tr><tr style="">
+<td style="">$f''(x)$:</td><td style="">$-$</td><td style="">$-$</td><td style="">$+$</td></tr><tr style="">
+<td style="">$x$:</td><td style="">$(-\infty, 0)$</td><td style="">$(0, 6)$</td><td style="">$(6, \infty)$</td></tr></tbody></table>
 It follows from this sign chart that $f$ is concave up on  $(6, \infty)$,
 and concave down on $(-\infty, 0)$ and $(0, 6)$.
 <hr/>
-@endcol
-</li>
-<li>
-Inflection points on the graph of $f$.
+@endcol</li>
+<li style=""> Inflection points on the graph of $f$.
 @newcol
 It follows from the sign chart for $f''$ that $(6, f(6)) = (6, 10/9)$
 is the only reflection point on the graph of $f$.
 <hr/>
-@endcol
-</li></ol>
-<h5 class="notkw">Graph</h5>
+@endcol</li></ol><h5 class="notkw" style="">Graph</h5>
 @newcol
-<div class="image">
-<iframe src="https://www.desmos.com/calculator/t5cgqvw7id?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-<p/><br/>
-<strong>
-$
+<div class="image" style="">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/t5cgqvw7id?embed" rendered="0" id="iFrameResizer0" scrolling="no" src="https://www.desmos.com/calculator/t5cgqvw7id?embed"/><p style=""/><br/><strong style=""> $
 y = \dfrac{x^2 + x - 2}{x^2}
-$
-</strong>
-</div>
+$ </strong></div>
 @endcol
 @end
-
 
 @slide
 @eg
-Following the guidelines of the previous example, sketch the graph of:
-<ol>
-<li>
-$f(x) = \abs{x + 1}(3 - x)$
-</li>
-<li>
-$f(x) = x + \frac{1}{\abs{x}}$
-</li></ol>
+Following the guidelines of the previous example, sketch the graph of: <ol style="">
+<li style=""> $f(x) = \abs{x + 1}(3 - x)$ </li>
+<li style=""> $f(x) = x + \frac{1}{\abs{x}}$ </li></ol>
 @end
 @sol
-<ol>
-<li>
+<ol style="">
+<li style="">
 @newcol
-Domain: $\mathbb{R}$.
-<p/>
+Domain: $\mathbb{R}$. <p style=""/>
 @col
-$x$-intercepts: $x = -1, 3$.
-<p/>
-$y$-intercept: $y = f(0) = 3$.
-<p/>
+$x$-intercepts: $x = -1, 3$. <p style=""/>
+$y$-intercept: $y = f(0) = 3$. <p style=""/>
 @col
-Asymptotes: None.
-<p/>
+Asymptotes: None. <p style=""/>
 @col
 \[
 f'(x) =
@@ -2777,33 +2740,23 @@ f''(x) =
 -2 & x > -1.
 \end{cases}
 \]
-Inflection point: $p = 1$.
-<p/>
+Inflection point: $p = -1$. <p style=""/>
 @col
-<table class="table-hover table table-striped table-bordered" style="text-align:center">
-<tr>
-<td>$y = f(x)$:</td><td><strong>$\cup$<br/>$\searrow$</strong></td><td><strong>$\cap$<br/>$\nearrow$</strong></td><td><strong>$\cap$<br/>$\searrow$</strong></td>
-</tr>
-<tr>
-<td>$f'(x)$:</td>
-<td>$-$</td><td>$+$</td><td>$-$</td>
-</tr>
-<tr>
-<td>$f''(x)$:</td>
-<td>$+$</td><td>$-$</td><td>$-$</td>
-</tr>
-<tr>
-<td>$x$:</td>
-<td>$(-\infty, -1)$</td><td>$(-1, 1)$</td><td>$(1, \infty)$</td>
-</tr>
-</table>
+<table class="table-hover table table-striped table-bordered" style="text-align: center;">
+<tbody style="">
+<tr style="">
+<td style="">$y = f(x)$:</td><td style="">
+<strong style="">$\cup$<br/>$\searrow$</strong></td><td style="">
+<strong style="">$\cap$<br/>$\nearrow$</strong></td><td style="">
+<strong style="">$\cap$<br/>$\searrow$</strong></td></tr><tr style="">
+<td style="">$f'(x)$:</td><td style="">$-$</td><td style="">$+$</td><td style="">$-$</td></tr><tr style="">
+<td style="">$f''(x)$:</td><td style="">$+$</td><td style="">$-$</td><td style="">$-$</td></tr><tr style="">
+<td style="">$x$:</td><td style="">$(-\infty, -1)$</td><td style="">$(-1, 1)$</td><td style="">$(1, \infty)$</td></tr></tbody></table>
 @col
-<div class="image">
-<iframe src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-</div>
-@endcol
-</li>
-<li>
+<div class="image" style="">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/z6hqn8o9qi?embed" rendered="0" id="iFrameResizer1" scrolling="no" src="https://www.desmos.com/calculator/z6hqn8o9qi?embed"/></div>
+@endcol</li>
+<li style="">
 @newcol
 In general, if one can rewrite a function $f$
 (e.g. using long division if $f$ is a rational function) in the form:
@@ -2813,41 +2766,91 @@ f(x) = mx + b + g(x),
 such that $\displaystyle\lim_{x \rightarrow \pm \infty} g(x) = 0$,
 and $m, b$ are constants,
 then one can readily conclude that $y = mx + b$ is an asymptote
-for the graph of $f$.
-<p/>
+for the graph of $f$. <p style=""/>
 If $m \neq 0$, we call $y = mx + b$ an oblique asymptote.
-If $m = 0$, then $y = b$ is a horizontal asymptote.
-<p/>
+If $m = 0$, then $y = b$ is a horizontal asymptote. <p style=""/>
 In this example, since
 $\displaystyle \lim_{x \rightarrow \pm \infty} \frac{1}{\abs{x}} = 0$,
-the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$.
-<p/>
+the graph of $f(x) = x + \frac{1}{\abs{x}}$ has an oblique asymptote: $y = x$. <p style=""/>
 @col
-We leave the rest of the calculations as an exercise.
-<p/>
-<i>Hint</i>:
+We leave the rest of the calculations as an exercise. <p style=""/><i style="">Hint</i>:
 \[
 f(x) = \begin{cases}
 x - \frac{1}{x} & x < 0;\\
 x + \frac{1}{x} & x > 0.
 \end{cases}
 \]
-The resulting graph is as follows:
-<p/>
+The resulting graph is as follows: <p style=""/>
 @col
-<div class="image">
-<iframe src="https://www.desmos.com/calculator/vtjauc9srj?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder="0"/>
-</div>
-@endcol
-</li></ol>
+<div class="image" style="">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/vtjauc9srj?embed" rendered="0" id="iFrameResizer2" scrolling="no" src="https://www.desmos.com/calculator/vtjauc9srj?embed"/></div>
+@endcol</li></ol>
 @end
-
-
-
-@week{9}
-@topic{L'H&ocircpital's Rule}
-@topic{Taylor Series}
 @slide
+@eg
+Consider the function $f(x) = \frac{5x^2 + 2}{x + 1}$.
+We have:
+\[
+f(x) = 5x - 5 + \frac{7}{x + 1}
+\]
+Since $\lim_{x \rightarrow \pm \infty} \frac{7}{x + 1} = 0$, the graph of $f$ approaches the line $y = 5x - 5$
+as $x$ approaches $\pm \infty$.
+
+We conclude that $y = 5x - 5$ is an oblique asymptote for the graph of $f$.
+
+@newcol
+<div class="image">
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/f1b2yd5xcj?embed" rendered="0" id="iFrameResizer8" scrolling="no" src="https://www.desmos.com/calculator/f1b2yd5xcj?embed"/></div>
+@endcol
+@end
+@slide
+In general, if the graph of $f$ approaches the line correpsonding to $l(x) = mx + b$, as $x$ tends to $\pm \infty$,
+we have:
+\[
+m = \lim_{x \rightarrow \pm \infty} \frac{f(x)}{x}.
+\]
+and
+\[
+b = \lim_{x \rightarrow \pm \infty} (f(x) - mx).
+\]
+@eg
+@newcol
+Let $g(x) = \sqrt{x^2 + 1} + 4$.
+
+<strong style="">Exercise.</strong> \[
+\lim_{x \rightarrow \infty} \frac{f(x)}{x} = 1.
+\]This suggests that $y = f(x)$ approaches $y = x + b$ as $x \rightarrow \infty$, where:
+
+<strong style="">Exercise.</strong> \[
+b = \lim_{x \rightarrow \infty} (f(x) - 1\cdot x) = 4.
+\]Hence, $y = f(x)$ approaches $y = x + 4$ as $x$ tends to $\infty$.
+
+@col
+Similary, as $x$ tends to $-\infty$, we have:
+
+<strong style="">Exercise.</strong> \[
+m = \lim_{x \rightarrow -\infty} \frac{f(x)}{x} = -1.
+\]
+\[
+b = \lim_{x \rightarrow \pm -\infty} (f(x) - 1\cdot x) = 4.
+\]
+So, $y = f(x)$ approaches $y = -x + 4$ as $x$ tends to $-\infty$.
+
+@col
+We conclude that the graph of $f$ has two oblique asymptotes:
+\[\begin{align*}
+y &= x + 4,\\
+y &= -x + 4.
+\end{align*}\]
+@col
+@center
+<iframe width="500px" height="500px" style="background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/nihvy79gye?embed" rendered="0" id="iFrameResizer9" scrolling="no" src="https://www.desmos.com/calculator/nihvy79gye?embed"/>
+@endcenter
+@endcol
+@end@week{9}
+@topic{L'Hôpital's Rule}
+@topic{Taylor Series}
+@section{L'Hôpital's Rule}
 @thm
 @title{Cauchy's Mean Value Theorem.}
 @label{cauchymvt}
@@ -2860,37 +2863,29 @@ then there exists $c \in (a, b)$ such that:
 @end
 @proof
 @newcol
-<strong>Exercise.</strong>
-Apply Rolle's Theorem to:
+<strong>Exercise.</strong> Apply Rolle's Theorem to:
 \[
 h(x) = f(x)(g(b) - g(a)) - g(x)(f(b) - f(a))
 \]
 @endcol
 @end
 @newcol
-<div class="image">
-<a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg"><img width="512" alt="Cauchy" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a>
-</div>
+<div class="image" style="width: 450px;">
+<a title="By Running [CC0], from Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Cauchy.svg">
+<img width="450" alt="Cauchy" rendered="0" style="background: none; width: 100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Cauchy.svg/512px-Cauchy.svg.png"/></a></div>
 @endcol
 @slide
-@keyword*{L'Hopital's Rule}
 @thm
-<strong>L'H&ocircpital's Rule.</strong>
+@title{L'Hôpital's Rule}
 Let $c \in \mathbb{R}$.  Let $I = (a, b)$ be an open interval containing $c$.
 Let $f, g$ be functions which are differentiable at every point in
 $(a, c) \cup (c, b)$.
-Suppose:
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow c}f(x)$
+Suppose: <ul>
+<li> $\displaystyle \lim_{x \rightarrow c}f(x)$
 and $\displaystyle \lim_{x \rightarrow c}g(x)$ are both equal to $0$
-or both equal to $\pm \infty$.
-</li>
-<li> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists.
-</li>
-</ul>
-(&bull; $g'(x) \neq 0$ for all $x \neq c$ in $I$.)
-<br/>
+or both equal to $\pm \infty$. </li>
+<li> $\displaystyle \lim_{x\rightarrow c} \frac{f'(x)}{g'(x)}$ exists. </li></ul>
+(• $g'(x) \neq 0$ for all $x \neq c$ in $I$.) <br/>
 
 Then,
 \[
@@ -2901,14 +2896,9 @@ Then,
 @proof
 (Sketch)
 @newcol
-We consider the special case where:
-<ul>
-<li>
-$\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$.
-</li>
-<li>
-$f$ and $g$ are continuous at $x = c$.
-</li></ul>
+We consider the special case where: <ul>
+<li> $\displaystyle \lim_{x \rightarrow c}f(x) = \lim_{x \rightarrow c}g(x) = 0$. </li>
+<li> $f$ and $g$ are continuous at $x = c$. </li></ul>
 For such functions $f, g$, we have:
 \[
 f(c) = g(c) = 0.
@@ -2939,43 +2929,25 @@ then intuitively it follows that:
 \lim_{t \rightarrow c} \frac{f'(t)}{g'(t)}.
 \end{split}
 \]
-(<strong>Optional Exercise</strong>:
-To prove the above equality rigorously, one could, for example, apply the
-<a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank">
-sequential criterion for the limit of a function</a>.
-)
+(<strong>Optional Exercise</strong> :
+To prove the above equality rigorously, one could, for example, apply the <a href="https://en.wikipedia.org/wiki/Limit_of_a_function#In_terms_of_sequences" target="_blank"> sequential criterion for the limit of a function</a>.)
 @endcol
 @end
-@section{Indeterminate Forms}
-<hr/>
-<ul>
-<li>
-$\frac{0}{0}$
-<hr/>
-</li>
-<li>
-$\frac{\infty}{\infty}$
-<hr/>
-</li>
-<li>
-$0\cdot\infty$
-<hr/>
-</li>
-<li>
-$\infty - \infty$
-<hr/>
-</li>
-<li>
-$0^0$
-<hr/>
-</li>
-<li>
-$\infty^0$
-<hr/>
-</li>
-<li>
-$1^\infty$
-</li></ul>
+@subsection{Indeterminate Forms}
+<hr/><ul>
+<li> $\frac{0}{0}$
+<hr/></li>
+<li> $\frac{\infty}{\infty}$
+<hr/></li>
+<li> $0\cdot\infty$
+<hr/></li>
+<li> $\infty - \infty$
+<hr/></li>
+<li> $0^0$
+<hr/></li>
+<li> $\infty^0$
+<hr/></li>
+<li> $1^\infty$ </li></ul>
 <hr/>
 Here, for example, $1^\infty$ represents the situation
 $\displaystyle \lim_{x \rightarrow c} f(x)^{g(x)}$ where $\displaystyle \lim_{x\rightarrow c}f(x) = 1$
@@ -2987,13 +2959,10 @@ Hence, the following limit corresponds to the indeterminate form $1^\infty$:
 \]
 @slide
 @eg
-Use l'H&ocircpital's rule to evaluate the following limits:
+Use l'Hôpital's rule to evaluate the following limits:
 
 <ol>
-<li>
-$\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
-<p/><br/>
-<strong>Solution.</strong>
+<li> $\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$ <p/><br/><strong>Solution.</strong>
 @newcol
 \[
 \begin{split}
@@ -3017,7 +2986,7 @@ $\displaystyle \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}$
 \end{align*}
 @endsteps
 @col
-Hence, by l'H&ocircpital's rule,
+Hence, by l'Hôpital's rule,
 \[
 \begin{split}
 \lim\limits_{x\to 0}\dfrac{e^x - 1 - x - \frac{x^2}{2}}{x^3}
@@ -3030,12 +2999,8 @@ Hence, by l'H&ocircpital's rule,
 \end{split}
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$
-<p/><br/>
-<strong>Solution.</strong>
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to 0^+}x^{\frac{1}{1+\ln x}}$ <p/><br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $0^0$.)
 
@@ -3053,8 +3018,7 @@ The last equality holds because $f(x) = e^x$ is a continuous function.
 
 @col
 The limit $\displaystyle \lim_{x \rightarrow 0^+}\frac{\ln x}{1+\ln x}$
-corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is <i>possible</i>
-in this case to apply l'Hopital's rule to help find the limit.
+corresponds to the indeterminate form $\frac{-\infty}{-\infty}$.  So, it is <i>possible</i> in this case to apply l'Hopital's rule to help find the limit.
 
 @col
 @steps
@@ -3081,12 +3045,8 @@ Hence,
 \end{split}
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$
-<p/><br/>
-<strong>Solution.</strong>
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right)$ <p/><br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $\infty\cdot 0$.)
 Rewrite the limit as follows:
@@ -3113,12 +3073,8 @@ Hence, by l'Hopital's rule,
 \lim\limits_{x\to +\infty}x\left(\dfrac{\pi}{2}-\tan^{-1}x\right) = 1.
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$
-<p/><br/>
-<strong>Solution.</strong>
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to +\infty}(e^x+x)^{\frac{1}{x}}$ <p/><br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $\infty^0$.)
 We have:
@@ -3144,15 +3100,11 @@ corresponds to the indeterminate form $\frac{\infty}{\infty}$.
 &=
 @nstep{\lim\limits_{x\to +\infty} \frac{e^x + 1}{e^x + x}}
 \\&
-@nstep{
-= \lim\limits_{x\to +\infty}
-\frac{{e^x}\left(1 + \frac{1}{e^x}\right)}{{e^x}\left(1 + \frac{x}{e^x}\right)}
-}
+@nstep{= \lim\limits_{x\to +\infty}
+\frac{{e^x}\left(1 + \frac{1}{e^x}\right)}{{e^x}\left(1 + \frac{x}{e^x}\right)}}
 \\&
-@nstep{
-= \lim\limits_{x\to +\infty}
-\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}
-}\\
+@nstep{= \lim\limits_{x\to +\infty}
+\frac{1 + \frac{1}{e^x}}{1 + \frac{x}{e^x}}}\\
 & @nstep{= 1.}
 \end{align*}
 @endsteps
@@ -3175,13 +3127,10 @@ It now follows that:
 = e^{\lim\limits_{x\to +\infty} \frac{\ln(e^x+x)}{x}} = e^1 = e.
 \]
 @endcol
-<hr/>
-</li>
-<li>
-$\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
+<hr/></li>
+<li> $\displaystyle \lim\limits_{x\to 0}\dfrac{1-x\cot x}{x\sin x}$
 
-<br/>
-<strong>Solution.</strong>
+<br/><strong>Solution.</strong>
 @newcol
 (This limit corresponds to the indeterminate form $\frac{0}{0}$.)
 Note that $\cot x = \dfrac{\cos x}{\sin x}$.
@@ -3250,8 +3199,7 @@ It now follows that:
 \end{split}
 \]
 @endcol
-<hr/>
-</li></ol>
+<hr/></li></ol>
 @end
 @slide
 @ex
@@ -3277,22 +3225,20 @@ It now follows that:
 @endenumerate
 @end
 @slide
-<strong>Important Note.</strong>
-If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
+<strong>Important Note.</strong> If $\lim_{x \rightarrow c} f(x) = \lim_{x \rightarrow c} g(x) = 0$ or $\pm \infty$,
 and $\displaystyle \lim_{x \rightarrow c} \frac{f'(x)}{g'(x)}$ does not exist,
-it <i><strong>DOES NOT</strong></i>
-follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
+it <i>
+<strong>DOES NOT</strong></i> follow that $\displaystyle \lim_{x \rightarrow c} \frac{f(x)}{g(x)}$ does not exist.
 @eg
 \[
 \lim_{x \rightarrow \infty} \frac{x + \sin x}{x}
 \]
 @end
-@slide
+@section{Taylor Series}
 @keyword*{Taylor polynomial}
 @defn
 Given a function $f$ which is $n$ times differentiable at $a$.
-The <strong>$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</strong>
-is:
+The <strong>$\mathbf{n}$-th Taylor polynomial of $f$ (centered) at $a$</strong> is:
 \[
 P(x) = \sum_{k = 0}^n \frac{f^{(k)}(a)}{k!} (x - a)^k.
 \]
@@ -3307,54 +3253,28 @@ for $k = 0, 1, 2, \ldots, n$.
 @slide
 @eg
 The Taylor polynomials at $a = 0$ for various functions $f$
-are as follows:
-<table class="table-hover table table-striped table-bordered">
+are as follows: <table class="table-hover table table-striped table-bordered">
 <thead class="thead-default">
 <tr>
-<th>$f(x)$</th>
-<th>$P(x)$</th>
-</tr>
-</thead>
+<th>$f(x)$</th><th>$P(x)$</th></tr></thead><tbody>
 <tr>
-<td>$\cos x$</td>
-<td>$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</td>
-</tr>
-<tr>
-<td>$\sin x$</td>
-<td>$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</td>
-</tr>
-<tr>
-<td>$e^x$</td>
-<td>$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</td>
-</tr>
-<tr>
-<td>$\ln(1 + x)$</td>
-<td>$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 - x}$</td>
-<td>$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</td>
-</tr>
-</table>
+<td>$\cos x$</td><td>$\displaystyle 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \cdots + (-1)^{n}\frac{x^{2n}}{(2n)!}$</td></tr><tr>
+<td>$\sin x$</td><td>$\displaystyle x - \frac{x^3}{3!} + \frac{x^5}{5!} - \cdots + (-1)^{n}\frac{x^{2n + 1}}{(2n + 1)!}$</td></tr><tr>
+<td>$e^x$</td><td>$\displaystyle 1 + x  + \frac{x^2}{2!} + \frac{x^3}{3!} + \cdots + \frac{x^n}{n!}$</td></tr><tr>
+<td>$\ln(1 + x)$</td><td>$\displaystyle x - \frac{x^2}{2} + \frac{x^3}{3} - \cdots + (-1)^{n + 1}\frac{x^n}{n}$</td></tr><tr>
+<td>$\displaystyle \frac{1}{1 - x}$</td><td>$\displaystyle 1 + x + x^2 + x^3 + \cdots + x^n$</td></tr></tbody></table>
 @end
 Note, for example, that the 5-th and 6-th Taylor polynomials of $f(x) = \sin x$
 at $x = 0$ both have degree $5$.
 Hence, an $n$-th Taylor polynomial does not necessarily have degree $n$.
-<hr/>
-<ul>
+<hr/><ul>
 <li>
-<a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank">
-Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$.
-</a>
-</li>
+<a href="https://www.desmos.com/calculator/02r0dupos7" target="_blank"> Taylor polynomials of $f(x) = \sin x$ centered at $a = 0$. </a></li>
 <li>
-<a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank">
-Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$.
-</a>
-</li></ul>
+<a href="https://www.desmos.com/calculator/ulqixrzhsf" target="_blank"> Taylor polynomials of $f(x) = \sin x$ centered at $a = \pi/2$. </a></li></ul>
 @slide
 @thm
-(@keyword{Taylor's Formula})
+@title{Taylor's Formula}
 Let $n$ be a positive integer, and $a \in \mathbb{R}$.
 Let $f$ be a function which is $n + 1$ times differentiable on an open interval $I$
 containing $a$.
@@ -3388,7 +3308,7 @@ Let:
 \[
 F(x) = f(x) - P_n(x),\quad G(x) = (x - a)^{n+1}.
 \]
-Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( @ref{cauchymvt}), we have:
+Then, $F(a) = G(a) = 0$, and by Cauchy's Mean Value Theorem ( @ref{cauchymvt} ), we have:
 
 @col
 \[
@@ -3438,8 +3358,7 @@ Letting $c = x_{n + 1}$, the theorem follows.
 @defn
 Given a function $f$ which is infinitely differentiable at $a$
 (i.e. $f^{(k)}(a)$ is defined for $k = 0, 1, 2, 3, \ldots$).
-The <strong>Taylor series of $f$ (centered) at $a$</strong>
-is the power series:
+The <strong>Taylor series of $f$ (centered) at $a$</strong> is the power series:
 \[
 \begin{split}
 T(x) &= \sum_{k = 0}^\infty \frac{f^{(k)}(a)}{k!} (x - a)^k\\
@@ -3460,36 +3379,48 @@ otherwise we say that it @keyword{diverges} at $x = c$.
 @endcol
 @slide
 @eg
-The Taylor series at $a = 0$ for various functions $f$ are as follows:
-<table class="table-hover table table-striped table-bordered">
-<thead class="thead-default">
-<tr>
-<th>$f(x)$</th>
-<th>$T(x)$</th>
-</tr>
-</thead>
-<tr>
-<td>$\cos x$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td>
-</tr>
-<tr>
-<td>$\sin x$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td>
-</tr>
-<tr>
-<td>$e^x$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td>
-</tr>
-<tr>
-<td>$\ln(1 + x)$</td>
-<td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 - x}$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty x^k$</td>
-</tr>
-</table>
+The Taylor series at $a = 0$ for various functions $f$ are as follows: <table class="table-hover table table-striped table-bordered" style="">
+<thead class="thead-default" style="">
+<tr style="">
+<th style="">$f(x)$</th><th style="">$T(x)$</th></tr></thead><tbody style="">
+<tr style="">
+<td style="">$\cos x$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k}}{(2k)!}$</td></tr><tr style="">
+<td style="">$\sin x$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^{k}\frac{x^{2k + 1}}{(2k + 1)!}$</td></tr><tr style="">
+<td style="">$e^x$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{x^k}{k!}$</td></tr><tr style="">
+<td style="">$\ln(1 + x)$</td><td style="">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1}\frac{x^k}{k}$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{1 - x}$</td><td style="">$\displaystyle \sum_{k = 0}^\infty x^k$</td></tr></tbody></table>
 @end
+@thm
+@title{Binomial Series}
+@label{thm:binomseries}
+@newcol
+For $\alpha \in \mathbb{R}$, $|x| < 1$,
+\[
+(1 + x)^\alpha
+=
+\sum_{k = 0}^\infty \binom{\alpha}{k} x^k
+=
+1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!}x^2 + \cdots,
+\]
+where:
+\[
+\binom{\alpha}{k} = \frac{\alpha(\alpha - 1)(\alpha - 2)\cdots (\alpha - k + 1)}{k!} \text{ if } k > 0,\quad \binom{\alpha}{0} = 1.
+\]
+@endcol
+@end
+@eg
+@newcol
+In particular, for $|x| < 1$, we have:
+\[
+\begin{split}
+\sqrt{1 + x} &= (1 + x)^{1/2} \\
+&= 1 + \frac{1}{2}x + \frac{(1/2)(1/2 - 1)}{2!}x^2
++ \frac{(1/2)(1/2 - 1)(1/2 -2)}{3!}x^3 + \cdots
+\end{split}
+\]
+@endcol
+@end
+
 @slide
 @eg
 The Taylor $T(x)$ series of $f(x) = e^x$ at $a = 0$ converges everywhere.
@@ -3532,9 +3463,8 @@ In particular, we have:
 There are functions whose Taylor series converge everywhere,
 but not to the functions themselves.
 @endcol
-@end@endcol
-
-@week{10}
+@end
+@endcol@week{10}
 @topic{Taylor Series}
 @topic{Indefinite Integrals}
 @topic{Integration by Substitution}
@@ -3581,99 +3511,38 @@ for all $x$ in some open interval centered at $a$, then $a_k = b_k$ for all $k$.
 @end
 @slide
 @ex
-Find the Taylor series of $f$ at the given point $a$.
-<table class="table-hover table table-striped table-bordered">
+Find the Taylor series of $f$ at the given point $a$. <table class="table-hover table table-striped table-bordered">
 <thead class="thead-default">
 <tr>
-<th>$f(x)$</th>
-<th>$a$</th>
-</tr>
-</thead>
-<tr><td>
-$\sin(5x)$</td><td>$0$</td>
-</tr>
+<th>$f(x)$</th><th>$a$</th></tr></thead><tbody>
 <tr>
-<td>$x^3\cos x$</td><td>$0$</td>
-</tr>
-<tr>
-<td>$\sin(x - \pi)$</td><td>$\pi$</td>
-</tr>
-<tr>
-<td>$\ln x$</td><td>$1$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{2 - x}$</td><td>$0$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 + x}$</td><td>$0$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 + x^2}$</td><td>$0$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{x + 1}{x^2 + x + 1}$</td><td>$0$</td>
-</tr>
-</table>
+<td> $\sin(5x)$</td><td>$0$</td></tr><tr>
+<td>$x^3\cos x$</td><td>$0$</td></tr><tr>
+<td>$\sin(x - \pi)$</td><td>$\pi$</td></tr><tr>
+<td>$\ln x$</td><td>$1$</td></tr><tr>
+<td>$\displaystyle \frac{1}{2 - x}$</td><td>$0$</td></tr><tr>
+<td>$\displaystyle \frac{1}{1 + x}$</td><td>$0$</td></tr><tr>
+<td>$\displaystyle \frac{1}{1 + x^2}$</td><td>$0$</td></tr><tr>
+<td>$\displaystyle \frac{x + 1}{x^2 + x + 1}$</td><td>$0$</td></tr></tbody></table>
 @end
 @slide
-<table class="table-hover table table-striped table-bordered">
-<thead class="thead-default">
-<tr>
-<th>$f(x)$</th>
-<th>$a$</th>
-<th>Series</th>
-</tr>
-</thead>
-<tr><td>
-$\sin(5x)$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k5^{2k + 1}}{(2k + 1)!}x^{2k + 1}$</td>
-</tr>
-<tr>
-<td>$x^3\cos x$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}x^{2k + 3}$</td>
-</tr>
-<tr>
-<td>$\sin(x - \pi)$</td><td>$\pi$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}(x - \pi)^{2k + 1}$</td>
-</tr>
-<tr>
-<td>$\ln x$</td><td>$1$</td>
-<td>$\displaystyle \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}(x - 1)^k$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{x}$</td><td>$1$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^k (x - 1)^k$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 + x}$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^k x^k$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{2 - x} = \frac{1}{2}\cdot\frac{1}{1 + \left(-\frac{x}{2}\right)}$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{1}{2^{k+1}}x^k$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{1 + x^2}$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty (-1)^k x^{2k}$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{(1 + x)^2}  = - \frac{d}{dx}\left(\frac{1}{1 + x}\right)$</td>
-<td>$0$</td>
-<td>$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1} k x^{k - 1}$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{x + 1}{x^2 + x + 1}$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty\left( x^{3k} - x^{3k + 2}\right)$</td>
-</tr>
-<tr>
-<td>$\displaystyle \frac{1}{(1 + x)(2 - x)} = \frac{1}{3}\left(\frac{1}{1 + x} + \frac{1}{2 - x}\right)$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{1}{3}\left((-1)^k + \frac{1}{2^{k + 1}}\right)  x^{k}$</td>
-</tr>
-<tr>
-<td>$\arctan x$</td><td>$0$</td>
-<td>$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{2k + 1} x^{2k + 1}$</td>
-</tr>
-</table>
+<table class="table-hover table table-striped table-bordered" style="">
+<thead class="thead-default" style="">
+<tr style="">
+<th style="">$f(x)$</th><th style="">$a$</th><th style="">Series</th></tr></thead><tbody style="">
+<tr style="">
+<td style=""> $\sin(5x)$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k5^{2k + 1}}{(2k + 1)!}x^{2k + 1}$</td></tr><tr style="">
+<td style="">$x^3\cos x$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k)!}x^{2k + 3}$</td></tr><tr style="">
+<td style="">$\sin(x - \pi)$</td><td style="">$\pi$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{(2k + 1)!}(x - \pi)^{2k + 1}$</td></tr><tr style="">
+<td style="">$\ln x$</td><td style="">$1$</td><td style="">$\displaystyle \sum_{k = 1}^\infty \frac{(-1)^{k + 1}}{k}(x - 1)^k$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{x}$</td><td style="">$1$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^k (x - 1)^k$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{1 + x}$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^k x^k$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{2 - x} = \frac{1}{2}\cdot\frac{1}{1 + \left(-\frac{x}{2}\right)}$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{1}{2^{k+1}}x^k$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{1 + x^2}$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty (-1)^k x^{2k}$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{(1 + x)^2}  = - \frac{d}{dx}\left(\frac{1}{1 + x}\right)$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 1}^\infty (-1)^{k + 1} k x^{k - 1}$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{x + 1}{x^2 + x + 1} = \frac{x + 1}{x^2 + x + 1} \cdot \frac{1-x}{1-x}$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty\left( x^{3k} - x^{3k + 2}\right)$</td></tr><tr style="">
+<td style="">$\displaystyle \frac{1}{(1 + x)(2 - x)} = \frac{1}{3}\left(\frac{1}{1 + x} + \frac{1}{2 - x}\right)$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{1}{3}\left((-1)^k + \frac{1}{2^{k + 1}}\right)  x^{k}$</td></tr><tr style="">
+<td style="">$\arctan x$</td><td style="">$0$</td><td style="">$\displaystyle \sum_{k = 0}^\infty \frac{(-1)^k}{2k + 1} x^{2k + 1}$</td></tr></tbody></table>
 @section{WeBWorK}
 @enumerate
 @item
@@ -3686,22 +3555,17 @@ $\sin(5x)$</td><td>$0$</td>
 @webwork{Library/UMN/calculusStewartCCC/s_11_10_prob01.pg}
 @endenumerate
 
-
 @slide
 It is sometimes useful to use Taylor series to find limits
 which involve indeterminate forms.
 @eg
 <ul>
-<li>
-\[
+<li> \[
 \lim_{x \rightarrow 0} \frac{\sin x - x - x^3}{x^3}
-\]
-</li>
-<li>
-\[
+\] </li>
+<li> \[
 \lim_{x \rightarrow 0} \frac{\sin x - x\cos x}{x\sin^2 x}
-\]
-</li></ul>
+\] </li></ul>
 @end
 @section{WeBWorK}
 @enumerate
@@ -3714,7 +3578,6 @@ which involve indeterminate forms.
 @item
 @webwork{Library/Michigan/Chap10Sec3/Q27.pg}
 @endenumerate
-
 
 @section{Indefinite Integrals}
 @defn
@@ -3730,17 +3593,14 @@ By a corollary of the mean value theorem, this implies that $F - G$
 is a constant function on $(a, b)$.  That is, there exists $C \in \mathbb{R}$,
 such that $(F - G)(x) = C$ for all $x \in (a, b)$.
 
-
 <p/>
 Put differently, if $F$ is an antiderivative of $f$ over $(a, b)$,
 then any antiderivative of $f$ over $(a, b)$ has the form $F + C$
 for some constant function $C$.
 
-
 @slide
 @defn
-The collection of all antiderivatives of a function $f$ is called the
-@keyword{indefinite integral} of $f$, denoted by:
+The collection of all antiderivatives of a function $f$ is called the @keyword{indefinite integral} of $f$, denoted by:
 \[
 \int f(x)\,dx.
 \]
@@ -3750,8 +3610,7 @@ If $F' = f$, we write:
 \[
 \int f(x) dx = F + C,
 \]
-where $C$ denotes some arbitrary constant.
-<p/>
+where $C$ denotes some arbitrary constant. <p/>
 @newcol
 @eg
 Since $\frac{d}{dx}\,x^2 = 2x$, we write:
@@ -3785,8 +3644,7 @@ we have:
 @li
 $\ds
 \int \frac{1}{x}\,dx = \ln \abs{x} + C.
-$
-<br/>
+$ <br/>
 (This identity is not quite true.  Will explain later.)
 @li
 $\displaystyle \int e^x \;dx = e^x + C.$
@@ -3872,8 +3730,7 @@ This is just the Chain Rule in reverse, since:
 @end
 <p/>
 @newcol
-In Leibniz Notation, the theorem may be formulated as follows:
-<p/>
+In Leibniz Notation, the theorem may be formulated as follows: <p/>
 Let $u = g(x)$,  then $\displaystyle \frac{du}{dx} = g'(x)$, and:
 \begin{multline*}
 \int f(g(x))g'(x)\,dx = \int f(u)\frac{du}{dx}\,dx\\
@@ -3882,21 +3739,11 @@ Let $u = g(x)$,  then $\displaystyle \frac{du}{dx} = g'(x)$, and:
 @endcol
 @slide
 @eg
-Evaluate:
-<p/><br/>
-<ul>
-<li>
-$\displaystyle \int x^2e^{x^3 + 4}\,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int \frac{t}{\sqrt{t + 2}}\,dt$<br/><br/>
-</li>
-<li>
-$\displaystyle \int \tan x\,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int \frac{x^5 + x^3 + x}{x^2 + 1}\,dx$<br/><br/>
-</li></ul>
+Evaluate: <p/><br/><ul>
+<li> $\displaystyle \int x^2e^{x^3 + 4}\,dx$<br/><br/></li>
+<li> $\displaystyle \int \frac{t}{\sqrt{t + 2}}\,dt$<br/><br/></li>
+<li> $\displaystyle \int \tan x\,dx$<br/><br/></li>
+<li> $\displaystyle \int \frac{x^5 + x^3 + x}{x^2 + 1}\,dx$<br/><br/></li></ul>
 @end
 @section{WeBWorK}
 @enumerate
@@ -3918,8 +3765,8 @@ $\displaystyle \int \frac{x^5 + x^3 + x}{x^2 + 1}\,dx$<br/><br/>
 @webwork{Library/ma123DB/set3/s7_5_61.pg}
 @endenumerate
 
-
 @section{Integration by Parts}
+@label{sec:intbyparts}
 Let $u, v$ be differentiable functions.
 Recall the Product Rule:
 \[
@@ -3938,26 +3785,13 @@ Hence,
 $\displaystyle \int u\,dv = (uv) - \int v\,du$
 @slide
 @eg
-Evaluate:
-<ul>
-<li>
-$\displaystyle \int xe^{3x} \,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int x^2 e^x \,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int x^5 e^x \,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int x^5 \sin x \,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int \ln x \,dx$<br/><br/>
-</li>
-<li>
-$\displaystyle \int e^x \sin x \,dx$<br/><br/>
-</li></ul>
+Evaluate: <ul>
+<li> $\displaystyle \int xe^{3x} \,dx$<br/><br/></li>
+<li> $\displaystyle \int x^2 e^x \,dx$<br/><br/></li>
+<li> $\displaystyle \int x^5 e^x \,dx$<br/><br/></li>
+<li> $\displaystyle \int x^5 \sin x \,dx$<br/><br/></li>
+<li> $\displaystyle \int \ln x \,dx$<br/><br/></li>
+<li> $\displaystyle \int e^x \sin x \,dx$<br/><br/></li></ul>
 @end
 @section{WeBWorK}
 @enumerate
@@ -3977,15 +3811,10 @@ $\displaystyle \int e^x \sin x \,dx$<br/><br/>
 @webwork{Library/Union/setIntByParts/mec_int1.pg}
 @item
 @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_11.pg}
-@endenumerate
-
-
-
-@week{11}
+@endenumerate@week{11}
 @topic{Indefinite Integrals}
 @topic{Integration of Trig. Functions}
 @topic{Trigonometric Substitution}
-
 
 @section{Integration of Trigonometric Functions}
 We have seen that:
@@ -4008,34 +3837,27 @@ Using:
 \]
 and the identity $\displaystyle 1 + \tan^2 x = \sec^2 x$
 (which follows from the Pythagorean Theorem),
-we may evaluate:
-<ul>
-<li>
-$\ds
+we may evaluate: <ul>
+<li> $\ds
 \int \tan^2 x \,dx
-$
-<br/>
+$ <br/>
 @newcol
 \begin{align*}
 \int \tan^2 x \, dx &= \int (\sec^2 x - 1)\, dx\\
 &= \tan x - x + C,
 \end{align*}
 where $C$ represents an arbitrary constant.
-@endcol
-</li>
-<li>
-$\ds
+@endcol</li>
+<li> $\ds
 \int \cot^2 x \,dx
-$
-<br/>
+$ <br/>
 @newcol
 \begin{align*}
 \int \cot^2 x \, dx &= \int (\csc^2 x - 1)\, dx\\
 &= -\cot x - x + C,
 \end{align*}
 where $C$ represents an arbitrary constant.
-@endcol
-</li></ul>
+@endcol</li></ul>
 @end
 @slide
 To evaluate an integral of the form:
@@ -4076,7 +3898,6 @@ So,
 \end{align*}
 where $C$ represents an arbitrary constant.
 
-
 @endcol
 @end
 @slide
@@ -4100,17 +3921,15 @@ where $P(u)$ is some polynomial in $u$.
 @eg
 @newcol
 Evaluate:
-$\displaystyle \int \tan^3 x \sec x \,dx.$
-<br/>
+$\displaystyle \int \tan^3 x \sec x \,dx.$ <br/>
 @col
 \begin{align*}
-\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
-&= \int (\sec^2 - 1)\,dx.
+\int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx.
 \end{align*}
 Let $u = \sec x$.  Then, $du = \sec x \tan x\, dx$, and:
 \begin{align*}
 \int \tan^3 x \sec x \,dx &= \int \tan^2x \sec x \tan x \, dx\\
-&= \int (\sec^2 - 1)\sec x \tan x\,dx\\
+&= \int (\sec^2 x - 1)\sec x \tan x\,dx\\
 &= \int (u^2 - 1)\,du\\
 &= \frac{1}{3}u^3 - u + C\\
 &= \frac{1}{3}\sec^3 x - \sec x + C,
@@ -4152,7 +3971,6 @@ where $C$ represents an arbitrary constant.
 @newcol
 Evaluate:
 $\displaystyle \int \sec^3 x \,dx.$ (Hint: Consider using integration by parts.)
-
 
 @col
 \begin{align*}
@@ -4229,30 +4047,18 @@ where $C$ represents an arbitrary constant.
 @webwork{Library/UMN/calculusStewartET/s_7_2_45.pg}
 @endenumerate
 
-
 @section{Trigonometric Substitution}
 When an integrand involves $\sqrt{x^2 \pm a^2}$
-or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution:
-<p/>
-<ul>
-<li>
-$\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.<br/><br/>
-</li>
-<li>
-$\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.<br/><br/>
-</li>
-<li>
-$\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.<br/><br/>
-</li>
-</ul>
+or $\sqrt{a^2 - x^2}$.  It is sometimes useful to make the following substitution: <p/><ul>
+<li> $\displaystyle \sqrt{x^2 + a^2}$: Let $\displaystyle x = a\tan \theta$.<br/><br/></li>
+<li> $\displaystyle \sqrt{x^2 - a^2}$: Let $\displaystyle x = a\sec \theta$.<br/><br/></li>
+<li> $\displaystyle \sqrt{a^2 - x^2}$: Let $\displaystyle x = a\sin \theta$.<br/><br/></li></ul>
 @slide
 @eg
 Evaluate:
-$\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$
-<br/>
+$\displaystyle \int \frac{x^3}{\sqrt{1 - x^2}} \,dx$ <br/>
 @newcol
 First, we note that the domain of the integrand is $(-1, 1)$.
-
 
 Let $\theta = \arcsin x$.
 Then $x = \sin \theta$, $dx = \cos \theta \, d\theta$,
@@ -4262,7 +4068,6 @@ and:
 = \cos \theta,
 \]
 since $\theta = \arcsin x \in [-\pi/2, \pi/2]$ for all $x \in (-1, 1)$.
-
 
 So,
 \begin{align*}
@@ -4290,7 +4095,6 @@ and:
 \[
 9 + x^2 = 9 + 9\tan^2\theta = 9\sec^2 \theta.
 \]
-
 
 So,
 \begin{align*}
@@ -4353,9 +4157,7 @@ Evaluate:
 First, we note that the domain of the integrand is
 $(-\infty, -1) \cup (1, \infty)$.
 
-
 Let $\theta = \arccos (1/x)$.
-
 
 @col
 Then, $x = \sec \theta$, $dx = \sec \theta \tan \theta\, d\theta$, and:
@@ -4368,8 +4170,8 @@ Since:
 \theta = \arccos(1/x)
 \in
 \begin{cases}
-[0, \pi/2) & \text{ if } x > 1,\\
-(\pi/2, \pi] & \text{ if } x < -1,
+[0, \pi/2) & \text{ if } x > 0,\\
+(\pi/2, \pi] & \text{ if } x < 0,
 \end{cases}
 \]
 we have:
@@ -4396,6 +4198,12 @@ Hence,
 \end{align*}
 @endcol
 @end
+@eg
+Evaluate:
+\[
+\int \frac{x^4}{\sqrt{9 - x^2}}\,dx
+\]
+@end
 @section{WeBWorK}
 @enumerate
 @item
@@ -4418,13 +4226,12 @@ Hence,
 @webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_28.pg}
 @item
 @webwork{Library/UCSB/Stewart5_7_3/Stewart5_7_3_27.pg}
-@endenumerate
-
-@week{12}
+@endenumerate@week{12}
 @topic{Indefinite Integrals}
 @topic{Reduction Formulas}
 @topic{Partial Fractions}
 @section{Reduction Formulas}
+<br/>
 Let $\displaystyle n \in \mathbb{N}$.
 @eg
 \[
@@ -4443,7 +4250,7 @@ Then:
 \[
 dU = -(n - 1)\cos^{n - 2} x \sin x\, dx, \quad V = \sin x.
 \]
-It follows from <a knowl="https://www.math.cuhk.edu.hk/~pschan/elephas/php/elephas_bare.php?wb=../content/math1010/t1_201819/week10.wb&query=//slide[@slide=%2716%27]">@keyword{Integration by Parts}</a> that:
+It follows from @ref{sec:intbyparts} that:
 \[
 \begin{split}
 \int U\,dV
@@ -4461,7 +4268,7 @@ Hence:
 \end{multline*}
 Dividing both sides of the equation by $n$, we obtain:
 \[
-\int \cos^n x \,dx = \frac{1}{n}\sin x \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
+\int \cos^n x \,dx = \frac{1}{n} \cos^{n - 1} x \sin x + \frac{n - 1}{n} \int \cos^{n - 2} x \, dx.
 \]
 @endcol
 @end
@@ -4485,6 +4292,7 @@ For $n \geq 3$,
 \]
 @end
 @section{WeBWorK}
+<br/>
 @enumerate
 @item
 @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_50.pg}
@@ -4494,11 +4302,10 @@ For $n \geq 3$,
 @webwork{Library/UCSB/Stewart5_7_1/Stewart5_7_1_49.pg}
 @endenumerate
 @section{Partial Fractions}
-@keyword*{proper rational function}
+<br/>@keyword*{proper rational function}
 @defn
 A rational function $\displaystyle \frac{r}{s}$, where $r, s$ are polynomials,
-is said to be <strong>proper</strong>
-if:
+is said to be <strong style="">proper</strong> if:
 \[
 \deg r < \deg s.
 \]
@@ -4507,16 +4314,15 @@ By performing long division of polynomials,
 any rational function $\displaystyle \frac{p}{q}$, where $p, q$ are polynomials, may be expressed
 in the form:
 \[
-\frac{p}{q} = g + \frac{r}{s},
+\frac{p}{q} = g + \frac{r}{q},
 \]
-where $g$ is a polynomial, and $\displaystyle \frac{r}{s}$ is a proper rational function.
+where $g$ is a polynomial, and $\displaystyle \frac{r}{q}$ is a proper rational function.
 @slide
-Let $\displaystyle \frac{r}{s}$ be a proper rational function.
-<p/>
+Let $\displaystyle \frac{r}{s}$ be a proper rational function. <p style=""/>
 Factor $s$ as a product of powers of distinct irreducible factors:
 \[
 s = \cdots (x - a)^m \cdots
-(\underbrace{x^2 + bx + c}_{\text{irreducible}\\\text{i.e. } b^2 - 4c < 0})^n \cdots.
+(\underbrace{x^2 + bx + c}_{\text{irreducible }\\\text{i.e. } b^2 - 4c < 0})^n \cdots.
 \]
 Then:
 @fact
@@ -4534,8 +4340,7 @@ where the $A_i, B_i, C_i$ are constants.
 @end
 @slide
 @eg
-$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$
-<br/><br/>
+$\displaystyle \int \frac{x^3 - x - 2}{x^2 - 2x}\,dx$ <br/><br/>
 @newcol
 Performing long division for polynomials, we have:
 \[
@@ -4554,7 +4359,7 @@ Moreover, the denominator factors as follows:
 \[
 x^2 - 2x = x (x - 2).
 \]
-Hence, by  @ref{partialfractions}, we have:
+Hence, by @ref{partialfractions} , we have:
 \[
 \frac{3x - 2}{x^2 - 2x}
 =
@@ -4587,14 +4392,12 @@ Hence:
 \]
 where $C$ represents an arbitrary constant.
 
-
 We conclude that:
 \begin{multline*}
 \int \frac{\left(x^3-x-2\right)}{x^2-2x} dx
 =
 \frac{1}{2}x^2 + 2x + \ln \abs{x} + 2\ln\abs{x - 2} + C.
 \end{multline*}
-
 
 @endcol
 @end
@@ -4603,12 +4406,10 @@ $\displaystyle \int \frac{x}{(x^2 + 4)(x - 3)}\,dx$<br/><br/>
 @newcol
 First we note that the integrand is a proper rational function.
 
-
 The quadratic factor $x^2 + 4$
 has discriminant $0^2 - 4\cdot 4 < 0$, hence it is irreducible.
 
-
-By  @ref{partialfractions}, we have:
+By @ref{partialfractions} , we have:
 \[
 \frac{x}{(x^2 + 4)(x - 3)}
 =
@@ -4626,13 +4427,11 @@ Letting $x = 3$, we have:
 \]
 which implies that $C = 3/13$.
 
-
 Letting $x = 0$, we have:
 \[
 0 = -3B + 4C,
 \]
 which implies that $B = (4/3)C = 4/13$.
-
 
 Finally, viewing each side of equation $(\ast)$ as polynomials and comparing
 the coefficients of $x^2$ on each side, we have:
@@ -4640,7 +4439,6 @@ the coefficients of $x^2$ on each side, we have:
 0 = A + C,
 \]
 which implies that $A = -C = -3/13$.
-
 
 Hence:
 \[
@@ -4703,7 +4501,6 @@ Letting $x = 3$, we have:
 \]
 So, $ D = 27/13 $.
 
-
 To find $A, B$ and $C$, we view each side of the equation $(\ast)$
 as polynomials, then compare the coefficients
 of the $x^3, x^2, x$ and constant terms respectively:
@@ -4713,16 +4510,16 @@ x^2: & \quad & 0 &= -6A + B - 2C + 27/13 \label{eq2}\\
 x: & \quad & 0   &= 9A -6B - 2C + 27/13 \label{eq1} \\
 1: & \quad & 0 &= 9B -3C  + 27/13 \label{eq0}
 \end{align}
-Subtracting equation \eqref{eq2} from equation \eqref{eq1}, we have:
+Subtracting equation $\eqref{eq2}$ from equation $\eqref{eq1}$, we have:
 \[
 0 = 15A - 7B,
 \]
 which implies that $B = 15A/7$.
-Combining this with equation \eqref{eq3}, we have:
+Combining this with equation $\eqref{eq3}$, we have:
 \[
 B = 15(1 - C)/7 = 15/7 - 15C/7.
 \]
-It now follows from equation \eqref{eq0} that:
+It now follows from equation $\eqref{eq0}$ that:
 \[
 0 = 135/7 - 135C/7 - 3C + 27/13.
 \]
@@ -4775,7 +4572,6 @@ To evaluate $\int \frac{7x+15}{169\left(x^2+x+1\right)} dx$, we first rewrite th
 \]
 where $E$ represents an arbitrary constant.
 
-
 It now follows that:
 \begin{multline*}
 \int\frac{x^3}{(x^2 + x + 1)(x - 3)^2}\,dx
@@ -4790,6 +4586,7 @@ It now follows that:
 $\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
 @end
 @section{WeBWorK}
+<br/>
 @enumerate
 @item
 @webwork{Library/Rochester/setIntegrals25RationalFunctions/S07.04.PartialFractions.PTP15.pg}
@@ -4822,49 +4619,292 @@ $\displaystyle \int \frac{8x^2}{x^4 + 4}\,dx$
 @item
 @webwork{Library/UCSB/Stewart5_7_4/Stewart5_7_4_39.pg}
 @endenumerate
+@section{How Does Partial Fractions Decomposition Work?}
+<br/><strong> This section is optional.  You don't have to study it for Math 1010. </strong>
+@thm
+@title{Unique Factorization of Real Polynomials}
+@label{thm:ufd}
+@newcol
+Given any polynomial $f \in \mathbb{R}[x]$,
+that is:
+\[
+f = a_0 + a_1 x + ... + a_n x^n,\quad a_i \in \mathbb{R},
+\]
+There are distinct irreducible polynomials, $p_1, p_2, \ldots, p_l$ in $\mathbb{R}[x]$ , of degree at most 2,
+such that:
+\[
+f = p_1^{n_1}p_2^{n_2}\cdots p_l^{n_l}
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.  Up to ordering of the irreducible factors, this factorization is unique.
+@endcol
+@end
+@thm
+@title{Bézout's Identity}
+@label{thm:bezout}
+@newcol
+If $f$ and $g$ are two irreducible polynomials in $\mathbb{R}[x]$ with no common factors, then there exist $a, b\in \mathbb{R}[x]$ such that:
+\[
+af + bg = 1
+\]
+@endcol
+@end
+@slide
+Suppose we have a rational function $\frac{p}{q}$,
+where $p, q \in \mathbb{R}[x]$ have no common factors,
+and $\deg p < \deg q$.
 
-@week{13}
+@newcol
+By @ref{thm:ufd} , there are distinct irreducible polynomials $q_1, q_2,\ldots, q_l$, of degree at most 2, such that:
+\[
+q = q_1^{n_1}q_2^{n_2}\cdots q_{l}^{n_l},
+\]
+for some positive integers $n_1, n_2, \ldots, n_l$.
+
+@col
+Since the polynomial $q_1^{n_1}$ has no common factors with $q_2^{n_2}\ldots q_{l}^{n_{l}}$, by @ref{thm:bezout} there exist polynomials $f, g$ such that:
+\[
+f\cdot\left(q_2^{n_2}\cdots q_l^{n_{l}}\right) + gq_{1}^{n_1} = 1.
+\]
+@col
+Hence,
+@steps
+\begin{align*}
+\frac{p}{q} &= \frac{p\cdot 1}{q}
+\\&
+@nstep{=
+\frac{p(fq_2^{n_2}\cdots q_l^{n_{l}} + gq_{1}^{n_1})}{q_1^{n_1}q_{2}^{n_{2}}\cdots q_1^{n_l}}}
+\\
+&
+@nstep{=
+\frac{pf}{q_1^{n_1}}
++
+\frac{pg}{q_{2}^{n_{2}}\cdots q_l^{n_l}}}
+\end{align*}
+@endsteps
+@col
+Consider now the term: $\ds \frac{pf}{q_1^{n_1}}$.
+By the Divison Algorithm for real polynomials,
+we have:
+\[
+pf = aq_1 + r
+\]
+for some real polynomials $a, r$ such that $\deg r < \deg q_1$.
+Hence,
+
+@col
+\[
+\frac{pf}{q_1^{n_1}}
+= \frac{aq_1 + r}{q_1^{n_1}}
+= \frac{a}{q_1^{n_1 -1}} + \frac{r}{q_1^{n_1}}
+\]
+@col
+By the same reasoning, we have:
+\[
+\frac{a}{q_1^{n_1 - 1}} = \frac{b}{q_1^{n_1 -2}} + \frac{s}{q_1^{n_1 - 1}}
+\]
+for some polynomials $b, s$ such that $\deg s < \deg q_1$.
+
+@col
+Repeating this process, eventually we have:
+\[
+\frac{pf}{q_1^{n_1}}
+=
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1,
+\]
+where $\deg r_i < \deg q_1$, and $a_1$ is some polynomial.
+
+@col
+We now have:
+\[
+\frac{p}{g} =
+\frac{r_1}{q_1} + \frac{r_2}{q_1^2} + \cdots + \frac{r_{n_1}}{q_1^{n_1}} + a_1
++
+\frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}.
+\]
+
+Repeating the process for the term: $\ds \frac{pg}{q_2^{n_2}\cdots q_l^{n_l}}$, and then for all subsequent resulting terms of similar forms,
+we have:
+\begin{equation}
+\label{eq:1}
+\frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j} + h,
+\end{equation}
+where $\deg r_{kj} < \deg q_k$, and $h$ is some polynomial in $\mathbb{R}[x]$.
+
+@col
+We claim that $h = 0$.
+
+@col
+Multiplying both sides of equation $\eqref{eq:1}$ by the polynomial $q$,
+we have:
+\begin{equation}
+\label{eq:2}
+p = \sum_{k = 1}^l \sum_{j = 1}^{n_k} r_{kj}\cdot\frac{q}{q_k^j} + hq
+\end{equation}
+Since every $q_k^j$ in the sum divides $q$,
+each $\frac{q}{q_k^j}$ is a polynomial.
+So, the equation above is an equality between polynomials.
+
+@col
+By assumption, $\deg p < \deg q$.  On the other hand, each term:
+\[
+r_{kj}\cdot\frac{q}{q_k^j}
+\]
+has degree strictly less than $q$, since $\deg r_{kj} < \deg q_k$.
+
+@col
+So, if $h \neq 0$, then the right-hand side of equation $\eqref{eq:2}$ has degree
+$\deg h + \deg q \geq \deg q > \deg p$, contradicting the equality of the two sides.
+
+Hence, $h = 0$.  It follows that:
+\[
+\frac{p}{q} = \sum_{k = 1}^l \sum_{j = 1}^{n_k} \frac{r_{kj}}{q_k^j}
+\]
+@endcol
+@section{$t$-Substitution}
+<br/>
+@eg
+Evaluate:
+\[
+\int \frac{1}{1 + 2\cos x}\,dx
+\]
+@newcol
+Let:
+\[
+t = \tan \frac{x}{2}.
+\]
+<!--
+(Here, we are assuming that $x \in (-\pi, \pi)$).
+-->
+Then,
+
+@col
+\[
+x = 2\arctan t,
+\]
+\[
+dx = \frac{2}{1 + t^2}dt
+\]
+Moreover,
+
+@col
+by the double-angle formula for the sine function, we have:
+\[
+\begin{split}
+\sin x  &= 2\sin\frac{x}{2}\cos\frac{x}{2}\\
+&= 2\frac{\sin\frac{x}{2}}{\cos\frac{x}{2}}\cos^2\frac{x}{2}\\
+&= \frac{2\tan\frac{x}{2}}{\sec^2\frac{x}{2}}\\
+&= \frac{2t}{1 + t^2}
+\end{split}
+\]
+@col
+Similarly, by the double-angle formula for the cosine function, we have:
+\[
+\begin{split}
+\cos x &= 1 - 2\sin^2\frac{x}{2}\\
+&= 1 - 2 \tan^2\frac{x}{2}\cos^2\frac{x}{2}\\
+&= 1 - \frac{2\tan^2\frac{x}{2}}{\sec^2\frac{x}{2}}\\
+&= 1 - \frac{2t^2}{1 + t^2}\\
+&= \frac{1 - t^2}{1 + t^2}
+\end{split}
+\]
+@col
+We have:
+@steps
+\[
+\begin{split}
+\int \frac{1}{1 + 2\cos x}\,dx
+&
+@nstep{= \int \frac{1}{1 + 2\left(\frac{1 - t^2}{1 + t^2}\right)}\frac{2}{1 + t^2}\,dt}
+\\
+&
+@nstep{=
+\int \frac{2}{3 - t^2}\,dt}
+\\
+&
+@nstep{= \frac{1}{\sqrt{3}}
+\int \left(\frac{1}{\sqrt{3} + t} + \frac{1}{\sqrt{3} - t}\right) \,dt}
+\\
+&
+@nstep{= \frac{1}{\sqrt{3}}\left(\ln\abs{\sqrt{3} + t} - \ln\abs{\sqrt{3} - t}\right) + C}
+\\
+&
+@nstep{= \frac{1}{\sqrt{3}}
+\ln\abs{\frac{\sqrt{3} + \tan\frac{x}{2}}{\sqrt{3} - \tan\frac{x}{2}}} + C,}
+\end{split}
+\]
+@endsteps
+@col
+where $C$ is an arbitrary constant.
+@endcol
+@end
+@eg
+@newcol
+Evaluate:
+\[
+\int \frac{1}{1 + \sin x + \cos x} dx
+\]
+@col
+Let $t = \tan\frac{x}{2}$.
+Then:
+\[
+\begin{split}
+dx &= \dfrac{2}{1 + t^2}dt\\
+\sin x &= \frac{2t}{1 + t^2}\\
+\cos x &= \frac{1 - t^2}{1 + t^2}
+\end{split}
+\]
+@col
+@steps
+\[
+\begin{split}
+\int \frac{1}{1 + \sin x + \cos x} dx
+&=
+\int \frac{\frac{2}{1 + t^2}dt}{1 + \frac{2t}{1 + t^2} + \frac{1 - t^2}{1 + t^2}}
+\\&
+@nstep{=\int \frac{2 dt}{2 + 2t} = \int \frac{1}{1 + t} dt}
+\\&
+@nstep{=\ln\abs{1 + t} + C}
+\\&
+@nstep{=\ln \abs{1 + \tan \frac{x}{2}} + C}
+\\&
+@nstep{=\ln \abs{1 + \frac{\sin x}{1 + \cos x}} + C,}
+\end{split}
+\]
+@endsteps
+@col
+where $C$ is an arbitrary constant.
+@endcol
+@end@week{13}
 @topic{Definite Integrals}
 @section{Motivation}
 Given a continuous function over a closed interval.
 We want to approximate the area of the region
 bounded by the graph of the function and the $x$-axis.
 
-
 One way to do so is by viewing the region roughly as a union of sequence of rectangles,
 and then adding up the areas of these rectangles.
 
-
 @newcol
 <div class="image">
-<img src="content/math1010/lrs5.jpg"/>
-<br/>
-$5$ rectangles.
-</div>
+<img rendered="0" src="https://raw.githubusercontent.com/pschan-gh/math1010/devel/riemann/riemann-12.png" style="max-width: 100%; height: auto; background: none;"/><br/> $5$ rectangles. </div>
 @col
 <div class="image">
-<img src="content/math1010/lrs10.jpg"/>
-<br/>
-$10$ rectangles.
-</div>
+<img rendered="0" src="https://raw.githubusercontent.com/pschan-gh/math1010/devel/riemann/riemann-35.png" style="max-width: 100%; height: auto; background: none;"/><br/> $10$ rectangles. </div>
 @col
 Intuitively, we see that the more (and smaller) rectangles are used,
 the more closely their union approximates the region in question.
 
-
 @col
 <div class="image">
-<a title="By 09glasgow09 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARiemann_sum_(leftbox).gif"><img width="256" alt="Riemann sum (leftbox)" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif"/></a>
-</div>
+<a title="By 09glasgow09 (Own work) [CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File%3ARiemann_sum_(leftbox).gif">
+<img alt="Riemann sum (leftbox)" rendered="0" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif" style="max-width: 100%; height: auto; background: none;"/></a></div>
 @endcol
 @slide
 @defn
 Let $n$ be a positive integer.
 
-
 Let $f : [a, b] \longrightarrow \mathbb{R}$
 be a continuous function on a closed interval.
-
 
 Let:
 \[
@@ -4881,19 +4921,12 @@ LS_n(f) = \sum_{k = 0}^{n -1} f(a + k\Delta x)\Delta x\\
 @newcol
 Each summand may be thought of as the area of the rectangle whose base is
 the subinterval $[a + k\Delta x, a + (k + 1)\Delta x]$,
-and whose height is the value of $f$ at the left endpoint of the subinterval.
-<div class="image" style="padding-top:2em;">
+and whose height is the value of $f$ at the left endpoint of the subinterval. <div class="image" style="width: 450px;">
 <div style="position:relative;width:640px;height:400px">
-<img style="position:absolute;top:0;left:0" src="content/math1010/riemann/summand.svg"/>
-<div style="position:absolute;top:100;left:200">$y = f(x)$</div>
-<div style="position:absolute;top:270;left:365">$f(x)$</div>
-<div style="position:absolute;top:385;left:295">$\Delta x$</div>
-<div style="position:absolute;top:385;left:250">$x$</div>
-</div>
-</div>
+<img style="position: absolute; top: 0px; left: 0px; background: none; width: 100%;" rendered="0" width="450" src="content/math1010/riemann/summand.svg"/><div style="position:absolute;top:100;left:200">$y = f(x)$</div><div style="position:absolute;top:270;left:365">$f(x)$</div><div style="position:absolute;top:385;left:295">$\Delta x$</div><div style="position:absolute;top:385;left:250">$x$</div></div></div>
 @endcol
 @slide
-<iframe style="width:640px;height:800px" src="content/math1010/lrs.html"/>
+<iframe style="width: 640px; height: 800px; background: none; overflow: hidden;" data-src="content/math1010/lrs.html" rendered="0" id="iFrameResizer1" scrolling="no" src="content/math1010/lrs.html"/>
 @slide
 @defn
 Let $f : [a, b] \longrightarrow \mathbb{R}$
@@ -4912,7 +4945,6 @@ That is:
 @end
 It is an established theorem that the limit exists if $f$ is continuous.
 
-
 (In fact: One could define the definite integral in terms of the Right Riemann Sum or
 the Midpoint Riemann Sum.  All these sums tend to same limit in the case where $f$
 is continuous.)
@@ -4922,31 +4954,50 @@ $f$, then:
 \[
 \int_a^b f(x)\,dx = F(x)\bigg|_a^b := F(b) - F(a).
 \]
-<hr/>
-@newcol
-<ul>
+<hr/><ul>
 <li>
 <h5>Integration by Substitution</h5>
+@newcol
 \[
 \int_a^b f(u(x))u'(x)\,dx = \int_{u(a)}^{u(b)} f(u)\,du
 = F(u(b)) - F(u(a))
 \]
 if $F$ is an antiderivative of $f$.
-</li>
+@endcol</li>
 <li>
 <h5>Integration by Parts</h5>
+@newcol
 \[
 \int_a^b u(x) v'(x)dx = u(x)v(x)\bigg|_a^b - \int_a^b v(x)u'(x)\,dx.
 \]
-</li></ul>
+@endcol</li>
+<li>
+<h5>Integration by Trigonometric Substitution</h5>
+@newcol
+
+\[
+\int_{-3}^3 \frac{dx}{\sqrt{3^2 + x^2}}
+= \int_{-\pi/4}^{\pi/4} \cos\theta \sec^2\theta d\theta
+\]
+@endcol</li>
+<li>
+<h5>Reduction Formulas</h5>
+@newcol
+\[
+\int_0^{\pi/2} \cos^n x\, dx
+= \left.\left(\frac{1}{n}\,\cos^{n - 1} x \sin x\right)\right|_0^{\pi/2}
++ \frac{n - 1}{n}\int_0^{\pi/2} \cos^{n - 2} x\,dx.
+\]
+@endcol</li></ul>
 <hr/>
+@newcol
 Before we prove the main theorem,
 we first state a couple of preliminary results.
 @endcol
 @slide
-@defn
+@fact
 For a continuous function $f$ on $[a, b]$,
-we define:
+we have:
 \[
 \int_a^a f(x)\,dx = 0.
 \]
@@ -4954,13 +5005,40 @@ we define:
 \int_b^a f(x)\,dx = -\int_a^b f(x)\,dx.
 \]
 @end
-@claim
+@fact
 Let $f$ be a continuous function on an interval $I$.
 For all $a, b, c \in I$, we have:
 \[
 \int_a^b f(x)\,dx + \int_b^c f(x)\,dx = \int_a^c f(x)\,dx.
 \]
 @end
+@slide
+If $f$ is an odd continuous function, then:
+
+@newcol
+@steps
+\begin{align*}
+\int_{-a}^a f(x) dx &
+@nstep{= \int_{-a}^0 f(x) dx + \int_0^a f(x) dx}
+\\&
+@nstep{= \int_{-a}^0-(f(-x)) dx + \int_0^a f(x) dx}
+\\&
+@nstep{= \underbrace{\int_{t = a}^{t = 0}(f(t)) dt}_{t = -x} + \int_0^a f(x) dx}
+\\&
+@nstep{= \int_a^a f(x) dx}
+\\&
+@nstep{= 0}
+\end{align*}
+@endsteps
+@endcol
+
+If $f$ is an even continuous function, then:
+
+@newcol
+\[
+\int_{-a}^a f(x) dx = 2\int_0^a f(x) dx
+\]
+@endcol
 @slide
 @claim
 Let $f, g$ be continuous functions on $[a, b]$.
@@ -4973,32 +5051,20 @@ If $f(x) \leq g(x)$ for all $x \in [a, b]$, then:
 @keyword*{area of a region}
 @eg
 Find the area of the region in the $xy$-plane bounded between the graph of $y = x^2 - 2x - 3$ and the $x$-axis over
-the interval $[1, 5]$.
-<br/><br/>
-<div class="image">
-<img class="exempt" style="max-width:65%" src="content/math1010/math1010_area.png"/>
-</div>
+the interval $[1, 5]$. <br/><br/><div class="image">
+<img class="exempt" style="max-width:65%" rendered="0" src="content/math1010/math1010_area.png"/></div>
 @newcol
 The geometric area of the region described is equal to:
 \[
 \int_1^5 \abs{x^2 - 2x - 3} \,dx
 \]
 Consider the sign chart for the values of $f(x) = x^2 - 2x - 3 = (x + 1)(x - 3)$
-over the interval $[1, 5]$:
-<br/><br/>
-<table style="width:auto;margin:auto;text-align:center">
+over the interval $[1, 5]$: <br/><br/><table style="width:auto;margin:auto;text-align:center" class="table table-bordered">
 <tbody>
 <tr>
-<td>$f(x)$:</td><td>$-$</td><td>$0$</td><td>$+$</td>
-</tr>
-<tr>
-<td>$x$:</td><td>$[1, 3)$</td><td>$3$</td><td>$(3, 5]$</td>
-</tr>
-</tbody>
-</table>
-<br/>
-Hence,
-<br/><br/>
+<td>$f(x)$:</td><td>$-$</td><td>$0$</td><td>$+$</td></tr><tr>
+<td>$x$:</td><td>$[1, 3)$</td><td>$3$</td><td>$(3, 5]$</td></tr></tbody></table><br/>
+Hence, <br/><br/>
 $\displaystyle
 \int_1^5 \abs{x^2 - 2x - 3} \,dx$
 \[
@@ -5026,13 +5092,11 @@ f(c) = \frac{1}{b - a}\,\int_a^b f(x)\,dx.
 Since $f$ is continuous on $[a, b]$, by the Extreme Value Theorem
 it has a maximum value $M$ and minimum value $m$ on $[a, b]$.
 
-
 In other words,
 \[
 m \leq f(x) \leq M
 \]
 for all $x \in [a, b]$.  Hence:
-
 
 @col
 \[
@@ -5042,12 +5106,10 @@ for all $x \in [a, b]$.  Hence:
 \]
 Dividing each expression by $b - a$, we have:
 
-
 @col
 \[
 m \leq \frac{1}{b - a}\int_a^bf(x)\,dx \leq M.
 \]
-
 
 @col
 Let $x_1, x_2$ be elements in $[a, b]$ such that
@@ -5080,7 +5142,6 @@ F'(x) = f(x)
 for all $x \in (a, b)$.
 Equivalently:
 
-
 @newcol
 \[
 \frac{d}{dx}\int_a^x f(t)\,dt = f(x)
@@ -5098,7 +5159,6 @@ F'(x) &= \lim_{h \rightarrow 0}\frac{F(x + h) - F(x)}{h}.\\
 \end{split}
 \]
 
-
 @col
 By the Mean Value Theorem for Integrals, there exists $c_h \in [x, x + h]$
 such that:
@@ -5107,7 +5167,6 @@ f(c_h) = \frac{\int_x^{x + h}f(t)\,dt}{h}.
 \]
 Hence:
 
-
 @col
 \[
 F'(x) = \lim_{h \rightarrow 0}f(c_h) = f(x),
@@ -5115,7 +5174,6 @@ F'(x) = \lim_{h \rightarrow 0}f(c_h) = f(x),
 since for any $h$ the number $c_h$ lies between $x$ and $x + h$,
 and $f$ is continuous.
 <hr/>
-
 
 We leave the proof of the continuity of $F$ on $[a, b]$ as an exercise.
 @qed
@@ -5137,7 +5195,7 @@ Evaluate:
 \[
 \frac{d}{dx}\int_{\sin x}^{x^3 + 1} e^{-t^2}\,dt
 \]
-<hr/>
+<hr style=""/>
 @col
 @steps
 \[
@@ -5173,16 +5231,14 @@ Computing the limits of the numerator and denominator separately, we have:
 \int_2^{2}\sqrt{t^4 + 1}\,dt = 0
 \]
 (because $F(h) = \int_2^{2 + h}\sqrt{t^4 + 1}\,dt$
-is a continuous function by  @ref{ftc1}), and:
+is a continuous function by @ref{ftc1} ), and:
 \[
 \lim_{h \rightarrow 0^+} \ln(1 + h) = \ln (1 + 0) = 0
 \]
 (also because $f(h) = \ln (1 + h)$ is a continuous function).
 
-
 @col
-Hence, the limit \eqref{ftc1eg2} corresponds to the indeterminate form $\frac{0}{0}$.
-
+Hence, the limit $\eqref{ftc1eg2}$ corresponds to the indeterminate form $\frac{0}{0}$.
 
 @col
 Taking the limit of the ratio of the derivatives of the numerator and denominator,
@@ -5196,12 +5252,12 @@ we have:
 \\&
 @nstep{=\lim_{h \rightarrow 0^+}(1 + h)\left(\sqrt{(2 + h)^4 + 1}\right)}
 \\&
-@nstep{=\lim_{h \rightarrow 0^+}\sqrt{17}.}
+@nstep{=\sqrt{17}.}
 \end{split}
 \]
 @endsteps
 @col
-It now follows from l'H&ocirc;pital's rule that:
+It now follows from l'Hôpital's rule that:
 \[
 \lim_{h \rightarrow 0^+}\frac{1}{\ln(1 + h)}\int_2^{2 + h}\sqrt{t^4 + 1}\,dt = \sqrt{17}.
 \]
@@ -5213,47 +5269,7 @@ There is a general formula regarding derviatives of the form:
 \frac{d}{dx}\int_{a(x)}^{b(x)} f(x, t)\,dt,
 \]
 the discussion of which is beyond the scope of this course.
-However, in certain special cases, the derivative may be found using
-@ref{ftcicor} without much further effort:
-<!-- @eg
-Find:
-\begin{equation}
-\label{ddxfxt1}
-\frac{d}{dx}\int_{x}^1 x^3e^{(t^2)} \, dt
-\end{equation}
-<hr/>
-@newcol
-We may interpret the meaning of the derivative $\eqref{ddxfxt1}$ as follows:
-
-For each fixed number $x$ (e.g. $x = 2, 55, 3.1415, \ldots$),
-the definite integral:
-\[
-F(x) = \int_{x}^1 x^3e^{(t^2)}\,dt
-= x^3 \int_{x}^1 e^{(t^2)}\,dt
-\]
-is some number which depends on $x$.
-(The second equality holds because $x$ is a fixed constant.)
-
-@col
-Then, we let $x$ vary, and view $F(x)$ as a function of $x$.
-The expression $\eqref{ddxfxt1}$ is then the derivative $F'(x)$ of this $F(x)$
-with respect to $x$.
-
-@col
-By the the product rule and  @ref{ftcicor}, we have:
-\[
-\begin{split}
-F'(x) &= 3x^2 \int_{x}^1 e^{(t^2)}\,dt
-+ x^3\frac{d}{dx}\int_{x}^1 e^{(t^2)}\,dt\\
-&=
-3x^2 \int_{x}^1 e^{(t^2)}\,dt
-+ x^3(-e^{(x^2)}).
-\end{split}
-\]
-(The function $G(x) = \int_{x}^1 e^{(t^2)}\,dt$ is not an elementary function in $x$,
-so we won't simplify it further.)
-@endcol
-@end -->
+However, in certain special cases, the derivative may be found using @ref{ftcicor} without much further effort:
 
 @eg
 Find:
@@ -5264,7 +5280,6 @@ Find:
 <hr/>
 @newcol
 Again, we first view $x$ as a constant.
-
 
 Let:
 \[
@@ -5287,7 +5302,7 @@ is equal to:
 \int_{u = x^3}^{u = 3x^4}\frac{\sin(u)}{u}\,du
 \end{split}
 \]
-It now follows from  @ref{ftcicor} that:
+It now follows from @ref{ftcicor} that:
 \[
 \begin{split}
 \frac{d}{dx} \int_{t = x}^{t = 3x^2} \frac{\sin(x^2 t)}{t} \, dt
@@ -5305,6 +5320,7 @@ It now follows from  @ref{ftcicor} that:
 @slide
 @thm
 @title{Fundamental Theorem of Calculus Part II}
+@label{thm:ftc2}
 Let $f$ be a continuous function on $[a, b]$.
 Let $F$ be a continuous function on $[a, b]$
 which is an antiderivative of $f$ over $(a, b)$.
@@ -5324,10 +5340,8 @@ G(x) = F(x) + C
 \]
 for some constant $C$.
 
-
 @col
 Since $G(a) = \displaystyle \int_a^af(t)\,dt = 0$, we have $C = - F(a)$.
-
 
 @col
 Hence:
