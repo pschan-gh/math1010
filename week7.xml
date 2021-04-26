@@ -102,11 +102,12 @@ board.create('segment',[rx,r],{strokeColor:'#9999ff',dash:1});
 board.unsuspendUpdate();
 </script>
             </newcol>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46f1c12e4b769fe2d7350c5e7888be93" course="Math 1010" chapter="7" slide="4" of="de5cd3aeffe274ade857ff981b7ffaf8">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="46f1c12e4b769fe2d7350c5e7888be93" course="Math 1010" chapter="7" slide="4" of="de5cd3aeffe274ade857ff981b7ffaf8" of-src-course="Math 1010" of-src-chapter="7" of-src-slide="4" of-type="Theorem" of-item="7.2" of-src-filename="week7.xml" ofmd5="de5cd3aeffe274ade857ff981b7ffaf8" of-serial="">
+              <of-title>Rolle's Theorem</of-title>
               <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Sketch of Proof.
 First, it follows from the </paragraphs>
-                <ref environment="newcol" chapter_type="" label="evt" wbtag="ref" course="Math 1010" chapter="7" slide="4" src-course="Math 1010" src-chapter="4" src-slide="16" type="Theorem" item="4.17" src-filename="week4.xml" md5="4e5b41e44aeb0e3dac182548166c66dd" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="evt" wbtag="ref" course="Math 1010" chapter="7" slide="4" referrer-type="Proof" referrer-md5="46f1c12e4b769fe2d7350c5e7888be93" src-course="Math 1010" src-chapter="4" src-slide="16" type="Theorem" item="4.17" src-filename="week4.xml" md5="4e5b41e44aeb0e3dac182548166c66dd" class="lcref" serial="">
                   <title>Extreme Value Theorem</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> that
@@ -128,11 +129,10 @@ $\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$. </parag
             </keywords>
             <statement environment="statement" chapter_type="Week" type="Theorem" wbtag="thm" num="3" title="Mean Value Theorem MVT" md5="ac81d7f217862ee60cb955e0bc2a4011" course="Math 1010" chapter="7" slide="5" item="7.3">
               <title environment="title" chapter_type="Week" wbtag="statement" scope="" course="Math 1010" chapter="7" section="1" subsection="" subsubsection="" serial="" slide="5">Mean Value Theorem (MVT)</title>
+              <label wbtag="label" name="thm:lagrangemvt" type="Theorem"/>
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs"> (Also known as </paragraphs>
               <inline_keyword course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement">Lagrange's Mean Value Theorem</inline_keyword>
-              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">)</paragraphs>
-              <newline course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement"/>
-              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+              <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">)  If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
 and differentiable on $(a, b)$,
 then there exists $c \in (a, b)$ such that:
 \[
@@ -168,7 +168,8 @@ board1.create('segment',[sx,s],{strokeColor:'#9999ff',dash:1});
 board1.unsuspendUpdate();
 </script>
             </newcol>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f1553277d66f8ef0095615be3e976478" course="Math 1010" chapter="7" slide="5" of="ac81d7f217862ee60cb955e0bc2a4011">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="f1553277d66f8ef0095615be3e976478" course="Math 1010" chapter="7" slide="5" of="ac81d7f217862ee60cb955e0bc2a4011" of-src-course="Math 1010" of-src-chapter="7" of-src-slide="5" of-type="Theorem" of-item="7.3" of-src-filename="week7.xml" ofmd5="ac81d7f217862ee60cb955e0bc2a4011" of-serial="">
+              <of-title>Mean Value Theorem (MVT)</of-title>
               <newcol course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="1" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Let $f$ be a function which satisfies the conditions of the theorem.
 Define a function $g : [a, b] \longrightarrow\mathbb{R}$ as follows:
@@ -207,12 +208,15 @@ which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$. </paragraphs>
             <enumerate course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="enumerate">
               <item course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                 <webwork course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/CSUN/Calculus/Mean_value_theorem_1.pg"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
               </item>
               <item course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                 <webwork course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/ma122DB/set7/s4_2_24.pg"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
               </item>
               <item course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="item">
                 <webwork course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment="enumerate" wbtag="webwork" pg_file="Library/Michigan/Chap3Sec10/Q07.pg"/>
+                <br xmlns="http://www.w3.org/1999/xhtml" environment="enumerate" />
               </item>
             </enumerate>
             <newline course="Math 1010" chapter="7" chapter_type="" section="2" subsection="" subsubsection="" environment=""/>
@@ -234,7 +238,8 @@ which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$. </paragraphs>
 If $f'(x) = 0$ for all $x \in (a, b)$, then
 $f$ is constant on $(a, b)$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1486131dcdc3cbc8e6cba5522349edad" course="Math 1010" chapter="7" slide="7" of="7f59b29de784f17ee25ce44cf7b79422">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="1486131dcdc3cbc8e6cba5522349edad" course="Math 1010" chapter="7" slide="7" of="7f59b29de784f17ee25ce44cf7b79422" of-src-course="Math 1010" of-src-chapter="7" of-src-slide="7" of-type="Theorem" of-item="7.4" of-src-filename="week7.xml" ofmd5="7f59b29de784f17ee25ce44cf7b79422" of-serial="">
+              <of-title>Theorem 7.4</of-title>
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Exercise.
 For any $x_1, x_2 \in (a, b)$, show that the difference $f(x_2) - f(x_1)$
@@ -260,7 +265,8 @@ $f$ is </paragraphs>
               <br xmlns="http://www.w3.org/1999/xhtml" environment="statement" />
               <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="statement" wbtag="paragraphs">Remark: If $f$ is moreover continuous on $[a, b]$, then $f$ is strictly increasing (resp. strictly decreasing) on $[a, b]$ if $f'$ is positive (resp. negative) on $(a, b)$. </paragraphs>
             </statement>
-            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4f214076035b582f3d13a730fcba9ab" course="Math 1010" chapter="7" slide="8" of="ef6dceaba7e98eaa82d2d7e1e5d7c4bb">
+            <substatement environment="substatement" chapter_type="Week" type="Proof" wbtag="proof" md5="d4f214076035b582f3d13a730fcba9ab" course="Math 1010" chapter="7" slide="8" of="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" of-src-course="Math 1010" of-src-chapter="7" of-src-slide="8" of-type="Theorem" of-item="7.5" of-src-filename="week7.xml" ofmd5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" of-serial="">
+              <of-title>Theorem 7.5</of-title>
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We will prove the case $f'(x) &gt; 0$. </paragraphs>
                 <br xmlns="http://www.w3.org/1999/xhtml" environment="newcol" />
@@ -293,7 +299,7 @@ is increasing/decreasing. </paragraphs>
             <substatement environment="substatement" chapter_type="Week" type="Solution" wbtag="sol" md5="d0507eb73757c8ed7094cb8f26d6c16f" course="Math 1010" chapter="7" slide="9">
               <newcol course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="newcol">
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> We apply </paragraphs>
-                <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
+                <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" referrer-type="Solution" referrer-md5="d0507eb73757c8ed7094cb8f26d6c16f" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
                   <title>Theorem 7.5</title>
                 </ref>
                 <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs">.</paragraphs>
@@ -393,7 +399,7 @@ c = -5, 1
                       <newline course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> It now follows from </paragraphs>
-                        <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
+                        <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="9" referrer-type="Solution" referrer-md5="d0507eb73757c8ed7094cb8f26d6c16f" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
                           <title>Theorem 7.5</title>
                         </ref>
                         <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> and the continuity of $f$ that: </paragraphs>
@@ -407,7 +413,7 @@ c = -5, 1
                         </ul>
                         <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                           <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                            <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no" src="https://www.desmos.com/calculator/ja7cqgww7s?embed" environment="newcol"></iframe>
+                            <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no" environment="newcol"></iframe>
                           </div>
                         </collapse>
                       </collapse>
@@ -524,7 +530,7 @@ Such points are called the </paragraphs>
                     <newline course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol"/>
                     <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> Hence, by </paragraphs>
-                      <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="10" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
+                      <ref environment="newcol" chapter_type="" label="monotone" wbtag="ref" course="Math 1010" chapter="7" slide="10" referrer-type="Solution" referrer-md5="32d0a013f4e9e432a492b01f5c97b603" src-course="Math 1010" src-chapter="7" src-slide="8" type="Theorem" item="7.5" src-filename="week7.xml" md5="ef6dceaba7e98eaa82d2d7e1e5d7c4bb" class="lcref" serial="">
                         <title>Theorem 7.5</title>
                       </ref>
                       <paragraphs course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="paragraphs"> , $f$ is strictly decreasing on:
@@ -535,7 +541,7 @@ and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is conti
 \] </paragraphs>
                       <collapse course="Math 1010" chapter="7" chapter_type="" section="3" subsection="" subsubsection="" environment="newcol" wbtag="collapse">
                         <div xmlns="http://www.w3.org/1999/xhtml" class="image" environment="newcol">
-                          <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no" src="https://www.desmos.com/calculator/heievbyzs3?embed" environment="newcol"></iframe>
+                          <iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no" environment="newcol"></iframe>
                         </div>
                       </collapse>
                     </collapse>

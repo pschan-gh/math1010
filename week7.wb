@@ -65,9 +65,8 @@ $\displaystyle \frac{f(c + h) - f(c)}{h}$ is both $\leq 0$ and $\geq 0$.
 @slide
 @thm
 @title{Mean Value Theorem (MVT)}
-(Also known as @keyword{Lagrange's Mean Value Theorem})
-
-If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
+@label{thm:lagrangemvt}
+(Also known as @keyword{Lagrange's Mean Value Theorem})  If a function $f : [a, b] \longrightarrow\mathbb{R}$ is continuous on $[a, b]$
 and differentiable on $(a, b)$,
 then there exists $c \in (a, b)$ such that:
 \[
@@ -129,10 +128,13 @@ which implies that $f'(c) = \dfrac{f(b) - f(a)}{b - a}$.
 @enumerate
 @item
 @webwork{Library/CSUN/Calculus/Mean_value_theorem_1.pg}
+<br/>
 @item
 @webwork{Library/ma122DB/set7/s4_2_24.pg}
+<br/>
 @item
 @webwork{Library/Michigan/Chap3Sec10/Q07.pg}
+<br/>
 @endenumerate
 
 @section{Applications of the Mean Value Theorem}
@@ -220,7 +222,7 @@ It now follows from @ref{monotone} and the continuity of $f$ that: <ul>
 <li> $f$ is strictly decreasing on the interval $[-5, 1]$. </li></ul>
 @col
 <div class="image">
-<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no" src="https://www.desmos.com/calculator/ja7cqgww7s?embed"/></div>
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/ja7cqgww7s?embed" rendered="0" id="iFrameResizer5" scrolling="no"/></div>
 @endcol
 @end
 @slide
@@ -274,7 +276,7 @@ and strictly increasing on both $[-1, 0]$ and $[0, \infty)$.  Since $f$ is conti
 \]
 @col
 <div class="image">
-<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no" src="https://www.desmos.com/calculator/heievbyzs3?embed"/></div>
+<iframe width="500px" height="500px" style="border: 1px solid rgb(204, 204, 204); background: none; overflow: hidden;" frameborder="0" data-src="https://www.desmos.com/calculator/heievbyzs3?embed" rendered="0" id="iFrameResizer6" scrolling="no"/></div>
 @endcol
 @end
 @slide
